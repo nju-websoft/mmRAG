@@ -1,0 +1,1 @@
+The code in filter.py and add_chaos_and_process_kg_documents.py is currently unavailable and needs further consolidation. Due to we changed our document generation method in the middle of our project. 
