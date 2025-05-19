@@ -1,0 +1,979 @@
+{
+    "index": 80109,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which of Shakespeare's plays begins with the words `If music be the food of love, play on`?",
+        "answer": "Twelfth Night",
+        "BM25_documents": [
+            {
+                "id": "m.081k8_3071",
+                "score": 16.419599533081055
+            },
+            {
+                "id": "triviaqa_4338_329",
+                "score": 16.03499984741211
+            },
+            {
+                "id": "triviaqa_72796_107",
+                "score": 16.034997940063477
+            },
+            {
+                "id": "triviaqa_18076_3",
+                "score": 15.937600135803223
+            },
+            {
+                "id": "m.081k8_2202",
+                "score": 15.919699668884277
+            },
+            {
+                "id": "m.081k8_2203",
+                "score": 15.874600410461426
+            },
+            {
+                "id": "triviaqa_43236_66",
+                "score": 15.819100379943848
+            },
+            {
+                "id": "triviaqa_23782_594",
+                "score": 15.769800186157227
+            },
+            {
+                "id": "triviaqa_65024_548",
+                "score": 15.76979923248291
+            },
+            {
+                "id": "triviaqa_3400_160",
+                "score": 15.687899589538574
+            },
+            {
+                "id": "triviaqa_44218_3",
+                "score": 15.635199546813965
+            },
+            {
+                "id": "triviaqa_60017_5",
+                "score": 15.493499755859375
+            },
+            {
+                "id": "m.081k8_2608",
+                "score": 15.391400337219238
+            },
+            {
+                "id": "triviaqa_45521_9",
+                "score": 15.355799674987793
+            },
+            {
+                "id": "triviaqa_43600_15",
+                "score": 15.354499816894531
+            },
+            {
+                "id": "triviaqa_18076_4",
+                "score": 15.325499534606934
+            },
+            {
+                "id": "nq_20170_36",
+                "score": 15.318400382995605
+            },
+            {
+                "id": "m.081k8_2526",
+                "score": 15.303799629211426
+            },
+            {
+                "id": "triviaqa_62098_18",
+                "score": 15.29580020904541
+            },
+            {
+                "id": "triviaqa_10614_266",
+                "score": 15.28499984741211
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_35788_1",
+                "score": 12.361599922180176
+            },
+            {
+                "id": "ott_40892_1",
+                "score": 12.36159896850586
+            },
+            {
+                "id": "ott_4632_1",
+                "score": 12.361598014831543
+            },
+            {
+                "id": "ott_7267_1",
+                "score": 12.361597061157227
+            },
+            {
+                "id": "ott_13461_0",
+                "score": 9.920700073242188
+            },
+            {
+                "id": "ott_1922_0",
+                "score": 9.920699119567871
+            },
+            {
+                "id": "ott_26895_0",
+                "score": 9.920698165893555
+            },
+            {
+                "id": "ott_35915_0",
+                "score": 9.920697212219238
+            },
+            {
+                "id": "ott_11942_1",
+                "score": 9.177096366882324
+            },
+            {
+                "id": "ott_20299_1",
+                "score": 9.177095413208008
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_20170_36",
+                "score": 15.318400382995605
+            },
+            {
+                "id": "nq_20170_64",
+                "score": 14.808899879455566
+            },
+            {
+                "id": "nq_20170_41",
+                "score": 13.961400032043457
+            },
+            {
+                "id": "nq_61288_11",
+                "score": 13.837800025939941
+            },
+            {
+                "id": "nq_20170_83",
+                "score": 13.625699996948242
+            },
+            {
+                "id": "nq_20170_82",
+                "score": 13.49779987335205
+            },
+            {
+                "id": "nq_31292_48",
+                "score": 13.30840015411377
+            },
+            {
+                "id": "nq_31529_1",
+                "score": 13.178799629211426
+            },
+            {
+                "id": "nq_69351_3",
+                "score": 13.171299934387207
+            },
+            {
+                "id": "nq_120829_79",
+                "score": 13.123200416564941
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_4338_329",
+                "score": 16.03499984741211
+            },
+            {
+                "id": "triviaqa_72796_107",
+                "score": 16.034997940063477
+            },
+            {
+                "id": "triviaqa_18076_3",
+                "score": 15.937600135803223
+            },
+            {
+                "id": "triviaqa_43236_66",
+                "score": 15.819100379943848
+            },
+            {
+                "id": "triviaqa_23782_594",
+                "score": 15.769800186157227
+            },
+            {
+                "id": "triviaqa_65024_548",
+                "score": 15.76979923248291
+            },
+            {
+                "id": "triviaqa_3400_160",
+                "score": 15.687899589538574
+            },
+            {
+                "id": "triviaqa_44218_3",
+                "score": 15.635199546813965
+            },
+            {
+                "id": "triviaqa_60017_5",
+                "score": 15.493499755859375
+            },
+            {
+                "id": "triviaqa_45521_9",
+                "score": 15.355799674987793
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.081k8_3071",
+                "score": 16.419599533081055
+            },
+            {
+                "id": "m.081k8_2202",
+                "score": 15.919699668884277
+            },
+            {
+                "id": "m.081k8_2203",
+                "score": 15.874600410461426
+            },
+            {
+                "id": "m.081k8_2608",
+                "score": 15.391400337219238
+            },
+            {
+                "id": "m.081k8_2526",
+                "score": 15.303799629211426
+            },
+            {
+                "id": "m.081k8_1721",
+                "score": 15.047300338745117
+            },
+            {
+                "id": "m.081k8_1415",
+                "score": 15.04170036315918
+            },
+            {
+                "id": "m.081k8_1149",
+                "score": 14.856499671936035
+            },
+            {
+                "id": "m.081k8_1065",
+                "score": 14.812600135803223
+            },
+            {
+                "id": "m.081k8_2607",
+                "score": 14.809200286865234
+            },
+            {
+                "id": "m.081k8_644",
+                "score": 14.75059986114502
+            },
+            {
+                "id": "m.081k8_267",
+                "score": 14.703399658203125
+            },
+            {
+                "id": "m.081k8_1414",
+                "score": 14.67240047454834
+            },
+            {
+                "id": "m.081k8_237",
+                "score": 14.586199760437012
+            },
+            {
+                "id": "m.081k8_2527",
+                "score": 14.536399841308594
+            },
+            {
+                "id": "m.081k8_236",
+                "score": 14.514200210571289
+            },
+            {
+                "id": "m.081k8_2092",
+                "score": 14.444700241088867
+            },
+            {
+                "id": "m.081k8_1520",
+                "score": 14.370200157165527
+            },
+            {
+                "id": "m.081k8_643",
+                "score": 14.339599609375
+            },
+            {
+                "id": "m.081k8_2467",
+                "score": 13.877300262451172
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.081k8_1899",
+                "score": 0.6948255896568298
+            },
+            {
+                "id": "triviaqa_18076_4",
+                "score": 0.6807278990745544
+            },
+            {
+                "id": "m.081k8_716",
+                "score": 0.6578514575958252
+            },
+            {
+                "id": "triviaqa_18076_13",
+                "score": 0.6565792560577393
+            },
+            {
+                "id": "m.081k8_237",
+                "score": 0.6547055244445801
+            },
+            {
+                "id": "m.081k8_1757",
+                "score": 0.6514123678207397
+            },
+            {
+                "id": "m.081k8_2092",
+                "score": 0.6503363251686096
+            },
+            {
+                "id": "m.081k8_1508",
+                "score": 0.649642825126648
+            },
+            {
+                "id": "m.081k8_1339",
+                "score": 0.6488474011421204
+            },
+            {
+                "id": "m.081k8_2093",
+                "score": 0.6475778818130493
+            },
+            {
+                "id": "m.081k8_1021",
+                "score": 0.646851658821106
+            },
+            {
+                "id": "m.081k8_1347",
+                "score": 0.6461563110351562
+            },
+            {
+                "id": "m.081k8_2591",
+                "score": 0.6457212567329407
+            },
+            {
+                "id": "triviaqa_18076_3",
+                "score": 0.6448545455932617
+            },
+            {
+                "id": "m.081k8_2553",
+                "score": 0.6443632245063782
+            },
+            {
+                "id": "nq_62173_2",
+                "score": 0.6440144777297974
+            },
+            {
+                "id": "m.081k8_1414",
+                "score": 0.6439533829689026
+            },
+            {
+                "id": "m.081k8_1722",
+                "score": 0.6428872346878052
+            },
+            {
+                "id": "m.081k8_2465",
+                "score": 0.642737090587616
+            },
+            {
+                "id": "nq_144913_141",
+                "score": 0.6426663398742676
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_62173_2",
+                "score": 0.6440144777297974
+            },
+            {
+                "id": "nq_144913_141",
+                "score": 0.6426663398742676
+            },
+            {
+                "id": "nq_46725_27",
+                "score": 0.6365113258361816
+            },
+            {
+                "id": "nq_240420_63",
+                "score": 0.6315924525260925
+            },
+            {
+                "id": "nq_179754_141",
+                "score": 0.6295117735862732
+            },
+            {
+                "id": "nq_92852_70",
+                "score": 0.6291007399559021
+            },
+            {
+                "id": "nq_240420_64",
+                "score": 0.6222572326660156
+            },
+            {
+                "id": "nq_20170_128",
+                "score": 0.6208479404449463
+            },
+            {
+                "id": "nq_236951_22",
+                "score": 0.6190745830535889
+            },
+            {
+                "id": "nq_304196_142",
+                "score": 0.6189893484115601
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_18076_4",
+                "score": 0.6807278990745544
+            },
+            {
+                "id": "triviaqa_18076_13",
+                "score": 0.6565792560577393
+            },
+            {
+                "id": "triviaqa_18076_3",
+                "score": 0.6448545455932617
+            },
+            {
+                "id": "triviaqa_4338_330",
+                "score": 0.6407320499420166
+            },
+            {
+                "id": "triviaqa_18076_16",
+                "score": 0.6342315673828125
+            },
+            {
+                "id": "triviaqa_9802_14",
+                "score": 0.6334950923919678
+            },
+            {
+                "id": "triviaqa_18076_30",
+                "score": 0.6329320073127747
+            },
+            {
+                "id": "triviaqa_16235_11",
+                "score": 0.6327969431877136
+            },
+            {
+                "id": "triviaqa_18076_24",
+                "score": 0.631584644317627
+            },
+            {
+                "id": "triviaqa_59795_84",
+                "score": 0.6312572360038757
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.081k8_1899",
+                "score": 0.6948255896568298
+            },
+            {
+                "id": "m.081k8_716",
+                "score": 0.6578514575958252
+            },
+            {
+                "id": "m.081k8_237",
+                "score": 0.6547055244445801
+            },
+            {
+                "id": "m.081k8_1757",
+                "score": 0.6514123678207397
+            },
+            {
+                "id": "m.081k8_2092",
+                "score": 0.6503363251686096
+            },
+            {
+                "id": "m.081k8_1508",
+                "score": 0.649642825126648
+            },
+            {
+                "id": "m.081k8_1339",
+                "score": 0.6488474011421204
+            },
+            {
+                "id": "m.081k8_2093",
+                "score": 0.6475778818130493
+            },
+            {
+                "id": "m.081k8_1021",
+                "score": 0.646851658821106
+            },
+            {
+                "id": "m.081k8_1347",
+                "score": 0.6461563110351562
+            },
+            {
+                "id": "m.081k8_2591",
+                "score": 0.6457212567329407
+            },
+            {
+                "id": "m.081k8_2553",
+                "score": 0.6443632245063782
+            },
+            {
+                "id": "m.081k8_1414",
+                "score": 0.6439533829689026
+            },
+            {
+                "id": "m.081k8_1722",
+                "score": 0.6428872346878052
+            },
+            {
+                "id": "m.081k8_2465",
+                "score": 0.642737090587616
+            },
+            {
+                "id": "m.081k8_1357",
+                "score": 0.6416419148445129
+            },
+            {
+                "id": "m.081k8_178",
+                "score": 0.6414481997489929
+            },
+            {
+                "id": "m.081k8_3046",
+                "score": 0.6407312750816345
+            },
+            {
+                "id": "m.081k8_320",
+                "score": 0.639839768409729
+            },
+            {
+                "id": "m.081k8_1717",
+                "score": 0.6391040682792664
+            }
+        ],
+        "llm_mark_result": {
+            "m.081k8_1899": {
+                "Query Analysis": "The query asks for the name of a play by William Shakespeare that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play by Shakespeare starts with the given line.",
+                "Document Content Analysis": "The document contains various references to William Shakespeare, including quotes, titles of works, and other related information. It specifically mentions the line 'If music be the food of love; play on' and attributes it to William Shakespeare.",
+                "Document and Query Keywords Matching": "The document includes the exact line 'If music be the food of love; play on' and mentions 'William Shakespeare', which are key components of the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night'.",
+                "Key Information Matching": "The document contains the exact line from the query, attributing it to Shakespeare, but does not directly state the title of the play.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the line is from 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the critical line from the query, which can help infer that it is from a Shakespeare play, even if the specific play is not named.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it contains the exact line from the query, attributed to Shakespeare, which is a significant clue. However, it lacks the direct mention of 'Twelfth Night', making it unable to fully answer the query but still useful for inferential purposes."
+            },
+            "triviaqa_18076_4": {
+                "Query Analysis": "The query asks for the name of a Shakespeare play that begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play starts with the mentioned line.",
+                "Document Content Analysis": "The document lists various love quotes from Shakespeare's plays, including the specific quote 'If music be the food of love, play on' from 'Twelfth Night'.",
+                "Document and Query Keywords Matching": "The document contains the exact phrase 'If music be the food of love, play on' and mentions 'Shakespeare' and 'plays'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Twelfth Night' in relation to the quote.",
+                "Key Information Matching": "The document directly matches the key information by providing the exact quote and identifying the play 'Twelfth Night'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying that the quote comes from 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other love quotes from various Shakespeare plays.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by identifying 'Twelfth Night' as the play that begins with the specified line. It also provides additional context about other Shakespearean love quotes, enhancing the overall relevance."
+            },
+            "triviaqa_18076_3": {
+                "Query Analysis": "The query asks for the specific play by Shakespeare that begins with the words 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play by Shakespeare starts with the given line.",
+                "Document Content Analysis": "The document lists various Shakespeare love quotes from different plays. It includes the specific quote 'If music be the food of love, play on' and attributes it to 'Twelfth Night – Act 1, Scene 1'.",
+                "Document and Query Keywords Matching": "The document contains the exact phrase 'If music be the food of love, play on' and mentions Shakespeare.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Twelfth Night', which is the answer to the query.",
+                "Key Information Matching": "The document directly matches the key information by specifying the play 'Twelfth Night' as the one that begins with the quoted line.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying 'Twelfth Night' as the play that starts with the given line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other Shakespeare love quotes, which can enhance understanding of Shakespeare's works.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact information needed to answer it. It not only provides the name of the play but also additional context about other Shakespeare quotes, making it highly useful for understanding the query's context."
+            },
+            "m.081k8_716": {
+                "Query Analysis": "The query is asking for the title of a play by William Shakespeare that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by William Shakespeare.",
+                "Document Content Analysis": "The document lists various works and quotes attributed to William Shakespeare, including plays, sonnets, and other writings. It also mentions specific lines and their authors.",
+                "Document and Query Keywords Matching": "The document includes the exact line 'If music be the food of love; play on.' attributed to William Shakespeare.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night'.",
+                "Key Information Matching": "The document contains the key line from the query, indicating a direct connection to a work by Shakespeare, but it does not specify the title of the play.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the line is from 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the line 'If music be the food of love; play on.' which is a strong hint that can help infer the play's title if the user knows that this line is from 'Twelfth Night'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it contains the exact line from the query, which is a significant clue. However, it lacks the direct mention of 'Twelfth Night', making it unable to fully answer the query but still useful for someone familiar with Shakespeare's works."
+            },
+            "m.081k8_2202": {
+                "Query Analysis": "The query asks for the name of a play by William Shakespeare that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by William Shakespeare.",
+                "Document Content Analysis": "The document lists various quotes, titles, and references related to William Shakespeare, including plays, sonnets, and other works.",
+                "Document and Query Keywords Matching": "The document includes the exact phrase 'If music be the food of love; play on' attributed to William Shakespeare.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night'.",
+                "Key Information Matching": "The document contains the key phrase from the query, indicating a direct link to a specific work by Shakespeare, even though the title of the play is not mentioned.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the phrase is from 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the presence of the exact phrase suggests that it is from a work by Shakespeare, which can help infer that it is from one of his plays.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains the exact phrase from the query, which is a strong indicator of relevance. However, it lacks the specific title of the play, making it partially relevant. The document can aid in inferring that the phrase is from a Shakespearean play, but it does not directly answer the query."
+            },
+            "nq_62173_2": {
+                "Query Analysis": "The query asks for the name of a play by William Shakespeare that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by Shakespeare that starts with the given line.",
+                "Document Content Analysis": "The document discusses Shakespeare's play 'As You Like It', focusing on a famous speech by the character Jaques in Act II, Scene VII. The speech includes the lines 'All the world's a stage' and describes the 'seven ages of man'.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'play', but does not contain the specific line 'If music be the food of love, play on'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night'.",
+                "Key Information Matching": "The document provides information about a different Shakespeare play ('As You Like It') and does not address the specific line or play mentioned in the query.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific line or mention the play 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it discusses a different Shakespeare play and does not contain the specific line or any information that could help infer the answer. It does not provide any useful context or additional information related to the query."
+            },
+            "triviaqa_18076_13": {
+                "Query Analysis": "The query asks for the specific play by Shakespeare that starts with the line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins with, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play by Shakespeare starts with the specified line.",
+                "Document Content Analysis": "The document lists various famous lines from Shakespeare's works along with the plays they are from.",
+                "Document and Query Keywords Matching": "The document includes the exact line 'If music be the food of love play on' from the query.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Twelfth Night' associated with the line from the query.",
+                "Key Information Matching": "The document matches the key information by providing the exact line from the query and associating it with 'Twelfth Night'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying that the line 'If music be the food of love play on' is from 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other famous lines from various Shakespeare plays, which can help in understanding the broader context of Shakespeare's works.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact line and associates it with the correct play, 'Twelfth Night'. This direct match provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_4338_329": {
+                "Query Analysis": "The query asks for the name of a Shakespeare play that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by Shakespeare that starts with the given line.",
+                "Document Content Analysis": "The document is a list of various trivia questions and their answers, covering a wide range of topics from literature, film, history, and more.",
+                "Document and Query Keywords Matching": "The document includes the exact phrase 'Which of Shakespeare's plays begins with the words `If music be the food of love, play on`?' and provides the answer 'Twelfth Night'.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Twelfth Night' as the answer to the query.",
+                "Key Information Matching": "The document contains the exact query and its corresponding answer, providing a direct match for the key information.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the exact answer and context related to Shakespeare's plays.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains both the exact question and its answer. It provides substantial useful context that directly enhances understanding of the query."
+            },
+            "ott_35788_1": {
+                "Query Analysis": "The query asks for the name of a play by William Shakespeare that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by Shakespeare that starts with the given line.",
+                "Document Content Analysis": "The document lists various plays and productions, primarily focusing on the career of Alun Armstrong, an English actor. It mentions several Shakespeare plays he was involved in, such as 'The Tempest' and 'The Taming of the Shrew', but does not provide specific lines from these plays.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and lists some of his plays.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night'.",
+                "Key Information Matching": "While the document mentions Shakespeare and some of his plays, it does not provide any information about the opening lines of these plays.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific information about the opening line of any Shakespeare play.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about Alun Armstrong's theatre career and mentions some Shakespeare plays, but it lacks any specific information about the opening lines of these plays. Therefore, it cannot assist in answering the query or provide relevant context."
+            },
+            "m.081k8_237": {
+                "Query Analysis": "The query asks for the specific play by William Shakespeare that starts with the line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by Shakespeare that starts with the given line.",
+                "Document Content Analysis": "The document provides various information about William Shakespeare, including his works, quotations, film story credits, and other related topics. It mentions several of his works and includes a quotation that matches the query.",
+                "Document and Query Keywords Matching": "The document includes the exact quotation 'If music be the food of love; play on.' which is a key phrase from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night'.",
+                "Key Information Matching": "The document contains the exact quotation from the query, which is a crucial piece of information for identifying the play.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the play 'Twelfth Night' begins with the given line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the exact quotation, which can help infer that the play in question is 'Twelfth Night' if the user is familiar with Shakespeare's works.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains a key piece of information (the quotation) that is directly related to the query, but it does not explicitly state the name of the play. Therefore, it is partially relevant as it can help infer the answer but does not directly provide it."
+            },
+            "nq_20170_36": {
+                "Query Analysis": "The query asks for the name of a play by Shakespeare that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by Shakespeare.",
+                "Document Content Analysis": "The document discusses the theme of time in Shakespeare's play 'Romeo and Juliet'. It explores how time is depicted through references to the sun, moon, and stars, and how the characters struggle against the passage of time. The document also mentions the haste in the plot and the connection between time and light in Shakespeare's plays.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'play', but does not contain the specific line 'If music be the food of love, play on'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night'.",
+                "Key Information Matching": "The document discusses Shakespeare and his plays, but focuses specifically on 'Romeo and Juliet' and the theme of time, which is not related to the query's specific line or the play 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the play that begins with the specified line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the theme of time in 'Romeo and Juliet' and does not provide any relevant information about the play that starts with the line 'If music be the food of love, play on'. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_72796_107": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that starts with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by Shakespeare.",
+                "Document Content Analysis": "The document is a list of various trivia questions and answers, covering a wide range of topics from movies, music, history, and literature.",
+                "Document and Query Keywords Matching": "The document includes the exact query 'Which of Shakespeare's plays begins with the words `If music be the food of love, play on`?' and provides the answer 'Twelfth Night'.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Twelfth Night' as the answer to the query.",
+                "Key Information Matching": "The document contains the exact query and its corresponding answer, providing a direct match for the key information.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the exact answer and context by including the full query and its answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains both the exact query and its corresponding answer. It provides substantial useful context that directly enhances understanding of the query."
+            },
+            "m.081k8_3071": {
+                "Query Analysis": "The query asks for the specific play by William Shakespeare that starts with the line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is a play by William Shakespeare.",
+                "Document Content Analysis": "The document lists various works and contributions attributed to William Shakespeare, including songs, sonnets, characters, and stories. It also mentions the line 'If music be the food of love; play on.' but does not specify the play it belongs to.",
+                "Document and Query Keywords Matching": "The document includes the exact line 'If music be the food of love; play on.' which is a key phrase from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night'.",
+                "Key Information Matching": "The document contains the key phrase from the query but does not link it to the specific play 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the line 'If music be the food of love; play on.' is from 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the line 'If music be the food of love; play on.' which is a crucial piece of information, even though it does not specify the play.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it contains the key phrase from the query, but it lacks the specific information needed to directly answer the query about which play the line is from. The presence of the line suggests relevance, but without the context of the play, it cannot fully answer the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.081k8_1899": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the words 'If music be the food of love, play on.'",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified words.",
+                "Document Content Analysis": "The document contains various references to works and influences related to William Shakespeare, including mentions of specific plays and quotes attributed to him.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare' and includes the exact quote 'If music be the food of love; play on.'",
+                "Document and Answer Keywords Matching": "The document mentions 'Twelfth Night' in the context of 'There Dwelt a Man in Babylon (Twelfth Night) -- Recorded by --> William Shakespeare'.",
+                "Key Information Matching": "The document contains the exact quote from the query and mentions 'Twelfth Night', which is the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document contains the exact quote and mentions 'Twelfth Night', which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it contains the exact quote from the query and mentions 'Twelfth Night', which is the answer. This provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_18076_4": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, words, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document lists Shakespeare's top 50 love quotes from his plays, including the line 'If music be the food of love, play on' from 'Twelfth Night'.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'plays', and the exact line 'If music be the food of love, play on'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Twelfth Night', which is the answer to the query.",
+                "Key Information Matching": "The document contains the exact line from the query and identifies 'Twelfth Night' as the play that begins with this line.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it contains the exact line mentioned in the query and identifies 'Twelfth Night' as the play that begins with this line. Therefore, it provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_18076_3": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play starts with the given line.",
+                "Document Content Analysis": "The document provides a list of Shakespeare's love quotes, including one from 'Twelfth Night' that matches the query's line.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'plays', and the exact line 'If music be the food of love, play on'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Twelfth Night' in the context of the quote.",
+                "Key Information Matching": "The document contains the exact line from the query and identifies it as being from 'Twelfth Night', which matches the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer by identifying the play that begins with the given line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly answers the query without requiring additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact line from the query and identifies the play 'Twelfth Night' as the source, which directly answers the query."
+            },
+            "m.081k8_716": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document contains a list of quotes, works, and references related to William Shakespeare, including the line 'If music be the food of love; play on.' attributed to him.",
+                "Document and Query Keywords Matching": "The document includes the exact line 'If music be the food of love; play on.', which matches the query's keywords.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night', the answer to the query.",
+                "Key Information Matching": "The document contains the exact line from the query, which is a key piece of information, but it does not directly link this line to 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that 'Twelfth Night' is the play that begins with the specified line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the exact line from the query, which is crucial information for identifying the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it contains the exact line from the query, which is essential for identifying the play. Although it does not directly name 'Twelfth Night', it provides the key information needed to infer the answer."
+            },
+            "m.081k8_2202": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, words, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document contains various quotes, titles, and references related to William Shakespeare, including the line 'If music be the food of love; play on.'.",
+                "Document and Query Keywords Matching": "The document mentions 'If music be the food of love; play on.', which matches the query's specific line.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night', but it contains the line that begins the play.",
+                "Key Information Matching": "The document contains the exact line from the query, which is the opening line of 'Twelfth Night'.",
+                "Can the Document Answer the Query": "Yes, the document contains the line that begins 'Twelfth Night', which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly provides the answer without needing further inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact line that begins 'Twelfth Night', which is the answer to the query. This provides substantial useful context and directly answers the query."
+            },
+            "nq_62173_2": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document discusses Shakespeare's play 'As You Like It', focusing on the famous 'All the world's a stage' monologue by Jaques. It provides details about the monologue, its themes, and its significance in Shakespeare's works.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'plays', but does not mention the specific line 'If music be the food of love, play on' or the play 'Twelfth Night'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night' or the specific line from the query.",
+                "Key Information Matching": "The document does not provide any information related to the specific line or the play 'Twelfth Night'. It focuses on 'As You Like It' and its themes.",
+                "Can the Document Answer the Query": "No, the document does not mention the play 'Twelfth Night' or the specific line from the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about 'As You Like It' and does not mention 'Twelfth Night' or the specific line 'If music be the food of love, play on'. Therefore, it is irrelevant to the query as it does not provide any useful context or information related to the query."
+            },
+            "triviaqa_18076_13": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on.'",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night,' which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document contains a list of famous quotes from various Shakespeare plays, including the line 'If music be the food of love play on.' from 'Twelfth Night.'",
+                "Document and Query Keywords Matching": "The document contains the exact line 'If music be the food of love play on.' which matches the query's keywords.",
+                "Document and Answer Keywords Matching": "The document mentions 'Twelfth Night,' which matches the answer.",
+                "Key Information Matching": "The document contains the exact line from the query and identifies it as belonging to 'Twelfth Night,' which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying 'Twelfth Night' as the play that begins with the specified line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It contains the specific line from the query and correctly identifies the play 'Twelfth Night' as the source, making it highly relevant."
+            },
+            "triviaqa_4338_329": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, words, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document is a list of trivia questions and answers, including one that directly answers the query: 'Which of Shakespeare's plays begins with the words `If music be the food of love, play on`? `Twelfth Night`'.",
+                "Document and Query Keywords Matching": "The document contains the exact query keywords: 'Shakespeare', 'plays', 'begins', 'words', and 'If music be the food of love, play on'.",
+                "Document and Answer Keywords Matching": "The document contains the exact answer 'Twelfth Night'.",
+                "Key Information Matching": "The document directly provides the answer to the query by stating that 'Twelfth Night' is the play that begins with the specified line.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer to the question. It provides the necessary information without requiring any further inference or additional context."
+            },
+            "ott_35788_1": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the words 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, words, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play starts with the specified line.",
+                "Document Content Analysis": "The document provides a list of theatrical productions, including several Shakespeare plays, but does not mention the opening lines of any of these plays.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and lists several of his plays, including 'The Tempest' and 'The Taming of the Shrew'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night' or the opening line 'If music be the food of love, play on'.",
+                "Key Information Matching": "The document lists several Shakespeare plays but does not provide any information about their opening lines or specifically mention 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not provide the opening lines of any Shakespeare plays.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention 'Twelfth Night' or provide any information about the opening lines of Shakespeare's plays."
+            },
+            "m.081k8_237": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play starts with the given line.",
+                "Document Content Analysis": "The document contains various references to William Shakespeare, including works written, quotations, film story credits, and other related topics. Notably, it includes the exact quotation 'If music be the food of love; play on.' under the 'Quotations' section.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'If music be the food of love; play on', and 'works written', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night', but it includes the exact quotation from the play.",
+                "Key Information Matching": "The document contains the exact line from the query, which is a key piece of information. However, it does not explicitly link this line to 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that 'Twelfth Night' begins with the given line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the exact line from the query, which is a crucial clue for identifying the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact line from the query, which is a key piece of information. While it does not explicitly name 'Twelfth Night', the presence of the line strongly suggests the play's identity, providing substantial useful context."
+            },
+            "nq_20170_36": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on.'",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, words, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night,' which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document discusses themes of time, light, and dark in Shakespeare's plays, particularly focusing on 'Romeo and Juliet.' It mentions how Shakespeare used light to express the passage of time and how time plays a crucial role in the plot and language of 'Romeo and Juliet.'",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'plays,' but it does not mention the specific line 'If music be the food of love, play on' or the play 'Twelfth Night.'",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night' or the specific line from the query.",
+                "Key Information Matching": "The document does not provide any information related to the query's specific line or the play 'Twelfth Night.' It focuses on themes in 'Romeo and Juliet,' which is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention the play 'Twelfth Night' or the specific line from the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on 'Romeo and Juliet' and its themes of time, light, and dark. It does not mention 'Twelfth Night' or the specific line from the query, nor does it provide any information that could help infer the answer. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_72796_107": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, words, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document is a list of trivia questions and answers, including one that directly answers the query: 'Which of Shakespeare's plays begins with the words `If music be the food of love, play on`? `Twelfth Night`'.",
+                "Document and Query Keywords Matching": "The document contains the exact query and the keywords 'Shakespeare', 'plays', 'begins', 'words', and 'If music be the food of love, play on'.",
+                "Document and Answer Keywords Matching": "The document contains the answer 'Twelfth Night'.",
+                "Key Information Matching": "The document directly provides the answer to the query by stating that 'Twelfth Night' is the play that begins with the specified line.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide additional information beyond the direct answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer to the question. It provides substantial useful context by directly identifying 'Twelfth Night' as the play that begins with the specified line."
+            },
+            "m.081k8_3071": {
+                "Query Analysis": "The query asks which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on.'",
+                "Query Keywords Extraction": "Shakespeare, plays, begins, words, If music be the food of love, play on",
+                "Answer Analysis": "The answer is 'Twelfth Night', indicating that this play starts with the given line.",
+                "Document Content Analysis": "The document lists various works, characters, and influences associated with William Shakespeare. It includes a line that matches the query: 'If music be the food of love; play on.'",
+                "Document and Query Keywords Matching": "The document contains the exact line 'If music be the food of love; play on.' and mentions 'William Shakespeare'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night', but it contains the line that is the opening of 'Twelfth Night'.",
+                "Key Information Matching": "The document contains the exact line from the query, which is the opening line of 'Twelfth Night'. This directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document contains the exact line that identifies the play 'Twelfth Night' as the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly provides the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact line that identifies the play 'Twelfth Night' as the answer. This provides substantial useful context and directly answers the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.081k8_1899": {
+                "Query Analysis": "The query is looking for the title of a Shakespeare play that starts with the phrase 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, 'If music be the food of love, play on'",
+                "Answer Analysis": "The answer is the title 'Twelfth Night'.",
+                "Document Content Analysis": "The document lists various associations and works related to William Shakespeare, including some plays and influential works. However, it does not specifically connect a play to the phrase 'If music be the food of love, play on'. It also mentions individuals and works possibly influenced by or related to Shakespeare.",
+                "Document and Query Keywords Matching": "The document repeatedly mentions 'William Shakespeare' but does not mention the specific phrase 'If music be the food of love, play on'.",
+                "Document and Answer Keywords Matching": "The document references a work related to 'Twelfth Night' indirectly ('There Dwelt a Man in Babylon (Twelfth Night) -- Recorded by --> William Shakespeare').",
+                "Key Information Matching": "The document lacks a direct connection between the play 'Twelfth Night' and its opening phrase, though it does mention 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not identify 'Twelfth Night' as the play that begins with the phrase.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide additional context that would help infer the play associated with the phrase.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not establish the connection between the specific phrase 'If music be the food of love, play on' and the play 'Twelfth Night'. It lists various Shakespeare-related information without addressing the query directly or indirectly."
+            },
+            "triviaqa_18076_4": {},
+            "triviaqa_18076_3": {},
+            "m.081k8_716": {
+                "Query Analysis": "The query seeks to identify which of Shakespeare's plays begins with the line 'If music be the food of love, play on.'",
+                "Query Keywords Extraction": "Shakespeare, play, begins with, If music be the food of love, play on",
+                "Answer Analysis": "The answer indicates that the play is 'Twelfth Night.'",
+                "Document Content Analysis": "The document lists various works associated with Shakespeare, including plays, sonnets, and quotations, along with categories indicating their connection to Shakespeare.",
+                "Document and Query Keywords Matching": "The document contains the exact quote: 'If music be the food of love; play on.'",
+                "Document and Answer Keywords Matching": "The document does not mention 'Twelfth Night' specifically.",
+                "Key Information Matching": "The presence of the exact quote in the document indicates it relates directly to the query by confirming the quote's source as part of Shakespeare's work.",
+                "Can the Document Answer the Query": "No, the document does not explicitly mention which play contains the line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the presence of the quote implies a connection to the play without directly naming it.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it includes the exact quote in question, affirming its connection to Shakespeare, but does not identify the specific play 'Twelfth Night,' thereby not directly answering the query."
+            },
+            "m.081k8_2202": {
+                "Query Analysis": "The query is asking for the name of the Shakespeare play that begins with the phrase 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins with, 'If music be the food of love, play on'",
+                "Answer Analysis": "The answer to the query is the play 'Twelfth Night' by William Shakespeare.",
+                "Document Content Analysis": "The document contains various lines, phrases, and references associated with William Shakespeare, including titles of plays, sonnets, and quotes. At the end, it explicitly mentions the phrase 'If music be the food of love; play on.'",
+                "Document and Query Keywords Matching": "The document contains the query phrase 'If music be the food of love; play on.'",
+                "Document and Answer Keywords Matching": "The document does not directly mention 'Twelfth Night' anywhere in the content.",
+                "Key Information Matching": "The document includes the exact phrase from the query, indicating it recognizes this line as part of Shakespeare's work but does not connect it to 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that 'Twelfth Night' is the play that begins with the specified phrase.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by providing the phrase directly from Shakespeare's works, it confirms the authenticity of the query's text as originating from Shakespeare, although it does not resolve which play it belongs to.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it contains the exact phrase from the query, confirming its origin in Shakespeare's work. However, it does not provide the connection to 'Twelfth Night', which is key to directly answering the query."
+            },
+            "nq_62173_2": {},
+            "triviaqa_18076_13": {},
+            "triviaqa_4338_329": {},
+            "ott_35788_1": {},
+            "m.081k8_237": {
+                "Query Analysis": "The query asks which of Shakespeare's plays starts with the line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, plays, 'If music be the food of love, play on'",
+                "Answer Analysis": "The answer is 'Twelfth Night', which is the play that begins with the specified line.",
+                "Document Content Analysis": "The document contains various pieces of information related to William Shakespeare, including quotations, works written, film credits, lyrics, and fictional characters. Notably, it includes the specific quotation 'If music be the food of love, play on'.",
+                "Document and Query Keywords Matching": "The document includes the quotation 'If music be the food of love, play on', explicitly matching a key part of the query.",
+                "Document and Answer Keywords Matching": "The document does not specifically mention 'Twelfth Night' or identify the play associated with the quotation.",
+                "Key Information Matching": "The document contains the quotation 'If music be the food of love, play on'. However, it does not link this to any specific play by Shakespeare.",
+                "Can the Document Answer the Query": "No, the document does not identify which play the quotation is from.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the presence of the quoted line can help someone familiar with Shakespeare verify and associate it with 'Twelfth Night'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides the relevant quotation but does not include enough context to identify the play 'Twelfth Night' directly. Therefore, it is partially relevant as it confirms the presence of the key quotation but without explicitly naming the play, thus not fully answering the query."
+            },
+            "nq_20170_36": {},
+            "triviaqa_72796_107": {},
+            "m.081k8_3071": {
+                "Query Analysis": "The query is asking which of Shakespeare's plays begins with the specific line 'If music be the food of love, play on'.",
+                "Query Keywords Extraction": "Shakespeare, play, begins, 'If music be the food of love, play on'",
+                "Answer Analysis": "The answer to the query is 'Twelfth Night', as this play begins with the line in question.",
+                "Document Content Analysis": "The document mentions various works and associations related to William Shakespeare, including references to his roles as an author, lyricist, and influential figure, as well as specific plays, sonnets, and characters he created. The document specifically contains the line 'If music be the food of love; play on.'",
+                "Document and Query Keywords Matching": "The document directly includes the line 'If music be the food of love; play on', which exactly matches the query's focus.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Twelfth Night', the answer to the query.",
+                "Key Information Matching": "The document contains the exact line specified in the query, which is key to matching the play that begins with this line; however, it does not specify the play title 'Twelfth Night'.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the play 'Twelfth Night'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the presence of the line implies a connection to the play but does not provide the title directly.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it contains the exact line from the query, which is critical in identifying the play, but it does not directly answer the query by naming the play 'Twelfth Night'. Therefore, it provides some context but lacks the definitive connection needed for a higher relevance judgement."
+            }
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "dataset_score": {
+            "triviaqa": 6,
+            "kg": 5,
+            "nq": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

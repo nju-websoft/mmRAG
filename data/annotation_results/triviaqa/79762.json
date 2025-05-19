@@ -1,0 +1,994 @@
+{
+    "index": 79762,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Cricketing brothers Ian & Greg Chappell have both captained Australia. A third Chappell brother has also played for his country, what is his name.",
+        "answer": "Trevor",
+        "BM25_documents": [
+            {
+                "id": "nq_177905_9",
+                "score": 39.71689987182617
+            },
+            {
+                "id": "nq_11355_35",
+                "score": 36.79389953613281
+            },
+            {
+                "id": "triviaqa_49241_2",
+                "score": 34.71620178222656
+            },
+            {
+                "id": "nq_11355_36",
+                "score": 33.894798278808594
+            },
+            {
+                "id": "nq_1120_41",
+                "score": 33.45940017700195
+            },
+            {
+                "id": "nq_274895_19",
+                "score": 33.070701599121094
+            },
+            {
+                "id": "triviaqa_49241_1",
+                "score": 31.18869972229004
+            },
+            {
+                "id": "nq_3547_17",
+                "score": 31.059900283813477
+            },
+            {
+                "id": "nq_3547_16",
+                "score": 30.710899353027344
+            },
+            {
+                "id": "nq_274895_13",
+                "score": 30.01300048828125
+            },
+            {
+                "id": "nq_274895_12",
+                "score": 29.958999633789062
+            },
+            {
+                "id": "triviaqa_30229_112",
+                "score": 29.60759925842285
+            },
+            {
+                "id": "triviaqa_45419_90",
+                "score": 29.60759735107422
+            },
+            {
+                "id": "nq_274895_20",
+                "score": 28.949100494384766
+            },
+            {
+                "id": "nq_177905_10",
+                "score": 28.737899780273438
+            },
+            {
+                "id": "nq_3177_172",
+                "score": 28.66119956970215
+            },
+            {
+                "id": "nq_3177_77",
+                "score": 28.579099655151367
+            },
+            {
+                "id": "nq_3177_171",
+                "score": 27.892499923706055
+            },
+            {
+                "id": "nq_3177_173",
+                "score": 27.64150047302246
+            },
+            {
+                "id": "nq_1120_204",
+                "score": 27.523300170898438
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_16851_1",
+                "score": 15.167799949645996
+            },
+            {
+                "id": "ott_23293_1",
+                "score": 15.16779899597168
+            },
+            {
+                "id": "ott_30612_1",
+                "score": 15.167798042297363
+            },
+            {
+                "id": "ott_40079_1",
+                "score": 15.167797088623047
+            },
+            {
+                "id": "ott_21527_0",
+                "score": 13.746100425720215
+            },
+            {
+                "id": "ott_23342_0",
+                "score": 13.746099472045898
+            },
+            {
+                "id": "ott_35125_0",
+                "score": 13.746098518371582
+            },
+            {
+                "id": "ott_6642_0",
+                "score": 13.746097564697266
+            },
+            {
+                "id": "ott_6724_0",
+                "score": 13.74609661102295
+            },
+            {
+                "id": "ott_16952_0",
+                "score": 13.709600448608398
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_177905_9",
+                "score": 39.71689987182617
+            },
+            {
+                "id": "nq_11355_35",
+                "score": 36.79389953613281
+            },
+            {
+                "id": "nq_11355_36",
+                "score": 33.894798278808594
+            },
+            {
+                "id": "nq_1120_41",
+                "score": 33.45940017700195
+            },
+            {
+                "id": "nq_274895_19",
+                "score": 33.070701599121094
+            },
+            {
+                "id": "nq_3547_17",
+                "score": 31.059900283813477
+            },
+            {
+                "id": "nq_3547_16",
+                "score": 30.710899353027344
+            },
+            {
+                "id": "nq_274895_13",
+                "score": 30.01300048828125
+            },
+            {
+                "id": "nq_274895_12",
+                "score": 29.958999633789062
+            },
+            {
+                "id": "nq_274895_20",
+                "score": 28.949100494384766
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_49241_2",
+                "score": 34.71620178222656
+            },
+            {
+                "id": "triviaqa_49241_1",
+                "score": 31.18869972229004
+            },
+            {
+                "id": "triviaqa_30229_112",
+                "score": 29.60759925842285
+            },
+            {
+                "id": "triviaqa_45419_90",
+                "score": 29.60759735107422
+            },
+            {
+                "id": "triviaqa_49846_143",
+                "score": 27.375600814819336
+            },
+            {
+                "id": "triviaqa_50984_35",
+                "score": 27.236099243164062
+            },
+            {
+                "id": "triviaqa_50984_51",
+                "score": 27.177900314331055
+            },
+            {
+                "id": "triviaqa_49241_0",
+                "score": 27.1117000579834
+            },
+            {
+                "id": "triviaqa_37673_131",
+                "score": 27.009000778198242
+            },
+            {
+                "id": "triviaqa_49241_3",
+                "score": 26.814599990844727
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0479cgd_0",
+                "score": 18.062700271606445
+            },
+            {
+                "id": "m.0479cgd_2",
+                "score": 17.82270050048828
+            },
+            {
+                "id": "m.06285f_2",
+                "score": 17.62529945373535
+            },
+            {
+                "id": "m.0ctw_b_1003",
+                "score": 17.38990020751953
+            },
+            {
+                "id": "m.0479cgd_1",
+                "score": 16.976999282836914
+            },
+            {
+                "id": "m.02fbb5_12",
+                "score": 16.902000427246094
+            },
+            {
+                "id": "m.0dhy6nw_0",
+                "score": 16.79560089111328
+            },
+            {
+                "id": "m.0chghy_791",
+                "score": 15.916399955749512
+            },
+            {
+                "id": "m.08vj9t_0",
+                "score": 15.574000358581543
+            },
+            {
+                "id": "m.08vj9t_2",
+                "score": 15.417400360107422
+            },
+            {
+                "id": "m.06qvwt_0",
+                "score": 15.347399711608887
+            },
+            {
+                "id": "m.0479cgd_3",
+                "score": 15.31410026550293
+            },
+            {
+                "id": "m.04j20tg_0",
+                "score": 15.291000366210938
+            },
+            {
+                "id": "m.0dhy6nw_1",
+                "score": 15.275699615478516
+            },
+            {
+                "id": "m.08vj9t_3",
+                "score": 14.878299713134766
+            },
+            {
+                "id": "m.06285f_0",
+                "score": 14.411999702453613
+            },
+            {
+                "id": "m.06hq4f_0",
+                "score": 14.191100120544434
+            },
+            {
+                "id": "m.0d_kr__2",
+                "score": 14.175800323486328
+            },
+            {
+                "id": "m.0154j_2168",
+                "score": 14.14680004119873
+            },
+            {
+                "id": "m.0d_kr__5",
+                "score": 14.099300384521484
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_11355_36",
+                "score": 0.7320509552955627
+            },
+            {
+                "id": "nq_11355_35",
+                "score": 0.6955501437187195
+            },
+            {
+                "id": "nq_177905_9",
+                "score": 0.6927616000175476
+            },
+            {
+                "id": "nq_3177_172",
+                "score": 0.6869726181030273
+            },
+            {
+                "id": "nq_184136_10",
+                "score": 0.6853283643722534
+            },
+            {
+                "id": "nq_3177_77",
+                "score": 0.6847951412200928
+            },
+            {
+                "id": "nq_3177_173",
+                "score": 0.681111752986908
+            },
+            {
+                "id": "nq_3177_76",
+                "score": 0.6687731742858887
+            },
+            {
+                "id": "nq_128640_84",
+                "score": 0.6674104928970337
+            },
+            {
+                "id": "triviaqa_50984_52",
+                "score": 0.6638554930686951
+            },
+            {
+                "id": "nq_11355_37",
+                "score": 0.6632716655731201
+            },
+            {
+                "id": "nq_2154_23",
+                "score": 0.6599894165992737
+            },
+            {
+                "id": "nq_208688_23",
+                "score": 0.6599894165992737
+            },
+            {
+                "id": "triviaqa_34677_283",
+                "score": 0.6584671139717102
+            },
+            {
+                "id": "nq_253435_6",
+                "score": 0.655655026435852
+            },
+            {
+                "id": "triviaqa_53950_19",
+                "score": 0.6539910435676575
+            },
+            {
+                "id": "nq_2154_18",
+                "score": 0.6534117460250854
+            },
+            {
+                "id": "nq_9225_18",
+                "score": 0.6534117460250854
+            },
+            {
+                "id": "nq_208688_18",
+                "score": 0.6534117460250854
+            },
+            {
+                "id": "nq_241003_18",
+                "score": 0.6534117460250854
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_26941_1",
+                "score": 0.5816434025764465
+            },
+            {
+                "id": "ott_17938_1",
+                "score": 0.5816434025764465
+            },
+            {
+                "id": "ott_20594_1",
+                "score": 0.5816434025764465
+            },
+            {
+                "id": "ott_18430_1",
+                "score": 0.5816434025764465
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_11355_36",
+                "score": 0.7320509552955627
+            },
+            {
+                "id": "nq_11355_35",
+                "score": 0.6955501437187195
+            },
+            {
+                "id": "nq_177905_9",
+                "score": 0.6927616000175476
+            },
+            {
+                "id": "nq_3177_172",
+                "score": 0.6869726181030273
+            },
+            {
+                "id": "nq_184136_10",
+                "score": 0.6853283643722534
+            },
+            {
+                "id": "nq_3177_77",
+                "score": 0.6847951412200928
+            },
+            {
+                "id": "nq_3177_173",
+                "score": 0.681111752986908
+            },
+            {
+                "id": "nq_3177_76",
+                "score": 0.6687731742858887
+            },
+            {
+                "id": "nq_128640_84",
+                "score": 0.6674104928970337
+            },
+            {
+                "id": "nq_11355_37",
+                "score": 0.6632716655731201
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_50984_52",
+                "score": 0.6638554930686951
+            },
+            {
+                "id": "triviaqa_34677_283",
+                "score": 0.6584671139717102
+            },
+            {
+                "id": "triviaqa_53950_19",
+                "score": 0.6539910435676575
+            },
+            {
+                "id": "triviaqa_54745_8",
+                "score": 0.6526488065719604
+            },
+            {
+                "id": "triviaqa_54745_9",
+                "score": 0.6443976759910583
+            },
+            {
+                "id": "triviaqa_54745_5",
+                "score": 0.642632246017456
+            },
+            {
+                "id": "triviaqa_50984_14",
+                "score": 0.6420155763626099
+            },
+            {
+                "id": "triviaqa_54745_24",
+                "score": 0.6366620659828186
+            },
+            {
+                "id": "triviaqa_37673_132",
+                "score": 0.6352400183677673
+            },
+            {
+                "id": "triviaqa_54745_12",
+                "score": 0.6338417530059814
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02fbb5_11",
+                "score": 0.6065499782562256
+            },
+            {
+                "id": "m.02fbb5_12",
+                "score": 0.603391706943512
+            },
+            {
+                "id": "m.02fbb5_32",
+                "score": 0.600469708442688
+            },
+            {
+                "id": "m.02jx1_295",
+                "score": 0.5998450517654419
+            },
+            {
+                "id": "m.08vj9t_3",
+                "score": 0.589346170425415
+            },
+            {
+                "id": "m.08vj9t_0",
+                "score": 0.5880909562110901
+            },
+            {
+                "id": "m.0j5g9_1205",
+                "score": 0.5867776870727539
+            },
+            {
+                "id": "m.0dzt9_80",
+                "score": 0.5842185020446777
+            },
+            {
+                "id": "m.0j5g9_883",
+                "score": 0.5834271311759949
+            },
+            {
+                "id": "m.02jx1_349",
+                "score": 0.5833086967468262
+            },
+            {
+                "id": "m.06q1r_317",
+                "score": 0.5816324949264526
+            },
+            {
+                "id": "m.0chghy_1130",
+                "score": 0.5813897252082825
+            },
+            {
+                "id": "m.0chghy_471",
+                "score": 0.5808513164520264
+            },
+            {
+                "id": "m.0j5g9_846",
+                "score": 0.5804789066314697
+            },
+            {
+                "id": "m.06q1r_705",
+                "score": 0.5800737738609314
+            },
+            {
+                "id": "m.06q1r_260",
+                "score": 0.5786860585212708
+            },
+            {
+                "id": "m.06q1r_815",
+                "score": 0.5780644416809082
+            },
+            {
+                "id": "m.0chghy_396",
+                "score": 0.578063428401947
+            },
+            {
+                "id": "m.0hzlz_2640",
+                "score": 0.5773904919624329
+            },
+            {
+                "id": "m.0chghy_814",
+                "score": 0.5772043466567993
+            }
+        ],
+        "llm_mark_result": {
+            "nq_3177_172": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for the Australian national cricket team, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document provides information about cricket matches, specifically mentioning Greg Chappell playing for the Australian national cricket team on several occasions. It also includes flags and names of other players but does not explicitly mention Ian Chappell or Trevor Chappell.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell' and 'Australia', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor'.",
+                "Key Information Matching": "The document provides information about Greg Chappell's involvement in the Australian national cricket team but lacks any mention of Ian Chappell or Trevor Chappell.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information about other Chappell brothers beyond Greg.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions Greg Chappell and the Australian national cricket team, it lacks any information about the other Chappell brothers, including the one the query is asking about. Therefore, it does not provide any useful context or additional information to answer the query or infer the name of the third brother."
+            },
+            "m.02fbb5_11": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, given that Ian and Greg Chappell have both captained the Australian cricket team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document provides information about the New Zealand national cricket team, including its history, nicknames, key matches, and captains. It mentions various players and captains but focuses solely on the New Zealand team.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Chappell', 'Australia', or 'cricketing brothers'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor' or any Chappell brothers.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document is about the New Zealand cricket team, while the query is about Australian cricket players.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Chappell brothers or Australian cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the New Zealand national cricket team and does not mention any information related to the Chappell brothers or Australian cricket. Therefore, it is irrelevant to the query."
+            },
+            "nq_11355_36": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for the Australian cricket team, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document discusses an incident involving Greg Chappell and his brother Trevor Chappell during an ODI against New Zealand. It mentions the underarm bowling incident and its aftermath, as well as the broader context of Australian cricket in the 1980s.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell' and 'Trevor Chappell', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Trevor Chappell', which is the answer to the query.",
+                "Key Information Matching": "The document directly identifies Trevor Chappell as a brother of Greg Chappell, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning Trevor Chappell.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the involvement of Trevor Chappell in a significant cricketing event, enhancing the understanding of his role in Australian cricket.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions Trevor Chappell, providing the answer to the question about the third Chappell brother who played for Australia. Additionally, it offers context about his participation in a notable cricket incident, which adds useful background information."
+            },
+            "m.0479cgd_0": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played cricket for Australia.",
+                "Document Content Analysis": "The document provides information about Maria Chappelle-Nadal, a politician from Missouri, USA. It includes details about her political career, positions held, and personal information.",
+                "Document and Query Keywords Matching": "None of the query keywords such as 'Cricketing brothers', 'Ian Chappell', 'Greg Chappell', 'Australia', or 'third Chappell brother' are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a completely different person and context.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Chappell brothers or cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a politician from Missouri, USA, and contains no information about cricket or the Chappell brothers. Therefore, it is irrelevant to the query."
+            },
+            "m.0479cgd_2": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played cricket for Australia.",
+                "Document Content Analysis": "The document provides information about Maria Chappelle-Nadal, a politician from Missouri, including her gender, government positions held, notable achievements, and personal background. It does not mention any cricketing brothers or the Chappell family.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Cricketing brothers', 'Ian Chappell', 'Greg Chappell', 'Australia', or 'third Chappell brother'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Trevor' or any reference to the Chappell family in a cricketing context.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a politician named Maria Chappelle-Nadal, which is unrelated to the cricketing Chappell brothers.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Chappell brothers or cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a politician named Maria Chappelle-Nadal and does not mention anything about cricket or the Chappell brothers. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "triviaqa_49241_2": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who played for the Australian cricket team, in addition to Ian and Greg Chappell who both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document discusses various aspects of Australian cricket, including a victory song and a specific match where the Chappell brothers played a significant role. It mentions Ian Chappell and Greg Chappell but does not explicitly mention Trevor Chappell.",
+                "Document and Query Keywords Matching": "The document mentions 'Chappell brothers' and 'Ian Chappell', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor'.",
+                "Key Information Matching": "The document provides context about the Chappell brothers' involvement in Australian cricket but lacks specific mention of the third brother, Trevor.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides background information about the Chappell brothers' cricketing activities, which is tangentially related to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions the Chappell brothers and provides context about their involvement in Australian cricket. However, it does not directly answer the query about the third brother's name, making it insufficient for a direct answer but still somewhat informative in the broader context of the Chappell family's cricketing legacy."
+            },
+            "nq_1120_41": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document discusses various cricket-related events and mentions Ian Chappell in the context of his comments about Sachin Tendulkar. It primarily focuses on Tendulkar's performance and career events, including his interactions with coaches and other players.",
+                "Document and Query Keywords Matching": "The document mentions 'Ian Chappell' but does not reference Greg Chappell or any other Chappell brothers.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor' or any other names that could be associated with the third Chappell brother.",
+                "Key Information Matching": "The document only mentions Ian Chappell and provides no information about other Chappell brothers or their cricket careers.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any relevant information about the Chappell family beyond a brief mention of Ian Chappell.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful information about the third Chappell brother who played cricket for Australia. It only mentions Ian Chappell in a different context, which does not help in answering the query or inferring additional relevant information."
+            },
+            "ott_16851_1": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played cricket for Australia.",
+                "Document Content Analysis": "The document lists various comedy events and television specials, including details about the networks, featured performers, and themes of each event. It primarily focuses on comedy relief shows and their content.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor' in the context of cricket or the Chappell family.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely unrelated to cricket or the Chappell brothers.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about cricket or the Chappell brothers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It focuses on comedy events and television specials, which have no connection to cricket or the Chappell brothers. Therefore, it cannot provide any useful context or additional information relevant to the query."
+            },
+            "nq_184136_10": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is Trevor, indicating that Trevor Chappell is the third brother who played cricket for Australia.",
+                "Document Content Analysis": "The document appears to be a list of cricket-related names and flags of different countries, but it does not provide detailed information about the individuals or their roles. It mentions Greg Chappell and several other cricket players from different countries.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell', which is one of the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor' or any other Chappell brother besides Greg.",
+                "Key Information Matching": "The document only matches one keyword from the query ('Greg Chappell') and does not provide any information about other Chappell brothers.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks sufficient context or additional information about the Chappell family or their cricket careers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only mentions one of the Chappell brothers (Greg) and does not provide any information about the other brothers. It does not help in answering the query or inferring additional relevant information."
+            },
+            "nq_11355_35": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who played cricket for Australia, in addition to Ian and Greg Chappell who both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document discusses various events and players in Australian cricket history, including the reinstatement of Greg Chappell as captain and an incident involving Trevor Chappell bowling an underarm delivery.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell' and 'Trevor Chappell'.",
+                "Document and Answer Keywords Matching": "The document includes the name 'Trevor', which is the answer to the query.",
+                "Key Information Matching": "The document mentions both Greg Chappell and Trevor Chappell, directly addressing the query's focus on the Chappell brothers who played for Australia.",
+                "Can the Document Answer the Query": "Yes, the document mentions Trevor Chappell, directly answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Trevor Chappell's involvement in a significant cricket event, enhancing the understanding of his role in Australian cricket.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it mentions Trevor Chappell, providing the exact answer to the question. Additionally, it offers context about his cricketing activities, which further supports the relevance."
+            },
+            "triviaqa_50984_52": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who played cricket for Australia, in addition to Ian and Greg Chappell who both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian & Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document discusses various aspects of Australian cricket history, mentioning key players and captains, including the Chappell brothers, but does not provide specific details about individual family members.",
+                "Document and Query Keywords Matching": "The document mentions 'the Chappell brothers' but does not specify individual names beyond this collective reference.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor'.",
+                "Key Information Matching": "The document references 'the Chappell brothers' in a general context, indicating their significance in Australian cricket history, but lacks specific information about the third brother.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document acknowledges the importance of the Chappell brothers in Australian cricket, which could be useful background information, but does not help in identifying the third brother.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions the Chappell brothers in the context of Australian cricket history, providing some background context. However, it lacks the specific information needed to directly answer the query about the name of the third brother."
+            },
+            "nq_177905_9": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document describes a cricket match involving the Australian cricket team, specifically mentioning Ian Chappell and Greg Chappell as players. It details the performance of the Australian team in a World Cup final against the West Indies, focusing on key players and events during the match.",
+                "Document and Query Keywords Matching": "The document mentions 'Ian Chappell' and 'Greg Chappell', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor' or any other Chappell brother besides Ian and Greg.",
+                "Key Information Matching": "The document provides information about Ian and Greg Chappell's involvement in a cricket match but does not provide any information about a third Chappell brother.",
+                "Can the Document Answer the Query": "No, the document does not mention the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any information about other Chappell brothers besides Ian and Greg.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions Ian and Greg Chappell, it does not provide any information about a third Chappell brother. Therefore, it cannot answer the query or help infer additional relevant information, making it irrelevant to the query."
+            },
+            "m.02fbb5_12": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, given that Ian and Greg Chappell have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', indicating that Trevor Chappell is the third brother who played for Australia.",
+                "Document Content Analysis": "The document provides information about the New Zealand national cricket team, including its history, captains, and nickname. It details the team's performance in various formats and mentions key players and their roles.",
+                "Document and Query Keywords Matching": "The document does not mention any of the query keywords such as 'Chappell', 'Australia', or 'cricketing brothers'.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Trevor' or any reference to the Chappell family.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is solely focused on the New Zealand cricket team.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Chappell brothers or Australian cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the New Zealand national cricket team and does not mention any relevant details about Australian cricket or the Chappell brothers. Therefore, it is irrelevant to the query."
+            },
+            "ott_26941_1": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played cricket for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is Trevor, indicating that Trevor Chappell is the third brother who played cricket for Australia.",
+                "Document Content Analysis": "The document lists various Australian football players and their achievements, including playing in Grand Finals, captaining teams, and winning awards like the Brownlow Medal and Norm Smith Medal.",
+                "Document and Query Keywords Matching": "The document does not mention any of the query keywords such as 'Cricketing brothers', 'Ian Chappell', 'Greg Chappell', 'Australia', or 'Chappell'.",
+                "Document and Answer Keywords Matching": "The document does not mention the name 'Trevor' or any reference to the Chappell family.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on Australian football players, not cricket players.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Chappell brothers or cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Australian football players and their achievements, with no mention of cricket or the Chappell brothers. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_3177_172": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for the Australian national cricket team, in addition to Ian and Greg Chappell.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, played for his country, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document provides information about Greg Chappell and his involvement with the Australian national cricket team, including dates and other players he was associated with.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell' and 'Australia national cricket team'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor'.",
+                "Key Information Matching": "The document mentions Greg Chappell and his association with the Australian national cricket team, but it does not provide information about the third Chappell brother, Trevor.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about the third Chappell brother or any context that could help infer his name.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the third Chappell brother, Trevor, or any context that could help infer his name. It only mentions Greg Chappell and his involvement with the Australian national cricket team."
+            },
+            "m.02fbb5_11": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell, who have both captained the Australian cricket team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document provides information about the New Zealand national cricket team, including its history, notable players, and captains. It does not mention the Chappell brothers or any information related to Australian cricket.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Cricketing brothers', 'Ian Chappell', 'Greg Chappell', 'captained Australia', 'third Chappell brother', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Trevor' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Chappell brothers or Australian cricket, which are the key elements of the query.",
+                "Can the Document Answer the Query": "No, the document does not mention the Chappell brothers or provide any information about Australian cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely focused on the New Zealand cricket team and does not provide any relevant context or information about the Chappell brothers or Australian cricket.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the New Zealand cricket team and does not mention the Chappell brothers, Australian cricket, or any information that could help answer the query or provide additional context. Therefore, it is deemed irrelevant."
+            },
+            "nq_11355_36": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, played for his country",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document discusses Greg Chappell's reinstatement as captain and mentions the underarm bowling incident of 1981, involving Greg and his brother Trevor Chappell. It also references the Chappell brothers' contributions to Australian cricket in the early 1980s.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell' and 'Trevor Chappell', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Trevor', which is the name of the third Chappell brother.",
+                "Key Information Matching": "The document mentions 'Trevor Chappell', which directly answers the query about the name of the third Chappell brother.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Trevor' as the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly answers the query without requiring additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the name of the third Chappell brother, Trevor, which is the exact information needed to answer the query. It also provides context about the Chappell brothers' involvement in Australian cricket, enhancing understanding of the query."
+            },
+            "m.0479cgd_0": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell, who have both captained the country.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document provides information about Maria Chappelle-Nadal, a politician from Missouri, USA. It includes details about her political career, date of birth, and various identifiers.",
+                "Document and Query Keywords Matching": "The document does not mention any of the keywords from the query, such as 'Cricketing brothers', 'Ian Chappell', 'Greg Chappell', 'captained Australia', or 'third Chappell brother'.",
+                "Document and Answer Keywords Matching": "The document does not mention the name 'Trevor' or any other Chappell brother.",
+                "Key Information Matching": "The document does not provide any information related to the Chappell brothers or cricket in Australia.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Chappell brothers or cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a politician named Maria Chappelle-Nadal and does not mention any of the Chappell brothers, cricket, or Australia. Therefore, it is irrelevant to the query."
+            },
+            "m.0479cgd_2": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell, who have both captained the country.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, played for his country, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document provides information about Maria Chappelle-Nadal, a politician from University City, Missouri. It includes details about her government positions, notable achievements, and personal background. There is no mention of the Chappell brothers or cricket.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Chappell brothers, cricket, or Australia.",
+                "Can the Document Answer the Query": "No, the document does not mention the Chappell brothers or provide any information about cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a politician named Maria Chappelle-Nadal and does not mention the Chappell brothers, cricket, or Australia. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_49241_2": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, given that Ian and Greg Chappell have both captained the Australian cricket team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother who played for Australia.",
+                "Document Content Analysis": "The document discusses various aspects of Australian cricket, including historical matches, players, and the Australian cricket team's victory song. It mentions Ian and Greg Chappell in the context of a cricket match but does not explicitly mention Trevor Chappell.",
+                "Document and Query Keywords Matching": "The document mentions 'Ian Chappell' and 'Greg Chappell', which are part of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor', the name of the third Chappell brother.",
+                "Key Information Matching": "The document mentions Ian and Greg Chappell, who are relevant to the query, but it does not provide information about the third Chappell brother, Trevor.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Ian and Greg Chappell, who are relevant to the query, but it does not provide any information about the third Chappell brother, Trevor. Since the document does not contain the answer or any key information that could help infer the answer, it is considered irrelevant to the query."
+            },
+            "nq_1120_41": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, third Chappell brother, played for Australia, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document discusses various cricket-related events and mentions Ian Chappell and Greg Chappell, but it does not mention Trevor Chappell or any third Chappell brother.",
+                "Document and Query Keywords Matching": "The document mentions 'Ian Chappell' and 'Greg Chappell', which are part of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor', the name of the third Chappell brother.",
+                "Key Information Matching": "The document mentions Ian and Greg Chappell, but it does not provide any information about a third Chappell brother or his name.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Ian and Greg Chappell, but it does not provide any information about a third Chappell brother or his name. Therefore, it is irrelevant to the query."
+            },
+            "ott_16851_1": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, third Chappell brother, played for Australia, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document lists various comedy events and their features, including appearances by comedians and celebrities. It mentions Dave Chappelle, but there is no information about cricketing brothers or the Chappell family.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Chappell brothers or cricket.",
+                "Can the Document Answer the Query": "No, the document does not mention the Chappell brothers or provide any information about cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention the Chappell brothers, cricket, or any information that could help answer the query or infer additional details."
+            },
+            "nq_184136_10": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell who have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document contains information about various cricketers from different countries, including Greg Chappell, but does not mention Ian Chappell or Trevor Chappell.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell', which is one of the keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor', the name of the third Chappell brother.",
+                "Key Information Matching": "The document mentions Greg Chappell, one of the brothers in the query, but does not provide information about Ian or Trevor Chappell.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about the third Chappell brother or any context that could help infer his name.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Greg Chappell, one of the brothers in the query, but does not provide any information about the third Chappell brother, Trevor. Therefore, the document is irrelevant to the query as it does not assist in answering it or provide any useful context."
+            },
+            "nq_11355_35": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, given that Ian and Greg Chappell have both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother who played for Australia.",
+                "Document Content Analysis": "The document discusses various cricketing events and players, including Greg Chappell and his brother Trevor. It mentions the underarm bowling incident of 1981, where Greg instructed Trevor to bowl an underarm delivery.",
+                "Document and Query Keywords Matching": "The document mentions 'Greg Chappell' and 'Trevor', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Trevor', which is the name of the third Chappell brother.",
+                "Key Information Matching": "The document mentions 'Greg Chappell' and 'Trevor', directly providing the name of the third Chappell brother who played for Australia.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Trevor' as the third Chappell brother who played for Australia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly answers the query without the need for further inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the name of the third Chappell brother, Trevor, who played for Australia. This information directly answers the query, making the document highly relevant."
+            },
+            "triviaqa_50984_52": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who played for Australia, in addition to Ian and Greg Chappell, who both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document discusses the history of Australian cricket, mentioning key players like Richie Benaud, the Chappell brothers, Dennis Lillee, and Rod Marsh. It also covers the team's performance in different eras, including the 1980s, 1990s, and modern era, and mentions recent tours and captains.",
+                "Document and Query Keywords Matching": "The document mentions 'the Chappell brothers', which is relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor', the name of the third Chappell brother.",
+                "Key Information Matching": "The document mentions 'the Chappell brothers' but does not provide the name of the third brother, Trevor.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'the Chappell brothers' but does not provide the name of the third brother, Trevor, nor does it offer any information that could help infer his name. Therefore, the document is irrelevant to the query."
+            },
+            "nq_177905_9": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, third Chappell brother, played for Australia, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document discusses a cricket match between Australia and the West Indies during the World Cup, mentioning Ian and Greg Chappell as part of the Australian team. However, it does not mention Trevor Chappell or any third Chappell brother.",
+                "Document and Query Keywords Matching": "The document mentions 'Ian Chappell' and 'Greg Chappell', which are part of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor', the name of the third Chappell brother.",
+                "Key Information Matching": "The document mentions Ian and Greg Chappell, who are relevant to the query, but it does not provide any information about Trevor Chappell or a third Chappell brother.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the third Chappell brother.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the third Chappell brother.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Ian and Greg Chappell, who are relevant to the query, but it does not provide any information about Trevor Chappell or a third Chappell brother. Therefore, the document is irrelevant to the query as it does not assist in answering it or provide any useful context."
+            },
+            "m.02fbb5_12": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, in addition to Ian and Greg Chappell, who both captained the team.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', which is the name of the third Chappell brother.",
+                "Document Content Analysis": "The document provides information about the New Zealand national cricket team, including its history, key players, and nicknames. It does not mention the Chappell brothers or any Australian cricketers.",
+                "Document and Query Keywords Matching": "None of the query keywords are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Trevor' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to the Chappell brothers or Australian cricket.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Chappell brothers or Australian cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the New Zealand national cricket team and does not mention the Chappell brothers, Australian cricket, or any information that could assist in answering the query."
+            },
+            "ott_26941_1": {
+                "Query Analysis": "The query asks for the name of the third Chappell brother who has played for Australia, given that Ian and Greg Chappell have both captained the country.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, name",
+                "Answer Analysis": "The answer is 'Trevor', the name of the third Chappell brother.",
+                "Document Content Analysis": "The document lists various Australian rules football players, their achievements, and awards, but does not mention any cricketers or the Chappell brothers.",
+                "Document and Query Keywords Matching": "None of the query keywords are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Trevor' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Chappell brothers or cricket.",
+                "Can the Document Answer the Query": "No, the document does not mention the Chappell brothers or cricket.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about Australian rules football and does not provide any relevant information about cricket or the Chappell brothers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, which is about cricket and the Chappell brothers, while the document discusses Australian rules football players and their achievements."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_3177_172": {},
+            "m.02fbb5_11": {},
+            "nq_11355_36": {},
+            "m.0479cgd_0": {},
+            "m.0479cgd_2": {},
+            "triviaqa_49241_2": {
+                "Query Analysis": "The query is seeking the name of a third Chappell brother who played cricket for Australia, aside from Ian and Greg Chappell.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third Chappell brother, played for his country, name",
+                "Answer Analysis": "The answer is the name of the third Chappell brother, Trevor.",
+                "Document Content Analysis": "The document discusses various historical cricket matches and players but does not mention or focus on the Chappell family or their involvement in cricket. It mainly centers around an Australian cricket match and the team's victory song.",
+                "Document and Query Keywords Matching": "The document mentions 'Chappell' and 'Australia,' but does not provide specific information on the Chappell brothers or the details the query inquires about.",
+                "Document and Answer Keywords Matching": "The document does not contain keywords related to 'Trevor' or provide relevant information about the Chappell brothers.",
+                "Key Information Matching": "There is minimal matching; the presence of the name 'Chappell' is insufficient to provide substantial context or information relevant to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention the third Chappell brother or provide his name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any contextual information about the Chappell brothers' cricketing careers or family history.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not address the Chappell brothers or provide any useful information about the third brother. It focuses on other cricketing events and lacks the necessary details pertinent to the query about the Chappell family."
+            },
+            "nq_1120_41": {},
+            "ott_16851_1": {},
+            "nq_184136_10": {},
+            "nq_11355_35": {},
+            "triviaqa_50984_52": {
+                "Query Analysis": "The query seeks the name of the third Chappell brother who played cricket for Australia. Ian and Greg Chappell are already mentioned as having captained the team, and Trevor is known to have played as well.",
+                "Query Keywords Extraction": "Cricketing brothers, Ian Chappell, Greg Chappell, captained Australia, third brother, name",
+                "Answer Analysis": "The answer is 'Trevor', the name of the third Chappell brother who played for Australia.",
+                "Document Content Analysis": "The document details various aspects and periods of Australian cricket, mentioning the Chappell brothers among other notable players in a historical context. It does not provide specific information about their individual contributions or any other family members.",
+                "Document and Query Keywords Matching": "The document mentions 'Chappell brothers', 'Australia', and 'cricketers'.",
+                "Document and Answer Keywords Matching": "The document does not mention the name 'Trevor'.",
+                "Key Information Matching": "The document recognizes the Chappell brothers as part of Australian cricket history but does not offer explicit information about Trevor Chappell.",
+                "Can the Document Answer the Query": "No, the document does not directly state Trevor Chappell's name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide additional context or information concerning Trevor Chappell.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document discusses Australian cricket in a historical sense and mentions the Chappell brothers, it lacks any specific information about Trevor Chappell. Therefore, it is irrelevant to the query as it neither answers it directly nor provides additional inferential content."
+            },
+            "nq_177905_9": {},
+            "m.02fbb5_12": {},
+            "ott_26941_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_26941_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "nq": 2,
+            "ott": 0,
+            "kg": 0,
+            "triviaqa": 0,
+            "tat": 0
+        }
+    }
+}

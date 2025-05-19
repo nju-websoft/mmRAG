@@ -1,0 +1,1187 @@
+{
+    "index": 99,
+    "context": [
+        "($ in millions) |  |  |  | \n--- | --- | --- | --- | ---\nFor the year ended December 31: | 2019 | 2018 | Yr.-to-Yr. Percent Change | Yr.-to-Yr. Percent Change Adjusted for Currency\nSystems external revenue | $7,604 | $8,034 | (5.3)% | (4.1)%\nSystems Hardware | $5,918 | $6,363 | (7.0)% | (5.9)%\nIBM Z |  |  | (1.1) | (0.3)\nPower Systems |  |  | (13.5) | (12.1)\nStorage Systems |  |  | (8.9) | (7.6)\nOperating Systems Software | 1,686 | 1,671 | 0.9 | 2.6\n\nparagraph 1: Systems revenue of $7,604 million decreased 5.3 percent year to year as reported (4 percent adjusted for currency). Systems Hardware revenue of $5,918 million declined 7.0 percent as reported (6 percent adjusted for currency), driven primarily by declines in Power Systems and Storage Systems. Operating Systems Software revenue of $1,686 million grew 0.9 percent as reported (3 percent adjusted for currency) compared to the prior year.\nparagraph 2: Within Systems Hardware, IBM Z revenue decreased 1.1 percent as reported but was essentially flat adjusted for currency, reflecting the mainframe product cycles. Revenue declined through the first three quarters due to the end of the z14 product cycle, but there was strong growth in the fourth quarter driven by z15 shipments. The z15’s strong performance demonstrates client demand for technology that offers improved data privacy and resiliency in the hybrid cloud environment.\nparagraph 3: The z15 mainframe’s capabilities extend the platform’s differentiation with encryption everywhere, cloud-native development and instant recovery. In October, we announced OpenShift for IBM Z, bringing together the industry’s most comprehensive enterprise container and Kubernetes platform with the enterprise server\nplatforms of IBM Z and LinuxONE. IBM Z continues to deliver a high-value, secure and scalable platform for our clients.\nparagraph 4: Power Systems revenue decreased 13.5 percent as reported (12 percent adjusted for currency) year to year, due to the strong performance during the second half of 2018 driven by Linux and the introduction of the POWER9-based architecture in our mid-range and high-end products.\nparagraph 5: Storage Systems revenue decreased 8.9 percent as reported (8 percent adjusted for currency) year to year, with improvements in year-to-year performance in the fourth quarter of 2019, driven primarily by the launch of the next generation high-end storage\nsystem DS8900 in November.\nparagraph 6: Within Systems, cloud revenue of $2.9 billion declined 4 percent as reported and 3 percent adjusted for currency.\n"
+    ],
+    "qa": {
+        "question": "What caused the Systems Hardware revenue to decline?",
+        "answer": "['driven primarily by declines in Power Systems and Storage Systems.']",
+        "BM25_documents": [
+            {
+                "id": "tat_99_0",
+                "score": 16.683700561523438
+            },
+            {
+                "id": "tat_1445_0",
+                "score": 14.983200073242188
+            },
+            {
+                "id": "nq_88492_10",
+                "score": 14.05780029296875
+            },
+            {
+                "id": "tat_302_1",
+                "score": 13.834199905395508
+            },
+            {
+                "id": "tat_302_0",
+                "score": 13.51509952545166
+            },
+            {
+                "id": "tat_1440_0",
+                "score": 13.324799537658691
+            },
+            {
+                "id": "tat_302_2",
+                "score": 13.083100318908691
+            },
+            {
+                "id": "triviaqa_21318_4",
+                "score": 12.866800308227539
+            },
+            {
+                "id": "tat_614_0",
+                "score": 12.3100004196167
+            },
+            {
+                "id": "tat_2020_0",
+                "score": 12.275300025939941
+            },
+            {
+                "id": "tat_1137_1",
+                "score": 12.229000091552734
+            },
+            {
+                "id": "tat_1771_0",
+                "score": 12.145600318908691
+            },
+            {
+                "id": "tat_72_2",
+                "score": 12.08549976348877
+            },
+            {
+                "id": "tat_1440_1",
+                "score": 12.044500350952148
+            },
+            {
+                "id": "tat_72_3",
+                "score": 11.690099716186523
+            },
+            {
+                "id": "tat_1880_2",
+                "score": 11.668899536132812
+            },
+            {
+                "id": "tat_1137_0",
+                "score": 11.618900299072266
+            },
+            {
+                "id": "triviaqa_31272_105",
+                "score": 11.530099868774414
+            },
+            {
+                "id": "tat_1928_0",
+                "score": 11.46780014038086
+            },
+            {
+                "id": "tat_1880_1",
+                "score": 11.421099662780762
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "tat_99_0",
+                "score": 16.683700561523438
+            },
+            {
+                "id": "tat_99_1",
+                "score": 10.868200302124023
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_99_0",
+                "score": 16.683700561523438
+            },
+            {
+                "id": "tat_1445_0",
+                "score": 14.983200073242188
+            },
+            {
+                "id": "tat_302_1",
+                "score": 13.834199905395508
+            },
+            {
+                "id": "tat_302_0",
+                "score": 13.51509952545166
+            },
+            {
+                "id": "tat_1440_0",
+                "score": 13.324799537658691
+            },
+            {
+                "id": "tat_302_2",
+                "score": 13.083100318908691
+            },
+            {
+                "id": "tat_614_0",
+                "score": 12.3100004196167
+            },
+            {
+                "id": "tat_2020_0",
+                "score": 12.275300025939941
+            },
+            {
+                "id": "tat_1137_1",
+                "score": 12.229000091552734
+            },
+            {
+                "id": "tat_1771_0",
+                "score": 12.145600318908691
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_34071_1",
+                "score": 8.365400314331055
+            },
+            {
+                "id": "ott_32240_0",
+                "score": 6.838284015655518
+            },
+            {
+                "id": "ott_38500_0",
+                "score": 6.838283061981201
+            },
+            {
+                "id": "ott_27203_0",
+                "score": 6.818900108337402
+            },
+            {
+                "id": "ott_8149_0",
+                "score": 6.818899154663086
+            },
+            {
+                "id": "ott_21017_2",
+                "score": 6.669099807739258
+            },
+            {
+                "id": "ott_24676_2",
+                "score": 6.669098854064941
+            },
+            {
+                "id": "ott_25180_2",
+                "score": 6.669097900390625
+            },
+            {
+                "id": "ott_26105_2",
+                "score": 6.669096946716309
+            },
+            {
+                "id": "ott_13119_0",
+                "score": 6.468900203704834
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_88492_10",
+                "score": 14.05780029296875
+            },
+            {
+                "id": "nq_88492_11",
+                "score": 10.949700355529785
+            },
+            {
+                "id": "nq_203615_62",
+                "score": 10.812299728393555
+            },
+            {
+                "id": "nq_252683_20",
+                "score": 10.67300033569336
+            },
+            {
+                "id": "nq_225004_91",
+                "score": 10.390899658203125
+            },
+            {
+                "id": "nq_76930_91",
+                "score": 10.390898704528809
+            },
+            {
+                "id": "nq_9997_91",
+                "score": 10.390897750854492
+            },
+            {
+                "id": "nq_264125_22",
+                "score": 10.389100074768066
+            },
+            {
+                "id": "nq_220311_42",
+                "score": 10.37909984588623
+            },
+            {
+                "id": "nq_203615_10",
+                "score": 10.287199974060059
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_21318_4",
+                "score": 12.866800308227539
+            },
+            {
+                "id": "triviaqa_31272_105",
+                "score": 11.530099868774414
+            },
+            {
+                "id": "triviaqa_22240_51",
+                "score": 11.175399780273438
+            },
+            {
+                "id": "triviaqa_21177_199",
+                "score": 11.143400192260742
+            },
+            {
+                "id": "triviaqa_25519_75",
+                "score": 11.107399940490723
+            },
+            {
+                "id": "triviaqa_59663_123",
+                "score": 11.0423002243042
+            },
+            {
+                "id": "triviaqa_59663_184",
+                "score": 10.797800064086914
+            },
+            {
+                "id": "triviaqa_55039_316",
+                "score": 10.758000373840332
+            },
+            {
+                "id": "triviaqa_59663_166",
+                "score": 10.518199920654297
+            },
+            {
+                "id": "triviaqa_59663_165",
+                "score": 10.35569953918457
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.07_m9__165",
+                "score": 6.047500133514404
+            },
+            {
+                "id": "m.0rh6k_1413",
+                "score": 6.047499179840088
+            },
+            {
+                "id": "m.07pzc_179",
+                "score": 5.9567999839782715
+            },
+            {
+                "id": "m.07pzc_454",
+                "score": 5.956799030303955
+            },
+            {
+                "id": "m.019gky_62",
+                "score": 5.837900161743164
+            },
+            {
+                "id": "m.084y3_70",
+                "score": 5.823200225830078
+            },
+            {
+                "id": "m.084y3_69",
+                "score": 5.7316999435424805
+            },
+            {
+                "id": "m.01cx__444",
+                "score": 5.5142998695373535
+            },
+            {
+                "id": "m.01cx__445",
+                "score": 5.514298915863037
+            },
+            {
+                "id": "m.02f728_23",
+                "score": 5.514297962188721
+            },
+            {
+                "id": "m.01p3jd_105",
+                "score": 5.486100196838379
+            },
+            {
+                "id": "m.0rh6k_2940",
+                "score": 5.472599983215332
+            },
+            {
+                "id": "m.0370f_126",
+                "score": 5.443798065185547
+            },
+            {
+                "id": "m.03cgqrh_2",
+                "score": 5.394599914550781
+            },
+            {
+                "id": "m.0cw10_424",
+                "score": 5.383900165557861
+            },
+            {
+                "id": "m.0kn4c_112",
+                "score": 5.383899211883545
+            },
+            {
+                "id": "m.0306c6_29",
+                "score": 5.378200054168701
+            },
+            {
+                "id": "m.0306c6_30",
+                "score": 5.318999767303467
+            },
+            {
+                "id": "m.0370f_125",
+                "score": 5.311600208282471
+            },
+            {
+                "id": "m.01p3jd_51",
+                "score": 5.293300151824951
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "tat_1771_0",
+                "score": 0.7160592079162598
+            },
+            {
+                "id": "tat_302_1",
+                "score": 0.7131074666976929
+            },
+            {
+                "id": "tat_302_2",
+                "score": 0.704818844795227
+            },
+            {
+                "id": "tat_99_0",
+                "score": 0.7019315958023071
+            },
+            {
+                "id": "tat_302_0",
+                "score": 0.6969218254089355
+            },
+            {
+                "id": "tat_163_0",
+                "score": 0.6885141730308533
+            },
+            {
+                "id": "triviaqa_1735_179",
+                "score": 0.6756400465965271
+            },
+            {
+                "id": "tat_949_1",
+                "score": 0.6733225584030151
+            },
+            {
+                "id": "tat_1206_4",
+                "score": 0.6707310676574707
+            },
+            {
+                "id": "tat_632_1",
+                "score": 0.6680284738540649
+            },
+            {
+                "id": "tat_2133_3",
+                "score": 0.6656609177589417
+            },
+            {
+                "id": "tat_2133_2",
+                "score": 0.6635364890098572
+            },
+            {
+                "id": "tat_72_3",
+                "score": 0.6634877324104309
+            },
+            {
+                "id": "nq_192654_7",
+                "score": 0.6619443297386169
+            },
+            {
+                "id": "tat_2020_0",
+                "score": 0.6607739329338074
+            },
+            {
+                "id": "tat_2133_1",
+                "score": 0.6599662899971008
+            },
+            {
+                "id": "triviaqa_57345_237",
+                "score": 0.6584740877151489
+            },
+            {
+                "id": "tat_632_0",
+                "score": 0.6577911376953125
+            },
+            {
+                "id": "tat_2056_0",
+                "score": 0.6575245261192322
+            },
+            {
+                "id": "tat_99_1",
+                "score": 0.6552664041519165
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "tat_99_0",
+                "score": 0.7019315958023071
+            },
+            {
+                "id": "tat_99_1",
+                "score": 0.6552664041519165
+            }
+        ],
+        "BGE_tat_documents": [
+            {
+                "id": "tat_1771_0",
+                "score": 0.7160592079162598
+            },
+            {
+                "id": "tat_302_1",
+                "score": 0.7131074666976929
+            },
+            {
+                "id": "tat_302_2",
+                "score": 0.704818844795227
+            },
+            {
+                "id": "tat_99_0",
+                "score": 0.7019315958023071
+            },
+            {
+                "id": "tat_302_0",
+                "score": 0.6969218254089355
+            },
+            {
+                "id": "tat_163_0",
+                "score": 0.6885141730308533
+            },
+            {
+                "id": "tat_949_1",
+                "score": 0.6733225584030151
+            },
+            {
+                "id": "tat_1206_4",
+                "score": 0.6707310676574707
+            },
+            {
+                "id": "tat_632_1",
+                "score": 0.6680284738540649
+            },
+            {
+                "id": "tat_2133_3",
+                "score": 0.6656609177589417
+            }
+        ],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_18493_1",
+                "score": 0.5645666718482971
+            },
+            {
+                "id": "ott_15304_1",
+                "score": 0.5645666718482971
+            },
+            {
+                "id": "ott_29234_7",
+                "score": 0.5557286739349365
+            },
+            {
+                "id": "ott_36002_7",
+                "score": 0.5557286739349365
+            },
+            {
+                "id": "ott_10925_7",
+                "score": 0.5557286739349365
+            },
+            {
+                "id": "ott_39378_7",
+                "score": 0.5557286739349365
+            },
+            {
+                "id": "ott_29234_4",
+                "score": 0.5547574758529663
+            },
+            {
+                "id": "ott_10925_4",
+                "score": 0.5547574758529663
+            },
+            {
+                "id": "ott_36002_4",
+                "score": 0.5547574758529663
+            },
+            {
+                "id": "ott_39378_4",
+                "score": 0.5547574758529663
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_192654_7",
+                "score": 0.6619443297386169
+            },
+            {
+                "id": "nq_233582_52",
+                "score": 0.6541332602500916
+            },
+            {
+                "id": "nq_51492_13",
+                "score": 0.653377890586853
+            },
+            {
+                "id": "nq_192654_6",
+                "score": 0.6507763266563416
+            },
+            {
+                "id": "nq_233582_71",
+                "score": 0.6445565819740295
+            },
+            {
+                "id": "nq_192654_10",
+                "score": 0.6442567110061646
+            },
+            {
+                "id": "nq_546_79",
+                "score": 0.6435866951942444
+            },
+            {
+                "id": "nq_35048_79",
+                "score": 0.6435866951942444
+            },
+            {
+                "id": "nq_260196_14",
+                "score": 0.6403278112411499
+            },
+            {
+                "id": "nq_233582_78",
+                "score": 0.6384059190750122
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_1735_179",
+                "score": 0.6756400465965271
+            },
+            {
+                "id": "triviaqa_57345_237",
+                "score": 0.6584740877151489
+            },
+            {
+                "id": "triviaqa_42221_21",
+                "score": 0.6393555402755737
+            },
+            {
+                "id": "triviaqa_75734_13",
+                "score": 0.6293243765830994
+            },
+            {
+                "id": "triviaqa_75385_388",
+                "score": 0.6292567849159241
+            },
+            {
+                "id": "triviaqa_75385_389",
+                "score": 0.6270342469215393
+            },
+            {
+                "id": "triviaqa_75385_142",
+                "score": 0.6261376142501831
+            },
+            {
+                "id": "triviaqa_75385_69",
+                "score": 0.6258562207221985
+            },
+            {
+                "id": "triviaqa_22129_6",
+                "score": 0.6241464614868164
+            },
+            {
+                "id": "triviaqa_75385_402",
+                "score": 0.6237198114395142
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.01dw03_387",
+                "score": 0.575950562953949
+            },
+            {
+                "id": "m.0nl5g33_12",
+                "score": 0.5756378769874573
+            },
+            {
+                "id": "m.05tl03_9",
+                "score": 0.5749981999397278
+            },
+            {
+                "id": "m.01xbxn_31",
+                "score": 0.5738586187362671
+            },
+            {
+                "id": "m.013q3z_20",
+                "score": 0.5727541446685791
+            },
+            {
+                "id": "m.035nm_34",
+                "score": 0.57268887758255
+            },
+            {
+                "id": "m.012vtfpw_52",
+                "score": 0.5690476894378662
+            },
+            {
+                "id": "m.0fr0pgw_28",
+                "score": 0.5651970505714417
+            },
+            {
+                "id": "m.0fr0pgw_32",
+                "score": 0.5621528029441833
+            },
+            {
+                "id": "m.07cx4_15",
+                "score": 0.560032069683075
+            },
+            {
+                "id": "m.04306rv_14948",
+                "score": 0.5591750741004944
+            },
+            {
+                "id": "m.01d9r3_679",
+                "score": 0.5589203834533691
+            },
+            {
+                "id": "m.02hwyss_4817",
+                "score": 0.5587247014045715
+            },
+            {
+                "id": "m.01wg25j_731",
+                "score": 0.5584337115287781
+            },
+            {
+                "id": "m.01d9r3_178",
+                "score": 0.558230459690094
+            },
+            {
+                "id": "m.01gtps_282",
+                "score": 0.5569388270378113
+            },
+            {
+                "id": "m.01xbxn_41",
+                "score": 0.5568122863769531
+            },
+            {
+                "id": "m.01d9r3_384",
+                "score": 0.5565184354782104
+            },
+            {
+                "id": "m.01d9r3_176",
+                "score": 0.5559706091880798
+            },
+            {
+                "id": "m.018wl5_213",
+                "score": 0.5553002953529358
+            }
+        ],
+        "llm_mark_result": {
+            "m.0nl5g33_12": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer indicates that the decline was driven primarily by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document appears to be a fragment or metadata related to a recording titled 'Down the Drain', with no clear content about Systems Hardware or revenue declines.",
+                "Document and Query Keywords Matching": "None of the query keywords ('caused', 'Systems Hardware', 'revenue', 'decline') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('driven', 'declines', 'Power Systems', 'Storage Systems') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the reasons for the revenue decline.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query and answer. It appears to be metadata for a recording, which has no relevance to the topic of Systems Hardware revenue decline. Therefore, it is judged as irrelevant."
+            },
+            "tat_99_1": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer indicates that the decline was driven primarily by decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides detailed information about the performance of various systems, including mainframe product cycles, Power Systems, Storage Systems, and cloud revenue. It mentions specific product cycles (z14 and z15), performance metrics, and reasons for revenue changes.",
+                "Document and Query Keywords Matching": "The document mentions 'Power Systems' and 'Storage Systems', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly discusses the decline in Power Systems and Storage Systems revenue, matching the answer keywords.",
+                "Key Information Matching": "The document provides specific reasons for the decline in Power Systems and Storage Systems revenue, which directly address the query's focus on the causes of revenue decline.",
+                "Can the Document Answer the Query": "Yes, the document directly explains the reasons for the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers detailed context and additional information about the performance and trends in different system segments.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly addresses the causes of the decline in Systems Hardware revenue by providing specific details about the performance of Power Systems and Storage Systems. It not only matches the query and answer keywords but also offers comprehensive context that enhances understanding of the revenue decline."
+            },
+            "triviaqa_21318_4": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline is primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides an overview of IBM's history, its transition from hardware to software and services, and its shift towards cloud-based services and cognitive computing. It also mentions IBM's revenue decline over several quarters.",
+                "Document and Query Keywords Matching": "The document mentions 'hardware', 'revenue decline', and 'IBM', which is relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not specifically mention 'Power Systems' or 'Storage Systems'.",
+                "Key Information Matching": "The document discusses IBM's shift away from hardware and its revenue decline, which are related to the query's focus on hardware revenue decline.",
+                "Can the Document Answer the Query": "No, the document does not provide specific reasons related to Power Systems and Storage Systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about IBM's overall shift away from hardware, which can help infer broader reasons for the revenue decline.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about IBM's transition away from hardware and its general revenue decline, but it lacks specific details about the decline in Power Systems and Storage Systems."
+            },
+            "m.01dw03_387": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline is primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document appears to be a list of Wikipedia page keys related to semi-presidential systems in various languages. It does not contain any information about Systems Hardware, revenue, or related topics.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Systems Hardware', 'revenue', 'decline', 'cause') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely unrelated to the topic of Systems Hardware revenue.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the reasons for the revenue decline.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It focuses on semi-presidential systems and does not provide any information about Systems Hardware, revenue, or the reasons for any declines. Therefore, it is deemed irrelevant."
+            },
+            "tat_302_2": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses the financial performance of a hardware segment, specifically noting a decrease in total hardware revenues in fiscal 2019 compared to fiscal 2018. It attributes this decline to lower hardware products revenues and reduced sales volumes of certain hardware product lines, influenced by a focus on cloud-based infrastructure technologies. It also mentions certain hardware revenue increases related to Oracle Engineered Systems offerings.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'hardware revenues', 'decrease', and 'reduced sales volumes', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Power Systems' or 'Storage Systems', but it discusses declines in hardware products revenues, which could be related.",
+                "Key Information Matching": "The document provides information about the decline in hardware revenues and the reasons behind it, such as reduced sales volumes and a shift to cloud-based technologies, which are relevant to understanding the decline in Systems Hardware revenue.",
+                "Can the Document Answer the Query": "No, the document does not specifically mention Power Systems and Storage Systems as the causes of the decline.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the general decline in hardware revenues and the reasons, which can help infer broader trends affecting Systems Hardware revenue.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about the decline in hardware revenues and reasons for it, which can help infer additional information related to the query. However, it lacks specific details about Power Systems and Storage Systems, making it unable to directly answer the query."
+            },
+            "nq_88492_10": {
+                "Query Analysis": "The query seeks to understand the factors that led to a decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses the history of free and open-source software, the evolution of software copyright, and the impact of software licensing on the software industry. It also mentions the relationship between hardware and software costs and the IBM antitrust suit.",
+                "Document and Query Keywords Matching": "The document does not mention 'Systems Hardware', 'revenue', or 'decline' in the context of the query.",
+                "Document and Answer Keywords Matching": "The document does not contain any direct references to 'Power Systems' or 'Storage Systems'.",
+                "Key Information Matching": "The document provides historical context on software and hardware but does not address specific causes of revenue decline in Systems Hardware.",
+                "Can the Document Answer the Query": "No, the document does not provide information directly related to the cause of Systems Hardware revenue decline.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's focus on software history and licensing does not offer relevant insights into hardware revenue dynamics.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is unrelated to the query as it focuses on the history and evolution of software and its licensing, rather than the specific causes of revenue decline in Systems Hardware. It lacks any direct or indirect information that could help answer the query or provide relevant context."
+            },
+            "m.0rh6k_1413": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document lists various publications and their places of publication, all of which are in Washington, D.C. It also includes some personal information like places of birth and death for certain individuals.",
+                "Document and Query Keywords Matching": "None of the keywords from the query (Systems Hardware, revenue, decline, cause) are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer (Power Systems, Storage Systems) are found in the document.",
+                "Key Information Matching": "There is no key information related to Systems Hardware, revenue, or any business-related declines in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information related to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on publication locations and personal information, which have no relevance to the topic of Systems Hardware revenue decline. Therefore, it is judged as irrelevant."
+            },
+            "tat_99_0": {
+                "Query Analysis": "The query seeks to understand the factors that led to a decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline in Systems Hardware revenue was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides detailed financial data and explanations for the revenue changes in various segments of Systems Hardware, including IBM Z, Power Systems, and Storage Systems. It includes year-to-year percentage changes and specific reasons for the declines.",
+                "Document and Query Keywords Matching": "The document mentions 'Systems Hardware', 'revenue', and 'decline'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that the decline in Systems Hardware revenue was 'driven primarily by declines in Power Systems and Storage Systems', which matches the answer.",
+                "Key Information Matching": "The document directly addresses the causes of the revenue decline in Systems Hardware, aligning with the query's focus on understanding these causes.",
+                "Can the Document Answer the Query": "Yes, the document provides a direct answer to the query by explaining the reasons for the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers detailed context and additional reasons for the declines in specific segments, enhancing the understanding of the overall revenue decline.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it not only directly answers the query by specifying the causes of the revenue decline in Systems Hardware but also provides additional context and details that enrich the understanding of the situation."
+            },
+            "tat_1771_0": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides detailed financial data for different segments under Systems, including year-to-year percentage changes. It also includes explanatory paragraphs discussing the performance of various systems like IBM Z, Power Systems, and Storage Systems.",
+                "Document and Query Keywords Matching": "The document mentions 'Systems Hardware' and discusses revenue changes.",
+                "Document and Answer Keywords Matching": "The document includes specific mentions of 'Power Systems' and 'Storage Systems' and their performance.",
+                "Key Information Matching": "The document explains that Systems Hardware revenue declined due to continued price pressures impacting Storage Systems and strong performance in Power Systems partially offsetting the decline.",
+                "Can the Document Answer the Query": "Yes, the document provides specific reasons for the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it offers detailed context on the performance of different segments within Systems Hardware.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly addresses the reasons for the decline in Systems Hardware revenue, aligning closely with the query and providing substantial context and detailed information that enhances understanding of the situation."
+            },
+            "nq_192654_7": {
+                "Query Analysis": "The query is seeking reasons for the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses issues related to hardware failures in Xbox 360 consoles, specifically mentioning problems with solder, GPU heat, and failure rates. It also touches on the financial impact of addressing these hardware issues and the extended warranty provided by Microsoft.",
+                "Document and Query Keywords Matching": "The document mentions 'hardware' and 'failure', which are somewhat related to 'Systems Hardware'. However, it does not explicitly mention 'revenue' or 'decline'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Power Systems' or 'Storage Systems'.",
+                "Key Information Matching": "While the document discusses hardware issues and their financial implications, it does not directly address the specific causes of revenue decline in Power Systems and Storage Systems.",
+                "Can the Document Answer the Query": "No, the document does not provide direct information about the causes of revenue decline in Systems Hardware.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially. The document discusses hardware failures and their financial impact, which could be tangentially related to issues in Systems Hardware, but it does not specifically address Power Systems or Storage Systems.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses hardware issues and financial impacts, which could be broadly relevant to Systems Hardware. However, it lacks specific details about Power Systems and Storage Systems, making it only partially relevant."
+            },
+            "triviaqa_1735_179": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline is primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses issues related to sales and marketing failures, customer service stress, and the challenges of transitioning from a state-run monopoly to a profit-making company in a deregulated industry. It also mentions customer misunderstandings and international usage complexities.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'Systems Hardware', 'revenue', or 'decline'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Power Systems' or 'Storage Systems'.",
+                "Key Information Matching": "The document discusses broader issues related to sales, marketing, and customer service, but does not directly address hardware systems or revenue declines.",
+                "Can the Document Answer the Query": "No, the document does not provide specific reasons for the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's focus on sales and marketing issues does not provide relevant context for understanding hardware revenue declines.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is unrelated to the specific query about Systems Hardware revenue decline. It discusses general sales and marketing challenges and customer service issues, which do not provide any useful context or additional information relevant to the query."
+            },
+            "ott_34071_1": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline in revenue is primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides information about various firewall appliances, their proprietary status, included features, and the operating systems they are based on. It includes a general description of what a firewall appliance is and different types of firewall appliances.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Systems Hardware', 'revenue', 'decline', 'cause') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems', 'declines') are found in the document.",
+                "Key Information Matching": "There is no matching key information between the query, answer, and the document content. The document focuses on firewall appliances, which is unrelated to the query about Systems Hardware revenue decline.",
+                "Can the Document Answer the Query": "No, the document does not provide any information related to the cause of revenue decline in Systems Hardware.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the reasons for the revenue decline in Systems Hardware.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses firewall appliances, which has no connection to the topic of Systems Hardware revenue decline. Therefore, it cannot provide any useful context or additional information relevant to the query."
+            },
+            "tat_302_1": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer indicates that the decline is primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides detailed information about the hardware business, including revenue sources, recognition methods, sales channels, and operating expenses. It also explains the reasons for the decrease in total hardware revenues in fiscal 2019 compared to fiscal 2018, highlighting the shift towards cloud-based infrastructure technologies and its impact on hardware product lines and support contracts.",
+                "Document and Query Keywords Matching": "The document mentions 'hardware revenues' and 'decrease', which are directly related to the query keywords 'Systems Hardware' and 'revenue decline'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Power Systems' and 'Storage Systems', but it discusses the decline in hardware products revenues, which could include these systems.",
+                "Key Information Matching": "The document explains the reasons for the decline in hardware revenues, which aligns with the query's focus on understanding the cause of the revenue decline.",
+                "Can the Document Answer the Query": "Yes, the document provides specific reasons for the decline in hardware revenues, which can be inferred to include Systems Hardware.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers detailed context on the factors contributing to the revenue decline, such as the shift to cloud-based technologies and its impact on hardware sales.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant as it provides substantial context and specific reasons for the decline in hardware revenues, which can be directly linked to the query about Systems Hardware revenue decline. Although it does not explicitly mention 'Power Systems' and 'Storage Systems', the overall explanation of the revenue decline is highly pertinent."
+            },
+            "m.07_m9__165": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline in revenue was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides extensive information about Adolf Hitler, including his works, connections, and various types of influence he had. It also mentions historical events and his actions during World War II.",
+                "Document and Query Keywords Matching": "None of the keywords from the query (Systems Hardware, revenue, decline, cause) are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer (Power Systems, Storage Systems) are found in the document.",
+                "Key Information Matching": "There is no key information related to Systems Hardware, revenue, or the reasons for any financial decline in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information related to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on historical information about Adolf Hitler and has no relevance to the topic of Systems Hardware revenue decline. Therefore, it is deemed irrelevant."
+            },
+            "tat_1445_0": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer indicates that the decline was driven primarily by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides financial data for the year ended December 31, including gross profit and margin changes for various systems. It also includes two paragraphs explaining changes in gross profit margin and pre-tax income.",
+                "Document and Query Keywords Matching": "The document mentions 'Systems Hardware', 'decline', and 'revenue' in the context of financial performance.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'declines in Power Systems and Storage Systems' in paragraph 2, which directly matches the answer.",
+                "Key Information Matching": "The document discusses the reasons for the decline in pre-tax income and margin, specifically noting the declines in Power Systems and Storage Systems revenue.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying the causes of the revenue decline.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context on the financial performance and actions taken to mitigate the decline.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly addresses the causes of the Systems Hardware revenue decline, matching the query's focus and providing the specific reasons mentioned in the answer."
+            },
+            "tat_302_0": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the revenue decline was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides detailed financial data on hardware revenues and expenses, including percentage changes year-over-year. It also describes the nature of the hardware business, how revenues are generated, and the sales channels used.",
+                "Document and Query Keywords Matching": "The document mentions 'Hardware Revenues' and shows a decline in revenue, which matches the query's focus on revenue decline.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Power Systems' or 'Storage Systems', but it discusses hardware products generally.",
+                "Key Information Matching": "The document provides data on the decline in hardware revenues across different regions and explains the revenue recognition process for hardware products, which is relevant to understanding revenue dynamics.",
+                "Can the Document Answer the Query": "No, the document does not specify the exact causes of the decline in Power Systems and Storage Systems revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context on the overall decline in hardware revenues and the structure of the hardware business, which can help infer broader trends affecting specific product lines.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer why Systems Hardware revenue declined due to Power Systems and Storage Systems, it provides relevant financial data and business context that can help infer broader reasons for the revenue decline. This makes it partially relevant to the query."
+            },
+            "ott_18493_1": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer indicates that the decline was primarily due to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses the history and evolution of television broadcasting standards in Japan, including the transition from analog to digital broadcasts, the impact of the 2011 Tōhoku earthquake and tsunami, and the subscription fees for NHK.",
+                "Document and Query Keywords Matching": "None of the query keywords (Systems Hardware, revenue, decline, cause) are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords (Power Systems, Storage Systems) are found in the document.",
+                "Key Information Matching": "There is no key information in the document that relates to Systems Hardware, revenue, or the reasons for any decline.",
+                "Can the Document Answer the Query": "No, the document does not provide any information related to Systems Hardware revenue or its decline.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is entirely unrelated to the topic of Systems Hardware revenue.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on television broadcasting standards and subscription fees in Japan, which have no connection to the topic of Systems Hardware revenue decline. Therefore, it provides no useful context or additional information to help answer the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0nl5g33_12": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document appears to be a metadata entry or identifier related to a recording titled 'Down the Drain'. It does not contain any substantive information about Systems Hardware, revenue, or the causes of revenue decline.",
+                "Document and Query Keywords Matching": "None of the query keywords ('caused', 'Systems Hardware', 'revenue', 'decline') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems', 'declines') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It lacks any mention of Systems Hardware, revenue, or the factors causing a decline.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that could directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or background information that could help infer the cause of the revenue decline.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Systems Hardware, revenue, or any factors that could explain a decline. Therefore, it is irrelevant to the query and provides no useful context or information."
+            },
+            "tat_99_1": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses revenue trends in IBM's Systems Hardware, specifically mentioning declines in Power Systems and Storage Systems. It also provides context about product cycles, such as the end of the z14 product cycle and the introduction of the z15 mainframe. Additionally, it mentions improvements in Storage Systems performance due to the launch of the DS8900.",
+                "Document and Query Keywords Matching": "The document mentions 'Systems', 'revenue', and 'decline'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Power Systems' and 'Storage Systems', which are directly referenced in the answer.",
+                "Key Information Matching": "The document provides detailed information about the decline in Power Systems and Storage Systems revenue, aligning with the answer. It also explains the impact of product cycles and new product launches on revenue trends.",
+                "Can the Document Answer the Query": "Yes, the document directly explains the causes of the decline in Systems Hardware revenue, specifically mentioning Power Systems and Storage Systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about product cycles and new product launches that influenced revenue trends.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial information about the causes of the decline in Systems Hardware revenue. It not only confirms the answer but also offers additional context about product cycles and new product launches, enhancing understanding of the revenue trends."
+            },
+            "triviaqa_21318_4": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, caused",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides a historical overview of IBM, including its transition from hardware to software and services, and mentions consecutive quarters of revenue declines. However, it does not specifically mention 'Systems Hardware', 'Power Systems', or 'Storage Systems'.",
+                "Document and Query Keywords Matching": "The document mentions 'revenue' and 'declines', but does not explicitly mention 'Systems Hardware'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Power Systems' or 'Storage Systems', which are key components of the answer.",
+                "Key Information Matching": "The document discusses IBM's revenue declines and its shift from hardware to software and services, but it lacks specific details about 'Systems Hardware', 'Power Systems', or 'Storage Systems'.",
+                "Can the Document Answer the Query": "No, the document does not provide specific information about the decline in Systems Hardware revenue or mention Power Systems and Storage Systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, as it provides context about IBM's overall revenue decline and business transition, but it does not directly address the query's focus on Systems Hardware.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some context about IBM's revenue decline and business transition, but it does not directly address the specific cause of the decline in Systems Hardware revenue or mention Power Systems and Storage Systems."
+            },
+            "m.01dw03_387": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, caused",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document contains references to 'Semi-presidential system' in multiple languages, but it does not mention anything related to Systems Hardware, revenue, or the causes of its decline.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Systems Hardware', 'revenue', 'decline', 'caused') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems', 'declines') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Systems Hardware, revenue, or the causes of its decline.",
+                "Can the Document Answer the Query": "No, the document does not contain any information related to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information to infer the cause of the decline in Systems Hardware revenue.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses semi-presidential systems in various languages but does not mention Systems Hardware, revenue, or any related concepts. Therefore, it is irrelevant to the query."
+            },
+            "tat_302_2": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses the decrease in hardware revenues in fiscal 2019 compared to fiscal 2018. It attributes this decrease to lower hardware products revenues and, to a lesser extent, lower hardware support revenues. The document also mentions that the decrease in hardware products revenues was primarily due to the company's emphasis on cloud-based infrastructure technologies, which reduced sales volumes of certain hardware product lines and impacted hardware support contracts. Additionally, it notes that the decrease was partially offset by increases in revenue from Oracle Engineered Systems offerings, primarily Oracle Exadata.",
+                "Document and Query Keywords Matching": "The document mentions 'hardware revenues', 'decrease', and 'decline', which match the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Power Systems' or 'Storage Systems', which are key components of the answer.",
+                "Key Information Matching": "The document provides information about the decline in hardware revenues, attributing it to lower hardware products revenues and the company's focus on cloud-based technologies. However, it does not specifically mention 'Power Systems' or 'Storage Systems' as the primary causes.",
+                "Can the Document Answer the Query": "No, the document does not directly mention 'Power Systems' or 'Storage Systems' as the primary causes of the decline.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the decline in hardware revenues and the factors contributing to it, such as the shift to cloud-based technologies.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some context about the decline in hardware revenues and the factors contributing to it. However, it does not directly address the specific causes mentioned in the answer (Power Systems and Storage Systems). Therefore, it can help infer additional information but does not directly answer the query."
+            },
+            "nq_88492_10": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer states that the decline was driven primarily by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses the history of free and open-source software, including the initial decline of free software, changes in software production costs, and the impact of software licensing on the industry. It mentions the growing software industry, competition with hardware manufacturers, and the antitrust suit against IBM.",
+                "Document and Query Keywords Matching": "The document does not mention 'Systems Hardware', 'revenue', or 'decline' directly.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Power Systems' or 'Storage Systems'.",
+                "Key Information Matching": "The document does not provide any direct information about the decline in Systems Hardware revenue or the specific causes mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the cause of the decline in Systems Hardware revenue.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the history of free and open-source software and does not mention Systems Hardware, revenue decline, or the specific causes of such a decline. Therefore, it is irrelevant to the query."
+            },
+            "m.0rh6k_1413": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, caused",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document contains a list of publications and their details, primarily focusing on places of publication, birth, and death, as well as street addresses and other unrelated information. There is no mention of Systems Hardware, revenue, Power Systems, or Storage Systems.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Systems Hardware', 'revenue', 'decline', 'caused') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Systems Hardware, revenue decline, Power Systems, or Storage Systems.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the reasons for the decline in Systems Hardware revenue.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Systems Hardware, revenue, Power Systems, or Storage Systems, nor does it provide any context or information that could assist in answering the query. Therefore, it is deemed irrelevant."
+            },
+            "tat_99_0": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides detailed financial data and explanations for the decline in Systems Hardware revenue, specifically mentioning declines in Power Systems and Storage Systems. It also discusses the performance of IBM Z and the impact of product cycles.",
+                "Document and Query Keywords Matching": "The document mentions 'Systems Hardware', 'revenue', and 'decline'.",
+                "Document and Answer Keywords Matching": "The document includes 'Power Systems' and 'Storage Systems', which are mentioned in the answer as the primary causes of the decline.",
+                "Key Information Matching": "The document directly addresses the query by explaining that the decline in Systems Hardware revenue was driven by declines in Power Systems and Storage Systems, which matches the answer provided.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by explaining the causes of the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the performance of IBM Z and the impact of product cycles, which could be useful for a deeper understanding of the revenue decline.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It explains the causes of the decline in Systems Hardware revenue and provides additional details about related systems and their performance."
+            },
+            "tat_1771_0": {
+                "Query Analysis": "The query seeks to understand the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer attributes the decline in Systems Hardware revenue primarily to declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides financial data and analysis related to Systems revenue, including Systems Hardware, IBM Z, Power Systems, and Storage Systems. It mentions year-to-year changes in revenue and factors influencing these changes, such as strong IBM Z performance in 2017, price pressures on Storage Systems, and growth in Power Systems.",
+                "Document and Query Keywords Matching": "The document mentions 'Systems Hardware', 'revenue', and 'decline'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Power Systems' and 'Storage Systems', which are key components of the answer.",
+                "Key Information Matching": "The document provides detailed information about the decline in Systems Hardware revenue, attributing it to declines in Power Systems and Storage Systems, which aligns with the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly explains the causes of the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the performance of Power Systems and Storage Systems, as well as other factors affecting Systems revenue.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It explains the decline in Systems Hardware revenue and attributes it to specific factors, aligning with the provided answer."
+            },
+            "nq_192654_7": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, caused",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses issues related to hardware failures in Xbox 360 consoles, including general hardware failures, disc read errors, video card failures, hard drive freezes, power issues, and disc tray malfunctions. It also mentions the financial impact of these issues and Microsoft's response to them.",
+                "Document and Query Keywords Matching": "The document mentions 'hardware' and 'failure', which are related to 'Systems Hardware' and 'decline'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Power Systems' or 'Storage Systems', which are key components of the answer.",
+                "Key Information Matching": "The document discusses hardware failures and their financial impact, which is somewhat related to the query about revenue decline in Systems Hardware. However, it does not specifically address Power Systems or Storage Systems.",
+                "Can the Document Answer the Query": "No, the document does not directly address the decline in Systems Hardware revenue or mention Power Systems and Storage Systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, as it provides context about hardware failures and their financial implications, which could be tangentially related to revenue decline in hardware systems.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses hardware failures and their financial impact, which could be related to the query about revenue decline in Systems Hardware. However, it does not directly address the specific causes mentioned in the answer (Power Systems and Storage Systems), nor does it provide a clear link to the query's focus on revenue decline."
+            },
+            "triviaqa_1735_179": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses issues related to customer service, sales, and marketing, particularly in the context of enterprise tools (software, hardware). It mentions challenges such as undertrained sales staff, unrealistic sales quotas, and incomplete understanding of product capabilities. However, it does not specifically mention Systems Hardware, Power Systems, or Storage Systems.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'Systems Hardware', 'revenue', or 'decline'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Power Systems' or 'Storage Systems'.",
+                "Key Information Matching": "The document discusses general issues in sales and marketing that could potentially affect revenue, but it does not provide specific information about Systems Hardware or the factors mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not directly address the decline in Systems Hardware revenue or mention Power Systems and Storage Systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any specific information that could help infer the causes of the decline in Systems Hardware revenue.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not mention Systems Hardware, Power Systems, Storage Systems, or any specific causes of revenue decline. It focuses on general sales and marketing issues, which are not directly tied to the query."
+            },
+            "ott_34071_1": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides a comparison of notable firewall appliances, including their types, licensing, and operating systems. It does not mention Systems Hardware, Power Systems, Storage Systems, or any revenue-related information.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Systems Hardware', 'revenue', 'decline', 'cause') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Systems Hardware, revenue decline, Power Systems, or Storage Systems.",
+                "Can the Document Answer the Query": "No, the document does not address the query about the cause of the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the cause of the decline.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses firewall appliances and does not mention Systems Hardware, revenue, or the specific systems (Power Systems and Storage Systems) cited in the answer. Therefore, it is irrelevant to the query."
+            },
+            "tat_302_1": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses the hardware business, including revenue generation from Oracle Engineered Systems, server, storage, and industry-specific hardware products. It mentions that hardware revenues decreased in fiscal 2019 due to lower hardware products revenues and, to a lesser extent, lower hardware support revenues. The decrease was primarily due to the company's emphasis on cloud-based infrastructure technologies, which reduced sales volumes of certain hardware product lines and impacted hardware support contracts.",
+                "Document and Query Keywords Matching": "The document mentions 'hardware', 'revenue', and 'decline'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Power Systems' or 'Storage Systems', but it does discuss declines in hardware product revenues and support revenues.",
+                "Key Information Matching": "The document provides information about the decline in hardware revenues, attributing it to the company's focus on cloud-based infrastructure technologies, which aligns with the query's focus on the causes of revenue decline.",
+                "Can the Document Answer the Query": "No, the document does not directly mention 'Power Systems' or 'Storage Systems' as the primary causes of the decline.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the decline in hardware revenues, which can help infer the reasons behind the decline, even though it does not explicitly mention 'Power Systems' or 'Storage Systems'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some context about the decline in hardware revenues, which is related to the query. However, it does not directly address the specific causes mentioned in the answer ('Power Systems' and 'Storage Systems')."
+            },
+            "m.07_m9__165": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document contains information about Adolf Hitler, including his works, connections, sentences, and historical events related to him. There is no mention of Systems Hardware, revenue, or any related topics.",
+                "Document and Query Keywords Matching": "None of the query keywords ('caused', 'Systems Hardware', 'revenue', 'decline') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems', 'declines') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Systems Hardware, revenue, or the causes of its decline.",
+                "Can the Document Answer the Query": "No, the document does not contain any information related to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the cause of the decline in Systems Hardware revenue.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Adolf Hitler and historical events but does not mention Systems Hardware, revenue, or any related topics. Therefore, it is irrelevant to the query."
+            },
+            "tat_1445_0": {
+                "Query Analysis": "The query asks for the cause of the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides financial data and analysis related to Systems Hardware, including gross profit margins, pre-tax income, and pre-tax margins. It mentions that pre-tax income declined by 22.4% and pre-tax margin decreased by 1.8 points, driven by declines in Power Systems and Storage Systems revenue.",
+                "Document and Query Keywords Matching": "The document mentions 'Systems Hardware', 'revenue', and 'decline'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Power Systems' and 'Storage Systems', which are key components of the answer.",
+                "Key Information Matching": "The document directly addresses the decline in Systems Hardware revenue, attributing it to declines in Power Systems and Storage Systems, which matches the answer provided.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the decline in Systems Hardware revenue was driven by declines in Power Systems and Storage Systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the financial performance and factors contributing to the decline.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It explains the cause of the decline in Systems Hardware revenue, matching the answer provided."
+            },
+            "tat_302_0": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "caused, Systems Hardware, revenue, decline",
+                "Answer Analysis": "The answer states that the decline was primarily driven by declines in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document provides detailed financial data about hardware revenues, including year-over-year percentage changes, total revenues, expenses, and margins. It also describes the nature of the hardware business, including revenue generation from Oracle Engineered Systems, server, storage, and industry-specific hardware products.",
+                "Document and Query Keywords Matching": "The document mentions 'Hardware Revenues', 'decline', and 'Systems' (implied in the context of hardware products).",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Power Systems' or 'Storage Systems', but it discusses hardware products and their revenues, which are related to the answer.",
+                "Key Information Matching": "The document provides detailed information about the decline in hardware revenues, including percentage changes and regional breakdowns, which aligns with the query's focus on revenue decline. However, it does not explicitly mention Power Systems or Storage Systems.",
+                "Can the Document Answer the Query": "No, the document does not directly state the causes of the decline in Systems Hardware revenue.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed financial data and context about the hardware business, which could help infer reasons for the revenue decline.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides detailed financial data and context about the hardware business, which could help infer reasons for the revenue decline. However, it does not directly address the specific causes mentioned in the answer (Power Systems and Storage Systems)."
+            },
+            "ott_18493_1": {
+                "Query Analysis": "The query asks for the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, caused",
+                "Answer Analysis": "The answer attributes the decline primarily to decreases in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document discusses the history of television broadcasting in Japan, including the transition from analog to digital broadcasts, NHK subscription fees, and the impact of the 2011 Tōhoku earthquake and tsunami on broadcasting. There is no mention of Systems Hardware, revenue, or related topics.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Systems Hardware', 'revenue', 'decline', 'caused') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Power Systems', 'Storage Systems', 'declines') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Systems Hardware, revenue decline, or the factors mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not address the query at all.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information to infer the causes of the revenue decline.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, providing no information about Systems Hardware, revenue, or the factors causing its decline. It does not assist in answering the query or inferring additional relevant information."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0nl5g33_12": {},
+            "tat_99_1": {},
+            "triviaqa_21318_4": {},
+            "m.01dw03_387": {},
+            "tat_302_2": {},
+            "nq_88492_10": {},
+            "m.0rh6k_1413": {},
+            "tat_99_0": {},
+            "tat_1771_0": {},
+            "nq_192654_7": {},
+            "triviaqa_1735_179": {},
+            "ott_34071_1": {},
+            "tat_302_1": {
+                "Query Analysis": "The query seeks to identify the reasons behind the decline in Systems Hardware revenue.",
+                "Query Keywords Extraction": "Systems Hardware, revenue, decline, cause",
+                "Answer Analysis": "The answer attributes the decline to decreases primarily in Power Systems and Storage Systems.",
+                "Document Content Analysis": "The document describes Oracle's hardware business, including the types of hardware products sold, the revenue recognition process, and factors affecting hardware revenue changes between fiscal 2018 and 2019. The document mentions a shift towards cloud-based infrastructure technologies as a contributing factor to reduced hardware product revenue and provides additional information on Oracle Engineered Systems.",
+                "Document and Query Keywords Matching": "The document mentions 'hardware', 'revenue', and 'decrease', which relates to 'decline' in the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Power Systems' or 'Storage Systems', which are part of the answer.",
+                "Key Information Matching": "While the document explains a general reduction in hardware revenue due to a focus on cloud infrastructure, it does not specifically address declines in Power Systems and Storage Systems.",
+                "Can the Document Answer the Query": "No, the document does not directly identify declines in Power Systems and Storage Systems as the causes of the revenue decline.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about a strategic shift affecting hardware revenue but lacks specific details related to Power Systems and Storage Systems.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides context on the overall decline in hardware revenue, mentioning a pivot towards cloud infrastructure. However, it does not address the specific declines in Power Systems and Storage Systems, which limits its ability to fully answer the query. Thus, while the document offers some relevant information, it does not fully relate to the exact question asked, making it partially relevant."
+            },
+            "m.07_m9__165": {},
+            "tat_1445_0": {},
+            "tat_302_0": {},
+            "ott_18493_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_18493_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 0,
+            "tat": 7,
+            "nq": 1,
+            "triviaqa": 1,
+            "ott": 0
+        }
+    }
+}

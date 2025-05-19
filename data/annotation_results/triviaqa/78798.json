@@ -1,0 +1,938 @@
+{
+    "index": 78798,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "In Greek mythology, who was the twin sister of Apollo?",
+        "answer": "Artemis",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_43542_29",
+                "score": 19.42729949951172
+            },
+            {
+                "id": "triviaqa_57907_195",
+                "score": 18.638099670410156
+            },
+            {
+                "id": "triviaqa_65705_1",
+                "score": 18.056699752807617
+            },
+            {
+                "id": "triviaqa_29916_13",
+                "score": 18.013700485229492
+            },
+            {
+                "id": "triviaqa_43542_30",
+                "score": 17.82029914855957
+            },
+            {
+                "id": "triviaqa_38822_49",
+                "score": 17.73979949951172
+            },
+            {
+                "id": "triviaqa_57907_194",
+                "score": 17.241100311279297
+            },
+            {
+                "id": "triviaqa_9333_24",
+                "score": 17.051599502563477
+            },
+            {
+                "id": "triviaqa_9333_23",
+                "score": 16.799400329589844
+            },
+            {
+                "id": "nq_236097_35",
+                "score": 16.76689910888672
+            },
+            {
+                "id": "triviaqa_39859_15",
+                "score": 16.50749969482422
+            },
+            {
+                "id": "nq_203127_14",
+                "score": 16.459699630737305
+            },
+            {
+                "id": "triviaqa_9333_22",
+                "score": 16.43899917602539
+            },
+            {
+                "id": "nq_259943_13",
+                "score": 16.400800704956055
+            },
+            {
+                "id": "triviaqa_9333_21",
+                "score": 16.104400634765625
+            },
+            {
+                "id": "triviaqa_38822_48",
+                "score": 16.020299911499023
+            },
+            {
+                "id": "triviaqa_47656_31",
+                "score": 15.98840045928955
+            },
+            {
+                "id": "triviaqa_29916_15",
+                "score": 15.902099609375
+            },
+            {
+                "id": "triviaqa_72115_32",
+                "score": 15.541399955749512
+            },
+            {
+                "id": "triviaqa_43542_28",
+                "score": 15.474900245666504
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_13552_0",
+                "score": 7.3078999519348145
+            },
+            {
+                "id": "ott_28907_0",
+                "score": 7.307898998260498
+            },
+            {
+                "id": "ott_8306_0",
+                "score": 7.307898044586182
+            },
+            {
+                "id": "ott_17126_0",
+                "score": 6.479400157928467
+            },
+            {
+                "id": "ott_17126_1",
+                "score": 6.47939920425415
+            },
+            {
+                "id": "ott_27431_0",
+                "score": 6.479398250579834
+            },
+            {
+                "id": "ott_27431_1",
+                "score": 6.479397296905518
+            },
+            {
+                "id": "ott_36236_0",
+                "score": 6.479396343231201
+            },
+            {
+                "id": "ott_36236_1",
+                "score": 6.479395389556885
+            },
+            {
+                "id": "ott_38508_0",
+                "score": 6.47939395904541
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_236097_35",
+                "score": 16.76689910888672
+            },
+            {
+                "id": "nq_203127_14",
+                "score": 16.459699630737305
+            },
+            {
+                "id": "nq_259943_13",
+                "score": 16.400800704956055
+            },
+            {
+                "id": "nq_156366_12",
+                "score": 15.359399795532227
+            },
+            {
+                "id": "nq_19591_15",
+                "score": 14.321499824523926
+            },
+            {
+                "id": "nq_280389_12",
+                "score": 14.109100341796875
+            },
+            {
+                "id": "nq_166689_70",
+                "score": 13.791600227355957
+            },
+            {
+                "id": "nq_100462_70",
+                "score": 13.764900207519531
+            },
+            {
+                "id": "nq_203127_126",
+                "score": 13.546600341796875
+            },
+            {
+                "id": "nq_280389_11",
+                "score": 13.531900405883789
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_43542_29",
+                "score": 19.42729949951172
+            },
+            {
+                "id": "triviaqa_57907_195",
+                "score": 18.638099670410156
+            },
+            {
+                "id": "triviaqa_65705_1",
+                "score": 18.056699752807617
+            },
+            {
+                "id": "triviaqa_29916_13",
+                "score": 18.013700485229492
+            },
+            {
+                "id": "triviaqa_43542_30",
+                "score": 17.82029914855957
+            },
+            {
+                "id": "triviaqa_38822_49",
+                "score": 17.73979949951172
+            },
+            {
+                "id": "triviaqa_57907_194",
+                "score": 17.241100311279297
+            },
+            {
+                "id": "triviaqa_9333_24",
+                "score": 17.051599502563477
+            },
+            {
+                "id": "triviaqa_9333_23",
+                "score": 16.799400329589844
+            },
+            {
+                "id": "triviaqa_39859_15",
+                "score": 16.50749969482422
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.031_bc_8",
+                "score": 12.441100120544434
+            },
+            {
+                "id": "m.0bbvfjz_7",
+                "score": 11.283300399780273
+            },
+            {
+                "id": "m.031_bc_28",
+                "score": 10.669500350952148
+            },
+            {
+                "id": "m.031_bc_29",
+                "score": 10.61870002746582
+            },
+            {
+                "id": "m.031_bc_7",
+                "score": 10.575200080871582
+            },
+            {
+                "id": "m.0dczs6_1",
+                "score": 10.111700057983398
+            },
+            {
+                "id": "m.0dczs6_2",
+                "score": 9.685400009155273
+            },
+            {
+                "id": "m.0bbvfjz_20",
+                "score": 9.446599960327148
+            },
+            {
+                "id": "m.0ghqr_100",
+                "score": 8.63949966430664
+            },
+            {
+                "id": "m.0bbvfjz_21",
+                "score": 8.03600025177002
+            },
+            {
+                "id": "m.0bbvfjz_8",
+                "score": 8.035999298095703
+            },
+            {
+                "id": "m.0bbvfjz_10",
+                "score": 8.008899688720703
+            },
+            {
+                "id": "m.029dj8_20",
+                "score": 8.0024995803833
+            },
+            {
+                "id": "m.0bbvfjz_22",
+                "score": 7.878993988037109
+            },
+            {
+                "id": "m.0bbvfjz_6",
+                "score": 7.878993034362793
+            },
+            {
+                "id": "m.029dj8_21",
+                "score": 7.693900108337402
+            },
+            {
+                "id": "m.0ghqr_101",
+                "score": 7.406599998474121
+            },
+            {
+                "id": "m.02rqr_w_10",
+                "score": 7.172800064086914
+            },
+            {
+                "id": "m.027yrxp_10",
+                "score": 7.0183000564575195
+            },
+            {
+                "id": "m.02vgy2_4",
+                "score": 7.018299102783203
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_259943_13",
+                "score": 0.7235875129699707
+            },
+            {
+                "id": "triviaqa_15519_10",
+                "score": 0.7067848443984985
+            },
+            {
+                "id": "triviaqa_43542_29",
+                "score": 0.705345630645752
+            },
+            {
+                "id": "nq_203127_14",
+                "score": 0.7045092582702637
+            },
+            {
+                "id": "triviaqa_9333_23",
+                "score": 0.6914824843406677
+            },
+            {
+                "id": "triviaqa_63729_87",
+                "score": 0.6831710934638977
+            },
+            {
+                "id": "nq_120117_14",
+                "score": 0.6816257834434509
+            },
+            {
+                "id": "triviaqa_27170_564",
+                "score": 0.6806710958480835
+            },
+            {
+                "id": "triviaqa_43542_42",
+                "score": 0.6777486205101013
+            },
+            {
+                "id": "triviaqa_75175_47",
+                "score": 0.6764016151428223
+            },
+            {
+                "id": "triviaqa_5696_102",
+                "score": 0.6730304956436157
+            },
+            {
+                "id": "triviaqa_12314_4",
+                "score": 0.6720463633537292
+            },
+            {
+                "id": "triviaqa_12314_3",
+                "score": 0.6696649789810181
+            },
+            {
+                "id": "nq_120117_13",
+                "score": 0.6689971089363098
+            },
+            {
+                "id": "triviaqa_27170_563",
+                "score": 0.6681163907051086
+            },
+            {
+                "id": "triviaqa_9333_24",
+                "score": 0.6664183139801025
+            },
+            {
+                "id": "triviaqa_15188_26",
+                "score": 0.664776623249054
+            },
+            {
+                "id": "triviaqa_15188_27",
+                "score": 0.6647537350654602
+            },
+            {
+                "id": "triviaqa_46955_19",
+                "score": 0.6636314988136292
+            },
+            {
+                "id": "triviaqa_8564_9",
+                "score": 0.663275957107544
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_259943_13",
+                "score": 0.7235875129699707
+            },
+            {
+                "id": "nq_203127_14",
+                "score": 0.7045092582702637
+            },
+            {
+                "id": "nq_120117_14",
+                "score": 0.6816257834434509
+            },
+            {
+                "id": "nq_120117_13",
+                "score": 0.6689971089363098
+            },
+            {
+                "id": "nq_19591_14",
+                "score": 0.6598698496818542
+            },
+            {
+                "id": "nq_96741_2",
+                "score": 0.658778727054596
+            },
+            {
+                "id": "nq_19591_15",
+                "score": 0.6575570702552795
+            },
+            {
+                "id": "nq_259943_14",
+                "score": 0.6508551836013794
+            },
+            {
+                "id": "nq_203127_11",
+                "score": 0.6490783095359802
+            },
+            {
+                "id": "nq_259943_12",
+                "score": 0.6485162973403931
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_15519_10",
+                "score": 0.7067848443984985
+            },
+            {
+                "id": "triviaqa_43542_29",
+                "score": 0.705345630645752
+            },
+            {
+                "id": "triviaqa_9333_23",
+                "score": 0.6914824843406677
+            },
+            {
+                "id": "triviaqa_63729_87",
+                "score": 0.6831710934638977
+            },
+            {
+                "id": "triviaqa_27170_564",
+                "score": 0.6806710958480835
+            },
+            {
+                "id": "triviaqa_43542_42",
+                "score": 0.6777486205101013
+            },
+            {
+                "id": "triviaqa_75175_47",
+                "score": 0.6764016151428223
+            },
+            {
+                "id": "triviaqa_5696_102",
+                "score": 0.6730304956436157
+            },
+            {
+                "id": "triviaqa_12314_4",
+                "score": 0.6720463633537292
+            },
+            {
+                "id": "triviaqa_12314_3",
+                "score": 0.6696649789810181
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0ghqr_101",
+                "score": 0.5838346481323242
+            },
+            {
+                "id": "m.0ghqr_57",
+                "score": 0.5784847736358643
+            },
+            {
+                "id": "m.02p_2yr_2",
+                "score": 0.5773337483406067
+            }
+        ],
+        "llm_mark_result": {
+            "m.0ghqr_57": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known as the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses the Roman myth of Romulus and Remus, the twin brothers who founded Rome. It details their origins, their mother Rhea Silvia, their abandonment, and their eventual rise to power. The document also mentions the involvement of the gods Mars and Hercules.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'Greek mythology', 'twin sister', or 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Artemis'.",
+                "Key Information Matching": "There is no key information related to Greek mythology, Apollo, or Artemis in the document. The document focuses solely on Roman mythology and the story of Romulus and Remus.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Greek mythology or the characters related to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about Greek mythology or the relationship between Apollo and Artemis.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Roman mythology and the story of Romulus and Remus, which is unrelated to the query about Greek mythology and Apollo's twin sister. There is no overlap in key information, and thus the document is irrelevant to the query."
+            },
+            "nq_259943_13": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that Artemis is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about Apollo and Artemis, including their roles, symbols, and familial relationships. It mentions that Apollo is the son of Zeus and Leto and is the twin brother of Artemis. It also describes Artemis as the daughter of Zeus and Leto and the twin sister of Apollo.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'twin brother', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis' and explicitly states that she is the twin sister of Apollo.",
+                "Key Information Matching": "The document directly states that Artemis is the twin sister of Apollo, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the familial relationships and roles of Apollo and Artemis.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Artemis is the twin sister of Apollo, providing a direct answer to the query. Additionally, it offers further context about their roles and familial relationships, enhancing the understanding of the topic."
+            },
+            "m.031_bc_8": {
+                "Query Analysis": "The query seeks to identify the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known as the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses the opera 'Apollo et Hyacinthus' by Wolfgang Amadeus Mozart, which is based on Greek mythology as told by Roman poet Ovid in his work 'Metamorphoses'. It mentions the myth of Hyacinth and Apollo, including the involvement of the wind god Zephyrus. The document also notes modifications made to the original myth by the librettist Rufinus Widl.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'Greek mythology'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Artemis'.",
+                "Key Information Matching": "While the document discusses Apollo and Greek mythology, it does not provide information about Apollo's siblings or specifically mention Artemis.",
+                "Can the Document Answer the Query": "No, the document does not provide the information needed to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any additional information that could help infer the identity of Apollo's twin sister.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily focused on the opera 'Apollo et Hyacinthus' and its adaptation of Greek mythology, but it does not provide any relevant information about Apollo's family, including his twin sister. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_43542_30": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known as the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about various figures in Greek mythology, including their roles, relationships, and Roman equivalents. It mentions Artemis, describing her as the goddess of the hunt, daughter of Zeus and Leto, and the twin sister of Apollo.",
+                "Document and Query Keywords Matching": "The document mentions 'Greek mythology', 'Artemis', and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Artemis is the twin sister of Apollo, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Artemis, including her roles and associations.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Artemis is the twin sister of Apollo, providing a direct answer. Additionally, it offers further information about Artemis, enhancing the context and understanding of the query."
+            },
+            "m.0ghqr_101": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known as the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses the Roman myth of Romulus and Remus, their birth, upbringing, and the founding of Rome. It includes details about their parents, miraculous survival, and eventual rise to power.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'Greek mythology', 'twin sister', or 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Artemis'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on Roman mythology, not Greek mythology.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Apollo or his twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Roman mythology and the story of Romulus and Remus, which is unrelated to the query about Greek mythology and Apollo's twin sister. Therefore, it provides no useful context or additional information relevant to the query."
+            },
+            "nq_236097_35": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that Artemis is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document describes a frieze from the Pergamon Altar, depicting various scenes involving Greek mythological figures. It mentions Artemis, Leto, and Apollo, describing their actions in a battle against giants.",
+                "Document and Query Keywords Matching": "The document mentions 'Artemis' and 'Apollo', which are key figures in the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Artemis is the twin sister of Apollo, directly addressing the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is Apollo's twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Artemis, Leto, and Apollo, enhancing understanding of their relationships and roles in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Artemis is the twin sister of Apollo, providing a direct answer. Additionally, it offers context about their roles and relationships, further enhancing the relevance."
+            },
+            "triviaqa_29916_13": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known as the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document lists various figures and concepts from Greek mythology, including gods, goddesses, mythical creatures, and events.",
+                "Document and Query Keywords Matching": "The document mentions 'Greek mythology' and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis' and describes her as the 'twin sister of Apollo'.",
+                "Key Information Matching": "The document directly mentions Artemis and identifies her as the twin sister of Apollo, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Artemis and her role in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Artemis is the twin sister of Apollo, thus providing the exact answer needed. Additionally, it offers further information about Artemis, enhancing the context and understanding of her role in Greek mythology."
+            },
+            "triviaqa_15519_10": {
+                "Query Analysis": "The query asks for the identity of Apollo's twin sister in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that Artemis is Apollo's twin sister.",
+                "Document Content Analysis": "The document provides detailed information about several Greek gods and goddesses, including Apollo and Artemis. It mentions that Apollo's twin sister is Artemis and describes various attributes and roles of both deities.",
+                "Document and Query Keywords Matching": "The document contains 'Apollo', 'twin sister', and 'Artemis', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis', which matches the answer provided.",
+                "Key Information Matching": "The document explicitly states that 'His twin sister is Artemis' and provides additional context about both Apollo and Artemis, directly addressing the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is Apollo's twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only answers the query but also provides additional information about the roles and attributes of Apollo and Artemis in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by identifying Artemis as Apollo's twin sister and offers additional context about both deities, enhancing the understanding of their roles in Greek mythology."
+            },
+            "triviaqa_9333_23": {
+                "Query Analysis": "The query seeks to identify the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that she is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides detailed information about Artemis, including her roles as the goddess of the hunt, wild animals, wilderness, childbirth, and virginity. It also mentions her depiction, sacred animals, and etymology of her name. Additionally, it discusses various aspects of her cult and worship. The document explicitly states that Artemis was the twin sister of Apollo.",
+                "Document and Query Keywords Matching": "The document mentions 'Greek mythology', 'Artemis', and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Artemis was the twin sister of Apollo, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Artemis, enhancing the understanding of her role and relationship with Apollo.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Artemis is the twin sister of Apollo. Additionally, it provides comprehensive information about Artemis, which enriches the context and understanding of the query."
+            },
+            "m.0bbvfjz_7": {
+                "Query Analysis": "The query asks for the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that Artemis is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about Zeus and his children, including Apollo. It mentions various attributes of Zeus and his role in different fictional universes but does not provide specific information about Apollo's twin sister.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' as one of Zeus's children, which partially matches with the query keyword 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Artemis', which is the answer to the query.",
+                "Key Information Matching": "The document acknowledges Apollo as a child of Zeus but does not provide any information about his twin sister or any siblings at all.",
+                "Can the Document Answer the Query": "No, the document does not specify who the twin sister of Apollo is.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any information about Apollo's siblings, specifically his twin sister.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document primarily focuses on Zeus and his attributes, mentioning Apollo only as one of his children. It does not provide any information about Apollo's twin sister, Artemis, nor any details about Apollo's siblings. Therefore, it is irrelevant to the query as it cannot answer the query or help infer additional information required by the query."
+            },
+            "ott_13552_0": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known as the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document lists submissions to the 36th Academy Awards for Best Foreign Language Film, including the submitting country, film title, language, original title, director, and result of the nomination.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query ('Greek mythology', 'twin sister', 'Apollo').",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Artemis'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on film submissions for an awards ceremony and does not touch on topics related to Greek mythology.",
+                "Can the Document Answer the Query": "No, the document does not provide any information related to Greek mythology or the characters mentioned in the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about Greek mythology or the relationship between Apollo and Artemis.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on film submissions for an awards ceremony and lacks any content that could be relevant to Greek mythology or the specific characters mentioned in the query. Therefore, it is deemed irrelevant."
+            },
+            "triviaqa_65705_1": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that Artemis is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses the adoption of Greek mythology by the Romans, including the Roman equivalents of Greek gods and goddesses. It mentions Apollo and his twin sister Diana, who is the Roman equivalent of Artemis.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'Diana', who is the Roman version of the Greek goddess Artemis.",
+                "Document and Answer Keywords Matching": "The document mentions 'Diana', which is the Roman name for Artemis.",
+                "Key Information Matching": "The document directly states that Apollo's twin sister is Diana, which is the Roman equivalent of Artemis.",
+                "Can the Document Answer the Query": "Yes, the document provides the information that Diana (Artemis) is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context on the relationship between Greek and Roman mythology, which helps in understanding the equivalence of gods and goddesses.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Apollo's twin sister is Diana, who is the Roman equivalent of Artemis. It also provides additional context on the adoption of Greek gods by the Romans, enhancing the understanding of the query."
+            },
+            "nq_203127_14": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that she is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about various figures in Greek mythology, including Apollo and Artemis. It describes their roles, symbols, and familial relationships.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'Artemis', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Artemis is the 'twin sister of Apollo'.",
+                "Key Information Matching": "The document directly provides the key information that Artemis is the twin sister of Apollo, matching the query's requirement.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Apollo and Artemis, including their roles and symbols in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Artemis is the twin sister of Apollo, thereby providing a direct answer. Additionally, it offers useful context about their roles and symbols, enhancing the understanding of the query."
+            },
+            "triviaqa_43542_29": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "twin sister, Apollo, Greek mythology",
+                "Answer Analysis": "The answer is Artemis.",
+                "Document Content Analysis": "The document provides detailed information about several figures in Greek mythology, including Apollo and Artemis. It mentions that Apollo is the twin brother of Artemis and provides additional context about their roles and attributes.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and explicitly states that Artemis is his twin sister.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis', which matches the answer.",
+                "Key Information Matching": "The document directly states that Apollo and Artemis are twin siblings, providing key information relevant to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about both Apollo and Artemis, enhancing understanding of their roles in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document not only directly answers the query by identifying Artemis as Apollo's twin sister but also provides substantial background information on both deities, making it highly relevant and useful for understanding the query."
+            },
+            "triviaqa_57907_195": {
+                "Query Analysis": "The query asks for the identity of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, indicating that Artemis is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about Apollo, a major figure in Greek mythology. It mentions his various roles, relationships, and stories, including his connection to Artemis as his twin sister. The document also discusses Apollo's significance in Greek and Roman art history.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'Artemis', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Artemis, Apollo’s twin', which directly matches the answer.",
+                "Key Information Matching": "The document directly states that Artemis is Apollo’s twin sister, which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is Apollo’s twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Apollo and Artemis, enhancing the understanding of their relationship and roles in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Artemis is the twin sister of Apollo, providing a direct answer to the query. Additionally, the document offers further context about Apollo and Artemis, which enriches the understanding of their significance in Greek mythology."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0ghqr_57": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is indeed the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses Romulus and Remus, the twin brothers in Roman mythology, and their story of founding Rome. It does not mention Greek mythology, Apollo, or Artemis.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Greek mythology', 'twin sister', 'Apollo') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Artemis' is not found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Greek mythology, Apollo, or Artemis.",
+                "Can the Document Answer the Query": "No, the document does not mention Apollo or his twin sister Artemis.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about Roman mythology and does not provide any relevant information about Greek mythology or the twin sister of Apollo.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Roman mythology and the story of Romulus and Remus. It does not contain any information related to Greek mythology, Apollo, or Artemis, making it irrelevant to the query."
+            },
+            "nq_259943_13": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about Apollo and Artemis, including their roles, symbols, and familial relationships. It explicitly states that Artemis is the twin sister of Apollo.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'twin sister'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Artemis', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Artemis is the twin sister of Apollo, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Apollo and Artemis, including their roles and symbols in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about Apollo and Artemis. It enhances understanding of the query by providing relevant background information."
+            },
+            "m.031_bc_8": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known in Greek mythology as the twin sister of Apollo.",
+                "Document Content Analysis": "The document discusses the opera 'Apollo et Hyacinthus' by Wolfgang Amadeus Mozart, which is based on Greek mythology as told by Ovid in 'Metamorphoses'. It mentions the myth of Hyacinth and Apollo, but does not explicitly mention Artemis or the relationship between Apollo and his twin sister.",
+                "Document and Query Keywords Matching": "The document mentions 'Greek mythology' and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Artemis'.",
+                "Key Information Matching": "The document mentions 'Greek mythology' and 'Apollo', but does not provide information about Apollo's twin sister, Artemis.",
+                "Can the Document Answer the Query": "No, the document does not mention Artemis or the relationship between Apollo and his twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not mention Artemis or provide any information about Apollo's twin sister. It focuses on the myth of Hyacinth and Apollo, which is unrelated to the query."
+            },
+            "triviaqa_43542_30": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about various figures in Greek mythology, including Artemis, who is described as the daughter of Zeus and Leto and the twin sister of Apollo.",
+                "Document and Query Keywords Matching": "The document mentions 'Greek mythology', 'twin sister', and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis', who is identified as the twin sister of Apollo.",
+                "Key Information Matching": "The document directly mentions that Artemis is the twin sister of Apollo, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Artemis, including her parentage and her association with the moon.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it contains the exact answer and provides additional relevant information about Artemis, enhancing understanding of the query."
+            },
+            "m.0ghqr_101": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is indeed the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses Romulus and Remus, the twin brothers central to Rome's foundation myth in Roman mythology. It details their birth, upbringing, and the founding of Rome.",
+                "Document and Query Keywords Matching": "The document does not mention 'Greek mythology', 'twin sister', or 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Artemis'.",
+                "Key Information Matching": "The document does not provide any information related to Greek mythology, Apollo, or his twin sister Artemis.",
+                "Can the Document Answer the Query": "No, the document does not mention Apollo or his twin sister Artemis.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about Roman mythology and does not provide any relevant information about Greek mythology or Apollo's twin sister.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Roman mythology and the story of Romulus and Remus, which is unrelated to the query about Greek mythology and Apollo's twin sister. Therefore, it is irrelevant to the query."
+            },
+            "nq_236097_35": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document describes a frieze from the Pergamon Altar, mentioning various Greek gods and their actions. It specifically mentions Artemis, the goddess of the hunt, and her twin brother Apollo.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'Artemis', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Artemis', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Artemis is the twin sister of Apollo, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Artemis is the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions both Apollo and Artemis, explicitly stating their twin relationship, which makes it highly relevant."
+            },
+            "triviaqa_29916_13": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about various figures and concepts in Greek mythology, including gods, goddesses, and mythical creatures.",
+                "Document and Query Keywords Matching": "The document mentions 'Greek mythology' and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document includes 'Artemis', who is identified as the twin sister of Apollo.",
+                "Key Information Matching": "The document mentions 'Artemis' and explicitly states that she is the twin sister of Apollo, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Artemis and her relationship to Apollo.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it contains the exact answer and provides useful context about the relationship between Artemis and Apollo in Greek mythology."
+            },
+            "triviaqa_15519_10": {
+                "Query Analysis": "The query asks about the identity of Apollo's twin sister in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer provided is Artemis, indicating that Artemis is Apollo's twin sister in Greek mythology.",
+                "Document Content Analysis": "The document contains information about several Greek gods and goddesses, including Apollo and Artemis. It specifically mentions that Artemis is Apollo's twin sister and provides additional details about both deities.",
+                "Document and Query Keywords Matching": "The document contains all the key terms from the query: 'Greek mythology' (implied by the context), 'twin sister', and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Artemis' and confirms her relationship to Apollo as his twin sister.",
+                "Key Information Matching": "The document directly addresses the query by stating 'His twin sister is Artemis' in the section about Apollo. It also provides additional information about both Apollo and Artemis in their respective sections.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query as it explicitly states that Artemis is Apollo's twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context and information about both Apollo and Artemis, enhancing understanding of their roles in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly answers the query by stating that Artemis is Apollo's twin sister. Moreover, it provides substantial useful context about both Apollo and Artemis, including their parentage, roles, and attributes in Greek mythology. This additional information enhances the understanding of these deities and their relationship, making the document not just relevant but also informative beyond the specific question asked."
+            },
+            "triviaqa_9333_23": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides detailed information about Artemis, including her role as the twin sister of Apollo, her attributes, and her significance in Greek mythology.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'twin sister'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Artemis' as the twin sister of Apollo.",
+                "Key Information Matching": "The document directly states that Artemis is the twin sister of Apollo, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Artemis as the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Artemis, including her roles and attributes in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about Artemis."
+            },
+            "m.0bbvfjz_7": {
+                "Query Analysis": "The query asks about the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is Apollo's twin sister in Greek mythology.",
+                "Document Content Analysis": "The document contains information about Zeus, the father of Apollo and other Greek gods. It lists various attributes, relationships, and appearances of Zeus in different fictional universes.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' as one of Zeus's children, which is related to Greek mythology.",
+                "Document and Answer Keywords Matching": "The document does not mention Artemis directly.",
+                "Key Information Matching": "The document provides information about Apollo's father, Zeus, which is indirectly related to the query. However, it does not mention Apollo's twin sister or Artemis.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about Apollo's twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides some context about Greek mythology and Apollo's family, which is indirectly related to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant to the query. While it doesn't directly mention Artemis or Apollo's twin sister, it does provide some context about Greek mythology and Apollo's family. The document mentions Apollo as one of Zeus's children, which is related to the query's topic. However, it lacks the specific information needed to answer the question about Apollo's twin sister. The document's focus on Zeus and his various attributes and appearances in different fictional universes makes it tangentially related to the main topic of the conversation, thus warranting a relevance judgement of 1 (Partially Relevant)."
+            },
+            "ott_13552_0": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document lists submissions to the 36th Academy Awards for Best Foreign Language Film, including details such as submitting country, film title, language, original title, director, and result.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Greek mythology, Apollo, or Artemis.",
+                "Can the Document Answer the Query": "No, the document does not mention anything related to Greek mythology or the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses submissions to the 36th Academy Awards and does not mention Greek mythology, Apollo, or Artemis. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_65705_1": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses the Roman adoption of Greek gods, providing Roman names for Greek deities and their attributes. It mentions Apollo and his twin sister Diana, who is the Roman equivalent of the Greek goddess Artemis.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'twin sister', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Diana', the Roman equivalent of 'Artemis', which is the answer to the query.",
+                "Key Information Matching": "The document provides information about Apollo and his twin sister Diana (Artemis), which directly relates to the query.",
+                "Can the Document Answer the Query": "Yes, the document identifies Diana (Artemis) as the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Roman adoption of Greek gods, including the relationship between Apollo and Diana (Artemis).",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying Diana (Artemis) as the twin sister of Apollo. It also provides useful context about the Roman adoption of Greek mythology, enhancing understanding of the query."
+            },
+            "nq_203127_14": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides information about Apollo and Artemis, including their roles, symbols, and familial relationships. It explicitly states that Artemis is the twin sister of Apollo.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo' and 'twin sister'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Artemis', who is identified as the twin sister of Apollo.",
+                "Key Information Matching": "The document directly states that Artemis is the twin sister of Apollo, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Artemis as the twin sister of Apollo.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about both Apollo and Artemis, including their roles and symbols in Greek mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about Apollo and Artemis. It enhances understanding of the query by offering detailed information about both figures."
+            },
+            "triviaqa_43542_29": {
+                "Query Analysis": "The query asks about the identity of Apollo's twin sister in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer provided is Artemis, indicating that Artemis is Apollo's twin sister in Greek mythology.",
+                "Document Content Analysis": "The document contains information about various Greek mythological figures, including Apollo and Artemis. It specifically mentions that Artemis is the twin sister of Apollo, daughter of Zeus and Leto, and is associated with the hunt, chastity, marriage, children, wildlife, and the moon.",
+                "Document and Query Keywords Matching": "The document contains all the key terms from the query: 'Greek mythology', 'twin sister', and 'Apollo'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Artemis', which is the answer provided.",
+                "Key Information Matching": "The document directly states that Artemis is 'the twin sister of APOLLO', which perfectly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query as it explicitly states that Artemis is Apollo's twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional relevant information about Artemis, such as her domains of influence and parentage.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly answers the query by stating that Artemis is Apollo's twin sister. It also provides additional context about both Apollo and Artemis, their parentage, and Artemis's associations in Greek mythology, which enhances understanding of the topic. The document contains the exact information needed to answer the query and offers substantial useful context related to the conversation about Greek mythology and divine siblings."
+            },
+            "triviaqa_57907_195": {
+                "Query Analysis": "The query asks for the name of the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": "Greek mythology, twin sister, Apollo",
+                "Answer Analysis": "The answer is Artemis, who is known as the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document discusses Apollo's role in Greek mythology, his relationships, and his significance in art history. It specifically mentions Artemis as Apollo's twin sister and her role in the story of Apollo and Daphne.",
+                "Document and Query Keywords Matching": "The document mentions 'Greek mythology', 'Apollo', and 'Artemis', who is identified as his twin sister.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Artemis' as Apollo's twin sister.",
+                "Key Information Matching": "The document directly states that Artemis is the twin sister of Apollo, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Artemis as Apollo's twin sister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Apollo and Artemis, including their roles in Greek mythology and their relationship.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer by identifying Artemis as Apollo's twin sister. It also offers additional context about their roles in Greek mythology, enhancing understanding of the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0ghqr_57": {},
+            "nq_259943_13": {},
+            "m.031_bc_8": {},
+            "triviaqa_43542_30": {},
+            "m.0ghqr_101": {},
+            "nq_236097_35": {},
+            "triviaqa_29916_13": {},
+            "triviaqa_15519_10": {},
+            "triviaqa_9333_23": {},
+            "m.0bbvfjz_7": {
+                "Query Analysis": "The query seeks to identify the twin sister of Apollo in Greek mythology.",
+                "Query Keywords Extraction": [
+                    "Greek mythology",
+                    "twin sister",
+                    "Apollo"
+                ],
+                "Answer Analysis": "The answer is 'Artemis', the twin sister of Apollo in Greek mythology.",
+                "Document Content Analysis": "The document provides extensive information about Zeus, including his children, powers, roles, and appearances in various fictional and mythological contexts. While it mentions Apollo as one of Zeus' children, it does not provide any information about Apollo's twin sister or Artemis.",
+                "Document and Query Keywords Matching": "The document mentions 'Apollo', which matches one of the keywords from the query. However, 'twin sister' and 'Greek mythology' are not explicitly addressed.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Artemis', the answer to the query.",
+                "Key Information Matching": "The document mentions 'Apollo' as a child of Zeus, aligning with the background context of the query. However, it does not provide any key information related to 'twin sister' or Artemis.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it lacks information about Apollo's twin sister or Artemis.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, as it provides some contextual information about Apollo being a child of Zeus, which could help situate Apollo within Greek mythology. However, it provides no information about his twin sister or Artemis.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides some tangential context by mentioning Apollo as a child of Zeus, which ties to the broader topic of Greek mythology. However, it does not directly address the query or provide any specific information about Apollo's twin sister, Artemis. For this reason, the document is only partially relevant and receives a relevance judgment of 1."
+            },
+            "ott_13552_0": {},
+            "triviaqa_65705_1": {},
+            "nq_203127_14": {},
+            "triviaqa_43542_29": {},
+            "triviaqa_57907_195": {}
+        },
+        "relevance_judgement": 2,
+        "llm_fail": {},
+        "fail_detail": {
+            "triviaqa_15519_10": [
+                true,
+                true,
+                true
+            ],
+            "m.0bbvfjz_7": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_43542_29": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "nq": 6,
+            "triviaqa": 12,
+            "kg": 1,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

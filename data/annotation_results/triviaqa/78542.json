@@ -1,0 +1,992 @@
+{
+    "index": 78542,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Mozart's opera, which was a continuation of The Barber Of Seville, was called The Marriage Of ... who?",
+        "answer": "Figaro",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_39881_12",
+                "score": 22.66189956665039
+            },
+            {
+                "id": "triviaqa_37428_8",
+                "score": 22.604299545288086
+            },
+            {
+                "id": "triviaqa_14848_60",
+                "score": 22.59749984741211
+            },
+            {
+                "id": "triviaqa_39881_83",
+                "score": 21.790700912475586
+            },
+            {
+                "id": "triviaqa_14848_20",
+                "score": 21.439699172973633
+            },
+            {
+                "id": "triviaqa_39881_82",
+                "score": 21.368799209594727
+            },
+            {
+                "id": "triviaqa_37428_7",
+                "score": 21.314199447631836
+            },
+            {
+                "id": "triviaqa_14848_59",
+                "score": 20.626399993896484
+            },
+            {
+                "id": "triviaqa_39881_6",
+                "score": 20.094900131225586
+            },
+            {
+                "id": "triviaqa_14848_55",
+                "score": 19.76059913635254
+            },
+            {
+                "id": "triviaqa_39881_103",
+                "score": 19.273000717163086
+            },
+            {
+                "id": "triviaqa_39881_11",
+                "score": 19.21809959411621
+            },
+            {
+                "id": "triviaqa_64881_55",
+                "score": 18.891199111938477
+            },
+            {
+                "id": "triviaqa_39881_15",
+                "score": 18.835500717163086
+            },
+            {
+                "id": "triviaqa_39881_55",
+                "score": 18.830400466918945
+            },
+            {
+                "id": "m.04d0cyq_89",
+                "score": 18.616500854492188
+            },
+            {
+                "id": "triviaqa_39881_70",
+                "score": 18.506799697875977
+            },
+            {
+                "id": "triviaqa_43425_12",
+                "score": 18.470600128173828
+            },
+            {
+                "id": "triviaqa_62937_253",
+                "score": 18.177400588989258
+            },
+            {
+                "id": "triviaqa_66853_20",
+                "score": 18.154699325561523
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_13638_0",
+                "score": 11.52280044555664
+            },
+            {
+                "id": "ott_17882_0",
+                "score": 11.522799491882324
+            },
+            {
+                "id": "ott_19850_0",
+                "score": 11.522798538208008
+            },
+            {
+                "id": "ott_25339_0",
+                "score": 11.522797584533691
+            },
+            {
+                "id": "ott_36378_0",
+                "score": 11.522796630859375
+            },
+            {
+                "id": "ott_463_0",
+                "score": 11.522795677185059
+            },
+            {
+                "id": "ott_16456_1",
+                "score": 8.250699996948242
+            },
+            {
+                "id": "ott_17661_1",
+                "score": 8.250699043273926
+            },
+            {
+                "id": "ott_4190_1",
+                "score": 8.25069808959961
+            },
+            {
+                "id": "ott_16456_0",
+                "score": 7.476892948150635
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_88641_88",
+                "score": 13.448200225830078
+            },
+            {
+                "id": "nq_191150_45",
+                "score": 13.273699760437012
+            },
+            {
+                "id": "nq_198323_25",
+                "score": 12.3927001953125
+            },
+            {
+                "id": "nq_198323_24",
+                "score": 12.241100311279297
+            },
+            {
+                "id": "nq_4777_90",
+                "score": 11.84179973602295
+            },
+            {
+                "id": "nq_53343_31",
+                "score": 11.643199920654297
+            },
+            {
+                "id": "nq_135236_3",
+                "score": 11.427800178527832
+            },
+            {
+                "id": "nq_75490_1",
+                "score": 11.358699798583984
+            },
+            {
+                "id": "nq_4777_89",
+                "score": 10.946399688720703
+            },
+            {
+                "id": "nq_10361_8",
+                "score": 10.729700088500977
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_39881_12",
+                "score": 22.66189956665039
+            },
+            {
+                "id": "triviaqa_37428_8",
+                "score": 22.604299545288086
+            },
+            {
+                "id": "triviaqa_14848_60",
+                "score": 22.59749984741211
+            },
+            {
+                "id": "triviaqa_39881_83",
+                "score": 21.790700912475586
+            },
+            {
+                "id": "triviaqa_14848_20",
+                "score": 21.439699172973633
+            },
+            {
+                "id": "triviaqa_39881_82",
+                "score": 21.368799209594727
+            },
+            {
+                "id": "triviaqa_37428_7",
+                "score": 21.314199447631836
+            },
+            {
+                "id": "triviaqa_14848_59",
+                "score": 20.626399993896484
+            },
+            {
+                "id": "triviaqa_39881_6",
+                "score": 20.094900131225586
+            },
+            {
+                "id": "triviaqa_14848_55",
+                "score": 19.76059913635254
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.04d0cyq_89",
+                "score": 18.616500854492188
+            },
+            {
+                "id": "m.04d0cyq_88",
+                "score": 17.54439926147461
+            },
+            {
+                "id": "m.05lls_182",
+                "score": 15.601799964904785
+            },
+            {
+                "id": "m.05lls_183",
+                "score": 15.601799011230469
+            },
+            {
+                "id": "m.05lls_303",
+                "score": 15.42650032043457
+            },
+            {
+                "id": "m.05lls_1109",
+                "score": 14.798800468444824
+            },
+            {
+                "id": "m.05lls_871",
+                "score": 14.616999626159668
+            },
+            {
+                "id": "m.05lls_302",
+                "score": 14.611100196838379
+            },
+            {
+                "id": "m.02bjrlw_7434",
+                "score": 14.59160041809082
+            },
+            {
+                "id": "m.05lls_872",
+                "score": 14.457300186157227
+            },
+            {
+                "id": "m.0ggq0m_1973",
+                "score": 14.181400299072266
+            },
+            {
+                "id": "m.0ggq0m_266",
+                "score": 14.18120002746582
+            },
+            {
+                "id": "m.02bjrlw_10797",
+                "score": 14.109199523925781
+            },
+            {
+                "id": "m.0ggq0m_267",
+                "score": 13.589400291442871
+            },
+            {
+                "id": "m.0ggq0m_916",
+                "score": 13.54990005493164
+            },
+            {
+                "id": "m.02bjrlw_5250",
+                "score": 13.549300193786621
+            },
+            {
+                "id": "m.0ggq0m_915",
+                "score": 13.360899925231934
+            },
+            {
+                "id": "m.02bjrlw_8006",
+                "score": 13.333000183105469
+            },
+            {
+                "id": "m.02bjrlw_3545",
+                "score": 13.283699989318848
+            },
+            {
+                "id": "m.0ggq0m_1972",
+                "score": 12.953399658203125
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.04d0cyq_33",
+                "score": 0.6616859436035156
+            },
+            {
+                "id": "triviaqa_41698_36",
+                "score": 0.6603432893753052
+            },
+            {
+                "id": "triviaqa_37428_23",
+                "score": 0.6572839021682739
+            },
+            {
+                "id": "triviaqa_47402_11",
+                "score": 0.6559849381446838
+            },
+            {
+                "id": "m.04d0cyq_27",
+                "score": 0.6558323502540588
+            },
+            {
+                "id": "triviaqa_63330_9",
+                "score": 0.6547778844833374
+            },
+            {
+                "id": "triviaqa_37428_24",
+                "score": 0.6540257334709167
+            },
+            {
+                "id": "m.04d0cyq_12",
+                "score": 0.6513514518737793
+            },
+            {
+                "id": "triviaqa_39881_83",
+                "score": 0.6496474742889404
+            },
+            {
+                "id": "triviaqa_41698_35",
+                "score": 0.6468652486801147
+            },
+            {
+                "id": "triviaqa_37428_25",
+                "score": 0.6445604562759399
+            },
+            {
+                "id": "m.030n0w_24",
+                "score": 0.6444490551948547
+            },
+            {
+                "id": "m.04d0cyq_86",
+                "score": 0.64402174949646
+            },
+            {
+                "id": "m.04d0cyq_84",
+                "score": 0.6437029242515564
+            },
+            {
+                "id": "triviaqa_47865_1",
+                "score": 0.6435849070549011
+            },
+            {
+                "id": "triviaqa_37428_21",
+                "score": 0.6428539156913757
+            },
+            {
+                "id": "m.04d0cyq_92",
+                "score": 0.6397843360900879
+            },
+            {
+                "id": "triviaqa_39881_84",
+                "score": 0.6397423148155212
+            },
+            {
+                "id": "m.04d0cyq_89",
+                "score": 0.6365265250205994
+            },
+            {
+                "id": "triviaqa_47865_2",
+                "score": 0.6336086392402649
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_10361_20",
+                "score": 0.6285830140113831
+            },
+            {
+                "id": "nq_75490_1",
+                "score": 0.6256914734840393
+            },
+            {
+                "id": "nq_10361_0",
+                "score": 0.621312141418457
+            },
+            {
+                "id": "nq_10361_42",
+                "score": 0.6158468723297119
+            },
+            {
+                "id": "nq_10361_1",
+                "score": 0.615831732749939
+            },
+            {
+                "id": "nq_75490_29",
+                "score": 0.6123745441436768
+            },
+            {
+                "id": "nq_75490_2",
+                "score": 0.6120486855506897
+            },
+            {
+                "id": "nq_10361_74",
+                "score": 0.6111280918121338
+            },
+            {
+                "id": "nq_10361_66",
+                "score": 0.6082664728164673
+            },
+            {
+                "id": "nq_10361_4",
+                "score": 0.6075974702835083
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_41698_36",
+                "score": 0.6603432893753052
+            },
+            {
+                "id": "triviaqa_37428_23",
+                "score": 0.6572839021682739
+            },
+            {
+                "id": "triviaqa_47402_11",
+                "score": 0.6559849381446838
+            },
+            {
+                "id": "triviaqa_63330_9",
+                "score": 0.6547778844833374
+            },
+            {
+                "id": "triviaqa_37428_24",
+                "score": 0.6540257334709167
+            },
+            {
+                "id": "triviaqa_39881_83",
+                "score": 0.6496474742889404
+            },
+            {
+                "id": "triviaqa_41698_35",
+                "score": 0.6468652486801147
+            },
+            {
+                "id": "triviaqa_37428_25",
+                "score": 0.6445604562759399
+            },
+            {
+                "id": "triviaqa_47865_1",
+                "score": 0.6435849070549011
+            },
+            {
+                "id": "triviaqa_37428_21",
+                "score": 0.6428539156913757
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.04d0cyq_33",
+                "score": 0.6616859436035156
+            },
+            {
+                "id": "m.04d0cyq_27",
+                "score": 0.6558323502540588
+            },
+            {
+                "id": "m.04d0cyq_12",
+                "score": 0.6513514518737793
+            },
+            {
+                "id": "m.030n0w_24",
+                "score": 0.6444490551948547
+            },
+            {
+                "id": "m.04d0cyq_86",
+                "score": 0.64402174949646
+            },
+            {
+                "id": "m.04d0cyq_84",
+                "score": 0.6437029242515564
+            },
+            {
+                "id": "m.04d0cyq_92",
+                "score": 0.6397843360900879
+            },
+            {
+                "id": "m.04d0cyq_89",
+                "score": 0.6365265250205994
+            },
+            {
+                "id": "m.030h9k_5",
+                "score": 0.6294812560081482
+            },
+            {
+                "id": "m.04d0cyq_85",
+                "score": 0.6289592385292053
+            },
+            {
+                "id": "m.0_jjt2b_14",
+                "score": 0.6281933784484863
+            },
+            {
+                "id": "m.04d0cyq_8",
+                "score": 0.6278632879257202
+            },
+            {
+                "id": "m.0zhny5j_27",
+                "score": 0.6267603635787964
+            },
+            {
+                "id": "m.0_jbxt1_25",
+                "score": 0.6249001622200012
+            },
+            {
+                "id": "m.0ggq0m_267",
+                "score": 0.6236025094985962
+            },
+            {
+                "id": "m.04d0cyq_11",
+                "score": 0.6235086917877197
+            },
+            {
+                "id": "m.09g7g_13",
+                "score": 0.6218662261962891
+            },
+            {
+                "id": "m.04d0cyq_91",
+                "score": 0.6196175217628479
+            },
+            {
+                "id": "m.030h9k_2",
+                "score": 0.6188032627105713
+            },
+            {
+                "id": "m.0zh69ts_23",
+                "score": 0.618623673915863
+            }
+        ],
+        "llm_mark_result": {
+            "m.04d0cyq_33": {
+                "Query Analysis": "The query asks for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera is titled 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides a description of 'Le nozze di Figaro', which translates to 'The Marriage of Figaro'. It mentions that this opera is composed by Wolfgang Amadeus Mozart and is based on a stage comedy by Pierre Beaumarchais titled 'La folle journe, ou le Mariage de Figaro'. The document also notes that the opera is one of Mozart's most successful works and its overture is famous.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', and 'The Marriage of Figaro', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'Le nozze di Figaro' (The Marriage of Figaro), which is the opera in question, and it provides context about its composition and background.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions 'Le nozze di Figaro' (The Marriage of Figaro), which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, such as its composition date, composer, and librettist, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly mentions 'Le nozze di Figaro' (The Marriage of Figaro), which is the continuation of 'The Barber of Seville'. It provides substantial useful context about the opera, making it highly relevant to the query."
+            },
+            "nq_88641_88": {
+                "Query Analysis": "The query asks for the title of Mozart's opera that is a continuation of 'The Barber of Seville' and specifically inquires about the character's name in 'The Marriage Of ... who?'",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber Of Seville, The Marriage Of, character name",
+                "Answer Analysis": "The answer is 'Figaro', which is the character's name in Mozart's opera 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document discusses various classical music pieces and their use in animation and films, mentioning works by composers like Mozart, Bach, and Vivaldi. It highlights the use of classical music in notable animations and movies but does not delve into specific operas or their plots.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' and 'The Barber of Seville' in the context of Warner Bros.' 'Rabbit of Seville', which is an animated short.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Figaro'.",
+                "Key Information Matching": "While the document mentions 'Mozart' and 'The Barber of Seville', it does not provide any information about Mozart's operas or the character Figaro.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information needed to answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or additional information that would help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any key information about Mozart's opera 'The Marriage of Figaro' or the character Figaro. The mention of 'The Barber of Seville' is in a different context (an animated short) and does not contribute to answering the query."
+            },
+            "triviaqa_39881_83": {
+                "Query Analysis": "The query asks for the name that completes the title of Mozart's opera, which is a continuation of The Barber Of Seville. Specifically, it seeks to identify who was married in 'The Marriage Of ...'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber Of Seville, The Marriage Of, Figaro",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the full title of the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides information about both 'The Barber of Seville' and 'The Marriage of Figaro'. It mentions that these plays were adapted into operas by Rossini and Mozart respectively. It also discusses Beaumarchais, the playwright who wrote the original plays, and his influence on the French Revolution.",
+                "Document and Query Keywords Matching": "The document matches with 'Mozart', 'opera', 'The Barber of Seville', and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro', which is part of the opera title 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' composed by Mozart and connects it to 'The Barber of Seville', addressing key elements of the query. It also explicitly states 'Figaro', which is the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document contains the necessary information to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the origins of the operas and the playwright Beaumarchais.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it not only directly answers the query by mentioning 'The Marriage of Figaro' and 'Figaro', but also provides substantial background information about the operas and their historical context. This enhances understanding of the query and its answer."
+            },
+            "triviaqa_37428_8": {
+                "Query Analysis": "The query asks for the title of Mozart's opera that is a continuation of 'The Barber of Seville' and specifically seeks the name of the character central to the opera's title.",
+                "Query Keywords Extraction": "Mozart's opera, continuation, The Barber Of Seville, The Marriage Of, who",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera's title is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides detailed information about Mozart's opera 'The Marriage of Figaro', including its setting, plot, and characters. It mentions that the opera is based on Beaumarchais’s play 'La Folle Journée, ou Le Mariage de Figaro', which is a sequel to 'Le Barbier de Séville'.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart’s opera', 'Le Barbier de Séville', and 'Le Mariage de Figaro'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro' multiple times, directly referencing the character and the title of the opera.",
+                "Key Information Matching": "The document explicitly states that 'Le Mariage de Figaro' is a sequel to 'Le Barbier de Séville', directly matching the query's requirement for a continuation of 'The Barber of Seville'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'Le Mariage de Figaro' as the continuation of 'Le Barbier de Séville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the opera, its characters, and its plot, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by providing the title of Mozart's opera that continues 'The Barber of Seville'. It also offers detailed context about the opera, making it useful for a deeper understanding of the query."
+            },
+            "triviaqa_14848_60": {
+                "Query Analysis": "The query asks for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage Of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document discusses various operas related to Seville, including 'Don Giovanni', 'The Barber of Seville' by Rossini, and 'The Marriage of Figaro' by Mozart. It mentions that Mozart's 'The Marriage of Figaro' is based on one third of a trilogy by Pierre Beaumarchais.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'The Marriage of Figaro', and 'The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document includes the keyword 'Figaro' in the context of 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' by Mozart, which is the opera in question. It also references 'The Barber of Seville', linking the two operas contextually.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Marriage of Figaro', which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the relationship between 'The Barber of Seville' and 'The Marriage of Figaro', and their connection to Seville.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'The Marriage of Figaro' by Mozart, which is the continuation of 'The Barber of Seville'. This provides a direct answer to the query and additional context about the operas and their settings."
+            },
+            "triviaqa_47402_11": {
+                "Query Analysis": "The query asks for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage Of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the full title of the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides information about Mozart's opera 'The Magic Flute', including its composition year, librettist, premiere details, and a brief plot summary. It also mentions other operas by Mozart, including 'The Marriage of Figaro'.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' and 'The Marriage of Figaro', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes the term 'The Marriage of Figaro', which directly matches the answer 'Figaro'.",
+                "Key Information Matching": "The document mentions 'The Marriage of Figaro', which is the opera the query is asking about, directly linking it to the query's main topic.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'The Marriage of Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Mozart's works, including the mentioned opera, which helps in understanding the query's context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it mentions 'The Marriage of Figaro', which is the specific opera the query is asking about. This direct mention allows the document to answer the query and provides useful context about Mozart's works, enhancing the understanding of the query."
+            },
+            "m.04d0cyq_88": {
+                "Query Analysis": "The query asks for the title of Mozart's opera that is a continuation of 'The Barber of Seville' and is called 'The Marriage Of ... who?'. The query is essentially asking for the name that completes the title of the opera.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the full title of the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides detailed information about 'Le nozze di Figaro', which is another name for 'The Marriage of Figaro'. It mentions that it is an opera buffa composed by Mozart, with a libretto by Lorenzo Da Ponte, based on a stage comedy by Pierre Beaumarchais. It also notes that Beaumarchais's earlier play 'The Barber of Seville' had been adapted into an opera.",
+                "Document and Query Keywords Matching": "The document mentions 'Le nozze di Figaro', 'Mozart', 'opera', and 'The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro' in various forms, such as 'Le nozze di Figaro' and 'Marriage of Figaro'.",
+                "Key Information Matching": "The document directly mentions 'Le nozze di Figaro' and its connection to 'The Barber of Seville', which are key elements of the query.",
+                "Can the Document Answer the Query": "Yes, the document provides the information that 'Le nozze di Figaro' is also known as 'The Marriage of Figaro', which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, its composition, and its relation to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the specific information needed to answer the query, namely the title of Mozart's opera that continues 'The Barber of Seville'. It also offers additional relevant context about the opera, enhancing the understanding of the query."
+            },
+            "triviaqa_37428_23": {
+                "Query Analysis": "The query is asking for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage Of ... who?'. The query is essentially seeking the completion of the opera's title.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the full title of the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides information about the libretto of Mozart's 'Le Nozze di Figaro' (The Marriage of Figaro), including details about its composition, characters, and historical context. It mentions the setting near Seville and an anecdote about Mozart and Emperor Joseph II.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' and 'Le Nozze di Figaro' (The Marriage of Figaro), which directly relates to the query keywords 'Mozart' and 'The Marriage Of'.",
+                "Document and Answer Keywords Matching": "The document includes the term 'Figaro', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly mentions 'Le Nozze di Figaro', which translates to 'The Marriage of Figaro', directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'Le Nozze di Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, including its setting and historical background, which enhances understanding of the opera's connection to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact title of the opera ('Le Nozze di Figaro' or 'The Marriage of Figaro') that is a continuation of 'The Barber of Seville'. It also offers additional context that can help infer more about the opera's background and significance."
+            },
+            "triviaqa_39881_12": {
+                "Query Analysis": "The query asks for the title of Mozart's opera that is a continuation of 'The Barber of Seville' and specifically seeks the name of the character 'The Marriage Of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber Of Seville, The Marriage Of, who",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera's title is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document primarily discusses 'The Barber of Seville', its popularity, influence, and a specific production by Els Comediants. It also mentions other operas, including 'The Marriage of Figaro' by Mozart, in a list of performances.",
+                "Document and Query Keywords Matching": "The document mentions 'The Barber of Seville' and 'The Marriage of Figaro', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'The Marriage of Figaro', which directly matches the answer.",
+                "Key Information Matching": "The document contains both 'The Barber of Seville' and 'The Marriage of Figaro', which are crucial to answering the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Marriage of Figaro', which is the continuation of 'The Barber of Seville' by Mozart.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by mentioning 'The Marriage of Figaro', the document provides context that helps confirm the relationship between the two operas.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it mentions 'The Marriage of Figaro', which is the opera that continues 'The Barber of Seville' by Mozart. This direct mention allows the document to answer the query and provide useful context."
+            },
+            "triviaqa_41698_36": {
+                "Query Analysis": "The query asks for the title of Mozart's opera that is a continuation of 'The Barber of Seville' and is named 'The Marriage of ... who?'. The query is specifically looking for the character's name that completes the title of the opera.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, who",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the full title of the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides information about Mozart's musical works, including his operas. It mentions 'Le nozze di Figaro (The Marriage of Figaro)' and provides context about its composition and significance. It also discusses other operas by Mozart and his collaboration with Lorenzo da Ponte.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document includes the keyword 'Figaro' in the context of the opera 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro', which is the opera referred to in the query. It also provides additional context about Mozart's operatic works and collaborations.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Marriage of Figaro', which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Mozart's operas and their significance, which can enhance understanding of the query's context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'The Marriage of Figaro', which is the opera the query is asking about. Additionally, it provides useful context about Mozart's operatic works, enhancing the understanding of the query's topic."
+            },
+            "ott_13638_0": {
+                "Query Analysis": "The query asks for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the full title of the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document lists various opera productions directed by Nicholas Hytner, including the opera 'The Marriage of Figaro' by Mozart.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro' in the title 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' by Mozart, which is the opera the query is asking about.",
+                "Can the Document Answer the Query": "Yes, the document contains the title of the opera that is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context by listing 'The Marriage of Figaro' among other operas, confirming its existence and association with Mozart.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact title of the opera ('The Marriage of Figaro') that is the answer to the query. This provides substantial useful context and directly answers the question posed."
+            },
+            "m.04d0cyq_89": {
+                "Query Analysis": "The query asks for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage Of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera's full title is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides detailed information about 'Le nozze di Figaro', which translates to 'The Marriage of Figaro'. It mentions that this opera is composed by Wolfgang Amadeus Mozart, with a libretto by Lorenzo Da Ponte, and is based on a stage comedy by Pierre Beaumarchais. The document also notes that Beaumarchais's earlier play 'The Barber of Seville' had been successfully adapted into an opera.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'Mozart', 'opera', 'The Marriage of Figaro', and references 'The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Figaro' multiple times.",
+                "Key Information Matching": "The document directly addresses the key information by stating that 'Le nozze di Figaro' (The Marriage of Figaro) is a continuation of 'The Barber of Seville'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by providing the title 'The Marriage of Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera's composition, librettist, and its relation to Beaumarchais's plays.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by confirming that Mozart's opera continuation of 'The Barber of Seville' is titled 'The Marriage of Figaro'. It also provides substantial additional context about the opera, enhancing understanding of the query's topic."
+            },
+            "triviaqa_14848_20": {
+                "Query Analysis": "The query asks for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage Of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document lists several operas with their titles, composers, locations, and years of composition. It includes 'Le Nozze di Figaro (The Marriage of Figaro)' by Mozart, 'Die Zauberflöte (The Magic Flute)' by Mozart, 'Il Barbiere di Siviglia (The Barber of Seville)' by Rossini, and others.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'Le Nozze di Figaro (The Marriage of Figaro)', and 'Il Barbiere di Siviglia (The Barber of Seville)'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro' in the title 'Le Nozze di Figaro (The Marriage of Figaro)'.",
+                "Key Information Matching": "The document directly mentions 'Le Nozze di Figaro (The Marriage of Figaro)' by Mozart, which is the opera in question, and also mentions 'Il Barbiere di Siviglia (The Barber of Seville)' by Rossini, which is relevant to the query's context.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'Le Nozze di Figaro (The Marriage of Figaro)'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Mozart's operas and mentions 'The Barber of Seville' by Rossini, which helps in understanding the continuity between the two operas.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact title of the opera ('Le Nozze di Figaro') and mentions 'The Barber of Seville', which is crucial for understanding the context of the query. It contains substantial useful context that enhances understanding of the query."
+            },
+            "m.04d0cyq_27": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of The Barber of Seville. The opera is titled 'The Marriage Of ... who?', indicating a missing character name.",
+                "Query Keywords Extraction": "Mozart's opera, continuation, The Barber Of Seville, The Marriage Of, character name",
+                "Answer Analysis": "The answer is 'Figaro', which is the name of the character in Mozart's opera that continues the story from The Barber of Seville.",
+                "Document Content Analysis": "The document provides information about an opera composed by Wolfgang Amadeus Mozart, titled 'Le nozze di Figaro' (The Marriage of Figaro). It mentions that the opera is based on a stage comedy by Pierre Beaumarchais and continues the story from 'The Barber of Seville'. The document also includes details about the composer, librettist, and the premiere date.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Marriage of Figaro', and 'continuation of The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro', which is the name of the character in the opera.",
+                "Key Information Matching": "The document directly mentions that 'Le nozze di Figaro' (The Marriage of Figaro) continues the story from 'The Barber of Seville', and it includes the character name 'Figaro'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the opera is 'The Marriage of Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, its composition, and its relation to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact answer (Figaro) and additional context about the opera 'The Marriage of Figaro', which is a continuation of 'The Barber of Seville'. The document's content aligns perfectly with the query's requirements, making it highly relevant."
+            },
+            "nq_10361_20": {
+                "Query Analysis": "The query asks for the name of Mozart's opera that is a continuation of 'The Barber of Seville' and is titled 'The Marriage Of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the full title of the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides information about Mozart's opera 'The Magic Flute', including details about its overture, act 1, scene 1, and characters involved.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' and 'opera', but does not mention 'The Barber of Seville' or 'The Marriage Of'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Figaro'.",
+                "Key Information Matching": "The document does not contain any information about 'The Barber of Seville' or 'The Marriage of Figaro'. It focuses on 'The Magic Flute'.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the opera that is a continuation of 'The Barber of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about 'The Magic Flute', which is unrelated to the query about 'The Marriage of Figaro'. It does not contain any key information that could help answer the query or provide relevant context."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.04d0cyq_33": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville' and is called 'The Marriage of ...'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, character",
+                "Answer Analysis": "The answer is 'Figaro', which is the name of the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides detailed information about Mozart's opera 'Le nozze di Figaro' (The Marriage of Figaro), including its composition, libretto, and its relation to the play by Pierre Beaumarchais. It also mentions that the opera is a continuation of 'The Barber of Seville'.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Marriage of Figaro', and 'The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Figaro', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' as an opera by Mozart and its relation to 'The Barber of Seville', which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming 'Figaro' as the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, including its composition and relation to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Figaro') as well as additional context about the opera, making it highly relevant."
+            },
+            "nq_88641_88": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of, who",
+                "Answer Analysis": "The answer is 'Figaro', the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document discusses the use of classical music in animation and media, mentioning works like 'Fantasia', 'Tom and Jerry', and 'Rabbit of Seville'. It also references Mozart's 'Eine kleine Nachtmusik' but does not mention 'The Marriage of Figaro' or 'The Barber of Seville'.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' but does not reference 'The Barber of Seville' or 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Figaro' or any related information.",
+                "Key Information Matching": "The document does not provide any information about 'The Barber of Seville' or 'The Marriage of Figaro', nor does it mention the character 'Figaro'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'The Marriage of Figaro' or its connection to 'The Barber of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention 'The Barber of Seville', 'The Marriage of Figaro', or the character 'Figaro'. It focuses on the use of classical music in animation and media, which is unrelated to the query."
+            },
+            "triviaqa_39881_83": {
+                "Query Analysis": "The query asks about the name of Mozart's opera that was a continuation of The Barber of Seville.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of",
+                "Answer Analysis": "The answer is Figaro, indicating that Mozart's opera was called 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document discusses Beaumarchais' plays 'The Barber of Seville' and 'The Marriage of Figaro', their adaptation into operas by Rossini and Mozart respectively, and provides biographical information about Beaumarchais. It also mentions the popularity of these operas in the 18th-century classical music repertoire.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Barber of Seville', and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Figaro' in the context of Mozart's opera 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document directly addresses the relationship between 'The Barber of Seville' and 'The Marriage of Figaro', confirming that they are related works and that Mozart composed 'The Marriage of Figaro'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Mozart composed 'The Marriage of Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the plays' author, Beaumarchais, and the adaptation of his works into operas.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly answers the query by mentioning 'The Marriage of Figaro' as Mozart's opera. It also provides valuable context about the relationship between 'The Barber of Seville' and 'The Marriage of Figaro', their adaptations into operas, and background information about their original author. This information enhances understanding of the query's subject matter."
+            },
+            "triviaqa_37428_8": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of, who",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the character in question is Figaro.",
+                "Document Content Analysis": "The document provides a detailed synopsis of Mozart's opera 'The Marriage of Figaro', which is a continuation of 'The Barber of Seville'. It mentions the characters, plot, and historical context of the opera.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Barber of Seville', and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Figaro' multiple times, which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that 'The Marriage of Figaro' is a continuation of 'The Barber of Seville' and focuses on the character Figaro, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Figaro as the character in Mozart's opera that continues 'The Barber of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, its characters, and its relationship to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer. It also offers substantial context and background information about the opera, enhancing understanding of the query."
+            },
+            "triviaqa_14848_60": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of The Barber of Seville, specifically in the opera titled 'The Marriage of ...'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, character",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the character in question is Figaro.",
+                "Document Content Analysis": "The document discusses various operas related to Seville, including Mozart's 'The Marriage of Figaro' and Rossini's 'The Barber of Seville'. It mentions that Mozart's opera is based on a trilogy by Pierre Beaumarchais and that Rossini's opera features the famous aria about Figaro.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Barber of Seville', and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Figaro' in the context of Mozart's 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' by Mozart, which is the opera in question, and identifies 'Figaro' as the character in the title.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Mozart's opera is 'The Marriage of Figaro', which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions Mozart's 'The Marriage of Figaro' and identifies 'Figaro' as the character in the title, which directly answers the query. Therefore, the document provides substantial useful context and information that enhances understanding of the conversation."
+            },
+            "triviaqa_47402_11": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of The Barber of Seville, specifically 'The Marriage of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, who",
+                "Answer Analysis": "The answer is 'Figaro', which is the character whose marriage is the subject of the opera.",
+                "Document Content Analysis": "The document discusses Mozart's opera 'The Magic Flute', its composition, premiere, and plot. It also mentions Mozart's other operas, including 'The Marriage of Figaro', but does not provide details about its connection to 'The Barber of Seville'.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', and 'The Marriage of Figaro', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'The Marriage of Figaro', which includes the answer 'Figaro'.",
+                "Key Information Matching": "The document mentions 'The Marriage of Figaro', which is directly related to the query, but it does not explicitly state that it is a continuation of 'The Barber of Seville'.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that 'The Marriage of Figaro' is a continuation of 'The Barber of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions 'The Marriage of Figaro', which is the opera in question, and provides context about Mozart's works.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions 'The Marriage of Figaro', which is the opera in question, but it does not explicitly state its connection to 'The Barber of Seville'. It provides some context about Mozart's works but lacks the specific detail needed to directly answer the query."
+            },
+            "m.04d0cyq_88": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville', specifically 'The Marriage of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, who",
+                "Answer Analysis": "The answer is 'Figaro', which is the character whose marriage is the subject of Mozart's opera.",
+                "Document Content Analysis": "The document provides detailed information about 'Le nozze di Figaro' (The Marriage of Figaro), including its genre, language, notable features, and its relation to 'The Barber of Seville'. It mentions that 'Le nozze di Figaro' is an opera buffa composed by Mozart in 1786, with a libretto by Lorenzo Da Ponte, based on a stage comedy by Pierre Beaumarchais.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Marriage of Figaro', and 'The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro', which is the name of the character in the answer.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' as an opera by Mozart, which is a continuation of 'The Barber of Seville', and it includes the name 'Figaro'.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Figaro' as the character in Mozart's opera that is a continuation of 'The Barber of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, including its genre, language, and relation to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer ('Figaro') and substantial context about Mozart's opera 'The Marriage of Figaro', which is a continuation of 'The Barber of Seville'. This enhances understanding of the query and directly answers it."
+            },
+            "triviaqa_37428_23": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville', specifically 'The Marriage of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, who",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides detailed information about Mozart's opera 'Le Nozze di Figaro' (The Marriage of Figaro), including its characters, setting, and historical context. It mentions that 'Le Nozze di Figaro' was composed by Mozart and includes anecdotes about its first performance.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', and 'The Marriage of Figaro', which directly relate to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Figaro' as the character in 'Le Nozze di Figaro' (The Marriage of Figaro), matching the answer.",
+                "Key Information Matching": "The document provides the name 'Figaro' and confirms that 'Le Nozze di Figaro' is the opera in question, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying 'Figaro' as the character in 'The Marriage of Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, including its historical background and characters.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Figaro') as well as substantial context about Mozart's opera 'The Marriage of Figaro'. It enhances understanding of the query by offering historical and character details."
+            },
+            "triviaqa_39881_12": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, who",
+                "Answer Analysis": "The answer is 'Figaro', the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document discusses 'The Barber of Seville', its characters, and its influence on popular culture. It also mentions 'The Marriage of Figaro' as one of the operas performed by the Canadian Opera Company in the 2015/2016 season.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'The Barber of Seville', and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Figaro' as part of the title 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' by Mozart, which is the opera that continues 'The Barber of Seville' and features the character 'Figaro'.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Marriage of Figaro' by Mozart, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about 'The Barber of Seville' and its connection to 'The Marriage of Figaro'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'The Marriage of Figaro' by Mozart, which is the opera that continues 'The Barber of Seville' and features the character 'Figaro'. This provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_41698_36": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville', specifically 'The Marriage of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, who",
+                "Answer Analysis": "The answer is 'Figaro', which is the name of the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document discusses Mozart's operas, particularly 'Le nozze di Figaro' (The Marriage of Figaro), which is mentioned as the earliest opera still in the repertoire of today's opera houses. It also mentions that 'Figaro' was followed by 'Don Giovanni' and discusses the influence of Mozart's music.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', and 'The Marriage of Figaro', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Figaro', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro', which is the opera in question, and 'Figaro' is the character whose name is sought in the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Figaro' as the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Mozart's operas and the significance of 'The Marriage of Figaro'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer ('Figaro') and additional context about Mozart's opera 'The Marriage of Figaro'. It enhances understanding of the query by confirming the continuation of 'The Barber of Seville' in Mozart's work."
+            },
+            "ott_13638_0": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of The Barber of Seville, specifically 'The Marriage of ... who?'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, who",
+                "Answer Analysis": "The answer is 'Figaro', which is the character whose marriage is the subject of Mozart's opera.",
+                "Document Content Analysis": "The document lists various opera productions, including details about the composer, the opera title, and the first production year. It mentions 'The Marriage of Figaro' by Mozart, which is relevant to the query.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' and 'The Marriage of Figaro', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro', which is the answer to the query.",
+                "Key Information Matching": "The document provides the title 'The Marriage of Figaro' by Mozart, which directly matches the query's focus on Mozart's opera that continues The Barber of Seville.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Figaro' as part of the opera title 'The Marriage of Figaro' by Mozart.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer it, specifically the name 'Figaro' in the context of Mozart's opera 'The Marriage of Figaro'."
+            },
+            "m.04d0cyq_89": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville' and is called 'The Marriage of ...'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, character",
+                "Answer Analysis": "The answer is 'Figaro', which is the character whose marriage is the subject of Mozart's opera.",
+                "Document Content Analysis": "The document provides detailed information about 'Le nozze di Figaro', which is Mozart's opera. It mentions that the opera is based on a stage comedy by Pierre Beaumarchais, 'La folle journée, ou le Mariage de Figaro', and that it is a continuation of 'The Barber of Seville'. The document also discusses the collaboration between Mozart and Da Ponte, the librettist, and the opera's success.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Barber of Seville', and 'The Marriage of Figaro', which are all key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Figaro', which is the answer to the query.",
+                "Key Information Matching": "The document provides the name 'Figaro' and explains that 'Le nozze di Figaro' is Mozart's opera that continues the story from 'The Barber of Seville'. This directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer 'Figaro' and explains the connection to 'The Barber of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, its origins, and its relationship to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer as well as substantial context about Mozart's opera 'Le nozze di Figaro', which is a continuation of 'The Barber of Seville'. This enhances understanding of the query and directly answers it."
+            },
+            "triviaqa_14848_20": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville' and is called 'The Marriage of ...'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage of, character",
+                "Answer Analysis": "The answer is 'Figaro', which is the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides information about several operas, including 'Le Nozze di Figaro' (The Marriage of Figaro) by Mozart, which is mentioned as one of his masterpieces. It also mentions 'Il Barbiere di Siviglia' (The Barber of Seville) by Rossini, which is related to the query.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Marriage of Figaro', and 'The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document includes 'Figaro', which is the name of the character in 'The Marriage of Figaro'.",
+                "Key Information Matching": "The document mentions 'The Marriage of Figaro' by Mozart, which is a continuation of 'The Barber of Seville', and it includes the character 'Figaro'.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Marriage of Figaro' by Mozart, which is the opera in question, and it includes the character 'Figaro'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera and its relation to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'The Marriage of Figaro' by Mozart, which is the opera in question, and it includes the character 'Figaro'. It also provides useful context about the opera and its relation to 'The Barber of Seville'."
+            },
+            "m.04d0cyq_27": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber of Seville'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber of Seville, The Marriage Of, who",
+                "Answer Analysis": "The answer is 'Figaro', which is the name of the character in Mozart's opera 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides detailed information about Mozart's opera 'The Marriage of Figaro', including its composer, librettist, premiere date, and its connection to 'The Barber of Seville'. It also mentions that the opera is based on a play by Pierre Beaumarchais.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart', 'opera', 'The Marriage of Figaro', and 'The Barber of Seville'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Figaro' multiple times, which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'The Marriage of Figaro' as Mozart's opera that continues the story from 'The Barber of Seville', and it explicitly names 'Figaro' as the central character.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Figaro' as the character in Mozart's opera that continues 'The Barber of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the opera, including its composer, librettist, and its connection to 'The Barber of Seville'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Figaro') as well as additional context about the opera. It enhances understanding of the query by detailing the connection between 'The Marriage of Figaro' and 'The Barber of Seville'."
+            },
+            "nq_10361_20": {
+                "Query Analysis": "The query asks for the name of the character in Mozart's opera that is a continuation of 'The Barber Of Seville'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber Of Seville, The Marriage Of, who",
+                "Answer Analysis": "The answer is 'Figaro', indicating that the opera is 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document discusses Mozart's opera 'The Magic Flute', including details about its overture, act structure, and characters. It does not mention 'The Barber Of Seville' or 'The Marriage of Figaro'.",
+                "Document and Query Keywords Matching": "The document mentions 'Mozart' and 'opera', but does not reference 'The Barber Of Seville' or 'The Marriage Of'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Figaro'.",
+                "Key Information Matching": "The document does not provide any information related to 'The Barber Of Seville' or 'The Marriage of Figaro'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'The Marriage of Figaro' or its connection to 'The Barber Of Seville'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about a different Mozart opera ('The Magic Flute') and does not provide any relevant context or information for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about 'The Magic Flute', a different opera by Mozart, and does not mention 'The Barber Of Seville' or 'The Marriage of Figaro'. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.04d0cyq_33": {},
+            "nq_88641_88": {},
+            "triviaqa_39881_83": {},
+            "triviaqa_37428_8": {},
+            "triviaqa_14848_60": {},
+            "triviaqa_47402_11": {
+                "Query Analysis": "The query seeks the name of the character mentioned in the opera 'The Marriage of Figaro' composed by Mozart, which continues the story from 'The Barber of Seville'.",
+                "Query Keywords Extraction": "Mozart, opera, continuation, The Barber Of Seville, The Marriage Of Figaro",
+                "Answer Analysis": "The answer is 'Figaro', who is the main character in 'The Marriage of Figaro'.",
+                "Document Content Analysis": "The document provides information about 'The Magic Flute', a singspiel composed by Mozart, and mentions several of his other famous works, including 'The Marriage of Figaro'. It also details the plot and characters of 'The Magic Flute' and offers some background on its premiere and themes.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Mozart' and 'The Marriage of Figaro'.",
+                "Document and Answer Keywords Matching": "The document mentions 'The Marriage of Figaro', which implies the character Figaro.",
+                "Key Information Matching": "The document mentions 'The Marriage of Figaro', which is the opera associated with the query but does not elaborate on its content or connection to 'The Barber of Seville'.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query since it lacks specific information about 'The Marriage of Figaro' being a continuation of 'The Barber of Seville' or any details about Figaro.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, since the document mentions 'The Marriage of Figaro', which might prompt further investigation into the opera's content, but it does not directly help infer the query's specific link to 'The Barber of Seville'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides partial context by mentioning 'The Marriage of Figaro', a key opera relevant to the query. However, it lacks sufficient detail about the opera's plot or connection to 'The Barber of Seville', making it only partially relevant as it might lead to the correct answer but does not directly supply it."
+            },
+            "m.04d0cyq_88": {},
+            "triviaqa_37428_23": {},
+            "triviaqa_39881_12": {},
+            "triviaqa_41698_36": {},
+            "ott_13638_0": {},
+            "m.04d0cyq_89": {},
+            "triviaqa_14848_20": {},
+            "m.04d0cyq_27": {},
+            "nq_10361_20": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "nq_10361_20": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 8,
+            "triviaqa": 9,
+            "ott": 2,
+            "nq": 0,
+            "tat": 0
+        }
+    }
+}

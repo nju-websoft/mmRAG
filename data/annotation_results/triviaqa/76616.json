@@ -1,0 +1,994 @@
+{
+    "index": 76616,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "In basketball where do the Celtics come from?",
+        "answer": "Boston",
+        "BM25_documents": [
+            {
+                "id": "m.0crf9w7_3",
+                "score": 11.432100296020508
+            },
+            {
+                "id": "nq_889_29",
+                "score": 11.413700103759766
+            },
+            {
+                "id": "triviaqa_155_24",
+                "score": 10.980799674987793
+            },
+            {
+                "id": "triviaqa_155_4",
+                "score": 10.895099639892578
+            },
+            {
+                "id": "triviaqa_155_0",
+                "score": 10.83329963684082
+            },
+            {
+                "id": "triviaqa_155_23",
+                "score": 10.813199996948242
+            },
+            {
+                "id": "nq_241794_151",
+                "score": 10.76550006866455
+            },
+            {
+                "id": "nq_304350_73",
+                "score": 10.718899726867676
+            },
+            {
+                "id": "nq_10311_319",
+                "score": 10.589799880981445
+            },
+            {
+                "id": "nq_108590_89",
+                "score": 10.589798927307129
+            },
+            {
+                "id": "nq_1827_142",
+                "score": 10.589797973632812
+            },
+            {
+                "id": "nq_259032_147",
+                "score": 10.589797019958496
+            },
+            {
+                "id": "nq_53147_291",
+                "score": 10.58979606628418
+            },
+            {
+                "id": "nq_99170_177",
+                "score": 10.589795112609863
+            },
+            {
+                "id": "triviaqa_155_19",
+                "score": 10.567999839782715
+            },
+            {
+                "id": "nq_213333_165",
+                "score": 10.50730037689209
+            },
+            {
+                "id": "nq_275204_116",
+                "score": 10.507299423217773
+            },
+            {
+                "id": "nq_21099_135",
+                "score": 10.502599716186523
+            },
+            {
+                "id": "nq_36147_131",
+                "score": 10.502598762512207
+            },
+            {
+                "id": "nq_1142_178",
+                "score": 10.458700180053711
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_24783_0",
+                "score": 8.967700004577637
+            },
+            {
+                "id": "ott_25378_0",
+                "score": 8.96769905090332
+            },
+            {
+                "id": "ott_27727_0",
+                "score": 8.967698097229004
+            },
+            {
+                "id": "ott_24783_1",
+                "score": 8.883600234985352
+            },
+            {
+                "id": "ott_25378_1",
+                "score": 8.883599281311035
+            },
+            {
+                "id": "ott_27727_1",
+                "score": 8.883598327636719
+            },
+            {
+                "id": "ott_15217_1",
+                "score": 8.690398216247559
+            },
+            {
+                "id": "ott_16555_1",
+                "score": 8.690397262573242
+            },
+            {
+                "id": "ott_38447_1",
+                "score": 8.690396308898926
+            },
+            {
+                "id": "ott_13141_0",
+                "score": 8.339284896850586
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_889_29",
+                "score": 11.413700103759766
+            },
+            {
+                "id": "nq_241794_151",
+                "score": 10.76550006866455
+            },
+            {
+                "id": "nq_304350_73",
+                "score": 10.718899726867676
+            },
+            {
+                "id": "nq_10311_319",
+                "score": 10.589799880981445
+            },
+            {
+                "id": "nq_108590_89",
+                "score": 10.589798927307129
+            },
+            {
+                "id": "nq_1827_142",
+                "score": 10.589797973632812
+            },
+            {
+                "id": "nq_259032_147",
+                "score": 10.589797019958496
+            },
+            {
+                "id": "nq_53147_291",
+                "score": 10.58979606628418
+            },
+            {
+                "id": "nq_99170_177",
+                "score": 10.589795112609863
+            },
+            {
+                "id": "nq_213333_165",
+                "score": 10.50730037689209
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_155_24",
+                "score": 10.980799674987793
+            },
+            {
+                "id": "triviaqa_155_4",
+                "score": 10.895099639892578
+            },
+            {
+                "id": "triviaqa_155_0",
+                "score": 10.83329963684082
+            },
+            {
+                "id": "triviaqa_155_23",
+                "score": 10.813199996948242
+            },
+            {
+                "id": "triviaqa_155_19",
+                "score": 10.567999839782715
+            },
+            {
+                "id": "triviaqa_155_11",
+                "score": 9.710000038146973
+            },
+            {
+                "id": "triviaqa_60375_312",
+                "score": 9.60099983215332
+            },
+            {
+                "id": "triviaqa_65216_23",
+                "score": 9.564200401306152
+            },
+            {
+                "id": "triviaqa_155_18",
+                "score": 9.52560043334961
+            },
+            {
+                "id": "triviaqa_155_7",
+                "score": 9.444999694824219
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0crf9w7_3",
+                "score": 11.432100296020508
+            },
+            {
+                "id": "m.0crf9w7_4",
+                "score": 10.319000244140625
+            },
+            {
+                "id": "m.043jv80_42",
+                "score": 9.835800170898438
+            },
+            {
+                "id": "m.08x9ff_0",
+                "score": 9.714900016784668
+            },
+            {
+                "id": "m.0jm3v_639",
+                "score": 9.509300231933594
+            },
+            {
+                "id": "m.0cf5jm_10",
+                "score": 9.313599586486816
+            },
+            {
+                "id": "m.0pdp4dt_2",
+                "score": 9.10420036315918
+            },
+            {
+                "id": "m.0jmk7_1972",
+                "score": 8.946700096130371
+            },
+            {
+                "id": "m.043jv80_14",
+                "score": 8.932900428771973
+            },
+            {
+                "id": "m.0bh9jqp_4",
+                "score": 8.887499809265137
+            },
+            {
+                "id": "m.0jmk7_671",
+                "score": 8.878600120544434
+            },
+            {
+                "id": "m.0crf9w7_2",
+                "score": 8.797599792480469
+            },
+            {
+                "id": "m.0pdn6hb_1",
+                "score": 8.76200008392334
+            },
+            {
+                "id": "m.0jmk7_670",
+                "score": 8.6806001663208
+            },
+            {
+                "id": "m.0jm3v_720",
+                "score": 8.646499633789062
+            },
+            {
+                "id": "m.0pdp4dt_1",
+                "score": 8.633999824523926
+            },
+            {
+                "id": "m.0jm3v_719",
+                "score": 8.63379955291748
+            },
+            {
+                "id": "m.03s55y_8",
+                "score": 8.628899574279785
+            },
+            {
+                "id": "m.05p32hd_3",
+                "score": 8.6225004196167
+            },
+            {
+                "id": "m.0jmk7_1319",
+                "score": 8.616700172424316
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_155_0",
+                "score": 0.7746571898460388
+            },
+            {
+                "id": "nq_889_9",
+                "score": 0.7508276700973511
+            },
+            {
+                "id": "nq_889_0",
+                "score": 0.7426345348358154
+            },
+            {
+                "id": "triviaqa_155_1",
+                "score": 0.7349720001220703
+            },
+            {
+                "id": "nq_53147_305",
+                "score": 0.7318764925003052
+            },
+            {
+                "id": "nq_889_8",
+                "score": 0.7191925048828125
+            },
+            {
+                "id": "nq_241794_164",
+                "score": 0.7175065279006958
+            },
+            {
+                "id": "nq_889_69",
+                "score": 0.7163398265838623
+            },
+            {
+                "id": "nq_889_177",
+                "score": 0.7129332423210144
+            },
+            {
+                "id": "nq_889_133",
+                "score": 0.7114684581756592
+            },
+            {
+                "id": "nq_889_71",
+                "score": 0.7112486362457275
+            },
+            {
+                "id": "nq_889_239",
+                "score": 0.7099948525428772
+            },
+            {
+                "id": "nq_889_48",
+                "score": 0.7082090377807617
+            },
+            {
+                "id": "nq_230051_4",
+                "score": 0.7077792286872864
+            },
+            {
+                "id": "nq_889_238",
+                "score": 0.7068553566932678
+            },
+            {
+                "id": "triviaqa_65216_24",
+                "score": 0.7025354504585266
+            },
+            {
+                "id": "nq_241794_19",
+                "score": 0.7010593414306641
+            },
+            {
+                "id": "nq_889_70",
+                "score": 0.6993755102157593
+            },
+            {
+                "id": "nq_889_235",
+                "score": 0.6984619498252869
+            },
+            {
+                "id": "nq_889_10",
+                "score": 0.6974452137947083
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_34864_1",
+                "score": 0.6450746059417725
+            },
+            {
+                "id": "ott_13063_1",
+                "score": 0.6450746059417725
+            },
+            {
+                "id": "ott_15528_1",
+                "score": 0.6400285959243774
+            },
+            {
+                "id": "ott_29289_1",
+                "score": 0.6400285959243774
+            },
+            {
+                "id": "ott_25915_2",
+                "score": 0.6368112564086914
+            },
+            {
+                "id": "ott_31579_2",
+                "score": 0.6368112564086914
+            },
+            {
+                "id": "ott_20489_2",
+                "score": 0.6368112564086914
+            },
+            {
+                "id": "ott_25378_1",
+                "score": 0.6339108943939209
+            },
+            {
+                "id": "ott_24783_1",
+                "score": 0.6339108943939209
+            },
+            {
+                "id": "ott_27727_1",
+                "score": 0.6339108943939209
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_889_9",
+                "score": 0.7508276700973511
+            },
+            {
+                "id": "nq_889_0",
+                "score": 0.7426345348358154
+            },
+            {
+                "id": "nq_53147_305",
+                "score": 0.7318764925003052
+            },
+            {
+                "id": "nq_889_8",
+                "score": 0.7191925048828125
+            },
+            {
+                "id": "nq_241794_164",
+                "score": 0.7175065279006958
+            },
+            {
+                "id": "nq_889_69",
+                "score": 0.7163398265838623
+            },
+            {
+                "id": "nq_889_177",
+                "score": 0.7129332423210144
+            },
+            {
+                "id": "nq_889_133",
+                "score": 0.7114684581756592
+            },
+            {
+                "id": "nq_889_71",
+                "score": 0.7112486362457275
+            },
+            {
+                "id": "nq_889_239",
+                "score": 0.7099948525428772
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_155_0",
+                "score": 0.7746571898460388
+            },
+            {
+                "id": "triviaqa_155_1",
+                "score": 0.7349720001220703
+            },
+            {
+                "id": "triviaqa_65216_24",
+                "score": 0.7025354504585266
+            },
+            {
+                "id": "triviaqa_65216_23",
+                "score": 0.6765867471694946
+            },
+            {
+                "id": "triviaqa_155_9",
+                "score": 0.6751852631568909
+            },
+            {
+                "id": "triviaqa_65216_3",
+                "score": 0.6729846000671387
+            },
+            {
+                "id": "triviaqa_65216_9",
+                "score": 0.6712212562561035
+            },
+            {
+                "id": "triviaqa_65216_39",
+                "score": 0.6703513264656067
+            },
+            {
+                "id": "triviaqa_65216_32",
+                "score": 0.6679293513298035
+            },
+            {
+                "id": "triviaqa_65216_41",
+                "score": 0.6637475490570068
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0bx_x85_9",
+                "score": 0.6599442362785339
+            },
+            {
+                "id": "m.05p32hd_8",
+                "score": 0.6545457243919373
+            },
+            {
+                "id": "m.05p32hd_4",
+                "score": 0.6513705253601074
+            },
+            {
+                "id": "m.0pdp4dt_1",
+                "score": 0.6482715606689453
+            },
+            {
+                "id": "m.0crf9w7_4",
+                "score": 0.6469703316688538
+            },
+            {
+                "id": "m.0cr3d_170",
+                "score": 0.6461547613143921
+            },
+            {
+                "id": "m.06w7hfh_6",
+                "score": 0.6456131339073181
+            },
+            {
+                "id": "m.0bh9jqp_4",
+                "score": 0.6393784880638123
+            },
+            {
+                "id": "m.0cf5jm_6",
+                "score": 0.6370871067047119
+            },
+            {
+                "id": "m.0jmk7_697",
+                "score": 0.636586606502533
+            },
+            {
+                "id": "m.0w7qk0x_0",
+                "score": 0.6362665891647339
+            },
+            {
+                "id": "m.0jmk7_2086",
+                "score": 0.6317195296287537
+            },
+            {
+                "id": "m.0w2s9yt_0",
+                "score": 0.6310497522354126
+            },
+            {
+                "id": "m.0bx_x85_18",
+                "score": 0.6303631067276001
+            },
+            {
+                "id": "m.0jmk7_3314",
+                "score": 0.6302610039710999
+            },
+            {
+                "id": "m.012xdf_203",
+                "score": 0.6296753883361816
+            },
+            {
+                "id": "m.0jmk7_51",
+                "score": 0.6291614770889282
+            },
+            {
+                "id": "m.0ztw1_3_0",
+                "score": 0.6282702088356018
+            },
+            {
+                "id": "m.0jm3b_95",
+                "score": 0.6282434463500977
+            },
+            {
+                "id": "m.01cx__703",
+                "score": 0.627030611038208
+            }
+        ],
+        "llm_mark_result": {
+            "m.0crf9w7_3": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics come from Boston.",
+                "Document Content Analysis": "The document provides information about Kelly Olynyk, a professional basketball player who currently plays for the Boston Celtics. It mentions his background, education, and career, including his selection in the 2013 NBA Draft and subsequent trade to the Boston Celtics.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which directly relates to the query keywords 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document includes 'Boston Celtics', which matches the answer 'Boston'.",
+                "Key Information Matching": "The document explicitly states that Kelly Olynyk plays for the 'Boston Celtics', directly providing the information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning the Boston Celtics.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about a player associated with the Boston Celtics, enhancing the understanding of the team's presence in the NBA.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the 'Boston Celtics', which directly answers the question about the origin of the Celtics. The document provides substantial useful context about a player associated with the team, further reinforcing its relevance."
+            },
+            "nq_889_0": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document provides detailed information about the Boston Celtics basketball team, including their history, conference, division, founding year, arena, and location.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics' and 'basketball', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states that the team's location is 'Boston, Massachusetts', which matches the answer.",
+                "Key Information Matching": "The document directly provides the information that the Boston Celtics are located in Boston, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the team's location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about the team, enhancing the context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by specifying that the Boston Celtics are from Boston. It also provides additional context and information about the team, making it very useful for understanding the query in depth."
+            },
+            "ott_24783_0": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document provides historical data on NBA Conference Finals, listing champions, coaches, results, runner-ups, and their coaches for various years. The Boston Celtics are mentioned multiple times as either champions or runner-ups.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which directly relates to the query keywords 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document includes the term 'Boston', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly mentions 'Boston Celtics', directly linking the team to the city of Boston.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query by mentioning 'Boston Celtics'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the Boston Celtics' participation in NBA Conference Finals, enhancing understanding of the team's significance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Boston Celtics', thereby providing the exact answer to the question about the team's origin. Additionally, the document's context about the team's performance in NBA Conference Finals adds useful background information."
+            },
+            "nq_889_9": {
+                "Query Analysis": "The query is asking for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document provides information about the Boston Celtics, including their location, the league they compete in, their history, and their home venue.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics' and 'basketball', which directly match the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly states that the Boston Celtics are based in 'Boston, Massachusetts', which matches the answer.",
+                "Key Information Matching": "The document directly provides the information that the Boston Celtics are based in Boston, which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the Boston Celtics are based in Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the team, such as their league, division, and history, which enhances understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that the Boston Celtics are based in Boston, providing a direct answer to the query. Additionally, it offers supplementary information about the team, which further supports the relevance."
+            },
+            "m.0crf9w7_4": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics come from Boston.",
+                "Document Content Analysis": "The document describes a basketball player, Kelly Olynyk, who is of Canadian nationality and currently plays for the Boston Celtics in the NBA. It mentions his college career, his entry into the NBA Draft, and his selection by the Dallas Mavericks before being traded to the Boston Celtics. It also mentions his participation in international competitions for the Canadian national basketball team.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which directly relates to the query keywords 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document includes 'Boston', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that the player defends the 'Boston Celtics', directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'Boston Celtics'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about a player associated with the Boston Celtics, enhancing the understanding of the team's context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Boston Celtics', providing the exact answer to where the Celtics come from. Additionally, it offers context about a player associated with the team, further enriching the information related to the query."
+            },
+            "nq_889_29": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses the history and performance of the Celtics basketball team, including trades, draft picks, and championship wins. It mentions specific players, coaches, and seasons.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' multiple times.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston' in the context of the Celtics' games and performance.",
+                "Key Information Matching": "The document directly mentions 'Boston' in relation to the Celtics, such as 'Boston Garden' and 'the Celtics matched up with the 76ers in the Eastern Conference Finals'.",
+                "Can the Document Answer the Query": "Yes, the document mentions 'Boston' in the context of the Celtics, directly answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive context about the Celtics' history and performance, which reinforces the connection to Boston.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions both the 'Celtics' and 'Boston' in relevant contexts, providing substantial useful context and directly answering the query."
+            },
+            "triviaqa_155_0": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics come from Boston.",
+                "Document Content Analysis": "DOCUMENT 1 provides information about the Boston Celtics, including news, scores, and other related content. It explicitly mentions 'Boston Celtics' multiple times. DOCUMENT 2 discusses the history and naming of the Boston Celtics, explaining why the team is named 'Celtics' and its connection to Boston.",
+                "Document and Query Keywords Matching": "Both DOCUMENT 1 and DOCUMENT 2 mention 'Celtics' and 'Boston'.",
+                "Document and Answer Keywords Matching": "Both DOCUMENT 1 and DOCUMENT 2 include the keyword 'Boston', which is the answer to the query.",
+                "Key Information Matching": "The key information required by the query is the origin city of the Celtics, which is explicitly mentioned as 'Boston' in both documents.",
+                "Can the Document Answer the Query": "Yes, both DOCUMENT 1 and DOCUMENT 2 can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, both documents provide additional context about the Boston Celtics, enhancing understanding of the team.",
+                "Relevance Judgement": "2",
+                "Explanation": "Both DOCUMENT 1 and DOCUMENT 2 are directly relevant to the query. They explicitly mention 'Boston Celtics', directly answering the query about the origin of the Celtics. Additionally, DOCUMENT 2 provides historical context about the team's naming, which further enriches the understanding of the query."
+            },
+            "m.0bx_x85_9": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document describes the 2010 NBA Finals between the Los Angeles Lakers and the Boston Celtics, detailing their paths to the finals and some game specifics. It mentions the Celtics as champions of the Eastern Conference and provides context about their performance in the playoffs.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' multiple times.",
+                "Document and Answer Keywords Matching": "The document includes 'Boston' in the context of the Boston Celtics.",
+                "Key Information Matching": "The document directly mentions 'Boston Celtics', which directly answers the query about where the Celtics come from.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Celtics' performance in the 2010 NBA Finals, enhancing understanding of the team.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Boston Celtics', providing the exact answer to the question. Additionally, it offers context about the team's recent performance, which adds useful background information."
+            },
+            "triviaqa_155_4": {
+                "Query Analysis": "The query is asking for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document mentions the Boston Celtics in the context of their team schedule, a specific game against the New York Knicks, and some details about the game's outcome and player performances.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'Boston Celtics', which directly matches the query keywords 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston' in the context of 'Boston Celtics', which matches the answer.",
+                "Key Information Matching": "The document directly mentions 'Boston Celtics', which provides the key information needed to answer the query about where the Celtics come from.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query as it mentions 'Boston Celtics'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Boston Celtics, such as their game schedule and performance details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Boston Celtics', which directly answers the question about the team's origin. The additional context about the team's activities further supports the relevance."
+            },
+            "triviaqa_155_1": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics come from Boston.",
+                "Document Content Analysis": "The document discusses the origin of the name 'Celtics' for the Boston Celtics basketball team, explaining that the name was chosen due to Boston's large Irish population and the historical significance of the Celts. It also touches on the pronunciation of 'Celtic' and briefly mentions the Los Angeles Lakers.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' and 'Boston', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Boston Celtics', which directly matches the answer.",
+                "Key Information Matching": "The document provides the exact information needed to answer the query by stating that the team is the 'Boston Celtics'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the team is from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document also provides additional context on why the team is named the Celtics.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides both the answer and additional context about the origin of the team's name. It explicitly mentions 'Boston Celtics', which directly answers the query about where the Celtics come from."
+            },
+            "m.05p32hd_8": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics come from Boston.",
+                "Document Content Analysis": "The document provides information about a basketball player named Evan Turner, detailing his career, including his time with the Boston Celtics. It mentions that he plays for the Boston Celtics in the NBA.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which directly relates to the query keywords 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document includes 'Boston', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Evan Turner plays for the 'Boston Celtics', directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'Boston Celtics'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about a player's association with the Boston Celtics, reinforcing the team's origin.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Boston Celtics', providing the exact information needed to answer the query about the team's origin."
+            },
+            "nq_53147_305": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, origin",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document provides information about the Boston Celtics, including their founding year, base location, franchise details, arenas, and administration.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics' and 'basketball'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that the team is based in 'Boston, Massachusetts'.",
+                "Key Information Matching": "The document directly states the base location of the Boston Celtics, which matches the query's requirement for the origin city.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the Celtics are based in Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the team's history, arenas, and administration, which enhances understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that the Boston Celtics are based in Boston, thereby answering the query. Additionally, it provides comprehensive information about the team, which further supports the relevance."
+            },
+            "triviaqa_155_24": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses the Boston Celtics' efforts to recruit Kevin Durant, mentioning that the team is pulling out all the stops and even involving New England Patriots quarterback Tom Brady in the recruitment process. The document is focused on a specific event related to the Boston Celtics.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' and 'Boston Celtics', which directly relate to the query keywords 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Boston' in the context of the Boston Celtics, which matches the answer.",
+                "Key Information Matching": "The document directly states 'The Boston Celtics', which matches the key information required by the query, i.e., the origin city of the Celtics.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'The Boston Celtics'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Boston Celtics, such as their recruitment strategies.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'The Boston Celtics', thereby providing the exact information needed to answer the query. Additionally, it offers context about the team's activities, enhancing the understanding of the query's subject."
+            },
+            "ott_34864_1": {
+                "Query Analysis": "The query asks for the origin city of the basketball team known as the Celtics.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is Boston, indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document lists professional basketball players and their respective teams and leagues. It mentions the Boston Celtics in the context of a player's career history. The document also provides information about the Fairfield Stags men's basketball team, their history, achievements, and notable players.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which directly relates to the query keywords 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document includes 'Boston', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'Boston Celtics', which matches the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'Boston Celtics'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about professional basketball teams and players, which can enhance understanding of the basketball landscape.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Boston Celtics', thereby providing the exact answer to the query. Additionally, the document offers broader context about professional basketball, which can be useful for a deeper understanding of the topic."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0crf9w7_3": {
+                "Query Analysis": "The query asks for the origin or home city of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses Kelly Olynyk, a Canadian professional basketball player who plays for the Boston Celtics. It mentions his career, including being traded to the Boston Celtics and his background.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which matches the query keyword 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston Celtics', which matches the answer keyword 'Boston'.",
+                "Key Information Matching": "The document explicitly mentions 'Boston Celtics', which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide additional information beyond confirming the origin of the Celtics.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by confirming that the Celtics are from Boston. It provides useful context and directly relates to the main topic of the conversation."
+            },
+            "nq_889_0": {
+                "Query Analysis": "The query asks for the origin or location of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document provides detailed information about the Boston Celtics, including their founding year, location, arena, and other team-related details.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' and 'Boston', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Boston', which matches the answer.",
+                "Key Information Matching": "The document clearly states that the Boston Celtics are located in Boston, Massachusetts, which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the team, such as their founding year and arena, which could be useful for further understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about the team, enhancing understanding of the query."
+            },
+            "ott_24783_0": {
+                "Query Analysis": "The query asks about the origin of the Celtics basketball team, specifically where they come from.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document provides a list of NBA Conference Finals results, including teams, coaches, and outcomes. It mentions the Boston Celtics multiple times as a participant in these finals.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' and 'basketball' (implied by the context of NBA Conference Finals).",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston Celtics', which includes the keyword 'Boston' from the answer.",
+                "Key Information Matching": "The document mentions 'Boston Celtics', which directly relates to the query and answer by indicating that the Celtics are from Boston.",
+                "Can the Document Answer the Query": "Yes, the document mentions 'Boston Celtics', which directly answers the query about where the Celtics come from.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly answers the query without requiring additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'Boston Celtics', which provides the exact information needed to answer the query. This makes the document highly relevant as it directly answers the question without requiring further inference."
+            },
+            "nq_889_9": {
+                "Query Analysis": "The query asks about the origin or home city of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document provides detailed information about the Boston Celtics, including their location, history, and achievements. It explicitly states that the Celtics are based in Boston, Massachusetts.",
+                "Document and Query Keywords Matching": "The document mentions 'basketball' and 'Celtics', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that the Boston Celtics are based in Boston, Massachusetts, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Celtics, including their history and achievements.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Boston') as well as additional relevant information about the Celtics. It enhances understanding of the query by providing context and background."
+            },
+            "m.0crf9w7_4": {
+                "Query Analysis": "The query asks about the origin of the Celtics in basketball, specifically where they come from.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses Kelly Olynyk, a Canadian basketball player who plays for the Boston Celtics in the NBA. It mentions his career, including his draft selection and trade to the Boston Celtics.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which matches the query's keyword 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston Celtics', which matches the answer 'Boston'.",
+                "Key Information Matching": "The document provides information about the Boston Celtics, which is directly related to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions the Boston Celtics, which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document already directly answers the query by stating the Celtics are from Boston.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions the Boston Celtics, which directly answers the question about where the Celtics come from. It provides substantial useful context and information that enhances understanding of the query."
+            },
+            "nq_889_29": {
+                "Query Analysis": "The query asks about the origin or home city of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses the history of the Celtics, including key players, coaches, and significant events such as their performance in the 1980–81 NBA season and their NBA Championship win in 1981. It mentions the Celtics' matchups with other teams and their home games at Boston Garden.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' multiple times, which matches the query keyword 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Boston', but it references 'Boston Garden', which is strongly associated with Boston.",
+                "Key Information Matching": "The document provides historical context about the Celtics, including their home games at Boston Garden, which is located in Boston. This indirectly confirms that the Celtics are from Boston.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions 'Boston Garden', which is a strong indicator that the Celtics are based in Boston.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document provides substantial useful context about the Celtics, including their home games at Boston Garden, which strongly implies that the Celtics are from Boston. While it does not explicitly state 'Boston', the information is sufficient to infer the answer to the query."
+            },
+            "triviaqa_155_0": {
+                "Query Analysis": "The query asks for the origin or location of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "Document 1 provides information about the Boston Celtics, including news, scores, and schedules. Document 2 discusses the history and naming of the Boston Celtics, including their connection to Boston and the Irish population.",
+                "Document and Query Keywords Matching": "Document 1 mentions 'Boston Celtics'. Document 2 mentions 'Boston Celtics' and 'Boston'.",
+                "Document and Answer Keywords Matching": "Document 1 mentions 'Boston Celtics'. Document 2 mentions 'Boston' and 'Boston Celtics'.",
+                "Key Information Matching": "Both documents mention 'Boston Celtics', which directly relates to the query and the answer.",
+                "Can the Document Answer the Query": "Yes, both documents directly state that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, Document 2 provides additional historical context about the Celtics' connection to Boston.",
+                "Relevance Judgement": "2",
+                "Explanation": "Both documents directly answer the query by stating that the Celtics are from Boston. Additionally, Document 2 provides useful historical context about the team's name and its connection to Boston, enhancing understanding of the query."
+            },
+            "m.0bx_x85_9": {
+                "Query Analysis": "The query asks about the origin of the Celtics basketball team, specifically where they come from.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses the 2010 NBA Finals between the Los Angeles Lakers and the Boston Celtics, including details about their paths to the finals and their historical context.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' and provides context about their participation in the NBA Finals.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston Celtics', which directly matches the answer 'Boston'.",
+                "Key Information Matching": "The document explicitly states 'Boston Celtics', which directly answers the query about the origin of the Celtics.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly provides the answer without needing additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that the Celtics are from Boston. It provides substantial useful context and directly relates to the main topic of the conversation."
+            },
+            "triviaqa_155_4": {
+                "Query Analysis": "The query asks about the origin of the Celtics basketball team, specifically where they come from.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics basketball team is from Boston.",
+                "Document Content Analysis": "The document discusses the Boston Celtics' history, including their participation in the NBA Draft Lottery and a specific game against the New York Knicks. It mentions the team's name, their location (Boston), and some historical context related to the NBA.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which matches the query keywords 'Celtics' and 'basketball'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston', which matches the answer 'Boston'.",
+                "Key Information Matching": "The document provides information about the Boston Celtics, including their name and location, which directly relates to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about the Celtics, which could be useful for understanding their background.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the question about where the Celtics come from. It also offers additional context about the team's history, enhancing understanding of the query."
+            },
+            "triviaqa_155_1": {
+                "Query Analysis": "The query asks about the origin of the Celtics in basketball, specifically where they come from.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses the origin of the Boston Celtics' name, mentioning that the team was named after an earlier basketball team from New York and that Boston has a large Irish population. It also touches on the pronunciation of 'Celtic' and briefly mentions the Los Angeles Lakers.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which matches the query keywords 'Celtics' and 'come from'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boston', which matches the answer 'Boston'.",
+                "Key Information Matching": "The document provides information about the origin of the Boston Celtics' name and their connection to Boston, which aligns with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the origin of the Celtics' name and their connection to Boston.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that the Celtics are from Boston. It also provides additional context about the origin of the team's name, which enhances understanding of the query."
+            },
+            "m.05p32hd_8": {
+                "Query Analysis": "The query asks for the origin or home city of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses Evan Turner, a basketball player who plays for the Boston Celtics in the NBA. It mentions his career, transfers, and achievements, including his current team, the Boston Celtics.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' and 'Boston', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Boston', which matches the answer.",
+                "Key Information Matching": "The document explicitly mentions 'Boston Celtics', which directly answers the query about the origin of the Celtics.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly mentions the Boston Celtics, providing the exact information needed to answer the query. Therefore, it is highly relevant."
+            },
+            "nq_53147_305": {
+                "Query Analysis": "The query asks for the origin or location of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are based in Boston.",
+                "Document Content Analysis": "The document provides detailed information about the Boston Celtics, including their founding year (1946), location (Boston, Massachusetts), franchise history, arenas, and administration.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which matches the query keywords 'Celtics' and 'basketball'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that the Celtics are based in 'Boston, Massachusetts', which matches the answer 'Boston'.",
+                "Key Information Matching": "The document directly states that the Celtics are based in Boston, Massachusetts, which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are based in Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Celtics, such as their founding year and arenas, which could be useful for further understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about the Celtics, enhancing understanding of the team's background and location."
+            },
+            "triviaqa_155_24": {
+                "Query Analysis": "The query asks about the origin of the Celtics basketball team, specifically where they come from.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document discusses the Boston Celtics' efforts to recruit Kevin Durant, mentioning their association with Boston and their use of local sports figures like Tom Brady in their recruitment strategy.",
+                "Document and Query Keywords Matching": "The document mentions 'Celtics' and 'Boston', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Boston', which matches the answer.",
+                "Key Information Matching": "The document directly states that the Celtics are from Boston, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer it, stating that the Celtics are from Boston. This makes the document highly relevant and useful for answering the query."
+            },
+            "ott_34864_1": {
+                "Query Analysis": "The query asks about the origin or home location of the Celtics basketball team.",
+                "Query Keywords Extraction": "basketball, Celtics, come from",
+                "Answer Analysis": "The answer is 'Boston', indicating that the Celtics are from Boston.",
+                "Document Content Analysis": "The document lists professional basketball players and their affiliations, including one player associated with the Boston Celtics. It also provides background information about the Fairfield Stags men's basketball team, including their achievements and players who have gone on to play professionally.",
+                "Document and Query Keywords Matching": "The document mentions 'Boston Celtics', which matches the query keyword 'Celtics'.",
+                "Document and Answer Keywords Matching": "The document includes 'Boston', which matches the answer.",
+                "Key Information Matching": "The document mentions 'Boston Celtics', which directly relates to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the Celtics are from Boston.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that the Celtics are from Boston, providing substantial useful context."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0crf9w7_3": {},
+            "nq_889_0": {},
+            "ott_24783_0": {},
+            "nq_889_9": {},
+            "m.0crf9w7_4": {},
+            "nq_889_29": {},
+            "triviaqa_155_0": {},
+            "m.0bx_x85_9": {},
+            "triviaqa_155_4": {},
+            "triviaqa_155_1": {},
+            "m.05p32hd_8": {},
+            "nq_53147_305": {},
+            "triviaqa_155_24": {},
+            "ott_34864_1": {}
+        },
+        "relevance_judgement": 2,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_34864_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "triviaqa": 2,
+            "kg": 8,
+            "nq": 4,
+            "ott": 4,
+            "tat": 0
+        }
+    }
+}

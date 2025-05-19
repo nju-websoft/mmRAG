@@ -1,0 +1,1295 @@
+{
+    "index": 1655,
+    "context": [
+        "m.014tss"
+    ],
+    "qa": {
+        "question": "Which native English speaking country's capital is Edinburgh?",
+        "answer": "['Kingdom of Great Britain']",
+        "BM25_documents": [
+            {
+                "id": "nq_4422_3",
+                "score": 13.109100341796875
+            },
+            {
+                "id": "triviaqa_48308_3",
+                "score": 12.897100448608398
+            },
+            {
+                "id": "nq_110604_55",
+                "score": 12.584400177001953
+            },
+            {
+                "id": "triviaqa_4338_26",
+                "score": 12.51509952545166
+            },
+            {
+                "id": "nq_4422_2",
+                "score": 12.431900024414062
+            },
+            {
+                "id": "nq_4422_4",
+                "score": 12.163800239562988
+            },
+            {
+                "id": "nq_77811_2",
+                "score": 12.046299934387207
+            },
+            {
+                "id": "ott_16577_0",
+                "score": 11.959400177001953
+            },
+            {
+                "id": "ott_16582_0",
+                "score": 11.959399223327637
+            },
+            {
+                "id": "ott_17668_0",
+                "score": 11.95939826965332
+            },
+            {
+                "id": "ott_22136_0",
+                "score": 11.959397315979004
+            },
+            {
+                "id": "ott_4858_0",
+                "score": 11.959396362304688
+            },
+            {
+                "id": "nq_4422_0",
+                "score": 11.862799644470215
+            },
+            {
+                "id": "nq_39775_47",
+                "score": 11.812899589538574
+            },
+            {
+                "id": "triviaqa_48308_2",
+                "score": 11.78969955444336
+            },
+            {
+                "id": "triviaqa_45049_80",
+                "score": 11.66759967803955
+            },
+            {
+                "id": "triviaqa_28839_191",
+                "score": 11.641200065612793
+            },
+            {
+                "id": "nq_290044_8",
+                "score": 11.634300231933594
+            },
+            {
+                "id": "nq_117114_157",
+                "score": 11.558099746704102
+            },
+            {
+                "id": "nq_2232_260",
+                "score": 11.558098793029785
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.014tss_293",
+                "score": 8.768699645996094
+            },
+            {
+                "id": "m.014tss_518",
+                "score": 7.592796325683594
+            },
+            {
+                "id": "m.014tss_701",
+                "score": 6.918600082397461
+            },
+            {
+                "id": "m.014tss_519",
+                "score": 6.389898300170898
+            },
+            {
+                "id": "m.014tss_301",
+                "score": 5.865499973297119
+            },
+            {
+                "id": "m.014tss_126",
+                "score": 5.221199989318848
+            },
+            {
+                "id": "m.014tss_700",
+                "score": 5.1350998878479
+            },
+            {
+                "id": "m.014tss_561",
+                "score": 5.129469871520996
+            },
+            {
+                "id": "m.014tss_559",
+                "score": 5.111499786376953
+            },
+            {
+                "id": "m.014tss_137",
+                "score": 5.1041998863220215
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_16577_0",
+                "score": 11.959400177001953
+            },
+            {
+                "id": "ott_16582_0",
+                "score": 11.959399223327637
+            },
+            {
+                "id": "ott_17668_0",
+                "score": 11.95939826965332
+            },
+            {
+                "id": "ott_22136_0",
+                "score": 11.959397315979004
+            },
+            {
+                "id": "ott_4858_0",
+                "score": 11.959396362304688
+            },
+            {
+                "id": "ott_24917_1",
+                "score": 8.143199920654297
+            },
+            {
+                "id": "ott_31656_1",
+                "score": 8.14319896697998
+            },
+            {
+                "id": "ott_4418_1",
+                "score": 8.143198013305664
+            },
+            {
+                "id": "ott_11592_0",
+                "score": 7.9026970863342285
+            },
+            {
+                "id": "ott_32863_0",
+                "score": 7.902696132659912
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_4422_3",
+                "score": 13.109100341796875
+            },
+            {
+                "id": "nq_110604_55",
+                "score": 12.584400177001953
+            },
+            {
+                "id": "nq_4422_2",
+                "score": 12.431900024414062
+            },
+            {
+                "id": "nq_4422_4",
+                "score": 12.163800239562988
+            },
+            {
+                "id": "nq_77811_2",
+                "score": 12.046299934387207
+            },
+            {
+                "id": "nq_4422_0",
+                "score": 11.862799644470215
+            },
+            {
+                "id": "nq_39775_47",
+                "score": 11.812899589538574
+            },
+            {
+                "id": "nq_290044_8",
+                "score": 11.634300231933594
+            },
+            {
+                "id": "nq_117114_157",
+                "score": 11.558099746704102
+            },
+            {
+                "id": "nq_2232_260",
+                "score": 11.558098793029785
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_48308_3",
+                "score": 12.897100448608398
+            },
+            {
+                "id": "triviaqa_4338_26",
+                "score": 12.51509952545166
+            },
+            {
+                "id": "triviaqa_48308_2",
+                "score": 11.78969955444336
+            },
+            {
+                "id": "triviaqa_45049_80",
+                "score": 11.66759967803955
+            },
+            {
+                "id": "triviaqa_28839_191",
+                "score": 11.641200065612793
+            },
+            {
+                "id": "triviaqa_26542_47",
+                "score": 11.418299674987793
+            },
+            {
+                "id": "triviaqa_15159_75",
+                "score": 11.38230037689209
+            },
+            {
+                "id": "triviaqa_16755_35",
+                "score": 11.321599960327148
+            },
+            {
+                "id": "triviaqa_63662_113",
+                "score": 11.136300086975098
+            },
+            {
+                "id": "triviaqa_36283_0",
+                "score": 11.087699890136719
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0160w_326",
+                "score": 10.947199821472168
+            },
+            {
+                "id": "m.0160w_1216",
+                "score": 10.852499961853027
+            },
+            {
+                "id": "m.0160w_622",
+                "score": 10.402899742126465
+            },
+            {
+                "id": "m.0160w_1515",
+                "score": 10.317500114440918
+            },
+            {
+                "id": "m.0160w_921",
+                "score": 10.150799751281738
+            },
+            {
+                "id": "m.036b__36",
+                "score": 10.102899551391602
+            },
+            {
+                "id": "m.0160w_30",
+                "score": 9.98960018157959
+            },
+            {
+                "id": "m.0160w_1324",
+                "score": 9.624699592590332
+            },
+            {
+                "id": "m.0160w_1597",
+                "score": 9.624698638916016
+            },
+            {
+                "id": "m.0160w_244",
+                "score": 9.6246976852417
+            },
+            {
+                "id": "m.0160w_454",
+                "score": 9.624696731567383
+            },
+            {
+                "id": "m.0160w_741",
+                "score": 9.624695777893066
+            },
+            {
+                "id": "m.0160w_995",
+                "score": 9.62469482421875
+            },
+            {
+                "id": "m.036b__35",
+                "score": 9.577400207519531
+            },
+            {
+                "id": "m.064_8sq_10203",
+                "score": 9.575599670410156
+            },
+            {
+                "id": "m.0160w_1217",
+                "score": 9.466099739074707
+            },
+            {
+                "id": "m.0160w_327",
+                "score": 9.46609878540039
+            },
+            {
+                "id": "m.064_8sq_787",
+                "score": 9.431300163269043
+            },
+            {
+                "id": "m.064_8sq_9",
+                "score": 9.431299209594727
+            },
+            {
+                "id": "m.064_8sq_4697",
+                "score": 9.360799789428711
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_266751_11",
+                "score": 0.6750519871711731
+            },
+            {
+                "id": "triviaqa_19743_17",
+                "score": 0.6628172993659973
+            },
+            {
+                "id": "m.06q1r_45",
+                "score": 0.6622268557548523
+            },
+            {
+                "id": "nq_12975_2",
+                "score": 0.6609771847724915
+            },
+            {
+                "id": "m.025ndl_73",
+                "score": 0.6597877144813538
+            },
+            {
+                "id": "m.06q1r_44",
+                "score": 0.6594150066375732
+            },
+            {
+                "id": "m.06q1r_457",
+                "score": 0.6589576601982117
+            },
+            {
+                "id": "triviaqa_23681_0",
+                "score": 0.6522193551063538
+            },
+            {
+                "id": "nq_12975_76",
+                "score": 0.6490080952644348
+            },
+            {
+                "id": "m.06q1r_661",
+                "score": 0.6480629444122314
+            },
+            {
+                "id": "m.06q1r_964",
+                "score": 0.6457246541976929
+            },
+            {
+                "id": "m.06q1r_456",
+                "score": 0.6447009444236755
+            },
+            {
+                "id": "m.06q1r_870",
+                "score": 0.6442052125930786
+            },
+            {
+                "id": "m.06q1r_866",
+                "score": 0.6384528279304504
+            },
+            {
+                "id": "m.02h40lc_4843",
+                "score": 0.6361556649208069
+            },
+            {
+                "id": "nq_44937_10",
+                "score": 0.6351432204246521
+            },
+            {
+                "id": "m.02h40lc_4522",
+                "score": 0.634183406829834
+            },
+            {
+                "id": "m.06q1r_425",
+                "score": 0.6340733170509338
+            },
+            {
+                "id": "nq_12975_10",
+                "score": 0.6313481330871582
+            },
+            {
+                "id": "m.06q1r_869",
+                "score": 0.6308988928794861
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.014tss_294",
+                "score": 0.592693030834198
+            },
+            {
+                "id": "m.014tss_215",
+                "score": 0.5880915522575378
+            },
+            {
+                "id": "m.014tss_205",
+                "score": 0.5864331126213074
+            },
+            {
+                "id": "m.014tss_387",
+                "score": 0.5827051401138306
+            },
+            {
+                "id": "m.014tss_240",
+                "score": 0.5816978216171265
+            },
+            {
+                "id": "m.014tss_302",
+                "score": 0.5792211294174194
+            },
+            {
+                "id": "m.014tss_607",
+                "score": 0.5784011483192444
+            },
+            {
+                "id": "m.014tss_609",
+                "score": 0.5768857598304749
+            },
+            {
+                "id": "m.014tss_386",
+                "score": 0.574886679649353
+            },
+            {
+                "id": "m.014tss_383",
+                "score": 0.5716856718063354
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_40365_1",
+                "score": 0.5904112458229065
+            },
+            {
+                "id": "ott_9187_1",
+                "score": 0.5904112458229065
+            },
+            {
+                "id": "ott_37285_1",
+                "score": 0.5904112458229065
+            },
+            {
+                "id": "ott_1802_0",
+                "score": 0.5898301005363464
+            },
+            {
+                "id": "ott_18820_0",
+                "score": 0.5898301005363464
+            },
+            {
+                "id": "ott_5072_0",
+                "score": 0.5898301005363464
+            },
+            {
+                "id": "ott_6981_0",
+                "score": 0.5723580718040466
+            },
+            {
+                "id": "ott_33940_0",
+                "score": 0.5723580718040466
+            },
+            {
+                "id": "ott_1802_1",
+                "score": 0.567542552947998
+            },
+            {
+                "id": "ott_18820_1",
+                "score": 0.567542552947998
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_266751_11",
+                "score": 0.6750519871711731
+            },
+            {
+                "id": "nq_12975_2",
+                "score": 0.6609771847724915
+            },
+            {
+                "id": "nq_12975_76",
+                "score": 0.6490080952644348
+            },
+            {
+                "id": "nq_44937_10",
+                "score": 0.6351432204246521
+            },
+            {
+                "id": "nq_12975_10",
+                "score": 0.6313481330871582
+            },
+            {
+                "id": "nq_12975_77",
+                "score": 0.6243388652801514
+            },
+            {
+                "id": "nq_4422_4",
+                "score": 0.6225558519363403
+            },
+            {
+                "id": "nq_160672_176",
+                "score": 0.6207722425460815
+            },
+            {
+                "id": "nq_12975_75",
+                "score": 0.6170937418937683
+            },
+            {
+                "id": "nq_44937_275",
+                "score": 0.616703450679779
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_19743_17",
+                "score": 0.6628172993659973
+            },
+            {
+                "id": "triviaqa_23681_0",
+                "score": 0.6522193551063538
+            },
+            {
+                "id": "triviaqa_21495_36",
+                "score": 0.6162541508674622
+            },
+            {
+                "id": "triviaqa_40931_11",
+                "score": 0.6160558462142944
+            },
+            {
+                "id": "triviaqa_45049_73",
+                "score": 0.6121007204055786
+            },
+            {
+                "id": "triviaqa_32234_64",
+                "score": 0.6098387837409973
+            },
+            {
+                "id": "triviaqa_32234_67",
+                "score": 0.6090559959411621
+            },
+            {
+                "id": "triviaqa_48308_3",
+                "score": 0.6070327758789062
+            },
+            {
+                "id": "triviaqa_33834_308",
+                "score": 0.6062487959861755
+            },
+            {
+                "id": "triviaqa_14715_4",
+                "score": 0.6052168607711792
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.06q1r_45",
+                "score": 0.6622268557548523
+            },
+            {
+                "id": "m.025ndl_73",
+                "score": 0.6597877144813538
+            },
+            {
+                "id": "m.06q1r_44",
+                "score": 0.6594150066375732
+            },
+            {
+                "id": "m.06q1r_457",
+                "score": 0.6589576601982117
+            },
+            {
+                "id": "m.06q1r_661",
+                "score": 0.6480629444122314
+            },
+            {
+                "id": "m.06q1r_964",
+                "score": 0.6457246541976929
+            },
+            {
+                "id": "m.06q1r_456",
+                "score": 0.6447009444236755
+            },
+            {
+                "id": "m.06q1r_870",
+                "score": 0.6442052125930786
+            },
+            {
+                "id": "m.06q1r_866",
+                "score": 0.6384528279304504
+            },
+            {
+                "id": "m.02h40lc_4843",
+                "score": 0.6361556649208069
+            },
+            {
+                "id": "m.02h40lc_4522",
+                "score": 0.634183406829834
+            },
+            {
+                "id": "m.06q1r_425",
+                "score": 0.6340733170509338
+            },
+            {
+                "id": "m.06q1r_869",
+                "score": 0.6308988928794861
+            },
+            {
+                "id": "m.02h40lc_2491",
+                "score": 0.6294994354248047
+            },
+            {
+                "id": "m.07ssc_1564",
+                "score": 0.6294817924499512
+            },
+            {
+                "id": "m.06q1r_47",
+                "score": 0.6284911036491394
+            },
+            {
+                "id": "m.06q1r_477",
+                "score": 0.6252323389053345
+            },
+            {
+                "id": "m.06q1r_65",
+                "score": 0.6249810457229614
+            },
+            {
+                "id": "m.07ssc_2934",
+                "score": 0.6232784986495972
+            },
+            {
+                "id": "m.06q1r_12",
+                "score": 0.6208661198616028
+            }
+        ],
+        "llm_mark_result": {
+            "m.025ndl_73": {
+                "Query Analysis": "The query asks for the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": [
+                    "native English speaking",
+                    "country",
+                    "capital",
+                    "Edinburgh"
+                ],
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain', which suggests that the query is looking for a historical context or an older designation of the country.",
+                "Document Content Analysis": "The document provides information about the Kingdom of Scotland, including its capitals (Scone and Edinburgh), population, casualties, force deployments, and other historical facts. It also mentions that Edinburgh was a capital of the Kingdom of Scotland.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' as a capital, which matches one of the key query keywords.",
+                "Document and Answer Keywords Matching": "The document does not directly mention 'Kingdom of Great Britain,' but it does refer to 'Scotland' being contained by 'Great Britain.'",
+                "Key Information Matching": "The document confirms that Edinburgh was a capital of the Kingdom of Scotland, which is part of Great Britain. This aligns with the query's focus on identifying the country with Edinburgh as its capital.",
+                "Can the Document Answer the Query": "Yes, the document can indirectly answer the query by confirming that Edinburgh was the capital of the Kingdom of Scotland, which is part of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about the Kingdom of Scotland and its relationship to Great Britain, which helps infer that the country in question is indeed part of Great Britain.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document provides substantial useful context related to the query. It confirms that Edinburgh was the capital of the Kingdom of Scotland, which is contained within Great Britain. This information directly addresses the query and provides historical context, making it highly relevant."
+            },
+            "m.014tss_518": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain', which is incorrect as the current native English-speaking country with Edinburgh as its capital is Scotland, part of the United Kingdom. However, historically, Edinburgh was the capital of the Kingdom of Scotland, which later merged to form the Kingdom of Great Britain.",
+                "Document Content Analysis": "The document provides various historical and factual details about the Kingdom of Great Britain, including its capital cities, governing officials, languages spoken, and other attributes.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain' and 'Edinburgh' as one of its capitals.",
+                "Document and Answer Keywords Matching": "The document extensively discusses the 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document states that Edinburgh is a capital of the Kingdom of Great Britain, which matches the query's focus on Edinburgh as a capital.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it does not clarify that Edinburgh is the capital of Scotland, which is the relevant native English-speaking country in the modern context.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context that Edinburgh was a capital of the Kingdom of Great Britain, which can help infer the historical significance but not the modern-day direct answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides historical information about Edinburgh being a capital of the Kingdom of Great Britain. However, it does not directly address the modern context of a native English-speaking country, which is necessary to fully answer the query."
+            },
+            "m.014tss_293": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer lists 'Kingdom of Great Britain' as the country whose capital is Edinburgh.",
+                "Document Content Analysis": "The document provides various metadata and information about the Kingdom of Great Britain, including its types, governing officials, and capitals.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain' and 'Edinburgh'.",
+                "Document and Answer Keywords Matching": "The document includes 'Kingdom of Great Britain' and explicitly states that its capital is Edinburgh.",
+                "Key Information Matching": "The document directly states that the capital of the Kingdom of Great Britain is Edinburgh, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the capital of the Kingdom of Great Britain is Edinburgh.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Kingdom of Great Britain, including its other capital, London, and various types and historical information.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer it. It explicitly states that the capital of the Kingdom of Great Britain is Edinburgh, which directly addresses the query's requirement. Additionally, the document offers more context about the Kingdom of Great Britain, enhancing the understanding of the query's topic."
+            },
+            "nq_12975_2": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is ['Kingdom of Great Britain'], which is incorrect as the modern correct answer should be 'United Kingdom' or more specifically 'Scotland'.",
+                "Document Content Analysis": "The document provides information about Scotland, including its location in Europe and the United Kingdom, its capital (Edinburgh), largest city (Glasgow), and languages spoken, including English.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' as the capital and 'English' as one of the languages spoken.",
+                "Document and Answer Keywords Matching": "The document mentions 'United Kingdom', which is related to the incorrect answer 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document directly states that Edinburgh is the capital of Scotland, which is part of the United Kingdom, a native English-speaking country.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Edinburgh is the capital of Scotland, which is in the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Scotland's location and languages, confirming it is a part of a native English-speaking country.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer it: Edinburgh is the capital of Scotland, which is part of the United Kingdom, a native English-speaking country. This directly addresses the query and provides useful context."
+            },
+            "m.014tss_205": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer indicates that the Kingdom of Great Britain is the relevant country.",
+                "Document Content Analysis": "The document provides historical information about the Kingdom of Great Britain, its formation in 1707 from the union of the Kingdom of England and the Kingdom of Scotland, and its subsequent transition to the United Kingdom of Great Britain and Ireland in 1801.",
+                "Document and Query Keywords Matching": "The document mentions 'Królestwo Wielkiej Brytanii' (Kingdom of Great Britain) and 'Szkocji' (Scotland), which is relevant to the query's mention of Edinburgh, the capital of Scotland.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Kingdom of Great Britain', which is the answer to the query.",
+                "Key Information Matching": "The document provides historical context about the Kingdom of Great Britain, which includes Scotland, whose capital is Edinburgh. This links the document to the query.",
+                "Can the Document Answer the Query": "Yes, the document mentions the Kingdom of Great Britain, which is the correct answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical background that helps understand the context of the Kingdom of Great Britain and its relation to Scotland.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it mentions the Kingdom of Great Britain, which is the answer to the query. Additionally, it provides historical context that enhances understanding of the relationship between the Kingdom of Great Britain and Scotland, making it highly relevant."
+            },
+            "ott_16577_0": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer incorrectly lists 'Kingdom of Great Britain' as the country, which is a historical entity and not the current name of a country. The correct answer should be 'United Kingdom' or more specifically 'Scotland' within the UK context.",
+                "Document Content Analysis": "The document provides a list of member states of the Organisation internationale de la Francophonie, including details about when they joined, their primary languages, and some historical notes.",
+                "Document and Query Keywords Matching": "The document does not mention 'Edinburgh' or any native English-speaking country directly related to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on French-speaking countries and their relations with the Francophonie.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query as it focuses on member states of the Francophonie, which is an organization for French-speaking countries. It does not mention Edinburgh, any native English-speaking countries, or provide any context that could be relevant to the query."
+            },
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the identification of a native English speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer indicates that the Kingdom of Great Britain is the country in question. Note: This answer is historically incorrect as the current correct answer would be Scotland, with Edinburgh as its capital.",
+                "Document Content Analysis": "The document provides historical information about various events and publications related to European exploration, botany, and trade in the 16th century.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'native English speaking country', 'capital', or 'Edinburgh'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Kingdom of Great Britain' but in a different historical context unrelated to the capital city.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on identifying a country with Edinburgh as its capital.",
+                "Can the Document Answer the Query": "No, the document does not provide any information directly related to the capital city of Edinburgh or the country it belongs to.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is entirely unrelated to the geographical or political information required by the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or additional information related to the capital city of Edinburgh or the country it belongs to. The document's focus on historical events and botanical information does not assist in answering the query."
+            },
+            "nq_266751_11": {
+                "Query Analysis": "The query asks for the identification of a native English speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer incorrectly lists 'Kingdom of Great Britain' as the country whose capital is Edinburgh. The correct answer should be 'United Kingdom' or more specifically 'Scotland'.",
+                "Document Content Analysis": "The document provides information about London being the capital and most populous city of England and the United Kingdom. It discusses the historical and geographical context of London.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'England', which are related to the query's context of a native English speaking country.",
+                "Document and Answer Keywords Matching": "The document mentions 'United Kingdom', which is part of the incorrect answer provided ('Kingdom of Great Britain').",
+                "Key Information Matching": "The document does not mention Edinburgh or Scotland, which are crucial for answering the query correctly.",
+                "Can the Document Answer the Query": "No, the document does not mention Edinburgh or Scotland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that would help infer the correct country whose capital is Edinburgh.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on London and does not provide any relevant information about Edinburgh or the country whose capital it is. Therefore, it cannot assist in answering the query or providing additional relevant information."
+            },
+            "nq_110604_55": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain', which is incorrect as the current correct answer should be 'United Kingdom' or more specifically 'Scotland' within the UK context.",
+                "Document Content Analysis": "The document discusses the English-speaking population within the European Union, providing statistics on native and non-native English speakers. It also mentions related topics and lists but does not specifically discuss individual countries or their capitals.",
+                "Document and Query Keywords Matching": "The document mentions 'English-speaking population' but does not mention 'Edinburgh' or any specific country's capital.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain' or any specific country's capital.",
+                "Key Information Matching": "There is no direct mention of Edinburgh, any specific country's capital, or the United Kingdom/Scotland in the document.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the capital cities of English-speaking countries.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about specific English-speaking countries or their capitals. It focuses on the broader topic of English-speaking populations within the European Union, which does not assist in answering the specific query about Edinburgh."
+            },
+            "m.014tss_701": {
+                "Query Analysis": "The query is asking for the identification of a native English speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer indicates that the Kingdom of Great Britain is the country whose capital is Edinburgh.",
+                "Document Content Analysis": "The document provides various pieces of information about the Kingdom of Great Britain, including its capital, which is listed as Edinburgh, and other historical and categorical details.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' as the capital and 'Kingdom of Great Britain' as the country.",
+                "Document and Answer Keywords Matching": "The document includes 'Kingdom of Great Britain' and specifies 'Edinburgh' as its capital.",
+                "Key Information Matching": "The document directly states that the capital of the Kingdom of Great Britain is Edinburgh, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the capital of the Kingdom of Great Britain is Edinburgh.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Kingdom of Great Britain, which can help infer its historical significance and other related information.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer it. It specifies that the capital of the Kingdom of Great Britain is Edinburgh, which directly addresses the query's requirement. Additionally, the document offers more context about the Kingdom of Great Britain, enhancing the understanding of the query's topic."
+            },
+            "m.0160w_1216": {
+                "Query Analysis": "The query asks for the identification of a native English speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer incorrectly lists 'Kingdom of Great Britain' as the country whose capital is Edinburgh. The correct answer should be 'United Kingdom' or 'Scotland'.",
+                "Document Content Analysis": "The document provides information about The Bahamas, including its official name, geographical location, capital (Nassau), and historical background.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'native English speaking country', 'capital', or 'Edinburgh'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the provided answer, such as 'Kingdom of Great Britain'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document discusses The Bahamas, which is unrelated to the query about Edinburgh.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Edinburgh or the country whose capital is Edinburgh.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses The Bahamas, which is not a native English speaking country and does not have Edinburgh as its capital. Therefore, it provides no useful context or additional information relevant to the query."
+            },
+            "m.014tss_215": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer indicates that the Kingdom of Great Britain is the relevant country.",
+                "Document Content Analysis": "The document provides historical information about the Kingdom of Great Britain, its formation, governance, and succession. It mentions the union of England and Scotland, the governance by a single parliament and government based at Westminster, and the transition of power from the Stuart dynasty to the Hanoverian dynasty.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain', which is part of the answer, but does not explicitly mention 'Edinburgh' or 'capital'.",
+                "Document and Answer Keywords Matching": "The document includes 'Kingdom of Great Britain', which is directly mentioned in the answer.",
+                "Key Information Matching": "While the document discusses the Kingdom of Great Britain, it does not provide information about its capital or explicitly connect Edinburgh to the kingdom.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Edinburgh is the capital of the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the Kingdom of Great Britain, which can be useful for understanding the broader context of the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides historical information about the Kingdom of Great Britain, which is part of the answer. However, it lacks specific details about the capital city, making it insufficient to directly answer the query but still useful for providing context."
+            },
+            "triviaqa_48308_3": {
+                "Query Analysis": "The query seeks to identify which native English speaking country has Edinburgh as its capital.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer incorrectly lists 'Kingdom of Great Britain' as the country whose capital is Edinburgh. The correct answer should be 'United Kingdom' or more specifically 'Scotland'.",
+                "Document Content Analysis": "The document provides information about top universities in Scotland, focusing on their history, rankings, and cultural significance. It mentions Edinburgh as the capital city of Scotland and highlights the University of Edinburgh.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' and 'Scotland', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain', but it does mention 'Scotland', which is the correct context for the query.",
+                "Key Information Matching": "The document identifies Edinburgh as the capital city of Scotland, which is a native English speaking country. This directly addresses the query's main point.",
+                "Can the Document Answer the Query": "Yes, the document can answer the query by indicating that Edinburgh is the capital of Scotland, which is a native English speaking country.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Edinburgh's significance as a cultural and educational hub in Scotland, reinforcing its status as a capital city.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it clearly states that Edinburgh is the capital of Scotland, a native English speaking country. This information directly answers the query and provides additional context about Edinburgh's importance."
+            },
+            "m.06q1r_45": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer indicates that the Kingdom of Great Britain is the country in question. However, this is historically inaccurate as the current correct answer would be the United Kingdom, specifically Scotland.",
+                "Document Content Analysis": "The document provides information about Scotland, including its geographical location, historical context, and notable cities. It mentions Edinburgh as the capital and a significant cultural and commercial center.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' and 'Scotland', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Kingdom of Scotland' and 'United Kingdom', which are related to the historical and current political context.",
+                "Key Information Matching": "The document explicitly states that Edinburgh is the capital of Scotland, which is part of the United Kingdom, a native English-speaking country.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Edinburgh is the capital of Scotland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Scotland's history and its status within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Edinburgh is the capital of Scotland, which is part of the United Kingdom, a native English-speaking country. This directly answers the query and provides additional useful context."
+            },
+            "nq_4422_2": {
+                "Query Analysis": "The query is asking for the identification of a native English-speaking country whose capital city is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain', which is incorrect as the current correct answer should be 'United Kingdom' or specifically 'Scotland' within the UK context.",
+                "Document Content Analysis": "The document discusses the global prevalence of English, mentioning various dialects and countries where English is spoken natively or as an official language. It lists several English-speaking countries and regions but does not explicitly state capitals.",
+                "Document and Query Keywords Matching": "The document mentions 'native English speakers' and lists several English-speaking countries, but does not mention 'Edinburgh'.",
+                "Document and Answer Keywords Matching": "The document does not directly mention 'Kingdom of Great Britain', but it does mention 'British English', which is tangentially related.",
+                "Key Information Matching": "While the document provides information about English-speaking countries, it lacks specific details about their capitals.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information needed to directly answer the query about Edinburgh being a capital of a native English-speaking country.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document can help infer that the United Kingdom (which includes Scotland) is a native English-speaking country, but it does not explicitly connect Edinburgh to Scotland or the UK.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about English-speaking countries, which is tangential to the query. However, it lacks the specific detail about Edinburgh being the capital of Scotland, which is necessary to fully answer the query. The document can aid in understanding the broader context of English-speaking regions but does not directly address the capital city aspect of the query."
+            },
+            "nq_4422_3": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain', which is incorrect as the current correct answer should be 'United Kingdom' or more specifically 'Scotland' within the UK context.",
+                "Document Content Analysis": "The document discusses countries where English is spoken natively by the majority of the population, listing the United States, United Kingdom, Canada, and Australia as major examples.",
+                "Document and Query Keywords Matching": "The document mentions 'native English-speaking countries' and includes 'United Kingdom', which is relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Kingdom of Great Britain', but it does mention 'United Kingdom', which is the correct modern term.",
+                "Key Information Matching": "The document provides a list of native English-speaking countries, which includes the United Kingdom. Knowing that Edinburgh is the capital of Scotland, which is part of the United Kingdom, the document helps in inferring the correct answer.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Edinburgh is the capital of any country.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by listing the United Kingdom as a native English-speaking country, it aids in inferring that Edinburgh, being the capital of Scotland, is part of the United Kingdom.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides a list of native English-speaking countries, including the United Kingdom, which helps in inferring the correct answer. However, it does not directly state that Edinburgh is the capital of Scotland or the United Kingdom, so it cannot fully answer the query."
+            },
+            "m.014tss_294": {
+                "Query Analysis": "The query is asking for the identification of a native English-speaking country whose capital city is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain', which is incorrect as the current capital of Scotland (a part of the United Kingdom) is Edinburgh. The Kingdom of Great Britain existed historically and included Scotland, but it is not a current entity.",
+                "Document Content Analysis": "The document provides various pieces of information about the Kingdom of Great Britain, including its capital (London), official language (English), and other historical and administrative details.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain' and 'English Language', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document extensively discusses the 'Kingdom of Great Britain', which matches the answer provided.",
+                "Key Information Matching": "While the document mentions the Kingdom of Great Britain and its official language being English, it does not mention Edinburgh as a capital. The capital listed is London.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it incorrectly identifies London as the capital of the Kingdom of Great Britain, not Edinburgh.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the Kingdom of Great Britain, which can help infer that Scotland was part of this kingdom and that English was an official language.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides historical information about the Kingdom of Great Britain, which includes Scotland (where Edinburgh is the capital). However, it does not directly answer the query about the current native English-speaking country with Edinburgh as its capital. The document's focus on the historical entity rather than the current political landscape leads to a partial relevance judgement."
+            },
+            "m.0160w_326": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer incorrectly lists 'Kingdom of Great Britain' as the country whose capital is Edinburgh. The correct answer should be 'United Kingdom' or 'Scotland'.",
+                "Document Content Analysis": "The document provides information about the Bahamas, including its geographic location, capital (Nassau), and historical background.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'native English speaking country', 'capital', or 'Edinburgh'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the provided answer, such as 'Kingdom of Great Britain'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about the Bahamas, which is not a native English-speaking country and does not have Edinburgh as its capital.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about a country whose capital is Edinburgh.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Bahamas, which is not relevant to the question about a native English-speaking country with Edinburgh as its capital. Therefore, it provides no useful context or additional information pertinent to the query."
+            },
+            "triviaqa_19743_17": {
+                "Query Analysis": "The query asks for the identification of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer indicates that the Kingdom of Great Britain is the relevant country.",
+                "Document Content Analysis": "The document provides information about Scotland, including its capital city, Edinburgh, its geographical boundaries, historical context, and its union with England to form the Kingdom of Great Britain.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' and 'Kingdom of Great Britain', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Kingdom of Great Britain', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Edinburgh is the capital of the country discussed, which is identified as part of the Kingdom of Great Britain.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Edinburgh is the capital and explaining the historical context of the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical and geographical context that enhances understanding of the relationship between Scotland and the Kingdom of Great Britain.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it, including the identification of Edinburgh as the capital and the historical formation of the Kingdom of Great Britain. This context not only answers the query but also provides additional useful information."
+            },
+            "ott_40365_1": {
+                "Query Analysis": "The query seeks to identify a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer incorrectly lists 'Kingdom of Great Britain' as the country, which is a historical entity and not a current native English-speaking country. The correct answer should be 'United Kingdom' or more specifically 'Scotland'.",
+                "Document Content Analysis": "The document lists various historical cities that were once national capitals, including their associated countries and the periods during which they were capitals. It primarily focuses on Northern European countries.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', which is relevant to the query, but does not mention 'Edinburgh' or 'native English speaking country'.",
+                "Document and Answer Keywords Matching": "The document mentions 'United Kingdom', which is part of the incorrect answer provided ('Kingdom of Great Britain').",
+                "Key Information Matching": "The document contains information about historical capitals of the United Kingdom, but does not directly address Edinburgh or its status as a capital.",
+                "Can the Document Answer the Query": "No, the document does not provide direct information about Edinburgh being a capital of a native English-speaking country.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about capitals in the United Kingdom, which could indirectly help infer that Edinburgh was a significant city.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions the United Kingdom, which is related to the query, but it does not directly address Edinburgh or its role as a capital. The document provides historical context that could be useful for understanding the broader topic of capitals in the region, but it lacks specific information to directly answer the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.025ndl_73": {
+                "Query Analysis": "The query is asking which country that speaks English natively has Edinburgh as its capital city.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain'.",
+                "Document Content Analysis": "The document provides information about the Kingdom of Scotland, including its capital cities, casualties, force deployments, type of entity, and other related facts. It also mentions that the Kingdom of Scotland was 'Contained by' Great Britain.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' as a capital of the Kingdom of Scotland, which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document states that the Kingdom of Scotland was 'Contained by' Great Britain, which aligns with the provided answer of 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document confirms that Edinburgh was the capital of the Kingdom of Scotland, and that the Kingdom of Scotland was part of the Kingdom of Great Britain, which matches the key information required by the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document provides the necessary information to answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps infer that the Kingdom of Great Britain was an English-speaking country, as it contained the Kingdom of Scotland.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly states that Edinburgh was the capital of the Kingdom of Scotland, and that the Kingdom of Scotland was part of the Kingdom of Great Britain. Since the query asks about the native English-speaking country whose capital is Edinburgh, and the Kingdom of Great Britain was an English-speaking country that contained Scotland (with Edinburgh as its capital), the document provides useful context and information to answer the query."
+            },
+            "m.014tss_518": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a native English-speaking country with Edinburgh as its capital.",
+                "Document Content Analysis": "The document provides information about the Kingdom of Great Britain, including its capital, official language, and other administrative details. It explicitly mentions 'Edinburgh' as one of its capitals.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' and 'English Language', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Kingdom of Great Britain', which matches the answer.",
+                "Key Information Matching": "The document confirms that the Kingdom of Great Britain is a native English-speaking country with Edinburgh as one of its capitals, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Edinburgh is a capital of the Kingdom of Great Britain, which is a native English-speaking country.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It confirms that Edinburgh is the capital of the Kingdom of Great Britain, a native English-speaking country."
+            },
+            "m.014tss_293": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a native English-speaking country with Edinburgh as one of its capitals.",
+                "Document Content Analysis": "The document provides information about the Kingdom of Great Britain, including its types, capital cities (Edinburgh and London), and other attributes such as governing officials and military power.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain', 'English Language', and 'Capital --> Edinburgh', which match the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Kingdom of Great Britain' and 'Capital --> Edinburgh', which directly match the answer.",
+                "Key Information Matching": "The document confirms that the Kingdom of Great Britain is a native English-speaking country and lists Edinburgh as one of its capitals, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Edinburgh is a capital of the Kingdom of Great Britain, a native English-speaking country.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Kingdom of Great Britain, including its other capital (London) and its historical attributes.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer the question. It confirms that Edinburgh is a capital of the Kingdom of Great Britain, a native English-speaking country, and also offers additional context about the country."
+            },
+            "nq_12975_2": {
+                "Query Analysis": "The query asks for the name of the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking, country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical name for the United Kingdom.",
+                "Document Content Analysis": "The document provides information about Scotland, including its status as a country within the United Kingdom, its capital (Edinburgh), and its official language (English).",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' as the capital and 'English' as the official language, which matches the query keywords 'capital' and 'native English speaking'.",
+                "Document and Answer Keywords Matching": "The document mentions 'United Kingdom', which is related to the answer 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document confirms that Edinburgh is the capital of Scotland, which is part of the United Kingdom, a native English-speaking country.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Edinburgh is the capital of Scotland, which is part of the United Kingdom, a native English-speaking country.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Scotland's status within the United Kingdom and its official language.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the necessary information to answer the question about the native English-speaking country with Edinburgh as its capital. It also offers additional context about Scotland's status and language, enhancing understanding of the query."
+            },
+            "m.014tss_205": {
+                "Query Analysis": "The query asks for the name of the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is the historical name of the country that included Scotland, where Edinburgh is the capital.",
+                "Document Content Analysis": "The document provides historical information about the Kingdom of Great Britain, including its formation in 1707 through the union of the Kingdom of England and the Kingdom of Scotland, and its successor, the United Kingdom of Great Britain and Ireland, formed in 1801.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain', which is related to the query's focus on a native English-speaking country. It also indirectly mentions 'Scotland', where Edinburgh is the capital.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Kingdom of Great Britain', which matches the answer.",
+                "Key Information Matching": "The document provides historical context about the Kingdom of Great Britain, which includes Scotland, where Edinburgh is the capital. This aligns with the query's focus on identifying the country whose capital is Edinburgh.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions the 'Kingdom of Great Britain', which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the formation of the Kingdom of Great Britain and its connection to Scotland, where Edinburgh is the capital.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions the 'Kingdom of Great Britain', which is the answer to the query. Additionally, it provides historical context about the union of England and Scotland, which helps in understanding why Edinburgh is the capital of this historical entity. Therefore, the document is highly relevant as it directly answers the query and provides useful background information."
+            },
+            "ott_16577_0": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a native English-speaking country with Edinburgh as its capital.",
+                "Document Content Analysis": "The document lists member states of the Organisation internationale de la Francophonie, including their languages and other details. It does not mention any native English-speaking countries or their capitals.",
+                "Document and Query Keywords Matching": "The document does not mention 'native English speaking country', 'capital', or 'Edinburgh'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document does not provide any information related to native English-speaking countries or their capitals, nor does it mention Edinburgh or the Kingdom of Great Britain.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about native English-speaking countries or their capitals.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses member states of the Organisation internationale de la Francophonie and their languages, but it does not mention any native English-speaking countries, their capitals, or Edinburgh. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical native English-speaking country with Edinburgh as its capital.",
+                "Document Content Analysis": "The document discusses historical events and botanical information from the 16th century, including the introduction of crops like sweet potatoes and the publication of herbals. It does not mention Edinburgh, capitals, or native English-speaking countries.",
+                "Document and Query Keywords Matching": "None of the query keywords ('native English speaking country', 'capital', 'Edinburgh') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Kingdom of Great Britain') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer. It focuses on historical botanical and agricultural topics unrelated to Edinburgh or native English-speaking countries.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Edinburgh or native English-speaking countries.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses historical botanical and agricultural topics from the 16th century, with no mention of Edinburgh, capitals, or native English-speaking countries. Therefore, it is irrelevant to the query."
+            },
+            "nq_266751_11": {
+                "Query Analysis": "The query asks for the name of the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical entity that included Scotland, where Edinburgh is located.",
+                "Document Content Analysis": "The document discusses London as the capital of England and the United Kingdom, providing historical and geographical context about London.",
+                "Document and Query Keywords Matching": "The document mentions 'England' and 'United Kingdom', which are native English-speaking countries, but it does not mention Edinburgh.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain' or any direct reference to Edinburgh.",
+                "Key Information Matching": "The document does not provide any information about Edinburgh or the Kingdom of Great Britain, which are central to the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Edinburgh or the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on London and does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Edinburgh or the Kingdom of Great Britain, and it does not provide any information that could assist in answering the query or inferring additional relevant information."
+            },
+            "nq_110604_55": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain', which is a historical entity and not a current native English-speaking country. The correct answer should be 'United Kingdom' or 'Scotland'.",
+                "Document Content Analysis": "The document discusses the European Union, its member states, and the English-speaking population within the EU. It also mentions various topics related to English proficiency and English-speaking countries but does not directly mention Edinburgh or its status as a capital.",
+                "Document and Query Keywords Matching": "The document does not mention 'Edinburgh' or 'capital'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document does not provide any information about Edinburgh or its status as a capital of a native English-speaking country.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Edinburgh or its status as a capital.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Edinburgh, its status as a capital, or any native English-speaking country with Edinburgh as its capital. Therefore, it is irrelevant to the query."
+            },
+            "m.014tss_701": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a native English-speaking country with Edinburgh as its capital.",
+                "Document Content Analysis": "The document provides information about the 'Kingdom of Great Britain', including its capital, which is listed as Edinburgh. It also includes various other details about the Kingdom of Great Britain, such as governing officials, casualties, and its involvement in different events.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain' and 'Edinburgh', which are key to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Kingdom of Great Britain' and 'Edinburgh', which matches the answer provided.",
+                "Key Information Matching": "The document directly states that the capital of the 'Kingdom of Great Britain' is Edinburgh, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Edinburgh is the capital of the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly provides the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It confirms that Edinburgh is the capital of the Kingdom of Great Britain, which is a native English-speaking country."
+            },
+            "m.0160w_1216": {
+                "Query Analysis": "The query asks for the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical name for the country now known as the United Kingdom.",
+                "Document Content Analysis": "The document provides information about the Bahamas, including its geography, history, and capital (Nassau). It mentions that the Bahamas became a British Crown colony but does not provide any information about Edinburgh or the Kingdom of Great Britain.",
+                "Document and Query Keywords Matching": "The document does not mention 'Edinburgh' or 'native English speaking country'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document does not contain any key information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Edinburgh or the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Bahamas, its capital (Nassau), and its history as a British Crown colony, but it does not mention Edinburgh or the Kingdom of Great Britain, nor does it provide any context or information that could help answer the query."
+            },
+            "m.014tss_215": {
+                "Query Analysis": "The query asks for the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical entity that included Scotland, where Edinburgh is the capital.",
+                "Document Content Analysis": "The document discusses the Kingdom of Great Britain, its formation in 1707 through the Act of Union, and its governance. It mentions the union of England and Scotland, which is relevant to the query as Edinburgh is the capital of Scotland.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain', which is related to the query's focus on a native English-speaking country and Edinburgh.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Kingdom of Great Britain', which matches the answer provided.",
+                "Key Information Matching": "The document provides historical context about the Kingdom of Great Britain, which includes Scotland, where Edinburgh is the capital. This directly relates to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions the Kingdom of Great Britain, which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the union of England and Scotland, which helps in understanding why Edinburgh is the capital of the Kingdom of Great Britain.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions the Kingdom of Great Britain, which includes Scotland with Edinburgh as its capital. It provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_48308_3": {
+                "Query Analysis": "The query asks for the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', indicating that Edinburgh is the capital of this country.",
+                "Document Content Analysis": "The document discusses several universities in Scotland, including the University of Edinburgh, which is located in Scotland’s capital city. It provides historical and cultural context about Edinburgh and its universities but does not explicitly mention the country to which Edinburgh belongs.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' and 'Scotland’s capital city', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Kingdom of Great Britain' or any other country as the answer to the query.",
+                "Key Information Matching": "The document mentions that Edinburgh is Scotland’s capital city, which is relevant to the query. However, it does not explicitly state the country to which Edinburgh belongs.",
+                "Can the Document Answer the Query": "No, the document does not directly state which native English-speaking country has Edinburgh as its capital.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context that Edinburgh is Scotland’s capital city, which can help infer that Edinburgh is part of the United Kingdom, a native English-speaking country.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about Edinburgh being Scotland’s capital city, which is useful for inferring that Edinburgh is part of the United Kingdom. However, it does not directly answer the query or explicitly mention the 'Kingdom of Great Britain'."
+            },
+            "m.06q1r_45": {
+                "Query Analysis": "The query asks for the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical sovereign state that included Scotland, where Edinburgh is the capital.",
+                "Document Content Analysis": "The document provides information about Scotland, describing it as a country that occupies the northern third of Great Britain and is part of the United Kingdom. It mentions Edinburgh as the capital and second-largest city of Scotland, and discusses Scotland's historical and geographical context.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' and 'capital', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Kingdom of Great Britain', but it discusses Scotland's historical context, which is relevant to the answer.",
+                "Key Information Matching": "The document mentions Edinburgh as the capital of Scotland, which is part of the United Kingdom. This aligns with the query's focus on identifying the native English-speaking country with Edinburgh as its capital.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that the Kingdom of Great Britain is the native English-speaking country with Edinburgh as its capital.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Edinburgh being the capital of Scotland, which is part of the United Kingdom, a native English-speaking country. This helps infer the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial useful context about Edinburgh being the capital of Scotland, which is part of the United Kingdom, a native English-speaking country. This information enhances understanding of the query and helps infer the answer."
+            },
+            "nq_4422_2": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a native English-speaking country with Edinburgh as its capital.",
+                "Document Content Analysis": "The document discusses countries where English is spoken natively or as an official language, including major varieties of English and countries with millions of native English speakers. It also mentions a map highlighting countries where English is spoken natively by the majority of the population.",
+                "Document and Query Keywords Matching": "The document mentions 'native speakers' and 'English', but does not explicitly mention 'Edinburgh' or 'capital'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document provides information about countries where English is spoken natively, which is relevant to the query, but it does not directly mention Edinburgh or the Kingdom of Great Britain.",
+                "Can the Document Answer the Query": "No, the document does not directly state which native English-speaking country has Edinburgh as its capital.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a list of countries where English is spoken natively, which could help infer the answer by cross-referencing with other sources.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about native English-speaking countries, which is related to the query. However, it does not directly mention Edinburgh or the Kingdom of Great Britain, so it cannot directly answer the query but can help infer additional information."
+            },
+            "nq_4422_3": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical term referring to the United Kingdom before the union with Ireland.",
+                "Document Content Analysis": "The document discusses countries where English is spoken natively by the majority of the population, listing the United States, United Kingdom, Canada, and Australia as examples. It also mentions the term 'Anglosphere' and provides statistics on English-speaking populations.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', which is a native English-speaking country, and 'English-speaking population', which relates to the query's focus on native English-speaking countries.",
+                "Document and Answer Keywords Matching": "The document mentions 'United Kingdom', which is closely related to the 'Kingdom of Great Britain' mentioned in the answer.",
+                "Key Information Matching": "The document provides information about the United Kingdom, a native English-speaking country, which aligns with the query's focus on a native English-speaking country with Edinburgh as its capital.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Edinburgh is the capital of the United Kingdom or the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document lists the United Kingdom as a native English-speaking country, which helps infer that Edinburgh, being the capital of Scotland, is part of the United Kingdom.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about native English-speaking countries, including the United Kingdom, which is related to the query. However, it does not explicitly state that Edinburgh is the capital of the United Kingdom or the Kingdom of Great Britain, so it cannot directly answer the query but helps infer additional information."
+            },
+            "m.014tss_294": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a native English-speaking country.",
+                "Document Content Analysis": "The document provides detailed information about the Kingdom of Great Britain, including its official language (English), its capital (London), and various other attributes such as governing officials, currency, and notable events.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain', 'English Language', and 'London' (as the capital). However, it does not mention Edinburgh as the capital.",
+                "Document and Answer Keywords Matching": "The document mentions 'Kingdom of Great Britain' and 'English Language', which are directly related to the answer.",
+                "Key Information Matching": "The document confirms that the Kingdom of Great Britain is a native English-speaking country, but it does not mention Edinburgh as its capital. Instead, it lists London as the capital.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Edinburgh is the capital of the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about the Kingdom of Great Britain being a native English-speaking country, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides information about the Kingdom of Great Britain being a native English-speaking country, which is related to the query. However, it does not confirm that Edinburgh is the capital, which is the main focus of the query."
+            },
+            "m.0160w_326": {
+                "Query Analysis": "The query asks for the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is a historical name for the United Kingdom, a native English-speaking country with Edinburgh as one of its capitals.",
+                "Document Content Analysis": "The document provides information about the Bahamas, including its geography, history, and capital (Nassau). It does not mention Edinburgh or any native English-speaking country with Edinburgh as its capital.",
+                "Document and Query Keywords Matching": "The document does not mention 'Edinburgh' or 'native English speaking country'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to Edinburgh or the Kingdom of Great Britain.",
+                "Can the Document Answer the Query": "No, the document does not mention Edinburgh or any native English-speaking country with Edinburgh as its capital.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Bahamas, its geography, and its capital (Nassau), but does not mention Edinburgh or any native English-speaking country with Edinburgh as its capital. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_19743_17": {
+                "Query Analysis": "The query asks for the name of the native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', which is the historical name of the country that included Scotland and England before the formation of the United Kingdom.",
+                "Document Content Analysis": "The document provides detailed information about Scotland, including its capital Edinburgh, its historical context, and its political union with England to form the Kingdom of Great Britain in 1707.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh' as the capital of Scotland and discusses the political union that formed the 'Kingdom of Great Britain'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions the 'Kingdom of Great Britain', which matches the answer provided.",
+                "Key Information Matching": "The document confirms that Edinburgh is the capital of Scotland and provides historical context about the formation of the Kingdom of Great Britain, which directly relates to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Edinburgh is the capital of Scotland and explains the formation of the Kingdom of Great Britain, which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about the political union that formed the Kingdom of Great Britain, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It confirms that Edinburgh is the capital of Scotland and explains the historical formation of the Kingdom of Great Britain, which is the answer to the query."
+            },
+            "ott_40365_1": {
+                "Query Analysis": "The query asks for the name of a native English-speaking country whose capital is Edinburgh.",
+                "Query Keywords Extraction": "native English speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', indicating that Edinburgh was the capital of this country.",
+                "Document Content Analysis": "The document lists historical capitals of various countries, including some in the United Kingdom, but does not mention Edinburgh or the Kingdom of Great Britain.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', which is a native English-speaking country, but does not mention 'Edinburgh' or 'capital' in the context of Edinburgh.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Kingdom of Great Britain' or any direct reference to Edinburgh as a capital.",
+                "Key Information Matching": "The document provides information about historical capitals in the United Kingdom but does not include Edinburgh or the Kingdom of Great Britain.",
+                "Can the Document Answer the Query": "No, the document does not mention Edinburgh or the Kingdom of Great Britain.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Edinburgh or the Kingdom of Great Britain.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to the query about Edinburgh being the capital of a native English-speaking country. It lists historical capitals but none relevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.025ndl_73": {},
+            "m.014tss_518": {
+                "Query Analysis": "The query is asking which native English-speaking country has Edinburgh as its capital.",
+                "Query Keywords Extraction": "native English-speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain'.",
+                "Document Content Analysis": "The document provides various pieces of historical and geographical information about the Kingdom of Great Britain, including geolocation, ambassadors, languages spoken, capitals, and government form.",
+                "Document and Query Keywords Matching": "The document mentions 'Kingdom of Great Britain', which is identified as having Edinburgh as a capital.",
+                "Document and Answer Keywords Matching": "The document lists the 'Kingdom of Great Britain' and indicates Edinburgh as a capital, matching the query's answer.",
+                "Key Information Matching": "The document contains the necessary information to link the capital Edinburgh to the Kingdom of Great Britain, which is consistent with what the query is asking.",
+                "Can the Document Answer the Query": "Yes, the document states that Edinburgh was a capital of the Kingdom of Great Britain, answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it confirms relevant historical and geopolitical context around the Kingdom of Great Britain.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying the Kingdom of Great Britain as the country with Edinburgh as a capital and provides context confirming it is a native English-speaking country."
+            },
+            "m.014tss_293": {},
+            "nq_12975_2": {},
+            "m.014tss_205": {},
+            "ott_16577_0": {},
+            "triviaqa_4338_26": {},
+            "nq_266751_11": {},
+            "nq_110604_55": {},
+            "m.014tss_701": {},
+            "m.0160w_1216": {},
+            "m.014tss_215": {
+                "Query Analysis": "The query is looking for the native English-speaking country whose capital city is Edinburgh.",
+                "Query Keywords Extraction": "native English-speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain'.",
+                "Document Content Analysis": "The document discusses the historical formation and governance of the Kingdom of Great Britain, including its formation from the Act of Union 1707 which unified the Kingdoms of England and Scotland, and mentions key historical events.",
+                "Document and Query Keywords Matching": "The document implicitly relates to 'Great Britain', which is relevant to identifying the country with the capital city of Edinburgh.",
+                "Document and Answer Keywords Matching": "The document explicitly provides details about the 'Kingdom of Great Britain'.",
+                "Key Information Matching": "The document discusses the unification of England and Scotland into the Kingdom of Great Britain, which is the relevant country to the query about Edinburgh. It implies that Edinburgh is connected to the Kingdom of Great Britain.",
+                "Can the Document Answer the Query": "Yes, the document contains information that directly relates to the Kingdom of Great Britain, which includes Scotland and hence Edinburgh.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides background on the formation of the Kingdom of Great Britain, which helps infer the connection to Edinburgh.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant as it discusses the Kingdom of Great Britain, which aligns with the answer and implicitly confirms Edinburgh as its capital within the unified kingdom context."
+            },
+            "triviaqa_48308_3": {
+                "Query Analysis": "The query asks which native English-speaking country has Edinburgh as its capital.",
+                "Query Keywords Extraction": "native English-speaking country, capital, Edinburgh",
+                "Answer Analysis": "The answer provided is 'Kingdom of Great Britain'.",
+                "Document Content Analysis": "The document details information about several universities in Scotland and their historical and cultural contexts, with a focus on Edinburgh being Scotland’s capital city.",
+                "Document and Query Keywords Matching": "The document mentions 'Edinburgh', the capital of Scotland.",
+                "Document and Answer Keywords Matching": "The document implicitly relates to the 'Kingdom of Great Britain' as it discusses universities in Scotland, which is part of Great Britain.",
+                "Key Information Matching": "While the document mentions Edinburgh as a capital, it does not explicitly connect it to the concept of native English-speaking countries. However, it provides relevant context about Edinburgh being the capital of Scotland.",
+                "Can the Document Answer the Query": "No, the document does not explicitly mention Edinburgh's country in the context of native English-speaking countries.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by stating that Edinburgh is the capital city of Scotland, one can infer that Scotland is part of Great Britain, which is a native English-speaking country.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document provides substantial contextual information by identifying Edinburgh as the capital of Scotland, allowing one to infer that the country in question is part of the Kingdom of Great Britain, a native English-speaking country. Thus, it offers useful context to enhance understanding of the conversation."
+            },
+            "m.06q1r_45": {},
+            "nq_4422_2": {},
+            "nq_4422_3": {},
+            "m.014tss_294": {},
+            "m.0160w_326": {},
+            "triviaqa_19743_17": {},
+            "ott_40365_1": {
+                "Query Analysis": "The query asks for the native English-speaking country whose capital city is Edinburgh.",
+                "Query Keywords Extraction": [
+                    "native English-speaking country",
+                    "capital",
+                    "Edinburgh"
+                ],
+                "Answer Analysis": "The answer is 'Kingdom of Great Britain', the native English-speaking country whose capital is Edinburgh.",
+                "Document Content Analysis": "The document lists various historical capitals and their respective countries (some no longer existing), along with details such as dates of capital status, historical changes, and reasons for losing capital status. It mentions cities primarily in Northern Europe but does not include Edinburgh or the Kingdom of Great Britain explicitly.",
+                "Document and Query Keywords Matching": "The document mentions some key keywords such as 'United Kingdom', a native English-speaking country, but does not include 'Edinburgh' or directly discuss capital cities related to the Kingdom of Great Britain.",
+                "Document and Answer Keywords Matching": "The document mentions the 'United Kingdom', which is part of the 'Kingdom of Great Britain', but it does not explicitly mention Edinburgh or provide information directly connecting to the answer.",
+                "Key Information Matching": "The document does not mention Edinburgh, nor does it provide information about the Kingdom of Great Britain in relation to its capitals. The provided details about Northern European capitals and historical changes are unrelated to Edinburgh's capital status.",
+                "Can the Document Answer the Query": "No, the document does not mention Edinburgh or provide any information that could directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not include relevant details or related context that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not mention Edinburgh or the Kingdom of Great Britain in relation to a native English-speaking country with this capital. While it provides historical information about capitals in Northern Europe, it does not provide any key details or context useful for the query."
+            }
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_40365_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 15,
+            "ott": 0,
+            "nq": 3,
+            "triviaqa": 4,
+            "tat": 0
+        }
+    }
+}

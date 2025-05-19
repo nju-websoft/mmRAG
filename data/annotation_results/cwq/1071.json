@@ -1,0 +1,1367 @@
+{
+    "index": 1071,
+    "context": [
+        "m.05bcl"
+    ],
+    "qa": {
+        "question": "Which of the 4 countries that constitute the United Kingdom has Belfast as capital city?",
+        "answer": "['Northern Ireland']",
+        "BM25_documents": [
+            {
+                "id": "nq_2232_1",
+                "score": 16.127099990844727
+            },
+            {
+                "id": "nq_247468_1",
+                "score": 16.127098083496094
+            },
+            {
+                "id": "nq_2232_0",
+                "score": 15.787500381469727
+            },
+            {
+                "id": "nq_247468_0",
+                "score": 15.78749942779541
+            },
+            {
+                "id": "nq_24_11",
+                "score": 15.725199699401855
+            },
+            {
+                "id": "triviaqa_65674_1",
+                "score": 15.660499572753906
+            },
+            {
+                "id": "nq_24_10",
+                "score": 15.421899795532227
+            },
+            {
+                "id": "triviaqa_45049_24",
+                "score": 15.012499809265137
+            },
+            {
+                "id": "triviaqa_32234_10",
+                "score": 14.53339958190918
+            },
+            {
+                "id": "nq_35802_18",
+                "score": 14.355799674987793
+            },
+            {
+                "id": "triviaqa_14774_0",
+                "score": 13.994999885559082
+            },
+            {
+                "id": "triviaqa_32234_9",
+                "score": 13.92080020904541
+            },
+            {
+                "id": "nq_143574_256",
+                "score": 13.884599685668945
+            },
+            {
+                "id": "nq_266751_62",
+                "score": 13.827099800109863
+            },
+            {
+                "id": "nq_126017_29",
+                "score": 13.503600120544434
+            },
+            {
+                "id": "m.07ssc_1599",
+                "score": 13.497699737548828
+            },
+            {
+                "id": "triviaqa_69600_8",
+                "score": 13.468999862670898
+            },
+            {
+                "id": "nq_52689_12",
+                "score": 13.463700294494629
+            },
+            {
+                "id": "triviaqa_63378_39",
+                "score": 13.307000160217285
+            },
+            {
+                "id": "ott_26314_0",
+                "score": 13.292400360107422
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.05bcl_335",
+                "score": 12.751799583435059
+            },
+            {
+                "id": "m.05bcl_528",
+                "score": 11.982999801635742
+            },
+            {
+                "id": "m.05bcl_107",
+                "score": 10.821000099182129
+            },
+            {
+                "id": "m.05bcl_436",
+                "score": 10.5068998336792
+            },
+            {
+                "id": "m.05bcl_143",
+                "score": 10.473699569702148
+            },
+            {
+                "id": "m.05bcl_532",
+                "score": 10.289899826049805
+            },
+            {
+                "id": "m.05bcl_334",
+                "score": 9.934300422668457
+            },
+            {
+                "id": "m.05bcl_306",
+                "score": 9.829500198364258
+            },
+            {
+                "id": "m.05bcl_437",
+                "score": 9.651599884033203
+            },
+            {
+                "id": "m.05bcl_108",
+                "score": 9.521699905395508
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_2148_0",
+                "score": 10.167099952697754
+            },
+            {
+                "id": "tat_1681_2",
+                "score": 9.343000411987305
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_26314_0",
+                "score": 13.292400360107422
+            },
+            {
+                "id": "ott_41431_0",
+                "score": 13.292399406433105
+            },
+            {
+                "id": "ott_16659_0",
+                "score": 12.656299591064453
+            },
+            {
+                "id": "ott_34332_0",
+                "score": 12.656298637390137
+            },
+            {
+                "id": "ott_37285_1",
+                "score": 12.316900253295898
+            },
+            {
+                "id": "ott_40365_1",
+                "score": 12.316899299621582
+            },
+            {
+                "id": "ott_9187_1",
+                "score": 12.316898345947266
+            },
+            {
+                "id": "ott_15196_0",
+                "score": 12.133000373840332
+            },
+            {
+                "id": "ott_16334_0",
+                "score": 12.132999420166016
+            },
+            {
+                "id": "ott_18909_0",
+                "score": 12.1329984664917
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_2232_1",
+                "score": 16.127099990844727
+            },
+            {
+                "id": "nq_247468_1",
+                "score": 16.127098083496094
+            },
+            {
+                "id": "nq_2232_0",
+                "score": 15.787500381469727
+            },
+            {
+                "id": "nq_247468_0",
+                "score": 15.78749942779541
+            },
+            {
+                "id": "nq_24_11",
+                "score": 15.725199699401855
+            },
+            {
+                "id": "nq_24_10",
+                "score": 15.421899795532227
+            },
+            {
+                "id": "nq_35802_18",
+                "score": 14.355799674987793
+            },
+            {
+                "id": "nq_143574_256",
+                "score": 13.884599685668945
+            },
+            {
+                "id": "nq_266751_62",
+                "score": 13.827099800109863
+            },
+            {
+                "id": "nq_126017_29",
+                "score": 13.503600120544434
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_65674_1",
+                "score": 15.660499572753906
+            },
+            {
+                "id": "triviaqa_45049_24",
+                "score": 15.012499809265137
+            },
+            {
+                "id": "triviaqa_32234_10",
+                "score": 14.53339958190918
+            },
+            {
+                "id": "triviaqa_14774_0",
+                "score": 13.994999885559082
+            },
+            {
+                "id": "triviaqa_32234_9",
+                "score": 13.92080020904541
+            },
+            {
+                "id": "triviaqa_69600_8",
+                "score": 13.468999862670898
+            },
+            {
+                "id": "triviaqa_63378_39",
+                "score": 13.307000160217285
+            },
+            {
+                "id": "triviaqa_43558_6",
+                "score": 13.045499801635742
+            },
+            {
+                "id": "triviaqa_45049_82",
+                "score": 12.933699607849121
+            },
+            {
+                "id": "triviaqa_65674_2",
+                "score": 12.854499816894531
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.07ssc_1599",
+                "score": 13.497699737548828
+            },
+            {
+                "id": "m.07ssc_1204",
+                "score": 13.238300323486328
+            },
+            {
+                "id": "m.07ssc_637",
+                "score": 13.073399543762207
+            },
+            {
+                "id": "m.07ssc_1800",
+                "score": 12.817500114440918
+            },
+            {
+                "id": "m.07ssc_2939",
+                "score": 12.817499160766602
+            },
+            {
+                "id": "m.05bcl_335",
+                "score": 12.751799583435059
+            },
+            {
+                "id": "m.07ssc_2374",
+                "score": 12.684399604797363
+            },
+            {
+                "id": "m.07ssc_3514",
+                "score": 12.484000205993652
+            },
+            {
+                "id": "m.04hhv_434",
+                "score": 12.453499794006348
+            },
+            {
+                "id": "m.06q1r_171",
+                "score": 12.100700378417969
+            },
+            {
+                "id": "m.07ssc_2940",
+                "score": 12.08530044555664
+            },
+            {
+                "id": "m.07ssc_63",
+                "score": 12.085299491882324
+            },
+            {
+                "id": "m.05bcl_528",
+                "score": 11.982999801635742
+            },
+            {
+                "id": "m.06q1r_963",
+                "score": 11.917200088500977
+            },
+            {
+                "id": "m.06q1r_660",
+                "score": 11.78219985961914
+            },
+            {
+                "id": "m.0cw10_173",
+                "score": 11.654000282287598
+            },
+            {
+                "id": "m.04hhv_1308",
+                "score": 11.623600006103516
+            },
+            {
+                "id": "m.07ssc_1801",
+                "score": 11.611100196838379
+            },
+            {
+                "id": "m.04hhv_226",
+                "score": 11.540800094604492
+            },
+            {
+                "id": "m.04hhv_955",
+                "score": 11.540799140930176
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.07ssc_63",
+                "score": 0.7352355718612671
+            },
+            {
+                "id": "m.07ssc_3514",
+                "score": 0.7153892517089844
+            },
+            {
+                "id": "m.07ssc_2940",
+                "score": 0.7125399708747864
+            },
+            {
+                "id": "triviaqa_45049_14",
+                "score": 0.7087275981903076
+            },
+            {
+                "id": "triviaqa_45049_24",
+                "score": 0.7069340944290161
+            },
+            {
+                "id": "nq_1868_6",
+                "score": 0.6960858702659607
+            },
+            {
+                "id": "nq_104184_11",
+                "score": 0.6957635879516602
+            },
+            {
+                "id": "nq_104184_12",
+                "score": 0.695267915725708
+            },
+            {
+                "id": "m.07ssc_1801",
+                "score": 0.6896530985832214
+            },
+            {
+                "id": "triviaqa_32234_0",
+                "score": 0.6878296136856079
+            },
+            {
+                "id": "m.07ssc_1205",
+                "score": 0.6851387619972229
+            },
+            {
+                "id": "nq_2232_1",
+                "score": 0.6848393678665161
+            },
+            {
+                "id": "nq_247468_1",
+                "score": 0.6848393678665161
+            },
+            {
+                "id": "m.03rt9_61",
+                "score": 0.6830125451087952
+            },
+            {
+                "id": "nq_2232_47",
+                "score": 0.6829828023910522
+            },
+            {
+                "id": "nq_1868_5",
+                "score": 0.6775037050247192
+            },
+            {
+                "id": "m.07ssc_1800",
+                "score": 0.6738330721855164
+            },
+            {
+                "id": "triviaqa_37852_5",
+                "score": 0.6730510592460632
+            },
+            {
+                "id": "m.07ssc_638",
+                "score": 0.6716523766517639
+            },
+            {
+                "id": "triviaqa_6645_188",
+                "score": 0.6709465384483337
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.05bcl_532",
+                "score": 0.6424527168273926
+            },
+            {
+                "id": "m.05bcl_508",
+                "score": 0.6422664523124695
+            },
+            {
+                "id": "m.05bcl_527",
+                "score": 0.6310434341430664
+            },
+            {
+                "id": "m.05bcl_280",
+                "score": 0.6298370361328125
+            },
+            {
+                "id": "m.05bcl_58",
+                "score": 0.6298370361328125
+            },
+            {
+                "id": "m.05bcl_53",
+                "score": 0.6289404630661011
+            },
+            {
+                "id": "m.05bcl_275",
+                "score": 0.6289404630661011
+            },
+            {
+                "id": "m.05bcl_92",
+                "score": 0.6284096240997314
+            },
+            {
+                "id": "m.05bcl_83",
+                "score": 0.6272664666175842
+            },
+            {
+                "id": "m.05bcl_305",
+                "score": 0.6272664666175842
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_33940_2",
+                "score": 0.610062837600708
+            },
+            {
+                "id": "ott_6981_2",
+                "score": 0.610062837600708
+            },
+            {
+                "id": "ott_33940_0",
+                "score": 0.609316885471344
+            },
+            {
+                "id": "ott_6981_0",
+                "score": 0.609316885471344
+            },
+            {
+                "id": "ott_39708_2",
+                "score": 0.5966147780418396
+            },
+            {
+                "id": "ott_22892_2",
+                "score": 0.5966147780418396
+            },
+            {
+                "id": "ott_31159_2",
+                "score": 0.5966147780418396
+            },
+            {
+                "id": "ott_8508_2",
+                "score": 0.5966147780418396
+            },
+            {
+                "id": "ott_18159_2",
+                "score": 0.5966147780418396
+            },
+            {
+                "id": "ott_9187_1",
+                "score": 0.5907166004180908
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_1868_6",
+                "score": 0.6960858702659607
+            },
+            {
+                "id": "nq_104184_11",
+                "score": 0.6957635879516602
+            },
+            {
+                "id": "nq_104184_12",
+                "score": 0.695267915725708
+            },
+            {
+                "id": "nq_2232_1",
+                "score": 0.6848393678665161
+            },
+            {
+                "id": "nq_247468_1",
+                "score": 0.6848393678665161
+            },
+            {
+                "id": "nq_2232_47",
+                "score": 0.6829828023910522
+            },
+            {
+                "id": "nq_1868_5",
+                "score": 0.6775037050247192
+            },
+            {
+                "id": "nq_247468_207",
+                "score": 0.6698237657546997
+            },
+            {
+                "id": "nq_247468_0",
+                "score": 0.6660768985748291
+            },
+            {
+                "id": "nq_2232_0",
+                "score": 0.6660768985748291
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_45049_14",
+                "score": 0.7087275981903076
+            },
+            {
+                "id": "triviaqa_45049_24",
+                "score": 0.7069340944290161
+            },
+            {
+                "id": "triviaqa_32234_0",
+                "score": 0.6878296136856079
+            },
+            {
+                "id": "triviaqa_37852_5",
+                "score": 0.6730510592460632
+            },
+            {
+                "id": "triviaqa_6645_188",
+                "score": 0.6709465384483337
+            },
+            {
+                "id": "triviaqa_16755_46",
+                "score": 0.6688125729560852
+            },
+            {
+                "id": "triviaqa_45049_15",
+                "score": 0.6682114601135254
+            },
+            {
+                "id": "triviaqa_37852_2",
+                "score": 0.6659835577011108
+            },
+            {
+                "id": "triviaqa_42057_9",
+                "score": 0.6653160452842712
+            },
+            {
+                "id": "triviaqa_21495_36",
+                "score": 0.6638046503067017
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.07ssc_63",
+                "score": 0.7352355718612671
+            },
+            {
+                "id": "m.07ssc_3514",
+                "score": 0.7153892517089844
+            },
+            {
+                "id": "m.07ssc_2940",
+                "score": 0.7125399708747864
+            },
+            {
+                "id": "m.07ssc_1801",
+                "score": 0.6896530985832214
+            },
+            {
+                "id": "m.07ssc_1205",
+                "score": 0.6851387619972229
+            },
+            {
+                "id": "m.03rt9_61",
+                "score": 0.6830125451087952
+            },
+            {
+                "id": "m.07ssc_1800",
+                "score": 0.6738330721855164
+            },
+            {
+                "id": "m.07ssc_638",
+                "score": 0.6716523766517639
+            },
+            {
+                "id": "m.07ssc_2939",
+                "score": 0.6701423525810242
+            },
+            {
+                "id": "m.07ssc_3513",
+                "score": 0.6639436483383179
+            },
+            {
+                "id": "m.03rt9_1926",
+                "score": 0.6637350916862488
+            },
+            {
+                "id": "m.07ssc_637",
+                "score": 0.663173258304596
+            },
+            {
+                "id": "m.07ssc_62",
+                "score": 0.6590302586555481
+            },
+            {
+                "id": "m.07ssc_2373",
+                "score": 0.6572756171226501
+            },
+            {
+                "id": "m.07ssc_701",
+                "score": 0.6558578014373779
+            },
+            {
+                "id": "m.07ssc_198",
+                "score": 0.655421793460846
+            },
+            {
+                "id": "m.07ssc_2374",
+                "score": 0.6553495526313782
+            },
+            {
+                "id": "m.07ssc_1204",
+                "score": 0.6523045301437378
+            },
+            {
+                "id": "m.07ssc_1864",
+                "score": 0.6469716429710388
+            },
+            {
+                "id": "m.07ssc_3075",
+                "score": 0.6465119123458862
+            }
+        ],
+        "llm_mark_result": {
+            "m.05bcl_107": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, countries, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, indicating that Belfast is the capital city of Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides extensive information about Northern Ireland, including various topics such as literature, people born there, events, organizations, and geographic features. It also explicitly mentions that the capital of Northern Ireland is Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland', 'United Kingdom', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland' and 'Belfast' as the capital.",
+                "Key Information Matching": "The document directly states that the capital of Northern Ireland is Belfast, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Belfast is the capital of Northern Ireland, which is part of the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Northern Ireland's relationship to the United Kingdom and other relevant details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Belfast is the capital of Northern Ireland, which is one of the four countries in the United Kingdom. This directly answers the query and provides additional context about Northern Ireland."
+            },
+            "m.07ssc_1204": {
+                "Query Analysis": "The query asks which of the four constituent countries of the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland.",
+                "Document Content Analysis": "The document provides a description of the United Kingdom, including its geographical location, composition, and capital city. It mentions that the UK includes the island of Great Britain, the north-eastern part of the island of Ireland, and many smaller islands. It also states that Northern Ireland is the only part of the UK that shares a land border with another state.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Northern Ireland'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document includes information about the composition of the United Kingdom and specifically mentions Northern Ireland, which is relevant to identifying which country within the UK has Belfast as its capital.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the geographical and political structure of the UK, including the mention of Northern Ireland, which can help infer that Belfast is its capital.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the United Kingdom and mentions Northern Ireland, which is part of the answer. However, it does not directly state that Belfast is the capital of Northern Ireland, so it cannot fully answer the query but provides useful context."
+            },
+            "m.05bcl_335": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, Belfast, capital city, countries",
+                "Answer Analysis": "The answer is Northern Ireland, indicating that Belfast is the capital city of Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides detailed information about Northern Ireland, including its location, population, governance, historical conflicts, and notable places and people. It specifically mentions that Belfast City is contained within Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland' and 'Belfast City', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Belfast City is part of Northern Ireland, directly linking the capital city to one of the countries in the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by indicating that Belfast is in Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland, including its status as a part of the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Belfast City is part of Northern Ireland, which is one of the four countries in the United Kingdom. This directly answers the query and provides additional context about Northern Ireland."
+            },
+            "ott_26314_0": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, Belfast, capital city, countries",
+                "Answer Analysis": "The answer indicates that Belfast is the capital city of Northern Ireland, which is one of the four countries constituting the United Kingdom.",
+                "Document Content Analysis": "The document lists various mass car bombings, including details such as the date, country, place, number of deaths, type of attack, and the suspected perpetrator. It includes several entries related to bombings in Northern Ireland, specifically mentioning Belfast multiple times.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland' in relation to the bombings.",
+                "Key Information Matching": "The document places 'Belfast' within 'Northern Ireland', which is part of the 'United Kingdom'. This indirectly matches the key information needed to answer the query.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by mentioning Belfast in the context of Northern Ireland, the document helps infer that Belfast is a significant city within Northern Ireland, which can be linked to its status as the capital.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query, it provides relevant context by associating Belfast with Northern Ireland, which is part of the United Kingdom. This information can help infer the answer but does not provide a direct statement about Belfast being the capital."
+            },
+            "tat_2148_0": {
+                "Query Analysis": "The query seeks to identify which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer indicates that Belfast is the capital city of Northern Ireland, which is one of the four countries constituting the United Kingdom.",
+                "Document Content Analysis": "The document lists various cities along with their respective states and countries. It includes Belfast, specifying that it is in Northern Ireland, which is part of the UK. The document also provides details about the square footage and business nature/use of these locations.",
+                "Document and Query Keywords Matching": "The document mentions 'Belfast' and 'UK', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Belfast' and 'Northern Ireland', which are directly related to the answer.",
+                "Key Information Matching": "The document explicitly states that Belfast is in Northern Ireland, which is part of the UK, directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document provides the information that Belfast is in Northern Ireland, which is one of the four countries of the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps infer that Belfast is the capital of Northern Ireland by specifying its location within the UK.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer which of the four countries constituting the United Kingdom has Belfast as its capital city. The mention of 'Belfast, Northern Ireland' in the document directly addresses the query."
+            },
+            "nq_24_11": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, Belfast, capital city, countries",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document lists various cities along with their corresponding countries and airports. It includes entries for Belfast, specifying that it is in the United Kingdom, and mentions two airports in Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'Belfast' and 'United Kingdom', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Northern Ireland'.",
+                "Key Information Matching": "While the document confirms that Belfast is in the United Kingdom, it does not specify which part of the United Kingdom it belongs to.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the information that Belfast is in the United Kingdom, which is a step towards understanding the geographical context.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it confirms that Belfast is in the United Kingdom, which is a piece of information related to the query. However, it lacks the specific detail that Belfast is the capital of Northern Ireland, which is necessary to fully answer the query."
+            },
+            "triviaqa_45049_14": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, countries, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four constituent countries of the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document provides an overview of the United Kingdom, including its composition as a constitutional monarchy and the four constituent nations: England, Scotland, Wales, and Northern Ireland. It also mentions the geographical and cultural aspects of the UK.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'countries', and 'Northern Ireland'.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that the United Kingdom comprises four nations, including Northern Ireland, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by listing Northern Ireland as one of the constituent nations of the UK.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the structure and composition of the United Kingdom, which helps in understanding the relationship between the constituent countries and their capitals.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the necessary information about the constituent countries of the United Kingdom, including Northern Ireland, which is the answer to the query. It also offers additional context that enhances understanding of the UK's structure."
+            },
+            "m.07ssc_63": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland.",
+                "Document Content Analysis": "The document provides an overview of the United Kingdom, including its geographical location, composition, and the regions that constitute it. It mentions that the UK includes the island of Great Britain, the north-eastern part of the island of Ireland, and many smaller islands. It specifically identifies the four regions: England, Scotland, Wales, and Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and lists its constituent regions, including 'Northern Ireland'.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document lists the four regions of the UK, which directly matches the query's requirement to identify which of these has Belfast as its capital.",
+                "Can the Document Answer the Query": "Yes, the document lists Northern Ireland as one of the four regions of the UK, which is the correct answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by listing the four regions of the UK, the document provides the necessary context to infer which region has Belfast as its capital.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly provides the information needed to answer the query by listing the four regions of the UK, including Northern Ireland. This makes it highly relevant as it directly addresses the main topic of the query."
+            },
+            "m.05bcl_527": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, countries, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document provides various metadata and identifiers related to Northern Ireland, including its type as a country and various codes and classifications.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland', which is a key part of the query.",
+                "Document and Answer Keywords Matching": "The document extensively mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'Northern Ireland', which is the country in the United Kingdom with Belfast as its capital.",
+                "Can the Document Answer the Query": "Yes, the document mentions Northern Ireland, which is the correct answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about Northern Ireland, confirming its status as a country and its various classifications.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it mentions Northern Ireland, which is the country in the United Kingdom with Belfast as its capital. The detailed information about Northern Ireland further supports its relevance."
+            },
+            "triviaqa_65674_1": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document primarily describes various campuses of the University of Ulster, their locations, and amenities. It also mentions Belfast as the capital city of Northern Ireland and provides some details about Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'Belfast' and 'Northern Ireland'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that 'Belfast is the capital city of Northern Ireland'.",
+                "Key Information Matching": "The document directly provides the key information that Belfast is the capital city of Northern Ireland, which is the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Belfast is the capital city of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Belfast and its significance as a capital city.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Belfast is the capital city of Northern Ireland, which is the answer to the query. Additionally, it provides context about Belfast, enhancing the understanding of its role as a capital city."
+            },
+            "m.07ssc_2940": {
+                "Query Analysis": "The query asks for the identification of the country within the United Kingdom that has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer specifies that Northern Ireland is the country within the United Kingdom that has Belfast as its capital city.",
+                "Document Content Analysis": "The document provides an overview of the United Kingdom, including its geographical location, composition, and the names of the four constituent countries: England, Scotland, Wales, and Northern Ireland. It also mentions that Northern Ireland is part of the island of Ireland and shares a land border with another state.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Northern Ireland', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document lists the four countries that constitute the United Kingdom, including Northern Ireland, which is directly relevant to the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions Northern Ireland as one of the four countries that constitute the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by listing the four constituent countries, the document provides the necessary context to infer which one has Belfast as its capital.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the necessary information about the constituent countries of the United Kingdom, including Northern Ireland, which is the answer to the query. It explicitly mentions Northern Ireland, allowing the query to be directly answered."
+            },
+            "nq_247468_1": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, countries, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four constituent countries of the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document provides information about the location of Northern Ireland within Europe and the United Kingdom, and explicitly states that Belfast is the capital and largest city of Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland' and 'Belfast' as key terms.",
+                "Key Information Matching": "The document directly states that Belfast is the capital of Northern Ireland, which is a part of the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Northern Ireland's status as a constituent country of the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer it, confirming that Belfast is the capital of Northern Ireland, which is part of the United Kingdom."
+            },
+            "nq_247468_0": {
+                "Query Analysis": "The query asks for the identification of the country within the United Kingdom that has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that constitute the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document provides information about Northern Ireland, specifically mentioning its status as a constituent country of the United Kingdom and its capital and largest city, Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Belfast', and 'capital'.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland' and 'Belfast' as its capital.",
+                "Key Information Matching": "The document directly states that Belfast is the capital of Northern Ireland, which is a constituent country of the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Northern Ireland's status within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it, confirming that Belfast is the capital of Northern Ireland, which is part of the United Kingdom."
+            },
+            "m.07ssc_3514": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland.",
+                "Document Content Analysis": "The document provides a description of the United Kingdom, including its composition of four areas: England, Scotland, Wales, and Northern Ireland. It mentions that Northern Ireland is the only part of the UK that shares a land border with another state.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'four areas' which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document lists the four areas that constitute the United Kingdom, including Northern Ireland, which is directly related to the query.",
+                "Can the Document Answer the Query": "Yes, the document provides the information that Northern Ireland is one of the four areas of the UK, implicitly confirming that Belfast is its capital city.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by listing the four areas of the UK, the document helps to confirm which one has Belfast as its capital.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly provides the necessary information to answer the query by mentioning Northern Ireland as one of the four areas of the UK. This implicitly answers which country within the UK has Belfast as its capital city."
+            },
+            "triviaqa_45049_24": {
+                "Query Analysis": "The query seeks to identify which of the four constituent countries of the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, indicating that Belfast is the capital city of Northern Ireland.",
+                "Document Content Analysis": "The document provides an overview of the United Kingdom, listing various regions, cities, and some travel-related information. It specifically mentions Belfast as the capital of Northern Ireland.",
+                "Document and Query Keywords Matching": "The document includes 'United Kingdom', 'Belfast', and 'capital'.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Belfast - capital of Northern Ireland', matching the answer directly.",
+                "Key Information Matching": "The document directly addresses the key information by stating that Belfast is the capital of Northern Ireland, which is one of the four countries that constitute the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other capitals and cities within the UK, enhancing understanding of the UK's structure.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Belfast is the capital of Northern Ireland, which is one of the four constituent countries of the United Kingdom. This direct match makes the document highly useful for answering the query."
+            },
+            "m.05bcl_508": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, Belfast, capital city, countries",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document contains various language-specific keys and titles related to Northern Ireland, but does not explicitly state that Belfast is its capital or that Northern Ireland is part of the United Kingdom.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland', which is a key part of the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document mentions 'Northern Ireland', which is directly related to the query and the answer. However, it does not provide explicit information about Belfast being its capital or Northern Ireland being part of the United Kingdom.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland or that Northern Ireland is part of the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the repeated mention of 'Northern Ireland' can help infer that it is a significant entity, potentially leading to the conclusion that it is one of the countries in the United Kingdom if the user has prior knowledge.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it mentions 'Northern Ireland', which is the answer to the query. However, it lacks explicit information about Belfast being its capital or Northern Ireland's status as part of the United Kingdom, making it insufficient to directly answer the query but still useful for inferential purposes."
+            },
+            "m.07ssc_1599": {
+                "Query Analysis": "The query seeks to identify which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document lists various places and items associated with the United Kingdom, indicating their country of origin or containment within the UK.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Northern Ireland' or 'Belfast'.",
+                "Key Information Matching": "While the document repeatedly references the United Kingdom, it does not provide any specific information about the capital cities of the countries within the UK or the composition of the UK.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the capital cities of the countries within the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any relevant details about the internal structure of the United Kingdom or its constituent countries.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any key information about the capital cities of the countries within the United Kingdom or specifically mention Belfast or Northern Ireland. It merely lists various entities associated with the UK, which does not assist in answering the query."
+            },
+            "m.05bcl_528": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, 4 countries, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document provides various categorizations and information about Northern Ireland, including its relationship to the United Kingdom and the fact that its capital is Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland' and states that 'Northern Ireland -- Capital --> Belfast'.",
+                "Key Information Matching": "The document directly states that Northern Ireland's capital is Belfast and that Northern Ireland is a constituent country of the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Northern Ireland's capital is Belfast.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland's relationship to the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it, namely that Belfast is the capital of Northern Ireland, which is a constituent country of the United Kingdom."
+            },
+            "m.05bcl_532": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, countries, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document provides information about Northern Ireland, including its location, administrative divisions, notable people born there, and some historical context. It mentions Belfast in relation to St Patrick's College.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland' and 'Belfast', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document identifies Northern Ireland as a part of the United Kingdom and mentions Belfast, linking it to Northern Ireland.",
+                "Can the Document Answer the Query": "Yes, the document indirectly answers the query by confirming that Belfast is associated with Northern Ireland, which is part of the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Northern Ireland's position within the United Kingdom and its administrative status.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides substantial information about Northern Ireland, including its association with Belfast. This information is sufficient to infer that Northern Ireland is the country within the United Kingdom that has Belfast as its capital city."
+            },
+            "nq_2232_0": {
+                "Query Analysis": "The query asks for the identification of which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, 4 countries, Belfast, capital city",
+                "Answer Analysis": "The answer indicates that Belfast is the capital city of Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides information about Northern Ireland, specifically mentioning its status as a country within the United Kingdom and identifying Belfast as its capital and largest city.",
+                "Document and Query Keywords Matching": "The document includes 'United Kingdom', 'Belfast', and 'capital city'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland' and 'Belfast' as its capital, directly matching the answer.",
+                "Key Information Matching": "The document directly states that Belfast is the capital of Northern Ireland, which is a constituent country of the United Kingdom, thus matching key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context by confirming Northern Ireland's status as a country within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it, confirming that Belfast is the capital of Northern Ireland, which is part of the United Kingdom. This direct match makes the document highly useful for answering the query."
+            },
+            "nq_2232_1": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, countries, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, indicating that Belfast is the capital city of Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides information about the location of Northern Ireland within Europe and the United Kingdom. It explicitly states that Belfast is the capital and largest city of Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland', which is the answer to the query, and 'Belfast' as its capital.",
+                "Key Information Matching": "The document directly states that Belfast is the capital of Northern Ireland, which is part of the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context by showing Northern Ireland's location within the United Kingdom and Europe.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer which country within the United Kingdom has Belfast as its capital. It explicitly states that Belfast is the capital of Northern Ireland, which is one of the four constituent countries of the United Kingdom."
+            },
+            "nq_1868_6": {
+                "Query Analysis": "The query asks for the identification of which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, indicating that Belfast is the capital city of Northern Ireland.",
+                "Document Content Analysis": "The document provides information about the political and geographical structure of the United Kingdom, listing the four countries that constitute it: England, Scotland, Wales, and Northern Ireland. It also mentions other related terms and regions but does not explicitly state the capitals of these countries.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and lists 'Northern Ireland' among the four countries that constitute it.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document lists the four countries of the United Kingdom, which is key information needed to answer the query. However, it does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the list of the four countries of the United Kingdom, which is crucial for identifying which one has Belfast as its capital.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides the necessary context about the countries that make up the United Kingdom, including Northern Ireland. However, it lacks the specific detail that Belfast is the capital of Northern Ireland, which is required to directly answer the query."
+            },
+            "ott_33940_2": {
+                "Query Analysis": "The query asks for the identification of which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, Belfast, capital city, countries",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides a list of official cities in the United Kingdom as of 2015, including information about their city status, location, and population. It mentions the distribution of cities across England, Scotland, Wales, and Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Northern Ireland', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document specifies that there are five cities in Northern Ireland, which indirectly suggests that Belfast, being a major city and the capital, is part of Northern Ireland.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by indicating that there are cities in Northern Ireland, it helps to infer that Belfast, known to be a significant city, is likely in Northern Ireland.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the geographical distribution of cities within the United Kingdom, including Northern Ireland. However, it does not directly state that Belfast is the capital of Northern Ireland, making it partially relevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.05bcl_107": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides extensive information about Northern Ireland, including its capital city, Belfast, and its relationship to the United Kingdom.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that 'Northern Ireland' has 'Belfast' as its capital.",
+                "Key Information Matching": "The document directly states that Belfast is the capital of Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland's relationship to the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about Northern Ireland's relationship to the United Kingdom, enhancing understanding of the query."
+            },
+            "m.07ssc_1204": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides a description of the United Kingdom, including its composition, geographical features, and political structure. It mentions that the UK consists of Great Britain and Northern Ireland, and it highlights that Northern Ireland is the only part of the UK that shares a land border with another state. However, the document does not explicitly mention Belfast or its status as a capital city.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Northern Ireland', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is part of the answer.",
+                "Key Information Matching": "The document confirms that Northern Ireland is part of the United Kingdom, which aligns with the query and answer. However, it does not explicitly mention Belfast or its status as a capital city.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about the composition of the United Kingdom, which includes Northern Ireland. This helps infer that Belfast, as the capital of Northern Ireland, is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides information about the composition of the United Kingdom, including Northern Ireland, which is part of the answer. However, it does not explicitly mention Belfast or its status as a capital city, so it cannot directly answer the query."
+            },
+            "m.05bcl_335": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides detailed information about Northern Ireland, including its status as part of the United Kingdom, its population, governance, and historical context. It also mentions that Belfast is contained within Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document confirms that Northern Ireland is part of the United Kingdom and contains Belfast, which aligns with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is contained within Northern Ireland, which is part of the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland, including its governance and historical background.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It confirms that Belfast is the capital of Northern Ireland, which is one of the four countries that constitute the United Kingdom. Additionally, it offers useful context about Northern Ireland, enhancing understanding of the query."
+            },
+            "ott_26314_0": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document lists various mass car bombings, including dates, countries, places, deaths, types, and perpetrators. It mentions several incidents in Northern Ireland, including multiple bombings in Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Belfast', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document mentions 'Belfast' and 'Northern Ireland', which are key to answering the query. It also mentions 'United Kingdom', which is part of the query.",
+                "Can the Document Answer the Query": "Yes, the document mentions that Belfast is in Northern Ireland, which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions Belfast and Northern Ireland, which are key to answering the question. It provides the necessary information to confirm that Belfast is the capital of Northern Ireland, one of the four countries that constitute the United Kingdom."
+            },
+            "tat_2148_0": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides a list of locations, including Belfast, which is listed under 'International' and associated with Northern Ireland (NI) and the United Kingdom (UK).",
+                "Document and Query Keywords Matching": "The document mentions 'Belfast', 'NI' (Northern Ireland), and 'UK' (United Kingdom).",
+                "Document and Answer Keywords Matching": "The document mentions 'NI' (Northern Ireland), which matches the answer.",
+                "Key Information Matching": "The document explicitly states that Belfast is in Northern Ireland (NI), which is part of the United Kingdom (UK). This directly matches the query's requirement to identify the country within the UK that has Belfast as its capital.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is in Northern Ireland, which is part of the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It confirms that Belfast is the capital of Northern Ireland, which is one of the four countries constituting the United Kingdom."
+            },
+            "nq_24_11": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document lists various cities, their countries, and associated airports. It mentions Belfast twice, both times indicating that it is in the United Kingdom.",
+                "Document and Query Keywords Matching": "The document mentions 'Belfast' and 'United Kingdom', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Northern Ireland', which is the answer.",
+                "Key Information Matching": "The document mentions 'Belfast' and 'United Kingdom', but it does not specify that Belfast is the capital of Northern Ireland, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "No, the document does not specify that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that Belfast is in the United Kingdom, which is part of the context needed to answer the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides some relevant information by confirming that Belfast is in the United Kingdom, but it does not directly answer the query by specifying that Belfast is the capital of Northern Ireland. Therefore, it is partially relevant."
+            },
+            "triviaqa_45049_14": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four constituent countries of the United Kingdom.",
+                "Document Content Analysis": "The document provides an overview of the United Kingdom, including its constituent nations: England, Scotland, Wales, and Northern Ireland. It also mentions the UK's geographical and political characteristics, but does not explicitly state the capital cities of these nations.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'four constituent nations', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document identifies Northern Ireland as one of the four constituent nations of the United Kingdom, which aligns with the query's focus on Belfast as the capital of one of these nations.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that Northern Ireland is one of the four constituent nations of the United Kingdom, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about the constituent nations of the United Kingdom, including Northern Ireland, but it does not explicitly state that Belfast is the capital of Northern Ireland. Therefore, it is partially relevant to the query."
+            },
+            "m.07ssc_63": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides an overview of the United Kingdom, including its constituent countries: England, Scotland, Wales, and Northern Ireland. It mentions that Northern Ireland is part of the UK and shares a land border with another state.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'four areas' (referring to the four countries).",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document identifies Northern Ireland as one of the four constituent countries of the United Kingdom, which aligns with the query's focus on Belfast as the capital of one of these countries.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Northern Ireland is one of the four constituent countries of the United Kingdom, and Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the United Kingdom and its constituent countries, which helps confirm that Belfast is the capital of Northern Ireland.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying Northern Ireland as one of the four constituent countries of the United Kingdom and implicitly confirms that Belfast is its capital. It also provides additional context about the UK, enhancing understanding of the query."
+            },
+            "m.05bcl_527": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides detailed information about Northern Ireland, including its types, codes, and classifications. It confirms that Northern Ireland is a country and provides various identifiers and attributes related to it.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland', which is one of the four countries in the United Kingdom.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Northern Ireland', which matches the answer.",
+                "Key Information Matching": "The document confirms that Northern Ireland is a country, which aligns with the query's focus on identifying the country within the United Kingdom that has Belfast as its capital.",
+                "Can the Document Answer the Query": "Yes, the document directly confirms that Northern Ireland is one of the countries in the United Kingdom, which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland, reinforcing its status as a country within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it confirms that Northern Ireland is one of the four countries in the United Kingdom, which is the answer to the query. It also provides additional context about Northern Ireland, enhancing understanding of the query."
+            },
+            "triviaqa_65674_1": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides information about various campuses and facilities in Northern Ireland, including details about Belfast. It explicitly states that Belfast is the capital city of Northern Ireland and provides additional context about the city's significance, location, and amenities.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Belfast', and 'capital city'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Belfast is the capital city of Northern Ireland, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is the capital city of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Belfast, including its role as the seat of government in Northern Ireland and its significance within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It explicitly states that Belfast is the capital city of Northern Ireland, which is the answer to the query. Additionally, it offers useful context about Belfast's role and significance, enhancing understanding of the query."
+            },
+            "m.07ssc_2940": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides a detailed description of the United Kingdom, including its geographical composition, population, and governance. It mentions that the UK consists of four areas: England, Scotland, Wales, and Northern Ireland. It also describes the geographical locations of these areas and their relationships to the islands of Great Britain and Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'four areas', and 'Northern Ireland'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that the United Kingdom consists of four areas: England, Scotland, Wales, and Northern Ireland. It also describes the geographical location of Northern Ireland, which is relevant to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Northern Ireland is one of the four countries in the United Kingdom, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the geographical and political structure of the United Kingdom, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the necessary information to answer it. It explicitly mentions that Northern Ireland is one of the four countries in the United Kingdom, which is the answer to the query. Additionally, it provides useful context about the geographical and political structure of the UK, enhancing understanding of the query."
+            },
+            "nq_247468_1": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides information about Northern Ireland, including its status as a country within the United Kingdom, its capital city (Belfast), and other details such as languages and ethnic groups.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Northern Ireland' and 'Belfast', which are directly related to the answer.",
+                "Key Information Matching": "The document confirms that Belfast is the capital of Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is the capital of Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland, such as its status within the United Kingdom and other demographic details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the question. It confirms that Belfast is the capital of Northern Ireland, which is one of the four countries in the United Kingdom. Additionally, it offers supplementary information about Northern Ireland, enhancing the understanding of the query."
+            },
+            "nq_247468_0": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom.",
+                "Document Content Analysis": "The document provides information about Northern Ireland, including its status as a country within the United Kingdom and its capital city, Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Belfast', and 'capital city'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document states that Belfast is the capital of Northern Ireland, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland being a country within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Belfast is the capital of Northern Ireland, one of the four countries in the United Kingdom. It also provides useful context about Northern Ireland's status within the UK."
+            },
+            "m.07ssc_3514": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides a description of the United Kingdom, including its constituent countries: England, Scotland, Wales, and Northern Ireland. It also mentions that Northern Ireland is the only part of the UK that shares a land border with another state.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'four countries' (England, Scotland, Wales, and Northern Ireland).",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document lists the four countries that constitute the United Kingdom, including Northern Ireland, which is the country with Belfast as its capital.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Northern Ireland is one of the four countries that make up the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the United Kingdom and its constituent countries.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying Northern Ireland as one of the four countries that constitute the United Kingdom, and it provides additional context about the UK and its constituent countries."
+            },
+            "triviaqa_45049_24": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document provides information about the regions, cities, and other details related to the United Kingdom. It specifically mentions Belfast as the capital of Northern Ireland and describes it as a popular tourist destination undergoing major renovations.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Belfast', and 'capital'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland' and 'Belfast' as its capital.",
+                "Key Information Matching": "The document directly states that Belfast is the capital of Northern Ireland, which is one of the four countries that constitute the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It clearly states that Belfast is the capital of Northern Ireland, which is one of the four countries that make up the United Kingdom."
+            },
+            "m.05bcl_508": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries in the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document contains multiple references to 'Northern Ireland' in various languages and contexts, indicating that it is focused on Northern Ireland. However, it does not explicitly mention Belfast or its status as a capital city.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland', which is one of the four countries in the United Kingdom, but it does not mention 'Belfast' or 'capital city'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which matches the answer.",
+                "Key Information Matching": "The document provides information about Northern Ireland, which is relevant to the query, but it does not explicitly state that Belfast is its capital city.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Northern Ireland, which is one of the four countries in the United Kingdom and is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides information about Northern Ireland, which is one of the four countries in the United Kingdom. However, it does not explicitly mention Belfast or its status as a capital city, which is the key information required to directly answer the query."
+            },
+            "m.07ssc_1599": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that make up the United Kingdom.",
+                "Document Content Analysis": "The document lists various entities and their relationships to the United Kingdom, such as places, events, and works of art. However, it does not explicitly mention the capital cities of the countries within the United Kingdom.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' multiple times, which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Northern Ireland' or 'Belfast', which are key to the answer.",
+                "Key Information Matching": "The document does not provide any information about the capital cities of the countries within the United Kingdom, nor does it mention Belfast or Northern Ireland.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the capital cities of the countries within the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the capital cities of the countries within the United Kingdom, nor does it mention Belfast or Northern Ireland. It does not assist in answering the query or provide any useful context."
+            },
+            "m.05bcl_528": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland.",
+                "Document Content Analysis": "The document provides detailed information about Northern Ireland, including its status as a UK constituent country, its capital city (Belfast), and various other attributes and relationships.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Northern Ireland -- Capital --> Belfast', which directly matches the answer.",
+                "Key Information Matching": "The document confirms that Belfast is the capital of Northern Ireland, which is one of the four countries constituting the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland's status within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by confirming that Belfast is the capital of Northern Ireland, one of the four countries that constitute the United Kingdom. It also provides additional relevant information about Northern Ireland's status and attributes."
+            },
+            "m.05bcl_532": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries that constitute the United Kingdom.",
+                "Document Content Analysis": "The document provides information about Northern Ireland, including its status as a part of the United Kingdom, its geographical location, population, and some historical and political context. It also mentions various institutions and people associated with Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'Northern Ireland' and 'United Kingdom', which are key terms in the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document confirms that Northern Ireland is a part of the United Kingdom, which directly relates to the query. It also provides additional context about Northern Ireland, though it does not explicitly state that Belfast is its capital.",
+                "Can the Document Answer the Query": "Yes, the document confirms that Northern Ireland is one of the four countries in the United Kingdom, which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland, though it does not explicitly state that Belfast is its capital.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it confirms that Northern Ireland is one of the four countries in the United Kingdom. While it does not explicitly state that Belfast is the capital, the information provided is sufficient to answer the query. Therefore, the document is highly relevant."
+            },
+            "nq_2232_0": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is 'Northern Ireland'.",
+                "Document Content Analysis": "The document is about Northern Ireland, describing it as a country within the United Kingdom and stating that its capital and largest city is Belfast.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Belfast', and 'capital'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Northern Ireland' and 'Belfast' as its capital.",
+                "Key Information Matching": "The document confirms that Belfast is the capital of Northern Ireland, which is one of the four countries of the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland being part of the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by confirming that Belfast is the capital of Northern Ireland, one of the four countries of the United Kingdom. It also provides useful context about Northern Ireland's status within the UK."
+            },
+            "nq_2232_1": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four constituent countries of the United Kingdom.",
+                "Document Content Analysis": "The document provides information about Northern Ireland, including its status as a country within the United Kingdom, its capital city (Belfast), and other demographic details.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and 'Belfast'.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Northern Ireland' and 'Belfast' as its capital.",
+                "Key Information Matching": "The document directly states that Belfast is the capital of Northern Ireland, which is one of the four countries of the United Kingdom.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Northern Ireland's status within the United Kingdom.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, confirming that Belfast is the capital of Northern Ireland, one of the four countries of the United Kingdom."
+            },
+            "nq_1868_6": {
+                "Query Analysis": "The query asks which of the four countries that make up the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "4 countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland, which is one of the four countries of the United Kingdom and has Belfast as its capital.",
+                "Document Content Analysis": "The document lists the four countries of the United Kingdom: England, Scotland, Wales, and Northern Ireland. It also provides additional context about these countries, including their legal jurisdictions and linguistic terms.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'England', 'Scotland', 'Wales', and 'Northern Ireland', which are all relevant to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Northern Ireland', which is the answer to the query.",
+                "Key Information Matching": "The document lists the four countries of the United Kingdom, including Northern Ireland, which is the answer to the query. However, it does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that Northern Ireland is one of the four countries of the United Kingdom, which is a key piece of information for the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about the four countries of the United Kingdom, including Northern Ireland, but it does not explicitly mention Belfast as the capital of Northern Ireland. Therefore, it is partially relevant."
+            },
+            "ott_33940_2": {
+                "Query Analysis": "The query asks which of the four countries that constitute the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "countries, United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer is Northern Ireland.",
+                "Document Content Analysis": "The document provides a list of cities in the United Kingdom, including their locations (e.g., England, Scotland, Northern Ireland) and some demographic information. It mentions Derry in Northern Ireland but does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom' and 'Northern Ireland', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which is part of the answer.",
+                "Key Information Matching": "The document lists cities in the United Kingdom, including one in Northern Ireland, but does not explicitly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Belfast is the capital of Northern Ireland.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions Northern Ireland as one of the countries in the United Kingdom, which is part of the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides some relevant information about the United Kingdom and Northern Ireland but does not directly answer the query about Belfast being the capital of Northern Ireland. It is partially relevant as it helps infer part of the answer."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.05bcl_107": {},
+            "m.07ssc_1204": {},
+            "m.05bcl_335": {},
+            "ott_26314_0": {
+                "Query Analysis": "The query asks which of the countries within the United Kingdom has Belfast as its capital city.",
+                "Query Keywords Extraction": "United Kingdom, Belfast, capital city",
+                "Answer Analysis": "The answer to the query is 'Northern Ireland'.",
+                "Document Content Analysis": "The document provides a list of mass car bombings with specific details such as date, country, location, deaths, type, and perpetrator. Many entries mention locations within Northern Ireland, including Belfast.",
+                "Document and Query Keywords Matching": "The document contains 'United Kingdom' and 'Belfast', both of which match keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland' multiple times, particularly alongside 'Belfast'.",
+                "Key Information Matching": "The document confirms Belfast is located in Northern Ireland, which is part of the United Kingdom. This aligns with the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document can help infer that Belfast is in Northern Ireland, thus answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by listing Belfast under events occurring in Northern Ireland, the document supports the relationship needed to answer the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it confirms that Belfast is a city in Northern Ireland. It provides substantial context that directly helps answer the query."
+            },
+            "tat_2148_0": {},
+            "nq_24_11": {},
+            "triviaqa_45049_14": {
+                "Query Analysis": "The query asks for the name of the United Kingdom country that has Belfast as its capital city.",
+                "Query Keywords Extraction": "Belfast, capital city, United Kingdom, 4 countries",
+                "Answer Analysis": "The answer is 'Northern Ireland'.",
+                "Document Content Analysis": "The document provides information about the United Kingdom, mentioning it is made up of England, Scotland, Wales, and Northern Ireland. It also describes its geographical location and separation from the Republic of Ireland.",
+                "Document and Query Keywords Matching": "The document mentions 'United Kingdom', 'Northern Ireland', and '4 countries'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Northern Ireland', which matches the query answer.",
+                "Key Information Matching": "The document confirms Northern Ireland is one of the four constituent countries of the United Kingdom, which is required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the information that Northern Ireland is part of the United Kingdom.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document lists the four constituent countries of the UK, which helps infer the answer to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by listing the four countries of the United Kingdom and includes Northern Ireland, providing necessary information to determine which country has Belfast as its capital city."
+            },
+            "m.07ssc_63": {},
+            "m.05bcl_527": {},
+            "triviaqa_65674_1": {},
+            "m.07ssc_2940": {},
+            "nq_247468_1": {},
+            "nq_247468_0": {},
+            "m.07ssc_3514": {},
+            "triviaqa_45049_24": {},
+            "m.05bcl_508": {},
+            "m.07ssc_1599": {},
+            "m.05bcl_528": {},
+            "m.05bcl_532": {},
+            "nq_2232_0": {},
+            "nq_2232_1": {},
+            "nq_1868_6": {},
+            "ott_33940_2": {}
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "fail_detail": {
+            "nq_2232_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_2232_1": [
+                true,
+                true,
+                true
+            ],
+            "nq_1868_6": [
+                true,
+                true,
+                true
+            ],
+            "ott_33940_2": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 18,
+            "triviaqa": 4,
+            "nq": 6,
+            "tat": 2,
+            "ott": 3
+        }
+    }
+}

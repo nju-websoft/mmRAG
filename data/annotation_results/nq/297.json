@@ -1,0 +1,1293 @@
+{
+    "index": 297,
+    "context": [
+        "# Symbolic link\n\nFrom Wikipedia, the free encyclopedia\n\nJump to: navigation, search\n\nFor the Microsoft data exchange format, see [SYmbolic LinK\n(SYLK)](/wiki/SYmbolic_LinK_\\(SYLK\\) \"SYmbolic LinK \\(SYLK\\)\").\n\nIn [computing](/wiki/Computing \"Computing\"), a **symbolic link** (also\n**symlink** or **soft link**) is the nickname for any\n[file](/wiki/Computer_file \"Computer file\") that contains a reference to\nanother file or directory in the form of an absolute or relative\n[path](/wiki/Path_\\(computing\\) \"Path \\(computing\\)\") and that affects\npathname resolution.[1]\n\nSymbolic links were already present by 1978 in minicomputer operating systems\nfrom [DEC](/wiki/Digital_Equipment_Corporation \"Digital Equipment\nCorporation\") and Data General's [RDOS](/wiki/Data_General_RDOS \"Data General\nRDOS\"). Today they are supported by the [POSIX](/wiki/POSIX \"POSIX\") operating\nsystem standard, most [Unix-like](/wiki/Unix-like \"Unix-like\") [operating\nsystems](/wiki/Operating_system \"Operating system\") such as\n[FreeBSD](/wiki/FreeBSD \"FreeBSD\"), [Linux](/wiki/Linux \"Linux\"), and [Mac OS\nX](/wiki/Mac_OS_X \"Mac OS X\"). Limited support also exists in Windows\noperating systems such as [Windows Vista](/wiki/Windows_Vista \"Windows\nVista\"), [Windows 7](/wiki/Windows_7 \"Windows 7\") and to some degree in\n[Windows 2000](/wiki/Windows_2000 \"Windows 2000\") and [Windows\nXP](/wiki/Windows_XP \"Windows XP\") in the form of [shortcut\nfiles](/wiki/File_shortcut \"File shortcut\").\n\n## Contents\n\n[hide]\n\n  * 1 Overview\n  * 2 POSIX and Unix-like operating systems\n    * 2.1 Storage of symbolic links\n    * 2.2 Mac OS aliases\n  * 3 Microsoft Windows\n    * 3.1 NTFS symbolic link\n    * 3.2 NTFS junction points\n    * 3.3 Shortcuts\n    * 3.4 Folder shortcuts\n    * 3.5 Shell objects\n    * 3.6 Cygwin symbolic links\n    * 3.7 Summary\n  * 4 Amiga\n  * 5 OS/2\n  * 6 Variable symbolic links\n  * 7 See also\n  * 8 References\n  * 9 External links\n\n## Overview[[edit](/w/index.php?title=Symbolic_link&action=edit&section=1\n\"Edit section: Overview\")]\n\nA symbolic link contains a text string that is automatically interpreted and\nfollowed by the operating system as a path to another file or directory. This\nother file or directory is called the \"target\". The symbolic link is a second\nfile that exists independently of its target. If a symbolic link is deleted,\nits target remains unaffected. If a symbolic link points to a target, and\nsometime later that target is moved, renamed or deleted, the symbolic link is\nnot automatically updated or deleted, but continues to exist and still points\nto the old target, now a non-existing location or file. Symbolic links\npointing to moved or non-existing targets are sometimes called _broken_ ,\n_orphaned_ , _dead_ , or _dangling_.\n\nSymbolic links are different from [hard links](/wiki/Hard_link \"Hard link\").\nHard links do not link paths on different [volumes](/wiki/Volume_\\(computing\\)\n\"Volume \\(computing\\)\") or [file systems](/wiki/File_system_API \"File system\nAPI\"), whereas symbolic links may point to any file or directory irrespective\nof the [volumes](/wiki/Volume_\\(computing\\) \"Volume \\(computing\\)\") on which\nthe link and target reside. Hard links always refer to an existing file,\nwhereas symbolic links may contain an arbitrary path that does not point to\nanything.\n\nSymbolic links operate transparently for many operations: programs that read\nor write to files named by a symbolic link will behave as if operating\ndirectly on the target file. However, they have the effect of changing an\notherwise hierarchical filesystem from a [tree](/wiki/Tree_\\(graph_theory\\)\n\"Tree \\(graph theory\\)\") into a [directed graph](/wiki/Directed_graph\n\"Directed graph\"), which can have consequences for such simple operations as\nfiguring out the current directory of a process. Even the Unix .. convention\nfor navigating to a directory's parent directory no longer works reliably in\nthe face of symlinks. Some [shells](/wiki/Unix_shell \"Unix shell\")\n[heuristically](/wiki/Heuristic \"Heuristic\") try to uphold the illusion of a\ntree-shaped hierarchy, but when they do, this causes them to produce different\nresults from other programs that manipulate pathnames without such heuristic,\nrelying on the operating system instead.[2] Programs that need to handle\nsymbolic links specially (e.g., shells and backup utilities) thus need to\nidentify and manipulate them directly.\n\nSome Unix as well as Linux distributions use symbolic links extensively in an\neffort to reorder the [file system](/wiki/File_system \"File system\")\nhierarchy. This is accomplished with several mechanisms, such as variant,\ncontext-dependent symbolic links. This offers the opportunity to create a more\nintuitive or application-specific [directory tree](/wiki/Directory_tree\n\"Directory tree\") and to reorganize the system without having to redesign the\ncore set of system functions and utilities.\n\n## POSIX and Unix-like operating\nsystems[[edit](/w/index.php?title=Symbolic_link&action=edit&section=2 \"Edit\nsection: POSIX and Unix-like operating systems\")]\n\nIn [POSIX](/wiki/POSIX \"POSIX\")-compliant operating systems, symbolic links\nare created with the `symlink`[3] system call. The `[ln](/wiki/Ln_\\(Unix\\) \"Ln\n\\(Unix\\)\")` shell command normally uses the `link`[4] system call, which\ncreates a [hard link](/wiki/Hard_link \"Hard link\"). When the `ln _-s_` flag is\nspecified, the symlink() system call is used instead, creating a symbolic\nlink. Symlinks were introduced in [4.2BSD\nUnix](/wiki/Berkeley_Software_Distribution \"Berkeley Software Distribution\")\nfrom [U.C. Berkeley](/wiki/Computer_Systems_Research_Group \"Computer Systems\nResearch Group\").\n\nThe following command creates a symbolic link at the [command-line\ninterface](/wiki/Command-line_interface \"Command-line interface\") (shell):\n\n    \n    \n     ln -s target_path link_path\n    \n\n`target_path` is the relative or absolute path to which the symbolic link\nshould point. Usually the target will exist, although symbolic links may be\ncreated to non-existent targets. `link_path` is the path of the symbolic link.\n\nAfter creating the symbolic link, it may generally be treated as an alias for\nthe target. Any file system management commands (e.g., `[cp](/wiki/Cp_\\(Unix\\)\n\"Cp \\(Unix\\)\")`, `[rm](/wiki/Rm_\\(Unix\\) \"Rm \\(Unix\\)\")`) may be used on the\nsymbolic link. Commands which read or write file contents will access the\ncontents of the target file. The `rm` (delete file) command, however, removes\nthe link itself, not the target file.\n\nThe POSIX directory listing application, `[ls](/wiki/Ls \"Ls\")`, denotes\nsymbolic links with an arrow after the name, pointing to the name of the\ntarget file (see following example), when the long directory list is requested\n(`-l` option). When a directory listing of a symbolic link that points to a\ndirectory is requested, only the link itself will be displayed. In order to\nobtain a listing of the linked directory, the path must include a trailing\ndirectory separator character ('/', slash).\n\nNote: In Below Example do not create \"three\" directory before creation of link\nin /tmp directory.\n\n    \n    \n    $ mkdir -p /tmp/one/two\n    $ echo \"test_a\" >/tmp/one/two/a\n    $ echo \"test_b\" >/tmp/one/two/b\n    $ cd /tmp/one/two\n    $ ls -l\n    -rw-r--r-- 1 user group 7 Jan 01 10:01 a\n    -rw-r--r-- 1 user group 7 Jan 01 10:01 b\n    \n    $ cd /tmp\n    $ ln -s /tmp/one/two three\n    $ ls -l three\n    lrwxrwxrwx 1 user group 12 Jul 22 10:02 /tmp/three -> /tmp/one/two\n    $ ls -l three/\n    -rw-r--r-- 1 user group 7 Jan 01 10:01 a\n    -rw-r--r-- 1 user group 7 Jan 01 10:01 b\n    \n    $ cd three\n    $ ls -l\n    -rw-r--r-- 1 user group 7 Jan 01 10:01 a\n    -rw-r--r-- 1 user group 7 Jan 01 10:01 b\n    $ cat a\n    test_a\n    $ cat /tmp/one/two/a\n    test_a\n    $ echo \"test_c\" >/tmp/one/two/a\n    $ cat /tmp/one/two/a\n    test_c\n    $ cat a\n    test_c\n    \n\n### Storage of symbolic\nlinks[[edit](/w/index.php?title=Symbolic_link&action=edit&section=3 \"Edit\nsection: Storage of symbolic links\")]\n\nEarly implementations of symbolic links stored the symbolic link information\nas data in regular files. The file contained the textual reference to the\nlink’s target, and an indicator[_[clarification\nneeded](/wiki/Wikipedia:Please_clarify \"Wikipedia:Please clarify\")_] denoting\nit as a symbolic link.\n\nThis method was slow and an inefficient use of [disk-space](/wiki/Disk_storage\n\"Disk storage\") on small systems. An improvement, called **fast symlinks** ,\nallowed storage of the target path within the [data\nstructures](/wiki/Data_structure \"Data structure\") used for storing file\ninformation on disk ([inodes](/wiki/Inode \"Inode\")). This space normally\nstores a list of disk [block](/wiki/Block_\\(data_storage\\) \"Block \\(data\nstorage\\)\") addresses allocated to a file. Thus, symlinks with short target\npaths are accessed quickly. Systems with fast symlinks often fall back to\nusing the original method if the target path exceeds the available inode\nspace. The original style is [retroactively termed](/wiki/Retronym \"Retronym\")\na **slow symlink**. It is also used for disk compatibility with other or older\nversions of operating systems.\n\nAlthough storing the link value inside the inode saves a disk block and a disk\nread, the operating system still needs to parse the path name in the link,\nwhich always requires reading additional inodes and generally requires reading\nother, and potentially many, directories, processing both the list of files\nand the inodes of each of them until it finds a match with the link's path\ncomponents. Only when a link points to a file in the same directory do \"fast\nsymlinks\" provide significantly better performance than other symlinks.\n\nThe vast majority of POSIX-compliant implementations use fast symlinks.\nHowever, the [POSIX](/wiki/POSIX \"POSIX\") standard does not require the entire\nset of file status information common to regular files to be implemented for\nsymlinks. This allows implementations to use other solutions, such as storing\nsymlink data in directory entries.\n\nThe [file system permissions](/wiki/File_system_permissions \"File system\npermissions\") of a symbolic link are not used, the access modes of the target\nfile are controlled by the target file's own permissions. Some operating\nsystems, such as FreeBSD, offer the ability to modify file permissions and\nfilesystem attributes of a symbolic link, through `lchmod`[5] and\n`lchflags`[6] system calls respectively.\n\nThe reported size of a symlink is the number of characters in the path it\npoints to.\n\n### Mac OS\naliases[[edit](/w/index.php?title=Symbolic_link&action=edit&section=4 \"Edit\nsection: Mac OS aliases\")]\n\nMain article: [Alias (Mac OS)](/wiki/Alias_\\(Mac_OS\\) \"Alias \\(Mac OS\\)\")\n\nIn Mac OS, applications or users can also employ\n_[aliases](/wiki/Alias_\\(Mac_OS\\) \"Alias \\(Mac OS\\)\")_ , which have the added\nfeature of following the target, even if it is moved to another location on\nthe same volume. This is not to be confused with the shell command\n[alias](/wiki/Alias_\\(command\\) \"Alias \\(command\\)\").\n\n## Microsoft\nWindows[[edit](/w/index.php?title=Symbolic_link&action=edit&section=5 \"Edit\nsection: Microsoft Windows\")]\n\n### NTFS symbolic\nlink[[edit](/w/index.php?title=Symbolic_link&action=edit&section=6 \"Edit\nsection: NTFS symbolic link\")]\n\nMain article: [NTFS symbolic link](/wiki/NTFS_symbolic_link \"NTFS symbolic\nlink\")\n\n[NTFS](/wiki/NTFS \"NTFS\") 3.1 introduced support symbolic links for any type\nof file. It was included with [Windows XP](/wiki/Windows_XP \"Windows XP\"), but\nwas only enabled by default for kernel mode programs; [Windows\nVista](/wiki/Windows_Vista \"Windows Vista\") and later versions of Windows\nenabled support for symbolic links to user mode applications, as well, and\nsupplied the command line utility `mklink` for creating them. Third-party\ndrivers are required to enable support for NTFS symbolic links in Windows\nXP.[7] Unlike [junction points](/wiki/NTFS_junction_point \"NTFS junction\npoint\"), a symbolic link can also point to a file or remote [Server Message\nBlock](/wiki/Server_Message_Block \"Server Message Block\") (SMB) network path.\nAdditionally, the NTFS symbolic link implementation provides full support for\ncross-filesystem links. However, the functionality enabling cross-host\nsymbolic links requires that the remote system also support them.\n\nSymbolic links are designed to aid in migration and application compatibility\nwith [POSIX](/wiki/POSIX \"POSIX\") operating systems. Microsoft aimed for\nWindows Vista's symbolic links to \"function just like UNIX links\".[8] However,\nthe implementation varies from Unix symbolic links in several ways. For\nexample, Windows Vista users must manually indicate when creating a symbolic\nlink whether it is a file or a directory.[9] Windows 7 and Vista support a\nmaximum of 31 [reparse points](/wiki/Reparse_point \"Reparse point\") (and\ntherefore symbolic links) for a given path (i.e. any given path can have at\nmost 31 indirections before Windows gives up).[10] Only users with the new\n_Create Symbolic Link_ privilege, which only administrators have by default,\ncan create symbolic links.[11] If this is not the desired behavior, it must be\nchanged in the Local Security Policy management console. Additionally, NTFS\nsymbolic links to files are distinct from NTFS symbolic links to directories\nand therefore cannot be used interchangeably, unlike on POSIX where the same\nsymbolic link can refer to either files or directories.\n\nIn Windows Vista and later, when the working directory path ends with a\nsymbolic link, the current parent path reference, `..`, will refer to the\nparent directory of the symbolic link rather than that of its target. This\nbehaviour is also found at the shell level in at least some POSIX systems,\nincluding [Linux](/wiki/Linux \"Linux\"), but never in accessing files and\ndirectories through operating system calls. For instance, bash builtin\ncommands `pwd` and `cd` operate on the current logical directory. `pwd` is\noften used in scripts to determine the actual current working directory. When\nany path is used with a system call, any use of `..` will use the actual\nfilesystem parent of the directory containing the `..` pseudo-directory entry.\nSo, `cd ..; cat something` and `cat ../something` may return completely\ndifferent results.\n\nExample:\n\n    \n    \n    mklink /D \"C:\\Users\\<yourusername>\\Appdata\\Local\\Plex Media Server\" \"G:\\Plex Media Server\"\n    \n\n### NTFS junction\npoints[[edit](/w/index.php?title=Symbolic_link&action=edit&section=7 \"Edit\nsection: NTFS junction points\")]\n\nMain article: [NTFS junction point](/wiki/NTFS_junction_point \"NTFS junction\npoint\")\n\nThe [Windows 2000](/wiki/Windows_2000 \"Windows 2000\") version of\n[NTFS](/wiki/NTFS \"NTFS\") introduced [reparse points](/wiki/NTFS_reparse_point\n\"NTFS reparse point\"), which enabled, among other things, the use of [Volume\nMount Points](/wiki/Volume_Mount_Point \"Volume Mount Point\") and junction\npoints. Junction points are for directories only, and moreover, local\ndirectories only; junction points to remote shares are unsupported.[12] The\nWindows 2000 and XP Resource Kits include a program called linkd to create\njunction points; a more powerful one named Junction was distributed by\n[Sysinternals](/wiki/Sysinternals \"Sysinternals\")' [Mark\nRussinovich](/wiki/Mark_Russinovich \"Mark Russinovich\").\n\nNot all standard applications support reparse points. Most noticeably, Backup\nsuffers from this problem and will issue an error message 0x80070003[13] when\nthe folders to be backed up contain a reparse point.\n\n### Shortcuts[[edit](/w/index.php?title=Symbolic_link&action=edit&section=8\n\"Edit section: Shortcuts\")]\n\n[Shortcuts](/wiki/Computer_shortcut \"Computer shortcut\"), which are supported\nby the graphical file browsers of some operating systems, may resemble\nsymbolic links but differ in a number of important ways. One difference is\nwhat type of software is able to follow them:\n\n  * Symbolic links are automatically resolved by the file system. Any software program, upon accessing a symbolic link, will see the target instead, whether the program is aware of symbolic links or not.\n  * Shortcuts are treated like ordinary files by the file system and by software programs that are not aware of them. Only software programs that understand shortcuts (such as the Windows shell and file browsers) treat them as references to other files.\n\nAnother difference are the capabilities of the mechanism:\n\n  * [Microsoft Windows](/wiki/Microsoft_Windows \"Microsoft Windows\") shortcuts normally refer to a destination by an [absolute path](/wiki/Absolute_path \"Absolute path\") (starting from the [root directory](/wiki/Root_directory \"Root directory\")), whereas POSIX symbolic links can refer to destinations via either an absolute or a [relative path](/wiki/Relative_path \"Relative path\"). The latter is useful if both the location and destination of the symbolic link share a common path [prefix](/wiki/Prefix \"Prefix\"), but that prefix is not yet known when the symbolic link is created (e.g., in an [archive file](/wiki/Archive_file \"Archive file\") that can be unpacked anywhere).\n  * Microsoft Windows application shortcuts contain additional metadata that can be associated with the destination, whereas POSIX symbolic links are just strings that will be interpreted as absolute or relative pathnames.\n  * Unlike symbolic links, Windows shortcuts maintain their references to their targets even when the target is moved or renamed. Windows domain clients may subscribe to a [Windows service](/wiki/Windows_service \"Windows service\") called _[Distributed Link Tracking](https://technet.microsoft.com/en-us/library/cc778822%28v=ws.10%29.aspx)_ to track the changes in files and folders to which they are interested. The service maintains the integrity of shortcuts, even when files and folders are moved across the network.[14] Additionally, in Windows 9x and later, [Windows shell](/wiki/Windows_shell \"Windows shell\") tries to find the target of a broken shortcut before proposing to delete it.\n\n### Folder\nshortcuts[[edit](/w/index.php?title=Symbolic_link&action=edit&section=9 \"Edit\nsection: Folder shortcuts\")]\n\nAlmost like shortcuts, but transparent to the Windows shell.[15] They are\nimplemented as ordinary folders (which need to have the _read only_ and/or\n_system_ attribute[16]) containing a shortcut named _target.lnk_ which refers\nto the target and a (hidden) _desktop.ini_ with (at least) the following\ncontents:\n\n    \n    \n     [.ShellClassInfo]\n     CLSID2={0AFACED1-E828-11D1-9187-B532F1E9575D}\n    \n\nFolder shortcuts are created and used from the Windows shell in the _network\nneighborhood_ for example.\n\n### Shell\nobjects[[edit](/w/index.php?title=Symbolic_link&action=edit&section=10 \"Edit\nsection: Shell objects\")]\n\nThe _shell objects_[17] or _shell folders_ are defined in the Windows registry\nand can be used to implement a sort of symbolic link too. Like folder\nshortcuts, they are transparent to the Windows shell.\n\nA minimal implementation is (the CLSID\n_{00000000-0000-0000-0000-000000000000}_ is used as a placeholder):\n\n    \n    \n     [HKEY_CLASSES_ROOT\\CLSID\\{00000000-0000-0000-0000-000000000000}]\n     @=\"display name\"\n     [HKEY_CLASSES_ROOT\\CLSID\\{00000000-0000-0000-0000-000000000000}\\DefaultIcon]\n     @=\"...\" ; path to icon\n     [HKEY_CLASSES_ROOT\\CLSID\\{00000000-0000-0000-0000-000000000000}\\InProcServer32]\n     @=\"%SystemRoot%\\\\System32\\\\ShDocVw.Dll\"\n     \"ThreadingModel\"=\"Apartment\"\n     [HKEY_CLASSES_ROOT\\CLSID\\{00000000-0000-0000-0000-000000000000}\\Instance]\n     \"CLSID\"=\"{0AFACED1-E828-11D1-9187-B532F1E9575D}\"\n     [HKEY_CLASSES_ROOT\\CLSID\\{00000000-0000-0000-0000-000000000000}\\Instance\\InitPropertyBag]\n     \"Attributes\"=hex:15,00,00,00\n     \"Target\"=\"...\" ; absolute (WITHOUT \"TargetKnownFolder\" or \"TargetSpecialFolder\" only)\n                    ; or relative path to target\n     \"TargetKnownFolder\"=\"{guidguid-guid-guid-guid-guidguidguid}\" ; GUID of target folder, Windows Vista and later\n     \"TargetSpecialFolder\"=\"0x00xy\" ; CSIDL of target\n     [HKEY_CLASSES_ROOT\\CLSID\\{00000000-0000-0000-0000-000000000000}\\ShellFolder]\n     \"Attributes\"=hex:00,00,00,00\n    \n\nThe _My Documents_ folder on the _Desktop_ as well as the _Fonts_ and the\n_Administrative Tools_ folders in the _Control Panel_ are examples of _shell\nobjects_ redirected to file-system folders.\n\n### Cygwin symbolic\nlinks[[edit](/w/index.php?title=Symbolic_link&action=edit&section=11 \"Edit\nsection: Cygwin symbolic links\")]\n\n[Cygwin](/wiki/Cygwin \"Cygwin\") simulates POSIX-compliant symbolic links in\nthe Microsoft Windows file system. It uses identical programming and user\nutility interfaces as Unix (see above), but creates Windows shortcuts (.lnk\nfiles) with additional information used by Cygwin at the time of symlink\nresolution. Cygwin symlinks are compliant with both Windows and the POSIX\nstandard.[_[clarification needed](/wiki/Wikipedia:Please_clarify\n\"Wikipedia:Please clarify\")_]\n\nAdditionally, Cygwin can be set up to support native Windows symbolic links\nwhich can be used out of Cygwin without restrictions.[18] This requires:\n\n  1. Editing CYGWIN variable (or use another way to set Cygwin option);\n  2. Running the Cygwin with elevated rights because Windows restricts the creation of symbolic links to privileged users\n\nSome differences exist, however. Cygwin has no way to specify shortcut-related\ninformation – such as working directory or icon – as there is no place for\nsuch parameters in `ln -s` command. To create standard Microsoft .lnk files\nCygwin provides the `mkshortcut` and `readshortcut` utilities[19]\n\nThe Cygwin User's Guide[20] has more information on this topic.\n\n### Summary[[edit](/w/index.php?title=Symbolic_link&action=edit&section=12\n\"Edit section: Summary\")]\n\nProperty/Action | Symbolic link | [Junction](/wiki/NTFS_junction_point \"NTFS junction point\") | [Hard link](/wiki/Hard_link \"Hard link\")  \n---|---|---|---  \nWhen the link is deleted | Target remains unchanged | Target is deleted (except when using special tools) | Reference counter is decremented; when it reaches 0, the target is deleted  \nWhen target is moved | Symbolic link becomes invalid | Junction becomes invalid | Hard link remains valid  \nRelative path | Allowed | Not allowed (on saving, becomes an absolute path) | N/A  \nCrossing filesystem boundaries | Supported | Supported | Not supported (target must be on same filesystem)  \n[Windows](/wiki/Windows \"Windows\") | For files | Windows Vista and later[21]  \n(administrator rights required) | No | Yes  \nFor folders | Yes | No  \n[Unix](/wiki/Unix \"Unix\") | For files | Yes | N/A | Yes  \nFor directories | Yes | N/A | Partial[22]  \n  \n## Amiga[[edit](/w/index.php?title=Symbolic_link&action=edit&section=13 \"Edit\nsection: Amiga\")]\n\nThe command creating symbolic links is `makelink`, which is also used for hard\nlinks. Internally the dos.library returns an error code indicating that a\ntarget is a soft link if you try to perform actions on it that are only legal\nfor a file, and applications that wish to follow the symbolic link then needs\nto explicitly make a call to follow the link and retry the operation. The\n[AmigaDOS](/wiki/AmigaDOS \"AmigaDOS\") shell will follow links automatically.\n\n## OS/2[[edit](/w/index.php?title=Symbolic_link&action=edit&section=14 \"Edit\nsection: OS/2\")]\n\nIn the [OS/2](/wiki/OS/2 \"OS/2\") operating system, symbolic links somewhat\nresemble [shadows](/wiki/Shadow_\\(OS/2\\) \"Shadow \\(OS/2\\)\") in the graphical\n[Workplace Shell](/wiki/Workplace_Shell \"Workplace Shell\"). However, shadows,\ndue to the fully object-oriented System Object Model, are considerably more\npowerful and robust than a simple link. For example, shadows do not lose their\ncapabilities when renamed or when either the object or subject of the link is\nrelocated.[_[citation needed](/wiki/Wikipedia:Citation_needed\n\"Wikipedia:Citation needed\")_]\n\n## Variable symbolic\nlinks[[edit](/w/index.php?title=Symbolic_link&action=edit&section=15 \"Edit\nsection: Variable symbolic links\")]\n\nSymbolic links may be implemented in a context-dependent or variable fashion,\nsuch that the link points to varying targets depending on a configuration\nparameter, run-time parameter, or other instantaneous condition.\n\nA _variable_ or _variant symbolic link_ is a symbolic link that has a variable\nname embedded in it. This allows some flexibility in filesystem order that is\nnot possible with a standard symbolic link. Variables embedded in a symbolic\nlink may include user and environment specific information.\n\n[Operating systems](/wiki/Operating_system \"Operating system\") that make use\nof variant symbolic links include [FreeBSD](/wiki/FreeBSD \"FreeBSD\"),\n[NetBSD](/wiki/NetBSD \"NetBSD\"), [DragonFly BSD](/wiki/DragonFly_BSD\n\"DragonFly BSD\"), [Domain/OS](/wiki/Domain/OS \"Domain/OS\").[23]\n\n[Tru64](/wiki/Tru64 \"Tru64\") uses a _context dependent symbolic link_ where\nthe context is the cluster member number.\n\n[Pyramid Technology](/wiki/Pyramid_Technology \"Pyramid Technology\")'s OSx\n[Operating System](/wiki/Operating_System \"Operating System\") implemented\n_conditional symbolic links_ which pointed to different locations depending on\nwhich [universe](/wiki/Universe_\\(Unix\\) \"Universe \\(Unix\\)\") a program was\nrunning in. The universes supported were [AT&T](/wiki/AT%26T_Corporation \"AT&T\nCorporation\")'s [SysV.3](/wiki/UNIX_System_V \"UNIX System V\") and the\n[Berkeley Software Distribution](/wiki/Berkeley_Software_Distribution\n\"Berkeley Software Distribution\") (BSD 4.3). For example: if the\n[ps](/wiki/Ps_\\(Unix\\) \"Ps \\(Unix\\)\") command was run in the _att_ universe,\nthen the symbolic link for the directory _/bin_ would point to _/.attbin_ and\nthe program _/.attbin/ps_ would be executed. Whereas if the ps command was run\nin the _ucb_ universe, then _/bin_ would point to _/.ucbbin_ and _/.ucbbin/ps_\nwould be executed. Similar Conditional Symbolic Links were also created for\nother directories such as _/lib_ , _/usr/lib_ , _/usr/include_.\n\n## See also[[edit](/w/index.php?title=Symbolic_link&action=edit&section=16\n\"Edit section: See also\")]\n\n  * [Symlink race](/wiki/Symlink_race \"Symlink race\") — a security-vulnerability caused by symbolic links\n  * [freedup](/wiki/Freedup \"Freedup\") — generates links between identical data automatically\n\n## References[[edit](/w/index.php?title=Symbolic_link&action=edit&section=17\n\"Edit section: References\")]\n\n  1. **Jump up ^** [Pathname resolution](http://www.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap04.html#tag_04_11), [POSIX](/wiki/POSIX \"POSIX\").\n  2. **Jump up ^** [Pike, Rob](/wiki/Rob_Pike \"Rob Pike\") (2000). [_Lexical file names in Plan 9 or getting dot-dot right_](http://static.usenix.org/events/usenix2000/general/full_papers/pikelex/pikelex.pdf) (PDF). Proc. [USENIX](/wiki/USENIX \"USENIX\") Annual Tech. Conf.\n  3. **Jump up ^** [symlink, symlinkat](http://pubs.opengroup.org/onlinepubs/9699919799/functions/symlink.html). IEEE Std 1003.1, 2013 Edition.\n  4. **Jump up ^** [link, linkat](http://pubs.opengroup.org/onlinepubs/9699919799/functions/link.html). IEEE Std 1003.1, 2013 Edition.\n  5. **Jump up ^** [\"lchmod(2)\"](https://www.freebsd.org/cgi/man.cgi?query=lchmod&apropos=0&sektion=2&manpath=FreeBSD+11.0-RELEASE&arch=default&format=html). Manual pages for FreeBSD 11.\n  6. **Jump up ^** [\"lchflags(2)\"](https://www.freebsd.org/cgi/man.cgi?query=lchflags&apropos=0&sektion=2&manpath=FreeBSD+11.0-RELEASE&arch=default&format=html). Manual pages for FreeBSD 11.\n  7. **Jump up ^** [\"Link Shell Extension website\"](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#symboliclinksforwindowsxp). _Link Shell Extension website_.\n  8. **Jump up ^** [Symbolic Links](https://msdn.microsoft.com/en-us/library/aa365680.aspx), MSDN Library, Win32 and COM Development, 2008-01-18\n  9. **Jump up ^** [CreateSymbolicLink Function](https://msdn.microsoft.com/en-us/library/aa363866.aspx), MSDN Library, Win32 and COM Development\n  10. **Jump up ^** [Symbolic Link Programming Considerations](https://msdn.microsoft.com/en-us/library/aa365460\\(VS.85\\).aspx), MSDN\n  11. **Jump up ^** Mark Russinovich: [Inside the Windows Vista Kernel: Part 1](http://www.microsoft.com/technet/technetmag/issues/2007/02/VistaKernel/default.aspx) – File-based symbolic links, Microsoft Technet, February 2007.\n  12. **Jump up ^** [Sysinternals Junction documentation](http://www.microsoft.com/technet/sysinternals/FileAndDisk/Junction.mspx)\n  13. **Jump up ^** <http://support.microsoft.com/kb/973455>\n  14. **Jump up ^** [\"Distributed Link Tracking and Object Identifiers\"](http://msdn.microsoft.com/en-us/library/aa363997%28v=VS.85%29.aspx). _[Microsoft Developers Network](/wiki/Microsoft_Developers_Network \"Microsoft Developers Network\")_. Microsoft Corporation. 20 March 2011. Retrieved 30 June 2011.\n  15. **Jump up ^** [Specifying a Namespace Extension's Location](http://msdn.microsoft.com/en-us/library/bb776817.aspx)\n  16. **Jump up ^** [[1]](http://support.microsoft.com/kb/256614/en-us) Unable to remove Read-Only attribute from folder\n  17. **Jump up ^** [Creating Shell Extensions with Shell Instance Objects](http://msdn.microsoft.com/library/ms997573.aspx). msdn.microsoft.com\n  18. **Jump up ^** [[2]](http://www.cygwin.com/cygwin-ug-net/using.html) Cygwin User's Guide, [Cygwin](/wiki/Cygwin \"Cygwin\").\n  19. **Jump up ^** [[3]](http://www.cygwin.com/cygwin-ug-net/using-effectively.html#id325160) Microsoft .lnk files in Cygwin\n  20. **Jump up ^** [[4]](http://www.cygwin.com/cygwin-ug-net/using.html) Cygwin User's Guide, [Cygwin](/wiki/Cygwin \"Cygwin\").\n  21. **Jump up ^** The Windows implementation is not POSIX compliant\n  22. **Jump up ^** POSIX permits hard links on directories but does not require them\n  23. **Jump up ^** [[5]](https://wiki.freebsd.org/WhatsNew/FreeBSD10#Kernel.2C_hardware_support_.26_other_low_level_improvements) What's new for FreeBSD 10\n\n## External\nlinks[[edit](/w/index.php?title=Symbolic_link&action=edit&section=18 \"Edit\nsection: External links\")]\n\n  * [Q & A: The difference between hard and soft links](http://linuxgazette.net/105/pitcher.html) as applied to Linux\n  * [Junction](https://technet.microsoft.com/en-us/sysinternals/bb896768): maintain NTFS junction points (for Windows 2000 and above)\n  * [FSUtil Hardlink](https://technet.microsoft.com/en-us/library/cc788097%28WS.10%29.aspx): Microsoft Technet page on using the command-line tool FSUtil to create hardlinks (for Windows 2000 and above)\n  * [Link Shell Extension](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html): Windows Explorer context menu, overlay icons and property sheet handler to maintain hardlinks, NTFS junction points, symbolic links etc.\n  * [Symbolic Drivers for Windows XP](http://emk.name/symlink.html) (in Japanese): file system drivers to enables Symbolic Links for Windows XP (also mirrored on Link Shell Extension site). Sources available.\n\n![](//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png) | Wikibooks has a book on the topic of: _**[Linux commands](https://en.wikibooks.org/wiki/Linux_commands \"wikibooks:Linux commands\")**_  \n---|---  \n  \nThis article is based on material taken from the [Free On-line Dictionary of\nComputing](/wiki/Free_On-line_Dictionary_of_Computing \"Free On-line Dictionary\nof Computing\") prior to 1 November 2008 and incorporated under the\n\"relicensing\" terms of the [GFDL](/wiki/GNU_Free_Documentation_License \"GNU\nFree Documentation License\"), version 1.3 or later.\n\n  \n\n[hide]\n\n  * [v](/wiki/Template:Computer_files \"Template:Computer files\")\n  * [t](/wiki/Template_talk:Computer_files \"Template talk:Computer files\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Computer_files&action=edit)\n\n[Computer files](/wiki/Computer_file \"Computer file\")  \n---  \nTypes | \n\n  * [Binary file](/wiki/Binary_file \"Binary file\") / [Text file](/wiki/Text_file \"Text file\")\n  * [File format](/wiki/File_format \"File format\")\n    * [List of file formats](/wiki/List_of_file_formats \"List of file formats\")\n    * [File signatures](/wiki/List_of_file_signatures \"List of file signatures\")\n    * [Magic number](/wiki/Magic_number_\\(programming\\) \"Magic number \\(programming\\)\")\n  * [Metafile](/wiki/Metafile \"Metafile\")\n  * [Sidecar file](/wiki/Sidecar_file \"Sidecar file\")\n  * [Sparse file](/wiki/Sparse_file \"Sparse file\")\n  * [Swap file](/wiki/Swap_file \"Swap file\")\n  * [System file](/wiki/System_file \"System file\")\n  * [Temporary file](/wiki/Temporary_file \"Temporary file\")\n  * [Zero-byte file](/wiki/Zero-byte_file \"Zero-byte file\")\n\n  \nProperties | \n\n  * [Filename](/wiki/Filename \"Filename\")\n    * [8.3 filename](/wiki/8.3_filename \"8.3 filename\")\n    * [Long filename](/wiki/Long_filename \"Long filename\")\n    * [Filename mangling](/wiki/Filename_mangling \"Filename mangling\")\n  * [Filename extension](/wiki/Filename_extension \"Filename extension\")\n    * [List of filename extensions](/wiki/List_of_filename_extensions \"List of filename extensions\")\n  * [File attribute](/wiki/File_attribute \"File attribute\")\n    * [Extended file attributes](/wiki/Extended_file_attributes \"Extended file attributes\")\n  * [File size](/wiki/File_size \"File size\")\n  * [Hidden file / Hidden directory](/wiki/Hidden_file_and_hidden_directory \"Hidden file and hidden directory\")\n\n  \nOrganisation | \n\n  * [Directory/Folder](/wiki/Directory_\\(computing\\) \"Directory \\(computing\\)\")\n    * [NTFS junction point](/wiki/NTFS_junction_point \"NTFS junction point\")\n    * [Temporary folder](/wiki/Temporary_folder \"Temporary folder\")\n  * [Directory structure](/wiki/Directory_structure \"Directory structure\")\n  * [File sequence](/wiki/File_sequence \"File sequence\")\n  * [File system](/wiki/File_system \"File system\")\n    * [Filesystem Hierarchy Standard](/wiki/Filesystem_Hierarchy_Standard \"Filesystem Hierarchy Standard\")\n  * [Path](/wiki/Path_\\(computing\\) \"Path \\(computing\\)\")\n\n  \n[Operations](/wiki/File_operation \"File operation\") | \n\n  * [Open](/wiki/Open_\\(system_call\\) \"Open \\(system call\\)\")\n  * [Close](/wiki/Close_\\(system_call\\) \"Close \\(system call\\)\")\n  * [Read](/wiki/Read_\\(system_call\\) \"Read \\(system call\\)\")\n  * [Write](/wiki/Write_\\(system_call\\) \"Write \\(system call\\)\")\n\n  \nLinking | \n\n  * [Alias](/wiki/Alias_\\(Mac_OS\\) \"Alias \\(Mac OS\\)\")\n  * [File descriptor](/wiki/File_descriptor \"File descriptor\")\n  * [Hard link](/wiki/Hard_link \"Hard link\")\n  * [Shadow](/wiki/Shadow_\\(OS/2\\) \"Shadow \\(OS/2\\)\")\n  * [Shortcut](/wiki/Shortcut_\\(computing\\) \"Shortcut \\(computing\\)\")\n  * Symbolic link\n\n  \nManagement | \n\n  * [File comparison](/wiki/File_comparison \"File comparison\")\n  * [File compression](/wiki/File_compression \"File compression\")\n  * [File manager](/wiki/File_manager \"File manager\")\n    * [Comparison of file managers](/wiki/Comparison_of_file_managers \"Comparison of file managers\")\n  * [File system permissions](/wiki/File_system_permissions \"File system permissions\")\n  * [File transfer](/wiki/File_transfer \"File transfer\")\n    * [File sharing](/wiki/File_sharing \"File sharing\")\n  * [File verification](/wiki/File_verification \"File verification\")\n\n  \n  \n![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)\n\nRetrieved from\n\"[https://en.wikipedia.org/w/index.php?title=Symbolic_link&oldid=798992027](https://en.wikipedia.org/w/index.php?title=Symbolic_link&oldid=798992027)\"\n\n[Categories](/wiki/Help:Category \"Help:Category\"):\n\n  * [Computer file systems](/wiki/Category:Computer_file_systems \"Category:Computer file systems\")\n\nHidden categories:\n\n  * [Wikipedia articles needing clarification from April 2010](/wiki/Category:Wikipedia_articles_needing_clarification_from_April_2010 \"Category:Wikipedia articles needing clarification from April 2010\")\n  * [All articles with unsourced statements](/wiki/Category:All_articles_with_unsourced_statements \"Category:All articles with unsourced statements\")\n  * [Articles with unsourced statements from April 2012](/wiki/Category:Articles_with_unsourced_statements_from_April_2012 \"Category:Articles with unsourced statements from April 2012\")\n  * [Articles with Japanese-language external links](/wiki/Category:Articles_with_Japanese-language_external_links \"Category:Articles with Japanese-language external links\")\n\n## Navigation menu\n\n### Personal tools\n\n  * Not logged in\n  * [Talk](/wiki/Special:MyTalk \"Discussion about edits from this IP address \\[ctrl-alt-n\\]\")\n  * [Contributions](/wiki/Special:MyContributions \"A list of edits made from this IP address \\[ctrl-alt-y\\]\")\n  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=Symbolic+link \"You are encouraged to create an account and log in; however, it is not mandatory\")\n  * [Log in](/w/index.php?title=Special:UserLogin&returnto=Symbolic+link \"You're encouraged to log in; however, it's not mandatory. \\[ctrl-alt-o\\]\")\n\n### Namespaces\n\n  * [Article](/wiki/Symbolic_link \"View the content page \\[ctrl-alt-c\\]\")\n  * [Talk](/wiki/Talk:Symbolic_link \"Discussion about the content page \\[ctrl-alt-t\\]\")\n\n###  Variants\n\n### Views\n\n  * [Read](/wiki/Symbolic_link)\n  * [Edit](/w/index.php?title=Symbolic_link&action=edit \"Edit this page \\[ctrl-alt-e\\]\")\n  * [View history](/w/index.php?title=Symbolic_link&action=history \"Past revisions of this page \\[ctrl-alt-h\\]\")\n\n### More\n\n###  Search\n\n[](/wiki/Main_Page \"Visit the main page\")\n\n### Navigation\n\n  * [Main page](/wiki/Main_Page \"Visit the main page \\[ctrl-alt-z\\]\")\n  * [Contents](/wiki/Portal:Contents \"Guides to browsing Wikipedia\")\n  * [Featured content](/wiki/Portal:Featured_content \"Featured content – the best of Wikipedia\")\n  * [Current events](/wiki/Portal:Current_events \"Find background information on current events\")\n  * [Random article](/wiki/Special:Random \"Load a random article \\[ctrl-alt-x\\]\")\n  * [Donate to Wikipedia](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en \"Support us\")\n  * [Wikipedia store](//shop.wikimedia.org \"Visit the Wikipedia store\")\n\n### Interaction\n\n  * [Help](/wiki/Help:Contents \"Guidance on how to use and edit Wikipedia\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Find out about Wikipedia\")\n  * [Community portal](/wiki/Wikipedia:Community_portal \"About the project, what you can do, where to find things\")\n  * [Recent changes](/wiki/Special:RecentChanges \"A list of recent changes in the wiki \\[ctrl-alt-r\\]\")\n  * [Contact page](//en.wikipedia.org/wiki/Wikipedia:Contact_us \"How to contact Wikipedia\")\n\n### Tools\n\n  * [What links here](/wiki/Special:WhatLinksHere/Symbolic_link \"List of all English Wikipedia pages containing links to this page \\[ctrl-alt-j\\]\")\n  * [Related changes](/wiki/Special:RecentChangesLinked/Symbolic_link \"Recent changes in pages linked from this page \\[ctrl-alt-k\\]\")\n  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard \"Upload files \\[ctrl-alt-u\\]\")\n  * [Special pages](/wiki/Special:SpecialPages \"A list of all special pages \\[ctrl-alt-q\\]\")\n  * [Permanent link](/w/index.php?title=Symbolic_link&oldid=798992027 \"Permanent link to this revision of the page\")\n  * [Page information](/w/index.php?title=Symbolic_link&action=info \"More information about this page\")\n  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q646197 \"Link to connected data repository item \\[ctrl-alt-g\\]\")\n  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=Symbolic_link&id=798992027 \"Information on how to cite this page\")\n\n### Print/export\n\n  * [Create a book](/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Symbolic+link)\n  * [Download as PDF](/w/index.php?title=Special:ElectronPdf&page=Symbolic+link&action=show-selection-screen&coll-download-url=%2Fw%2Findex.php%3Ftitle%3DSpecial%3ABook%26bookcmd%3Drender_article%26arttitle%3DSymbolic%2Blink%26returnto%3DSymbolic%2Blink%26oldid%3D798992027%26writer%3Drdf2latex)\n  * [Printable version](/w/index.php?title=Symbolic_link&printable=yes \"Printable version of this page \\[ctrl-alt-p\\]\")\n\n### Languages\n\n  * [العربية](https://ar.wikipedia.org/wiki/%D9%88%D8%B5%D9%84%D8%A9_%D9%84%D9%8A%D9%86%D8%A9 \"وصلة لينة – Arabic\")\n  * [Čeština](https://cs.wikipedia.org/wiki/Symbolick%C3%BD_odkaz \"Symbolický odkaz – Czech\")\n  * [Deutsch](https://de.wikipedia.org/wiki/Symbolische_Verkn%C3%BCpfung \"Symbolische Verknüpfung – German\")\n  * [Español](https://es.wikipedia.org/wiki/Enlace_simb%C3%B3lico \"Enlace simbólico – Spanish\")\n  * [فارسی](https://fa.wikipedia.org/wiki/%D9%BE%DB%8C%D9%88%D9%86%D8%AF_%D9%86%D9%85%D8%A7%D8%AF%DB%8C%D9%86 \"پیوند نمادین – Persian\")\n  * [Français](https://fr.wikipedia.org/wiki/Lien_symbolique \"Lien symbolique – French\")\n  * [한국어](https://ko.wikipedia.org/wiki/%EC%8B%AC%EB%B3%BC%EB%A6%AD_%EB%A7%81%ED%81%AC \"심볼릭 링크 – Korean\")\n  * [Bahasa Indonesia](https://id.wikipedia.org/wiki/Tautan_simbolis \"Tautan simbolis – Indonesian\")\n  * [Italiano](https://it.wikipedia.org/wiki/Collegamento_simbolico \"Collegamento simbolico – Italian\")\n  * [עברית](https://he.wikipedia.org/wiki/%D7%A7%D7%99%D7%A9%D7%95%D7%A8_%D7%A1%D7%99%D7%9E%D7%91%D7%95%D7%9C%D7%99 \"קישור סימבולי – Hebrew\")\n  * [Magyar](https://hu.wikipedia.org/wiki/Szimbolikus_link \"Szimbolikus link – Hungarian\")\n  * [日本語](https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF \"ソフトリンク – Japanese\")\n  * [Norsk](https://no.wikipedia.org/wiki/Symbolsk_lenke \"Symbolsk lenke – Norwegian\")\n  * [Polski](https://pl.wikipedia.org/wiki/Dowi%C4%85zanie_symboliczne \"Dowiązanie symboliczne – Polish\")\n  * [Português](https://pt.wikipedia.org/wiki/Liga%C3%A7%C3%A3o_simb%C3%B3lica \"Ligação simbólica – Portuguese\")\n  * [Русский](https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0 \"Символическая ссылка – Russian\")\n  * [Svenska](https://sv.wikipedia.org/wiki/Symbolisk_l%C3%A4nk \"Symbolisk länk – Swedish\")\n  * [中文](https://zh.wikipedia.org/wiki/%E7%AC%A6%E5%8F%B7%E9%93%BE%E6%8E%A5 \"符号链接 – Chinese\")\n\n[Edit\nlinks](https://www.wikidata.org/wiki/Special:EntityPage/Q646197#sitelinks-\nwikipedia \"Edit interlanguage links\")\n\n  * This page was last edited on 5 September 2017, at 00:54.\n  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)[](//creativecommons.org/licenses/by-sa/3.0/); additional terms may apply. By using this site, you agree to the [Terms of Use](//wikimediafoundation.org/wiki/Terms_of_Use) and [Privacy Policy](//wikimediafoundation.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.\n\n  * [Privacy policy](https://wikimediafoundation.org/wiki/Privacy_policy \"wmf:Privacy policy\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Wikipedia:About\")\n  * [Disclaimers](/wiki/Wikipedia:General_disclaimer \"Wikipedia:General disclaimer\")\n  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)\n  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)\n  * [Cookie statement](https://wikimediafoundation.org/wiki/Cookie_statement)\n  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=Symbolic_link&mobileaction=toggle_view_mobile)\n  * Enable previews\n\n  * [![Wikimedia Foundation](/static/images/wikimedia-button.png)](https://wikimediafoundation.org/)\n  * [![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)](//www.mediawiki.org/)\n\n  *[v]: View this template\n  *[t]: Discuss this template\n  *[e]: Edit this template\n\n"
+    ],
+    "qa": {
+        "question": "what is the use of symbolic link in linux",
+        "answer": "['to reorder the file system hierarchy']",
+        "BM25_documents": [
+            {
+                "id": "nq_297_11",
+                "score": 14.439599990844727
+            },
+            {
+                "id": "nq_297_12",
+                "score": 13.805399894714355
+            },
+            {
+                "id": "nq_297_28",
+                "score": 13.536399841308594
+            },
+            {
+                "id": "nq_297_1",
+                "score": 12.639599800109863
+            },
+            {
+                "id": "nq_297_0",
+                "score": 12.463000297546387
+            },
+            {
+                "id": "nq_297_3",
+                "score": 11.961799621582031
+            },
+            {
+                "id": "nq_178151_11",
+                "score": 11.822999954223633
+            },
+            {
+                "id": "nq_229908_105",
+                "score": 11.485199928283691
+            },
+            {
+                "id": "nq_216_424",
+                "score": 11.018699645996094
+            },
+            {
+                "id": "triviaqa_70499_0",
+                "score": 10.92389965057373
+            },
+            {
+                "id": "nq_304055_20",
+                "score": 10.685099601745605
+            },
+            {
+                "id": "nq_297_27",
+                "score": 10.540800094604492
+            },
+            {
+                "id": "ott_17541_0",
+                "score": 10.483599662780762
+            },
+            {
+                "id": "ott_6970_0",
+                "score": 10.483598709106445
+            },
+            {
+                "id": "nq_257706_78",
+                "score": 10.300200462341309
+            },
+            {
+                "id": "nq_283608_78",
+                "score": 10.300199508666992
+            },
+            {
+                "id": "nq_283608_69",
+                "score": 10.294899940490723
+            },
+            {
+                "id": "triviaqa_30834_258",
+                "score": 10.177499771118164
+            },
+            {
+                "id": "nq_23894_59",
+                "score": 10.168499946594238
+            },
+            {
+                "id": "nq_257706_73",
+                "score": 10.16100025177002
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "nq_297_11",
+                "score": 14.439599990844727
+            },
+            {
+                "id": "nq_297_12",
+                "score": 13.805399894714355
+            },
+            {
+                "id": "nq_297_28",
+                "score": 13.536399841308594
+            },
+            {
+                "id": "nq_297_1",
+                "score": 12.639599800109863
+            },
+            {
+                "id": "nq_297_0",
+                "score": 12.463000297546387
+            },
+            {
+                "id": "nq_297_3",
+                "score": 11.961799621582031
+            },
+            {
+                "id": "nq_297_27",
+                "score": 10.540800094604492
+            },
+            {
+                "id": "nq_297_4",
+                "score": 8.34000015258789
+            },
+            {
+                "id": "nq_297_9",
+                "score": 8.322099685668945
+            },
+            {
+                "id": "nq_297_21",
+                "score": 8.242600440979004
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_14_0",
+                "score": 4.7733001708984375
+            },
+            {
+                "id": "tat_1771_0",
+                "score": 4.2104949951171875
+            },
+            {
+                "id": "tat_99_1",
+                "score": 4.17388916015625
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_17541_0",
+                "score": 10.483599662780762
+            },
+            {
+                "id": "ott_6970_0",
+                "score": 10.483598709106445
+            },
+            {
+                "id": "ott_17541_1",
+                "score": 9.818599700927734
+            },
+            {
+                "id": "ott_6970_1",
+                "score": 9.818598747253418
+            },
+            {
+                "id": "ott_10934_2",
+                "score": 8.850000381469727
+            },
+            {
+                "id": "ott_16903_2",
+                "score": 8.84999942779541
+            },
+            {
+                "id": "ott_24031_2",
+                "score": 8.849998474121094
+            },
+            {
+                "id": "ott_31589_2",
+                "score": 8.849997520446777
+            },
+            {
+                "id": "ott_37717_2",
+                "score": 8.849996566772461
+            },
+            {
+                "id": "ott_3081_0",
+                "score": 8.59179973602295
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_297_11",
+                "score": 14.439599990844727
+            },
+            {
+                "id": "nq_297_12",
+                "score": 13.805399894714355
+            },
+            {
+                "id": "nq_297_28",
+                "score": 13.536399841308594
+            },
+            {
+                "id": "nq_297_1",
+                "score": 12.639599800109863
+            },
+            {
+                "id": "nq_297_0",
+                "score": 12.463000297546387
+            },
+            {
+                "id": "nq_297_3",
+                "score": 11.961799621582031
+            },
+            {
+                "id": "nq_178151_11",
+                "score": 11.822999954223633
+            },
+            {
+                "id": "nq_229908_105",
+                "score": 11.485199928283691
+            },
+            {
+                "id": "nq_216_424",
+                "score": 11.018699645996094
+            },
+            {
+                "id": "nq_304055_20",
+                "score": 10.685099601745605
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_70499_0",
+                "score": 10.92389965057373
+            },
+            {
+                "id": "triviaqa_30834_258",
+                "score": 10.177499771118164
+            },
+            {
+                "id": "triviaqa_30834_259",
+                "score": 9.4306001663208
+            },
+            {
+                "id": "triviaqa_70499_4",
+                "score": 8.773799896240234
+            },
+            {
+                "id": "triviaqa_44333_36",
+                "score": 8.650699615478516
+            },
+            {
+                "id": "triviaqa_70499_3",
+                "score": 8.646200180053711
+            },
+            {
+                "id": "triviaqa_59663_70",
+                "score": 8.600299835205078
+            },
+            {
+                "id": "triviaqa_70499_5",
+                "score": 8.541099548339844
+            },
+            {
+                "id": "triviaqa_25505_25",
+                "score": 8.334699630737305
+            },
+            {
+                "id": "triviaqa_67875_2",
+                "score": 8.311199188232422
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.01_h4b_73",
+                "score": 6.165599822998047
+            },
+            {
+                "id": "m.0d6lp_875",
+                "score": 6.0655999183654785
+            },
+            {
+                "id": "m.01_h4b_72",
+                "score": 5.905298233032227
+            },
+            {
+                "id": "m.07c_t3q_1",
+                "score": 5.749199867248535
+            },
+            {
+                "id": "m.0hscv_44",
+                "score": 5.561200141906738
+            },
+            {
+                "id": "m.0hscv_45",
+                "score": 5.541399955749512
+            },
+            {
+                "id": "m.04j7cyf_13",
+                "score": 5.4430999755859375
+            },
+            {
+                "id": "m.01h5bw_12",
+                "score": 5.40880012512207
+            },
+            {
+                "id": "m.01h5bw_74",
+                "score": 5.39179801940918
+            },
+            {
+                "id": "m.0306c6_29",
+                "score": 5.378200054168701
+            },
+            {
+                "id": "m.04lt7__48",
+                "score": 5.3572998046875
+            },
+            {
+                "id": "m.04j7cyf_7",
+                "score": 5.35230016708374
+            },
+            {
+                "id": "m.0306c6_30",
+                "score": 5.318999767303467
+            },
+            {
+                "id": "m.04lt7__147",
+                "score": 5.246500015258789
+            },
+            {
+                "id": "m.04lt7__197",
+                "score": 5.246499061584473
+            },
+            {
+                "id": "m.04phzg_108",
+                "score": 5.21150016784668
+            },
+            {
+                "id": "m.0hscv_42",
+                "score": 5.205596923828125
+            },
+            {
+                "id": "m.01h5bw_54",
+                "score": 5.185100078582764
+            },
+            {
+                "id": "m.04phzg_52",
+                "score": 5.170469760894775
+            },
+            {
+                "id": "m.01h5bw_116",
+                "score": 5.148900032043457
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_297_2",
+                "score": 0.7701858878135681
+            },
+            {
+                "id": "nq_297_5",
+                "score": 0.7526357173919678
+            },
+            {
+                "id": "nq_297_28",
+                "score": 0.7524582743644714
+            },
+            {
+                "id": "nq_297_4",
+                "score": 0.7406623959541321
+            },
+            {
+                "id": "nq_297_7",
+                "score": 0.7402651309967041
+            },
+            {
+                "id": "nq_297_0",
+                "score": 0.7392032742500305
+            },
+            {
+                "id": "nq_297_23",
+                "score": 0.7316729426383972
+            },
+            {
+                "id": "nq_297_21",
+                "score": 0.7301499843597412
+            },
+            {
+                "id": "nq_297_3",
+                "score": 0.7238182425498962
+            },
+            {
+                "id": "nq_297_10",
+                "score": 0.7210686206817627
+            },
+            {
+                "id": "nq_297_6",
+                "score": 0.720869243144989
+            },
+            {
+                "id": "nq_297_22",
+                "score": 0.7179029583930969
+            },
+            {
+                "id": "nq_297_11",
+                "score": 0.7150121927261353
+            },
+            {
+                "id": "nq_297_14",
+                "score": 0.7098402976989746
+            },
+            {
+                "id": "nq_297_15",
+                "score": 0.7035304307937622
+            },
+            {
+                "id": "nq_297_20",
+                "score": 0.6998096704483032
+            },
+            {
+                "id": "nq_297_9",
+                "score": 0.6988139152526855
+            },
+            {
+                "id": "nq_297_19",
+                "score": 0.6906778812408447
+            },
+            {
+                "id": "nq_199627_54",
+                "score": 0.6875596046447754
+            },
+            {
+                "id": "nq_297_16",
+                "score": 0.6861114501953125
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "nq_297_2",
+                "score": 0.7701858878135681
+            },
+            {
+                "id": "nq_297_5",
+                "score": 0.7526357173919678
+            },
+            {
+                "id": "nq_297_28",
+                "score": 0.7524582743644714
+            },
+            {
+                "id": "nq_297_4",
+                "score": 0.7406623959541321
+            },
+            {
+                "id": "nq_297_7",
+                "score": 0.7402651309967041
+            },
+            {
+                "id": "nq_297_0",
+                "score": 0.7392032742500305
+            },
+            {
+                "id": "nq_297_23",
+                "score": 0.7316729426383972
+            },
+            {
+                "id": "nq_297_21",
+                "score": 0.7301499843597412
+            },
+            {
+                "id": "nq_297_3",
+                "score": 0.7238182425498962
+            },
+            {
+                "id": "nq_297_10",
+                "score": 0.7210686206817627
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_297_2",
+                "score": 0.7701858878135681
+            },
+            {
+                "id": "nq_297_5",
+                "score": 0.7526357173919678
+            },
+            {
+                "id": "nq_297_28",
+                "score": 0.7524582743644714
+            },
+            {
+                "id": "nq_297_4",
+                "score": 0.7406623959541321
+            },
+            {
+                "id": "nq_297_7",
+                "score": 0.7402651309967041
+            },
+            {
+                "id": "nq_297_0",
+                "score": 0.7392032742500305
+            },
+            {
+                "id": "nq_297_23",
+                "score": 0.7316729426383972
+            },
+            {
+                "id": "nq_297_21",
+                "score": 0.7301499843597412
+            },
+            {
+                "id": "nq_297_3",
+                "score": 0.7238182425498962
+            },
+            {
+                "id": "nq_297_10",
+                "score": 0.7210686206817627
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_42708_443",
+                "score": 0.6721029281616211
+            },
+            {
+                "id": "triviaqa_70499_2",
+                "score": 0.6338736414909363
+            },
+            {
+                "id": "triviaqa_57834_76",
+                "score": 0.6301349401473999
+            },
+            {
+                "id": "triviaqa_42708_371",
+                "score": 0.624022901058197
+            },
+            {
+                "id": "triviaqa_41894_39",
+                "score": 0.6229498386383057
+            },
+            {
+                "id": "triviaqa_62635_726",
+                "score": 0.622226893901825
+            },
+            {
+                "id": "triviaqa_50476_111",
+                "score": 0.6205219030380249
+            },
+            {
+                "id": "triviaqa_39383_321",
+                "score": 0.6179468631744385
+            },
+            {
+                "id": "triviaqa_70499_6",
+                "score": 0.614571213722229
+            },
+            {
+                "id": "triviaqa_44708_239",
+                "score": 0.614493191242218
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0zj9n9k_10",
+                "score": 0.607757568359375
+            },
+            {
+                "id": "m.0_k049s_12",
+                "score": 0.6069983243942261
+            },
+            {
+                "id": "m.0zxgscq_18",
+                "score": 0.6034356951713562
+            },
+            {
+                "id": "m.0zm5b92_17",
+                "score": 0.6028674840927124
+            },
+            {
+                "id": "m.0_6jtdf_16",
+                "score": 0.6014395356178284
+            },
+            {
+                "id": "m.0_kcvht_20",
+                "score": 0.6007079482078552
+            },
+            {
+                "id": "m.0_6k5q7_21",
+                "score": 0.6002871990203857
+            },
+            {
+                "id": "m.0zlb34n_16",
+                "score": 0.599173903465271
+            },
+            {
+                "id": "m.0zk7jzy_18",
+                "score": 0.5975902080535889
+            },
+            {
+                "id": "m.0_66_vz_18",
+                "score": 0.5971863269805908
+            },
+            {
+                "id": "m.0zhl87m_17",
+                "score": 0.5969354510307312
+            },
+            {
+                "id": "m.0_k0p9y_19",
+                "score": 0.5964656472206116
+            },
+            {
+                "id": "m.0zjqx5l_16",
+                "score": 0.5961034893989563
+            },
+            {
+                "id": "m.04306rv_22377",
+                "score": 0.5956420302391052
+            },
+            {
+                "id": "m.0_kkqxl_22",
+                "score": 0.5955925583839417
+            },
+            {
+                "id": "m.0zxgscq_14",
+                "score": 0.5954692363739014
+            },
+            {
+                "id": "m.0zjgj5z_23",
+                "score": 0.5953435301780701
+            },
+            {
+                "id": "m.0zk7fs5_38",
+                "score": 0.5953022241592407
+            },
+            {
+                "id": "m.0zl_nnd_20",
+                "score": 0.5948513746261597
+            },
+            {
+                "id": "m.0_hx1_r_15",
+                "score": 0.5941390991210938
+            }
+        ],
+        "fail_detail": {
+            "m.0_k049s_12": [
+                true,
+                true,
+                true
+            ],
+            "nq_297_1": [
+                true,
+                true,
+                true
+            ],
+            "nq_297_5": [
+                false,
+                false,
+                true
+            ],
+            "nq_297_11": [
+                false,
+                false,
+                true
+            ],
+            "nq_297_2": [
+                false,
+                false,
+                true
+            ],
+            "triviaqa_70499_0": [
+                true,
+                true,
+                true
+            ],
+            "ott_17541_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_297_0": [
+                false,
+                false,
+                true
+            ],
+            "nq_297_4": [
+                true,
+                true,
+                true
+            ],
+            "nq_297_7": [
+                false,
+                false,
+                true
+            ],
+            "nq_297_12": [
+                false,
+                false,
+                true
+            ],
+            "m.01_h4b_73": [
+                true,
+                true,
+                true
+            ],
+            "nq_297_28": [
+                false,
+                false,
+                true
+            ],
+            "m.0d6lp_875": [
+                true,
+                true,
+                true
+            ],
+            "tat_14_0": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_42708_443": [
+                true,
+                true,
+                true
+            ],
+            "m.0zj9n9k_10": [
+                true,
+                true,
+                true
+            ]
+        },
+        "llm_fail": {},
+        "relevance_judgement": 0,
+        "llm_mark_result": {
+            "m.0_k049s_12": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document appears to contain technical data, possibly related to file identifiers and metadata, with references to 'dataworld', 'musicbrainz', and various keys. It does not seem to directly discuss symbolic links or their uses in Linux.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords ('use', 'symbolic link', 'Linux').",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as 'reorder', 'file system hierarchy'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document's content is unrelated to the topic of symbolic links in Linux.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the use of symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about symbolic links, their uses, or any context related to the Linux operating system. The content of the document is entirely unrelated to the topic of the query."
+            },
+            "nq_297_1": {
+                "Query Analysis": "The query asks for the purpose or functionality of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document provides an overview of symbolic links, explaining that they contain a text string that is interpreted by the operating system as a path to another file or directory. It mentions that symbolic links exist independently of their target and discusses their behavior when the target is moved, renamed, or deleted. The document also mentions support for symbolic links in various operating systems, including Linux.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "The document explains the basic concept and functionality of symbolic links, which can be used to infer their potential applications, such as reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly state the use of symbolic links for reordering the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides foundational information about symbolic links that can help infer their various uses, including the possibility of reordering the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides essential information about symbolic links and their functionality, which can aid in understanding their potential uses. However, it does not explicitly mention the specific use of reordering the file system hierarchy, making it not directly tied to the main topic of the query."
+            },
+            "nq_297_5": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains how to create a symbolic link in Linux using the `ln -s` command, how symbolic links can be treated as aliases for their targets, and how file system management commands interact with symbolic links. It also mentions how the `ls` command displays symbolic links.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and provides context within the Linux environment.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy', but it discusses the functionality of symbolic links which can imply their use in reordering.",
+                "Key Information Matching": "The document explains the functionality of symbolic links, such as acting as aliases and being used in file system management, which can indirectly suggest their use in reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly state the use of symbolic links to reorder the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about symbolic links that can help infer their various uses, including the potential to reorder the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides detailed information about symbolic links in Linux, which can help infer their uses, but it does not explicitly state the specific use mentioned in the answer. The information about symbolic links acting as aliases and their interaction with file system commands can indirectly support the understanding of their role in reordering the file system hierarchy."
+            },
+            "nq_297_11": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the context of Linux operating systems.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document discusses symbolic links in the context of Windows operating systems, particularly NTFS. It covers aspects such as their design for aiding migration and application compatibility with POSIX operating systems, differences in implementation between Windows and Unix, and specific behaviors in Windows Vista and later versions.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and references 'Linux' in a comparison with Windows.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "While the document does not directly address the specific use of symbolic links in Linux for reordering the file system hierarchy, it provides general information about symbolic links and their purposes, which can be somewhat relevant.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the specific use of symbolic links in Linux as stated in the answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides general information about symbolic links and their uses, which could help infer some of their functionalities, although it is more focused on Windows.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses symbolic links and their general purposes, which can provide some context. However, it is more focused on Windows and does not directly address the specific use of symbolic links in Linux for reordering the file system hierarchy."
+            },
+            "nq_297_2": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains what a symbolic link is, how it functions, and its differences from hard links. It mentions that symbolic links can change the hierarchical file system into a directed graph, which can affect operations like determining the current directory.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'symbolic link' and discusses their operation within a system, implicitly referring to Linux or similar Unix-based systems.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy', but it discusses how symbolic links can alter the file system structure, which is related to reordering.",
+                "Key Information Matching": "The document provides detailed information about how symbolic links work and their impact on the file system, which can be inferred to include reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly state that one use of symbolic links is to reorder the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context on how symbolic links can alter the file system, which can help infer that they can be used to reorder the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides detailed information about symbolic links and their impact on the file system, which can help infer one of their uses as stated in the answer. However, it does not explicitly mention the specific use of reordering the file system hierarchy."
+            },
+            "triviaqa_70499_0": {
+                "Query Analysis": "The query seeks to understand the purpose or functionality of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document discusses naming conventions in the C programming language, particularly in the context of GNU/Linux and embedded systems. It includes various naming conventions for different elements like structs, enums, functions, and variables.",
+                "Document and Query Keywords Matching": "The document mentions 'GNU/Linux', which is tangentially related to the query keyword 'Linux'. However, it does not mention 'symbolic link' or 'use'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer such as 'reorder', 'file system', or 'hierarchy'.",
+                "Key Information Matching": "There is no key information in the document that directly relates to the use of symbolic links in Linux.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about symbolic links or their uses in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is focused on naming conventions in C and does not provide any context or information that could help infer details about symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on naming conventions in the C programming language and does not address or provide any relevant information about symbolic links in Linux. Therefore, it is irrelevant to the query."
+            },
+            "ott_17541_0": {
+                "Query Analysis": "The query asks for the purpose or functionality of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document provides a comparison of various Electronic Design Automation (EDA) software, including their architectures, licenses, autorouter capabilities, and comments on their features. It primarily focuses on tools used for circuit design, PCB design, and simulation.",
+                "Document and Query Keywords Matching": "The document does not mention 'symbolic link' or 'Linux' in the context of the query.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as 'reorder' or 'file system hierarchy'.",
+                "Key Information Matching": "There is no information in the document that directly relates to symbolic links or their use in Linux.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about symbolic links or their use in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is focused on EDA software and does not provide any context or information that could help infer details about symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses EDA software, which is a different topic altogether, and does not provide any information about symbolic links or their use in Linux. Therefore, it is irrelevant to the query."
+            },
+            "nq_297_0": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the context of Linux operating systems.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document provides a general overview of symbolic links, including their definition, historical context, and the operating systems that support them. It explains that a symbolic link contains a reference to another file or directory and affects pathname resolution.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy', but it discusses the functionality of symbolic links which can imply this use.",
+                "Key Information Matching": "The document explains that symbolic links reference other files or directories and affect pathname resolution, which can be inferred to include reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly state the specific use of reordering the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides foundational information about symbolic links that can help infer their various uses, including reordering the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context and foundational information about symbolic links in Linux, which can help infer their uses, but it does not explicitly state the specific use mentioned in the answer."
+            },
+            "nq_297_4": {
+                "Query Analysis": "The query seeks to understand the purpose or functionality of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains what symbolic links are, how they are created, and their general functionality within POSIX-compliant operating systems, including Unix-like systems such as Linux. It mentions that symbolic links can be used to create a more intuitive directory tree and reorganize the system without redesigning core functions.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'symbolic link' and discusses their use in 'POSIX and Unix-like operating systems', which includes Linux.",
+                "Document and Answer Keywords Matching": "The document mentions the use of symbolic links to 'reorganize the system' and 'create a more intuitive or application-specific directory tree', which aligns with the concept of reordering the file system hierarchy.",
+                "Key Information Matching": "The document provides information on how symbolic links can be used to reorganize and create a more intuitive directory structure, which directly relates to the concept of reordering the file system hierarchy as stated in the answer.",
+                "Can the Document Answer the Query": "Yes, the document provides information that directly answers the query by explaining one of the uses of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers additional context on how symbolic links function and their broader utility in file system management.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides a clear explanation of one of the primary uses of symbolic links in Linux, which is to reorder the file system hierarchy. It also offers additional information on how symbolic links are created and managed, enhancing the understanding of their utility."
+            },
+            "nq_297_7": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document provides technical details about the storage and implementation of symbolic links in file systems, including the evolution from slow symlinks to fast symlinks and how they are stored in inodes.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic links' and discusses their storage and implementation in a context that implies their use in file systems.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "While the document does not directly state the use of symbolic links for reordering the file system hierarchy, it provides detailed information about how symbolic links work, which can help infer their various uses, including reordering.",
+                "Can the Document Answer the Query": "No, the document does not directly state the use of symbolic links for reordering the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed technical information about symbolic links that can help infer their uses, including the potential for reordering the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides technical details about symbolic links which can help infer their uses, but it does not directly state the specific use mentioned in the answer. The information about how symbolic links are stored and implemented can aid in understanding their broader applications, including the possibility of reordering the file system hierarchy."
+            },
+            "nq_297_12": {
+                "Query Analysis": "The query asks for the purpose or utility of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document discusses symbolic links in the context of NTFS and their behavior in Windows Vista and later versions. It also mentions how symbolic links work at the shell level in POSIX systems, including Linux, and provides examples of how path references are handled.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "The document provides information about how symbolic links function in Linux, particularly in the context of path references and directory navigation, which is related to the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly state that symbolic links are used to reorder the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides insights into how symbolic links work in Linux, which can help infer their role in managing the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about symbolic links in Linux but does not explicitly state their use for reordering the file system hierarchy. However, the details about path references and directory navigation can help infer the broader utility of symbolic links, making the document partially relevant to the query."
+            },
+            "m.01_h4b_73": {
+                "Query Analysis": "The query asks for the purpose or utility of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document provides detailed information about the Swiss franc, including its ISO codes, symbols, usage in different countries, and historical exchange rates. It also mentions the Swiss National Bank and the issuance of banknotes and coins.",
+                "Document and Query Keywords Matching": "None of the query keywords ('use', 'symbolic link', 'Linux') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('reorder', 'file system hierarchy') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely about the Swiss franc and does not touch upon topics related to Linux or file systems.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about symbolic links or their use in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the use of symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the Swiss franc and provides no information about Linux, symbolic links, or file system hierarchies. Therefore, it is irrelevant to the query."
+            },
+            "nq_297_28": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document appears to be a section of a webpage or article that lists external links related to symbolic links and other file system concepts. It includes links to resources about hard and soft links in Linux, NTFS junction points for Windows, and tools for managing hardlinks and symbolic links in Windows.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux' in the context of external links and resources.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "While the document mentions symbolic links and provides resources related to Linux, it does not directly discuss the use of symbolic links for reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct explanation of the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides resources that could potentially offer more information about symbolic links, including their uses in Linux.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it mentions symbolic links and provides resources that could be explored for more information. However, it does not directly answer the query about the specific use of symbolic links in Linux. Therefore, it is partially relevant."
+            },
+            "m.0d6lp_875": {
+                "Query Analysis": "The query asks for the purpose or utility of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document lists various entities and their associations with San Francisco, including places of birth, publication, and other locations related to different subjects. It also mentions a book titled 'Linux for non-geeks: a hands-on, project-based, take-it-slow guidebook' published in San Francisco.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Linux' in the title of a book.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as 'reorder', 'file system', or 'hierarchy'.",
+                "Key Information Matching": "The only relevant keyword from the query found in the document is 'Linux', but it is in the context of a book title and not related to symbolic links or their uses.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any additional information that could help infer the use of symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about various entities associated with San Francisco and includes a mention of a book related to Linux. However, it does not provide any information about symbolic links or their uses in Linux. Therefore, it is irrelevant to the query."
+            },
+            "tat_14_0": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document provides financial data and performance metrics related to Cloud & Cognitive Software, Cognitive Applications, Cloud & Data Platforms, and Transaction Processing Platforms. It mentions the acquisition of Red Hat and its impact on various segments, including Red Hat Enterprise Linux (RHEL), OpenShift, and Ansible.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'symbolic link' or 'Linux'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as 'reorder', 'file system', or 'hierarchy'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on financial performance and acquisitions, which are unrelated to the technical aspects of Linux or symbolic links.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the use of symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on financial data and business performance, specifically in the context of Cloud & Cognitive Software and related technologies, without any mention of symbolic links or Linux. Therefore, it cannot provide any useful context or additional information to answer the query."
+            },
+            "triviaqa_42708_443": {
+                "Query Analysis": "The query asks for the purpose or utility of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document appears to be corrupted or in an unreadable format, containing non-printable characters and no coherent text. It does not provide any clear or usable information.",
+                "Document and Query Keywords Matching": "None of the query keywords ('use', 'symbolic link', 'Linux') are found in the document due to its corrupted nature.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('reorder', 'file system hierarchy') are found in the document due to its corrupted nature.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer because the document is unreadable.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it contains no relevant information.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document cannot help infer additional information as it is unreadable and lacks any coherent content.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because it is corrupted and does not contain any readable or useful information. It neither answers the query directly nor provides any context or additional information that could help infer the answer."
+            },
+            "m.0zj9n9k_10": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that one of the uses of symbolic links in Linux is to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document appears to contain technical data, possibly related to file identifiers and metadata, with references to 'dataworld', 'musicbrainz', and various keys. There is no clear explanation or context provided about symbolic links or their uses.",
+                "Document and Query Keywords Matching": "None of the query keywords ('use', 'symbolic link', 'Linux') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('reorder', 'file system hierarchy') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document does not discuss symbolic links, their uses, or any related concepts.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer additional details about symbolic links or their uses in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any of the key terms or concepts related to symbolic links or their uses in Linux. The content of the document is entirely unrelated to the topic of the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0_k049s_12": {
+                "Query Analysis": "The query asks about the purpose or use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document appears to be a technical or data-related snippet with references to 'dataworld', 'musicbrainz', and various keys or identifiers. It does not mention Linux, symbolic links, or file system hierarchy.",
+                "Document and Query Keywords Matching": "None of the query keywords ('use', 'symbolic link', 'linux') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('reorder', 'file system hierarchy') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to symbolic links, Linux, or file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not mention symbolic links or Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information about symbolic links or Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about symbolic links in Linux. It does not provide any useful context or information that could assist in answering the query or inferring additional details."
+            },
+            "nq_297_1": {
+                "Query Analysis": "The query asks about the purpose or use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer states that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document provides an overview of symbolic links, explaining that they contain a text string interpreted as a path to another file or directory. It describes how symbolic links function independently of their targets and mentions terms like 'broken', 'orphaned', 'dead', or 'dangling' links.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "The document explains the basic functionality of symbolic links, which is related to their use in Linux, but it does not directly address the specific use mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not directly state the use of symbolic links as 'to reorder the file system hierarchy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides foundational information about symbolic links, which could help infer their uses, including reordering the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some context about symbolic links in Linux but does not directly answer the query or fully align with the specific use mentioned in the answer."
+            },
+            "nq_297_5": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains how to create a symbolic link in Linux, describes the behavior of symbolic links when used with file system commands, and provides an example of creating and listing symbolic links.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and provides context about its use in Linux.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy', but it describes the functionality of symbolic links which aligns with the answer.",
+                "Key Information Matching": "The document provides detailed information about symbolic links in Linux, including their creation and usage, which is relevant to understanding their purpose.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state the purpose of symbolic links as 'reordering the file system hierarchy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document explains how symbolic links work and their behavior, which helps infer their use.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about symbolic links in Linux, including their creation and usage, which enhances understanding of their purpose."
+            },
+            "nq_297_11": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer states that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document discusses symbolic links in the context of Windows (NTFS), including their functionality, limitations, and differences from POSIX (Unix-like) systems. It mentions symbolic links' use in migration and application compatibility with POSIX operating systems, but focuses on Windows-specific details.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'POSIX' (related to Linux), but does not directly discuss Linux.",
+                "Document and Answer Keywords Matching": "The document does not mention 'reorder the file system hierarchy' or similar phrases.",
+                "Key Information Matching": "The document provides general information about symbolic links but does not address their use in Linux or the specific purpose mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about Linux symbolic links.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on Windows and does not provide relevant information about Linux symbolic links.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about symbolic links in Windows and does not provide any useful information about symbolic links in Linux, making it irrelevant to the query."
+            },
+            "nq_297_2": {
+                "Query Analysis": "The query asks about the purpose or use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document explains what symbolic links are, how they function, and their differences from hard links. It describes their behavior, such as pointing to targets, remaining independent of the target's status, and their impact on the filesystem structure.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and discusses its functionality in a Unix/Linux context.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy', but it describes how symbolic links can point to any file or directory, which implies their use in restructuring or referencing parts of the filesystem.",
+                "Key Information Matching": "The document provides detailed information about symbolic links, including their independence from targets and their ability to point to any file or directory, which aligns with the concept of reordering the filesystem hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document explains the functionality and behavior of symbolic links, which helps infer their use in filesystem management, including potential reordering.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about symbolic links in Linux, including their behavior and impact on the filesystem. While it does not explicitly state the use mentioned in the answer, the information it provides is highly relevant and useful for understanding the query."
+            },
+            "triviaqa_70499_0": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document discusses naming conventions in C programming, specifically mentioning GNU/Linux and K&R conventions, but does not mention symbolic links or their uses.",
+                "Document and Query Keywords Matching": "The document mentions 'linux', but does not mention 'symbolic link' or 'use' in the context of symbolic links.",
+                "Document and Answer Keywords Matching": "The document does not mention 'reorder', 'file system', or 'hierarchy' in any context related to symbolic links.",
+                "Key Information Matching": "The document does not provide any information related to symbolic links or their uses in Linux.",
+                "Can the Document Answer the Query": "No, the document does not mention symbolic links or their uses.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about symbolic links.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about symbolic links in Linux. It discusses naming conventions in C programming and does not provide any useful context or information relevant to the query."
+            },
+            "ott_17541_0": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer states that symbolic links in Linux are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document provides a comparison of various EDA (Electronic Design Automation) software, detailing their architectures, licenses, features, and other technical specifications. It does not mention anything about Linux file systems or symbolic links.",
+                "Document and Query Keywords Matching": "None of the query keywords ('use', 'symbolic link', 'Linux') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('reorder', 'file system hierarchy') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to symbolic links, Linux file systems, or the reordering of file system hierarchies.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the use of symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about symbolic links in Linux. It focuses on EDA software and does not mention any of the key terms or concepts from the query or answer."
+            },
+            "nq_297_0": {
+                "Query Analysis": "The query asks about the purpose or use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer states that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document provides a detailed explanation of symbolic links, including their definition, historical context, and support across various operating systems including Linux. It mentions that symbolic links are files containing references to other files or directories, affecting pathname resolution.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux'.",
+                "Document and Answer Keywords Matching": "The document discusses the functionality of symbolic links, which aligns with the answer's mention of their use in reordering the file system hierarchy.",
+                "Key Information Matching": "The document explains that symbolic links are references to other files or directories, which can be interpreted as a way to reorder or reorganize the file system hierarchy.",
+                "Can the Document Answer the Query": "Yes, the document provides information that directly answers the query about the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers additional context about symbolic links, including their history and support in other operating systems.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that answers the query about the use of symbolic links in Linux. It not only confirms the answer but also offers additional details about symbolic links."
+            },
+            "nq_297_4": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains that symbolic links in Unix-like operating systems are used to create a more intuitive or application-specific directory tree and to reorganize the system without redesigning core functions. It also details how symbolic links are created using the `ln -s` command and describes their behavior.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic links' and 'Unix-like operating systems', which includes Linux.",
+                "Document and Answer Keywords Matching": "The document discusses 'reorganize the system' and 'directory tree', which aligns with the answer's mention of 'reorder the file system hierarchy'.",
+                "Key Information Matching": "The document provides detailed information about the use of symbolic links to reorganize the file system hierarchy, which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly explains the use of symbolic links in Linux (Unix-like systems).",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context on how symbolic links are created and their practical applications.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context about the use of symbolic links in Linux, including how they are created and their purpose in reorganizing the file system hierarchy."
+            },
+            "nq_297_7": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document discusses the storage methods of symbolic links, including early implementations and improvements like 'fast symlinks'. It explains how symbolic links store target paths and the efficiency of different methods.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic links' and 'disk-space', which relates to the query's keywords 'symbolic link' and 'linux' (as disk-space is a Linux system concept).",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy', but it discusses how symbolic links function, which is related to the answer.",
+                "Key Information Matching": "The document provides detailed information about how symbolic links work and their storage methods, which is key to understanding their use in Linux.",
+                "Can the Document Answer the Query": "No, the document does not directly state the use of symbolic links as 'reordering the file system hierarchy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document explains the functionality and storage of symbolic links, which helps infer their use in Linux.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about symbolic links in Linux, enhancing understanding of their functionality and use, even though it does not explicitly state the answer."
+            },
+            "nq_297_12": {
+                "Query Analysis": "The query asks about the use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer states that symbolic links in Linux are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document discusses symbolic links in Windows and POSIX systems, including Linux, but focuses on differences in behavior between Windows and POSIX systems, particularly regarding directory navigation and system calls. It does not explicitly mention the use of symbolic links to reorder the file system hierarchy.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'reorder the file system hierarchy' or similar phrases.",
+                "Key Information Matching": "The document provides information about symbolic links in Linux but does not address their use for reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide information that helps infer the answer or additional relevant details about the use of symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses symbolic links but does not provide any useful information related to the query's specific question about their use in Linux. It focuses on differences between Windows and POSIX systems, which is not relevant to the query."
+            },
+            "m.01_h4b_73": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links in Linux are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document provides detailed information about the Swiss franc, including its history, usage, and related entities. It does not mention anything about Linux, symbolic links, or file systems.",
+                "Document and Query Keywords Matching": "None of the query keywords ('use', 'symbolic link', 'linux') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('reorder', 'file system', 'hierarchy') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about symbolic links in Linux. It does not provide any useful context or additional information relevant to the query."
+            },
+            "nq_297_28": {
+                "Query Analysis": "The query asks about the purpose or use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer states that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document provides external links and references to various resources about symbolic links, hard links, and related tools for both Linux and Windows. It does not directly explain the use of symbolic links in Linux.",
+                "Document and Query Keywords Matching": "The document mentions 'Symbolic_link' and 'Linux commands', which partially match the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'reorder the file system hierarchy' or similar phrases from the answer.",
+                "Key Information Matching": "The document contains references to symbolic links and Linux, but does not provide direct information about their use or purpose.",
+                "Can the Document Answer the Query": "No, the document does not directly explain the use of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any key information that could help infer the answer or additional relevant details.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not provide any useful information about the use of symbolic links in Linux. It mainly contains external links and references to unrelated tools and systems."
+            },
+            "m.0d6lp_875": {
+                "Query Analysis": "The query asks about the purpose or use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links in Linux are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document contains various entries related to San Francisco, including places of birth, publication, musical career beginnings, and other location-based information. It mentions 'Linux for non-geeks: a hands-on, project-based, take-it-slow guidebook' as being published in San Francisco.",
+                "Document and Query Keywords Matching": "The document mentions 'Linux' once in the context of a book title.",
+                "Document and Answer Keywords Matching": "The document does not mention any keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information about symbolic links or their use in Linux, except for a tangential mention of Linux in a book title.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the use of symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any meaningful way. It does not provide any useful context or additional information about symbolic links in Linux, except for a single mention of Linux in a book title, which is irrelevant to the query."
+            },
+            "tat_14_0": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document discusses financial performance and segments of IBM's Cloud & Cognitive Software, including mentions of Red Hat Enterprise Linux (RHEL) and related technologies. However, it does not mention symbolic links or their use in Linux.",
+                "Document and Query Keywords Matching": "The document mentions 'Linux' in the context of Red Hat Enterprise Linux (RHEL), but does not mention 'symbolic link' or 'use' in relation to Linux.",
+                "Document and Answer Keywords Matching": "The document does not mention 'reorder', 'file system', or 'hierarchy'.",
+                "Key Information Matching": "The document does not provide any information related to symbolic links or their use in Linux.",
+                "Can the Document Answer the Query": "No, the document does not mention symbolic links or their purpose.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about symbolic links in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about symbolic links in Linux. It discusses financial performance and cloud technologies but does not provide any useful context or information relevant to the query."
+            },
+            "triviaqa_42708_443": {
+                "Query Analysis": "The query asks about the purpose of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document appears to be corrupted or contains non-readable characters, making it impossible to extract meaningful content.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document due to its unreadable content.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document due to its unreadable content.",
+                "Key Information Matching": "No key information can be matched due to the document's unreadable content.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it is unreadable.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document cannot help infer additional information as it is unreadable.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not provide any readable or meaningful information related to the query or answer."
+            },
+            "m.0zj9n9k_10": {
+                "Query Analysis": "The query asks about the purpose or use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, linux",
+                "Answer Analysis": "The answer states that symbolic links are used 'to reorder the file system hierarchy'.",
+                "Document Content Analysis": "The document appears to be a technical or abstract data representation, possibly related to data management or metadata, but it does not mention symbolic links, Linux, or file system hierarchy.",
+                "Document and Query Keywords Matching": "None of the query keywords ('use', 'symbolic link', 'linux') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('reorder', 'file system hierarchy') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to symbolic links, Linux, or file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not mention symbolic links or Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query about symbolic links in Linux. It does not contain any keywords or concepts relevant to the query or the answer."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0_k049s_12": {},
+            "nq_297_1": {},
+            "nq_297_5": {
+                "Query Analysis": "The query is asking about the purpose or use of a symbolic link in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer suggests that a symbolic link can be used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains how to create a symbolic link in Linux using the 'ln -s' command. It describes 'target_path', 'link_path', and how symbolic links work as aliases for their target files and directories.",
+                "Document and Query Keywords Matching": "The document discusses 'symbolic link', which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document explains the technical details and functionality of symbolic links but does not explicitly mention reorganizing or reordering the file system hierarchy.",
+                "Key Information Matching": "The document provides detailed information on creating and managing symbolic links, covering their basic functionality and behavior, which is partially related to understanding their use.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about the specific use of symbolic links for reordering the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides foundational knowledge about symbolic links, which can help infer potential uses including reordering the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document offers relevant technical details about symbolic links but does not directly address their use for reordering the file system hierarchy as specified by the answer. It is partially relevant as it helps understand the mechanism behind symbolic links, which can aid in inferring their potential uses."
+            },
+            "nq_297_11": {
+                "Query Analysis": "The query is asking about the use of symbolic links in Linux, specifically seeking an understanding of their purpose or function.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer indicates that symbolic links in Linux can be used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document discusses symbolic links within the context of NTFS (a Windows file system), comparing their functionality to UNIX and POSIX systems. It provides details on NTFS symbolic links, differences from UNIX symbolic links, and technical aspects of their implementation in Windows.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux' in the context of comparison and compatibility with NTFS.",
+                "Document and Answer Keywords Matching": "There is no direct matching between the document content and the specific answer keywords regarding reorganizing the file system hierarchy.",
+                "Key Information Matching": "The document provides insight into symbolic links but focuses on NTFS and Windows rather than Linux. It aids understanding of symbolic links in general but does not address their specific use in Linux for reorganizing the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it is focused on NTFS symbolic links in Windows rather than their use in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, the document provides a broader understanding of symbolic links by comparing different systems (NTFS and UNIX), which may help infer general uses of symbolic links.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses symbolic links and includes a brief mention of Linux. However, it chiefly focuses on NTFS symbolic links and does not specifically cover their use in Linux to reorder the file system hierarchy, thus providing limited assistance in directly answering the query."
+            },
+            "nq_297_2": {
+                "Query Analysis": "The query asks about the use of symbolic links in the Linux file system.",
+                "Query Keywords Extraction": "symbolic link, use, Linux",
+                "Answer Analysis": "Symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains what symbolic links are: text strings that serve as paths to another file or directory. It also describes how they differ from hard links, their behavior when the target is moved or deleted, and their impact on the file system's structure, transforming it from a tree into a directed graph.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' multiple times and discusses its function in the file system.",
+                "Document and Answer Keywords Matching": "The document describes how symbolic links can alter the hierarchical nature, implying they can reorder the file system hierarchy.",
+                "Key Information Matching": "The document provides detailed information about symbolic links and partially addresses their role in altering the file system's hierarchy. However, it does not explicitly state 'to reorder the file system hierarchy' as in the provided answer but implies a structural impact.",
+                "Can the Document Answer the Query": "Partially, since it describes the function and implications of symbolic links but does not explicitly state 'to reorder the file system hierarchy.'",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides comprehensive details about symbolic links, their behavior, and their impact on the file system structure, which can help understand their usage.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query, providing substantial context on symbolic links, their function, and their potential impact on the file system in Linux. While it does not explicitly state the answer verbatim, it provides enough information to infer the symbolic links' use in reordering the file system hierarchy."
+            },
+            "triviaqa_70499_0": {},
+            "ott_17541_0": {},
+            "nq_297_0": {
+                "Query Analysis": "The query asks about the use of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer provides a specific use of symbolic links: to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document describes what a symbolic link is, its history, the operating systems that support it, and how it affects pathname resolution. However, it does not specifically discuss its use in reordering the file system hierarchy.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux'.",
+                "Document and Answer Keywords Matching": "The document does not specifically mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "The document provides technical details and background about symbolic links and their compatibility with Linux, but does not directly mention their use in reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly explain the use of symbolic links in the context of the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document can help infer general information about symbolic links and their function in Linux, but not specifically their use for reordering the file system hierarchy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides general information about symbolic links, including their function in Linux systems, which is somewhat related to the query. However, it does not directly discuss their usage for reordering the file system hierarchy, which is the specific use mentioned in the answer."
+            },
+            "nq_297_4": {},
+            "nq_297_7": {
+                "Query Analysis": "The query asks about the use or purpose of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "symbolic link, use, Linux",
+                "Answer Analysis": "The answer provides a specific use of symbolic links: to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document explains the storage methods of symbolic links, including early implementations and improvements like fast symlinks. It describes how symbolic links can store their target paths and mentions their efficiency in data structure handling.",
+                "Document and Query Keywords Matching": "The document discusses 'symbolic links', which matches a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document discusses 'symbolic links', but doesn't specifically mention 'reorder the file system hierarchy'.",
+                "Key Information Matching": "The document provides a technical description of symbolic links and their storage, which is related to how they function, but does not directly address their use in reordering the file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not directly explain the use or purpose of symbolic links as stated in the query answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document is relevant to understanding symbolic links in Linux by explaining their storage and retrieval methods, which could indirectly support understanding their utilization.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains technical information about symbolic links, which is partially relevant to the query. While it doesn't directly address the use mentioned in the answer, it provides context that could help infer some uses of symbolic links, justifying a partially relevant label."
+            },
+            "nq_297_12": {
+                "Query Analysis": "The query is asking about the purpose or function of symbolic links in Linux.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer suggests that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document mainly discusses symbolic links and their behavior in Windows and POSIX systems, including Linux. It describes how symbolic links can be used for directories and files, with specific focus on their implementation and behavior in Windows systems.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link' and 'Linux.'",
+                "Document and Answer Keywords Matching": "The document does not specifically mention 'reorder the file system hierarchy.'",
+                "Key Information Matching": "The document provides general information about symbolic links and their behavior in Linux, but does not directly discuss their use for reordering file system hierarchy.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct answer to the use of symbolic links for reordering the file system hierarchy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides context about symbolic links in Linux, which is relevant to understanding their general use.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document provides useful context about symbolic links and mentions Linux, it does not directly address the query regarding the use of symbolic links for reordering the file system hierarchy. Thus, it is partially relevant as it provides background information that could help infer broader aspects of symbolic links in Linux."
+            },
+            "m.01_h4b_73": {},
+            "nq_297_28": {
+                "Query Analysis": "The query asks for the purpose or function of symbolic links in the Linux operating system.",
+                "Query Keywords Extraction": "use, symbolic link, Linux",
+                "Answer Analysis": "The answer suggests that symbolic links are used to reorder the file system hierarchy.",
+                "Document Content Analysis": "The document lists several external resources related to hard and soft links, mainly focusing on Windows systems, and briefly mentions symbolic links.",
+                "Document and Query Keywords Matching": "The document mentions 'symbolic link'.",
+                "Document and Answer Keywords Matching": "There is no direct mention of 'reorder the file system hierarchy' related to symbolic links in the document.",
+                "Key Information Matching": "The document provides links on related topics but does not offer detailed information on what symbolic links are used for in Linux.",
+                "Can the Document Answer the Query": "No, the document does not address the specific use or purpose of symbolic links in Linux.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide sufficient information to infer how symbolic links are used in Linux.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document refers to symbolic links but does not provide any substantial information about their use in Linux. It primarily directs readers to related external links, which are mainly focused on Windows, making it irrelevant to answering the query directly or aiding in inferring the answer."
+            },
+            "m.0d6lp_875": {},
+            "tat_14_0": {},
+            "triviaqa_42708_443": {},
+            "m.0zj9n9k_10": {}
+        },
+        "dataset_score": {
+            "triviaqa": 0,
+            "nq": 2,
+            "kg": 0,
+            "tat": 0,
+            "ott": 0
+        }
+    }
+}

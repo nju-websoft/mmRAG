@@ -1,0 +1,1288 @@
+{
+    "index": 2059,
+    "context": [
+        "# Database schema\n\nFrom Wikipedia, the free encyclopedia\n\nJump to navigation Jump to search\n\nThe **database schema** of a [database system](/wiki/Database_system \"Database\nsystem\") is its structure described in a [formal\nlanguage](/wiki/Formal_language \"Formal language\") supported by the [database\nmanagement system](/wiki/Database_management_system \"Database management\nsystem\") (DBMS). The term \"[schema](https://en.wiktionary.org/wiki/schema\n\"wikt:schema\")\" refers to the organization of data as a blueprint of how the\ndatabase is constructed (divided into database tables in the case of\n[relational databases](/wiki/Relational_databases \"Relational databases\")).\nThe formal definition of a [database](/wiki/Database \"Database\") schema is a\nset of formulas (sentences) called [integrity\nconstraints](/wiki/Integrity_constraints \"Integrity constraints\") imposed on a\ndatabase.[_[citation needed](/wiki/Wikipedia:Citation_needed\n\"Wikipedia:Citation needed\")_] These integrity constraints ensure\ncompatibility between parts of the schema. All constraints are expressible in\nthe same language. A database can be considered a structure in realization of\nthe [database language](/wiki/Database_language \"Database language\").[1] The\nstates of a created [conceptual schema](/wiki/Conceptual_schema \"Conceptual\nschema\") are transformed into an [explicit\nmapping](/wiki/Explicit_and_implicit_methods \"Explicit and implicit methods\"),\nthe database schema. This describes how real-world entities are\n[modeled](/wiki/Data_modeling \"Data modeling\") in the database.\n\n\"A database schema specifies, based on the [database\nadministrator](/wiki/Database_administrator \"Database administrator\")'s\nknowledge of possible applications, the facts that can enter the database, or\nthose of interest to the possible [end-users](/wiki/End-user \"End-user\").\"[2]\nThe notion of a database schema plays the same role as the notion of theory in\n[predicate calculus](/wiki/Predicate_calculus \"Predicate calculus\"). A model\nof this \"theory\" closely corresponds to a database, which can be seen at any\ninstant of time as a [mathematical object](/wiki/Mathematical_object\n\"Mathematical object\"). Thus a schema can contain formulas representing\n[integrity constraints](/wiki/Data_integrity#Types_of_integrity_constraints\n\"Data integrity\") specifically for an application and the constraints\nspecifically for a type of database, all expressed in the same database\nlanguage.[1] In a [relational database](/wiki/Relational_database \"Relational\ndatabase\"), the schema defines the [tables](/wiki/Table_\\(database\\) \"Table\n\\(database\\)\"), [fields](/wiki/Field_\\(computer_science\\) \"Field \\(computer\nscience\\)\"), [relationships](/wiki/Relational_model \"Relational model\"),\n[views](/wiki/View_\\(database\\) \"View \\(database\\)\"),\n[indexes](/wiki/Index_\\(database\\) \"Index \\(database\\)\"),\n[packages](/wiki/Software_package_\\(installation\\) \"Software package\n\\(installation\\)\"), [procedures](/wiki/Stored_procedure \"Stored procedure\"),\n[functions](/wiki/Subroutine \"Subroutine\"),\n[queues](/wiki/Queue_\\(data_structure\\) \"Queue \\(data structure\\)\"),\n[triggers](/wiki/Database_trigger \"Database trigger\"), [types](/wiki/Data_type\n\"Data type\"), [sequences](/wiki/Sequence \"Sequence\"), [materialized\nviews](/wiki/Materialized_view \"Materialized view\"),\n[synonyms](/wiki/Synonym_\\(database\\) \"Synonym \\(database\\)\"), database links,\n[directories](/wiki/Directory_\\(file_systems\\) \"Directory \\(file systems\\)\"),\n[XML schemas](/wiki/XML_schema \"XML schema\"), and other elements.\n\nA database generally stores its schema in a [data\ndictionary](/wiki/Data_dictionary \"Data dictionary\"). Although a schema is\ndefined in text database language, the term is often used to refer to a\ngraphical depiction of the database structure. In other words, schema is the\nstructure of the database that defines the objects in the database.\n\nIn an [Oracle Database](/wiki/Oracle_Database \"Oracle Database\") system, the\nterm \"schema\" has a slightly different connotation.\n\n## Contents\n\n  * 1 Ideal requirements for schema integration\n  * 2 Example of two schema integrations\n  * 3 Oracle database specificity\n  * 4 See also\n  * 5 References\n  * 6 External links\n\n## Ideal requirements for schema\nintegration[[edit](/w/index.php?title=Database_schema&action=edit&section=1\n\"Edit section: Ideal requirements for schema integration\")]\n\nSee also: [Database normalization](/wiki/Database_normalization \"Database\nnormalization\")\n\nThe requirements listed below influence the detailed structure of schemas that\nare produced. Certain applications will not require that all of these\nconditions are met, but these four requirements are the most ideal.\n\nOverlap preservation\n\n    Each of the overlapping elements specified in the input mapping is also in a database schema relation.[3]\n\nExtended overlap preservation\n\n    Source-specific elements that are associated with a source’s overlapping elements are passed through to the database schema.[3]\n\nNormalization\n\n    Independent entities and relationships in the source data should not be grouped together in the same relation in the database schema. In particular, source specific schema elements should not be grouped with overlapping schema elements, if the grouping co-locates independent entities or relationships.[3]\n\nMinimality\n\n    If any elements of the database schema are dropped then the database schema is not ideal.[3]\n\n## Example of two schema\nintegrations[[edit](/w/index.php?title=Database_schema&action=edit&section=2\n\"Edit section: Example of two schema integrations\")]\n\nSuppose we want a mediated (database) schema to integrate two travel\ndatabases, Go-travel and Ok-travel.\n\n**`Go-travel`** has two relations:\n\n    \n    \n    Go-flight(f-num, time, meal(yes/no))\n    Go-price(f-num, date, price)\n    \n\n(`f-num` being the flight number)\n\n**`Ok-travel`** has just one relation:\n\n    \n    \n    Ok-flight(f-num, date, time, price, nonstop(yes/no))\n    \n\nThe overlapping information in Ok-travel’s and Go-travel’s schemas could be\nrepresented in a mediated schema:[3]\n\n    \n    \n    Flight(f-num, date, time, price)\n    \n\n## Oracle database\nspecificity[[edit](/w/index.php?title=Database_schema&action=edit&section=3\n\"Edit section: Oracle database specificity\")]\n\nIn the context of [Oracle Databases](/wiki/Oracle_Database \"Oracle Database\"),\na **schema object** is a logical [data storage\nstructure](/wiki/Database_storage_structures \"Database storage\nstructures\").[4]\n\nAn Oracle database associates a separate schema with each database\n**user**.[5] A schema comprises a collection of schema objects. Examples of\nschema objects include:\n\n  * [tables](/wiki/Table_\\(database\\) \"Table \\(database\\)\")\n  * [views](/wiki/View_\\(database\\) \"View \\(database\\)\")\n  * [sequences](/wiki/Sequence \"Sequence\")\n  * [synonyms](/wiki/Synonym_\\(database\\) \"Synonym \\(database\\)\")\n  * [indexes](/wiki/Index_\\(database\\) \"Index \\(database\\)\")\n  * clusters\n  * database links\n  * [snapshots](/wiki/Snapshot_\\(computer_storage\\) \"Snapshot \\(computer storage\\)\")\n  * [procedures](/wiki/Stored_procedure \"Stored procedure\")\n  * functions\n  * packages\n\nOn the other hand, non-schema objects may include:[6]\n\n  * users\n  * roles\n  * contexts\n  * directory objects\n\nSchema objects do not have a one-to-one correspondence to physical files on\ndisk that store their information. However, [Oracle\ndatabases](/wiki/Oracle_database \"Oracle database\") store schema objects\nlogically within a [tablespace](/wiki/Tablespace \"Tablespace\") of the\ndatabase. The data of each object is physically contained in one or more of\nthe tablespace's [datafiles](/wiki/Datafile \"Datafile\"). For some objects\n(such as tables, indexes, and clusters) a [database\nadministrator](/wiki/Database_administrator \"Database administrator\") can\nspecify how much disk space the Oracle [RDBMS](/wiki/RDBMS \"RDBMS\") allocates\nfor the object within the tablespace's datafiles.\n\nThere is no necessary relationship between schemas and tablespaces: a\ntablespace can contain objects from different schemas, and the objects for a\nsingle schema can reside in different tablespaces.\n\n## See also[[edit](/w/index.php?title=Database_schema&action=edit&section=4\n\"Edit section: See also\")]\n\n  * [Data element](/wiki/Data_element \"Data element\")\n  * [Data mapping](/wiki/Data_mapping \"Data mapping\")\n  * [Database design](/wiki/Database_design \"Database design\")\n  * [Entity–relationship model](/wiki/Entity%E2%80%93relationship_model \"Entity–relationship model\")\n  * [Knowledge representation and reasoning](/wiki/Knowledge_representation_and_reasoning \"Knowledge representation and reasoning\")\n  * [Object-role modeling](/wiki/Object-role_modeling \"Object-role modeling\")\n  * [Schema matching](/wiki/Schema_matching \"Schema matching\")\n  * [Three-schema approach](/wiki/Three-schema_approach \"Three-schema approach\")\n\n## References[[edit](/w/index.php?title=Database_schema&action=edit&section=5\n\"Edit section: References\")]\n\n  1. ^ Jump up to: _**a**_ _**b**_ Rybinski, H. (1987). \"On First-Order-Logic Databases\". _ACM Transactions on Database Systems_. **12** (3): 325–349. [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.1145/27629.27630](//doi.org/10.1145%2F27629.27630).\n  2. **Jump up ^** [Imielinski, T.](/wiki/Tomasz_Imieli%C5%84ski \"Tomasz Imieliński\"); Lipski, W. (1982). \"A systematic approach to relational database theory\". _Proceedings of the 1982 ACM SIGMOD international conference on Management of data (SIGMOD '82)_. New York, NY: ACM: 8–14. [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.1145/582353.582356](//doi.org/10.1145%2F582353.582356).\n  3. ^ Jump up to: _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ Pottinger, P.; Berstein, P. (2008). \"Schema merging and mapping creation for relational sources\". _Proceedings of the 11th international conference on Extending database technology: Advances in database technology (EDBT '08)_. New York, NY: ACM: 73–84. [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.1145/1353343.1353357](//doi.org/10.1145%2F1353343.1353357).\n  4. **Jump up ^** Ashdown, Lance; Kyte, Tom (February 2010). [_Oracle Database Concepts 11g Release 2 (11.2)_](http://download.oracle.com/docs/cd/E11882_01/server.112/e10713/tablecls.htm#CNCPT111). _et al_. Oracle Corporation. Retrieved 2010-04-14. \"A database schema is a logical container for data structures, called schema objects. Examples of schema objects are tables and indexes.\"\n  5. **Jump up ^** [_Oracle Database Concepts 10g Release 2 (10.2)Part Number B14220-02_](http://docs.oracle.com/cd/B19306_01/server.102/b14220/schema.htm). Retrieved 2012-11-26. \"A schema is a collection of logical structures of data, or schema objects. A schema is owned by a database user and has the same name as that user. Each user owns a single schema. Schema objects can be created and manipulated with SQL.\"\n  6. **Jump up ^** Ashdown, Lance; Kyte, Tom (February 2010). [_Oracle Database Concepts 11g Release 2 (11.2)_](http://download.oracle.com/docs/cd/E11882_01/server.112/e10713/tablecls.htm#CNCPT111). et al. Oracle Corporation. Retrieved 2010-04-14. \"Other types of objects are also stored in the database and can be created and manipulated with SQL statements but are not contained in a schema. These objects include database users, roles, contexts, and directory objects.\"\n\n## External\nlinks[[edit](/w/index.php?title=Database_schema&action=edit&section=6 \"Edit\nsection: External links\")]\n\n  * [Tip/Trick: Online Database Schema Samples Library](https://weblogs.asp.net/scottgu/Tip_2F00_Trick_3A00_-Online-Database-Schema-Samples-Library)\n  * [Database Schema Samples](https://web.archive.org/web/20081217074637/http://msdn.microsoft.com/en-us/library/bb187299%28SQL.80%29.aspx)\n  * [Designing the Star Schema Database](https://web.archive.org/web/20080828210315/http://ciobriefings.com/Publications/WhitePapers/DesigningtheStarSchemaDatabase/tabid/101/Default.aspx)\n\n![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)\n\nRetrieved from\n\"[https://en.wikipedia.org/w/index.php?title=Database_schema&oldid=851764365](https://en.wikipedia.org/w/index.php?title=Database_schema&oldid=851764365)\"\n\n[Categories](/wiki/Help:Category \"Help:Category\"):\n\n  * [Data management](/wiki/Category:Data_management \"Category:Data management\")\n  * [Data modeling](/wiki/Category:Data_modeling \"Category:Data modeling\")\n\nHidden categories:\n\n  * [All articles with unsourced statements](/wiki/Category:All_articles_with_unsourced_statements \"Category:All articles with unsourced statements\")\n  * [Articles with unsourced statements from January 2016](/wiki/Category:Articles_with_unsourced_statements_from_January_2016 \"Category:Articles with unsourced statements from January 2016\")\n\n## Navigation menu\n\n### Personal tools\n\n  * Not logged in\n  * [Talk](/wiki/Special:MyTalk \"Discussion about edits from this IP address \\[ctrl-alt-n\\]\")\n  * [Contributions](/wiki/Special:MyContributions \"A list of edits made from this IP address \\[ctrl-alt-y\\]\")\n  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=Database+schema \"You are encouraged to create an account and log in; however, it is not mandatory\")\n  * [Log in](/w/index.php?title=Special:UserLogin&returnto=Database+schema \"You're encouraged to log in; however, it's not mandatory. \\[ctrl-alt-o\\]\")\n\n### Namespaces\n\n  * [Article](/wiki/Database_schema \"View the content page \\[ctrl-alt-c\\]\")\n  * [Talk](/wiki/Talk:Database_schema \"Discussion about the content page \\[ctrl-alt-t\\]\")\n\n###  Variants\n\n### Views\n\n  * [Read](/wiki/Database_schema)\n  * [Edit](/w/index.php?title=Database_schema&action=edit \"Edit this page \\[ctrl-alt-e\\]\")\n  * [View history](/w/index.php?title=Database_schema&action=history \"Past revisions of this page \\[ctrl-alt-h\\]\")\n\n### More\n\n###  Search\n\n[](/wiki/Main_Page \"Visit the main page\")\n\n### Navigation\n\n  * [Main page](/wiki/Main_Page \"Visit the main page \\[ctrl-alt-z\\]\")\n  * [Contents](/wiki/Portal:Contents \"Guides to browsing Wikipedia\")\n  * [Featured content](/wiki/Portal:Featured_content \"Featured content – the best of Wikipedia\")\n  * [Current events](/wiki/Portal:Current_events \"Find background information on current events\")\n  * [Random article](/wiki/Special:Random \"Load a random article \\[ctrl-alt-x\\]\")\n  * [Donate to Wikipedia](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en \"Support us\")\n  * [Wikipedia store](//shop.wikimedia.org \"Visit the Wikipedia store\")\n\n### Interaction\n\n  * [Help](/wiki/Help:Contents \"Guidance on how to use and edit Wikipedia\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Find out about Wikipedia\")\n  * [Community portal](/wiki/Wikipedia:Community_portal \"About the project, what you can do, where to find things\")\n  * [Recent changes](/wiki/Special:RecentChanges \"A list of recent changes in the wiki \\[ctrl-alt-r\\]\")\n  * [Contact page](//en.wikipedia.org/wiki/Wikipedia:Contact_us \"How to contact Wikipedia\")\n\n### Tools\n\n  * [What links here](/wiki/Special:WhatLinksHere/Database_schema \"List of all English Wikipedia pages containing links to this page \\[ctrl-alt-j\\]\")\n  * [Related changes](/wiki/Special:RecentChangesLinked/Database_schema \"Recent changes in pages linked from this page \\[ctrl-alt-k\\]\")\n  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard \"Upload files \\[ctrl-alt-u\\]\")\n  * [Special pages](/wiki/Special:SpecialPages \"A list of all special pages \\[ctrl-alt-q\\]\")\n  * [Permanent link](/w/index.php?title=Database_schema&oldid=851764365 \"Permanent link to this revision of the page\")\n  * [Page information](/w/index.php?title=Database_schema&action=info \"More information about this page\")\n  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q632285 \"Link to connected data repository item \\[ctrl-alt-g\\]\")\n  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=Database_schema&id=851764365 \"Information on how to cite this page\")\n\n### Print/export\n\n  * [Create a book](/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Database+schema)\n  * [Download as PDF](/w/index.php?title=Special:ElectronPdf&page=Database+schema&action=show-download-screen)\n  * [Printable version](/w/index.php?title=Database_schema&printable=yes \"Printable version of this page \\[ctrl-alt-p\\]\")\n\n### Languages\n\n  * [العربية](https://ar.wikipedia.org/wiki/%D9%85%D8%AE%D8%B7%D8%B7_%D9%82%D8%A7%D8%B9%D8%AF%D8%A9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA \"مخطط قاعدة بيانات – Arabic\")\n  * [Deutsch](https://de.wikipedia.org/wiki/Relationenschema \"Relationenschema – German\")\n  * [Español](https://es.wikipedia.org/wiki/Esquema_de_una_base_de_datos \"Esquema de una base de datos – Spanish\")\n  * [Euskara](https://eu.wikipedia.org/wiki/Datu-base_eskema \"Datu-base eskema – Basque\")\n  * [한국어](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%8A%A4%ED%82%A4%EB%A7%88 \"데이터베이스 스키마 – Korean\")\n  * [Italiano](https://it.wikipedia.org/wiki/Schema_di_database \"Schema di database – Italian\")\n  * [Nederlands](https://nl.wikipedia.org/wiki/Databaseschema \"Databaseschema – Dutch\")\n  * [日本語](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E_\\(%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9\\) \"スキーマ \\(データベース\\) – Japanese\")\n  * [Norsk](https://no.wikipedia.org/wiki/Databaseskjema \"Databaseskjema – Norwegian\")\n  * [Português](https://pt.wikipedia.org/wiki/Esquema_de_banco_de_dados \"Esquema de banco de dados – Portuguese\")\n  * [Русский](https://ru.wikipedia.org/wiki/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_%D0%B1%D0%B0%D0%B7%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85 \"Схема базы данных – Russian\")\n  * [Simple English](https://simple.wikipedia.org/wiki/Database_schema \"Database schema – Simple English\")\n  * [Українська](https://uk.wikipedia.org/wiki/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B8_%D0%B4%D0%B0%D0%BD%D0%B8%D1%85 \"Схема бази даних – Ukrainian\")\n  * [中文](https://zh.wikipedia.org/wiki/Schema_\\(%E6%95%B0%E6%8D%AE%E5%BA%93\\) \"Schema \\(数据库\\) – Chinese\")\n5 more\n\n[Edit\nlinks](https://www.wikidata.org/wiki/Special:EntityPage/Q632285#sitelinks-\nwikipedia \"Edit interlanguage links\")\n\n  * This page was last edited on 24 July 2018, at 13:04 (UTC).\n  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)[](//creativecommons.org/licenses/by-sa/3.0/); additional terms may apply. By using this site, you agree to the [Terms of Use](//foundation.wikimedia.org/wiki/Terms_of_Use) and [Privacy Policy](//foundation.wikimedia.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.\n\n  * [Privacy policy](https://foundation.wikimedia.org/wiki/Privacy_policy \"wmf:Privacy policy\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Wikipedia:About\")\n  * [Disclaimers](/wiki/Wikipedia:General_disclaimer \"Wikipedia:General disclaimer\")\n  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)\n  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)\n  * [Cookie statement](https://foundation.wikimedia.org/wiki/Cookie_statement)\n  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=Database_schema&mobileaction=toggle_view_mobile)\n  * Enable previews\n\n  * [![Wikimedia Foundation](/static/images/wikimedia-button.png)](https://wikimediafoundation.org/)\n  * [![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)](//www.mediawiki.org/)\n\n"
+    ],
+    "qa": {
+        "question": "the blueprint of any database system is the",
+        "answer": "['schema']",
+        "BM25_documents": [
+            {
+                "id": "nq_2059_0",
+                "score": 12.661100387573242
+            },
+            {
+                "id": "nq_172327_9",
+                "score": 12.606300354003906
+            },
+            {
+                "id": "nq_172327_8",
+                "score": 12.012999534606934
+            },
+            {
+                "id": "nq_172327_12",
+                "score": 11.926199913024902
+            },
+            {
+                "id": "nq_172327_7",
+                "score": 11.84589958190918
+            },
+            {
+                "id": "nq_172327_28",
+                "score": 10.948100090026855
+            },
+            {
+                "id": "nq_189755_62",
+                "score": 8.577300071716309
+            },
+            {
+                "id": "nq_54135_44",
+                "score": 8.52750015258789
+            },
+            {
+                "id": "nq_189755_56",
+                "score": 8.512999534606934
+            },
+            {
+                "id": "nq_54135_41",
+                "score": 8.4753999710083
+            },
+            {
+                "id": "nq_189755_57",
+                "score": 8.469200134277344
+            },
+            {
+                "id": "nq_189755_34",
+                "score": 8.461299896240234
+            },
+            {
+                "id": "nq_157739_17",
+                "score": 8.456000328063965
+            },
+            {
+                "id": "nq_189755_83",
+                "score": 8.455999374389648
+            },
+            {
+                "id": "nq_235682_18",
+                "score": 8.455998420715332
+            },
+            {
+                "id": "nq_157739_21",
+                "score": 8.45479965209961
+            },
+            {
+                "id": "nq_54135_40",
+                "score": 8.446800231933594
+            },
+            {
+                "id": "nq_235682_21",
+                "score": 8.439299583435059
+            },
+            {
+                "id": "nq_189755_86",
+                "score": 8.384499549865723
+            },
+            {
+                "id": "nq_157739_20",
+                "score": 8.379300117492676
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "nq_2059_0",
+                "score": 12.661100387573242
+            },
+            {
+                "id": "nq_2059_2",
+                "score": 8.05049991607666
+            },
+            {
+                "id": "nq_2059_3",
+                "score": 7.193399906158447
+            },
+            {
+                "id": "nq_2059_7",
+                "score": 6.882500171661377
+            },
+            {
+                "id": "nq_2059_8",
+                "score": 6.8824992179870605
+            },
+            {
+                "id": "nq_2059_5",
+                "score": 5.53380012512207
+            },
+            {
+                "id": "nq_2059_1",
+                "score": 5.503599166870117
+            },
+            {
+                "id": "nq_2059_4",
+                "score": 5.453400135040283
+            },
+            {
+                "id": "nq_2059_6",
+                "score": 5.394800186157227
+            },
+            {
+                "id": "nq_2059_10",
+                "score": 5.251100063323975
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_1524_0",
+                "score": 3.411400079727173
+            },
+            {
+                "id": "tat_1299_0",
+                "score": 3.2865920066833496
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_1003_0",
+                "score": 7.174798965454102
+            },
+            {
+                "id": "ott_18121_0",
+                "score": 7.174798011779785
+            },
+            {
+                "id": "ott_37677_0",
+                "score": 7.174797058105469
+            },
+            {
+                "id": "ott_39417_0",
+                "score": 7.174796104431152
+            },
+            {
+                "id": "ott_6467_0",
+                "score": 7.174795150756836
+            },
+            {
+                "id": "ott_19110_1",
+                "score": 6.475096225738525
+            },
+            {
+                "id": "ott_22227_1",
+                "score": 6.475095272064209
+            },
+            {
+                "id": "ott_30960_1",
+                "score": 6.475093841552734
+            },
+            {
+                "id": "ott_31665_1",
+                "score": 6.475092887878418
+            },
+            {
+                "id": "ott_735_1",
+                "score": 6.475091934204102
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_2059_0",
+                "score": 12.661100387573242
+            },
+            {
+                "id": "nq_172327_9",
+                "score": 12.606300354003906
+            },
+            {
+                "id": "nq_172327_8",
+                "score": 12.012999534606934
+            },
+            {
+                "id": "nq_172327_12",
+                "score": 11.926199913024902
+            },
+            {
+                "id": "nq_172327_7",
+                "score": 11.84589958190918
+            },
+            {
+                "id": "nq_172327_28",
+                "score": 10.948100090026855
+            },
+            {
+                "id": "nq_189755_62",
+                "score": 8.577300071716309
+            },
+            {
+                "id": "nq_54135_44",
+                "score": 8.52750015258789
+            },
+            {
+                "id": "nq_189755_56",
+                "score": 8.512999534606934
+            },
+            {
+                "id": "nq_54135_41",
+                "score": 8.4753999710083
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_16257_39",
+                "score": 7.767199993133545
+            },
+            {
+                "id": "triviaqa_59663_123",
+                "score": 7.4481000900268555
+            },
+            {
+                "id": "triviaqa_30834_54",
+                "score": 7.413400173187256
+            },
+            {
+                "id": "triviaqa_72757_8",
+                "score": 7.292500019073486
+            },
+            {
+                "id": "triviaqa_30834_53",
+                "score": 7.192599773406982
+            },
+            {
+                "id": "triviaqa_72757_6",
+                "score": 7.123499870300293
+            },
+            {
+                "id": "triviaqa_5000_7",
+                "score": 7.120999813079834
+            },
+            {
+                "id": "triviaqa_27886_135",
+                "score": 7.10509729385376
+            },
+            {
+                "id": "triviaqa_30834_187",
+                "score": 7.105096340179443
+            },
+            {
+                "id": "triviaqa_59663_124",
+                "score": 7.065000057220459
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0rh6k_3010",
+                "score": 7.011199951171875
+            },
+            {
+                "id": "m.0rh6k_3011",
+                "score": 7.011198997497559
+            },
+            {
+                "id": "m.0b3whff_4",
+                "score": 6.633500099182129
+            },
+            {
+                "id": "m.0b3whff_0",
+                "score": 6.6143999099731445
+            },
+            {
+                "id": "m.0b3whff_9",
+                "score": 6.60290002822876
+            },
+            {
+                "id": "m.0b3whff_5",
+                "score": 6.60129976272583
+            },
+            {
+                "id": "m.0b3whff_7",
+                "score": 6.593999862670898
+            },
+            {
+                "id": "m.0b3whff_3",
+                "score": 6.582799911499023
+            },
+            {
+                "id": "m.0b3whff_8",
+                "score": 6.573999881744385
+            },
+            {
+                "id": "m.0b3whff_6",
+                "score": 6.559800148010254
+            },
+            {
+                "id": "m.0b3whff_10",
+                "score": 6.500999927520752
+            },
+            {
+                "id": "m.0b3whff_1",
+                "score": 6.260700225830078
+            },
+            {
+                "id": "m.0b3whff_2",
+                "score": 6.199399948120117
+            },
+            {
+                "id": "m.01w40h_134",
+                "score": 6.152500152587891
+            },
+            {
+                "id": "m.0j8hd_53",
+                "score": 5.990900039672852
+            },
+            {
+                "id": "m.02h66y8_53",
+                "score": 5.950699806213379
+            },
+            {
+                "id": "m.03h64_72",
+                "score": 5.948999881744385
+            },
+            {
+                "id": "m.0j8hd_215",
+                "score": 5.935400009155273
+            },
+            {
+                "id": "m.0rh6k_1371",
+                "score": 5.860199928283691
+            },
+            {
+                "id": "m.0rh6k_3498",
+                "score": 5.860198974609375
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_172327_8",
+                "score": 0.7295235395431519
+            },
+            {
+                "id": "nq_189755_76",
+                "score": 0.7293232083320618
+            },
+            {
+                "id": "nq_235682_18",
+                "score": 0.7202589511871338
+            },
+            {
+                "id": "nq_2059_1",
+                "score": 0.7147952318191528
+            },
+            {
+                "id": "nq_2059_0",
+                "score": 0.7125568389892578
+            },
+            {
+                "id": "nq_189755_42",
+                "score": 0.7111892104148865
+            },
+            {
+                "id": "nq_189755_1",
+                "score": 0.710134744644165
+            },
+            {
+                "id": "nq_189755_41",
+                "score": 0.7083429098129272
+            },
+            {
+                "id": "nq_235682_19",
+                "score": 0.7081603407859802
+            },
+            {
+                "id": "nq_2059_2",
+                "score": 0.7077087163925171
+            },
+            {
+                "id": "nq_157739_18",
+                "score": 0.7062187790870667
+            },
+            {
+                "id": "nq_189755_69",
+                "score": 0.70119309425354
+            },
+            {
+                "id": "nq_189755_84",
+                "score": 0.7008715867996216
+            },
+            {
+                "id": "nq_172327_7",
+                "score": 0.6983665227890015
+            },
+            {
+                "id": "nq_235682_17",
+                "score": 0.6962260603904724
+            },
+            {
+                "id": "nq_189755_70",
+                "score": 0.6954165697097778
+            },
+            {
+                "id": "nq_235682_16",
+                "score": 0.6947999596595764
+            },
+            {
+                "id": "nq_189755_46",
+                "score": 0.6936941742897034
+            },
+            {
+                "id": "nq_189755_83",
+                "score": 0.6927852630615234
+            },
+            {
+                "id": "nq_157739_15",
+                "score": 0.6921892762184143
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "nq_2059_1",
+                "score": 0.7147952318191528
+            },
+            {
+                "id": "nq_2059_0",
+                "score": 0.7125568389892578
+            },
+            {
+                "id": "nq_2059_2",
+                "score": 0.7077087163925171
+            },
+            {
+                "id": "nq_2059_8",
+                "score": 0.6824315786361694
+            },
+            {
+                "id": "nq_2059_6",
+                "score": 0.671332061290741
+            },
+            {
+                "id": "nq_2059_7",
+                "score": 0.6649380922317505
+            },
+            {
+                "id": "nq_2059_3",
+                "score": 0.6528322696685791
+            },
+            {
+                "id": "nq_2059_5",
+                "score": 0.6472659111022949
+            },
+            {
+                "id": "nq_2059_10",
+                "score": 0.6385113000869751
+            },
+            {
+                "id": "nq_2059_9",
+                "score": 0.6335460543632507
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_172327_8",
+                "score": 0.7295235395431519
+            },
+            {
+                "id": "nq_189755_76",
+                "score": 0.7293232083320618
+            },
+            {
+                "id": "nq_235682_18",
+                "score": 0.7202589511871338
+            },
+            {
+                "id": "nq_2059_1",
+                "score": 0.7147952318191528
+            },
+            {
+                "id": "nq_2059_0",
+                "score": 0.7125568389892578
+            },
+            {
+                "id": "nq_189755_42",
+                "score": 0.7111892104148865
+            },
+            {
+                "id": "nq_189755_1",
+                "score": 0.710134744644165
+            },
+            {
+                "id": "nq_189755_41",
+                "score": 0.7083429098129272
+            },
+            {
+                "id": "nq_235682_19",
+                "score": 0.7081603407859802
+            },
+            {
+                "id": "nq_2059_2",
+                "score": 0.7077087163925171
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_59663_210",
+                "score": 0.6569740176200867
+            },
+            {
+                "id": "triviaqa_31934_5",
+                "score": 0.6467160582542419
+            },
+            {
+                "id": "triviaqa_11586_133",
+                "score": 0.6336683630943298
+            },
+            {
+                "id": "triviaqa_11586_135",
+                "score": 0.6291629076004028
+            },
+            {
+                "id": "triviaqa_31934_6",
+                "score": 0.6235505938529968
+            },
+            {
+                "id": "triviaqa_11586_132",
+                "score": 0.6230511665344238
+            },
+            {
+                "id": "triviaqa_31934_7",
+                "score": 0.6194831132888794
+            },
+            {
+                "id": "triviaqa_25519_15",
+                "score": 0.615939736366272
+            },
+            {
+                "id": "triviaqa_11586_131",
+                "score": 0.6110072731971741
+            },
+            {
+                "id": "triviaqa_30834_305",
+                "score": 0.6077539324760437
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0zlx2vf_8",
+                "score": 0.6100136041641235
+            },
+            {
+                "id": "g.1yn07q00w_2",
+                "score": 0.606701672077179
+            },
+            {
+                "id": "m.0qjxjjd_0",
+                "score": 0.6062273979187012
+            },
+            {
+                "id": "m.0_jqxvf_22",
+                "score": 0.6042568683624268
+            },
+            {
+                "id": "m.0zltyj0_11",
+                "score": 0.6039080619812012
+            },
+            {
+                "id": "m.0zjj89s_10",
+                "score": 0.6031011343002319
+            },
+            {
+                "id": "m.0_6lzlf_9",
+                "score": 0.6027328968048096
+            },
+            {
+                "id": "m.0rql12g_8",
+                "score": 0.6014660000801086
+            },
+            {
+                "id": "m.0_7zp6r_17",
+                "score": 0.6013397574424744
+            },
+            {
+                "id": "m.0_jxywh_24",
+                "score": 0.6011736392974854
+            },
+            {
+                "id": "m.0q767z1_114",
+                "score": 0.6007348895072937
+            },
+            {
+                "id": "m.0zlzgxw_15",
+                "score": 0.6003926396369934
+            },
+            {
+                "id": "m.0zhv2m2_11",
+                "score": 0.6001543402671814
+            },
+            {
+                "id": "g.1yn07q00w_0",
+                "score": 0.5998508930206299
+            },
+            {
+                "id": "m.02zgwmc_243",
+                "score": 0.5997470617294312
+            },
+            {
+                "id": "m.0zj36v4_15",
+                "score": 0.599557101726532
+            },
+            {
+                "id": "m.038pl3_43",
+                "score": 0.5990813374519348
+            },
+            {
+                "id": "m.0_j_l7w_17",
+                "score": 0.5989959836006165
+            },
+            {
+                "id": "m.0zx55md_15",
+                "score": 0.598572850227356
+            },
+            {
+                "id": "m.0_hxzch_21",
+                "score": 0.598383903503418
+            }
+        ],
+        "fail_detail": {
+            "nq_235682_18": [
+                true,
+                true,
+                true
+            ],
+            "nq_172327_7": [
+                false,
+                false,
+                true
+            ],
+            "nq_189755_76": [
+                true,
+                true,
+                true
+            ],
+            "nq_2059_1": [
+                true,
+                true,
+                true
+            ],
+            "nq_2059_2": [
+                true,
+                true,
+                true
+            ],
+            "m.0zlx2vf_8": [
+                true,
+                true,
+                true
+            ],
+            "g.1yn07q00w_2": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_59663_210": [
+                true,
+                true,
+                true
+            ],
+            "nq_172327_8": [
+                false,
+                false,
+                true
+            ],
+            "tat_1524_0": [
+                true,
+                true,
+                true
+            ],
+            "m.0rh6k_3011": [
+                true,
+                true,
+                true
+            ],
+            "ott_1003_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_2059_3": [
+                true,
+                true,
+                true
+            ],
+            "nq_2059_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_172327_9": [
+                true,
+                true,
+                true
+            ],
+            "nq_172327_12": [
+                false,
+                false,
+                true
+            ],
+            "m.0rh6k_3010": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_16257_39": [
+                true,
+                true,
+                true
+            ]
+        },
+        "llm_fail": {},
+        "relevance_judgement": 1,
+        "llm_mark_result": {
+            "nq_235682_18": {
+                "Query Analysis": "The query seeks to identify the fundamental structural design or blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure that defines how data is organized and stored in a database.",
+                "Document Content Analysis": "The document lists various types and concepts related to database management systems, including object-oriented, relational, document-oriented, graph, NoSQL, and NewSQL databases, as well as concepts like ACID, Armstrong's axioms, CAP theorem, CRUD, and various types of keys.",
+                "Document and Query Keywords Matching": "The document mentions 'database' but does not explicitly use the term 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "While the document discusses various aspects and types of databases, it does not directly address the concept of a 'schema' or 'blueprint'.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the answer 'schema'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a broad overview of database concepts and types, which could help someone familiar with the topic infer that a 'schema' might be a key concept, though it is not explicitly stated.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is tangentially related to the query as it covers various aspects of database systems, but it lacks the specific term 'schema' or a direct discussion of what constitutes the 'blueprint' of a database system. Therefore, it is partially relevant, providing some context but not directly answering the query."
+            },
+            "nq_172327_7": {
+                "Query Analysis": "The query is asking for the fundamental structural design or plan that serves as the basis for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure that defines how data is organized and stored in a database.",
+                "Document Content Analysis": "The document discusses the evolution of database systems and networking in the late 1980s, focusing on efforts to provide abstraction layers for various SQL systems and the development of Lotus Development's DataLens, initially known as Blueprint. It describes how Blueprint supported various data sources and was a code-based system without a command language like SQL.",
+                "Document and Query Keywords Matching": "The document mentions 'Blueprint', which is a keyword from the query, although in a different context.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "While the document talks about 'Blueprint' in the context of a specific system (Lotus DataLens), it does not discuss the general concept of a database schema.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the answer 'schema' as the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's discussion on Blueprint and DataLens does not provide information that would help infer the concept of a database schema.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not directly related to the query's main topic of identifying the fundamental structural design of a database system. While it mentions 'Blueprint', this term is used in a specific context related to Lotus Development's product and does not generalize to the concept of a database schema. Therefore, the document is irrelevant to the query."
+            },
+            "nq_189755_76": {
+                "Query Analysis": "The query is asking for the fundamental structure or plan that serves as the basis for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is a term used to describe the structure of a database system.",
+                "Document Content Analysis": "The document lists various books and resources related to database management systems and design. It includes titles and authors but does not provide detailed content from these books.",
+                "Document and Query Keywords Matching": "The document mentions 'Database Management Systems' and 'Database System Concepts', which are related to the broader topic of database systems.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention the term 'schema'.",
+                "Key Information Matching": "While the document discusses resources on database systems, it does not directly address the concept of a schema or blueprint.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific term 'schema' or explain what the blueprint of a database system is.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document can help infer additional information by directing the reader to resources that likely discuss database schemas and their importance.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is tangentially relevant to the query as it provides resources that could potentially contain information about database schemas. However, it does not directly answer the query or mention the term 'schema'. Therefore, it is partially relevant, offering some context but not directly addressing the main topic."
+            },
+            "nq_2059_1": {
+                "Query Analysis": "The query seeks to identify what is considered the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', indicating that the schema is the blueprint of a database system.",
+                "Document Content Analysis": "The document discusses the concept of a database schema, explaining its role in specifying how real-world entities are modeled in the database. It details the components of a schema, such as tables, fields, relationships, and integrity constraints, and compares the schema to a theory in predicate calculus.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'schema', which is directly related to the query's keyword 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'schema', which is the exact answer to the query.",
+                "Key Information Matching": "The document provides a detailed explanation of what a schema is and its importance in a database system, aligning closely with the concept of a 'blueprint'.",
+                "Can the Document Answer the Query": "Yes, the document directly explains that the schema is the foundational structure of a database system, effectively serving as its blueprint.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides comprehensive information about the schema, enhancing the understanding of why it is considered the blueprint.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly addresses the concept of a database schema and its role as the blueprint of a database system. It provides detailed information that not only answers the query but also offers additional context to understand the importance and function of a schema."
+            },
+            "nq_2059_2": {
+                "Query Analysis": "The query is asking for the fundamental component or structure that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which indicates that the schema is the fundamental component or structure that serves as the blueprint for any database system.",
+                "Document Content Analysis": "The document provides detailed information about the schema in a relational database, including its components such as tables, fields, relationships, views, indexes, and other elements. It also mentions how a schema is stored in a data dictionary and its role in defining the structure of the database.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'schema', which is directly related to the query's keyword 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document extensively mentions 'schema', which is the answer to the query.",
+                "Key Information Matching": "The document explains that the schema defines the structure of the database, which aligns with the query's concept of a 'blueprint'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by explaining that the schema is the structure of the database.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive details about what a schema includes and its role in a database system.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly addresses the concept of a schema as the blueprint of a database system. It provides comprehensive information about the schema, which not only answers the query but also offers additional context and details."
+            },
+            "m.0zlx2vf_8": {
+                "Query Analysis": "The query is asking for the fundamental structural design or blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure that defines how data is organized and stored in a database.",
+                "Document Content Analysis": "The document appears to be a technical or metadata description, possibly related to a data processing job or a database entry. It includes various keys and values, such as 'Display name', 'Predicate', 'Type', and 'Recorded versions', but lacks clear context or coherent narrative.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'blueprint' or 'database system'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema'.",
+                "Key Information Matching": "There is no clear match between the key information in the query and the content of the document. The document's content does not relate to the concept of a database schema or its role as a blueprint.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the blueprint or schema of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant context or information that could help infer details about database systems or their schemas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about database systems, their structures, or schemas. The content is cryptic and unrelated to the topic of database design, making it unable to assist in answering the query or providing useful context."
+            },
+            "g.1yn07q00w_2": {
+                "Query Analysis": "The query is asking for the fundamental component or blueprint that defines any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the term used to describe the structure or blueprint of a database system.",
+                "Document Content Analysis": "The document repeatedly mentions the term 'Structure' in various languages, along with a predicate indicating the type of object.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Structure', which is related to the concept of a blueprint.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema', but 'Structure' is a closely related term.",
+                "Key Information Matching": "The document's repeated mention of 'Structure' aligns with the concept of a blueprint or schema in the context of database systems.",
+                "Can the Document Answer the Query": "No, the document does not directly mention 'schema', which is the specific term asked for in the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document's focus on 'Structure' can help infer that it is related to the blueprint or schema of a database system.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly provide the term 'schema', its repeated emphasis on 'Structure' suggests a relevant conceptual connection to the query's focus on the blueprint of a database system. This makes the document partially relevant, as it can aid in understanding the broader concept even if it does not directly answer the query."
+            },
+            "triviaqa_59663_210": {
+                "Query Analysis": "The query is asking for the fundamental structure or design that serves as the basis for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structured design or plan that outlines the organization of data in a database.",
+                "Document Content Analysis": "The document discusses various types of software, including database management software, and provides examples of structured and free-form databases. It mentions data tables, records, and fields but does not explicitly define or discuss the term 'schema'.",
+                "Document and Query Keywords Matching": "The document mentions 'database management software' and 'structured database', which are related to the query keywords 'database system'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention the term 'schema'.",
+                "Key Information Matching": "While the document discusses databases and their structures, it does not directly address the concept of a 'schema' as the blueprint of a database system.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the term 'schema' as the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about databases, their structures, and examples, which can help infer that a structured design (implicitly suggesting a schema) is important for database systems.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses databases and their structured nature, which can help infer the importance of a schema, even though it does not explicitly mention the term 'schema'. It provides useful context about database systems but lacks the specific term needed to directly answer the query."
+            },
+            "nq_172327_8": {
+                "Query Analysis": "The query is asking for the fundamental structure or design that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the term used to describe the structural design of a database system.",
+                "Document Content Analysis": "The document discusses the development of a system called 'Blueprint' for 1-2-3, which supported various data sources and was a code-based system lacking a command language like SQL. It mentions the use of data structures to store query information and the concept of query trees. The document also touches on the development of Microsoft Data Access API and SQL Connectivity standards.",
+                "Document and Query Keywords Matching": "The document mentions 'Blueprint', which is a keyword from the query, but in a different context.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema'.",
+                "Key Information Matching": "The document discusses database-related concepts and systems, but does not directly address the concept of a 'schema' as the blueprint of a database system.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific term 'schema' as the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about database systems and their development, which could help in understanding broader concepts related to database design.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document mentions 'Blueprint' and discusses database systems, it does not directly address the concept of a 'schema'. However, it provides relevant context about database systems and their development, which can be useful for understanding related concepts. Therefore, it is partially relevant to the query."
+            },
+            "tat_1524_0": {
+                "Query Analysis": "The query is asking for the fundamental component or structure that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the term used to describe the structure that defines how data is organized and stored in a database.",
+                "Document Content Analysis": "The document provides financial data related to various assets and their values over two years. It includes categories like property records database, contract assets, right-of-use assets, etc., but does not discuss the structure or design of databases.",
+                "Document and Query Keywords Matching": "The document mentions 'database' in the context of 'property records database', but does not mention 'blueprint' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention the term 'schema' or any related concepts.",
+                "Key Information Matching": "The document does not provide any information about the structure or design of databases, which is the key information required by the query.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on financial data and asset values, which is unrelated to the concept of a database schema. It does not provide any useful context or information that could help answer the query about the blueprint of a database system."
+            },
+            "m.0rh6k_3011": {
+                "Query Analysis": "The query is asking for the fundamental component or structure that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the term used to describe the structure or blueprint of a database system.",
+                "Document Content Analysis": "The document lists various publications and locations, primarily focusing on the place of publication or location being Washington, D.C. It includes titles of books, reports, and other publications, but does not provide detailed content about database systems or their structures.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'blueprint' or 'database system'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'schema'.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document. The document is focused on publication locations and does not touch on topics related to database systems or their structures.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the place of publication for various works and does not provide any information about database systems or their structures. Therefore, it cannot answer the query or help infer any relevant information."
+            },
+            "ott_1003_0": {
+                "Query Analysis": "The query is asking for the fundamental component or structure that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the term used to describe the structure that defines how data is organized and stored in a database system.",
+                "Document Content Analysis": "The document provides a list of content management systems, detailing their platforms, supported databases, latest stable releases, licenses, and latest release dates. It focuses on systems built using Perl and the types of databases they support.",
+                "Document and Query Keywords Matching": "The document mentions 'database' in the context of supported databases for various content management systems.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "While the document discusses databases in the context of content management systems, it does not delve into the structural aspects or definitions of databases, such as schemas.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct answer to what the blueprint of a database system is.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer information that would help infer the concept of a database schema.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about content management systems and the databases they support, but it does not address the core concept of a database schema. Therefore, it is not relevant to the query, as it neither provides the answer nor any useful context that could help infer the answer."
+            },
+            "nq_2059_3": {
+                "Query Analysis": "The query is asking for the fundamental component or structure that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which indicates that the schema is the fundamental component or structure that serves as the blueprint for a database system.",
+                "Document Content Analysis": "The document discusses the concept of a database schema, including its definition, how it is stored, and its role in defining the structure of a database. It also mentions specific requirements for schema integration and provides examples.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'schema', which is directly related to the query's keyword 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document extensively uses the term 'schema', which matches the answer.",
+                "Key Information Matching": "The document explains that the schema is the structure of the database that defines the objects in the database, which directly aligns with the query's intent to identify the blueprint of a database system.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by explaining that the schema is the structure that serves as the blueprint for a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context and details about schemas, including their storage and integration requirements.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it clearly defines and explains the concept of a database schema, which is the answer to the query. It provides substantial useful context and additional information that enhances understanding of the query."
+            },
+            "nq_2059_0": {
+                "Query Analysis": "The query seeks to identify what is considered the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', indicating that the schema is the blueprint of a database system.",
+                "Document Content Analysis": "The document explains what a database schema is, describing it as the structure of a database system described in a formal language. It emphasizes that the schema serves as a blueprint for how the database is constructed and organized.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'database system' and discusses the concept of a 'blueprint' in the context of a database schema.",
+                "Document and Answer Keywords Matching": "The document extensively mentions 'schema' and explains its role as the blueprint of the database system.",
+                "Key Information Matching": "The document directly addresses the concept of a database schema as the blueprint of a database system, aligning perfectly with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the schema is the blueprint of the database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about what a database schema is and its role, which enhances understanding of why it is considered the blueprint.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly addresses the query by explaining that the database schema is the blueprint of a database system. It provides substantial context and detailed information that not only answers the query but also enhances the understanding of the concept."
+            },
+            "nq_172327_9": {
+                "Query Analysis": "The query is asking for the fundamental structure or plan that serves as the basis for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structural representation of a database that defines how data is organized and how the relationships among them are associated.",
+                "Document Content Analysis": "The document discusses the evolution of library systems, the Microsoft Data Access API, and the SQL Access Group's efforts to standardize SQL and related interfaces. It mentions various industry movements and collaborations but does not directly discuss database schemas.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'blueprint' or 'database system'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema'.",
+                "Key Information Matching": "There is no direct mention of the key concepts related to the query, such as 'blueprint', 'database system', or 'schema'.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the concept of a database schema.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the historical development of data access APIs and SQL standardization efforts, which are not directly related to the concept of a database schema. It does not provide any useful context or additional information that could help answer the query about the blueprint of a database system."
+            },
+            "nq_172327_12": {
+                "Query Analysis": "The query is asking for the fundamental structure or design that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure that defines how data is organized and how relationships among them are associated.",
+                "Document Content Analysis": "The document discusses the development of Microsoft's Jet database system, its components, and its integration with other databases and SQL. It mentions ISAM-based database engine, C-based interface, dynamic-link libraries, and the adaptation to CLI standard.",
+                "Document and Query Keywords Matching": "The document mentions 'database system' and 'Jet', which is a type of database system.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "While the document discusses database systems and their components, it does not directly address the concept of a 'schema' or any term that could be synonymous with 'blueprint'.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct answer to what the blueprint of a database system is.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide enough context or related information to infer the concept of a 'schema' as the blueprint of a database system.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily focused on the technical details of Microsoft's Jet database system and its integration with other technologies. It does not address the fundamental concept of what constitutes the blueprint of a database system, nor does it mention 'schema' or any related term that could help infer the answer. Therefore, it is deemed irrelevant to the query."
+            },
+            "m.0rh6k_3010": {
+                "Query Analysis": "The query is asking for the fundamental structural design or plan that serves as the foundation for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the organizational structure of a database that defines how data is stored, accessed, and updated.",
+                "Document Content Analysis": "The document lists various publications and their places of publication, all of which are in Washington, D.C. It also includes some additional information like street addresses and specific topics of the publications.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'blueprint' or 'database system'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'schema'.",
+                "Key Information Matching": "There is no information in the document that relates to database systems, blueprints, or schemas.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about database systems or their blueprints.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about database systems or their structural designs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the publication details of various works and does not touch upon the topic of database systems or their foundational structures. Therefore, it is deemed irrelevant to the query."
+            },
+            "triviaqa_16257_39": {
+                "Query Analysis": "The query is asking for the fundamental design or structure that serves as the blueprint for any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer indicates that the term 'schema' refers to the blueprint of a database system.",
+                "Document Content Analysis": "The document discusses the historical agreement between the UK and China regarding the handover of Hong Kong in 1997. It includes details about the political and administrative arrangements, the concept of 'one country, two systems', and the autonomy Hong Kong will maintain under Chinese control.",
+                "Document and Query Keywords Matching": "The document uses the term 'blueprint' in the context of Hong Kong's future development, but does not mention 'database system'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema' or any terms directly related to database systems.",
+                "Key Information Matching": "The use of 'blueprint' in the document is in a completely different context (political agreement) and does not relate to the technical context of a database system.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about database systems or their blueprints.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is entirely unrelated to the topic of database systems.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the historical and political context of Hong Kong's handover and does not contain any information relevant to database systems or their structural designs. The term 'blueprint' is used in a purely political sense, which is unrelated to the technical query about database schemas."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_235682_18": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which refers to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the structural definition of a database.",
+                "Document Content Analysis": "The document provides information about various types of database management systems and related concepts, including terms like 'Database', 'ACID', 'Armstrong's axioms', 'CAP theorem', 'CRUD', 'Null', 'Candidate key', 'Foreign key', 'Superkey', 'Surrogate key', and 'Unique key'.",
+                "Document and Query Keywords Matching": "The document mentions 'Database' and related terms, which are relevant to the query's focus on database systems.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema', which is the answer to the query.",
+                "Key Information Matching": "The document discusses various database concepts and types but does not directly address the 'blueprint' or 'schema' of a database system.",
+                "Can the Document Answer the Query": "No, the document does not directly mention 'schema' or the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides general information about database systems and related concepts, which could indirectly help in understanding the structure of databases.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses database systems and related concepts but does not directly address the query's focus on the blueprint (schema) of a database system. It provides some context but lacks the specific information needed to answer the query."
+            },
+            "nq_172327_7": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which refers to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint or structure of a database system.",
+                "Document Content Analysis": "The document discusses various database systems, protocols, and abstraction layers used in the late 1980s, including Lotus Development's DataLens, initially known as Blueprint. It mentions how Blueprint supported various data sources and was a code-based system for querying data.",
+                "Document and Query Keywords Matching": "The document mentions 'Blueprint', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "The document discusses 'Blueprint' as a system for querying data, which is related to the concept of a database blueprint but does not directly mention 'schema'.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the blueprint of a database system is the schema.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about database systems and the term 'Blueprint', which is related to the query's topic.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses 'Blueprint' in the context of database systems, which is related to the query's topic. However, it does not directly answer the query or mention 'schema'."
+            },
+            "nq_189755_76": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint of a database system.",
+                "Document Content Analysis": "The document lists several books and resources related to database management systems, including titles like 'Database Management Systems', 'Database System Concepts', and 'Physical Database Design'. It also includes external links to Wikipedia's sister projects for more information on databases.",
+                "Document and Query Keywords Matching": "The document mentions 'database' and 'Database Management Systems', which are related to the query's keywords 'database system'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "The document provides references to books and resources about database systems, which could indirectly relate to the concept of a 'schema' as the blueprint of a database system.",
+                "Can the Document Answer the Query": "No, the document does not directly mention 'schema' or explicitly state that it is the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides resources that could help infer or learn more about database systems, including the concept of a schema.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it provides resources about database systems, but it does not directly answer the query or explicitly mention the key concept of 'schema'. It can help infer additional information but is not directly tied to the main topic of the query."
+            },
+            "nq_2059_1": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint of a database system.",
+                "Document Content Analysis": "The document discusses the concept of a database schema, its role, and its components, including tables, fields, relationships, views, indexes, and more. It explains how a schema models real-world entities in a database and its importance in defining the structure and constraints of a database.",
+                "Document and Query Keywords Matching": "The document mentions 'database schema', which aligns with the query's keywords 'blueprint' and 'database system'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'schema', which is the answer to the query.",
+                "Key Information Matching": "The document provides a detailed explanation of what a database schema is, which directly matches the query's request for the blueprint of a database system.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the schema is the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive details about the schema, its components, and its role in database systems.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information about the database schema, which is the blueprint of a database system. It not only answers the query but also enhances understanding with additional details."
+            },
+            "nq_2059_2": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint or structure of a database system.",
+                "Document Content Analysis": "The document discusses the concept of a schema in a relational database, detailing its components such as tables, fields, relationships, views, indexes, and other elements. It also mentions that the schema defines the structure of the database and is stored in a data dictionary.",
+                "Document and Query Keywords Matching": "The document mentions 'database' and 'schema', which relates to 'database system' and 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'schema', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the concept of a schema as the structure or blueprint of a database, which matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the schema is the structure of the database, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about what a schema includes and its role in a database system.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('schema') as well as additional context about what a schema entails in a database system. This makes it highly relevant as it enhances understanding of the query's topic."
+            },
+            "m.0zlx2vf_8": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which is understood to be the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure or organization of data in a database.",
+                "Document Content Analysis": "The document contains metadata about a job or work, including references to 'Composition', 'Abstract', and a musical piece 'Die Entführung aus dem Serail'. There is no mention of database systems or schemas.",
+                "Document and Query Keywords Matching": "None of the query keywords ('blueprint', 'database system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('schema') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to database systems or their blueprints (schemas).",
+                "Can the Document Answer the Query": "No, the document does not mention anything about database systems or schemas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or related details.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about database systems and their blueprints (schemas). It contains metadata about a job or work and a musical piece, which does not provide any useful context or information for the query."
+            },
+            "g.1yn07q00w_2": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which is typically referred to as the schema.",
+                "Query Keywords Extraction": "blueprint, database system, schema",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint of a database system.",
+                "Document Content Analysis": "The document lists various translations of the word 'Structure' in different languages, but does not mention anything about database systems or schemas.",
+                "Document and Query Keywords Matching": "None of the query keywords ('blueprint', 'database system', 'schema') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'schema' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to database systems or schemas.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about database systems or schemas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not provide any key information related to the query or the answer. It only lists translations of the word 'Structure' in different languages, which is unrelated to database systems or schemas."
+            },
+            "triviaqa_59663_210": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure or blueprint of a database.",
+                "Document Content Analysis": "The document discusses various types of software, including database management software, and describes how structured databases contain data tables arranged in a uniform structure of records and fields. It also mentions free-form databases like the World Wide Web.",
+                "Document and Query Keywords Matching": "The document mentions 'database management software' and 'structured database', which relate to 'database system' in the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema', but it describes the structure of a database, which is related to the concept of a schema.",
+                "Key Information Matching": "The document provides information about the structure of databases, which aligns with the concept of a 'blueprint' or 'schema' in the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not explicitly mention 'schema' as the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document describes the structure of databases, which is related to the concept of a schema.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about the structure of databases, which is related to the query's focus on the blueprint of a database system. However, it does not explicitly mention 'schema', so it is partially relevant."
+            },
+            "nq_172327_8": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which refers to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint or structure of a database system.",
+                "Document Content Analysis": "The document discusses various database systems, data sources, and technologies like SQL/DS, DB2, FOCUS, dBase, Microsoft SQL Server, and Blueprint. It also mentions data structures, query trees, and industry standards like SQL Connectivity (SQLC).",
+                "Document and Query Keywords Matching": "The document mentions 'Blueprint', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "The document discusses 'Blueprint' as a code-based system for database queries, but it does not directly address the concept of a 'schema' as the blueprint of a database system.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the blueprint of a database system is the schema.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide information that helps infer the answer or related concepts.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Blueprint' but does not relate it to the concept of a schema or the fundamental structure of a database system. It discusses various database technologies and standards but does not provide key information relevant to the query."
+            },
+            "tat_1524_0": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which refers to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the structural definition of a database.",
+                "Document Content Analysis": "The document provides financial data related to various assets, including property records database, contract assets, and other non-current assets. It does not discuss database design or structure.",
+                "Document and Query Keywords Matching": "The document mentions 'Property records database', which includes the keyword 'database'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema' or any related terms.",
+                "Key Information Matching": "The document does not provide any information about the structure or design of a database system.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information about database design.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query about the blueprint of a database system. It contains financial data and does not provide any useful context or information about database structures or schemas."
+            },
+            "m.0rh6k_3011": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which refers to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the structural definition of a database.",
+                "Document Content Analysis": "The document lists various publications and their details, primarily focusing on places of publication, birth, or containment, mostly in Washington, D.C. It includes a mention of 'Nile Delta drill core and sample database for 1985-1994' and 'A data base for vocational education and manpower training', but does not discuss database blueprints or schemas.",
+                "Document and Query Keywords Matching": "The document mentions 'database' in the context of 'Nile Delta drill core and sample database' and 'A data base for vocational education and manpower training', but does not mention 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema' or any related terms.",
+                "Key Information Matching": "The document does not provide any information about the blueprint or schema of a database system.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context about database blueprints or schemas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information related to the blueprint or schema of a database system. The mentions of 'database' in the document are in unrelated contexts and do not contribute to answering the query or providing useful context."
+            },
+            "ott_1003_0": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which refers to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint or structure of a database system.",
+                "Document Content Analysis": "The document lists various content management systems, their platforms, supported databases, latest stable releases, licenses, and latest release dates. It does not discuss the blueprint or schema of database systems.",
+                "Document and Query Keywords Matching": "The document mentions 'database' in the context of supported databases for content management systems, but does not mention 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema'.",
+                "Key Information Matching": "The document does not provide any information about the blueprint or schema of database systems.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the blueprint of database systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about content management systems and their supported databases but does not provide any information about the blueprint or schema of database systems, which is the focus of the query. Therefore, it is irrelevant."
+            },
+            "nq_2059_3": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the blueprint or structure of a database system.",
+                "Document Content Analysis": "The document discusses the concept of a database schema, its storage in a data dictionary, its graphical depiction, and its role in defining the structure of a database. It also mentions specific requirements for schema integration and examples.",
+                "Document and Query Keywords Matching": "The document mentions 'database' and 'schema', which relates to 'database system' and 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'schema', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the concept of a schema as the structure or blueprint of a database, which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the schema is the structure of the database, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about schema integration and examples, which could be useful for understanding the concept further.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it defines and explains the schema, which is the blueprint of a database system. It not only answers the query but also provides additional context and information about schemas."
+            },
+            "nq_2059_0": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure or blueprint of a database system.",
+                "Document Content Analysis": "The document explains that the database schema is the structure of a database system, described in a formal language supported by the DBMS. It refers to the organization of data as a blueprint of how the database is constructed.",
+                "Document and Query Keywords Matching": "The document mentions 'database system' and 'blueprint' in the context of the database schema.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'schema' as the blueprint of the database system.",
+                "Key Information Matching": "The document directly states that the schema is the blueprint of the database system, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the schema is the blueprint of the database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about what a database schema entails and its importance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional useful context about the database schema."
+            },
+            "nq_172327_9": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which is understood to refer to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structural definition of a database.",
+                "Document Content Analysis": "The document discusses the evolution of database standards, including the Microsoft Data Access API, SQL Connectivity (SQLC), and the SQL Access Group (SAG). It mentions efforts to standardize SQL and related interfaces but does not explicitly discuss the concept of a 'schema' or the blueprint of a database system.",
+                "Document and Query Keywords Matching": "The document mentions 'database' and 'SQL', which are related to 'database system', but does not mention 'blueprint'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema'.",
+                "Key Information Matching": "The document discusses database standards and SQL, which are related to database systems, but does not provide information about the blueprint (schema) of a database system.",
+                "Can the Document Answer the Query": "No, the document does not mention 'schema' or the blueprint of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that helps infer the answer or related concepts.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses database standards and SQL but does not mention the blueprint (schema) of a database system or provide any relevant information to answer the query. Therefore, it is irrelevant to the query."
+            },
+            "nq_172327_12": {
+                "Query Analysis": "The query asks for the blueprint of any database system, which refers to the fundamental structure or design that defines how data is organized and accessed.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is the fundamental structure or design of a database system.",
+                "Document Content Analysis": "The document discusses the development of Microsoft's Jet database system, its components, and its adaptation to the CLI standard. It mentions data structures, function calls, and SQL parsers but does not explicitly mention 'schema' or 'blueprint'.",
+                "Document and Query Keywords Matching": "The document mentions 'database system' and 'data structures', which are related to the query's keywords.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "The document discusses the structure and components of a database system (Jet) but does not directly address the concept of a 'blueprint' or 'schema'.",
+                "Can the Document Answer the Query": "No, the document does not directly mention 'schema' or 'blueprint'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, as it provides information about the structure and components of a database system, which is related to the concept of a blueprint.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses the structure of a database system, but it does not directly address the concept of a 'blueprint' or 'schema'. It provides some context but is not directly tied to the main topic of the query."
+            },
+            "m.0rh6k_3010": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure or blueprint of a database system.",
+                "Document Content Analysis": "The document contains various publication details, place of birth, death, and other unrelated information, with no mention of database systems or schemas.",
+                "Document and Query Keywords Matching": "None of the query keywords ('blueprint', 'database system') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'schema' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to database systems or their blueprints.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about database systems or schemas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query about the blueprint of a database system. It does not contain any keywords or information that could assist in answering the query or providing relevant context."
+            },
+            "triviaqa_16257_39": {
+                "Query Analysis": "The query asks for the blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which refers to the structure or blueprint of a database system.",
+                "Document Content Analysis": "The document discusses the agreement between the UK and China regarding the handover of Hong Kong in 1997, mentioning the term 'blueprint' in the context of Hong Kong's development.",
+                "Document and Query Keywords Matching": "The document mentions 'blueprint', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'schema' or any related terms.",
+                "Key Information Matching": "The document uses the term 'blueprint' but in a completely different context (Hong Kong's development) unrelated to database systems.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about database systems or their blueprints.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is unrelated to database systems.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or information related to database systems or their blueprints. The mention of 'blueprint' is in a completely different context."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_235682_18": {},
+            "nq_172327_7": {
+                "Query Analysis": "The query is asking for the foundational structure or design of a database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer provided is 'schema', which refers to the structure of a database that defines how data is organized.",
+                "Document Content Analysis": "The document discusses the evolution of database systems and software in the late 1980s, focusing on efforts to standardize SQL interfaces, including IBM's DRDA and Apple's Data Access Language. It also discusses Lotus Development's Blueprint, which was a data management system for integrating various data sources.",
+                "Document and Query Keywords Matching": "The document mentions 'Blueprint' in the context of Lotus Development's data management system.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema'.",
+                "Key Information Matching": "The document does not directly refer to schematics or schemas of database systems but mentions 'Blueprint', which is analogous to a foundational design, yet in a different context.",
+                "Can the Document Answer the Query": "No, the document does not directly define or describe the blueprint of a database system as being a schema.",
+                "Can the Document Help Infer Additional Information Required by the Query": "The document provides historical context on database systems, particularly Lotus Development's Blueprint, which indirectly relates to database design but lacks specific information about schemas.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer what the blueprint of a database system is (i.e., a schema), it provides related information about database system development and components like 'Blueprint' from Lotus Development. This offers some context that could lead to a broader understanding of database design principles, but it is not directly focused on schemas."
+            },
+            "nq_189755_76": {},
+            "nq_2059_1": {},
+            "nq_2059_2": {},
+            "m.0zlx2vf_8": {},
+            "g.1yn07q00w_2": {
+                "Query Analysis": "The query is asking for what constitutes the fundamental blueprint of a database system.",
+                "Query Keywords Extraction": [
+                    "blueprint",
+                    "database system"
+                ],
+                "Answer Analysis": "The answer indicates that the schema is considered the blueprint of a database system.",
+                "Document Content Analysis": "The document contains several entries, all showing a common display name 'Structure' and a predicate '/type/object/type'. The display name is translated into many languages, but the consistent term used is 'Structure'.",
+                "Document and Query Keywords Matching": "The document includes 'Structure', which could loosely relate to 'blueprint', though 'database system' is not explicitly mentioned.",
+                "Document and Answer Keywords Matching": "The term 'schema' is not directly found within the document.",
+                "Key Information Matching": "The document repeatedly uses the term 'Structure', which echoes the concept of a 'blueprint', but does not mention 'schema' or directly relate to database systems.",
+                "Can the Document Answer the Query": "No, the document does not provide information specific to database systems or schemas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, the concept of 'Structure' can be related to the idea of a blueprint, but it does not explicitly address database systems or schemas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not provide relevant information about the core concept of schemas in database systems. It does contain repetitive information about 'Structure' but lacks specific context or connection to the query, leading to a judgement of being irrelevant."
+            },
+            "triviaqa_59663_210": {},
+            "nq_172327_8": {
+                "Query Analysis": "The query asks for the fundamental blueprint or fundamental structure of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer is 'schema', which is a fundamental structure or blueprint of a database system, detailing how data is organized.",
+                "Document Content Analysis": "The document discusses various database systems and technologies including Blueprint, SQL/DS, DB2, FOCUS, dBase, Microsoft SQL Server, and the history of query-building and standardization in database systems.",
+                "Document and Query Keywords Matching": "The document mentions 'Blueprint', which is semantically related to the keyword 'blueprint' in the query, although it refers to a specific system rather than a general concept.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'schema', but does discuss data structures and methods of querying within database systems, which are related to the concept of a schema.",
+                "Key Information Matching": "The document mentions 'Blueprint' and details about query-building and SQL standards which are indirectly related to the organizational structure of a database system.",
+                "Can the Document Answer the Query": "No, the document does not directly provide information about the general blueprint or schema of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides contextual information about database systems and their operation which could aid in understanding the role of schema in a broader context.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document does not directly address the query regarding the 'blueprint' or schema of a database system. However, it provides contextual insights about database systems and query methods that can partially aid in understanding the larger structure, thereby being partially relevant."
+            },
+            "tat_1524_0": {},
+            "m.0rh6k_3011": {},
+            "ott_1003_0": {},
+            "nq_2059_3": {},
+            "nq_2059_0": {},
+            "nq_172327_9": {},
+            "nq_172327_12": {
+                "Query Analysis": "The query is asking about the foundational component or blueprint of any database system.",
+                "Query Keywords Extraction": "blueprint, database system",
+                "Answer Analysis": "The answer provided is 'schema', which refers to the structure or blueprint of a database system.",
+                "Document Content Analysis": "The document provides information on the Microsoft Jet Database Engine, its subsystems, and how it was adapted to use SQL through a collaboration with PageAhead Software. It discusses technical aspects of database engines, interfaces, and drivers.",
+                "Document and Query Keywords Matching": "The document contains 'database' and 'system' in the context of discussing the Jet Database Engine.",
+                "Document and Answer Keywords Matching": "The document does not mention the specific term 'schema'.",
+                "Key Information Matching": "The document discusses elements related to database systems and their implementation but does not explicitly discuss the concept of a blueprint like a schema.",
+                "Can the Document Answer the Query": "No, the document does not directly address the concept of a 'blueprint' or 'schema' of a database system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "The document provides technical details about specific database systems, which may assist in understanding database structures, but it lacks discussion on general database schema concepts.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document provides information about database systems, it does not directly address or contribute to understanding the concept of a database 'blueprint' or 'schema'. It contains related technical information that could provide some context but is not directly relevant to the main topic of the query."
+            },
+            "m.0rh6k_3010": {},
+            "triviaqa_16257_39": {}
+        },
+        "dataset_score": {
+            "kg": 0,
+            "nq": 5,
+            "ott": 0,
+            "triviaqa": 1,
+            "tat": 0
+        }
+    }
+}

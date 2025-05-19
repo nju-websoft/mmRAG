@@ -1,0 +1,992 @@
+{
+    "index": 78045,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "What name is given to the layer of the atmosphere closest to the surface of the Earth?",
+        "answer": "Troposphere",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_66333_14",
+                "score": 22.142799377441406
+            },
+            {
+                "id": "triviaqa_41169_10",
+                "score": 20.256099700927734
+            },
+            {
+                "id": "triviaqa_43774_24",
+                "score": 20.2560977935791
+            },
+            {
+                "id": "triviaqa_17069_10",
+                "score": 19.750999450683594
+            },
+            {
+                "id": "triviaqa_1989_38",
+                "score": 19.375
+            },
+            {
+                "id": "triviaqa_8759_6",
+                "score": 19.242399215698242
+            },
+            {
+                "id": "nq_1469_22",
+                "score": 19.215900421142578
+            },
+            {
+                "id": "nq_231902_22",
+                "score": 19.215898513793945
+            },
+            {
+                "id": "nq_9148_22",
+                "score": 19.215898513793945
+            },
+            {
+                "id": "triviaqa_66333_16",
+                "score": 19.079200744628906
+            },
+            {
+                "id": "triviaqa_51432_22",
+                "score": 18.325300216674805
+            },
+            {
+                "id": "nq_158976_22",
+                "score": 18.094999313354492
+            },
+            {
+                "id": "triviaqa_62937_85",
+                "score": 18.090999603271484
+            },
+            {
+                "id": "triviaqa_43774_11",
+                "score": 18.07699966430664
+            },
+            {
+                "id": "triviaqa_1964_35",
+                "score": 17.949800491333008
+            },
+            {
+                "id": "triviaqa_2056_3",
+                "score": 17.90920066833496
+            },
+            {
+                "id": "triviaqa_1964_39",
+                "score": 17.855499267578125
+            },
+            {
+                "id": "triviaqa_2654_35",
+                "score": 17.84760093688965
+            },
+            {
+                "id": "nq_1469_21",
+                "score": 17.78890037536621
+            },
+            {
+                "id": "nq_231902_21",
+                "score": 17.788898468017578
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_15397_2",
+                "score": 9.71399974822998
+            },
+            {
+                "id": "ott_19678_2",
+                "score": 9.713998794555664
+            },
+            {
+                "id": "ott_2206_2",
+                "score": 9.713997840881348
+            },
+            {
+                "id": "ott_2848_2",
+                "score": 9.713996887207031
+            },
+            {
+                "id": "ott_30381_2",
+                "score": 9.713995933532715
+            },
+            {
+                "id": "ott_15397_1",
+                "score": 9.48390007019043
+            },
+            {
+                "id": "ott_19678_1",
+                "score": 9.483899116516113
+            },
+            {
+                "id": "ott_2206_1",
+                "score": 9.483898162841797
+            },
+            {
+                "id": "ott_2848_1",
+                "score": 9.48389720916748
+            },
+            {
+                "id": "ott_30381_1",
+                "score": 9.483896255493164
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_1469_22",
+                "score": 19.215900421142578
+            },
+            {
+                "id": "nq_231902_22",
+                "score": 19.215898513793945
+            },
+            {
+                "id": "nq_9148_22",
+                "score": 19.215898513793945
+            },
+            {
+                "id": "nq_158976_22",
+                "score": 18.094999313354492
+            },
+            {
+                "id": "nq_1469_21",
+                "score": 17.78890037536621
+            },
+            {
+                "id": "nq_231902_21",
+                "score": 17.788898468017578
+            },
+            {
+                "id": "nq_9148_21",
+                "score": 17.788898468017578
+            },
+            {
+                "id": "nq_104119_39",
+                "score": 17.78190040588379
+            },
+            {
+                "id": "nq_1469_17",
+                "score": 17.768699645996094
+            },
+            {
+                "id": "nq_231902_17",
+                "score": 17.76869773864746
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_66333_14",
+                "score": 22.142799377441406
+            },
+            {
+                "id": "triviaqa_41169_10",
+                "score": 20.256099700927734
+            },
+            {
+                "id": "triviaqa_43774_24",
+                "score": 20.2560977935791
+            },
+            {
+                "id": "triviaqa_17069_10",
+                "score": 19.750999450683594
+            },
+            {
+                "id": "triviaqa_1989_38",
+                "score": 19.375
+            },
+            {
+                "id": "triviaqa_8759_6",
+                "score": 19.242399215698242
+            },
+            {
+                "id": "triviaqa_66333_16",
+                "score": 19.079200744628906
+            },
+            {
+                "id": "triviaqa_51432_22",
+                "score": 18.325300216674805
+            },
+            {
+                "id": "triviaqa_62937_85",
+                "score": 18.090999603271484
+            },
+            {
+                "id": "triviaqa_43774_11",
+                "score": 18.07699966430664
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.07_9__65",
+                "score": 9.19219970703125
+            },
+            {
+                "id": "m.0jcx_167",
+                "score": 8.739299774169922
+            },
+            {
+                "id": "m.07_9__66",
+                "score": 8.560700416564941
+            },
+            {
+                "id": "m.0796wt_0",
+                "score": 8.279000282287598
+            },
+            {
+                "id": "m.0796wt_12",
+                "score": 7.768099784851074
+            },
+            {
+                "id": "m.026l0kq_1",
+                "score": 7.24459981918335
+            },
+            {
+                "id": "m.09d_r_432",
+                "score": 7.0825982093811035
+            },
+            {
+                "id": "m.026l0kq_2",
+                "score": 7.034800052642822
+            },
+            {
+                "id": "m.0gvcr_64",
+                "score": 7.020400047302246
+            },
+            {
+                "id": "m.0j0k_184",
+                "score": 6.9446001052856445
+            },
+            {
+                "id": "m.015j7_261",
+                "score": 6.91480016708374
+            },
+            {
+                "id": "m.019fz_483",
+                "score": 6.866000175476074
+            },
+            {
+                "id": "m.0b5lgh_4",
+                "score": 6.863899230957031
+            },
+            {
+                "id": "m.0jcx_168",
+                "score": 6.809999942779541
+            },
+            {
+                "id": "m.0x38w_18",
+                "score": 6.786900043487549
+            },
+            {
+                "id": "m.03ch_b0_0",
+                "score": 6.742300033569336
+            },
+            {
+                "id": "m.01gmkg_415",
+                "score": 6.70959997177124
+            },
+            {
+                "id": "m.09d_r_433",
+                "score": 6.70189905166626
+            },
+            {
+                "id": "m.0796wt_1",
+                "score": 6.687600135803223
+            },
+            {
+                "id": "m.027lfyz_4",
+                "score": 6.648799896240234
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_158976_18",
+                "score": 0.776584267616272
+            },
+            {
+                "id": "nq_231902_22",
+                "score": 0.7713379859924316
+            },
+            {
+                "id": "nq_1469_22",
+                "score": 0.7713379859924316
+            },
+            {
+                "id": "nq_9148_22",
+                "score": 0.7713379859924316
+            },
+            {
+                "id": "triviaqa_66333_35",
+                "score": 0.7656410336494446
+            },
+            {
+                "id": "triviaqa_41169_11",
+                "score": 0.7620575428009033
+            },
+            {
+                "id": "nq_158976_11",
+                "score": 0.7604995965957642
+            },
+            {
+                "id": "triviaqa_43774_24",
+                "score": 0.7604472041130066
+            },
+            {
+                "id": "nq_158976_17",
+                "score": 0.7580621838569641
+            },
+            {
+                "id": "triviaqa_41169_10",
+                "score": 0.7566352486610413
+            },
+            {
+                "id": "triviaqa_43774_25",
+                "score": 0.7566052675247192
+            },
+            {
+                "id": "nq_158976_1",
+                "score": 0.7536088228225708
+            },
+            {
+                "id": "nq_231902_18",
+                "score": 0.751984715461731
+            },
+            {
+                "id": "nq_1469_18",
+                "score": 0.751984715461731
+            },
+            {
+                "id": "nq_9148_18",
+                "score": 0.751984715461731
+            },
+            {
+                "id": "nq_159908_0",
+                "score": 0.7506768107414246
+            },
+            {
+                "id": "nq_159908_3",
+                "score": 0.7501420378684998
+            },
+            {
+                "id": "triviaqa_1964_25",
+                "score": 0.7479884624481201
+            },
+            {
+                "id": "triviaqa_66333_15",
+                "score": 0.7469947338104248
+            },
+            {
+                "id": "triviaqa_66333_16",
+                "score": 0.7439713478088379
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_35343_2",
+                "score": 0.61928391456604
+            },
+            {
+                "id": "ott_28958_2",
+                "score": 0.61928391456604
+            },
+            {
+                "id": "ott_38075_2",
+                "score": 0.61928391456604
+            },
+            {
+                "id": "ott_16246_2",
+                "score": 0.61928391456604
+            },
+            {
+                "id": "ott_24741_1",
+                "score": 0.5934755206108093
+            },
+            {
+                "id": "ott_9334_1",
+                "score": 0.5934755206108093
+            },
+            {
+                "id": "ott_22906_1",
+                "score": 0.5934755206108093
+            },
+            {
+                "id": "ott_23195_1",
+                "score": 0.5934755206108093
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_158976_18",
+                "score": 0.776584267616272
+            },
+            {
+                "id": "nq_231902_22",
+                "score": 0.7713379859924316
+            },
+            {
+                "id": "nq_1469_22",
+                "score": 0.7713379859924316
+            },
+            {
+                "id": "nq_9148_22",
+                "score": 0.7713379859924316
+            },
+            {
+                "id": "nq_158976_11",
+                "score": 0.7604995965957642
+            },
+            {
+                "id": "nq_158976_17",
+                "score": 0.7580621838569641
+            },
+            {
+                "id": "nq_158976_1",
+                "score": 0.7536088228225708
+            },
+            {
+                "id": "nq_231902_18",
+                "score": 0.751984715461731
+            },
+            {
+                "id": "nq_1469_18",
+                "score": 0.751984715461731
+            },
+            {
+                "id": "nq_9148_18",
+                "score": 0.751984715461731
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_66333_35",
+                "score": 0.7656410336494446
+            },
+            {
+                "id": "triviaqa_41169_11",
+                "score": 0.7620575428009033
+            },
+            {
+                "id": "triviaqa_43774_24",
+                "score": 0.7604472041130066
+            },
+            {
+                "id": "triviaqa_41169_10",
+                "score": 0.7566352486610413
+            },
+            {
+                "id": "triviaqa_43774_25",
+                "score": 0.7566052675247192
+            },
+            {
+                "id": "triviaqa_1964_25",
+                "score": 0.7479884624481201
+            },
+            {
+                "id": "triviaqa_66333_15",
+                "score": 0.7469947338104248
+            },
+            {
+                "id": "triviaqa_66333_16",
+                "score": 0.7439713478088379
+            },
+            {
+                "id": "triviaqa_1964_26",
+                "score": 0.7435724139213562
+            },
+            {
+                "id": "triviaqa_39383_710",
+                "score": 0.736014723777771
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.05k3k_42",
+                "score": 0.6181745529174805
+            },
+            {
+                "id": "m.05k3k_83",
+                "score": 0.606766939163208
+            },
+            {
+                "id": "m.09d_r_198",
+                "score": 0.6051942110061646
+            },
+            {
+                "id": "m.09d_r_432",
+                "score": 0.6009193658828735
+            },
+            {
+                "id": "m.09d_r_197",
+                "score": 0.5993006229400635
+            },
+            {
+                "id": "m.03rz4_179",
+                "score": 0.5964264273643494
+            },
+            {
+                "id": "m.09d_r_285",
+                "score": 0.5958136320114136
+            },
+            {
+                "id": "m.05k3k_43",
+                "score": 0.5955849289894104
+            }
+        ],
+        "llm_mark_result": {
+            "ott_15397_2": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses ultraviolet astronomy, the absorption of ultraviolet light by the Earth's atmosphere, and the need for observations to be conducted from the upper atmosphere or space. It also mentions various types of space telescopes and their frequency ranges.",
+                "Document and Query Keywords Matching": "The document mentions 'Earth's atmosphere' but does not specifically discuss atmospheric layers.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Troposphere' or any specific atmospheric layers.",
+                "Key Information Matching": "While the document discusses the Earth's atmosphere in the context of ultraviolet light absorption, it does not provide any information about the different layers of the atmosphere.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks specific information about atmospheric layers and their names.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on ultraviolet astronomy and the absorption of ultraviolet light by the Earth's atmosphere, which is not directly related to the query about atmospheric layers. It does not provide any information that could help answer the query or infer additional relevant information."
+            },
+            "triviaqa_17069_10": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the lowest layer of Earth's atmosphere.",
+                "Document Content Analysis": "The document provides detailed information about Jupiter, including its radio wave emissions, atmospheric composition, magnetic field, internal structure, orbit, rotation, and its moons. It does not mention Earth's atmosphere.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords related to Earth's atmosphere.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Troposphere' or any terms directly related to Earth's atmospheric layers.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer, as the document focuses exclusively on Jupiter and its moons.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Earth's atmospheric layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about Earth's atmosphere.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Jupiter and its characteristics, with no mention or relevance to Earth's atmospheric layers. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_41169_10": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document provides detailed information about Earth's atmosphere, including its composition and the different layers: Troposphere, Stratosphere, Mesosphere, Thermosphere, and Exosphere. It specifically mentions that the Troposphere is the layer closest to the Earth's surface, extending from 0 to between 12 km and 17 km above the surface, and contains most of the atmospheric water vapor and weather phenomena.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'layer', 'atmosphere', 'closest', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Troposphere', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the query by stating that the Troposphere is the layer closest to the Earth's surface.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying the Troposphere as the closest layer to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Troposphere, such as its altitude range and the fact that it contains most of the atmospheric water vapor and weather phenomena.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only provides the name of the layer closest to the Earth's surface but also offers additional detailed information about this layer. The explicit mention of the Troposphere and its characteristics makes the document highly useful for understanding the query."
+            },
+            "triviaqa_1989_38": {
+                "Query Analysis": "The query asks for the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses aspects of ozone depletion, its global impact, and human activities contributing to it. It also describes the structure of the atmosphere, specifically mentioning the troposphere as the layer closest to the Earth's surface and detailing its characteristics.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'layer', 'atmosphere', 'closest', and 'Earth's surface'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that the troposphere is the region closest to the Earth's surface, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming the troposphere as the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the troposphere, such as its characteristics and significance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions and defines the troposphere as the layer closest to the Earth's surface, thereby providing a direct answer to the query. Additionally, it offers further information about the troposphere, enhancing the understanding of the topic."
+            },
+            "nq_158976_18": {
+                "Query Analysis": "The query asks for the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document provides detailed information about the troposphere, including its extension from the Earth's surface, average height, temperature characteristics, and its role in weather phenomena. It also mentions the tropopause, which is the boundary above the troposphere.",
+                "Document and Query Keywords Matching": "The document mentions 'troposphere', 'Earth's surface', and 'atmosphere', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere', which is the answer to the query.",
+                "Key Information Matching": "The document directly discusses the troposphere, its position relative to the Earth's surface, and its characteristics, which are key to answering the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning the troposphere as the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive information about the troposphere, enhancing the understanding of its role and characteristics.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by identifying the troposphere as the layer closest to the Earth's surface. Additionally, it provides comprehensive information about the troposphere, which adds valuable context to the query."
+            },
+            "triviaqa_43774_24": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document provides detailed information about Earth's atmosphere, including its composition and the five layers: Troposphere, Stratosphere, Mesosphere, Thermosphere, and Exosphere. It specifically mentions that the Troposphere is the closest layer to the Earth's surface, extending from 0 to between 12 km and 17 km above the surface, and contains most of the atmospheric water vapor and weather phenomena.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'layer', 'atmosphere', 'closest', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Troposphere', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the query by stating that the Troposphere is the layer closest to the Earth's surface.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming the Troposphere as the closest layer to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Troposphere, including its altitude range and significance in terms of weather and atmospheric composition.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by identifying the Troposphere as the layer closest to the Earth's surface. It also provides additional useful information about the Troposphere, enhancing the understanding of the query's topic."
+            },
+            "nq_231902_22": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface of the Earth",
+                "Answer Analysis": "The answer to the query is 'Troposphere'.",
+                "Document Content Analysis": "The document discusses various aspects of the troposphere, particularly focusing on the planetary boundary layer, which is a part of the troposphere. It explains how this layer interacts with the Earth's surface and provides information about its depth and mixing characteristics. Additionally, it mentions the average temperature at Earth's surface and includes a comparison chart of atmospheric properties.",
+                "Document and Query Keywords Matching": "The document mentions 'troposphere' and describes it as the layer of the atmosphere closest to the Earth's surface, specifically through the discussion of the 'planetary boundary layer'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere', which matches the answer provided.",
+                "Key Information Matching": "The document directly mentions that the planetary boundary layer is a part of the troposphere, which is described as the layer closest to the Earth's surface. This aligns with the query asking for the name of this layer.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query by mentioning that the troposphere is the layer of the atmosphere closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the troposphere, including details about the planetary boundary layer and its interaction with the Earth's surface.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it not only mentions the troposphere but also provides detailed information about its characteristics and its position relative to the Earth's surface. This information directly answers the query and provides useful context."
+            },
+            "m.0jcx_167": {
+                "Query Analysis": "The query asks for the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document provides information about Albert Einstein, including his works, quotations, and various associations. It primarily focuses on his life, achievements, and influences.",
+                "Document and Query Keywords Matching": "None of the query keywords ('name', 'layer', 'atmosphere', 'closest', 'surface', 'Earth') are found in the document.",
+                "Document and Answer Keywords Matching": "The term 'Troposphere' is not mentioned in the document.",
+                "Key Information Matching": "There is no key information related to the query or the answer in the document. The document is entirely about Albert Einstein and does not touch on atmospheric science.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about atmospheric layers or the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Albert Einstein and does not provide any information about atmospheric layers, making it irrelevant to the query."
+            },
+            "nq_1469_22": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the planetary boundary layer, which is a part of the troposphere directly affected by Earth's surface. It mentions turbulent diffusion and the depth of the planetary boundary layer under different conditions. The document also touches on average atmospheric temperature and pressure but does not explicitly define the troposphere.",
+                "Document and Query Keywords Matching": "The document includes 'atmosphere' and 'Earth's surface', and indirectly refers to the 'layer' through the term 'planetary boundary layer'.",
+                "Document and Answer Keywords Matching": "The document mentions 'troposphere' in the context of the planetary boundary layer.",
+                "Key Information Matching": "The document references the 'troposphere' and describes a part of it (the planetary boundary layer) that is closest to Earth's surface, aligning with the query's focus on the nearest atmospheric layer.",
+                "Can the Document Answer the Query": "Yes, the document mentions the troposphere and describes its relation to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by explaining the planetary boundary layer, the document provides additional context about the troposphere's characteristics.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions the troposphere and describes a part of it that is closest to the Earth's surface, effectively answering the query. Additionally, it provides useful context about the troposphere's interaction with the Earth's surface, enhancing understanding of the topic."
+            },
+            "m.05k3k_83": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses various aspects of the Northern Hemisphere, including its land distribution, human population, climate zones, and seasonal variations. It mentions regions like the Arctic, Temperate zone, and Tropics, but does not specifically discuss atmospheric layers.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'layer', 'atmosphere', 'closest', 'surface', or 'Earth'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Troposphere' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on geographical and climatic aspects of the Northern Hemisphere, which is unrelated to atmospheric layers.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about atmospheric layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about atmospheric layers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on geographical and climatic information about the Northern Hemisphere, which does not assist in answering a question about atmospheric layers. Therefore, it is deemed irrelevant."
+            },
+            "triviaqa_66333_14": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document provides detailed information about the different layers of the Earth's atmosphere, including the troposphere, stratosphere, mesosphere, thermosphere, and exosphere. It describes the characteristics of each layer, such as their heights, compositions, and significance.",
+                "Document and Query Keywords Matching": "The document mentions 'layer', 'atmosphere', and 'Earth's surface'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'the Troposphere' and describes it as the layer closest to the Earth's surface.",
+                "Key Information Matching": "The document directly addresses the query by stating that the troposphere is the layer closest to the Earth's surface and provides additional details about its characteristics.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying the troposphere as the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive information about the troposphere and other atmospheric layers, enhancing the understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by identifying the troposphere as the layer closest to the Earth's surface. Additionally, it provides comprehensive information about the troposphere and other atmospheric layers, which enhances the overall understanding of the topic."
+            },
+            "m.07_9__65": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere'.",
+                "Document Content Analysis": "The document primarily discusses volcanoes and volcanic activity. It explains what a volcano is, how they form due to tectonic plate movements, and provides examples of different types of volcanic formations. The document does not contain any information about layers of the atmosphere.",
+                "Document and Query Keywords Matching": "There are no matching keywords from the query found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Troposphere' or any other atmospheric layers.",
+                "Key Information Matching": "The document focuses on volcanic activity and tectonic plates, which are unrelated to atmospheric layers. There is no overlap in key information between the query and the document content.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about atmospheric layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that can help infer additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on volcanoes and tectonic plate movements, which are unrelated to the query about atmospheric layers. Therefore, it is irrelevant as it does not provide any useful context or additional information required to answer the query."
+            },
+            "triviaqa_66333_35": {
+                "Query Analysis": "The query asks for the name given to the layer of the atmosphere closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere'.",
+                "Document Content Analysis": "The document provides a detailed description of the Earth's atmosphere, divided into five layers. It specifically mentions the troposphere as the first layer above the surface and describes its characteristics, including that it contains 70 to 80 percent of the Earth's atmosphere and is where weather occurs.",
+                "Document and Query Keywords Matching": "The document mentions 'layer', 'atmosphere', 'closest', 'surface', and 'Earth' in relation to the troposphere.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere', which matches the answer provided.",
+                "Key Information Matching": "The document clearly identifies the troposphere as the layer of the atmosphere closest to the Earth's surface and provides relevant details about this layer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the troposphere is the first layer above the surface of the Earth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only names the troposphere but also provides additional information about its characteristics and significance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it directly answers the query by naming the troposphere as the layer of the atmosphere closest to the Earth's surface. Additionally, it provides useful context and details about the troposphere, enhancing understanding of the query."
+            },
+            "ott_35343_2": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the concept of the tree line, which is the edge of the habitat where trees can grow, typically found at high elevations and latitudes. It mentions the environmental conditions beyond the tree line, such as cold temperatures and lack of moisture, and describes the characteristics of tree growth near the tree line, including the term 'krummholz' for deformed trees.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'atmosphere', 'layer', 'surface', or 'Earth'.",
+                "Document and Answer Keywords Matching": "The document does not mention the term 'Troposphere' or any related atmospheric layers.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on botanical and environmental concepts related to the tree line, which is unrelated to atmospheric layers.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about atmospheric layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about atmospheric layers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the tree line and environmental conditions affecting tree growth, which do not provide any context or information about atmospheric layers. Therefore, it is deemed irrelevant to the query."
+            },
+            "m.05k3k_42": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses various climate zones, the appearance of the Moon and stars from different hemispheres, and provides a description of the Northern Hemisphere, including its seasonal changes due to Earth's axial tilt. It also includes some text in a different script, possibly Chinese, describing the Northern Hemisphere.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'atmosphere', 'layer', 'surface', or 'Earth' in the context of atmospheric layers.",
+                "Document and Answer Keywords Matching": "The document does not mention the term 'Troposphere' or any related terms pertaining to atmospheric layers.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on climatic zones and celestial observations, not atmospheric layers.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the layers of the atmosphere.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about the atmospheric layers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the atmosphere or its layers. The content is focused on climate zones, celestial observations, and descriptions of the Northern Hemisphere, which do not assist in answering the query about the atmospheric layer closest to the Earth's surface."
+            },
+            "nq_9148_22": {
+                "Query Analysis": "The query seeks the name of the atmospheric layer that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere nearest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the planetary boundary layer, which is a part of the troposphere directly affected by Earth's surface. It mentions turbulent diffusion, the mixing characteristics of the layer during day and night, and its varying depth. The document also touches on average atmospheric temperature and pressure but does not explicitly define the troposphere.",
+                "Document and Query Keywords Matching": "The document includes 'layer', 'atmosphere', and 'closest to Earth's surface', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'troposphere' in the context of the planetary boundary layer.",
+                "Key Information Matching": "The document references the 'troposphere' and describes a layer close to the Earth's surface, aligning with the query's focus.",
+                "Can the Document Answer the Query": "Yes, indirectly. The document mentions the 'troposphere' and describes a layer closest to the Earth's surface, which is the query's answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about the characteristics of the layer closest to the Earth's surface, enhancing understanding of the troposphere.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant as it mentions the 'troposphere' and describes the layer closest to the Earth's surface, providing substantial context that aligns with the query's focus. Although it does not explicitly state that the troposphere is the closest layer, the information provided allows for a clear inference of the answer."
+            }
+        },
+        "llm_mark_result_ds": {
+            "ott_15397_2": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses ultraviolet astronomy, including how ultraviolet light is absorbed by the Earth's atmosphere and the need for observations to be conducted from the upper atmosphere or space. It also mentions space telescopes and their frequency ranges.",
+                "Document and Query Keywords Matching": "The document mentions 'Earth' and 'atmosphere', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Troposphere', the answer to the query.",
+                "Key Information Matching": "The document mentions the Earth's atmosphere and its absorption of ultraviolet light, but it does not provide information about the specific layers of the atmosphere, including the troposphere.",
+                "Can the Document Answer the Query": "No, the document does not mention the troposphere or any specific layers of the atmosphere.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the layer of the atmosphere closest to the Earth's surface.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not provide any information about the layers of the Earth's atmosphere, including the troposphere. It focuses on ultraviolet astronomy and space telescopes, which are unrelated to the query."
+            },
+            "triviaqa_17069_10": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document provides detailed information about Jupiter, including its atmospheric composition, magnetic field, internal structure, orbit, rotation, and moons. It does not mention Earth's atmosphere or its layers.",
+                "Document and Query Keywords Matching": "The document mentions 'Earth' in the context of comparing Jupiter's distance from the sun to Earth's, but it does not mention 'atmosphere', 'layer', or 'surface' in relation to Earth.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Troposphere' or any other layers of Earth's atmosphere.",
+                "Key Information Matching": "The document does not provide any information about Earth's atmosphere or its layers, which are the key elements of the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Earth's atmosphere or its layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Jupiter and does not mention Earth's atmosphere or its layers. Therefore, it is irrelevant to the query, which specifically asks about the layer of the atmosphere closest to the Earth's surface."
+            },
+            "triviaqa_41169_10": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document provides detailed information about Earth's atmosphere, including its composition and the five layers it consists of. It specifically mentions the Troposphere as the layer closest to the Earth's surface, describing its characteristics and importance.",
+                "Document and Query Keywords Matching": "The document mentions 'atmosphere', 'closest', 'surface', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Troposphere' as the layer closest to the Earth's surface.",
+                "Key Information Matching": "The document directly states that the Troposphere is the layer of the atmosphere closest to the Earth's surface, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying the Troposphere as the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about the Troposphere, such as its altitude range and its role in Earth's weather.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, along with additional relevant information about the Troposphere. It enhances understanding of the query by offering context and details about the atmospheric layer in question."
+            },
+            "triviaqa_1989_38": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the structure of the atmosphere, specifically mentioning the troposphere as the layer closest to the Earth's surface. It also describes the characteristics of the troposphere, such as its role in weather systems and its vertical mixing of gases.",
+                "Document and Query Keywords Matching": "The document mentions 'layer', 'atmosphere', 'closest', 'surface', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that the troposphere is the layer of the atmosphere closest to the Earth's surface, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query by naming the troposphere as the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the troposphere, such as its role in weather systems and its vertical mixing of gases.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only provides the exact answer ('troposphere') but also offers additional information about the troposphere, enhancing understanding of the query."
+            },
+            "nq_158976_18": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document provides detailed information about the troposphere, including its characteristics, boundaries, temperature variations, and its role in Earth's weather. It explicitly mentions that the troposphere is the layer closest to the Earth's surface.",
+                "Document and Query Keywords Matching": "The document mentions 'atmosphere', 'closest', 'surface', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that the troposphere is the layer of the atmosphere closest to the Earth's surface, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive information about the troposphere, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context and information about the troposphere. This makes it highly relevant to the query."
+            },
+            "triviaqa_43774_24": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document describes the layers of Earth's atmosphere, including the Troposphere, Stratosphere, Mesosphere, Thermosphere, and Exosphere. It specifically mentions that the Troposphere is the layer closest to the Earth's surface, extending from 0 to between 12 km and 17 km above the surface, and contains roughly 80% of the mass of Earth’s atmosphere.",
+                "Document and Query Keywords Matching": "The document mentions 'atmosphere', 'closest', 'surface', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Troposphere' as the layer closest to the Earth's surface.",
+                "Key Information Matching": "The document directly states that the Troposphere is the layer of the atmosphere closest to the Earth's surface, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query by identifying the Troposphere as the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about the Troposphere, such as its altitude range and its significance in containing most of Earth’s atmospheric mass and water vapor.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about the Troposphere. It enhances understanding of the query by detailing the characteristics of the Troposphere."
+            },
+            "nq_231902_22": {
+                "Query Analysis": "The query asks about the name of the atmospheric layer that is closest to Earth's surface.",
+                "Query Keywords Extraction": "atmosphere, layer, closest, Earth's surface",
+                "Answer Analysis": "The answer is 'Troposphere', which is the lowest layer of Earth's atmosphere.",
+                "Document Content Analysis": "The document discusses the planetary boundary layer, which is described as part of the troposphere closest to Earth's surface. It also contains information about atmospheric temperature, pressure, and physical properties at different altitudes.",
+                "Document and Query Keywords Matching": "The document contains keywords like 'Earth's surface' and discusses atmospheric layers, though not directly naming all of them.",
+                "Document and Answer Keywords Matching": "The document mentions 'troposphere' in the context of the planetary boundary layer being part of it.",
+                "Key Information Matching": "The document indirectly confirms the answer by mentioning that the planetary boundary layer is part of the troposphere and is closest to Earth's surface.",
+                "Can the Document Answer the Query": "While the document doesn't explicitly state that the troposphere is the lowest layer, it implies this by discussing the planetary boundary layer as part of the troposphere being closest to Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the lowest atmospheric layer, including its properties, temperature variations, and height ranges.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) because it discusses the troposphere and specifically its lowest portion (the planetary boundary layer) that is closest to Earth's surface. While it doesn't directly state 'the troposphere is the lowest layer', it provides substantial useful context about the properties and characteristics of this atmospheric region closest to Earth's surface, which directly relates to the query."
+            },
+            "m.0jcx_167": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document contains information about Albert Einstein, including his works, quotations, and things named after him. It does not mention anything about the Earth's atmosphere or its layers.",
+                "Document and Query Keywords Matching": "None of the query keywords ('name', 'layer', 'atmosphere', 'closest', 'surface', 'Earth') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Troposphere' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Earth's atmosphere or its layers, which are the key elements of the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Earth's atmosphere or its layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Albert Einstein and does not mention anything related to the Earth's atmosphere or its layers. Therefore, it is irrelevant to the query."
+            },
+            "nq_1469_22": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the planetary boundary layer, which is part of the troposphere closest to Earth's surface. It also mentions various physical properties of the atmosphere, including temperature, pressure, and thickness.",
+                "Document and Query Keywords Matching": "The document mentions 'atmosphere', 'closest', 'surface', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions the 'troposphere' as the layer of the atmosphere closest to the Earth's surface, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the layer of the atmosphere closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about the troposphere and its properties.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly mentions the 'troposphere', which is the layer of the atmosphere closest to the Earth's surface. It also provides additional context and information about the troposphere, enhancing understanding of the query."
+            },
+            "m.05k3k_83": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses various geographical and climatic aspects of the Northern Hemisphere, including the Arctic, Temperate Zone, and Tropics. It also mentions the Earth's axial tilt and its effects on seasons and climate.",
+                "Document and Query Keywords Matching": "The document mentions 'Earth' and 'surface' in the context of geographical and climatic descriptions.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Troposphere' or any other atmospheric layers.",
+                "Key Information Matching": "The document does not provide any information about the layers of the atmosphere or the 'Troposphere'.",
+                "Can the Document Answer the Query": "No, the document does not mention the 'Troposphere' or any other atmospheric layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on geographical and climatic aspects of the Northern Hemisphere and does not provide any information about the layers of the atmosphere. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_66333_14": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the layers of the Earth's atmosphere, including the troposphere, stratosphere, thermosphere, and exosphere. It provides detailed information about the troposphere, describing it as the layer closest to the Earth's surface where weather occurs.",
+                "Document and Query Keywords Matching": "The document mentions 'layer', 'atmosphere', 'closest', 'surface', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Troposphere' as the layer closest to the Earth's surface.",
+                "Key Information Matching": "The document directly identifies the 'Troposphere' as the layer of the atmosphere closest to the Earth's surface, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming the 'Troposphere' as the layer closest to the Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about the troposphere, such as its role in weather and its characteristics.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about the troposphere. It enhances understanding of the query by detailing the characteristics of the troposphere."
+            },
+            "m.07_9__65": {
+                "Query Analysis": "The query asks about the name of the atmospheric layer that is closest to Earth's surface.",
+                "Query Keywords Extraction": "layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer provided is 'Troposphere', which is indeed the lowest layer of Earth's atmosphere.",
+                "Document Content Analysis": "The document contains information about volcanoes, their formation, and their relationship to Earth's crust and tectonic plates. It also mentions some specific examples of volcanoes and volcanic regions.",
+                "Document and Query Keywords Matching": "The document mentions 'Earth' and 'surface' in the context of volcanoes and tectonic plates.",
+                "Document and Answer Keywords Matching": "The document does not contain any mention of 'Troposphere' or any other atmospheric layers.",
+                "Key Information Matching": "While the document discusses Earth's surface in relation to volcanic activity, it does not provide any information about the atmosphere or its layers.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it does not contain any information about atmospheric layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer details about atmospheric layers or the troposphere.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query about atmospheric layers. It focuses entirely on volcanoes, their formation, and their relationship to Earth's crust and tectonic plates. While it mentions Earth's surface, it does not discuss the atmosphere or any of its layers. The information provided in the document cannot be used to answer the query or infer any additional relevant information about the troposphere or other atmospheric layers."
+            },
+            "triviaqa_66333_35": {
+                "Query Analysis": "The query asks to identify the atmospheric layer that is closest to Earth's surface.",
+                "Query Keywords Extraction": "layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is the troposphere, which is the lowest layer of Earth's atmosphere.",
+                "Document Content Analysis": "The document provides detailed information about Earth's atmospheric layers, with particular focus on the troposphere. It describes the troposphere as the first layer above Earth's surface, containing 70-80% of the atmosphere, where weather occurs and where all normal human activities take place. It extends up to about 10 km and contains mostly oxygen and nitrogen.",
+                "Document and Query Keywords Matching": "The document contains all key query terms: 'layer', 'atmosphere', 'surface', and 'Earth'.",
+                "Document and Answer Keywords Matching": "The document mentions 'troposphere' multiple times and provides extensive details about it.",
+                "Key Information Matching": "The document directly addresses the query by stating 'The troposphere is the first layer above the surface' and provides additional supporting details about this layer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the troposphere is the first layer above Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional context about the troposphere's characteristics, composition, and role.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it not only directly answers the query by identifying the troposphere as the lowest atmospheric layer, but also provides comprehensive information about its characteristics, composition, extent, and importance. The document contains multiple references to the troposphere and its relationship to Earth's surface, making it an authoritative source for answering this query."
+            },
+            "ott_35343_2": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the concept of the tree line, its characteristics, and its environmental influences. It does not mention anything about the Earth's atmosphere or its layers.",
+                "Document and Query Keywords Matching": "None of the query keywords ('name', 'layer', 'atmosphere', 'closest', 'surface', 'Earth') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Troposphere' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Earth's atmosphere or its layers, which are the key elements of the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not mention the Earth's atmosphere or its layers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the concept of the tree line and its environmental influences, which is unrelated to the query about the Earth's atmosphere. Therefore, the document is irrelevant to the query."
+            },
+            "m.05k3k_42": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the Earth's surface.",
+                "Query Keywords Extraction": "layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the lowest layer of the Earth's atmosphere.",
+                "Document Content Analysis": "The document discusses various climatic zones, the appearance of the Moon in the Southern Hemisphere, and descriptions of the Northern Hemisphere, including its axial tilt and seasonal changes. It does not mention the layers of the Earth's atmosphere.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Troposphere' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to the layers of the Earth's atmosphere or the 'Troposphere'.",
+                "Can the Document Answer the Query": "No, the document does not mention the 'Troposphere' or any layers of the atmosphere.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention the Earth's atmosphere, its layers, or the 'Troposphere'. Therefore, it is irrelevant to the query."
+            },
+            "nq_9148_22": {
+                "Query Analysis": "The query asks for the name of the layer of the atmosphere that is closest to the surface of the Earth.",
+                "Query Keywords Extraction": "name, layer, atmosphere, closest, surface, Earth",
+                "Answer Analysis": "The answer is 'Troposphere', which is the layer of the atmosphere closest to the Earth's surface.",
+                "Document Content Analysis": "The document discusses the planetary boundary layer, which is part of the troposphere closest to Earth's surface, and provides details about its characteristics and physical properties of the atmosphere.",
+                "Document and Query Keywords Matching": "The document mentions 'Earth's surface', 'atmosphere', and 'closest' in the context of the planetary boundary layer being part of the troposphere.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'troposphere' as the layer closest to Earth's surface.",
+                "Key Information Matching": "The document directly states that the planetary boundary layer is part of the troposphere, which is the layer closest to Earth's surface, matching both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions that the troposphere is the layer closest to Earth's surface.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about the troposphere and its characteristics.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it not only provides the exact answer ('troposphere') but also offers additional context and details about the atmospheric layer closest to Earth's surface."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "ott_15397_2": {},
+            "triviaqa_17069_10": {},
+            "triviaqa_41169_10": {},
+            "triviaqa_1989_38": {},
+            "nq_158976_18": {},
+            "triviaqa_43774_24": {},
+            "nq_231902_22": {},
+            "m.0jcx_167": {},
+            "nq_1469_22": {},
+            "m.05k3k_83": {},
+            "triviaqa_66333_14": {},
+            "m.07_9__65": {},
+            "triviaqa_66333_35": {},
+            "ott_35343_2": {},
+            "m.05k3k_42": {},
+            "nq_9148_22": {}
+        },
+        "relevance_judgement": 2,
+        "llm_fail": {},
+        "fail_detail": {
+            "nq_9148_22": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "nq": 8,
+            "triviaqa": 8,
+            "kg": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

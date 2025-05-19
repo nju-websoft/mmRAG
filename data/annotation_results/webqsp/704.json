@@ -1,0 +1,963 @@
+{
+    "index": 704,
+    "context": [
+        "m.0pct1sy",
+        "m.02q3xjl"
+    ],
+    "qa": {
+        "question": "who did george lucas get engaged to?",
+        "answer": "Mellody Hobson",
+        "BM25_documents": [
+            {
+                "id": "nq_52994_5",
+                "score": 12.417900085449219
+            },
+            {
+                "id": "nq_97226_170",
+                "score": 10.996700286865234
+            },
+            {
+                "id": "nq_114746_19",
+                "score": 10.986300468444824
+            },
+            {
+                "id": "nq_183558_17",
+                "score": 10.986299514770508
+            },
+            {
+                "id": "m.0pct1sy_0",
+                "score": 10.90530014038086
+            },
+            {
+                "id": "nq_57387_22",
+                "score": 10.763899803161621
+            },
+            {
+                "id": "triviaqa_32205_46",
+                "score": 10.598400115966797
+            },
+            {
+                "id": "triviaqa_3180_107",
+                "score": 10.216400146484375
+            },
+            {
+                "id": "nq_11214_44",
+                "score": 10.166000366210938
+            },
+            {
+                "id": "nq_221033_19",
+                "score": 9.917400360107422
+            },
+            {
+                "id": "nq_283650_25",
+                "score": 9.777600288391113
+            },
+            {
+                "id": "triviaqa_60262_16",
+                "score": 9.769800186157227
+            },
+            {
+                "id": "nq_57387_16",
+                "score": 9.73740005493164
+            },
+            {
+                "id": "triviaqa_19193_152",
+                "score": 9.697400093078613
+            },
+            {
+                "id": "nq_57387_15",
+                "score": 9.609299659729004
+            },
+            {
+                "id": "nq_296922_119",
+                "score": 9.579500198364258
+            },
+            {
+                "id": "nq_65442_117",
+                "score": 9.579499244689941
+            },
+            {
+                "id": "nq_97226_169",
+                "score": 9.526800155639648
+            },
+            {
+                "id": "nq_221033_2",
+                "score": 9.461199760437012
+            },
+            {
+                "id": "nq_83011_5",
+                "score": 9.445199966430664
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.0pct1sy_0",
+                "score": 10.90530014038086
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_10240_1",
+                "score": 7.05620002746582
+            },
+            {
+                "id": "ott_16769_1",
+                "score": 7.056199073791504
+            },
+            {
+                "id": "ott_25924_1",
+                "score": 7.0561981201171875
+            },
+            {
+                "id": "ott_29645_1",
+                "score": 7.056197166442871
+            },
+            {
+                "id": "ott_37641_1",
+                "score": 7.056196212768555
+            },
+            {
+                "id": "ott_5383_1",
+                "score": 7.056195259094238
+            },
+            {
+                "id": "ott_14995_0",
+                "score": 6.596599102020264
+            },
+            {
+                "id": "ott_16460_0",
+                "score": 6.596598148345947
+            },
+            {
+                "id": "ott_17429_0",
+                "score": 6.596597194671631
+            },
+            {
+                "id": "ott_18839_0",
+                "score": 6.5965962409973145
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_52994_5",
+                "score": 12.417900085449219
+            },
+            {
+                "id": "nq_97226_170",
+                "score": 10.996700286865234
+            },
+            {
+                "id": "nq_114746_19",
+                "score": 10.986300468444824
+            },
+            {
+                "id": "nq_183558_17",
+                "score": 10.986299514770508
+            },
+            {
+                "id": "nq_57387_22",
+                "score": 10.763899803161621
+            },
+            {
+                "id": "nq_11214_44",
+                "score": 10.166000366210938
+            },
+            {
+                "id": "nq_221033_19",
+                "score": 9.917400360107422
+            },
+            {
+                "id": "nq_283650_25",
+                "score": 9.777600288391113
+            },
+            {
+                "id": "nq_57387_16",
+                "score": 9.73740005493164
+            },
+            {
+                "id": "nq_57387_15",
+                "score": 9.609299659729004
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_32205_46",
+                "score": 10.598400115966797
+            },
+            {
+                "id": "triviaqa_3180_107",
+                "score": 10.216400146484375
+            },
+            {
+                "id": "triviaqa_60262_16",
+                "score": 9.769800186157227
+            },
+            {
+                "id": "triviaqa_19193_152",
+                "score": 9.697400093078613
+            },
+            {
+                "id": "triviaqa_25875_8",
+                "score": 9.333999633789062
+            },
+            {
+                "id": "triviaqa_19193_148",
+                "score": 9.226400375366211
+            },
+            {
+                "id": "triviaqa_53625_79",
+                "score": 9.023699760437012
+            },
+            {
+                "id": "triviaqa_56654_6",
+                "score": 8.833399772644043
+            },
+            {
+                "id": "triviaqa_56654_48",
+                "score": 8.773500442504883
+            },
+            {
+                "id": "triviaqa_53625_60",
+                "score": 8.768600463867188
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0pct1sy_0",
+                "score": 10.90530014038086
+            },
+            {
+                "id": "m.0hv8w_18",
+                "score": 7.713799953460693
+            },
+            {
+                "id": "m.0h_b6x1_167",
+                "score": 7.441100120544434
+            },
+            {
+                "id": "m.0hv8w_27",
+                "score": 7.370100021362305
+            },
+            {
+                "id": "m.0hv8w_19",
+                "score": 7.220900058746338
+            },
+            {
+                "id": "m.02qsfv_56",
+                "score": 7.196499824523926
+            },
+            {
+                "id": "m.0hv8w_17",
+                "score": 7.190100193023682
+            },
+            {
+                "id": "m.02qsfv_15",
+                "score": 7.151700019836426
+            },
+            {
+                "id": "m.0h_b6x1_168",
+                "score": 7.135000228881836
+            },
+            {
+                "id": "m.0h_b6x1_83",
+                "score": 7.1349992752075195
+            },
+            {
+                "id": "m.0k_9j_22",
+                "score": 7.107399940490723
+            },
+            {
+                "id": "m.0hv8w_11",
+                "score": 7.0106000900268555
+            },
+            {
+                "id": "m.027yrxp_10",
+                "score": 6.998799800872803
+            },
+            {
+                "id": "m.02vgy2_4",
+                "score": 6.998798847198486
+            },
+            {
+                "id": "m.0f4yh_204",
+                "score": 6.952698230743408
+            },
+            {
+                "id": "m.0k_9j_139",
+                "score": 6.913700103759766
+            },
+            {
+                "id": "m.0hv8w_33",
+                "score": 6.7845001220703125
+            },
+            {
+                "id": "m.0f4yh_192",
+                "score": 6.779099941253662
+            },
+            {
+                "id": "m.0k_9j_253",
+                "score": 6.779098987579346
+            },
+            {
+                "id": "m.027yrxp_22",
+                "score": 6.736100196838379
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_32205_46",
+                "score": 0.7310228943824768
+            },
+            {
+                "id": "m.0pct1sy_0",
+                "score": 0.663560688495636
+            },
+            {
+                "id": "triviaqa_32205_47",
+                "score": 0.6622791290283203
+            },
+            {
+                "id": "triviaqa_53058_13",
+                "score": 0.6359187364578247
+            },
+            {
+                "id": "nq_285918_49",
+                "score": 0.6346293091773987
+            },
+            {
+                "id": "nq_270111_49",
+                "score": 0.6346293091773987
+            },
+            {
+                "id": "triviaqa_30451_162",
+                "score": 0.6261997818946838
+            },
+            {
+                "id": "nq_2141_122",
+                "score": 0.6247496604919434
+            },
+            {
+                "id": "nq_277027_122",
+                "score": 0.6247496604919434
+            },
+            {
+                "id": "nq_131665_47",
+                "score": 0.6245824098587036
+            },
+            {
+                "id": "nq_261499_76",
+                "score": 0.6234375238418579
+            },
+            {
+                "id": "nq_51359_122",
+                "score": 0.6217213869094849
+            },
+            {
+                "id": "nq_285005_28",
+                "score": 0.6214193105697632
+            },
+            {
+                "id": "nq_261499_77",
+                "score": 0.6211842894554138
+            },
+            {
+                "id": "nq_285918_81",
+                "score": 0.6183564066886902
+            },
+            {
+                "id": "nq_137299_114",
+                "score": 0.6182390451431274
+            },
+            {
+                "id": "nq_131665_80",
+                "score": 0.616492509841919
+            },
+            {
+                "id": "nq_285005_29",
+                "score": 0.6128105521202087
+            },
+            {
+                "id": "nq_296922_79",
+                "score": 0.6126611828804016
+            },
+            {
+                "id": "nq_296922_120",
+                "score": 0.612645149230957
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.0pct1sy_0",
+                "score": 0.663560688495636
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_16598_0",
+                "score": 0.5421829223632812
+            },
+            {
+                "id": "ott_41101_0",
+                "score": 0.5421829223632812
+            },
+            {
+                "id": "ott_31952_0",
+                "score": 0.5354431867599487
+            },
+            {
+                "id": "ott_4850_0",
+                "score": 0.5354431867599487
+            },
+            {
+                "id": "ott_5191_0",
+                "score": 0.5354431867599487
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_285918_49",
+                "score": 0.6346293091773987
+            },
+            {
+                "id": "nq_270111_49",
+                "score": 0.6346293091773987
+            },
+            {
+                "id": "nq_2141_122",
+                "score": 0.6247496604919434
+            },
+            {
+                "id": "nq_277027_122",
+                "score": 0.6247496604919434
+            },
+            {
+                "id": "nq_131665_47",
+                "score": 0.6245824098587036
+            },
+            {
+                "id": "nq_261499_76",
+                "score": 0.6234375238418579
+            },
+            {
+                "id": "nq_51359_122",
+                "score": 0.6217213869094849
+            },
+            {
+                "id": "nq_285005_28",
+                "score": 0.6214193105697632
+            },
+            {
+                "id": "nq_261499_77",
+                "score": 0.6211842894554138
+            },
+            {
+                "id": "nq_285918_81",
+                "score": 0.6183564066886902
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_32205_46",
+                "score": 0.7310228943824768
+            },
+            {
+                "id": "triviaqa_32205_47",
+                "score": 0.6622791290283203
+            },
+            {
+                "id": "triviaqa_53058_13",
+                "score": 0.6359187364578247
+            },
+            {
+                "id": "triviaqa_30451_162",
+                "score": 0.6261997818946838
+            },
+            {
+                "id": "triviaqa_19193_154",
+                "score": 0.6096087694168091
+            },
+            {
+                "id": "triviaqa_55248_44",
+                "score": 0.6051868796348572
+            },
+            {
+                "id": "triviaqa_32205_14",
+                "score": 0.6044424176216125
+            },
+            {
+                "id": "triviaqa_55248_29",
+                "score": 0.6026204824447632
+            },
+            {
+                "id": "triviaqa_55248_43",
+                "score": 0.5975498557090759
+            },
+            {
+                "id": "triviaqa_55248_31",
+                "score": 0.5950350165367126
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0pct1sy_0",
+                "score": 0.663560688495636
+            },
+            {
+                "id": "m.092bf5_1021",
+                "score": 0.5659999251365662
+            },
+            {
+                "id": "m.0ddqd_24",
+                "score": 0.5659202337265015
+            },
+            {
+                "id": "m.0drf__27",
+                "score": 0.5636497139930725
+            },
+            {
+                "id": "m.0drf__201",
+                "score": 0.551979124546051
+            },
+            {
+                "id": "m.0ddqd_23",
+                "score": 0.5418946743011475
+            },
+            {
+                "id": "m.0drf__130",
+                "score": 0.5416133403778076
+            },
+            {
+                "id": "m.03c6xt_8",
+                "score": 0.5409585237503052
+            },
+            {
+                "id": "m.03c6xt_13",
+                "score": 0.540130078792572
+            },
+            {
+                "id": "m.03c6xt_3",
+                "score": 0.5378654599189758
+            },
+            {
+                "id": "m.064ndq_8",
+                "score": 0.5373566746711731
+            },
+            {
+                "id": "m.023n2z_5",
+                "score": 0.5357517600059509
+            },
+            {
+                "id": "m.02p8dm_2",
+                "score": 0.534433126449585
+            },
+            {
+                "id": "m.0gjs8p_17",
+                "score": 0.5337478518486023
+            },
+            {
+                "id": "m.0drf__98",
+                "score": 0.5334718227386475
+            },
+            {
+                "id": "m.02p8dm_20",
+                "score": 0.5332656502723694
+            },
+            {
+                "id": "m.0drf__28",
+                "score": 0.5330052971839905
+            },
+            {
+                "id": "m.0drf__202",
+                "score": 0.5323824882507324
+            },
+            {
+                "id": "m.02__12_8",
+                "score": 0.5323581099510193
+            },
+            {
+                "id": "m.0drf__99",
+                "score": 0.5277191400527954
+            }
+        ],
+        "llm_mark_result": {
+            "m.0pct1sy_0": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged to",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating she is the person George Lucas got engaged to.",
+                "Document Content Analysis": "The document provides information about a romantic relationship involving George Lucas and Mellody Hobson, specifying that the relationship type is 'Engaged to' and the start date of this relationship.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas' and 'Engaged to', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Mellody Hobson', which is the name provided in the answer.",
+                "Key Information Matching": "The document directly matches the key information by stating that George Lucas is engaged to Mellody Hobson.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that George Lucas is engaged to Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the start date of the engagement, which is additional relevant information.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly states that George Lucas got engaged to Mellody Hobson, thus providing the exact answer to the query. Additionally, it offers the start date of the engagement, which enhances the context and relevance."
+            },
+            "triviaqa_32205_47": {
+                "Query Analysis": "The query seeks to identify the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating she is the person George Lucas got engaged to.",
+                "Document Content Analysis": "The document provides biographical information about George Lucas, including his relationships and family life. It mentions his engagement and marriage to Mellody Hobson, as well as details about his children and a previous relationship with Linda Ronstadt. The document also includes unrelated information about Ellen Pompeo and Donna Summer.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas' and 'engagement'.",
+                "Document and Answer Keywords Matching": "The document includes 'Mellody Hobson' in the context of George Lucas's engagement and marriage.",
+                "Key Information Matching": "The document directly states that George Lucas got engaged to Mellody Hobson in January 2013.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that George Lucas got engaged to Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about their relationship, including their marriage date and location.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the specific information about George Lucas's engagement to Mellody Hobson, thus providing a direct answer to the query. Additionally, it offers useful context about their relationship, enhancing the understanding of the query's topic."
+            },
+            "nq_97226_170": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document appears to be a list of references or citations, primarily related to Star Wars and various news articles or features. It does not contain any explicit information about George Lucas's personal life or relationships.",
+                "Document and Query Keywords Matching": "The document does not mention 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about George Lucas's engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about George Lucas's personal life or relationships.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Star Wars-related news and articles, without any mention of George Lucas's personal life or his engagement to Mellody Hobson. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_32205_46": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged, who",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to Mellody Hobson.",
+                "Document Content Analysis": "The document provides biographical information about George Lucas, including his career, personal life, and relationships. It mentions his marriage to Marcia Lou Griffin, his relationship with Linda Ronstadt, and his engagement and marriage to Mellody Hobson.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas' and details about his relationships, including his engagement.",
+                "Document and Answer Keywords Matching": "The document includes 'Mellody Hobson' and specifies that George Lucas got engaged to her.",
+                "Key Information Matching": "The document directly mentions that George Lucas began dating Mellody Hobson in 2006 and announced their engagement in January 2013.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that George Lucas got engaged to Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about George Lucas's personal life and relationships.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the specific information about George Lucas's engagement to Mellody Hobson, thus providing a direct answer to the query."
+            },
+            "ott_10240_1": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating she is the person George Lucas got engaged to.",
+                "Document Content Analysis": "The document lists the discography of Robert Henry Timmons, an American jazz pianist and composer, detailing various albums and the musicians involved in each recording.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas or his personal life.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the discography of a jazz musician, which has no connection to George Lucas or his engagement. Therefore, it is irrelevant to the query."
+            },
+            "nq_114746_19": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document appears to be a collection of references and links related to Abbott and Costello, specifically their famous sketch 'Who's On First?' and various related media and articles. It also includes references to other topics like Joe DiMaggio and an obituary for Michael Musto.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on a completely different topic.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Abbott and Costello and other unrelated topics, providing no information about George Lucas or his engagement. Therefore, it is deemed irrelevant."
+            },
+            "nq_183558_17": {
+                "Query Analysis": "The query asks for the name of the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating she is the person George Lucas got engaged to.",
+                "Document Content Analysis": "The document appears to be a list of hyperlinks and references to various topics, including Time magazine, Abbott & Costello, Joe DiMaggio, and others. There is no discernible content related to George Lucas or Mellody Hobson.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention George Lucas, Mellody Hobson, or any relevant context that could help answer the query or provide additional information. Therefore, it is judged as irrelevant."
+            },
+            "triviaqa_53058_13": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating she is the person George Lucas got engaged to.",
+                "Document Content Analysis": "The document contains personal quotes and an Academy Awards acceptance speech, mentioning various individuals and thanking them. It also mentions an engagement announcement to Rubén Torres.",
+                "Document and Query Keywords Matching": "The document does not mention 'George Lucas' or 'engaged' in the context of George Lucas.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information related to George Lucas or Mellody Hobson in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about George Lucas's engagement. It focuses on personal quotes and an Academy Awards acceptance speech, with no mention of George Lucas or Mellody Hobson."
+            },
+            "nq_52994_5": {
+                "Query Analysis": "The query seeks information about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer specifies that George Lucas got engaged to Mellody Hobson.",
+                "Document Content Analysis": "The document appears to be an excerpt from a Wikipedia page about the film 'Guess Who's Coming to Dinner'. It discusses the plot of the movie, focusing on the characters played by Katharine Hepburn, Spencer Tracy, and others. The main theme revolves around interracial marriage and the reactions of the characters' families.",
+                "Document and Query Keywords Matching": "The document does not mention 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information related to George Lucas or his engagement in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to George Lucas or his personal life.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a film plot centered around interracial marriage, but does not mention George Lucas or Mellody Hobson, making it irrelevant to the query."
+            },
+            "m.0hv8w_18": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document provides information about the film 'American Graffiti', directed by George Lucas. It includes details about the film's cast, success, and its impact on Lucas's career, particularly in financing his Star Wars project.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson'.",
+                "Key Information Matching": "The document focuses on George Lucas's career and his film 'American Graffiti', but does not provide any information related to his personal life or engagements.",
+                "Can the Document Answer the Query": "No, the document does not contain information about George Lucas's engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information related to George Lucas's personal life.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is solely about George Lucas's professional achievements and his film 'American Graffiti'. It does not mention or provide any context related to his personal life, including his engagement to Mellody Hobson. Therefore, it is irrelevant to the query."
+            },
+            "m.092bf5_1021": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating she is the person George Lucas got engaged to.",
+                "Document Content Analysis": "The document lists various individuals and their religion, specifically noting that they all practice Buddhism. It includes George Lucas among these individuals.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson'.",
+                "Key Information Matching": "The document only matches the keyword 'George Lucas' but provides no information related to his engagement or personal relationships.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about George Lucas's engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document only mentions George Lucas's religion and does not provide any context or additional information related to his personal life or relationships.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only mentions George Lucas's religion and does not provide any information about his engagement or personal relationships. It cannot help answer the query or infer additional relevant information."
+            },
+            "ott_16598_0": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to Mellody Hobson.",
+                "Document Content Analysis": "The document provides a list of marriages from the TV show 'Shortland Street', including dates, names of the bride and groom, and some notes about each marriage.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information related to George Lucas or his personal life.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on marriages in a TV show and does not mention George Lucas, Mellody Hobson, or any relevant context that could help answer the query."
+            },
+            "nq_285918_49": {
+                "Query Analysis": "The query asks about the person to whom George Lucas got engaged.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document discusses various Star Wars novels and their plots, focusing on characters like Leia, Han, Luke Skywalker, and others. It mentions weddings and relationships within the Star Wars universe but does not reference George Lucas or Mellody Hobson.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Mellody Hobson'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely focused on Star Wars characters and plots, with no relevance to George Lucas' personal life.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about George Lucas or his engagement to Mellody Hobson. The content is solely focused on Star Wars narratives, which do not assist in answering the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0pct1sy_0": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating she is the person George Lucas got engaged to.",
+                "Document Content Analysis": "The document provides information about a romantic relationship between George Lucas and Mellody Hobson, specifying that they were engaged and the start date of their relationship.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas' and 'engaged'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Mellody Hobson', which matches the answer.",
+                "Key Information Matching": "The document mentions 'George Lucas', 'engaged', and 'Mellody Hobson', which directly matches the key information in the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that George Lucas was engaged to Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the relationship, including the start date.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about the relationship. It is highly relevant."
+            },
+            "triviaqa_32205_47": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document provides a detailed account of George Lucas's personal life, including his relationships, children, and marriage. It mentions his engagement to Mellody Hobson in 2013 and their subsequent marriage.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas' and 'engagement', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Mellody Hobson' as the person George Lucas got engaged to.",
+                "Key Information Matching": "The document directly states that George Lucas got engaged to Mellody Hobson in 2013, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that George Lucas got engaged to Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly provides the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, making it highly relevant. It not only confirms the engagement but also provides additional context about their relationship and marriage."
+            },
+            "nq_97226_170": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document contains references to various articles and news items related to George Lucas, Star Wars, and related media. However, it does not mention anything about George Lucas's personal life, such as engagements or relationships.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas' in the context of Star Wars and related media, but it does not mention 'engaged' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson' or any related terms.",
+                "Key Information Matching": "The document does not provide any information about George Lucas's personal life, including his engagement to Mellody Hobson.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas's engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on George Lucas's work and related media, with no mention of his personal life or engagement. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_32205_46": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document provides a detailed biography of George Lucas, including his personal life, career, and relationships. It mentions his engagement to Mellody Hobson in 2013 and their subsequent marriage.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas' and 'engaged' in the context of his relationship with Mellody Hobson.",
+                "Document and Answer Keywords Matching": "The document mentions 'Mellody Hobson' as the person George Lucas got engaged to.",
+                "Key Information Matching": "The document directly states that George Lucas got engaged to Mellody Hobson in 2013, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that George Lucas got engaged to Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about their relationship, including the date of their engagement and marriage.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, along with additional relevant information about George Lucas's engagement to Mellody Hobson."
+            },
+            "ott_10240_1": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document provides information about Robert Henry Timmons, a jazz pianist and composer, including his discography and collaborations with other musicians. There is no mention of George Lucas or Mellody Hobson.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query, such as 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer, such as 'Mellody Hobson'.",
+                "Key Information Matching": "The document does not provide any information related to George Lucas or his engagement to Mellody Hobson.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a jazz musician and his discography, with no mention of George Lucas, Mellody Hobson, or any engagement. Therefore, it is irrelevant to the query."
+            },
+            "nq_114746_19": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document contains references to various historical and cultural topics, including Abbott and Costello, Joe DiMaggio, and Michael Musto. It does not mention George Lucas or Mellody Hobson.",
+                "Document and Query Keywords Matching": "The document does not mention 'George Lucas' or 'engaged'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson'.",
+                "Key Information Matching": "The document does not provide any information related to George Lucas or his engagement.",
+                "Can the Document Answer the Query": "No, the document does not mention George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about George Lucas or his engagement.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention George Lucas, Mellody Hobson, or any engagement, and provides no context or information that could assist in answering the query."
+            },
+            "nq_183558_17": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document contains references to various topics, including Time magazine, Abbott & Costello, Joe DiMaggio, Michael Musto, Irving Gordon, and other unrelated subjects. There is no mention of George Lucas or Mellody Hobson.",
+                "Document and Query Keywords Matching": "No keywords from the query ('George Lucas', 'engaged') are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer ('Mellody Hobson') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to George Lucas, his engagement, or Mellody Hobson.",
+                "Can the Document Answer the Query": "No, the document does not mention George Lucas or Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention George Lucas, Mellody Hobson, or any engagement-related information. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_53058_13": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document discusses an engagement announcement between an unnamed individual and Rubén Torres on March 21, 2016. It also includes a lengthy acceptance speech from an unnamed actress at the 2005 Academy Awards, thanking various people in her life, but it does not mention George Lucas or Mellody Hobson.",
+                "Document and Query Keywords Matching": "The document does not mention 'George Lucas' or 'engaged' in the context of George Lucas.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson'.",
+                "Key Information Matching": "The document does not provide any information related to George Lucas or his engagement to Mellody Hobson.",
+                "Can the Document Answer the Query": "No, the document does not mention George Lucas or Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about George Lucas or his engagement.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses an engagement announcement and an Academy Awards acceptance speech, but it does not mention George Lucas, Mellody Hobson, or any information relevant to the query. Therefore, it is irrelevant."
+            },
+            "nq_52994_5": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document discusses the plot of the movie 'Guess Who's Coming to Dinner,' focusing on the engagement of a character named Joanna Drayton to a black physician named John Prentice. It mentions themes of racial equality and societal reactions to interracial marriage.",
+                "Document and Query Keywords Matching": "The document mentions 'engaged' in the context of a character's engagement, but it does not mention George Lucas.",
+                "Document and Answer Keywords Matching": "The document does not mention Mellody Hobson.",
+                "Key Information Matching": "The document discusses an engagement but does not provide any information about George Lucas or Mellody Hobson.",
+                "Can the Document Answer the Query": "No, the document does not mention George Lucas or Mellody Hobson.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to George Lucas or his engagement.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a fictional engagement in a movie plot and does not mention George Lucas or Mellody Hobson. Therefore, it provides no useful context or information to answer the query."
+            },
+            "m.0hv8w_18": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document provides information about George Lucas's career, specifically his work on the film 'American Graffiti.' It mentions his role as a director and writer, the film's success, and its impact on his career, including financing his 'Star Wars' project. However, the document does not mention anything about George Lucas's personal life, such as his engagement.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas,' which matches the query keyword 'George Lucas.' However, the document does not mention 'engaged' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson' or any related terms.",
+                "Key Information Matching": "The document provides information about George Lucas's professional career but does not contain any information about his personal life, such as his engagement to Mellody Hobson.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about George Lucas's engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about George Lucas's personal life or his engagement.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on George Lucas's professional career and does not mention any details about his personal life, including his engagement to Mellody Hobson. Therefore, it is irrelevant to the query."
+            },
+            "m.092bf5_1021": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson, indicating that George Lucas got engaged to her.",
+                "Document Content Analysis": "The document lists various celebrities and their religious affiliations, specifically mentioning that George Lucas practices Buddhism. However, it does not provide any information about his personal relationships or engagements.",
+                "Document and Query Keywords Matching": "The document mentions 'George Lucas', which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mellody Hobson' or any information related to engagements.",
+                "Key Information Matching": "The document mentions George Lucas but does not provide any information about his engagement or personal relationships.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about George Lucas's engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about George Lucas's engagement or personal relationships. It only mentions his religious affiliation, which is unrelated to the query."
+            },
+            "ott_16598_0": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson.",
+                "Document Content Analysis": "The document lists various marriages and engagements from the TV show 'Shortland Street', including details about brides, grooms, and dates. However, it does not mention George Lucas or Mellody Hobson.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('George Lucas', 'engaged') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Mellody Hobson' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to George Lucas or his engagement.",
+                "Can the Document Answer the Query": "No, the document does not mention George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about George Lucas or his engagement.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about George Lucas's engagement. It does not mention George Lucas, Mellody Hobson, or any engagement related to them, making it irrelevant to the query."
+            },
+            "nq_285918_49": {
+                "Query Analysis": "The query asks about the person George Lucas got engaged to.",
+                "Query Keywords Extraction": "George Lucas, engaged",
+                "Answer Analysis": "The answer is Mellody Hobson.",
+                "Document Content Analysis": "The document discusses various events and characters from the Star Wars universe, including Leia's marriage to Han and other related stories. There is no mention of George Lucas or his personal life.",
+                "Document and Query Keywords Matching": "None of the query keywords ('George Lucas', 'engaged') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Mellody Hobson' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to George Lucas or his engagement.",
+                "Can the Document Answer the Query": "No, the document does not mention George Lucas or his engagement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about George Lucas's personal life.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses Star Wars characters and events without any connection to George Lucas or his engagement."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0pct1sy_0": {},
+            "triviaqa_32205_47": {},
+            "nq_97226_170": {},
+            "triviaqa_32205_46": {},
+            "ott_10240_1": {},
+            "nq_114746_19": {},
+            "nq_183558_17": {},
+            "triviaqa_53058_13": {},
+            "nq_52994_5": {},
+            "m.0hv8w_18": {},
+            "m.092bf5_1021": {},
+            "ott_16598_0": {},
+            "nq_285918_49": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_16598_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_285918_49": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "triviaqa": 2,
+            "ott": 0,
+            "nq": 0,
+            "kg": 2,
+            "tat": 0
+        }
+    }
+}

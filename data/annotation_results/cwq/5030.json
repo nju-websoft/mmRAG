@@ -1,0 +1,1390 @@
+{
+    "index": 5030,
+    "context": [
+        "m.02k_bcp",
+        "m.06l22"
+    ],
+    "qa": {
+        "question": "For what sports team whose home stadium is Santiago BernabÃ©u Stadium did Cristiano Ronaldo play in 2010?",
+        "answer": "['Real Madrid C.F.']",
+        "BM25_documents": [
+            {
+                "id": "nq_109162_125",
+                "score": 26.42460060119629
+            },
+            {
+                "id": "nq_12974_126",
+                "score": 26.424598693847656
+            },
+            {
+                "id": "nq_231008_122",
+                "score": 26.221900939941406
+            },
+            {
+                "id": "nq_84230_78",
+                "score": 25.841100692749023
+            },
+            {
+                "id": "nq_4740_62",
+                "score": 25.813100814819336
+            },
+            {
+                "id": "nq_168_126",
+                "score": 25.717199325561523
+            },
+            {
+                "id": "nq_12974_37",
+                "score": 25.681800842285156
+            },
+            {
+                "id": "nq_231008_38",
+                "score": 25.681798934936523
+            },
+            {
+                "id": "nq_84230_79",
+                "score": 25.197999954223633
+            },
+            {
+                "id": "nq_168_35",
+                "score": 23.62030029296875
+            },
+            {
+                "id": "nq_109162_36",
+                "score": 23.442800521850586
+            },
+            {
+                "id": "triviaqa_54286_7",
+                "score": 22.709400177001953
+            },
+            {
+                "id": "nq_109162_230",
+                "score": 22.56209945678711
+            },
+            {
+                "id": "nq_231008_226",
+                "score": 22.562097549438477
+            },
+            {
+                "id": "nq_168_225",
+                "score": 22.42930030822754
+            },
+            {
+                "id": "nq_171_69",
+                "score": 22.358299255371094
+            },
+            {
+                "id": "nq_12974_231",
+                "score": 22.329999923706055
+            },
+            {
+                "id": "nq_84230_277",
+                "score": 22.309799194335938
+            },
+            {
+                "id": "triviaqa_2585_41",
+                "score": 22.295400619506836
+            },
+            {
+                "id": "triviaqa_54286_6",
+                "score": 22.239599227905273
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.06l22_605",
+                "score": 17.21769905090332
+            },
+            {
+                "id": "m.06l22_72",
+                "score": 16.955900192260742
+            },
+            {
+                "id": "m.06l22_338",
+                "score": 15.988200187683105
+            },
+            {
+                "id": "m.06l22_182",
+                "score": 15.863300323486328
+            },
+            {
+                "id": "m.06l22_604",
+                "score": 15.764399528503418
+            },
+            {
+                "id": "m.02k_bcp_2",
+                "score": 15.65880012512207
+            },
+            {
+                "id": "m.02k_bcp_3",
+                "score": 15.658799171447754
+            },
+            {
+                "id": "m.06l22_71",
+                "score": 15.625300407409668
+            },
+            {
+                "id": "m.02k_bcp_0",
+                "score": 15.46619987487793
+            },
+            {
+                "id": "m.02k_bcp_1",
+                "score": 15.431400299072266
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_1167_1",
+                "score": 18.56060028076172
+            },
+            {
+                "id": "ott_20148_1",
+                "score": 18.560598373413086
+            },
+            {
+                "id": "ott_23236_1",
+                "score": 18.560598373413086
+            },
+            {
+                "id": "ott_7523_1",
+                "score": 18.560596466064453
+            },
+            {
+                "id": "ott_12445_0",
+                "score": 17.475299835205078
+            },
+            {
+                "id": "ott_13561_0",
+                "score": 17.475297927856445
+            },
+            {
+                "id": "ott_15097_0",
+                "score": 17.475297927856445
+            },
+            {
+                "id": "ott_3812_0",
+                "score": 17.475296020507812
+            },
+            {
+                "id": "ott_4451_0",
+                "score": 17.475296020507812
+            },
+            {
+                "id": "ott_12701_0",
+                "score": 17.174800872802734
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_109162_125",
+                "score": 26.42460060119629
+            },
+            {
+                "id": "nq_12974_126",
+                "score": 26.424598693847656
+            },
+            {
+                "id": "nq_231008_122",
+                "score": 26.221900939941406
+            },
+            {
+                "id": "nq_84230_78",
+                "score": 25.841100692749023
+            },
+            {
+                "id": "nq_4740_62",
+                "score": 25.813100814819336
+            },
+            {
+                "id": "nq_168_126",
+                "score": 25.717199325561523
+            },
+            {
+                "id": "nq_12974_37",
+                "score": 25.681800842285156
+            },
+            {
+                "id": "nq_231008_38",
+                "score": 25.681798934936523
+            },
+            {
+                "id": "nq_84230_79",
+                "score": 25.197999954223633
+            },
+            {
+                "id": "nq_168_35",
+                "score": 23.62030029296875
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_54286_7",
+                "score": 22.709400177001953
+            },
+            {
+                "id": "triviaqa_2585_41",
+                "score": 22.295400619506836
+            },
+            {
+                "id": "triviaqa_54286_6",
+                "score": 22.239599227905273
+            },
+            {
+                "id": "triviaqa_16445_19",
+                "score": 22.18670082092285
+            },
+            {
+                "id": "triviaqa_16445_18",
+                "score": 21.94059944152832
+            },
+            {
+                "id": "triviaqa_17221_244",
+                "score": 20.746700286865234
+            },
+            {
+                "id": "triviaqa_43089_3",
+                "score": 18.537599563598633
+            },
+            {
+                "id": "triviaqa_52005_9",
+                "score": 18.158300399780273
+            },
+            {
+                "id": "triviaqa_64087_5",
+                "score": 18.114500045776367
+            },
+            {
+                "id": "triviaqa_23069_19",
+                "score": 17.919300079345703
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.02xt6q_558",
+                "score": 20.542400360107422
+            },
+            {
+                "id": "m.02xt6q_184",
+                "score": 20.361900329589844
+            },
+            {
+                "id": "m.02xt6q_372",
+                "score": 19.75749969482422
+            },
+            {
+                "id": "m.02xt6q_373",
+                "score": 19.385799407958984
+            },
+            {
+                "id": "m.02xt6q_569",
+                "score": 18.443599700927734
+            },
+            {
+                "id": "m.02xt6q_183",
+                "score": 18.351600646972656
+            },
+            {
+                "id": "m.01yq7r_32",
+                "score": 18.118499755859375
+            },
+            {
+                "id": "m.02xt6q_368",
+                "score": 17.864999771118164
+            },
+            {
+                "id": "m.02xt6q_174",
+                "score": 17.82670021057129
+            },
+            {
+                "id": "m.02xt6q_177",
+                "score": 17.81800079345703
+            },
+            {
+                "id": "m.02xt6q_237",
+                "score": 17.78969955444336
+            },
+            {
+                "id": "m.02xt6q_43",
+                "score": 17.67639923095703
+            },
+            {
+                "id": "m.02xt6q_559",
+                "score": 17.613500595092773
+            },
+            {
+                "id": "m.01yq7r_30",
+                "score": 17.440500259399414
+            },
+            {
+                "id": "m.02xt6q_178",
+                "score": 17.41659927368164
+            },
+            {
+                "id": "m.02xt6q_181",
+                "score": 17.40089988708496
+            },
+            {
+                "id": "m.02xt6q_428",
+                "score": 17.36720085144043
+            },
+            {
+                "id": "m.0f3wm2_6",
+                "score": 17.267797470092773
+            },
+            {
+                "id": "m.02bx2h_10",
+                "score": 17.2544002532959
+            },
+            {
+                "id": "m.01kkjq_12",
+                "score": 17.241600036621094
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_25483_595",
+                "score": 0.6972846984863281
+            },
+            {
+                "id": "nq_4740_70",
+                "score": 0.6966930031776428
+            },
+            {
+                "id": "nq_25483_596",
+                "score": 0.694800853729248
+            },
+            {
+                "id": "nq_4740_202",
+                "score": 0.6904910206794739
+            },
+            {
+                "id": "nq_84230_241",
+                "score": 0.6901704668998718
+            },
+            {
+                "id": "nq_38225_65",
+                "score": 0.6884351968765259
+            },
+            {
+                "id": "nq_84230_242",
+                "score": 0.6872338056564331
+            },
+            {
+                "id": "nq_84230_79",
+                "score": 0.6850520372390747
+            },
+            {
+                "id": "m.02xt6q_88",
+                "score": 0.6824758648872375
+            },
+            {
+                "id": "nq_4740_226",
+                "score": 0.6805484890937805
+            },
+            {
+                "id": "nq_4740_201",
+                "score": 0.6804128289222717
+            },
+            {
+                "id": "m.02xt6q_473",
+                "score": 0.6795072555541992
+            },
+            {
+                "id": "nq_147702_65",
+                "score": 0.6791229248046875
+            },
+            {
+                "id": "m.02xt6q_282",
+                "score": 0.6770945191383362
+            },
+            {
+                "id": "m.02w64f_358",
+                "score": 0.6762588620185852
+            },
+            {
+                "id": "nq_231008_40",
+                "score": 0.6748313903808594
+            },
+            {
+                "id": "nq_84230_263",
+                "score": 0.6747432947158813
+            },
+            {
+                "id": "nq_4740_200",
+                "score": 0.6747190356254578
+            },
+            {
+                "id": "m.02xt6q_472",
+                "score": 0.6744115352630615
+            },
+            {
+                "id": "nq_145728_64",
+                "score": 0.6738227605819702
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.06l22_605",
+                "score": 0.6654866337776184
+            },
+            {
+                "id": "m.06l22_476",
+                "score": 0.6549031734466553
+            },
+            {
+                "id": "m.06l22_72",
+                "score": 0.6511906981468201
+            },
+            {
+                "id": "m.06l22_743",
+                "score": 0.6457189917564392
+            },
+            {
+                "id": "m.06l22_71",
+                "score": 0.644663393497467
+            },
+            {
+                "id": "m.06l22_338",
+                "score": 0.640978991985321
+            },
+            {
+                "id": "m.06l22_604",
+                "score": 0.6351115107536316
+            },
+            {
+                "id": "m.06l22_477",
+                "score": 0.6343944668769836
+            },
+            {
+                "id": "m.06l22_573",
+                "score": 0.6333827972412109
+            },
+            {
+                "id": "m.06l22_183",
+                "score": 0.6323660016059875
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_36950_0",
+                "score": 0.6489655375480652
+            },
+            {
+                "id": "ott_37258_0",
+                "score": 0.6489655375480652
+            },
+            {
+                "id": "ott_5947_0",
+                "score": 0.6489655375480652
+            },
+            {
+                "id": "ott_5667_1",
+                "score": 0.6482986211776733
+            },
+            {
+                "id": "ott_25753_1",
+                "score": 0.6482986211776733
+            },
+            {
+                "id": "ott_11059_1",
+                "score": 0.6482986211776733
+            },
+            {
+                "id": "ott_9979_1",
+                "score": 0.6482986211776733
+            },
+            {
+                "id": "ott_13950_1",
+                "score": 0.6482986211776733
+            },
+            {
+                "id": "ott_33320_1",
+                "score": 0.6437927484512329
+            },
+            {
+                "id": "ott_1742_1",
+                "score": 0.6437927484512329
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_25483_595",
+                "score": 0.6972846984863281
+            },
+            {
+                "id": "nq_4740_70",
+                "score": 0.6966930031776428
+            },
+            {
+                "id": "nq_25483_596",
+                "score": 0.694800853729248
+            },
+            {
+                "id": "nq_4740_202",
+                "score": 0.6904910206794739
+            },
+            {
+                "id": "nq_84230_241",
+                "score": 0.6901704668998718
+            },
+            {
+                "id": "nq_38225_65",
+                "score": 0.6884351968765259
+            },
+            {
+                "id": "nq_84230_242",
+                "score": 0.6872338056564331
+            },
+            {
+                "id": "nq_84230_79",
+                "score": 0.6850520372390747
+            },
+            {
+                "id": "nq_4740_226",
+                "score": 0.6805484890937805
+            },
+            {
+                "id": "nq_4740_201",
+                "score": 0.6804128289222717
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_54286_7",
+                "score": 0.664690375328064
+            },
+            {
+                "id": "triviaqa_43089_3",
+                "score": 0.6579639911651611
+            },
+            {
+                "id": "triviaqa_44215_0",
+                "score": 0.64903724193573
+            },
+            {
+                "id": "triviaqa_3294_8",
+                "score": 0.6306514143943787
+            },
+            {
+                "id": "triviaqa_43089_4",
+                "score": 0.629342257976532
+            },
+            {
+                "id": "triviaqa_3164_7",
+                "score": 0.628599226474762
+            },
+            {
+                "id": "triviaqa_54286_6",
+                "score": 0.6273811459541321
+            },
+            {
+                "id": "triviaqa_16445_18",
+                "score": 0.6266780495643616
+            },
+            {
+                "id": "triviaqa_16445_19",
+                "score": 0.6162170171737671
+            },
+            {
+                "id": "triviaqa_3164_5",
+                "score": 0.6145340204238892
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02xt6q_88",
+                "score": 0.6824758648872375
+            },
+            {
+                "id": "m.02xt6q_473",
+                "score": 0.6795072555541992
+            },
+            {
+                "id": "m.02xt6q_282",
+                "score": 0.6770945191383362
+            },
+            {
+                "id": "m.02w64f_358",
+                "score": 0.6762588620185852
+            },
+            {
+                "id": "m.02xt6q_472",
+                "score": 0.6744115352630615
+            },
+            {
+                "id": "m.02xt6q_36",
+                "score": 0.6722186207771301
+            },
+            {
+                "id": "m.06l22_605",
+                "score": 0.6654866337776184
+            },
+            {
+                "id": "m.02xt6q_260",
+                "score": 0.665337085723877
+            },
+            {
+                "id": "m.02xt6q_463",
+                "score": 0.6652622222900391
+            },
+            {
+                "id": "m.02xt6q_87",
+                "score": 0.6639713644981384
+            },
+            {
+                "id": "m.02xt6q_416",
+                "score": 0.6614111661911011
+            },
+            {
+                "id": "m.02xt6q_261",
+                "score": 0.6613510847091675
+            },
+            {
+                "id": "m.02xt6q_23",
+                "score": 0.6613216400146484
+            },
+            {
+                "id": "m.02xt6q_438",
+                "score": 0.6612062454223633
+            },
+            {
+                "id": "m.0hvgt_517",
+                "score": 0.6600730419158936
+            },
+            {
+                "id": "m.02xt6q_281",
+                "score": 0.6599893569946289
+            },
+            {
+                "id": "m.02xt6q_67",
+                "score": 0.6599597930908203
+            },
+            {
+                "id": "m.02xt6q_230",
+                "score": 0.6577682495117188
+            },
+            {
+                "id": "m.02xt6q_421",
+                "score": 0.6576064229011536
+            },
+            {
+                "id": "m.02xt6q_420",
+                "score": 0.655476987361908
+            }
+        ],
+        "llm_mark_result": {
+            "nq_4740_62": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is the Santiago Bernabéu Stadium for which Cristiano Ronaldo played in the year 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document discusses the FIFA Ballon d'Or award and mentions Cristiano Ronaldo presenting his second FIFA Ballon d'Or at the Santiago Bernabéu Stadium before a match against Atlético Madrid on 15 January 2015. It also mentions the merging of two awards into one main award in 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.'.",
+                "Key Information Matching": "While the document mentions Cristiano Ronaldo and the Santiago Bernabéu Stadium, it does not provide information about which team he played for in 2010.",
+                "Can the Document Answer the Query": "No, the document does not provide direct information about the team Cristiano Ronaldo played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional context that could help infer the team Cristiano Ronaldo played for in 2010.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful information about the team Cristiano Ronaldo played for in 2010, despite mentioning him and the Santiago Bernabéu Stadium in a different context."
+            },
+            "m.06l22_338": {
+                "Query Analysis": "The query asks for the sports team for which Cristiano Ronaldo played in 2010, specifying that the team's home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides detailed information about Real Madrid C.F., including its history, achievements, and the fact that its home matches are played in the Santiago Bernabéu Stadium since 1947. However, it does not explicitly mention Cristiano Ronaldo.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium' and 'Real Madrid C.F.', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'Real Madrid C.F.', which is the answer to the query.",
+                "Key Information Matching": "The document matches key information about the home stadium (Santiago Bernabéu Stadium) and the team (Real Madrid C.F.), but it does not directly mention Cristiano Ronaldo's association with the team in 2010.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides sufficient context about Real Madrid C.F. and its home stadium, which can help infer that Cristiano Ronaldo played for this team, given common knowledge about his career.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides key information about Real Madrid C.F. and its home stadium, which are central to the query. However, it lacks the specific detail about Cristiano Ronaldo's tenure with the team in 2010. The document can aid in inferring the answer based on general knowledge but does not directly answer the query."
+            },
+            "ott_1167_1": {
+                "Query Analysis": "The query asks for the sports team that Cristiano Ronaldo played for in 2010, with the additional information that the team's home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, sports team, Santiago Bernabéu Stadium, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', indicating that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document provides information about Major League Soccer (MLS) stadiums and their capacities, locations, and opening years. It also includes a section on soccer-specific stadiums in North America, describing their design and features.",
+                "Document and Query Keywords Matching": "There are no keywords from the query found in the document. The document does not mention 'Cristiano Ronaldo', 'Santiago Bernabéu Stadium', or '2010'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer, such as 'Real Madrid C.F.'.",
+                "Key Information Matching": "The document does not provide any key information related to Cristiano Ronaldo, Santiago Bernabéu Stadium, or the year 2010. It focuses on MLS stadiums and soccer-specific stadiums in North America.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Cristiano Ronaldo or his team in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that can help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on MLS stadiums and soccer-specific stadiums in North America, which is unrelated to Cristiano Ronaldo, Santiago Bernabéu Stadium, or the sports team he played for in 2010. Therefore, the document is irrelevant to the query."
+            },
+            "nq_25483_596": {
+                "Query Analysis": "The query asks for the sports team for which Cristiano Ronaldo played in 2010, given that his home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": [
+                    "Cristiano Ronaldo",
+                    "Santiago Bernabéu Stadium",
+                    "sports team",
+                    "2010"
+                ],
+                "Answer Analysis": "The answer provided is 'Real Madrid C.F.', indicating that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document contains match records involving Cristiano Ronaldo, including his appearances for Real Madrid in 2010 against various teams such as Racing Santander and Athletic Bilbao. It also mentions his nationality (Portugal) and the dates of the matches.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid', both of which are key to the query. Additionally, it provides information about matches played in 2010.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid', which matches the answer provided.",
+                "Key Information Matching": "The document confirms that Cristiano Ronaldo played for Real Madrid in 2010, which aligns with the query's requirement. Although it does not explicitly mention Santiago Bernabéu Stadium, it is well-known that Real Madrid's home stadium is Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "Yes, the document directly indicates that Cristiano Ronaldo played for Real Madrid in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the matches Ronaldo played for Real Madrid in 2010, supporting the inference that his home stadium was Santiago Bernabéu Stadium.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides specific information about Cristiano Ronaldo playing for Real Madrid in 2010. While it does not explicitly mention Santiago Bernabéu Stadium, the association between Real Madrid and this stadium is well-established knowledge. The document thus provides substantial useful context and answers the query effectively."
+            },
+            "m.06l22_476": {
+                "Query Analysis": "The query asks for the sports team for which Cristiano Ronaldo played in 2010, specifying that the team's home stadium is the Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, sports team, home stadium, Santiago Bernabéu Stadium",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides information about Real Madrid C.F., including roster details, championships, and a general article about the club. It mentions the Santiago Bernabéu Stadium as the team's home venue.",
+                "Document and Query Keywords Matching": "The document mentions 'Real Madrid C.F.', 'Santiago Bernabéu Stadium', and includes roster details that can be relevant to the timeframe specified in the query.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Real Madrid C.F.', which is the answer to the query.",
+                "Key Information Matching": "The document matches key information by mentioning Real Madrid C.F. and the Santiago Bernabéu Stadium. Additionally, the roster details include a timeframe that encompasses 2010, indicating Cristiano Ronaldo's presence on the team during that year.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query by confirming that Cristiano Ronaldo was on the roster of Real Madrid C.F. in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Real Madrid C.F. and its home stadium, enhancing the understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the necessary information to confirm that Cristiano Ronaldo played for Real Madrid C.F. in 2010, and it also mentions the Santiago Bernabéu Stadium as the team's home venue. This makes it highly useful for answering the query and providing additional context."
+            },
+            "nq_4740_202": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is Santiago Bernabéu Stadium and for which Cristiano Ronaldo played in 2010.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, Santiago Bernabéu Stadium, sports team, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team at Santiago Bernabéu Stadium in 2010.",
+                "Document Content Analysis": "The document provides match details from the 2010-2011 season, including games played at Santiago Bernabéu Stadium. It mentions several matches where Real Madrid C.F. (implied by context) played at this stadium during 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium' and provides information about matches played there in 2010.",
+                "Document and Answer Keywords Matching": "The document implicitly confirms 'Real Madrid C.F.' as the team playing at Santiago Bernabéu Stadium through the match details provided.",
+                "Key Information Matching": "The document matches key elements of the query by mentioning Santiago Bernabéu Stadium and providing game details for the 2010-2011 season, indirectly confirming that Cristiano Ronaldo played for Real Madrid C.F. at this venue.",
+                "Can the Document Answer the Query": "Yes, the document indirectly answers the query by providing sufficient context to infer that Cristiano Ronaldo played for Real Madrid C.F. at Santiago Bernabéu Stadium in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps infer that Cristiano Ronaldo was part of Real Madrid C.F. during the 2010-2011 season, as evidenced by the matches played at Santiago Bernabéu Stadium.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides substantial useful context about matches played at Santiago Bernabéu Stadium in 2010, allowing us to infer that Cristiano Ronaldo played for Real Madrid C.F. during this period. The document does not explicitly state Cristiano Ronaldo's involvement but strongly implies it through the context of the matches and the stadium."
+            },
+            "nq_109162_125": {
+                "Query Analysis": "The query asks for the name of the sports team whose home stadium is the Santiago Bernabéu Stadium and for which Cristiano Ronaldo played in the year 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides information about Cristiano Ronaldo's career achievements and mentions his presentation at the Santiago Bernabéu Stadium in January 2015. It also lists some of his honors and achievements but focuses more on his overall career rather than specific details about his tenure with any particular team in a specific year.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.' in the provided text.",
+                "Key Information Matching": "While the document connects Cristiano Ronaldo to the Santiago Bernabéu Stadium, it does not provide information about which team he played for in 2010.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the mention of Ronaldo at the Santiago Bernabéu Stadium can help infer that he has a significant connection to the stadium, which is the home of Real Madrid C.F.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Cristiano Ronaldo and the Santiago Bernabéu Stadium, but it lacks the specific detail of which team he played for in 2010. However, the connection to the stadium can help infer additional information relevant to the query."
+            },
+            "nq_25483_595": {
+                "Query Analysis": "The query asks for the sports team for which Cristiano Ronaldo played in 2010, specifying that the team's home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, sports team, Santiago Bernabéu Stadium, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides a list of matches and players, including Cristiano Ronaldo, along with their respective teams and match dates in 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions that Cristiano Ronaldo played for Real Madrid in 2010, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Cristiano Ronaldo played for Real Madrid in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context by listing specific matches in which Cristiano Ronaldo played for Real Madrid in 2010.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer it, confirming that Cristiano Ronaldo played for Real Madrid in 2010. This direct match makes the document highly useful for understanding the query and its answer."
+            },
+            "nq_4740_70": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is Santiago Bernabéu Stadium for which Cristiano Ronaldo played in 2010.",
+                "Query Keywords Extraction": "sports team, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document mentions Cristiano Ronaldo and Real Madrid C.F. in the context of a comparison with Neymar and Barcelona. It also discusses the Laureus World Sports Awards and Ronaldo's involvement with Manchester United in different years.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid C.F.', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid C.F.', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'Real Madrid C.F.' in association with Cristiano Ronaldo, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions that Cristiano Ronaldo was associated with Real Madrid C.F.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Ronaldo's career and his association with different teams, which can help infer his team in 2010.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it mentions both Cristiano Ronaldo and Real Madrid C.F., which is the answer to the query. It provides substantial useful context about Ronaldo's career, enhancing understanding of the query."
+            },
+            "m.02xt6q_88": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is Santiago Bernabéu Stadium and for which Cristiano Ronaldo played in 2010.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, Santiago Bernabéu Stadium, sports team, 2010",
+                "Answer Analysis": "The answer indicates that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document provides multiple descriptions of Cristiano Ronaldo in different languages. It mentions that he played for Real Madrid and describes his career highlights, including his time at Sporting Lisbon and Portugal's national team. The document also notes his current club as Real Madrid.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid'. It does not explicitly mention 'Santiago Bernabéu Stadium' or '2010'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Real Madrid', which matches the answer provided.",
+                "Key Information Matching": "The document confirms that Cristiano Ronaldo played for Real Madrid, which aligns with the answer. Although it does not specify the year 2010 or mention Santiago Bernabéu Stadium directly, it strongly implies Ronaldo's association with Real Madrid during his prime years.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Cristiano Ronaldo played for Real Madrid in 2010 or mention Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Cristiano Ronaldo's association with Real Madrid, which can help infer that he likely played for Real Madrid C.F., whose home stadium is Santiago Bernabéu, during the relevant period.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Cristiano Ronaldo playing for Real Madrid, which helps infer the answer to the query. However, it lacks specific details about the year 2010 and the mention of Santiago Bernabéu Stadium, making it only partially relevant."
+            },
+            "nq_84230_78": {
+                "Query Analysis": "The query asks for the sports team that Cristiano Ronaldo played for in 2010, with the condition that the team's home stadium is the Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, sports team, Santiago Bernabéu Stadium",
+                "Answer Analysis": "The answer provided is 'Real Madrid C.F.', indicating that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document contains information about Cristiano Ronaldo, including his association with Real Madrid C.F. and mentions of the Santiago Bernabéu Stadium. It also discusses his Ballon d'Or achievements and appearances at the stadium.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo', 'Real Madrid C.F.', and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid C.F.', which matches the answer.",
+                "Key Information Matching": "The document confirms that Cristiano Ronaldo was associated with Real Madrid C.F., and it mentions the Santiago Bernabéu Stadium, aligning with both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Cristiano Ronaldo was associated with Real Madrid C.F., and it mentions the Santiago Bernabéu Stadium, providing sufficient context to answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Ronaldo's career and his connection to Real Madrid C.F. and the Santiago Bernabéu Stadium.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly mentions Cristiano Ronaldo's association with Real Madrid C.F. and the Santiago Bernabéu Stadium. It provides substantial useful context that enhances understanding of the query and directly answers it."
+            },
+            "triviaqa_54286_7": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is Santiago Bernabéu Stadium and for which Cristiano Ronaldo played in the year 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides information about various football clubs, including Real Madrid. It mentions Real Madrid's home ground as Santiago Bernabéu Stadium and includes Cristiano Ronaldo in their lineup.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium', 'Cristiano Ronaldo', and 'Real Madrid', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions that Real Madrid's home ground is Santiago Bernabéu Stadium and that Cristiano Ronaldo was part of their lineup, which aligns with the query's requirements.",
+                "Can the Document Answer the Query": "Yes, the document provides the information that Cristiano Ronaldo played for Real Madrid, whose home stadium is Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Real Madrid and its players, including Cristiano Ronaldo.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it, confirming that Cristiano Ronaldo played for Real Madrid, which uses Santiago Bernabéu Stadium as its home ground. This direct match makes the document highly relevant."
+            },
+            "m.02xt6q_558": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is the Santiago Bernabéu Stadium for which Cristiano Ronaldo played in the year 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides various details about Cristiano Ronaldo, including his award nominations, statistics, positions, awards won, notable achievements, salary, and teams he has played for. However, it does not explicitly mention the Santiago Bernabéu Stadium or the specific team he played for in 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and provides information about his career, but it does not mention 'Santiago Bernabéu Stadium' or '2010' in the context of his team.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.' in the provided text.",
+                "Key Information Matching": "While the document provides extensive information about Cristiano Ronaldo's career, it lacks specific details about the team he played for in 2010 or the Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information needed to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain key information that would help infer which team Cristiano Ronaldo played for in 2010 or the home stadium of that team.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document, while rich in details about Cristiano Ronaldo's career, does not contain any information directly related to the query's specific focus on the team he played for in 2010 or the Santiago Bernabéu Stadium. Therefore, it is deemed irrelevant to the query."
+            },
+            "nq_84230_241": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is the Santiago Bernabéu Stadium for which Cristiano Ronaldo played in 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides a list of matches played by Cristiano Ronaldo, including dates, opponents, scores, and venues. It mentions several matches in La Liga during 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and '2010', and it includes matches played in La Liga.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.', but it includes matches in La Liga, which is a context where Real Madrid C.F. competes.",
+                "Key Information Matching": "The document provides context about Cristiano Ronaldo's matches in 2010, particularly in La Liga, which is relevant to the query.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document's mention of La Liga matches in 2010 involving Cristiano Ronaldo can help infer that he played for a team in La Liga, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Cristiano Ronaldo's matches in 2010, particularly in La Liga, but it lacks the specific detail of him playing for Real Madrid C.F. It provides useful context but does not directly answer the query."
+            },
+            "nq_231008_122": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is Santiago Bernabéu Stadium that Cristiano Ronaldo played for in 2010.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, Santiago Bernabéu Stadium, 2010, sports team",
+                "Answer Analysis": "The answer provided is 'Real Madrid C.F.', indicating that Cristiano Ronaldo played for Real Madrid C.F. at Santiago Bernabéu Stadium in 2010.",
+                "Document Content Analysis": "The document contains a table of statistics and achievements related to Cristiano Ronaldo's career. It also mentions Ronaldo presenting his third Ballon d'Or to fans at the Santiago Bernabéu Stadium in January 2015. Additionally, it references his club career, including his time at Sporting CP.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium' and 'Cristiano Ronaldo'.",
+                "Document and Answer Keywords Matching": "The document indirectly supports the answer by mentioning the Santiago Bernabéu Stadium, which is Real Madrid's home stadium.",
+                "Key Information Matching": "While the document does not explicitly state that Cristiano Ronaldo played for Real Madrid in 2010, it provides context about his association with the Santiago Bernabéu Stadium, which is strongly linked to Real Madrid.",
+                "Can the Document Answer the Query": "No, the document does not directly mention Cristiano Ronaldo playing for Real Madrid in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information that can help infer Ronaldo's association with the Santiago Bernabéu Stadium, which is closely tied to Real Madrid.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about Cristiano Ronaldo's career and his association with the Santiago Bernabéu Stadium. However, it lacks explicit information about him playing for Real Madrid in 2010, making it not fully relevant to directly answer the query."
+            },
+            "m.02xt6q_184": {
+                "Query Analysis": "The query asks for the sports team that Cristiano Ronaldo played for in 2010, with Santiago Bernabéu Stadium as the home stadium.",
+                "Query Keywords Extraction": [
+                    "Cristiano Ronaldo",
+                    "sports team",
+                    "Santiago Bernabéu Stadium",
+                    "2010"
+                ],
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', indicating that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document provides information about Cristiano Ronaldo's career milestones, awards, and statistics but lacks specific details about his teams or the stadiums he played in during 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and includes some career-related information, but it does not mention 'Santiago Bernabéu Stadium' or specify his team in 2010.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.' or 'Santiago Bernabéu Stadium'.",
+                "Key Information Matching": "While the document contains information about Cristiano Ronaldo's career, it does not provide key details about his team or the stadium in 2010.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information required to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, the document provides context about Cristiano Ronaldo's career but lacks the necessary details to infer the exact team he played for in 2010 at Santiago Bernabéu Stadium.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Cristiano Ronaldo's career but lacks the specific details needed to directly answer the query. It can provide some context about his career timeline and achievements, which might be useful for inferring additional information, but it does not contain the exact information about his team and stadium in 2010."
+            },
+            "m.06l22_72": {
+                "Query Analysis": "The query asks for the sports team that Cristiano Ronaldo played for in 2010, with the condition that the team's home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": [
+                    "Cristiano Ronaldo",
+                    "sports team",
+                    "Santiago Bernabéu Stadium",
+                    "2010"
+                ],
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides a detailed description of Real Madrid C.F., including its history, significance, and information about its home stadium, the Santiago Bernabéu Stadium. It also mentions the club's value and rivalries.",
+                "Document and Query Keywords Matching": "The document mentions 'Real Madrid C.F.', 'Santiago Bernabéu Stadium', and indirectly relates to 'Cristiano Ronaldo' as he was a notable player for Real Madrid during the period described.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Real Madrid C.F.', which matches the answer.",
+                "Key Information Matching": "The document confirms that Real Madrid C.F. plays at the Santiago Bernabéu Stadium, aligning with the query's requirement. While it does not specify Cristiano Ronaldo's tenure, it strongly implies his involvement given his well-known association with the club.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Cristiano Ronaldo played for Real Madrid in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides strong evidence that Real Madrid C.F. is the team whose home stadium is Santiago Bernabéu Stadium, and it is widely known that Cristiano Ronaldo played for Real Madrid during that period.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document provides substantial useful context about Real Madrid C.F. and its home stadium, Santiago Bernabéu Stadium. Although it does not explicitly mention Cristiano Ronaldo's playing period, it offers enough information to infer that he played for Real Madrid in 2010, making it highly relevant to the query."
+            },
+            "m.06l22_605": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is Santiago Bernabéu Stadium and for which Cristiano Ronaldo played in 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides information about Real Madrid C.F., including its history, home stadium (Santiago Bernabéu Stadium), and various achievements. It also mentions that the team has played its home matches in the Santiago Bernabéu Stadium since 1947.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium' and 'Real Madrid C.F.', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Real Madrid C.F.', which is the answer to the query.",
+                "Key Information Matching": "The document provides the name of the team (Real Madrid C.F.) that plays in the Santiago Bernabéu Stadium, which is a direct match to the query's requirement.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Real Madrid C.F. plays in the Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Real Madrid C.F., including its history and significance, which can help infer why Cristiano Ronaldo would play for such a prominent team.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer the query (i.e., the team that plays in the Santiago Bernabéu Stadium and for which Cristiano Ronaldo played in 2010). The document not only mentions the key terms from the query but also provides additional context that enhances understanding of the team's significance."
+            },
+            "m.02xt6q_473": {
+                "Query Analysis": "The query asks for the sports team for which Cristiano Ronaldo played in 2010, specifying that the team's home stadium is the Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides information about Cristiano Ronaldo's career, mentioning that he plays for Real Madrid and has played for other clubs like Sporting Lisbon. It also mentions his national team involvement with Portugal.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Real Madrid', which is the answer to the query.",
+                "Key Information Matching": "The document confirms that Cristiano Ronaldo played for Real Madrid, which is the team associated with the Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Cristiano Ronaldo played for Real Madrid, which is the team whose home stadium is the Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Cristiano Ronaldo's career, including his time at Real Madrid.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it confirms that Cristiano Ronaldo played for Real Madrid, the team associated with the Santiago Bernabéu Stadium, thus providing a direct answer to the query."
+            },
+            "ott_36950_0": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is the Santiago Bernabéu Stadium and for which Cristiano Ronaldo played in the year 2010.",
+                "Query Keywords Extraction": "sports team, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document provides information about the 2010 Major League Soccer season, including details about various teams, their managers, captains, kit manufacturers, and shirt sponsors. It also mentions the MLS All-Star Game and the outcomes of the regular season and playoffs.",
+                "Document and Query Keywords Matching": "The document does not mention 'Santiago Bernabéu Stadium', 'Cristiano Ronaldo', or 'Real Madrid C.F.'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords directly related to the answer 'Real Madrid C.F.'.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on Cristiano Ronaldo, Santiago Bernabéu Stadium, or Real Madrid C.F.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Cristiano Ronaldo or the team he played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is solely focused on the 2010 Major League Soccer season in the United States and Canada, which is unrelated to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the 2010 Major League Soccer season and does not contain any information about Cristiano Ronaldo, the Santiago Bernabéu Stadium, or Real Madrid C.F. Therefore, it is irrelevant to the query as it provides no useful context or additional information related to the question."
+            },
+            "nq_12974_126": {
+                "Query Analysis": "The query asks for the sports team whose home stadium is the Santiago Bernabéu Stadium for which Cristiano Ronaldo played in 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is Real Madrid C.F., indicating that Cristiano Ronaldo played for this team in 2010.",
+                "Document Content Analysis": "The document mentions Cristiano Ronaldo and the Santiago Bernabéu Stadium in the context of him presenting his third Ballon d'Or to fans at the stadium in January 2015. It also lists his achievements at various clubs, including Sporting CP and Manchester United, but does not explicitly state his tenure at Real Madrid C.F.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.' in the provided text.",
+                "Key Information Matching": "The document connects Cristiano Ronaldo to the Santiago Bernabéu Stadium, which is a key piece of information related to the query, but it does not explicitly state that he played for Real Madrid C.F. in 2010.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document's mention of Cristiano Ronaldo at the Santiago Bernabéu Stadium can help infer that he was associated with the team that plays there, which is Real Madrid C.F.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Cristiano Ronaldo and the Santiago Bernabéu Stadium, which can help infer the team he played for, but it lacks the explicit detail needed to directly answer the query. Therefore, it is partially relevant."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_4740_62": {
+                "Query Analysis": "The query asks for the sports team Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document discusses the FIFA Ballon d'Or and mentions Cristiano Ronaldo presenting his award at the Santiago Bernabéu Stadium in 2015. It also includes a table with Ballon d'Or results for 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo', 'Santiago Bernabéu Stadium', and '2010'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.'.",
+                "Key Information Matching": "The document mentions Cristiano Ronaldo and the Santiago Bernabéu Stadium, which are key elements of the query, but it does not directly state the team he played for in 2010.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state the team Cristiano Ronaldo played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions Cristiano Ronaldo and the Santiago Bernabéu Stadium, which can help infer that he played for Real Madrid C.F., as it is the team associated with that stadium.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about Cristiano Ronaldo and the Santiago Bernabéu Stadium, which can help infer the answer, but it does not directly state the team he played for in 2010."
+            },
+            "m.06l22_338": {
+                "Query Analysis": "The query asks for the name of the sports team, whose home stadium is Santiago Bernabéu Stadium, that Cristiano Ronaldo played for in 2010.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document provides detailed information about Real Madrid C.F., including its history, achievements, and the fact that it plays its home matches at the Santiago Bernabéu Stadium. It also mentions that the club is based in Madrid, Spain, and has been highly successful in football.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium' and 'Real Madrid C.F.', which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Real Madrid C.F.', which is the answer to the query.",
+                "Key Information Matching": "The document confirms that Real Madrid C.F. plays its home matches at the Santiago Bernabéu Stadium, which directly matches the query's requirement. Additionally, it provides context about the club's history and achievements.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Real Madrid C.F. plays at the Santiago Bernabéu Stadium, which is the team Cristiano Ronaldo played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Real Madrid C.F., including its history and achievements, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query. It provides the exact answer by confirming that Real Madrid C.F. plays at the Santiago Bernabéu Stadium, which is the team Cristiano Ronaldo played for in 2010. Additionally, it offers substantial useful context about the club, enhancing understanding of the query."
+            },
+            "ott_1167_1": {
+                "Query Analysis": "The query asks about the sports team Cristiano Ronaldo played for in 2010, specifically a team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer provided is Real Madrid C.F., indicating that Cristiano Ronaldo played for Real Madrid in 2010.",
+                "Document Content Analysis": "The document discusses soccer-specific stadiums in North America, particularly those used in Major League Soccer (MLS). It provides information about stadium characteristics, dimensions, and some specific MLS stadiums.",
+                "Document and Query Keywords Matching": "The document mentions 'stadium' multiple times, but does not contain any other keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer.",
+                "Key Information Matching": "There is no significant match between the key information in the query/answer and the document content. The document focuses on MLS stadiums in North America, while the query is about a specific player and team in Europe.",
+                "Can the Document Answer the Query": "No, the document cannot directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer details relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query. It focuses on soccer-specific stadiums in North America, particularly those used in Major League Soccer. The query, however, is about Cristiano Ronaldo and a team he played for in 2010 whose home stadium is Santiago Bernabéu Stadium (which is in Madrid, Spain). The document does not mention Ronaldo, Real Madrid, or any European soccer teams or stadiums. It provides no information that could help answer the query or provide useful context for understanding it better. Therefore, this document is considered irrelevant to the given query."
+            },
+            "nq_25483_596": {
+                "Query Analysis": "The query asks about which sports team Cristiano Ronaldo played for in 2010, specifically a team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, Santiago Bernabéu Stadium, sports team",
+                "Answer Analysis": "The answer indicates that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document appears to be a match log or statistics table showing games played in 2010. It shows multiple entries for Cristiano Ronaldo playing for Real Madrid in different matches during 2010, including games against Racing Santander (6-1) and Athletic Bilbao (5-1).",
+                "Document and Query Keywords Matching": "The document contains 'Cristiano Ronaldo', 'Real Madrid', and '2010' multiple times.",
+                "Document and Answer Keywords Matching": "The document shows 'Real Madrid' as Cristiano Ronaldo's team in 2010, matching the answer.",
+                "Key Information Matching": "The document confirms Cristiano Ronaldo played for Real Madrid in 2010 through multiple match entries, though it doesn't mention Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "Partially - it confirms Ronaldo played for Real Madrid in 2010 but doesn't mention their home stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides strong evidence of Ronaldo's team affiliation during 2010.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it provides direct evidence of Cristiano Ronaldo playing for Real Madrid in 2010 through multiple match records. While it doesn't mention Santiago Bernabéu Stadium, it clearly shows the team association which is central to answering the query. The multiple match entries with dates in 2010 provide strong contextual evidence supporting the answer."
+            },
+            "m.06l22_476": {
+                "Query Analysis": "The query asks for the sports team that Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', indicating that Cristiano Ronaldo played for Real Madrid in 2010.",
+                "Document Content Analysis": "The document provides information about Real Madrid C.F., including its history, home stadium (Santiago Bernabéu Stadium), and roster details. It specifically mentions Cristiano Ronaldo's tenure with the club from 2010 to 2013.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium', 'Cristiano Ronaldo', and '2010'.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010.",
+                "Key Information Matching": "The document mentions 'Santiago Bernabéu Stadium' as the home stadium of Real Madrid C.F. and lists Cristiano Ronaldo's tenure with the club starting in 2010.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Cristiano Ronaldo played for Real Madrid C.F. in 2010, and it mentions that the team's home stadium is Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Real Madrid C.F., including its history and home stadium.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query. It provides the exact answer by stating that Cristiano Ronaldo played for Real Madrid C.F. in 2010 and confirms that the team's home stadium is Santiago Bernabéu Stadium. Additionally, it offers useful context about the club."
+            },
+            "nq_4740_202": {
+                "Query Analysis": "The query asks to identify the sports team that Cristiano Ronaldo played for in 2010, specifically the team whose home stadium was Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, Santiago Bernabéu Stadium, sports team",
+                "Answer Analysis": "The answer indicates that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document shows multiple matches played at Santiago Bernabéu Stadium in Madrid, Spain during 2010-2011, including La Liga and Copa del Rey matches. It lists games against Athletic Bilbao, Levante, and Villarreal, with dates and scores.",
+                "Document and Query Keywords Matching": "The document contains 'Santiago Bernabéu Stadium' multiple times and matches from 2010",
+                "Document and Answer Keywords Matching": "While Real Madrid C.F. is not explicitly mentioned, the matches at Santiago Bernabéu Stadium in Madrid are clearly home games for Real Madrid",
+                "Key Information Matching": "The document shows matches being played at Santiago Bernabéu Stadium during 2010, which was Real Madrid's home stadium. The format suggests these are home games for the team Ronaldo played for.",
+                "Can the Document Answer the Query": "No, the document doesn't explicitly mention Cristiano Ronaldo or Real Madrid C.F.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document shows matches at Santiago Bernabéu Stadium in 2010, which was Real Madrid's home stadium, helping to infer the team Ronaldo played for",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant (1) because while it doesn't explicitly mention Cristiano Ronaldo or Real Madrid, it provides strong contextual evidence through the matches played at Santiago Bernabéu Stadium in 2010. The stadium's location in Madrid and its role as a home venue for competitive matches strongly implies these are Real Madrid's home games, which helps corroborate the answer but doesn't directly state it."
+            },
+            "nq_109162_125": {
+                "Query Analysis": "The query asks for the name of the sports team Cristiano Ronaldo played for in 2010, whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document mentions Cristiano Ronaldo's achievements and includes a reference to the Santiago Bernabéu Stadium, where he presented his third Ballon d'Or in January 2015. It also lists his clubs, including Sporting CP and Manchester United, but does not explicitly mention Real Madrid C.F. or the year 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.'.",
+                "Key Information Matching": "The document mentions 'Cristiano Ronaldo' and 'Santiago Bernabéu Stadium', which are key to the query, but it does not provide information about the team he played for in 2010.",
+                "Can the Document Answer the Query": "No, the document does not mention the team Cristiano Ronaldo played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Cristiano Ronaldo's association with the Santiago Bernabéu Stadium, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions Cristiano Ronaldo and the Santiago Bernabéu Stadium, which are key to the query. However, it does not provide the specific information about the team he played for in 2010, which is required to directly answer the query."
+            },
+            "nq_25483_595": {
+                "Query Analysis": "The query asks for the sports team Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document contains information about football matches involving Cristiano Ronaldo in 2010, including the teams he played for and the dates of the matches.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and '2010'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Real Madrid', which is the team Cristiano Ronaldo played for in 2010.",
+                "Key Information Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid' in the context of matches played in 2010, which aligns with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions that Cristiano Ronaldo played for Real Madrid in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the matches Cristiano Ronaldo played in 2010.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by confirming that Cristiano Ronaldo played for Real Madrid in 2010, and it also provides additional context about his matches during that year."
+            },
+            "nq_4740_70": {
+                "Query Analysis": "The query asks for the sports team Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document mentions Cristiano Ronaldo and his association with Real Madrid, as well as other teams like Manchester United and Barcelona. It also discusses awards and achievements related to Ronaldo and other footballers.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Real Madrid', which matches the answer.",
+                "Key Information Matching": "The document mentions Cristiano Ronaldo's association with Real Madrid, which is key to answering the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions that Cristiano Ronaldo played for Real Madrid, which is the team associated with Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Ronaldo's career and achievements, which could be useful for understanding his association with Real Madrid.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Cristiano Ronaldo played for Real Madrid in 2010, which is the team associated with Santiago Bernabéu Stadium. Additionally, it provides useful context about Ronaldo's career and achievements, enhancing understanding of the query."
+            },
+            "m.02xt6q_88": {
+                "Query Analysis": "The query asks about which sports team Cristiano Ronaldo played for in 2010, specifically looking for a team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, sports team, Santiago Bernabéu Stadium, 2010",
+                "Answer Analysis": "The answer indicates that Cristiano Ronaldo played for Real Madrid C.F.",
+                "Document Content Analysis": "The document contains descriptions of Cristiano Ronaldo in multiple languages (Chinese, Lithuanian, Malay, and Korean). The descriptions mention that he plays for Real Madrid as a forward/winger. The document also mentions his previous club Sporting Lisbon (1999-2003).",
+                "Document and Query Keywords Matching": "The document matches 'Cristiano Ronaldo' and indirectly references his team (Real Madrid)",
+                "Document and Answer Keywords Matching": "The document mentions 'Real Madrid' multiple times across different language descriptions",
+                "Key Information Matching": "The document confirms Ronaldo's association with Real Madrid, though it doesn't specifically mention the year 2010 or Santiago Bernabéu Stadium",
+                "Can the Document Answer the Query": "Partially - it confirms Ronaldo played for Real Madrid but doesn't specify the 2010 timeframe or stadium information",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides confirmation of Ronaldo's association with Real Madrid, which is relevant to answering the query",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant (Label 1) because it confirms Ronaldo's association with Real Madrid, which matches the answer. However, it lacks specific temporal information about 2010 and doesn't mention Santiago Bernabéu Stadium. The information is provided across multiple language descriptions, all confirming his Real Madrid connection, but missing some key query elements."
+            },
+            "nq_84230_78": {
+                "Query Analysis": "The query asks about which sports team Cristiano Ronaldo played for in 2010 that had Santiago Bernabéu Stadium as their home stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, Santiago Bernabéu Stadium, sports team",
+                "Answer Analysis": "The answer indicates that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document mentions Cristiano Ronaldo, Real Madrid C.F., and the Santiago Bernabéu Stadium. It discusses the FIFA Ballon d'Or award in 2010 and shows Ronaldo presenting his second Ballon d'Or to fans at the Santiago Bernabéu before a match.",
+                "Document and Query Keywords Matching": "The document contains 'Cristiano Ronaldo', 'Santiago Bernabéu Stadium', and references to 2010.",
+                "Document and Answer Keywords Matching": "The document mentions 'Real Madrid C.F.' multiple times in connection with Ronaldo.",
+                "Key Information Matching": "The document connects Ronaldo to Real Madrid and the Santiago Bernabéu Stadium, though the specific timeframe of 2010 is only mentioned in context of the Ballon d'Or award merger.",
+                "Can the Document Answer the Query": "Yes, though indirectly. The document shows Ronaldo's association with Real Madrid and the Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides context about Ronaldo's connection to Real Madrid and confirms the Santiago Bernabéu as their stadium.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it connects all key elements of the query - Cristiano Ronaldo, Real Madrid C.F., and the Santiago Bernabéu Stadium. While it doesn't explicitly state Ronaldo played for Real Madrid in 2010, it provides strong contextual evidence through the mention of the 2010 Ballon d'Or and shows his connection to both the team and stadium."
+            },
+            "triviaqa_54286_7": {
+                "Query Analysis": "The query asks for the sports team that Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document provides information about various football teams, including Real Madrid. It mentions that Real Madrid's home ground is Santiago Bernabeu stadium and lists Cristiano Ronaldo as one of its players. It also provides historical and current details about the team.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabeu stadium', 'Cristiano Ronaldo', and 'Real Madrid'.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid', which matches the answer.",
+                "Key Information Matching": "The document mentions 'Santiago Bernabeu stadium' as the home ground of Real Madrid and lists Cristiano Ronaldo as one of its players, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Cristiano Ronaldo played for Real Madrid, whose home stadium is Santiago Bernabeu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Real Madrid, including its history and other notable players.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the question, including the team Cristiano Ronaldo played for in 2010 and the home stadium of that team. It also offers additional context about the team, enhancing understanding of the query."
+            },
+            "m.02xt6q_558": {
+                "Query Analysis": "The query asks for the sports team Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010 and whose home stadium is Santiago Bernabéu Stadium.",
+                "Document Content Analysis": "The document provides various details about Cristiano Ronaldo, including his awards, statistics, positions, and teams. However, it does not explicitly mention the Santiago Bernabéu Stadium or the team he played for in 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and '2010' in the context of his salary.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Real Madrid C.F.' or 'Santiago Bernabéu Stadium'.",
+                "Key Information Matching": "The document mentions Cristiano Ronaldo and the year 2010 but does not provide information about the team he played for or the Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the team Cristiano Ronaldo played for in 2010 or mention the Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the team Cristiano Ronaldo played for in 2010 or the Santiago Bernabéu Stadium.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not provide any key information related to the query. It mentions Cristiano Ronaldo and the year 2010 but does not address the team he played for or the Santiago Bernabéu Stadium, making it irrelevant to the query."
+            },
+            "nq_84230_241": {
+                "Query Analysis": "The query asks for the sports team Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010, and their home stadium is Santiago Bernabéu Stadium.",
+                "Document Content Analysis": "The document mentions Cristiano Ronaldo and includes details about his matches in 2010, including a match on 5 May 2010 in La Liga against Mallorca and another on 23 October 2010 against Racing Santander. It also mentions Santiago Bernabéu Stadium.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo', '2010', and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Real Madrid C.F.'.",
+                "Key Information Matching": "The document mentions Cristiano Ronaldo playing in 2010 and includes Santiago Bernabéu Stadium, which is the home stadium of Real Madrid C.F., the team he played for in 2010.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions Cristiano Ronaldo playing in 2010 and includes Santiago Bernabéu Stadium, which is the home stadium of Real Madrid C.F., the team he played for in 2010.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Cristiano Ronaldo playing in 2010 and mentions Santiago Bernabéu Stadium, which is the home stadium of Real Madrid C.F., the team he played for in 2010. However, it does not explicitly state that he played for Real Madrid C.F. in 2010, so it is only partially relevant."
+            },
+            "nq_231008_122": {
+                "Query Analysis": "The query asks about which sports team Cristiano Ronaldo played for in 2010 that had Santiago Bernabéu Stadium as their home stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, Santiago Bernabéu Stadium, sports team, 2010",
+                "Answer Analysis": "The answer indicates that Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document contains statistics and achievements of Ronaldo, including a mention of Santiago Bernabéu Stadium where he presented his third Ballon d'Or in 2015. It also lists some honors from his time at Sporting CP.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention Real Madrid C.F.",
+                "Key Information Matching": "While the document mentions Santiago Bernabéu Stadium and Ronaldo, it doesn't explicitly state which team he played for in 2010.",
+                "Can the Document Answer the Query": "No, the document does not directly state which team Ronaldo played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides contextual information by mentioning Santiago Bernabéu Stadium in relation to Ronaldo, which is Real Madrid's home stadium.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it contains some key elements from the query (Ronaldo and Santiago Bernabéu Stadium) and provides contextual information, but it doesn't explicitly state which team Ronaldo played for in 2010. The document helps establish a connection between Ronaldo and Santiago Bernabéu Stadium but lacks the specific temporal information requested in the query."
+            },
+            "m.02xt6q_184": {
+                "Query Analysis": "The query asks about which sports team Cristiano Ronaldo played for in 2010, specifically a team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, sports team, Santiago Bernabéu Stadium, 2010",
+                "Answer Analysis": "The answer indicates that Cristiano Ronaldo played for Real Madrid C.F. during this period.",
+                "Document Content Analysis": "The document contains various information about Cristiano Ronaldo, including his career statistics, awards, salary information, and some team-related data. It shows he was active during 2010 with a salary entry dated '2010-08:00' and indicates he started playing somewhere in '2009-08:00' with 184 appearances and 185 goals.",
+                "Document and Query Keywords Matching": "The document contains 'Cristiano Ronaldo' multiple times and has a date entry for 2010, but does not mention Santiago Bernabéu Stadium.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention Real Madrid C.F.",
+                "Key Information Matching": "While the document confirms Ronaldo's active status in 2010 through salary information and shows his career spanning this period (statistics from 2009 onwards), it doesn't explicitly connect him to Real Madrid or the Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "No, the document cannot directly answer the query as it doesn't specify which team Ronaldo played for in 2010 or mention the Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides temporal context showing Ronaldo was actively playing in 2010 (salary entry) and had significant statistics from 2009 onwards, which aligns with the timeframe in question.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant (Label 1) because while it contains information about Cristiano Ronaldo during the relevant time period (2010) and confirms his active player status, it doesn't provide the specific team information or stadium connection needed to fully answer the query. It offers supporting context through career statistics and salary information from the relevant period but lacks the crucial team affiliation details."
+            },
+            "m.06l22_72": {
+                "Query Analysis": "The query asks about which sports team Cristiano Ronaldo played for in 2010 that had Santiago Bernabéu Stadium as their home stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, Santiago Bernabéu Stadium, sports team, home stadium",
+                "Answer Analysis": "The answer indicates that Cristiano Ronaldo played for Real Madrid C.F. in 2010.",
+                "Document Content Analysis": "The document provides detailed information about Real Madrid C.F., including that they play their home matches at Santiago Bernabéu Stadium (since 1947), their history, value, and rivalries. The document is partially in English with some sections in other languages.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium' and confirms it as Real Madrid's home stadium.",
+                "Document and Answer Keywords Matching": "The document extensively discusses Real Madrid C.F., which matches the answer.",
+                "Key Information Matching": "The document confirms that Real Madrid plays their home matches at Santiago Bernabéu Stadium with an 81,044 capacity since 1947. This matches one key component of the query.",
+                "Can the Document Answer the Query": "Partially. While the document confirms Real Madrid's home stadium is Santiago Bernabéu, it doesn't explicitly mention Cristiano Ronaldo or the year 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps establish that Real Madrid C.F. is the team that plays at Santiago Bernabéu Stadium, which is a crucial piece of information for answering the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides important context about Real Madrid and confirms Santiago Bernabéu Stadium as their home stadium. However, it lacks specific information about Cristiano Ronaldo's presence in 2010. The document helps establish the connection between the stadium and the team, which is essential for answering the query, but doesn't provide complete information to fully answer it."
+            },
+            "m.06l22_605": {
+                "Query Analysis": "The query asks for the name of the sports team that Cristiano Ronaldo played for in 2010, whose home stadium is the Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document provides detailed information about Real Madrid C.F., including its founding, home stadium (Santiago Bernabéu Stadium), historical significance, and achievements.",
+                "Document and Query Keywords Matching": "The document mentions 'Santiago Bernabéu Stadium' and 'Real Madrid C.F.', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Real Madrid C.F.', which matches the answer.",
+                "Key Information Matching": "The document confirms that Real Madrid C.F. plays at the Santiago Bernabéu Stadium, which is directly relevant to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Real Madrid C.F. plays at the Santiago Bernabéu Stadium, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Real Madrid C.F., including its history and significance, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying Real Madrid C.F. as the team that plays at the Santiago Bernabéu Stadium, which Cristiano Ronaldo played for in 2010. Additionally, it provides useful context about the team, making it highly relevant."
+            },
+            "m.02xt6q_473": {
+                "Query Analysis": "The query asks for the sports team Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document provides information about Cristiano Ronaldo's football career, mentioning that he currently plays for Real Madrid and has played for other clubs like Sporting Lisbon. It also mentions his position and some personal details.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Real Madrid', which matches the answer 'Real Madrid C.F.'.",
+                "Key Information Matching": "The document mentions 'Cristiano Ronaldo' and 'Real Madrid', which are key to answering the query. However, it does not explicitly mention the year 2010 or the Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state the year 2010 or the Santiago Bernabéu Stadium, which are necessary to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information that Cristiano Ronaldo played for Real Madrid, which is the team associated with the Santiago Bernabéu Stadium.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Cristiano Ronaldo playing for Real Madrid, which is the team associated with the Santiago Bernabéu Stadium. However, it lacks specific details about the year 2010 and the stadium itself, making it partially relevant."
+            },
+            "ott_36950_0": {
+                "Query Analysis": "The query asks for the name of the sports team that Cristiano Ronaldo played for in 2010, whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the team Cristiano Ronaldo played for in 2010, with Santiago Bernabéu Stadium as their home stadium.",
+                "Document Content Analysis": "The document provides information about the 2010 Major League Soccer season, including team names, managers, captains, kit manufacturers, and shirt sponsors. It does not mention Cristiano Ronaldo, Santiago Bernabéu Stadium, or Real Madrid C.F.",
+                "Document and Query Keywords Matching": "None of the query keywords ('sports team', 'home stadium', 'Santiago Bernabéu Stadium', 'Cristiano Ronaldo', '2010') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Real Madrid C.F.') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Cristiano Ronaldo or Real Madrid C.F.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the 2010 Major League Soccer season and does not mention Cristiano Ronaldo, Santiago Bernabéu Stadium, or Real Madrid C.F. It is completely unrelated to the query and provides no useful context or information."
+            },
+            "nq_12974_126": {
+                "Query Analysis": "The query asks for the name of the sports team Cristiano Ronaldo played for in 2010, whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "sports team, home stadium, Santiago Bernabéu Stadium, Cristiano Ronaldo, 2010",
+                "Answer Analysis": "The answer is 'Real Madrid C.F.'.",
+                "Document Content Analysis": "The document mentions Cristiano Ronaldo's achievements and includes a reference to the Santiago Bernabéu Stadium in the context of him presenting his Ballon d'Or in 2015. It also lists his club honors, including his time at Manchester United and Sporting CP, but does not explicitly mention Real Madrid C.F. or his tenure there in 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Cristiano Ronaldo' and 'Santiago Bernabéu Stadium'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Real Madrid C.F.'.",
+                "Key Information Matching": "The document mentions 'Santiago Bernabéu Stadium' and 'Cristiano Ronaldo', but does not provide information about his team in 2010 or explicitly mention Real Madrid C.F.",
+                "Can the Document Answer the Query": "No, the document does not directly state which team Cristiano Ronaldo played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Cristiano Ronaldo and Santiago Bernabéu Stadium but does not provide any information about his team in 2010 or any context that could help infer the answer. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_4740_62": {
+                "Query Analysis": "The query seeks to identify the sports team for which Cristiano Ronaldo played in 2010, specifically highlighting the home stadium as the Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, sports team, Santiago Bernabéu Stadium",
+                "Answer Analysis": "The answer to the query is Real Madrid C.F., which is the team Cristiano Ronaldo played for in 2010.",
+                "Document Content Analysis": "The document discusses the FIFA Ballon d'Or awards and mentions Cristiano Ronaldo in relation to the award presentation, noting an event at the Santiago Bernabéu Stadium. The main content relates to the awards rather than specific details about Ronaldo's team in 2010.",
+                "Document and Query Keywords Matching": "Cristiano Ronaldo and Santiago Bernabéu Stadium are mentioned in the document.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention Real Madrid C.F.",
+                "Key Information Matching": "While the document confirms Ronaldo's association with the Santiago Bernabéu Stadium, it does not explicitly link him to Real Madrid C.F. through the text provided.",
+                "Can the Document Answer the Query": "No, the document does not directly state the sports team Cristiano Ronaldo played for in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document supports the inference that Cristiano Ronaldo was associated with events at the Santiago Bernabéu Stadium, a known home for Real Madrid C.F., but this is indirect and requires external knowledge to connect fully.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides partial context relevant to the query by mentioning Cristiano Ronaldo and the Santiago Bernabéu Stadium, which indirectly relates to Real Madrid C.F. However, it does not provide a direct answer or full contextual link to the team he played for in 2010. Therefore, it is partially relevant as it supports the inference with supplemental external knowledge."
+            },
+            "m.06l22_338": {
+                "Query Analysis": "The query seeks to identify the sports team for which Cristiano Ronaldo played in 2010, specifically the team whose home stadium is the Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": "Cristiano Ronaldo, 2010, sports team, home stadium, Santiago Bernabeu Stadium",
+                "Answer Analysis": "The answer specifies that the team is Real Madrid C.F.",
+                "Document Content Analysis": "The document provides descriptions of Real Madrid C.F., including its history, achievements, ownership structure, and details about its home stadium, Santiago Bernabéu Stadium.",
+                "Document and Query Keywords Matching": "The document contains 'Real Madrid', 'Santiago Bernabeu Stadium', and identifies it as the home stadium.",
+                "Document and Answer Keywords Matching": "The document extensively describes 'Real Madrid C.F.', which matches the answer 'Real Madrid C.F.'.",
+                "Key Information Matching": "The document provides key information that Real Madrid C.F. plays its home games at Santiago Bernabéu Stadium, directly linking to the query's context.",
+                "Can the Document Answer the Query": "Yes, the document provides sufficient information indicating that Real Madrid C.F. is the team associated with Santiago Bernabéu Stadium, thereby directly answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides all relevant details about the team, including historical context, proving its utility in inferring more about the team.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document provides direct and detailed information about Real Madrid C.F., including its home stadium, which fully answers the query about the sports team Ronaldo played for in 2010. The document neatly aligns with the query's key points and answer, indicating high relevance."
+            },
+            "ott_1167_1": {},
+            "nq_25483_596": {},
+            "m.06l22_476": {},
+            "nq_4740_202": {
+                "Query Analysis": "The query asks for the name of the sports team Cristiano Ronaldo played for in 2010, whose home stadium is the Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": [
+                    "Cristiano Ronaldo",
+                    "2010",
+                    "Santiago Bernabéu Stadium",
+                    "sports team"
+                ],
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', a football club which used the Santiago Bernabéu Stadium as its home stadium in 2010.",
+                "Document Content Analysis": "The document mentions games held at the Santiago Bernabéu Stadium during 2010–2011 in competitions such as La Liga and Copa del Rey. It lists match dates, teams like Athletic Bilbao, Levante, and Villarreal, and scores from those games, all hosted at the Santiago Bernabéu Stadium in Madrid, Spain.",
+                "Document and Query Keywords Matching": [
+                    "Santiago Bernabéu Stadium",
+                    "2010"
+                ],
+                "Document and Answer Keywords Matching": [
+                    "Santiago Bernabéu Stadium"
+                ],
+                "Key Information Matching": "The document mentions 'Santiago Bernabéu Stadium' and provides details about matches held there, including in the year 2010. However, it does not explicitly mention Cristiano Ronaldo or his association with any team, nor does it explicitly name 'Real Madrid C.F.' as the home team of the Santiago Bernabéu Stadium.",
+                "Can the Document Answer the Query": "No, the document does not directly mention Cristiano Ronaldo or Real Madrid C.F.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document establishes that the Santiago Bernabéu Stadium hosted matches in 2010, indirectly pointing to the association of Real Madrid C.F. with this stadium, though it does not explicitly connect Cristiano Ronaldo to the team.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains partial context about the Santiago Bernabéu Stadium, its matches in 2010, and its location in Madrid, Spain. However, it fails to directly mention Cristiano Ronaldo or Real Madrid C.F., which are crucial elements of the query. The document is therefore partially relevant as it provides tangential information but not a complete answer."
+            },
+            "nq_109162_125": {},
+            "nq_25483_595": {},
+            "nq_4740_70": {},
+            "m.02xt6q_88": {},
+            "nq_84230_78": {},
+            "triviaqa_54286_7": {},
+            "m.02xt6q_558": {},
+            "nq_84230_241": {},
+            "nq_231008_122": {},
+            "m.02xt6q_184": {},
+            "m.06l22_72": {
+                "Query Analysis": "The query asks for the name of the sports team that played in 2010 and whose home stadium is Santiago Bernabéu Stadium, specifically concerning Cristiano Ronaldo's affiliation during that year.",
+                "Query Keywords Extraction": [
+                    "sports team",
+                    "home stadium",
+                    "Santiago Bernabéu Stadium",
+                    "Cristiano Ronaldo",
+                    "2010"
+                ],
+                "Answer Analysis": "The answer is 'Real Madrid C.F.', which is the name of the sports team Cristiano Ronaldo played for in 2010 and is based at Santiago Bernabéu Stadium.",
+                "Document Content Analysis": "The document provides a detailed description of Real Madrid C.F., a professional football club based in Madrid, Spain. It includes the team's name, history, origin, home stadium (Santiago Bernabéu Stadium), key achievements, financial standing, and rivalries. It mentions the home stadium's capacity and its historical significance.",
+                "Document and Query Keywords Matching": "The document explicitly mentions 'Santiago Bernabéu Stadium', 'sports team', and 'Real Madrid'. These keywords are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document contains 'Real Madrid C.F.', which matches the answer.",
+                "Key Information Matching": "The document identifies Real Madrid C.F. as the team associated with Santiago Bernabéu Stadium. While it does not explicitly mention Cristiano Ronaldo or the year 2010, the association between Real Madrid C.F. and the Santiago Bernabéu Stadium satisfies a major component of the query.",
+                "Can the Document Answer the Query": "Partially. The document provides sufficient context to infer that Real Madrid C.F. plays at Santiago Bernabéu Stadium, but it does not explicitly confirm Cristiano Ronaldo's affiliation with the team in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides strong contextual information linking Real Madrid C.F. with the Santiago Bernabéu Stadium, allowing the inference that they are likely the team in question.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document supplies critical background, including the home stadium and team name, which directly relate to the query. While Cristiano Ronaldo or the year 2010 is not explicitly addressed, the information provided is sufficient to infer the answer with a high degree of confidence. Therefore, the document is judged as highly relevant and provides useful context."
+            },
+            "m.06l22_605": {},
+            "m.02xt6q_473": {
+                "Query Analysis": "The query asks for the sports team that Cristiano Ronaldo played for in 2010, specifically the one whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": [
+                    "sports team",
+                    "Cristiano Ronaldo",
+                    "2010",
+                    "home stadium",
+                    "Santiago Bernabéu Stadium"
+                ],
+                "Answer Analysis": "The answer indicates that the sports team is Real Madrid C.F.",
+                "Document Content Analysis": "The document provides information about Cristiano Ronaldo, mentioning that he is a Portuguese soccer player, born on February 5, 1985, in Funchal, Portugal. It also states that he currently (at the time of writing) plays for Real Madrid in the Spanish league. It further mentions his past playing history for Sporting Lisbon from 1999 to 2003. The document emphasizes his role as a prominent footballer and provides descriptions of his career in multiple languages.",
+                "Document and Query Keywords Matching": "The document explicitly mentions 'Cristiano Ronaldo', 'Real Madrid', and 'plays for', which match the query's focus on his sports team during a specific period.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Real Madrid', which matches the given answer.",
+                "Key Information Matching": "The document mentions Cristiano Ronaldo's association with Real Madrid and confirms that he plays for the team. While it does not explicitly link the team to its home stadium (Santiago Bernabéu Stadium), this connection can be inferred as common knowledge that Real Madrid's home stadium is Santiago Bernabéu.",
+                "Can the Document Answer the Query": "Yes, the document confirms that Cristiano Ronaldo played for Real Madrid C.F., which is the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps establish Cristiano Ronaldo's association with Real Madrid, which indirectly confirms the connection to Santiago Bernabéu Stadium.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions that Cristiano Ronaldo played for Real Madrid, which is the answer to the query. While it does not explicitly link the Santiago Bernabéu Stadium to Real Madrid, this is commonly understood knowledge. Therefore, the document provides substantial useful context and directly answers the query."
+            },
+            "ott_36950_0": {},
+            "nq_12974_126": {
+                "Query Analysis": "The query is asking about the sports team Cristiano Ronaldo played for in 2010, specifically the team whose home stadium is Santiago Bernabéu Stadium.",
+                "Query Keywords Extraction": [
+                    "sports team",
+                    "Cristiano Ronaldo",
+                    "2010",
+                    "Santiago Bernabéu Stadium"
+                ],
+                "Answer Analysis": "The answer identifies 'Real Madrid C.F.' as the sports team in question.",
+                "Document Content Analysis": "The document discusses Ronaldo's career achievements, including a mention of him presenting his third Ballon d'Or at Santiago Bernabéu Stadium in 2015. However, detailed information about the team Ronaldo played for in 2010 is missing.",
+                "Document and Query Keywords Matching": [
+                    "Cristiano Ronaldo",
+                    "Santiago Bernabéu"
+                ],
+                "Document and Answer Keywords Matching": [
+                    "Santiago Bernabéu"
+                ],
+                "Key Information Matching": "While the document mentions Cristiano Ronaldo and Santiago Bernabéu Stadium, it does not explicitly connect Ronaldo to Real Madrid C.F. in 2010 or provide details about his affiliation with the team during that period.",
+                "Can the Document Answer the Query": "No, the document does not directly provide Ronaldo's team affiliation in 2010.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the mention of Santiago Bernabéu Stadium being associated with Ronaldo suggests his connection to Real Madrid C.F., but this inference is indirect and incomplete without explicit confirmation.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides partial context, such as Ronaldo being tied to Santiago Bernabéu Stadium, but it does not explicitly name Real Madrid C.F. as his team in 2010. Therefore, it is partially relevant but insufficient for directly answering the query."
+            }
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_36950_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_12974_126": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "nq": 9,
+            "kg": 12,
+            "ott": 0,
+            "triviaqa": 2,
+            "tat": 0
+        }
+    }
+}

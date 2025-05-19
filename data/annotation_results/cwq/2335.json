@@ -1,0 +1,1292 @@
+{
+    "index": 2335,
+    "context": [
+        "m.081t6",
+        "m.04t5jhr",
+        "m.01vbl"
+    ],
+    "qa": {
+        "question": "Who was elected president after a person whose field of study was journalism died?",
+        "answer": "['Calvin Coolidge']",
+        "BM25_documents": [
+            {
+                "id": "m.062z7_266",
+                "score": 14.607199668884277
+            },
+            {
+                "id": "m.062z7_299",
+                "score": 13.749300003051758
+            },
+            {
+                "id": "triviaqa_22842_416",
+                "score": 13.704000473022461
+            },
+            {
+                "id": "triviaqa_30139_344",
+                "score": 13.324999809265137
+            },
+            {
+                "id": "m.062z7_312",
+                "score": 13.286600112915039
+            },
+            {
+                "id": "nq_130918_66",
+                "score": 13.160799980163574
+            },
+            {
+                "id": "nq_135_9",
+                "score": 12.890800476074219
+            },
+            {
+                "id": "nq_231492_9",
+                "score": 12.883500099182129
+            },
+            {
+                "id": "triviaqa_74641_83",
+                "score": 12.876799583435059
+            },
+            {
+                "id": "triviaqa_61872_29",
+                "score": 12.731399536132812
+            },
+            {
+                "id": "nq_135_8",
+                "score": 12.713600158691406
+            },
+            {
+                "id": "nq_133402_70",
+                "score": 12.508299827575684
+            },
+            {
+                "id": "m.062z7_313",
+                "score": 12.458100318908691
+            },
+            {
+                "id": "nq_1489_140",
+                "score": 12.321800231933594
+            },
+            {
+                "id": "m.062z7_264",
+                "score": 12.17609977722168
+            },
+            {
+                "id": "nq_20264_4",
+                "score": 11.796799659729004
+            },
+            {
+                "id": "nq_231492_10",
+                "score": 11.702699661254883
+            },
+            {
+                "id": "triviaqa_58922_8",
+                "score": 11.61970043182373
+            },
+            {
+                "id": "m.0gzh_1140",
+                "score": 11.616600036621094
+            },
+            {
+                "id": "triviaqa_74562_1",
+                "score": 11.593999862670898
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.081t6_37",
+                "score": 7.554999828338623
+            },
+            {
+                "id": "m.01vbl_228",
+                "score": 7.30109977722168
+            },
+            {
+                "id": "m.081t6_36",
+                "score": 7.222999095916748
+            },
+            {
+                "id": "m.01vbl_50",
+                "score": 7.1940999031066895
+            },
+            {
+                "id": "m.01vbl_95",
+                "score": 7.044893741607666
+            },
+            {
+                "id": "m.01vbl_204",
+                "score": 6.8726983070373535
+            },
+            {
+                "id": "m.01vbl_164",
+                "score": 6.791900157928467
+            },
+            {
+                "id": "m.081t6_106",
+                "score": 6.724498271942139
+            },
+            {
+                "id": "m.01vbl_227",
+                "score": 6.576300144195557
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_1400_0",
+                "score": 7.523200035095215
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_15831_2",
+                "score": 9.823800086975098
+            },
+            {
+                "id": "ott_17039_2",
+                "score": 9.823799133300781
+            },
+            {
+                "id": "ott_22601_2",
+                "score": 9.823798179626465
+            },
+            {
+                "id": "ott_1450_2",
+                "score": 9.724900245666504
+            },
+            {
+                "id": "ott_33360_2",
+                "score": 9.724899291992188
+            },
+            {
+                "id": "ott_0_1",
+                "score": 9.682600021362305
+            },
+            {
+                "id": "ott_40934_1",
+                "score": 9.682599067687988
+            },
+            {
+                "id": "ott_9597_1",
+                "score": 9.682598114013672
+            },
+            {
+                "id": "ott_12453_5",
+                "score": 9.258000373840332
+            },
+            {
+                "id": "ott_25906_5",
+                "score": 9.257999420166016
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_130918_66",
+                "score": 13.160799980163574
+            },
+            {
+                "id": "nq_135_9",
+                "score": 12.890800476074219
+            },
+            {
+                "id": "nq_231492_9",
+                "score": 12.883500099182129
+            },
+            {
+                "id": "nq_135_8",
+                "score": 12.713600158691406
+            },
+            {
+                "id": "nq_133402_70",
+                "score": 12.508299827575684
+            },
+            {
+                "id": "nq_1489_140",
+                "score": 12.321800231933594
+            },
+            {
+                "id": "nq_20264_4",
+                "score": 11.796799659729004
+            },
+            {
+                "id": "nq_231492_10",
+                "score": 11.702699661254883
+            },
+            {
+                "id": "nq_185988_173",
+                "score": 11.440299987792969
+            },
+            {
+                "id": "nq_207634_6",
+                "score": 11.336600303649902
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_22842_416",
+                "score": 13.704000473022461
+            },
+            {
+                "id": "triviaqa_30139_344",
+                "score": 13.324999809265137
+            },
+            {
+                "id": "triviaqa_74641_83",
+                "score": 12.876799583435059
+            },
+            {
+                "id": "triviaqa_61872_29",
+                "score": 12.731399536132812
+            },
+            {
+                "id": "triviaqa_58922_8",
+                "score": 11.61970043182373
+            },
+            {
+                "id": "triviaqa_74562_1",
+                "score": 11.593999862670898
+            },
+            {
+                "id": "triviaqa_62937_167",
+                "score": 11.589699745178223
+            },
+            {
+                "id": "triviaqa_7615_7",
+                "score": 11.530400276184082
+            },
+            {
+                "id": "triviaqa_12727_54",
+                "score": 11.513699531555176
+            },
+            {
+                "id": "triviaqa_11478_8",
+                "score": 11.446499824523926
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.062z7_266",
+                "score": 14.607199668884277
+            },
+            {
+                "id": "m.062z7_299",
+                "score": 13.749300003051758
+            },
+            {
+                "id": "m.062z7_312",
+                "score": 13.286600112915039
+            },
+            {
+                "id": "m.062z7_313",
+                "score": 12.458100318908691
+            },
+            {
+                "id": "m.062z7_264",
+                "score": 12.17609977722168
+            },
+            {
+                "id": "m.0gzh_1140",
+                "score": 11.616600036621094
+            },
+            {
+                "id": "m.062z7_210",
+                "score": 11.475000381469727
+            },
+            {
+                "id": "m.02npp3_43",
+                "score": 11.451499938964844
+            },
+            {
+                "id": "m.062z7_273",
+                "score": 11.10789966583252
+            },
+            {
+                "id": "m.0d01f2_7",
+                "score": 11.07960033416748
+            },
+            {
+                "id": "m.062z7_265",
+                "score": 11.034199714660645
+            },
+            {
+                "id": "m.062z7_263",
+                "score": 11.011899948120117
+            },
+            {
+                "id": "m.05r79_110",
+                "score": 10.942700386047363
+            },
+            {
+                "id": "m.062z7_253",
+                "score": 10.89009952545166
+            },
+            {
+                "id": "m.03mpk_87",
+                "score": 10.703300476074219
+            },
+            {
+                "id": "m.062z7_310",
+                "score": 10.65880012512207
+            },
+            {
+                "id": "m.062z7_330",
+                "score": 10.595800399780273
+            },
+            {
+                "id": "m.034rd_372",
+                "score": 10.571599960327148
+            },
+            {
+                "id": "m.062z7_300",
+                "score": 10.524999618530273
+            },
+            {
+                "id": "m.0d01f2_6",
+                "score": 10.516799926757812
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_16218_12",
+                "score": 0.618975043296814
+            },
+            {
+                "id": "triviaqa_32367_45",
+                "score": 0.6156717538833618
+            },
+            {
+                "id": "triviaqa_45792_56",
+                "score": 0.6151793003082275
+            },
+            {
+                "id": "triviaqa_15877_9",
+                "score": 0.6118744611740112
+            },
+            {
+                "id": "triviaqa_5330_2",
+                "score": 0.6109183430671692
+            },
+            {
+                "id": "triviaqa_75629_30",
+                "score": 0.6107221841812134
+            },
+            {
+                "id": "triviaqa_5330_3",
+                "score": 0.6106013655662537
+            },
+            {
+                "id": "triviaqa_27745_7",
+                "score": 0.610561728477478
+            },
+            {
+                "id": "triviaqa_15877_32",
+                "score": 0.610130786895752
+            },
+            {
+                "id": "triviaqa_38943_14",
+                "score": 0.6083803772926331
+            },
+            {
+                "id": "triviaqa_39464_24",
+                "score": 0.606826901435852
+            },
+            {
+                "id": "triviaqa_39601_194",
+                "score": 0.6067438721656799
+            },
+            {
+                "id": "triviaqa_30139_343",
+                "score": 0.606647789478302
+            },
+            {
+                "id": "triviaqa_16218_56",
+                "score": 0.6052165031433105
+            },
+            {
+                "id": "triviaqa_38943_543",
+                "score": 0.6043197512626648
+            },
+            {
+                "id": "nq_142489_45",
+                "score": 0.6027359366416931
+            },
+            {
+                "id": "nq_98668_12",
+                "score": 0.6020136475563049
+            },
+            {
+                "id": "triviaqa_30143_2",
+                "score": 0.6013482809066772
+            },
+            {
+                "id": "triviaqa_42403_171",
+                "score": 0.6010868549346924
+            },
+            {
+                "id": "nq_1009_11",
+                "score": 0.6006954908370972
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.081t6_99",
+                "score": 0.5588562488555908
+            },
+            {
+                "id": "m.081t6_36",
+                "score": 0.5548868179321289
+            },
+            {
+                "id": "m.081t6_37",
+                "score": 0.5533760786056519
+            },
+            {
+                "id": "m.01vbl_143",
+                "score": 0.5483570098876953
+            },
+            {
+                "id": "m.01vbl_148",
+                "score": 0.5448819398880005
+            },
+            {
+                "id": "m.01vbl_204",
+                "score": 0.5440566539764404
+            },
+            {
+                "id": "m.081t6_98",
+                "score": 0.5429806113243103
+            },
+            {
+                "id": "m.081t6_25",
+                "score": 0.541959285736084
+            },
+            {
+                "id": "m.081t6_31",
+                "score": 0.5399836301803589
+            },
+            {
+                "id": "m.081t6_30",
+                "score": 0.5393354296684265
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_29620_1",
+                "score": 0.5749478340148926
+            },
+            {
+                "id": "ott_16259_1",
+                "score": 0.5749478340148926
+            },
+            {
+                "id": "ott_41202_1",
+                "score": 0.5749478340148926
+            },
+            {
+                "id": "ott_5598_0",
+                "score": 0.5714282393455505
+            },
+            {
+                "id": "ott_29429_0",
+                "score": 0.5714282393455505
+            },
+            {
+                "id": "ott_29572_0",
+                "score": 0.5714282393455505
+            },
+            {
+                "id": "ott_17135_2",
+                "score": 0.5608258247375488
+            },
+            {
+                "id": "ott_30368_2",
+                "score": 0.5608258247375488
+            },
+            {
+                "id": "ott_39865_2",
+                "score": 0.5608258247375488
+            },
+            {
+                "id": "ott_1405_3",
+                "score": 0.5580759644508362
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_142489_45",
+                "score": 0.6027359366416931
+            },
+            {
+                "id": "nq_98668_12",
+                "score": 0.6020136475563049
+            },
+            {
+                "id": "nq_1009_11",
+                "score": 0.6006954908370972
+            },
+            {
+                "id": "nq_101607_65",
+                "score": 0.5984046459197998
+            },
+            {
+                "id": "nq_241650_13",
+                "score": 0.5973246693611145
+            },
+            {
+                "id": "nq_138291_32",
+                "score": 0.5950921773910522
+            },
+            {
+                "id": "nq_51531_32",
+                "score": 0.5943857431411743
+            },
+            {
+                "id": "nq_98668_11",
+                "score": 0.5942689776420593
+            },
+            {
+                "id": "nq_5679_106",
+                "score": 0.5923635959625244
+            },
+            {
+                "id": "nq_80470_52",
+                "score": 0.5913501381874084
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_16218_12",
+                "score": 0.618975043296814
+            },
+            {
+                "id": "triviaqa_32367_45",
+                "score": 0.6156717538833618
+            },
+            {
+                "id": "triviaqa_45792_56",
+                "score": 0.6151793003082275
+            },
+            {
+                "id": "triviaqa_15877_9",
+                "score": 0.6118744611740112
+            },
+            {
+                "id": "triviaqa_5330_2",
+                "score": 0.6109183430671692
+            },
+            {
+                "id": "triviaqa_75629_30",
+                "score": 0.6107221841812134
+            },
+            {
+                "id": "triviaqa_5330_3",
+                "score": 0.6106013655662537
+            },
+            {
+                "id": "triviaqa_27745_7",
+                "score": 0.610561728477478
+            },
+            {
+                "id": "triviaqa_15877_32",
+                "score": 0.610130786895752
+            },
+            {
+                "id": "triviaqa_38943_14",
+                "score": 0.6083803772926331
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02mjmr_11072",
+                "score": 0.5981207489967346
+            },
+            {
+                "id": "m.02mjmr_13137",
+                "score": 0.5976110696792603
+            },
+            {
+                "id": "m.02mjmr_12878",
+                "score": 0.58892822265625
+            },
+            {
+                "id": "m.02mjmr_14557",
+                "score": 0.5870641469955444
+            },
+            {
+                "id": "m.034ls_214",
+                "score": 0.5866633653640747
+            },
+            {
+                "id": "m.02mjmr_14385",
+                "score": 0.5864214301109314
+            },
+            {
+                "id": "m.06c0j_329",
+                "score": 0.586277961730957
+            },
+            {
+                "id": "m.062z7_270",
+                "score": 0.5857729911804199
+            },
+            {
+                "id": "m.02qkny_69",
+                "score": 0.5837452411651611
+            },
+            {
+                "id": "m.0d3k14_345",
+                "score": 0.5831782221794128
+            },
+            {
+                "id": "m.02qkny_16",
+                "score": 0.5821070671081543
+            },
+            {
+                "id": "m.0d3k14_944",
+                "score": 0.582065224647522
+            },
+            {
+                "id": "m.0d3k14_815",
+                "score": 0.5811193585395813
+            },
+            {
+                "id": "m.02mjmr_8212",
+                "score": 0.5804429054260254
+            },
+            {
+                "id": "m.02mjmr_7686",
+                "score": 0.5800065994262695
+            },
+            {
+                "id": "m.01lzhp_8",
+                "score": 0.5799975395202637
+            },
+            {
+                "id": "m.034ls_157",
+                "score": 0.5794214010238647
+            },
+            {
+                "id": "m.02mjmr_9697",
+                "score": 0.5792200565338135
+            },
+            {
+                "id": "m.02yy8_39",
+                "score": 0.5789921283721924
+            },
+            {
+                "id": "m.014428_17",
+                "score": 0.5786871314048767
+            }
+        ],
+        "llm_mark_result": {
+            "nq_142489_45": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone with a journalism background died.",
+                "Document Content Analysis": "The document lists several U.S. presidents and the circumstances under which they began their terms, including those who became president due to succession or resignation.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvin Coolidge' and the context of becoming president, but does not explicitly mention 'journalism' or 'field of study'.",
+                "Document and Answer Keywords Matching": "The document includes 'Calvin Coolidge', which is the answer to the query.",
+                "Key Information Matching": "The document provides information about Calvin Coolidge becoming president but lacks details about the predecessor's field of study.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the field of study of the predecessor.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Calvin Coolidge's presidency, which is relevant to the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Calvin Coolidge's presidency, which is part of the answer, but it lacks the necessary detail about the predecessor's field of study to fully answer the query. Therefore, it is partially relevant."
+            },
+            "triviaqa_32367_45": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died. This requires identifying a president and the predecessor who studied journalism.",
+                "Query Keywords Extraction": "elected president, after, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone who studied journalism died.",
+                "Document Content Analysis": "The document provides biographical information about George Herbert Walker Bush, focusing on his political career, military service, and family background. It mentions his roles as the 41st President of the United States, 43rd Vice President, and other positions.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to 'journalism', 'died', or 'Calvin Coolidge'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document lacks any information about the field of study of any president or their predecessors, nor does it mention any deaths related to presidential transitions.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information about the field of study of presidents or their predecessors, nor does it mention any relevant deaths.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the biography of George Herbert Walker Bush and does not contain any information related to the query's specific requirements about a president elected after a journalism-studying predecessor's death. Therefore, it is irrelevant to the query."
+            },
+            "m.02mjmr_11072": {
+                "Query Analysis": "The query asks for the name of the president who was elected after another individual, whose field of study was journalism, died.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone with a journalism background died.",
+                "Document Content Analysis": "The document provides biographical information about Barack Obama, including his education, career, and political roles. It mentions his presidency, his time as a U.S. Senator, and his academic background in law.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to the query such as 'elected president', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related information.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document focuses solely on Barack Obama's background and career, which does not intersect with the query's focus on a president elected after a journalist's death.",
+                "Can the Document Answer the Query": "No, the document does not provide any information relevant to the specific query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about the president elected after a journalist's death.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Barack Obama's biography and career, which is unrelated to the query about a president elected after a journalist's death. It lacks any relevant keywords or context that could assist in answering the query or providing additional useful information."
+            },
+            "nq_130918_66": {
+                "Query Analysis": "The query asks for the name of the person who was elected president following the death of an individual whose field of study was journalism.",
+                "Query Keywords Extraction": "elected president, after, person, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone with a background in journalism passed away.",
+                "Document Content Analysis": "The document appears to be a list of references and further reading materials related to the National Association for the Advancement of Colored People (NAACP). It includes various articles and books but does not seem to directly discuss presidents or individuals with a background in journalism.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'elected president', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on the NAACP and related topics, which are unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer additional details related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the NAACP and does not mention any presidents, individuals with a background in journalism, or relevant historical events. Therefore, it cannot assist in answering the query or providing useful context."
+            },
+            "m.01vbl_228": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after a person with a journalism background died.",
+                "Document Content Analysis": "The document primarily focuses on Calvin Coolidge, mentioning his various roles and achievements, including being a US President, US Vice President, and his involvement in the 1924 presidential election. It also includes quotes by him and places named after him.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvin Coolidge' and his role as a US President, which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document extensively mentions 'Calvin Coolidge', which is the answer to the query.",
+                "Key Information Matching": "While the document provides ample information about Calvin Coolidge, it does not mention anything about his predecessor's field of study or the circumstances of their death.",
+                "Can the Document Answer the Query": "No, the document does not provide information about Calvin Coolidge's predecessor or their field of study.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms Calvin Coolidge's presidency, which is part of the answer, but lacks the context about his predecessor.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it confirms Calvin Coolidge's role as a US President, which is part of the answer. However, it lacks crucial information about his predecessor's background in journalism and the circumstances of their death, which are essential to fully answer the query."
+            },
+            "m.062z7_266": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone with a journalism background died.",
+                "Document Content Analysis": "The document appears to be a list of various subjects and fields of study related to political science, including dates and notable individuals or works associated with political science.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords directly related to the query such as 'elected president', 'journalism', or 'died'. It primarily focuses on 'Political Science'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on journalism or the presidency following a death.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about presidents, journalism, or related deaths.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is solely focused on political science and does not provide any context or information that could help infer details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about presidents, journalism, or the sequence of events related to a person's death and subsequent presidential election. The document's exclusive focus on political science does not intersect with the query's requirements."
+            },
+            "triviaqa_16218_12": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected president, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after a person with a journalism background died.",
+                "Document Content Analysis": "The document provides historical events and notable occurrences on November 7th in various years, including elections, resignations, and other significant events. It mentions Franklin D. Roosevelt's election and death, Richard Nixon's political career, and other unrelated events.",
+                "Document and Query Keywords Matching": "The document mentions 'elected president' and 'died' in the context of Franklin D. Roosevelt and Richard Nixon, but does not mention 'journalism'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document provides information about presidents and their elections but lacks any reference to a person with a journalism background or Calvin Coolidge.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information needed to answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information about a person with a journalism background or the subsequent election of Calvin Coolidge.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query as it does not provide any information about a person with a journalism background, their death, or the subsequent election of Calvin Coolidge. The document focuses on various historical events on November 7th, which are unrelated to the specific query."
+            },
+            "m.062z7_312": {
+                "Query Analysis": "The query asks for the name of the person who was elected president after someone whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, implying that he was elected president after a person with a journalism background died.",
+                "Document Content Analysis": "The document lists various subjects and fields of study related to Political Science, including books, notable individuals, and specific timeframes for educational backgrounds in Political Science.",
+                "Document and Query Keywords Matching": "The document does not mention 'elected president', 'journalism', or 'died'. It only focuses on Political Science.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any relevant context related to his presidency.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document. The document is solely about Political Science and does not touch on journalism or presidential succession.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer additional details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Political Science and does not mention any aspects related to journalism, presidential elections, or deaths. Therefore, it is irrelevant to the query and cannot assist in answering it or providing useful context."
+            },
+            "ott_15831_2": {
+                "Query Analysis": "The query asks for the name of the person who was elected president after someone who studied journalism died.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after a person whose field of study was journalism died.",
+                "Document Content Analysis": "The document lists notable alumni and professors of the Sapienza University of Rome, including their fields of study and notable achievements. It mentions various individuals from different fields such as literature, film, business, physics, and economics, but does not specifically mention anyone with a background in journalism or any presidents.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'elected president', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on notable individuals from Sapienza University of Rome but does not provide any relevant information about presidents or journalism.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about presidents, journalism, or any related context that could assist in answering the query. The document focuses on notable individuals from a specific university, which does not intersect with the topic of the query."
+            },
+            "triviaqa_22842_416": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died. This requires identifying a specific historical figure and the context of their presidency and predecessor's background.",
+                "Query Keywords Extraction": "elected president, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating that he was elected president following the death of someone with a background in journalism.",
+                "Document Content Analysis": "The document discusses various medical and scientific initiatives, including President Obama's Precision Medicine Initiative and Cancer Moonshot, the concept of a synthetic human genome, and developments in 3-person IVF. It also mentions issues related to scientific journalism.",
+                "Document and Query Keywords Matching": "The document mentions 'journalism' in the context of scientific journalism but does not mention any presidents or deaths related to journalism.",
+                "Document and Answer Keywords Matching": "The document does not mention Calvin Coolidge or any other presidents.",
+                "Key Information Matching": "The only keyword from the query found in the document is 'journalism', but it is used in a different context (scientific journalism) and does not relate to presidents or deaths.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about presidents or the specific context required by the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant historical or political information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on medical and scientific topics and does not provide any relevant information about presidents, elections, or the specific context of a person with a journalism background dying. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_15877_9": {
+                "Query Analysis": "The query seeks to identify the president who was elected following the death of a person whose field of study was journalism.",
+                "Query Keywords Extraction": "elected president, after, field of study, journalism, died",
+                "Answer Analysis": "The answer lists Calvin Coolidge as the president elected after the death of a person with a journalism background.",
+                "Document Content Analysis": "The document provides a biography of James A. Garfield, detailing his life, education, career, and assassination. It mentions his roles in the military, politics, and education but does not specify his field of study as journalism.",
+                "Document and Query Keywords Matching": "The document mentions 'elected president' and 'died' but does not reference 'journalism' or 'field of study'.",
+                "Document and Answer Keywords Matching": "The document does not mention Calvin Coolidge or any context related to the answer.",
+                "Key Information Matching": "The document lacks key information about the field of study of the person who died and the subsequent election of a president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about a person with a journalism background or the president elected after their death.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on James A. Garfield's biography and does not provide any information related to the field of study being journalism or the election of a president following such a person's death. Therefore, it is irrelevant to the query."
+            },
+            "m.081t6_99": {
+                "Query Analysis": "The query asks for the name of the person who was elected president following the death of another person who had a background in journalism.",
+                "Query Keywords Extraction": "elected president, after, person, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone with a journalism background died.",
+                "Document Content Analysis": "The document primarily discusses Warren G. Harding, mentioning his roles as a US Senator, newspaper publisher, and President. It also mentions Calvin Coolidge as his running mate in the 1920 election.",
+                "Document and Query Keywords Matching": "The document mentions 'elected President' and 'newspaper publisher', which is related to journalism.",
+                "Document and Answer Keywords Matching": "The document mentions 'Calvin Coolidge'.",
+                "Key Information Matching": "The document provides information about Warren G. Harding's background in journalism (as a newspaper publisher) and his presidency, and it mentions Calvin Coolidge as his running mate.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Calvin Coolidge was elected president after Harding's death.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information that could help infer the answer. Harding was a newspaper publisher (related to journalism) and Calvin Coolidge was his running mate, suggesting a close association.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Warren G. Harding's background in journalism and his presidency, and it mentions Calvin Coolidge. However, it lacks the explicit detail that Coolidge was elected president after Harding's death, making it partially relevant."
+            },
+            "m.062z7_299": {
+                "Query Analysis": "The query asks for the name of the president who was elected following the death of a person whose field of study was journalism.",
+                "Query Keywords Extraction": "elected president, after, person, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone with a journalism background died.",
+                "Document Content Analysis": "The document lists various subjects and instances related to Political Science, including books, topics, and educational fields. It does not mention any specific individuals, their fields of study, or presidential elections.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'elected president', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document focuses solely on Political Science subjects and does not touch on journalism or presidential elections.",
+                "Can the Document Answer the Query": "No, the document does not provide any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Political Science and lacks any mention of journalism, presidential elections, or specific individuals. It does not provide any useful context or additional information related to the query, making it irrelevant."
+            },
+            "triviaqa_30139_344": {
+                "Query Analysis": "The query asks for the identity of a president who was elected after the death of a person whose field of study was journalism.",
+                "Query Keywords Extraction": "elected president, after, person, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating that he was elected president following the death of a person who studied journalism.",
+                "Document Content Analysis": "The document provides a biography of Bill Clinton, detailing his early life, education, political career, and some of his policies as governor and president.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to the query such as 'journalism', 'died', or 'Calvin Coolidge'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document does not contain any information about a person who studied journalism, their death, or the subsequent election of a president.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the biography of Bill Clinton and does not mention any details related to the query about a president elected after the death of a journalism student. Therefore, it is irrelevant to the query."
+            },
+            "m.081t6_36": {
+                "Query Analysis": "The query asks for the name of the president who was elected after the death of a person whose field of study was journalism.",
+                "Query Keywords Extraction": "elected president, after, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president following the death of someone with a background in journalism.",
+                "Document Content Analysis": "The document provides information about Warren G. Harding, the 29th President of the United States, his presidency, and his background in journalism. It mentions his death and the subsequent exposure of scandals under his administration.",
+                "Document and Query Keywords Matching": "The document mentions 'Warren G. Harding', 'president', 'journalism', and 'death'.",
+                "Document and Answer Keywords Matching": "The document does not directly mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document provides information about a president (Warren G. Harding) who had a background in journalism and died in office. However, it does not mention who was elected president after him.",
+                "Can the Document Answer the Query": "No, the document does not specify who was elected president after Warren G. Harding.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides key information about a president with a journalism background who died in office, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about a president with a journalism background who died in office, which is pertinent to the query. However, it lacks the specific detail about who was elected president afterward, making it partially relevant."
+            },
+            "m.02mjmr_13137": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died. This requires identifying a president and linking their election to the death of a journalism professional.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president following the death of a person who studied journalism.",
+                "Document Content Analysis": "The document provides information about Barack Obama, including his biography, educational background, and political career. It mentions his presidency, his time as a U.S. Senator, and his work as a civil rights attorney and law professor.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to 'elected president after a person whose field of study was journalism died'. It focuses solely on Barack Obama's background and career.",
+                "Document and Answer Keywords Matching": "The document does not mention Calvin Coolidge or any relevant context related to the answer.",
+                "Key Information Matching": "There is no key information in the document that matches the query's requirements about a president elected after a journalism professional's death.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on Barack Obama's biography and career, which is unrelated to the query about a president elected after the death of a journalism professional. It lacks any relevant information that could assist in answering the query or providing useful context."
+            },
+            "m.081t6_37": {
+                "Query Analysis": "The query asks for the identity of the president who was elected after the death of a person whose field of study was journalism.",
+                "Query Keywords Extraction": "elected president, after, person, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was the president elected after the death of a person with a journalism background.",
+                "Document Content Analysis": "The document provides a biography of Warren G. Harding, the 29th President of the United States. It mentions his early life, his career in journalism as a newspaper owner, his political career, and his presidency. It also notes his death while in office.",
+                "Document and Query Keywords Matching": "The document mentions 'journalism' in the context of Harding's career and 'death' in relation to Harding's demise while in office.",
+                "Document and Answer Keywords Matching": "The document does not mention Calvin Coolidge directly.",
+                "Key Information Matching": "The document provides information about a president (Harding) who had a background in journalism and died in office, which is relevant to the query's context.",
+                "Can the Document Answer the Query": "No, the document does not specify who was elected president after Harding's death.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides key information about a president with a journalism background who died in office, which can help infer the next president in historical context.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about a president with a journalism background who died in office, which is pertinent to the query. However, it does not directly mention the subsequent president, Calvin Coolidge, making it unable to fully answer the query but still useful for inferential context."
+            },
+            "triviaqa_45792_56": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died. This requires identifying a journalist who died and then determining who was elected president随后.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, implying that he was elected president after a journalist died.",
+                "Document Content Analysis": "The document discusses various events related to The New York Times, including decisions about Pulitzer prizes, leadership changes, legal issues involving reporters, and correction policies. It mentions several individuals associated with journalism but does not discuss any journalist's death or presidential elections.",
+                "Document and Query Keywords Matching": "The document mentions 'journalism' and 'reporting' but does not mention 'elected president' or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document contains information about journalists and reporting but lacks any connection to a journalist's death or subsequent presidential elections.",
+                "Can the Document Answer the Query": "No, the document does not provide information about a journalist's death or the subsequent election of a president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on events and individuals related to The New York Times and does not contain any information about a journalist's death or the election of a president. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_5330_2": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died. This requires identifying a president and the field of study of the predecessor who died.",
+                "Query Keywords Extraction": "elected president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, implying that he was elected president after someone who studied journalism passed away.",
+                "Document Content Analysis": "The document provides biographical information about Ronald Reagan, including his career as an actor, politician, and his tenure as the 40th President of the United States. It mentions his education in economics and sociology, his roles in various films, his marriage, and his children. It also discusses his political career, including his governorship of California and his presidency.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords directly related to the query such as 'journalism', 'died', or 'elected president' in the context of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention Calvin Coolidge.",
+                "Key Information Matching": "The document provides no information about the field of study of any president or their predecessor, nor does it mention any president being elected after a predecessor's death.",
+                "Can the Document Answer the Query": "No, the document does not contain information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on Ronald Reagan's biography and does not provide any information related to the field of study of a president's predecessor or the circumstances of their death and succession. Therefore, it is irrelevant to the query."
+            },
+            "tat_1400_0": {
+                "Query Analysis": "The query asks for the name of the person who was elected president following the death of an individual whose field of study was journalism.",
+                "Query Keywords Extraction": "elected president, after, person, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating he was elected president after someone with a journalism background died.",
+                "Document Content Analysis": "The document provides information about the directors and senior management of a company, including their names, ages, positions, and some biographical details. It mentions the death of a director, Andreas Ove Ugland, and provides background information on other individuals.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'elected president', 'journalism', or 'died' in the relevant context.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on presidential succession related to a journalism background.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about presidents or individuals with a journalism background.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the corporate structure and biographies of company directors and senior management, with no mention of presidents, elections, or journalism. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "ott_29620_1": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person with a background in journalism died. This requires identifying a journalist and then determining the subsequent president.",
+                "Query Keywords Extraction": "elected president, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, implying that he was elected president after a journalist died.",
+                "Document Content Analysis": "The document lists various individuals associated with journalism and media, including their degrees, years of graduation, and notable achievements. It also mentions the University of Oregon's alumni and their accomplishments.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'journalism' and lists several journalists.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "While the document provides information about journalists, it does not link any journalist's death to the election of a president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about a president being elected after a journalist's death.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks the necessary historical context to infer the relationship between a journalist's death and the election of a president.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about presidents or the sequence of events involving a journalist's death and a subsequent presidential election. It merely lists journalists and their achievements, which does not assist in answering the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_142489_45": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document discusses various U.S. presidents who began their first term after winning an election or through the presidential line of succession. It mentions Calvin Coolidge as one of the presidents who were reelected after their predecessor died or resigned.",
+                "Document and Query Keywords Matching": "The document mentions 'elected', 'president', and 'died'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Calvin Coolidge'.",
+                "Key Information Matching": "The document mentions Calvin Coolidge as a president who was reelected after his predecessor died, which aligns with the query's requirement of a president elected after a predecessor's death. However, it does not specify the field of study of the predecessor.",
+                "Can the Document Answer the Query": "No, the document does not specify the field of study of the predecessor.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Calvin Coolidge being elected after his predecessor died, which is part of the query's requirement.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Calvin Coolidge being elected after his predecessor died, which partially matches the query. However, it lacks the specific detail about the predecessor's field of study being journalism, making it only partially relevant."
+            },
+            "triviaqa_32367_45": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died. The key focus is on identifying a president who succeeded someone with a background in journalism.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer provided is 'Calvin Coolidge', indicating that he was the president elected after someone with a journalism background died.",
+                "Document Content Analysis": "The document provides detailed information about George H. W. Bush, including his political career, family, and achievements. However, it does not mention anything about his field of study or any connection to journalism. It also does not mention Calvin Coolidge or any other president succeeding someone with a journalism background.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'journalism', 'died', or 'Calvin Coolidge'. It mentions 'president' and 'elected', but these are too general to be considered relevant to the specific query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any information related to the answer.",
+                "Key Information Matching": "The document does not provide any key information related to the query or the answer. It focuses entirely on George H. W. Bush, who is not relevant to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about a president succeeding someone with a journalism background or about Calvin Coolidge.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on George H. W. Bush and does not mention any information related to the query or the answer. It does not provide any context or key information that could assist in answering the query or inferring additional information. Therefore, it is deemed irrelevant."
+            },
+            "m.02mjmr_11072": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides information about Barack Obama, including his background, education, and political career. It mentions his presidency, his educational background (Columbia University and Harvard Law School), and his work as a civil rights attorney and constitutional law professor.",
+                "Document and Query Keywords Matching": "The document mentions 'president' and 'field of study' (implied through Obama's education at Columbia University and Harvard Law School).",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any direct reference to the answer.",
+                "Key Information Matching": "The document does not provide any information about a president elected after someone whose field of study was journalism died. It focuses on Barack Obama's background and career.",
+                "Can the Document Answer the Query": "No, the document does not contain information about Calvin Coolidge or the context of the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Barack Obama and does not provide any information related to the query about Calvin Coolidge or the context of a president elected after someone whose field of study was journalism died. Therefore, it is irrelevant to the query."
+            },
+            "nq_130918_66": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document discusses the NAACP, its leaders, and related historical events. It mentions various leaders and their elections but does not provide information about U.S. presidents or their fields of study.",
+                "Document and Query Keywords Matching": "The document does not mention 'president', 'field of study', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document does not provide any information related to U.S. presidents, their fields of study, or the succession of presidents.",
+                "Can the Document Answer the Query": "No, the document does not contain information about U.S. presidents or their fields of study.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the NAACP and its leaders but does not mention U.S. presidents, their fields of study, or any information that could help answer the query or infer additional relevant information."
+            },
+            "m.01vbl_228": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides various facts about Calvin Coolidge, including his roles as US President, US Vice President, and his involvement in the 1924 presidential election. It also mentions his quotes and other related entities.",
+                "Document and Query Keywords Matching": "The document mentions 'US President' and 'Calvin Coolidge', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Calvin Coolidge', which matches the answer.",
+                "Key Information Matching": "The document mentions Calvin Coolidge as a US President and his involvement in the 1924 presidential election, which is relevant to the query about a president elected after a person whose field of study was journalism died.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about a person whose field of study was journalism or their death.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Calvin Coolidge's presidency and election, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Calvin Coolidge, who is the answer to the query, but it does not provide information about the person whose field of study was journalism or their death. Therefore, it is partially relevant."
+            },
+            "m.062z7_266": {
+                "Query Analysis": "The query asks for the name of the president who was elected after the death of a person whose field of study was journalism.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document contains information about various individuals and their fields of study, primarily focusing on Political Science. It does not mention journalism or any presidents directly.",
+                "Document and Query Keywords Matching": "The document does not mention 'journalism' or any presidents, so there are no matching keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any presidents, so there are no matching keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information related to the query about a president elected after the death of a person whose field of study was journalism.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about presidents or journalism.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional details related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Political Science and does not mention journalism, presidents, or any related information. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_16218_12": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides historical events and dates, including the election and death of President Franklin D. Roosevelt, Richard Nixon's political career, and other significant events. It also mentions Marie Curie, a chemist, but does not mention Calvin Coolidge or any president whose field of study was journalism.",
+                "Document and Query Keywords Matching": "The document mentions 'elected', 'president', and 'died' in the context of Franklin D. Roosevelt and Richard Nixon.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any president whose field of study was journalism.",
+                "Key Information Matching": "The document does not provide information about a president whose field of study was journalism or the election of Calvin Coolidge.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvin Coolidge or any president whose field of study was journalism.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the field of study of any president or the election of Calvin Coolidge.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to the query about a president whose field of study was journalism or the election of Calvin Coolidge. Therefore, it is irrelevant to the query."
+            },
+            "m.062z7_312": {
+                "Query Analysis": "The query asks for the name of the president who was elected after the death of a person whose field of study was journalism.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating that he was the president elected after the death of a person who studied journalism.",
+                "Document Content Analysis": "The document primarily discusses subjects related to Political Science, including various books, authors, and their fields of study. There is no mention of journalism or any president.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query such as 'elected', 'president', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on Political Science and does not mention journalism, presidents, or any related historical events.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that could directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or background information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Political Science and does not mention any of the key elements of the query, such as journalism, presidents, or historical events related to the election of Calvin Coolidge. Therefore, it is irrelevant to the query."
+            },
+            "ott_15831_2": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides information about notable alumni and professors of Sapienza University of Rome, including their fields of study and notable achievements. However, it does not mention any individuals whose field of study was journalism or any presidents elected after such individuals.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to 'elected', 'president', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related information.",
+                "Key Information Matching": "The document does not provide any key information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about a president elected after a person whose field of study was journalism died.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about the field of study of journalism, the death of such an individual, or the election of a president following such an event. It also does not mention Calvin Coolidge or any related context."
+            },
+            "triviaqa_22842_416": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document discusses various topics including President Obama's initiatives, synthetic human genome research, and updates on 3-person IVF. It does not mention Calvin Coolidge, journalism, or any president elected after a journalist's death.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention Calvin Coolidge or any related information.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Calvin Coolidge or the context of the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It does not mention Calvin Coolidge, journalism, or any president elected after a journalist's death. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_15877_9": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died. It implies a connection between the deceased person's background in journalism and the subsequent election of a new president.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is 'Calvin Coolidge', indicating that he was the president elected after the death of a person with a journalism background.",
+                "Document Content Analysis": "The document provides detailed information about James A. Garfield, including his background, education, career, and assassination. It mentions his education at the Western Reserve Eclectic Institute and Williams College, his teaching career, and his political rise. However, it does not explicitly mention his field of study as journalism or the election of Calvin Coolidge.",
+                "Document and Query Keywords Matching": "The document mentions 'elected' (Garfield was elected president), 'president', and 'died' (Garfield was assassinated). However, it does not mention 'journalism' or 'field of study' in relation to Garfield.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any direct connection to him.",
+                "Key Information Matching": "The document provides information about Garfield's education and career but does not explicitly link his field of study to journalism or mention the election of Calvin Coolidge. Therefore, it does not directly address the key information required by the query.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it does not mention Calvin Coolidge or explicitly state that Garfield's field of study was journalism.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide sufficient information to infer the connection between Garfield's field of study and the election of Calvin Coolidge.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about James A. Garfield and his life, but it does not provide any information about his field of study being journalism or the election of Calvin Coolidge. Therefore, it is irrelevant to the query as it does not assist in answering the question or providing useful context."
+            },
+            "m.081t6_99": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating that he was elected president after Warren G. Harding, whose field of study was journalism, died.",
+                "Document Content Analysis": "The document provides information about Warren G. Harding, including his profession as a newspaper publisher, his election as president, and his death. It also mentions Calvin Coolidge as his running mate and successor.",
+                "Document and Query Keywords Matching": "The document mentions 'president', 'elected', 'newspaper publisher' (related to journalism), and 'Calvin Coolidge' (the successor).",
+                "Document and Answer Keywords Matching": "The document mentions 'Calvin Coolidge', who is the answer to the query.",
+                "Key Information Matching": "The document provides information about Warren G. Harding, who was a newspaper publisher (related to journalism), and his successor, Calvin Coolidge, who was elected president after Harding's death.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Calvin Coolidge as the successor to Warren G. Harding, who was a newspaper publisher.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Warren G. Harding's profession and his successor, which helps in understanding the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial useful context and the exact answer. It mentions Warren G. Harding, whose field of study was journalism, and his successor, Calvin Coolidge, who was elected president after Harding's death."
+            },
+            "m.062z7_299": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document lists various subjects and fields of study related to political science, including some with start and end dates, but does not mention any individuals, presidents, or fields of study related to journalism.",
+                "Document and Query Keywords Matching": "The document does not mention 'journalism', 'president', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about presidents, journalism, or the death of a person with a journalism background.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention any presidents, journalism, or individuals who died, nor does it provide any context or information that could help infer the answer."
+            },
+            "triviaqa_30139_344": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides a detailed biography of Bill Clinton, including his early life, education, political career, and presidency. It mentions his parents, his education, his political campaigns, and his policies as governor and president. However, it does not mention Calvin Coolidge or any individual whose field of study was journalism.",
+                "Document and Query Keywords Matching": "The document does not mention 'Calvin Coolidge', 'journalism', or any individual whose field of study was journalism.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any individual whose field of study was journalism.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on Bill Clinton's life and career, with no mention of Calvin Coolidge or journalism.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvin Coolidge or any individual whose field of study was journalism.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Bill Clinton and does not mention Calvin Coolidge, journalism, or any individual whose field of study was journalism. It provides no relevant information to the query or the answer, making it irrelevant."
+            },
+            "m.081t6_36": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, who succeeded Warren G. Harding after his death.",
+                "Document Content Analysis": "The document provides information about Warren G. Harding, the 29th President of the United States, who died in office. It mentions that Harding owned and built a successful newspaper, The Marion Star, indicating his background in journalism. It also briefly describes his presidency and the scandals that occurred during his tenure.",
+                "Document and Query Keywords Matching": "The document mentions 'Warren G. Harding', 'died', and 'newspaper', which relates to the query's keywords 'president', 'died', and 'journalism'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Calvin Coolidge', but it does mention 'Warren G. Harding', who was succeeded by Calvin Coolidge.",
+                "Key Information Matching": "The document provides key information about Warren G. Harding, who had a background in journalism and died in office, leading to the election of Calvin Coolidge. This matches the query's requirement for a president elected after a person with a journalism background died.",
+                "Can the Document Answer the Query": "No, the document does not explicitly mention Calvin Coolidge or his election.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Warren G. Harding's background in journalism and his death, which is crucial for inferring that Calvin Coolidge succeeded him.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Warren G. Harding, whose background in journalism and death in office are key to answering the query. Although it does not explicitly mention Calvin Coolidge, it provides the necessary context to infer the correct answer."
+            },
+            "m.02mjmr_13137": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides information about Barack Obama, including his background, education, and political career. It does not mention Calvin Coolidge, journalism, or any president elected after someone who studied journalism died.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query such as 'elected', 'president', 'field of study', 'journalism', or 'died'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any related information.",
+                "Key Information Matching": "The document does not provide any key information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Calvin Coolidge or the context of the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Barack Obama, who is not connected to the query about Calvin Coolidge or the context of a president elected after someone who studied journalism died. Therefore, the document is irrelevant."
+            },
+            "m.081t6_37": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating that he was the president elected after Warren G. Harding, who had a background in journalism.",
+                "Document Content Analysis": "The document provides information about Warren G. Harding, the 29th President of the United States, including his background in journalism as a newspaper publisher, his political career, and his death in office. It also mentions his successor, Calvin Coolidge.",
+                "Document and Query Keywords Matching": "The document mentions 'president', 'journalism' (implied through Harding's role as a newspaper publisher), and 'died' (Harding's death in office).",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention Calvin Coolidge, but it implies his succession after Harding's death.",
+                "Key Information Matching": "The document provides key information about Warren G. Harding, including his background in journalism and his death in office, which is relevant to the query. However, it does not explicitly state that Calvin Coolidge was elected after Harding's death.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Calvin Coolidge was elected after Harding's death.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Harding's background in journalism and his death, which helps infer that Calvin Coolidge succeeded him.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about Warren G. Harding, including his background in journalism and his death in office, which helps infer that Calvin Coolidge succeeded him. However, it does not explicitly state that Calvin Coolidge was elected after Harding's death, making it partially relevant."
+            },
+            "triviaqa_45792_56": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document discusses various events and individuals related to journalism and the New York Times, including the retirement of Russell T. Lewis, the appointment of Janet L. Robinson, and the career of Judith Miller. It also mentions the Pulitzer Prize and the legal issues surrounding the disclosure of a CIA operative's identity.",
+                "Document and Query Keywords Matching": "The document mentions 'journalism' in the context of Walter Duranty's reporting and the career of Russell T. Lewis, who worked at the New York Times.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any direct reference to a president elected after a journalist's death.",
+                "Key Information Matching": "The document provides information about journalism and journalists but does not link this to any president or election.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvin Coolidge or any president elected after a journalist's death.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses journalism and journalists but does not provide any information related to the election of a president after a journalist's death. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_5330_2": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides detailed information about Ronald Reagan, including his early life, education, career, political views, and presidency. It mentions his studies in economics and sociology, his career as an actor, and his political journey from Governor of California to President of the United States.",
+                "Document and Query Keywords Matching": "The document mentions 'president' and 'elected' in the context of Ronald Reagan's political career. However, it does not mention 'journalism' or 'died' in relation to Reagan's field of study or death.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge'.",
+                "Key Information Matching": "The document does not provide information about a president whose field of study was journalism or who died before another president was elected. It focuses on Ronald Reagan's life and career, which does not align with the query's requirements.",
+                "Can the Document Answer the Query": "No, the document does not provide information about Calvin Coolidge or any president elected after a person whose field of study was journalism died.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Ronald Reagan and does not provide any information related to the query about Calvin Coolidge or a president elected after a person whose field of study was journalism died. Therefore, it is irrelevant to the query."
+            },
+            "tat_1400_0": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is Calvin Coolidge, indicating that he was elected president after someone with a background in journalism passed away.",
+                "Document Content Analysis": "The document provides information about the directors and senior management of a company, including their names, positions, and some biographical details. It mentions the passing of Andreas Ove Ugland, a director and Vice Chairman of the Company, but does not specify his field of study or any connection to journalism.",
+                "Document and Query Keywords Matching": "The document mentions 'elected' in the context of directors and officers being elected, and 'died' in reference to Andreas Ove Ugland's passing.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any direct connection to the answer.",
+                "Key Information Matching": "The document does not provide any information about a person whose field of study was journalism or about Calvin Coolidge being elected after such a person's death.",
+                "Can the Document Answer the Query": "No, the document does not contain information about a president being elected after a person with a journalism background died.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any key information related to the query or the answer. It discusses the election of company directors and the passing of a director, but there is no mention of journalism, Calvin Coolidge, or any connection between the two."
+            },
+            "ott_29620_1": {
+                "Query Analysis": "The query asks for the name of the president who was elected after a person whose field of study was journalism died.",
+                "Query Keywords Extraction": "elected, president, field of study, journalism, died",
+                "Answer Analysis": "The answer is 'Calvin Coolidge'.",
+                "Document Content Analysis": "The document lists alumni of the University of Oregon, including their fields of study and notable achievements, with a focus on journalism and media. It mentions several journalists and their accomplishments but does not provide information about any presidents or deaths related to these individuals.",
+                "Document and Query Keywords Matching": "The document mentions 'journalism' and 'journalist', which are related to the query's keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Calvin Coolidge' or any presidents.",
+                "Key Information Matching": "The document provides information about individuals with a field of study in journalism but does not connect this to any presidents or deaths.",
+                "Can the Document Answer the Query": "No, the document does not mention any presidents or deaths related to journalists.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any meaningful way. It does not provide any useful context or additional information that could assist in answering the query about a president elected after a journalist's death."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_142489_45": {},
+            "triviaqa_32367_45": {},
+            "m.02mjmr_11072": {},
+            "nq_130918_66": {},
+            "m.01vbl_228": {},
+            "m.062z7_266": {},
+            "triviaqa_16218_12": {},
+            "m.062z7_312": {},
+            "ott_15831_2": {},
+            "triviaqa_22842_416": {},
+            "triviaqa_15877_9": {},
+            "m.081t6_99": {
+                "Query Analysis": "The query asks for the identity of the president who was elected following the death of a person who had studied journalism.",
+                "Query Keywords Extraction": "elected president, after death, field of study, journalism",
+                "Answer Analysis": "The answer provided is Calvin Coolidge.",
+                "Document Content Analysis": "The document provides information about Warren G. Harding, including his background, presidential election, incumbency, and notable achievements. It mentions that Harding was the first newspaper publisher to be elected President, implying his journalism background. It also mentions Calvin Coolidge in the context of the 1920 election as Harding's running mate.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'journalism' indirectly by mentioning Harding as a newspaper publisher, and it references an election and presidency.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Calvin Coolidge' as Harding's running mate and eventual president.",
+                "Key Information Matching": "The document identifies Warren G. Harding as having a journalism background and Calvin Coolidge being elected vice-president and later succeeding Harding as president.",
+                "Can the Document Answer the Query": "Yes, the document can answer the query by mentioning Calvin Coolidge succeeding Harding, who had a journalism background.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Harding's presidency and death, which directly relates to the query about Coolidge assuming the presidency after Harding's death.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query. It contains substantial information about both Warren G. Harding, who had a background in journalism, and Calvin Coolidge, who became president after Harding's death. This provides a complete answer to the query and valuable context for understanding the transition of presidency."
+            },
+            "m.062z7_299": {},
+            "triviaqa_30139_344": {},
+            "m.081t6_36": {
+                "Query Analysis": "The query seeks to identify the person who was elected as president after the death of a previous president who studied journalism.",
+                "Query Keywords Extraction": "elected president, died, field of study, journalism",
+                "Answer Analysis": "The answer identifies Calvin Coolidge as the person elected president after a previous president died.",
+                "Document Content Analysis": "The document discusses Warren G. Harding, noting his presidency, his death, and his background in journalism. It describes his cabinet, popularity, scandals during his tenure, and that he owned a newspaper, suggesting his link to journalism.",
+                "Document and Query Keywords Matching": "The document mentions 'president', 'died', and Harding's background in journalism.",
+                "Document and Answer Keywords Matching": "The document does not mention Calvin Coolidge, but mentions Harding, whose death preceded Coolidge's presidency.",
+                "Key Information Matching": "The document establishes Harding as a president with a journalism background who died, setting the context for Coolidge's subsequent election.",
+                "Can the Document Answer the Query": "Indirectly, the document provides context for Calvin Coolidge's succession but does not explicitly mention the succession.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document discusses Harding's death and his background in journalism, which can lead to inferring the transition to his successor.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document provides substantial context related to the query by describing the background and death of Warren G. Harding, whose position and subsequent death are pivotal to understanding the election of Calvin Coolidge. Therefore, the document is directly relevant and provides useful context for the query."
+            },
+            "m.02mjmr_13137": {},
+            "m.081t6_37": {},
+            "triviaqa_45792_56": {},
+            "triviaqa_5330_2": {},
+            "tat_1400_0": {},
+            "ott_29620_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_29620_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "nq": 1,
+            "triviaqa": 0,
+            "kg": 6,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

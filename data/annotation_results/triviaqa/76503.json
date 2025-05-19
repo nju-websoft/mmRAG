@@ -1,0 +1,967 @@
+{
+    "index": 76503,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which William wrote the novel Lord Of The Flies?",
+        "answer": "Golding",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_39003_10",
+                "score": 13.144499778747559
+            },
+            {
+                "id": "triviaqa_39003_20",
+                "score": 13.059599876403809
+            },
+            {
+                "id": "triviaqa_39003_9",
+                "score": 12.730400085449219
+            },
+            {
+                "id": "nq_159081_17",
+                "score": 12.595000267028809
+            },
+            {
+                "id": "triviaqa_39003_21",
+                "score": 12.080100059509277
+            },
+            {
+                "id": "triviaqa_8760_7",
+                "score": 11.865500450134277
+            },
+            {
+                "id": "triviaqa_2172_21",
+                "score": 11.85789966583252
+            },
+            {
+                "id": "nq_117367_27",
+                "score": 11.846400260925293
+            },
+            {
+                "id": "nq_117367_28",
+                "score": 11.715999603271484
+            },
+            {
+                "id": "nq_232168_34",
+                "score": 11.526300430297852
+            },
+            {
+                "id": "triviaqa_49314_27",
+                "score": 11.495100021362305
+            },
+            {
+                "id": "triviaqa_38983_30",
+                "score": 11.418600082397461
+            },
+            {
+                "id": "triviaqa_8760_8",
+                "score": 11.19909954071045
+            },
+            {
+                "id": "nq_261020_102",
+                "score": 10.934100151062012
+            },
+            {
+                "id": "triviaqa_4338_26",
+                "score": 10.653599739074707
+            },
+            {
+                "id": "nq_73680_3",
+                "score": 10.56980037689209
+            },
+            {
+                "id": "nq_261020_103",
+                "score": 10.558699607849121
+            },
+            {
+                "id": "triviaqa_675_76",
+                "score": 10.476300239562988
+            },
+            {
+                "id": "triviaqa_8760_5",
+                "score": 10.456000328063965
+            },
+            {
+                "id": "triviaqa_49314_26",
+                "score": 10.406800270080566
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_21586_1",
+                "score": 6.855000019073486
+            },
+            {
+                "id": "ott_25536_1",
+                "score": 6.85499906539917
+            },
+            {
+                "id": "ott_21586_0",
+                "score": 6.808800220489502
+            },
+            {
+                "id": "ott_25536_0",
+                "score": 6.8087992668151855
+            },
+            {
+                "id": "ott_11489_0",
+                "score": 6.6930999755859375
+            },
+            {
+                "id": "ott_22266_0",
+                "score": 6.693099021911621
+            },
+            {
+                "id": "ott_31542_0",
+                "score": 6.693098068237305
+            },
+            {
+                "id": "ott_32413_0",
+                "score": 6.693097114562988
+            },
+            {
+                "id": "ott_37581_0",
+                "score": 6.693096160888672
+            },
+            {
+                "id": "ott_27897_3",
+                "score": 6.5015997886657715
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_159081_17",
+                "score": 12.595000267028809
+            },
+            {
+                "id": "nq_117367_27",
+                "score": 11.846400260925293
+            },
+            {
+                "id": "nq_117367_28",
+                "score": 11.715999603271484
+            },
+            {
+                "id": "nq_232168_34",
+                "score": 11.526300430297852
+            },
+            {
+                "id": "nq_261020_102",
+                "score": 10.934100151062012
+            },
+            {
+                "id": "nq_73680_3",
+                "score": 10.56980037689209
+            },
+            {
+                "id": "nq_261020_103",
+                "score": 10.558699607849121
+            },
+            {
+                "id": "nq_159081_18",
+                "score": 10.172699928283691
+            },
+            {
+                "id": "nq_177961_48",
+                "score": 10.116299629211426
+            },
+            {
+                "id": "nq_159081_13",
+                "score": 10.115699768066406
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_39003_10",
+                "score": 13.144499778747559
+            },
+            {
+                "id": "triviaqa_39003_20",
+                "score": 13.059599876403809
+            },
+            {
+                "id": "triviaqa_39003_9",
+                "score": 12.730400085449219
+            },
+            {
+                "id": "triviaqa_39003_21",
+                "score": 12.080100059509277
+            },
+            {
+                "id": "triviaqa_8760_7",
+                "score": 11.865500450134277
+            },
+            {
+                "id": "triviaqa_2172_21",
+                "score": 11.85789966583252
+            },
+            {
+                "id": "triviaqa_49314_27",
+                "score": 11.495100021362305
+            },
+            {
+                "id": "triviaqa_38983_30",
+                "score": 11.418600082397461
+            },
+            {
+                "id": "triviaqa_8760_8",
+                "score": 11.19909954071045
+            },
+            {
+                "id": "triviaqa_4338_26",
+                "score": 10.653599739074707
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.011zsy_63",
+                "score": 9.332799911499023
+            },
+            {
+                "id": "m.01gr2w_46",
+                "score": 9.223600387573242
+            },
+            {
+                "id": "m.084w8_93",
+                "score": 9.064000129699707
+            },
+            {
+                "id": "m.084w8_29",
+                "score": 9.007499694824219
+            },
+            {
+                "id": "m.084w8_173",
+                "score": 8.993499755859375
+            },
+            {
+                "id": "m.084w8_317",
+                "score": 8.950799942016602
+            },
+            {
+                "id": "m.084w8_318",
+                "score": 8.950798988342285
+            },
+            {
+                "id": "m.084w8_256",
+                "score": 8.940999984741211
+            },
+            {
+                "id": "m.084w8_390",
+                "score": 8.929300308227539
+            },
+            {
+                "id": "m.01r32_185",
+                "score": 8.847399711608887
+            },
+            {
+                "id": "m.084w8_92",
+                "score": 8.28339958190918
+            },
+            {
+                "id": "m.084w8_389",
+                "score": 8.268699645996094
+            },
+            {
+                "id": "m.06y8v_102",
+                "score": 8.223799705505371
+            },
+            {
+                "id": "m.09v74x2_5",
+                "score": 8.123700141906738
+            },
+            {
+                "id": "m.011zsy_24",
+                "score": 8.026800155639648
+            },
+            {
+                "id": "m.01gr2w_55",
+                "score": 7.9471001625061035
+            },
+            {
+                "id": "m.084w8_278",
+                "score": 7.730599880218506
+            },
+            {
+                "id": "m.084w8_143",
+                "score": 7.680099964141846
+            },
+            {
+                "id": "m.085wn_109",
+                "score": 7.574900150299072
+            },
+            {
+                "id": "m.084w8_408",
+                "score": 7.558000087738037
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_39003_10",
+                "score": 0.7001106142997742
+            },
+            {
+                "id": "triviaqa_39003_22",
+                "score": 0.6879691481590271
+            },
+            {
+                "id": "triviaqa_39003_9",
+                "score": 0.680406391620636
+            },
+            {
+                "id": "nq_159081_2",
+                "score": 0.6708973050117493
+            },
+            {
+                "id": "triviaqa_39003_20",
+                "score": 0.6684408187866211
+            },
+            {
+                "id": "nq_159081_1",
+                "score": 0.6669836044311523
+            },
+            {
+                "id": "nq_159081_33",
+                "score": 0.6627514958381653
+            },
+            {
+                "id": "triviaqa_39003_1",
+                "score": 0.6607904434204102
+            },
+            {
+                "id": "triviaqa_39003_11",
+                "score": 0.6500217914581299
+            },
+            {
+                "id": "triviaqa_39003_8",
+                "score": 0.6359606385231018
+            },
+            {
+                "id": "triviaqa_39003_0",
+                "score": 0.6251267790794373
+            },
+            {
+                "id": "nq_159081_3",
+                "score": 0.6249668002128601
+            },
+            {
+                "id": "triviaqa_39003_21",
+                "score": 0.6248664259910583
+            },
+            {
+                "id": "nq_159081_12",
+                "score": 0.6221833825111389
+            },
+            {
+                "id": "nq_159081_17",
+                "score": 0.621639609336853
+            },
+            {
+                "id": "triviaqa_39003_7",
+                "score": 0.62095707654953
+            },
+            {
+                "id": "nq_159081_27",
+                "score": 0.6206296682357788
+            },
+            {
+                "id": "triviaqa_39003_19",
+                "score": 0.6070553660392761
+            },
+            {
+                "id": "nq_281492_35",
+                "score": 0.6054617166519165
+            },
+            {
+                "id": "nq_159081_21",
+                "score": 0.6039302349090576
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_27207_1",
+                "score": 0.5398909449577332
+            },
+            {
+                "id": "ott_15873_1",
+                "score": 0.5398909449577332
+            },
+            {
+                "id": "ott_32074_1",
+                "score": 0.5398909449577332
+            },
+            {
+                "id": "ott_22266_1",
+                "score": 0.5357258915901184
+            },
+            {
+                "id": "ott_32413_1",
+                "score": 0.5357258915901184
+            },
+            {
+                "id": "ott_37581_1",
+                "score": 0.5357258915901184
+            },
+            {
+                "id": "ott_31542_1",
+                "score": 0.5357258915901184
+            },
+            {
+                "id": "ott_11489_1",
+                "score": 0.5357258915901184
+            },
+            {
+                "id": "ott_10926_1",
+                "score": 0.5303377509117126
+            },
+            {
+                "id": "ott_28047_1",
+                "score": 0.5303377509117126
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_159081_2",
+                "score": 0.6708973050117493
+            },
+            {
+                "id": "nq_159081_1",
+                "score": 0.6669836044311523
+            },
+            {
+                "id": "nq_159081_33",
+                "score": 0.6627514958381653
+            },
+            {
+                "id": "nq_159081_3",
+                "score": 0.6249668002128601
+            },
+            {
+                "id": "nq_159081_12",
+                "score": 0.6221833825111389
+            },
+            {
+                "id": "nq_159081_17",
+                "score": 0.621639609336853
+            },
+            {
+                "id": "nq_159081_27",
+                "score": 0.6206296682357788
+            },
+            {
+                "id": "nq_281492_35",
+                "score": 0.6054617166519165
+            },
+            {
+                "id": "nq_159081_21",
+                "score": 0.6039302349090576
+            },
+            {
+                "id": "nq_159081_30",
+                "score": 0.5918720364570618
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_39003_10",
+                "score": 0.7001106142997742
+            },
+            {
+                "id": "triviaqa_39003_22",
+                "score": 0.6879691481590271
+            },
+            {
+                "id": "triviaqa_39003_9",
+                "score": 0.680406391620636
+            },
+            {
+                "id": "triviaqa_39003_20",
+                "score": 0.6684408187866211
+            },
+            {
+                "id": "triviaqa_39003_1",
+                "score": 0.6607904434204102
+            },
+            {
+                "id": "triviaqa_39003_11",
+                "score": 0.6500217914581299
+            },
+            {
+                "id": "triviaqa_39003_8",
+                "score": 0.6359606385231018
+            },
+            {
+                "id": "triviaqa_39003_0",
+                "score": 0.6251267790794373
+            },
+            {
+                "id": "triviaqa_39003_21",
+                "score": 0.6248664259910583
+            },
+            {
+                "id": "triviaqa_39003_7",
+                "score": 0.62095707654953
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.084w8_390",
+                "score": 0.5788053274154663
+            },
+            {
+                "id": "m.084w8_258",
+                "score": 0.5755845308303833
+            },
+            {
+                "id": "m.09v74x2_6",
+                "score": 0.574421226978302
+            },
+            {
+                "id": "m.011zsy_23",
+                "score": 0.5733634829521179
+            },
+            {
+                "id": "m.084w8_294",
+                "score": 0.5709107518196106
+            },
+            {
+                "id": "m.084w8_234",
+                "score": 0.5698506236076355
+            },
+            {
+                "id": "m.084w8_93",
+                "score": 0.5653343200683594
+            },
+            {
+                "id": "m.084w8_105",
+                "score": 0.5648075342178345
+            },
+            {
+                "id": "m.084w8_257",
+                "score": 0.5647236704826355
+            },
+            {
+                "id": "m.084w8_90",
+                "score": 0.5634505748748779
+            },
+            {
+                "id": "m.011zsy_25",
+                "score": 0.563298225402832
+            },
+            {
+                "id": "m.084w8_405",
+                "score": 0.5627365708351135
+            },
+            {
+                "id": "m.081k8_3035",
+                "score": 0.5581786036491394
+            },
+            {
+                "id": "m.084w8_387",
+                "score": 0.5551571249961853
+            },
+            {
+                "id": "m.084w8_388",
+                "score": 0.5543559193611145
+            },
+            {
+                "id": "m.084w8_249",
+                "score": 0.5541268587112427
+            },
+            {
+                "id": "m.081k8_375",
+                "score": 0.5506879687309265
+            },
+            {
+                "id": "m.084w8_269",
+                "score": 0.5501804351806641
+            },
+            {
+                "id": "m.084w8_284",
+                "score": 0.5501136779785156
+            },
+            {
+                "id": "m.081k8_2682",
+                "score": 0.5494989156723022
+            }
+        ],
+        "llm_mark_result": {
+            "nq_159081_2": {
+                "Query Analysis": "The query is asking for the specific William who authored the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of the novel.",
+                "Document Content Analysis": "The document provides detailed information about the novel 'Lord of the Flies', including its publication date, genre, publisher, and a brief description of its plot and themes. It explicitly mentions that the novel is by William Golding.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Lord of the Flies' and 'William Golding'.",
+                "Document and Answer Keywords Matching": "The document mentions 'William Golding', which directly matches the answer.",
+                "Key Information Matching": "The document explicitly states that 'Lord of the Flies' is a novel by William Golding, directly addressing the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel and its author, enhancing the understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that 'Lord of the Flies' is written by William Golding. This directly answers the query and provides additional useful context about the novel and its author."
+            },
+            "m.011zsy_63": {
+                "Query Analysis": "The query asks for the identity of the William who authored the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord Of The Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that the author's last name is Golding.",
+                "Document Content Analysis": "The document provides information about William Godwin, an English journalist, political philosopher, and novelist. It details his works, his influence on other writers, and his personal life, including his marriage to Mary Wollstonecraft and his daughter Mary Shelley.",
+                "Document and Query Keywords Matching": "The document mentions 'William' multiple times, but in the context of William Godwin, not the author of 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding' at all.",
+                "Key Information Matching": "The document focuses on William Godwin and does not provide any information related to the novel 'Lord of the Flies' or its author.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on William Godwin and does not mention 'Lord of the Flies' or its author, William Golding. Therefore, it cannot assist in answering the query or providing useful context."
+            },
+            "m.084w8_258": {
+                "Query Analysis": "The query asks for the specific William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides extensive information about William Faulkner, including his works, influences, and other related details. It does not mention 'Lord of the Flies' or William Golding.",
+                "Document and Query Keywords Matching": "The document mentions 'William' but in the context of William Faulkner, not William Golding.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding'.",
+                "Key Information Matching": "The document contains information about a different 'William' (Faulkner) and does not provide any details related to 'Lord of the Flies' or its author.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on William Faulkner and does not mention William Golding or 'Lord of the Flies'. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides any useful context or additional information that could help infer the answer."
+            },
+            "triviaqa_39003_9": {
+                "Query Analysis": "The query asks for the identity of the William who authored the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides a biography of William Golding, detailing his life, career, and achievements. It mentions his birthplace, various occupations, and significant milestones in his writing career, including the publication of 'Lord of the Flies'.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'William', 'Golding', and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document contains the name 'Golding' and explicitly states that he wrote 'Lord of the Flies'.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information on William Golding, enhancing the context around his authorship of 'Lord of the Flies'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that William Golding wrote 'Lord of the Flies'. It provides substantial context and background information about Golding, making it highly useful for understanding the query and its answer."
+            },
+            "ott_21586_1": {
+                "Query Analysis": "The query asks for the identity of the author named William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, novel, Lord of the Flies, wrote",
+                "Answer Analysis": "The answer is 'Golding', indicating that the author's last name is Golding.",
+                "Document Content Analysis": "The document discusses the writing career of an author named Hinton, detailing several of her novels and their publication years. It mentions her struggles with writer's block, her inspirations, and the progression of her career, including the release of her first adult novel.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'William', 'novel', 'Lord of the Flies', or 'wrote'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document focuses on a different author entirely.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the author of 'Lord of the Flies'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the career of an author named Hinton, which has no connection to the author William Golding or the novel 'Lord of the Flies'. Therefore, it provides no useful context or additional information relevant to the query."
+            },
+            "triviaqa_39003_10": {
+                "Query Analysis": "The query seeks to identify which William wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of the novel 'Lord of the Flies'.",
+                "Document Content Analysis": "The document is a biography of William Golding, detailing his life, achievements, and works. It specifically mentions that he wrote 'Lord of the Flies' and discusses his other novels and personal life.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'William', 'Golding', and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document contains the keyword 'Golding', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that William Golding wrote 'Lord of the Flies', directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about William Golding, enhancing the context around the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by confirming that William Golding wrote 'Lord of the Flies'. Additionally, it provides substantial background information about Golding, which enriches the understanding of the query."
+            },
+            "triviaqa_39003_20": {
+                "Query Analysis": "The query asks for the identity of the William who authored the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord Of The Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of the novel.",
+                "Document Content Analysis": "The document provides a biography of William Golding, detailing his life, career, and achievements. It mentions his various occupations, the publication of his first poems, the rejection of his early work, and the eventual success of his novel 'Lord of the Flies'. It also discusses his other awards and personal life.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding' and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document includes the name 'Golding' and explicitly states that William Golding wrote 'Lord of the Flies'.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information on William Golding, which can help infer additional context about his life and work.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that William Golding wrote 'Lord of the Flies'. It provides substantial context and background information about Golding, enhancing understanding of the query's subject matter."
+            },
+            "triviaqa_39003_22": {
+                "Query Analysis": "The query seeks to identify which individual named William wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of the novel.",
+                "Document Content Analysis": "The document provides biographical information about William Golding, mentioning his birthplace, the publication of his first novel 'Lord of the Flies' in 1954, and his receipt of the Nobel Prize in Literature in 1983.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding' and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document includes the name 'William Golding', which matches the answer.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about William Golding, including his birthplace and achievements.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that William Golding wrote 'Lord of the Flies'. It provides substantial useful context about the author, enhancing understanding of the query."
+            },
+            "triviaqa_39003_21": {
+                "Query Analysis": "The query is asking for the identity of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that the William in question is William Golding.",
+                "Document Content Analysis": "The document provides biographical information about William Golding, including his personal life, achievements, and notable works. It mentions that he wrote 'Lord of the Flies' and was awarded the Nobel Prize for Literature.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding' and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document includes the name 'Golding' in the context of William Golding.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about William Golding's life and works, which can enhance understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the specific information needed to answer it. It not only mentions William Golding but also explicitly states that he wrote 'Lord of the Flies', making it highly relevant."
+            },
+            "m.01gr2w_46": {
+                "Query Analysis": "The query asks for the identity of the author named William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that the author's last name is Golding.",
+                "Document Content Analysis": "The document provides information about Tobias Smollett, including his works, personal life, and influences. It mentions several novels and other writings by Smollett, as well as his connections to other literary figures.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'William', 'wrote', 'novel', or 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is solely about Tobias Smollett, who is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Tobias Smollett and does not mention any information related to the query about the author of 'Lord of the Flies'. Therefore, it is irrelevant to the query."
+            },
+            "nq_159081_17": {
+                "Query Analysis": "The query asks for the identity of the author named William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of the novel 'Lord of the Flies'.",
+                "Document Content Analysis": "The document discusses various references and influences of the novel 'Lord of the Flies' in literature, music, and other media. It mentions Stephen King's use of the name 'Castle Rock' from the novel, his introduction for a new edition of the book, and other cultural references to the novel.",
+                "Document and Query Keywords Matching": "The document mentions 'Lord of the Flies' multiple times.",
+                "Document and Answer Keywords Matching": "The document includes the name 'William Golding' in the context of the novel 'Lord of the Flies'.",
+                "Key Information Matching": "The document directly mentions 'William Golding' in relation to 'Lord of the Flies', which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that William Golding is associated with 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel's influence and recognition, which supports the identification of William Golding as the author.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions William Golding in the context of 'Lord of the Flies', thereby providing the exact answer to the query. Additionally, the document offers useful context about the novel's impact and recognition, further supporting the relevance."
+            },
+            "m.084w8_390": {
+                "Query Analysis": "The query is asking for the specific William who authored the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord Of The Flies",
+                "Answer Analysis": "The answer indicates that the author's last name is Golding, implying that the full name is William Golding.",
+                "Document Content Analysis": "The document provides extensive information about William Faulkner, including his works, influences, and some biographical details. It mentions several of Faulkner's written works and his impact on other writers.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'William' but does not mention 'Lord of the Flies' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Golding'.",
+                "Key Information Matching": "The document focuses solely on William Faulkner and does not provide any information related to William Golding or the novel 'Lord of the Flies'.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on William Faulkner and does not mention William Golding or the novel 'Lord of the Flies'. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides any useful context or additional information that could aid in answering the query."
+            },
+            "ott_27207_1": {
+                "Query Analysis": "The query asks for the specific William who wrote the novel 'Lord Of The Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord Of The Flies",
+                "Answer Analysis": "The answer is 'Golding', indicating that William Golding is the author of the novel 'Lord Of The Flies'.",
+                "Document Content Analysis": "The document provides information about Martin Baynton, a British author, illustrator, and TV producer. It mentions his works, collaborations, and background, including his illustrations for books written by Russell Hoban and Kenneth Grahame.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'William', 'wrote', 'novel', or 'Lord Of The Flies'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Golding'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on Martin Baynton and his works, which are unrelated to 'Lord Of The Flies'.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the author of 'Lord Of The Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the author of 'Lord Of The Flies'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Martin Baynton and his career, without any mention of William Golding or the novel 'Lord Of The Flies'. Therefore, it provides no useful context or additional information relevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_159081_2": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which is the last name of the author William Golding.",
+                "Document Content Analysis": "The document provides detailed information about the novel 'Lord of the Flies', including its author, William Golding, who is a Nobel Prize-winning British author. It also mentions the publication date, publisher, and various accolades the novel has received.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding' and 'Lord of the Flies', which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'William Golding', which includes the last name 'Golding' as provided in the answer.",
+                "Key Information Matching": "The document directly states that 'Lord of the Flies' is a novel by William Golding, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the full name of the author, William Golding, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel and its author, which could be useful for further understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the full name of the author of 'Lord of the Flies', which is the exact information requested. Additionally, it offers substantial context about the novel and its author, enhancing understanding of the query."
+            },
+            "m.011zsy_63": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', referring to William Golding, the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides detailed information about William Godwin, an English journalist, political philosopher, and novelist. It mentions his works, influences, and connections to other historical figures, but does not mention William Golding or 'Lord of the Flies'.",
+                "Document and Query Keywords Matching": "The document mentions 'William', but it refers to William Godwin, not William Golding.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding' or any reference to 'Lord of the Flies'.",
+                "Key Information Matching": "The document does not provide any information about William Golding or 'Lord of the Flies', which are the key elements of the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not mention William Golding or 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about William Godwin and does not mention William Golding or 'Lord of the Flies'. Therefore, it is irrelevant to the query and provides no useful context or information."
+            },
+            "m.084w8_258": {
+                "Query Analysis": "The query asks which William wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', referring to William Golding.",
+                "Document Content Analysis": "The document provides detailed information about William Faulkner, including his works, influences, and professional achievements. It does not mention William Golding or the novel 'Lord of the Flies'.",
+                "Document and Query Keywords Matching": "The document mentions 'William' in the context of William Faulkner.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding' or any reference to William Golding.",
+                "Key Information Matching": "The document does not provide any information about William Golding or 'Lord of the Flies'. It focuses solely on William Faulkner.",
+                "Can the Document Answer the Query": "No, the document does not mention William Golding or 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on William Faulkner and does not mention William Golding or 'Lord of the Flies'. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_39003_9": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which refers to William Golding, the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides a detailed biography of William Golding, including his birth, occupations, literary achievements, and personal life. It specifically mentions that he wrote 'Lord of the Flies', which brought him worldwide recognition.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding', 'wrote', and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Golding' multiple times, confirming that William Golding is the author of 'Lord of the Flies'.",
+                "Key Information Matching": "The document explicitly states that William Golding wrote 'Lord of the Flies', which directly matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about William Golding, including his life, career, and other literary works.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the question. It also offers additional context about William Golding, enhancing understanding of the query."
+            },
+            "ott_21586_1": {
+                "Query Analysis": "The query asks for the first name of the author who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which refers to William Golding, the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document discusses the works and life of an author named Hinton, mentioning several of her novels and personal experiences. It does not mention 'Lord of the Flies' or William Golding.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query such as 'William', 'wrote', 'novel', or 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding' or any reference to the author of 'Lord of the Flies'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on a different author and her works.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Lord of the Flies' or its author.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional context about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a different author and her works, with no mention of 'Lord of the Flies', William Golding, or any relevant context. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_39003_10": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which is the last name of the William who wrote 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides detailed information about William Golding, including his authorship of 'Lord of the Flies', his life, and his achievements, such as winning the Nobel Prize in Literature in 1983.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding', 'wrote', and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Golding' multiple times, confirming the last name of the William who wrote 'Lord of the Flies'.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying William Golding as the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about William Golding's life and other works, which could be useful for a deeper understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about William Golding. It enhances understanding of the query by offering background information on the author and his works."
+            },
+            "triviaqa_39003_20": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which is the last name of the William who wrote 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides detailed information about William Golding, including his life, career, and achievements. It specifically mentions that he wrote 'Lord of the Flies', which brought him worldwide recognition.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding', 'wrote', and 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Golding' multiple times, including in the context of writing 'Lord of the Flies'.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about William Golding, including his life and other works.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about William Golding, enhancing understanding of the query."
+            },
+            "triviaqa_39003_22": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which is the last name of the William who wrote 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides detailed information about William Golding, including his birth year, birthplace, and notable achievements. It specifically mentions that he wrote 'Lord of the Flies', which was published in 1954, and that he was awarded the Nobel Prize in Literature in 1983.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding' and 'Lord of the Flies', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Golding', which matches the answer.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that William Golding wrote 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about William Golding, such as his birth year, birthplace, and other achievements.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the question, including the full name of the William who wrote 'Lord of the Flies'. It also offers additional context about the author, enhancing understanding of the query."
+            },
+            "triviaqa_39003_21": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which refers to William Golding, the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides detailed information about William Golding, including his birth, his literary achievements, and his most famous work, 'Lord of the Flies'. It also mentions his Nobel Prize in Literature and other aspects of his life and career.",
+                "Document and Query Keywords Matching": "The document mentions 'William Golding', 'Lord of the Flies', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Golding' as the author of 'Lord of the Flies'.",
+                "Key Information Matching": "The document directly states that William Golding wrote 'Lord of the Flies', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying William Golding as the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about William Golding's life and literary career, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, identifying William Golding as the author of 'Lord of the Flies'. It also offers additional context about Golding's life and achievements, making it highly relevant."
+            },
+            "m.01gr2w_46": {
+                "Query Analysis": "The query asks for the first name of the author who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which refers to William Golding, the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides detailed information about Tobias Smollett, including his works, influences, and personal life. However, it does not mention William Golding or the novel 'Lord of the Flies'.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'William', 'wrote', 'novel', or 'Lord of the Flies'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding' or any reference to William Golding.",
+                "Key Information Matching": "The document does not provide any information related to William Golding or 'Lord of the Flies'.",
+                "Can the Document Answer the Query": "No, the document does not mention William Golding or 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Tobias Smollett and does not contain any information related to William Golding or 'Lord of the Flies'. Therefore, it is irrelevant to the query."
+            },
+            "nq_159081_17": {
+                "Query Analysis": "The query asks for the first name of the author who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which is the last name of the author William Golding.",
+                "Document Content Analysis": "The document discusses various cultural references and influences of the novel 'Lord of the Flies', including its impact on literature, music, and film. It mentions Stephen King's introduction for a new edition of the novel to mark the centenary of William Golding's birth in 2011.",
+                "Document and Query Keywords Matching": "The document mentions 'Lord of the Flies' and 'William Golding'.",
+                "Document and Answer Keywords Matching": "The document mentions 'William Golding', which includes the last name 'Golding' from the answer.",
+                "Key Information Matching": "The document directly mentions 'William Golding', the author of 'Lord of the Flies', which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions William Golding as the author of 'Lord of the Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel's cultural impact and references.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying William Golding as the author of 'Lord of the Flies'. Additionally, it provides useful context about the novel's cultural significance, enhancing understanding of the query."
+            },
+            "m.084w8_390": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord of the Flies'.",
+                "Query Keywords Extraction": "William, wrote, novel, Lord of the Flies",
+                "Answer Analysis": "The answer is 'Golding', which refers to William Golding, the author of 'Lord of the Flies'.",
+                "Document Content Analysis": "The document provides detailed information about William Faulkner, including his works, influences, and accolades. It mentions his novels, short stories, and other writings, but does not reference 'Lord of the Flies' or William Golding.",
+                "Document and Query Keywords Matching": "The document mentions 'William' in the context of William Faulkner, but does not mention 'Lord of the Flies' or any other William who wrote it.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Golding' or any reference to the author of 'Lord of the Flies'.",
+                "Key Information Matching": "The document focuses on William Faulkner and his works, which are unrelated to 'Lord of the Flies' or William Golding.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Lord of the Flies' or William Golding.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to 'Lord of the Flies' or its author.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on William Faulkner and his works, which are unrelated to the query about 'Lord of the Flies' and William Golding. It provides no relevant information or context to assist in answering the query."
+            },
+            "ott_27207_1": {
+                "Query Analysis": "The query asks for the full name of the William who wrote the novel 'Lord Of The Flies'.",
+                "Query Keywords Extraction": "William, novel, Lord Of The Flies",
+                "Answer Analysis": "The answer is 'Golding', referring to William Golding, the author of 'Lord Of The Flies'.",
+                "Document Content Analysis": "The document provides information about Martin Baynton, a British author and illustrator, including his works, collaborations, and career. It mentions authors he has illustrated for, such as Russell Hoban and Kenneth Grahame, but does not mention William Golding or 'Lord Of The Flies'.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords ('William', 'novel', 'Lord Of The Flies').",
+                "Document and Answer Keywords Matching": "The document does not contain the answer keyword 'Golding'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention William Golding or 'Lord Of The Flies'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a different author and his works, with no mention of William Golding or 'Lord Of The Flies'. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_159081_2": {},
+            "m.011zsy_63": {},
+            "m.084w8_258": {},
+            "triviaqa_39003_9": {},
+            "ott_21586_1": {},
+            "triviaqa_39003_10": {},
+            "triviaqa_39003_20": {},
+            "triviaqa_39003_22": {},
+            "triviaqa_39003_21": {},
+            "m.01gr2w_46": {},
+            "nq_159081_17": {},
+            "m.084w8_390": {},
+            "ott_27207_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_27207_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "triviaqa": 2,
+            "nq": 2,
+            "kg": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

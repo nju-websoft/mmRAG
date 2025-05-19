@@ -1,0 +1,1090 @@
+{
+    "index": 80869,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which forest features in the Shakespeare play ‘As You Like It’?",
+        "answer": "Forest of Arden",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_56060_4",
+                "score": 13.898300170898438
+            },
+            {
+                "id": "triviaqa_56060_9",
+                "score": 13.746600151062012
+            },
+            {
+                "id": "triviaqa_56060_5",
+                "score": 13.586000442504883
+            },
+            {
+                "id": "triviaqa_56060_1",
+                "score": 13.055000305175781
+            },
+            {
+                "id": "triviaqa_56060_3",
+                "score": 12.882800102233887
+            },
+            {
+                "id": "triviaqa_56060_26",
+                "score": 12.461000442504883
+            },
+            {
+                "id": "triviaqa_52911_17",
+                "score": 12.261099815368652
+            },
+            {
+                "id": "triviaqa_45305_21",
+                "score": 12.25979995727539
+            },
+            {
+                "id": "triviaqa_56060_25",
+                "score": 12.246199607849121
+            },
+            {
+                "id": "triviaqa_56060_13",
+                "score": 12.22819995880127
+            },
+            {
+                "id": "triviaqa_56060_17",
+                "score": 12.121899604797363
+            },
+            {
+                "id": "triviaqa_56060_0",
+                "score": 12.02750015258789
+            },
+            {
+                "id": "triviaqa_76017_8",
+                "score": 12.007699966430664
+            },
+            {
+                "id": "triviaqa_56060_18",
+                "score": 11.642999649047852
+            },
+            {
+                "id": "triviaqa_10614_108",
+                "score": 11.584400177001953
+            },
+            {
+                "id": "triviaqa_33427_172",
+                "score": 11.513099670410156
+            },
+            {
+                "id": "nq_144913_94",
+                "score": 11.332300186157227
+            },
+            {
+                "id": "triviaqa_56060_2",
+                "score": 11.310500144958496
+            },
+            {
+                "id": "triviaqa_10614_107",
+                "score": 11.304400444030762
+            },
+            {
+                "id": "nq_69351_3",
+                "score": 11.217599868774414
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_35788_0",
+                "score": 7.756100177764893
+            },
+            {
+                "id": "ott_40892_0",
+                "score": 7.756099224090576
+            },
+            {
+                "id": "ott_4632_0",
+                "score": 7.75609827041626
+            },
+            {
+                "id": "ott_7267_0",
+                "score": 7.756097316741943
+            },
+            {
+                "id": "ott_24455_2",
+                "score": 7.5671000480651855
+            },
+            {
+                "id": "ott_27888_2",
+                "score": 7.567099094390869
+            },
+            {
+                "id": "ott_35147_2",
+                "score": 7.567098140716553
+            },
+            {
+                "id": "ott_4887_2",
+                "score": 7.567097187042236
+            },
+            {
+                "id": "ott_24455_3",
+                "score": 7.244900226593018
+            },
+            {
+                "id": "ott_27888_3",
+                "score": 7.244899272918701
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_144913_94",
+                "score": 11.332300186157227
+            },
+            {
+                "id": "nq_69351_3",
+                "score": 11.217599868774414
+            },
+            {
+                "id": "nq_144913_66",
+                "score": 10.937199592590332
+            },
+            {
+                "id": "nq_6872_93",
+                "score": 10.650799751281738
+            },
+            {
+                "id": "nq_179754_94",
+                "score": 10.650798797607422
+            },
+            {
+                "id": "nq_304196_94",
+                "score": 10.650797843933105
+            },
+            {
+                "id": "nq_2404_0",
+                "score": 10.436100006103516
+            },
+            {
+                "id": "nq_290322_43",
+                "score": 10.395400047302246
+            },
+            {
+                "id": "nq_144913_26",
+                "score": 10.366499900817871
+            },
+            {
+                "id": "nq_144913_55",
+                "score": 10.303099632263184
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_56060_4",
+                "score": 13.898300170898438
+            },
+            {
+                "id": "triviaqa_56060_9",
+                "score": 13.746600151062012
+            },
+            {
+                "id": "triviaqa_56060_5",
+                "score": 13.586000442504883
+            },
+            {
+                "id": "triviaqa_56060_1",
+                "score": 13.055000305175781
+            },
+            {
+                "id": "triviaqa_56060_3",
+                "score": 12.882800102233887
+            },
+            {
+                "id": "triviaqa_56060_26",
+                "score": 12.461000442504883
+            },
+            {
+                "id": "triviaqa_52911_17",
+                "score": 12.261099815368652
+            },
+            {
+                "id": "triviaqa_45305_21",
+                "score": 12.25979995727539
+            },
+            {
+                "id": "triviaqa_56060_25",
+                "score": 12.246199607849121
+            },
+            {
+                "id": "triviaqa_56060_13",
+                "score": 12.22819995880127
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.081k8_1471",
+                "score": 10.935099601745605
+            },
+            {
+                "id": "m.081k8_2703",
+                "score": 10.899800300598145
+            },
+            {
+                "id": "m.081k8_2292",
+                "score": 10.457900047302246
+            },
+            {
+                "id": "m.081k8_1856",
+                "score": 9.642200469970703
+            },
+            {
+                "id": "m.081k8_2101",
+                "score": 9.527999877929688
+            },
+            {
+                "id": "m.081k8_1757",
+                "score": 9.50220012664795
+            },
+            {
+                "id": "m.081k8_1417",
+                "score": 9.483699798583984
+            },
+            {
+                "id": "m.081k8_765",
+                "score": 9.385499954223633
+            },
+            {
+                "id": "m.081k8_231",
+                "score": 9.372599601745605
+            },
+            {
+                "id": "m.081k8_568",
+                "score": 9.218199729919434
+            },
+            {
+                "id": "m.081k8_522",
+                "score": 9.21049976348877
+            },
+            {
+                "id": "m.081k8_208",
+                "score": 9.199899673461914
+            },
+            {
+                "id": "m.081k8_1510",
+                "score": 9.188699722290039
+            },
+            {
+                "id": "m.081k8_2997",
+                "score": 9.188698768615723
+            },
+            {
+                "id": "m.081k8_983",
+                "score": 9.18239974975586
+            },
+            {
+                "id": "m.081k8_707",
+                "score": 9.168800354003906
+            },
+            {
+                "id": "m.081k8_2110",
+                "score": 9.166899681091309
+            },
+            {
+                "id": "m.081k8_931",
+                "score": 9.148099899291992
+            },
+            {
+                "id": "m.081k8_1470",
+                "score": 9.14050006866455
+            },
+            {
+                "id": "m.081k8_2140",
+                "score": 9.112099647521973
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_56060_0",
+                "score": 0.7993947267532349
+            },
+            {
+                "id": "triviaqa_56060_5",
+                "score": 0.770727276802063
+            },
+            {
+                "id": "triviaqa_10614_108",
+                "score": 0.766471803188324
+            },
+            {
+                "id": "triviaqa_56060_1",
+                "score": 0.7652862071990967
+            },
+            {
+                "id": "triviaqa_56060_4",
+                "score": 0.7593861818313599
+            },
+            {
+                "id": "triviaqa_56060_26",
+                "score": 0.7559630274772644
+            },
+            {
+                "id": "triviaqa_56060_25",
+                "score": 0.738254725933075
+            },
+            {
+                "id": "triviaqa_56060_7",
+                "score": 0.7216707468032837
+            },
+            {
+                "id": "triviaqa_10614_107",
+                "score": 0.7213168144226074
+            },
+            {
+                "id": "triviaqa_56060_24",
+                "score": 0.7122415900230408
+            },
+            {
+                "id": "triviaqa_56060_21",
+                "score": 0.7088097333908081
+            },
+            {
+                "id": "triviaqa_56060_27",
+                "score": 0.7028354406356812
+            },
+            {
+                "id": "triviaqa_56060_20",
+                "score": 0.7010152339935303
+            },
+            {
+                "id": "triviaqa_56060_8",
+                "score": 0.6994144916534424
+            },
+            {
+                "id": "triviaqa_56060_2",
+                "score": 0.6800391674041748
+            },
+            {
+                "id": "triviaqa_10614_37",
+                "score": 0.6735554337501526
+            },
+            {
+                "id": "triviaqa_66269_8",
+                "score": 0.6733353137969971
+            },
+            {
+                "id": "triviaqa_19556_12",
+                "score": 0.6727936863899231
+            },
+            {
+                "id": "triviaqa_56060_17",
+                "score": 0.6725696325302124
+            },
+            {
+                "id": "triviaqa_71034_14",
+                "score": 0.6711716651916504
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_33701_2",
+                "score": 0.6044903993606567
+            },
+            {
+                "id": "ott_5463_2",
+                "score": 0.6044903993606567
+            },
+            {
+                "id": "ott_20531_2",
+                "score": 0.6044903993606567
+            },
+            {
+                "id": "ott_36165_2",
+                "score": 0.6044903993606567
+            },
+            {
+                "id": "ott_33173_2",
+                "score": 0.6044903993606567
+            },
+            {
+                "id": "ott_14791_1",
+                "score": 0.5853772163391113
+            },
+            {
+                "id": "ott_35362_1",
+                "score": 0.5853772163391113
+            },
+            {
+                "id": "ott_40379_1",
+                "score": 0.5853772163391113
+            },
+            {
+                "id": "ott_9023_1",
+                "score": 0.5853772163391113
+            },
+            {
+                "id": "ott_22325_1",
+                "score": 0.5853772163391113
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_144913_66",
+                "score": 0.6472235321998596
+            },
+            {
+                "id": "nq_62173_12",
+                "score": 0.6324058771133423
+            },
+            {
+                "id": "nq_144913_75",
+                "score": 0.6271315217018127
+            },
+            {
+                "id": "nq_3041_38",
+                "score": 0.6198786497116089
+            },
+            {
+                "id": "nq_232348_73",
+                "score": 0.619785487651825
+            },
+            {
+                "id": "nq_6872_73",
+                "score": 0.619785487651825
+            },
+            {
+                "id": "nq_179754_75",
+                "score": 0.6171309947967529
+            },
+            {
+                "id": "nq_62173_2",
+                "score": 0.6105954051017761
+            },
+            {
+                "id": "nq_3041_39",
+                "score": 0.60732102394104
+            },
+            {
+                "id": "nq_3041_86",
+                "score": 0.606415867805481
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_56060_0",
+                "score": 0.7993947267532349
+            },
+            {
+                "id": "triviaqa_56060_5",
+                "score": 0.770727276802063
+            },
+            {
+                "id": "triviaqa_10614_108",
+                "score": 0.766471803188324
+            },
+            {
+                "id": "triviaqa_56060_1",
+                "score": 0.7652862071990967
+            },
+            {
+                "id": "triviaqa_56060_4",
+                "score": 0.7593861818313599
+            },
+            {
+                "id": "triviaqa_56060_26",
+                "score": 0.7559630274772644
+            },
+            {
+                "id": "triviaqa_56060_25",
+                "score": 0.738254725933075
+            },
+            {
+                "id": "triviaqa_56060_7",
+                "score": 0.7216707468032837
+            },
+            {
+                "id": "triviaqa_10614_107",
+                "score": 0.7213168144226074
+            },
+            {
+                "id": "triviaqa_56060_24",
+                "score": 0.7122415900230408
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.081k8_55",
+                "score": 0.608197808265686
+            },
+            {
+                "id": "m.081k8_603",
+                "score": 0.6058349013328552
+            },
+            {
+                "id": "m.081k8_2564",
+                "score": 0.5981044173240662
+            },
+            {
+                "id": "m.081k8_1609",
+                "score": 0.5883878469467163
+            },
+            {
+                "id": "m.081k8_1856",
+                "score": 0.5878076553344727
+            },
+            {
+                "id": "m.081k8_334",
+                "score": 0.5865735411643982
+            },
+            {
+                "id": "m.05kr__491",
+                "score": 0.5860776305198669
+            },
+            {
+                "id": "m.081k8_2357",
+                "score": 0.5860506296157837
+            },
+            {
+                "id": "m.081k8_960",
+                "score": 0.5838598012924194
+            },
+            {
+                "id": "m.081k8_1608",
+                "score": 0.5830058455467224
+            },
+            {
+                "id": "m.081k8_1791",
+                "score": 0.5821330547332764
+            },
+            {
+                "id": "m.081k8_1418",
+                "score": 0.5817870497703552
+            },
+            {
+                "id": "m.081k8_1980",
+                "score": 0.5814394950866699
+            },
+            {
+                "id": "m.0g251_109",
+                "score": 0.5801148414611816
+            },
+            {
+                "id": "m.081k8_567",
+                "score": 0.5790870785713196
+            },
+            {
+                "id": "m.081k8_1717",
+                "score": 0.5789083242416382
+            },
+            {
+                "id": "m.081k8_573",
+                "score": 0.5785837173461914
+            },
+            {
+                "id": "m.064_8sq_2735",
+                "score": 0.5780467987060547
+            },
+            {
+                "id": "m.081k8_3053",
+                "score": 0.5765944123268127
+            },
+            {
+                "id": "m.081k8_168",
+                "score": 0.5760192275047302
+            }
+        ],
+        "llm_mark_result": {
+            "m.081k8_2703": {
+                "Query Analysis": "The query asks for the name of the forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, As You Like It, Shakespeare",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document contains a collection of references to William Shakespeare, including his plays, sonnets, and other works. It does not provide specific information about the settings within individual plays.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and indirectly refers to 'plays', but it does not mention 'As You Like It' or any specific forest.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "While the document extensively references Shakespeare and his works, it lacks any specific information about the setting of 'As You Like It'.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the forest in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information relevant to identifying the forest in 'As You Like It'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document primarily lists various works and quotes by Shakespeare but does not provide any information about the setting of 'As You Like It'. Therefore, it neither directly answers the query nor helps infer additional information required by the query. The document is irrelevant to the specific question about the forest in 'As You Like It'."
+            },
+            "nq_144913_94": {
+                "Query Analysis": "The query asks for the name of the forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document provides information about various adaptations and references to different Shakespeare plays, particularly focusing on 'A Midsummer Night's Dream'. It does not mention 'As You Like It' or any specific forest from this play.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to 'As You Like It' or 'forest'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to 'Forest of Arden'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document primarily discusses adaptations and references to 'A Midsummer Night's Dream', which is a different play by Shakespeare.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the forest in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information relevant to the forest in 'As You Like It'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on adaptations and references to 'A Midsummer Night's Dream' and does not mention 'As You Like It' or any forest from this play. Therefore, it does not provide any useful context or additional information relevant to the query."
+            },
+            "m.081k8_1471": {
+                "Query Analysis": "The query asks for the name of the forest that is featured in the Shakespeare play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the specific forest mentioned in the play 'As You Like It'.",
+                "Document Content Analysis": "The document lists various works and references related to William Shakespeare, including plays, poems, and other literary works. It also mentions 'As You Like It' as a story by William Shakespeare.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It' and 'William Shakespeare', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "While the document includes the play 'As You Like It', it does not provide any details about the setting or specific elements within the play, such as the forest.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about the forest featured in the play.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or additional information that could help infer the name of the forest.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about the forest featured in 'As You Like It'. It only mentions the play's title without any relevant context or details. Therefore, it cannot assist in answering the query or providing useful context."
+            },
+            "ott_35788_0": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document provides a list of plays and performances by Alun Armstrong, including roles he played and venues where the performances took place. One of the entries mentions 'As You Like It' by William Shakespeare, where Alun Armstrong played the role of Touchstone at the Nottingham Playhouse in 1975.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'As You Like It'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "While the document confirms that 'As You Like It' by Shakespeare was performed, it does not provide any information about the forest featured in the play.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any additional information about the setting of 'As You Like It' or the Forest of Arden.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily a list of performances and roles played by Alun Armstrong. While it mentions 'As You Like It' by Shakespeare, it does not provide any information about the forest featured in the play, which is the specific focus of the query. Therefore, the document is irrelevant to answering the query."
+            },
+            "triviaqa_56060_3": {
+                "Query Analysis": "The query asks for the specific forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document discusses various themes from the play 'As You Like It', including the contrast between forest and court life, class struggles, and character transformations. It mentions the forest as a setting but does not explicitly name it as the Forest of Arden. The document also provides context on how the forest influences characters and themes within the play.",
+                "Document and Query Keywords Matching": "The document mentions 'forest' and 'Shakespeare', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Forest of Arden'.",
+                "Key Information Matching": "The document discusses the forest setting in 'As You Like It' and its significance, providing context about how the forest influences the characters and themes of the play. However, it does not explicitly name the Forest of Arden.",
+                "Can the Document Answer the Query": "No, the document does not directly name the Forest of Arden.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the forest setting in 'As You Like It', which can help infer that the forest mentioned is likely the Forest of Arden, given the detailed discussion of the forest's role in the play.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it discusses the forest setting in 'As You Like It' and its influence on the characters and themes. While it does not explicitly name the Forest of Arden, it provides enough context to infer that the forest mentioned is likely the one in question. Therefore, it offers useful background information but does not directly answer the query."
+            },
+            "triviaqa_10614_108": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the specific forest mentioned in the play.",
+                "Document Content Analysis": "The document provides a detailed summary of the play 'As You Like It', including the setting in the Forest of Arden, the characters who find themselves there, and the themes explored within this forest setting.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It' and 'Forest of Arden'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Forest of Arden'.",
+                "Key Information Matching": "The document directly references the 'Forest of Arden' in the context of 'As You Like It', aligning perfectly with the query's focus.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning the 'Forest of Arden'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive context about the significance and role of the Forest of Arden in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by specifying the 'Forest of Arden' as the forest in 'As You Like It'. Additionally, it provides rich context about the forest's role and importance in the play, enhancing understanding of the query's subject matter."
+            },
+            "nq_144913_66": {
+                "Query Analysis": "The query asks for the name of the forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document discusses various adaptations and performances of Shakespearean plays, particularly focusing on _A Midsummer Night's Dream_. It mentions adaptations of _As You Like It_, but does not provide detailed information about the setting of the play or the specific forest featured in it.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'As You Like It', but does not mention 'forest' or 'Forest of Arden'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "While the document references _As You Like It_ and provides historical context about its adaptations, it does not discuss the setting of the play or the specific forest mentioned in the query.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it does not mention the Forest of Arden.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about the forest setting in 'As You Like It', which is necessary to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document primarily focuses on adaptations and performances of Shakespearean plays, specifically _A Midsummer Night's Dream_ and briefly mentions _As You Like It_. However, it does not provide any information about the forest setting in 'As You Like It'. Therefore, it is irrelevant to answering the specific query about the forest featured in the play."
+            },
+            "triviaqa_56060_0": {
+                "Query Analysis": "The query asks for the specific forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document provides detailed information about Shakespeare's play 'As You Like It', including its setting, which is mentioned as the fictional Forest of Ardenne. It also includes other details such as the author, time and place written, publication details, plot elements, themes, motifs, and symbols.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'As You Like It', and specifically refers to the 'Forest of Ardenne', which closely matches the query keyword 'forest'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Forest of Ardenne', which corresponds to the answer 'Forest of Arden'.",
+                "Key Information Matching": "The document directly mentions the 'Forest of Ardenne' as the primary setting of 'As You Like It', aligning with both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the setting of 'As You Like It' is the fictional Forest of Ardenne, which can be interpreted as the Forest of Arden.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the play, including its time period, characters, and themes, which can help understand the significance of the Forest of Arden within the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it directly answers the query by mentioning the Forest of Ardenne (which is understood to be the Forest of Arden) as the setting of 'As You Like It'. Additionally, it provides substantial context and background information about the play, enhancing understanding of the query."
+            },
+            "triviaqa_56060_9": {
+                "Query Analysis": "The query asks for the name of the forest that is featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the specific forest mentioned in the play.",
+                "Document Content Analysis": "The document discusses the contrast between the court and the forest in Shakespeare's play, highlighting the forest's role as a place of refuge and merriment. It includes a direct quote from the play mentioning 'the forest of Arden'.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'forest', and directly references 'the forest of Arden'.",
+                "Document and Answer Keywords Matching": "The document explicitly includes the phrase 'the forest of Arden', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'the forest of Arden', which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'the forest of Arden'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the significance and characteristics of the forest in the play, enhancing understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'the forest of Arden', which is the answer to the query. Additionally, it provides context about the role and characteristics of the forest in the play, making it highly relevant."
+            },
+            "triviaqa_56060_5": {
+                "Query Analysis": "The query asks for the specific forest that is featured in William Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest mentioned in the play 'As You Like It'.",
+                "Document Content Analysis": "The document discusses the symbolism in William Shakespeare's play 'As You Like It', with a particular emphasis on the Forest of Arden. It explores the representations of the court and the forest, the symbolic meanings, and the themes of love and self-knowledge associated with the forest.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'As You Like It', and 'Forest of Arden'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Forest of Arden', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the Forest of Arden in the context of 'As You Like It', which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions the Forest of Arden as a significant setting in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context and symbolic meanings related to the Forest of Arden, enhancing the understanding of its role in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the Forest of Arden in the context of 'As You Like It'. It not only provides the answer but also offers additional insights into the significance and symbolism of the forest within the play, making it highly relevant."
+            },
+            "m.081k8_603": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the specific forest mentioned in the play 'As You Like It'.",
+                "Document Content Analysis": "The document provides various information about William Shakespeare, including his works, quotations, influences, and fictional characters he created. It mentions 'As You Like It' as one of his works but does not provide specific details about the play's content or settings.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It', which is a key keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document matches the query keyword 'As You Like It' but lacks any information about the forest setting in the play.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or additional information that could help infer the name of the forest.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions 'As You Like It', it lacks any relevant information about the play's setting or the forest featured in it. Therefore, it cannot assist in answering the query or providing useful context, making it irrelevant to the query."
+            },
+            "m.081k8_55": {
+                "Query Analysis": "The query asks for the specific forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document provides a biographical overview of William Shakespeare, including his life, works, and legacy. It mentions his plays and poetry but does not provide specific details about the settings of individual plays.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and implicitly refers to his plays, but it does not mention 'As You Like It' or any specific forests.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden' or any other specific forests.",
+                "Key Information Matching": "While the document discusses Shakespeare and his works, it does not provide information about the setting of 'As You Like It' or the Forest of Arden.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific information required to answer the query directly.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context about the setting of 'As You Like It' or the Forest of Arden.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document primarily focuses on Shakespeare's biography and general information about his works. It lacks any specific details about the setting of 'As You Like It' or the Forest of Arden, making it irrelevant to answering the query."
+            },
+            "triviaqa_56060_4": {
+                "Query Analysis": "The query seeks to identify the specific forest mentioned in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest featured in the play.",
+                "Document Content Analysis": "The document discusses themes and characters in 'As You Like It', particularly focusing on Duke Senior and his experiences in the forest. It mentions the forest in the context of the play's themes and character development.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It' and refers to 'the forest' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Forest of Arden'.",
+                "Key Information Matching": "While the document discusses the forest in the context of the play, it does not explicitly name it as 'Forest of Arden'.",
+                "Can the Document Answer the Query": "No, the document does not directly state the name of the forest.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the repeated references to 'the forest' in the context of 'As You Like It' suggest that it is a significant setting, which could lead someone familiar with the play to infer that it is the Forest of Arden.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses the forest in the context of 'As You Like It', but it does not explicitly name the forest as 'Forest of Arden'. Therefore, while it provides context and suggests the importance of the forest, it does not directly answer the query."
+            },
+            "triviaqa_56060_1": {
+                "Query Analysis": "The query asks for the name of the forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the Forest of Arden.",
+                "Document Content Analysis": "The document discusses the setting of 'As You Like It', mentioning that it is set in a forest. It also provides two possible locations for this forest: the Forest of Arden around Shakespeare’s hometown of Stratford-upon-Avon and the Ardennes in France. Additionally, it contrasts the forest with the court setting, describing the forest as a place where the good characters reside and prefer over the court.",
+                "Document and Query Keywords Matching": "The document mentions 'forest' and 'As You Like It', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Forest of Arden', which matches the answer.",
+                "Key Information Matching": "The document directly mentions the 'Forest of Arden' and discusses its significance in 'As You Like It'. It also provides additional context about the possible locations of the forest and its role in the play.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions the Forest of Arden, which is the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about the possible locations of the forest and its symbolic importance in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it not only directly answers the query by mentioning the Forest of Arden but also provides useful context about its significance and possible locations in the play. This enhances understanding of the query and the answer."
+            },
+            "ott_33701_2": {
+                "Query Analysis": "The query asks for the name of the forest that is featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest mentioned in the play 'As You Like It'.",
+                "Document Content Analysis": "The document provides information about various forests in England, including their locations, sizes, and recreational activities available. It mentions forests like Grizedale Forest, Guisborough Forest, Haldon Forest, Hamsterley Forest, Kesteven Forest, and Kielder Forest.",
+                "Document and Query Keywords Matching": "The document does not mention 'Shakespeare' or 'As You Like It'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "There is no matching key information related to Shakespeare or the play 'As You Like It' in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Shakespeare, the play 'As You Like It', or the Forest of Arden. It only provides information about various forests in England, which does not assist in answering the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.081k8_2703": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the setting of the play.",
+                "Document Content Analysis": "The document contains various references to works by William Shakespeare but does not specifically mention 'As You Like It' or the 'Forest of Arden'.",
+                "Document and Query Keywords Matching": "The document does not mention 'forest' or 'As You Like It'.",
+                "Document and Answer Keywords Matching": "The document does not include 'Forest of Arden'.",
+                "Key Information Matching": "The document lacks any mention of the specific play or the forest associated with it.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any key information related to the query about the forest in 'As You Like It', making it irrelevant."
+            },
+            "nq_144913_94": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, play, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the setting of the play.",
+                "Document Content Analysis": "The document discusses various adaptations and references to Shakespeare's works but does not specifically mention 'As You Like It' or the 'Forest of Arden'.",
+                "Document and Query Keywords Matching": "The document does not mention 'forest' or 'As You Like It'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document lacks any mention of the 'Forest of Arden' or relevant details about 'As You Like It'.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any relevant information about the query or the play 'As You Like It', making it irrelevant."
+            },
+            "m.081k8_1471": {
+                "Query Analysis": "The query asks about the specific forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, play, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest featured in the play.",
+                "Document Content Analysis": "The document lists various works and influences related to William Shakespeare, including mentions of 'As You Like It' as a story by Shakespeare.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It' and 'William Shakespeare'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document mentions 'As You Like It' and 'William Shakespeare', but it does not provide any information about the forest featured in the play.",
+                "Can the Document Answer the Query": "No, the document does not mention the 'Forest of Arden'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about the forest featured in 'As You Like It'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'As You Like It' and 'William Shakespeare', but it does not provide any information about the forest featured in the play. Therefore, it is irrelevant to the query."
+            },
+            "ott_35788_0": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the setting of the play.",
+                "Document Content Analysis": "The document lists various plays, their playwrights, and roles, including 'As You Like It' by William Shakespeare.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It' and 'Shakespeare', but does not mention 'forest'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document provides the title of the play and the playwright but lacks specific information about the forest featured in the play.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the forest.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the forest.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any key information related to the query about the forest in 'As You Like It', making it irrelevant."
+            },
+            "triviaqa_56060_3": {
+                "Query Analysis": "The query asks for the specific forest mentioned in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the primary setting in the play.",
+                "Document Content Analysis": "The document discusses themes in 'As You Like It', including the contrast between forest life and court life, but does not explicitly mention the Forest of Arden.",
+                "Document and Query Keywords Matching": "The document mentions 'forest' and 'As You Like It', but does not specify 'Forest of Arden'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden' directly.",
+                "Key Information Matching": "The document discusses the significance of the forest in the play but does not provide the name of the forest.",
+                "Can the Document Answer the Query": "No, the document does not specify the name of the forest featured in the play.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the themes of the forest and court, which are central to understanding the play.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant thematic information about the play but does not directly answer the query regarding the name of the forest."
+            },
+            "triviaqa_10614_108": {
+                "Query Analysis": "The query asks about the specific forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, features, Shakespeare play, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest featured in the play.",
+                "Document Content Analysis": "The document discusses the setting of 'As You Like It', specifically mentioning the Forest of Arden. It describes the forest as a place where characters find restoration and where key events of the play unfold. The document also provides context about the characters and their experiences in the forest.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It' and 'Forest of Arden', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Forest of Arden', which is the answer to the query.",
+                "Key Information Matching": "The document directly identifies the Forest of Arden as the forest featured in 'As You Like It', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying the Forest of Arden as the forest in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Forest of Arden and its role in the play, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Forest of Arden'). It also offers additional context about the forest's significance in the play, making it highly relevant."
+            },
+            "nq_144913_66": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the setting of the play.",
+                "Document Content Analysis": "The document discusses various adaptations and productions of Shakespeare's works, including references to 'As You Like It', but does not mention the Forest of Arden.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It', but does not include the keyword 'forest'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document references 'As You Like It' but fails to provide any information about the forest featured in the play.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the forest.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the forest.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any key information related to the query about the forest in 'As You Like It', making it irrelevant."
+            },
+            "triviaqa_56060_0": {
+                "Query Analysis": "The query asks for the specific forest mentioned in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the setting of the play.",
+                "Document Content Analysis": "The document discusses 'The Forest of Arden' in the context of Shakespeare's play 'As You Like It', providing details about the play's setting, characters, and themes.",
+                "Document and Query Keywords Matching": "The document mentions 'Forest of Arden' and 'As You Like It', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Forest of Arden', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that 'The Forest of Arden' is the setting of 'As You Like It', matching the query's request for the forest's name.",
+                "Can the Document Answer the Query": "Yes, the document provides the name of the forest featured in the play.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the play and its themes, which may enhance understanding of the setting.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming the 'Forest of Arden' and provides additional context about the play, making it highly relevant."
+            },
+            "triviaqa_56060_9": {
+                "Query Analysis": "The query asks about the specific forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, play, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest featured in the play.",
+                "Document Content Analysis": "The document discusses the contrast between the court and the forest in 'As You Like It', emphasizing the forest as a place of refuge and merriment. It specifically mentions the 'Forest of Arden' and its significance in the play.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'play', 'As You Like It', and 'forest'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Forest of Arden'.",
+                "Key Information Matching": "The document directly references the 'Forest of Arden' and discusses its role and significance in 'As You Like It', aligning with both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions the 'Forest of Arden' as the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the forest's role and significance in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming the 'Forest of Arden' as the forest featured in 'As You Like It'. Additionally, it provides useful context about the forest's role and significance in the play, enhancing understanding of the query."
+            },
+            "triviaqa_56060_5": {
+                "Query Analysis": "The query asks about the specific forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest featured in the play.",
+                "Document Content Analysis": "The document discusses the symbolism in Shakespeare's 'As You Like It', with a particular focus on the Forest of Arden. It describes the forest as a central element in the play, representing a spirit of love and self-knowledge, and contrasts it with the court.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'As You Like It', and 'forest'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'The Forest of Arden'.",
+                "Key Information Matching": "The document directly references 'The Forest of Arden' as a key element in 'As You Like It', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly identifies 'The Forest of Arden' as the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the symbolic meaning of the Forest of Arden in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it identifies 'The Forest of Arden' as the forest featured in 'As You Like It'. It also provides substantial context about the forest's symbolic role in the play, enhancing understanding of the query."
+            },
+            "m.081k8_603": {
+                "Query Analysis": "The query asks about the specific forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest featured in the play.",
+                "Document Content Analysis": "The document provides a list of various credits, works, influences, and quotations related to William Shakespeare, including mentions of 'As You Like It'.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It' and 'William Shakespeare'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Forest of Arden'.",
+                "Key Information Matching": "The document mentions 'As You Like It', which is directly related to the query, but it does not provide specific information about the forest featured in the play.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Forest of Arden'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that 'As You Like It' is a work by William Shakespeare, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions 'As You Like It', which is directly related to the query, but it does not provide the specific information about the forest featured in the play."
+            },
+            "m.081k8_55": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden'.",
+                "Document Content Analysis": "The document provides a brief biography of William Shakespeare, mentioning his works and life but does not specifically reference 'As You Like It' or the Forest of Arden.",
+                "Document and Query Keywords Matching": "The document does not mention 'forest' or 'As You Like It'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document discusses Shakespeare's life and works but does not provide any information about the specific play or the forest in question.",
+                "Can the Document Answer the Query": "No, the document does not contain the name of the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not provide any relevant information about the query regarding the forest in 'As You Like It', making it irrelevant."
+            },
+            "triviaqa_56060_4": {
+                "Query Analysis": "The query asks about the specific forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, play, As You Like It",
+                "Answer Analysis": "The answer is 'Forest of Arden', which is the forest featured in the play.",
+                "Document Content Analysis": "The document discusses various aspects of 'As You Like It', including the setting and symbolism of the Forest of Arden. It mentions the Forest of Arden as a key setting in the play and its significance in the narrative.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'play', 'As You Like It', and 'forest'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Forest of Arden'.",
+                "Key Information Matching": "The document directly references the Forest of Arden, which is the forest featured in 'As You Like It', matching both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions the Forest of Arden as the forest in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the significance of the Forest of Arden in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the Forest of Arden, which is the forest featured in 'As You Like It'. It also provides additional context about the forest's role in the play, enhancing understanding of the query."
+            },
+            "triviaqa_56060_1": {
+                "Query Analysis": "The query asks about the specific forest that features in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, play, 'As You Like It'",
+                "Answer Analysis": "The answer states that the Forest of Arden is the forest featured in the play.",
+                "Document Content Analysis": "The document discusses the setting of 'As You Like It', mentioning that it takes place in a forest. It compares the forest setting to the court setting and discusses the symbolic significance of the forest in the play. The document also mentions two possible locations for the forest: one near Shakespeare's hometown and another in France.",
+                "Document and Query Keywords Matching": "The document mentions 'forest', 'Shakespeare', and ''As You Like It''.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Forest of Arden', but it does discuss the forest setting of the play.",
+                "Key Information Matching": "The document provides information about the forest setting in 'As You Like It', which directly relates to the query. It discusses the significance of the forest in the play and potential real-world locations it might represent.",
+                "Can the Document Answer the Query": "No, the document does not explicitly name the Forest of Arden as the forest in the play.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the importance of the forest setting in the play and its possible real-world inspirations.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly discusses the forest setting in 'As You Like It'. While it doesn't explicitly name the Forest of Arden, it provides valuable context about the role of the forest in the play, its symbolic significance, and potential real-world locations it might represent. This information enhances understanding of the play's setting and the importance of the forest, making it directly related to the conversation and providing useful context."
+            },
+            "ott_33701_2": {
+                "Query Analysis": "The query asks for the name of the forest featured in Shakespeare's play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare play, 'As You Like It'",
+                "Answer Analysis": "The answer is 'Forest of Arden'.",
+                "Document Content Analysis": "The document lists several forests in England, their locations, sizes, and some recreational or ecological features. It also provides background information on the Forestry Commission and its management of forests in Great Britain.",
+                "Document and Query Keywords Matching": "The document mentions 'forest' multiple times, but does not reference 'Shakespeare play' or 'As You Like It'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document discusses various forests in England but does not provide any information related to Shakespeare's play 'As You Like It' or the 'Forest of Arden'.",
+                "Can the Document Answer the Query": "No, the document does not mention the 'Forest of Arden' or any connection to Shakespeare's play.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about forests in England and their management but does not contain any information related to Shakespeare's play 'As You Like It' or the 'Forest of Arden'. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.081k8_2703": {},
+            "nq_144913_94": {},
+            "m.081k8_1471": {},
+            "ott_35788_0": {},
+            "triviaqa_56060_3": {},
+            "triviaqa_10614_108": {},
+            "nq_144913_66": {},
+            "triviaqa_56060_0": {},
+            "triviaqa_56060_9": {},
+            "triviaqa_56060_5": {},
+            "m.081k8_603": {
+                "Query Analysis": "The query is asking which forest is featured in the Shakespeare play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The answer is the 'Forest of Arden'.",
+                "Document Content Analysis": "The document lists various facts and information related to William Shakespeare, including books, quotations, influences, fictional characters, works, and other related data. It mentions 'As You Like It' as a work written by Shakespeare but does not provide specifics about settings or themes.",
+                "Document and Query Keywords Matching": "The document mentions 'As You Like It', which matches the play specified in the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Forest of Arden'.",
+                "Key Information Matching": "The document acknowledges 'As You Like It' as a work written by Shakespeare but does not mention any settings or forests related to the play.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the forest featured in 'As You Like It'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document cannot be used to infer information about the forest because it does not discuss the settings or specifics of the play 'As You Like It'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document lists 'As You Like It' as a work by Shakespeare but fails to provide any relevant context or information about the setting or forest in the play, thus rendering it irrelevant to the query."
+            },
+            "m.081k8_55": {},
+            "triviaqa_56060_4": {
+                "Query Analysis": "The query asks which forest is featured in the Shakespeare play 'As You Like It'.",
+                "Query Keywords Extraction": "forest, Shakespeare, As You Like It",
+                "Answer Analysis": "The forest featured in 'As You Like It' is the Forest of Arden.",
+                "Document Content Analysis": "The documents provide information about Shakespeare's 'As You Like It', including settings such as the Forest of Arden, discussions about themes and symbolism, and the progression of scenes within the play.",
+                "Document and Query Keywords Matching": "Both documents mention 'As You Like It' and 'forest'. Document 4 specifically names the Forest of Arden.",
+                "Document and Answer Keywords Matching": "Document 4 explicitly mentions the Forest of Arden.",
+                "Key Information Matching": "Document 4 identifies the Forest of Arden as a setting within the play, directly linking it to the query.",
+                "Can the Document Answer the Query": "Yes, Document 4 explicitly mentions the Forest of Arden, answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, both documents provide context about 'As You Like It', discussing its settings and the usage of the forest in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "Document 4 directly answers the query by mentioning the Forest of Arden, and both documents provide context about the play. This makes the documents highly relevant as they provide useful context and directly answer the query."
+            },
+            "triviaqa_56060_1": {},
+            "ott_33701_2": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "m.081k8_2703": [
+                true,
+                true,
+                true
+            ],
+            "nq_144913_94": [
+                true,
+                true,
+                true
+            ],
+            "ott_33173_2": [
+                true,
+                true,
+                true
+            ],
+            "ott_35788_0": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_56060_3": [
+                true,
+                true,
+                true
+            ],
+            "nq_144913_66": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_56060_0": [
+                true,
+                true,
+                true
+            ],
+            "m.081k8_55": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_56060_1": [
+                true,
+                true,
+                true
+            ],
+            "ott_33701_2": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "triviaqa": 4,
+            "ott": 0,
+            "kg": 0,
+            "nq": 0,
+            "tat": 0
+        }
+    }
+}

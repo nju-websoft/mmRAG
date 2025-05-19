@@ -1,0 +1,947 @@
+{
+    "index": 79643,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which part of the male does a female mantis usually bite off during mating?",
+        "answer": "Head",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_22820_51",
+                "score": 22.08530044555664
+            },
+            {
+                "id": "triviaqa_73023_11",
+                "score": 20.202800750732422
+            },
+            {
+                "id": "triviaqa_73023_10",
+                "score": 19.84779930114746
+            },
+            {
+                "id": "triviaqa_37508_13",
+                "score": 19.836999893188477
+            },
+            {
+                "id": "nq_96777_39",
+                "score": 19.72450065612793
+            },
+            {
+                "id": "triviaqa_9360_22",
+                "score": 19.30430030822754
+            },
+            {
+                "id": "triviaqa_48174_22",
+                "score": 19.283300399780273
+            },
+            {
+                "id": "triviaqa_48174_23",
+                "score": 19.197399139404297
+            },
+            {
+                "id": "nq_84473_23",
+                "score": 18.936500549316406
+            },
+            {
+                "id": "triviaqa_73023_28",
+                "score": 18.76580047607422
+            },
+            {
+                "id": "triviaqa_75179_44",
+                "score": 18.190000534057617
+            },
+            {
+                "id": "triviaqa_37508_12",
+                "score": 18.13479995727539
+            },
+            {
+                "id": "triviaqa_52240_21",
+                "score": 18.072999954223633
+            },
+            {
+                "id": "triviaqa_37508_9",
+                "score": 18.003700256347656
+            },
+            {
+                "id": "triviaqa_37508_8",
+                "score": 17.882200241088867
+            },
+            {
+                "id": "triviaqa_74896_356",
+                "score": 17.82360076904297
+            },
+            {
+                "id": "triviaqa_59360_47",
+                "score": 17.480899810791016
+            },
+            {
+                "id": "triviaqa_9360_32",
+                "score": 17.46940040588379
+            },
+            {
+                "id": "triviaqa_73023_27",
+                "score": 17.31920051574707
+            },
+            {
+                "id": "triviaqa_37508_0",
+                "score": 17.15180015563965
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_1705_0",
+                "score": 6.424300193786621
+            },
+            {
+                "id": "tat_446_0",
+                "score": 6.279726982116699
+            },
+            {
+                "id": "tat_1764_0",
+                "score": 5.667500019073486
+            },
+            {
+                "id": "tat_832_0",
+                "score": 5.6149001121521
+            },
+            {
+                "id": "tat_2107_0",
+                "score": 5.608797073364258
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_20543_2",
+                "score": 10.534099578857422
+            },
+            {
+                "id": "ott_38529_2",
+                "score": 10.534098625183105
+            },
+            {
+                "id": "ott_10929_1",
+                "score": 8.492600440979004
+            },
+            {
+                "id": "ott_13716_1",
+                "score": 8.492599487304688
+            },
+            {
+                "id": "ott_27620_1",
+                "score": 8.492598533630371
+            },
+            {
+                "id": "ott_30132_1",
+                "score": 8.492597579956055
+            },
+            {
+                "id": "ott_18150_1",
+                "score": 8.44909954071045
+            },
+            {
+                "id": "ott_18362_1",
+                "score": 8.449098587036133
+            },
+            {
+                "id": "ott_22393_1",
+                "score": 8.449097633361816
+            },
+            {
+                "id": "ott_23121_1",
+                "score": 8.4490966796875
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_96777_39",
+                "score": 19.72450065612793
+            },
+            {
+                "id": "nq_84473_23",
+                "score": 18.936500549316406
+            },
+            {
+                "id": "nq_264265_52",
+                "score": 16.99530029296875
+            },
+            {
+                "id": "nq_164576_6",
+                "score": 16.5226993560791
+            },
+            {
+                "id": "nq_264265_51",
+                "score": 16.253700256347656
+            },
+            {
+                "id": "nq_96777_40",
+                "score": 16.216800689697266
+            },
+            {
+                "id": "nq_164576_7",
+                "score": 15.954700469970703
+            },
+            {
+                "id": "nq_81678_19",
+                "score": 15.933300018310547
+            },
+            {
+                "id": "nq_85295_19",
+                "score": 15.93329906463623
+            },
+            {
+                "id": "nq_264265_53",
+                "score": 15.802499771118164
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_22820_51",
+                "score": 22.08530044555664
+            },
+            {
+                "id": "triviaqa_73023_11",
+                "score": 20.202800750732422
+            },
+            {
+                "id": "triviaqa_73023_10",
+                "score": 19.84779930114746
+            },
+            {
+                "id": "triviaqa_37508_13",
+                "score": 19.836999893188477
+            },
+            {
+                "id": "triviaqa_9360_22",
+                "score": 19.30430030822754
+            },
+            {
+                "id": "triviaqa_48174_22",
+                "score": 19.283300399780273
+            },
+            {
+                "id": "triviaqa_48174_23",
+                "score": 19.197399139404297
+            },
+            {
+                "id": "triviaqa_73023_28",
+                "score": 18.76580047607422
+            },
+            {
+                "id": "triviaqa_75179_44",
+                "score": 18.190000534057617
+            },
+            {
+                "id": "triviaqa_37508_12",
+                "score": 18.13479995727539
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0542n_197",
+                "score": 9.452500343322754
+            },
+            {
+                "id": "m.0542n_63",
+                "score": 9.31089973449707
+            },
+            {
+                "id": "m.0cx4p_18",
+                "score": 8.831399917602539
+            },
+            {
+                "id": "m.0542n_196",
+                "score": 8.605199813842773
+            },
+            {
+                "id": "m.0542n_62",
+                "score": 8.488699913024902
+            },
+            {
+                "id": "m.0cx4p_17",
+                "score": 8.187199592590332
+            },
+            {
+                "id": "m.01dz7z_21",
+                "score": 7.6057000160217285
+            },
+            {
+                "id": "m.0cx4p_128",
+                "score": 7.563499927520752
+            },
+            {
+                "id": "m.026cv11_0",
+                "score": 7.559100151062012
+            },
+            {
+                "id": "m.026cv11_1",
+                "score": 7.559099197387695
+            },
+            {
+                "id": "m.026cv11_2",
+                "score": 7.559098243713379
+            },
+            {
+                "id": "m.026cv11_3",
+                "score": 7.5590972900390625
+            },
+            {
+                "id": "m.026cv11_4",
+                "score": 7.559096336364746
+            },
+            {
+                "id": "m.01tgcy_7",
+                "score": 7.444399833679199
+            },
+            {
+                "id": "m.03hl_76_1",
+                "score": 7.426400184631348
+            },
+            {
+                "id": "m.064_8sq_3259",
+                "score": 7.351600170135498
+            },
+            {
+                "id": "m.0jwqy50_0",
+                "score": 7.3109002113342285
+            },
+            {
+                "id": "m.0f2nf_737",
+                "score": 7.274799823760986
+            },
+            {
+                "id": "m.02vlrk__2",
+                "score": 7.246500015258789
+            },
+            {
+                "id": "m.0jwqy50_10",
+                "score": 7.229599952697754
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_73023_11",
+                "score": 0.7090555429458618
+            },
+            {
+                "id": "triviaqa_73023_9",
+                "score": 0.7063612341880798
+            },
+            {
+                "id": "triviaqa_73023_10",
+                "score": 0.6837185621261597
+            },
+            {
+                "id": "nq_2992_40",
+                "score": 0.6734369993209839
+            },
+            {
+                "id": "triviaqa_48174_23",
+                "score": 0.6711350679397583
+            },
+            {
+                "id": "nq_76269_16",
+                "score": 0.6652792096138
+            },
+            {
+                "id": "triviaqa_22820_51",
+                "score": 0.6650335788726807
+            },
+            {
+                "id": "nq_76269_6",
+                "score": 0.6625956892967224
+            },
+            {
+                "id": "nq_110601_6",
+                "score": 0.6612767577171326
+            },
+            {
+                "id": "triviaqa_37508_12",
+                "score": 0.6550158858299255
+            },
+            {
+                "id": "triviaqa_22820_48",
+                "score": 0.6549381613731384
+            },
+            {
+                "id": "triviaqa_73023_21",
+                "score": 0.651137113571167
+            },
+            {
+                "id": "nq_2992_39",
+                "score": 0.6500502824783325
+            },
+            {
+                "id": "nq_2974_40",
+                "score": 0.6500014066696167
+            },
+            {
+                "id": "triviaqa_7457_15",
+                "score": 0.6490394473075867
+            },
+            {
+                "id": "triviaqa_22820_49",
+                "score": 0.6470022201538086
+            },
+            {
+                "id": "nq_76269_7",
+                "score": 0.6466727256774902
+            },
+            {
+                "id": "triviaqa_73023_14",
+                "score": 0.6453301906585693
+            },
+            {
+                "id": "triviaqa_73023_23",
+                "score": 0.64349365234375
+            },
+            {
+                "id": "triviaqa_22820_50",
+                "score": 0.642264187335968
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_20853_1",
+                "score": 0.5310354232788086
+            },
+            {
+                "id": "ott_8430_1",
+                "score": 0.5310354232788086
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_2992_40",
+                "score": 0.6734369993209839
+            },
+            {
+                "id": "nq_76269_16",
+                "score": 0.6652792096138
+            },
+            {
+                "id": "nq_76269_6",
+                "score": 0.6625956892967224
+            },
+            {
+                "id": "nq_110601_6",
+                "score": 0.6612767577171326
+            },
+            {
+                "id": "nq_2992_39",
+                "score": 0.6500502824783325
+            },
+            {
+                "id": "nq_2974_40",
+                "score": 0.6500014066696167
+            },
+            {
+                "id": "nq_76269_7",
+                "score": 0.6466727256774902
+            },
+            {
+                "id": "nq_76269_3",
+                "score": 0.641067385673523
+            },
+            {
+                "id": "nq_170090_27",
+                "score": 0.6391069889068604
+            },
+            {
+                "id": "nq_76269_11",
+                "score": 0.6376268267631531
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_73023_11",
+                "score": 0.7090555429458618
+            },
+            {
+                "id": "triviaqa_73023_9",
+                "score": 0.7063612341880798
+            },
+            {
+                "id": "triviaqa_73023_10",
+                "score": 0.6837185621261597
+            },
+            {
+                "id": "triviaqa_48174_23",
+                "score": 0.6711350679397583
+            },
+            {
+                "id": "triviaqa_22820_51",
+                "score": 0.6650335788726807
+            },
+            {
+                "id": "triviaqa_37508_12",
+                "score": 0.6550158858299255
+            },
+            {
+                "id": "triviaqa_22820_48",
+                "score": 0.6549381613731384
+            },
+            {
+                "id": "triviaqa_73023_21",
+                "score": 0.651137113571167
+            },
+            {
+                "id": "triviaqa_7457_15",
+                "score": 0.6490394473075867
+            },
+            {
+                "id": "triviaqa_22820_49",
+                "score": 0.6470022201538086
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02l2z6_6",
+                "score": 0.5433759689331055
+            },
+            {
+                "id": "m.02l2z6_8",
+                "score": 0.5317181944847107
+            },
+            {
+                "id": "m.02l2z6_19",
+                "score": 0.5211806893348694
+            },
+            {
+                "id": "m.02l2z6_51",
+                "score": 0.5204360485076904
+            },
+            {
+                "id": "m.02l2z6_33",
+                "score": 0.5191519260406494
+            },
+            {
+                "id": "m.04306rv_883",
+                "score": 0.518653154373169
+            }
+        ],
+        "llm_mark_result": {
+            "tat_1705_0": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male mantis they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male mantis, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document provides financial and operational data related to poultry farming, including inventories of flocks, eggs, and feed and supplies as of specific dates. It mentions the types of chickens maintained and their quantities.",
+                "Document and Query Keywords Matching": "None of the query keywords ('female mantis', 'male mantis', 'bite off', 'mating') are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'Head' is not mentioned in the context of mantises or mating; it is not present in the document at all.",
+                "Key Information Matching": "There is no information in the document that relates to mantises, their mating behavior, or any biological processes.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or information that could help infer details about mantis behavior.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on financial and operational aspects of poultry farming, which have no connection to the mating behavior of mantises. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_73023_9": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses various mating behaviors in different species, including bees, wasp spiders, and octopuses. It describes how males in these species often face extreme consequences during mating, such as dying or losing body parts.",
+                "Document and Query Keywords Matching": "The document does not mention 'female mantis', 'male', 'bite off', or 'mating' in the context of mantises.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Head' in the context of mantises or any related behavior.",
+                "Key Information Matching": "There is no information in the document that directly relates to the behavior of female mantises during mating.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about female mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about the mating behavior of mantises.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the mating behaviors of other species and does not mention anything about mantises. Therefore, it cannot provide any useful context or information to answer the query or infer additional relevant details."
+            },
+            "triviaqa_22820_51": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses the praying mantis, including its cannibalistic behavior, the female consuming the male after mating, and the process of mating where the female bites off the male's head to release a neurological block and facilitate sperm transfer.",
+                "Document and Query Keywords Matching": "The document mentions 'female mantis', 'male', 'bite', and 'mating'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions the female biting off the male's 'head'.",
+                "Key Information Matching": "The document directly addresses the behavior of the female mantis biting off the male's head during mating, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the female mantis bites off the male's head during mating.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the reasons and process behind this behavior.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the specific answer and provides additional context about the mating behavior of mantises. It clearly explains why and how the female mantis bites off the male's head, making it highly relevant to the query."
+            },
+            "m.02l2z6_8": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document provides information about Charles Darwin's book 'The Descent of Man, and Selection in Relation to Sex', discussing its publication history, translations, and themes related to natural selection and sexual selection in humans and animals.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'female mantis', 'male', 'bite off', or 'mating'.",
+                "Document and Answer Keywords Matching": "The document does not mention the word 'Head' in the context of mantises or mating behaviors.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on evolutionary theory and sexual selection in a broader sense, not on specific mating behaviors of mantises.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the mating behavior of mantises.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about mantis mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Charles Darwin's work on evolution and sexual selection, which does not provide any context or information relevant to the specific mating behavior of mantises. Therefore, it is judged as irrelevant."
+            },
+            "triviaqa_48174_23": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, male, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses various animal behaviors related to mating and predation, including examples of males being eaten by females in different species. However, it does not specifically mention mantises.",
+                "Document and Query Keywords Matching": "The document mentions 'eating males after mating' but does not specifically mention 'mantis', 'bite off', or 'head'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'head' in the context of mating behaviors.",
+                "Key Information Matching": "While the document discusses the general concept of females eating males in various species, it lacks specific information about mantises and the part of the male that is bitten off.",
+                "Can the Document Answer the Query": "No, the document does not provide specific information about mantises or the part of the male that is bitten off during mating.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about mantises or their mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any specific information about mantises or their mating behaviors. The general discussion of females eating males in other species does not help in answering the specific question about mantises."
+            },
+            "triviaqa_73023_11": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses the behavior of female praying mantises during mating, including the act of eating the heads of their mates. It provides context that this behavior is not always mandatory and varies in frequency among different species. The document also mentions other aspects of mantis mating behavior, such as the reasons behind cannibalism and the romantic aspects when cannibalism does not occur.",
+                "Document and Query Keywords Matching": "The document contains keywords such as 'female praying mantises', 'eat the heads', and 'during intercourse', which directly match the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'head-eating', which matches the answer 'Head'.",
+                "Key Information Matching": "The document directly addresses the key information of the query by stating that female mantises eat the heads of their mates during mating.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the female mantis usually bites off the head of the male during mating.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the frequency and reasons behind this behavior, enhancing the understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides a clear and direct answer to the question of which part of the male the female mantis bites off during mating. Additionally, it offers valuable context and additional information about the behavior, making it highly relevant."
+            },
+            "nq_96777_39": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male mantis they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male mantis, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses the aggressive behavior of koalas, particularly pregnant and lactating females, and details their mating and reproductive practices. It includes information about how males and females interact during mating, the physical struggles that may occur, and the general behavior of koalas.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'female mantis', 'male mantis', 'bite off', or 'mating' in the context of mantises.",
+                "Document and Answer Keywords Matching": "The document does not mention the term 'Head' in the context of biting off during mating.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about koalas, not mantises.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about the mating behavior of mantises.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about koalas and their behavior, which is unrelated to the query about mantises. It does not provide any useful context or additional information relevant to the query, making it irrelevant."
+            },
+            "ott_20543_2": {
+                "Query Analysis": "The query is seeking specific information about the behavior of female mantises during mating, particularly which part of the male mantis they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male mantis, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document provides detailed accounts of several dog attacks on humans, including the dates, locations, victims' names and ages, types of dogs involved, and outcomes of the attacks. The content is focused on dog-related violence and does not mention any insects or mating behaviors.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('female mantis', 'male mantis', 'bite off', 'mating') are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'head' appears in the document, but in the context of dog attacks, not related to mantises or mating.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on mantis behavior during mating.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer details about mantis mating behavior.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on dog attacks and does not provide any information about insects, specifically mantises, or their mating habits. Therefore, it cannot answer the query or offer any useful context."
+            },
+            "m.02l2z6_6": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses 'The Descent of Man, and Selection in Relation to Sex' by Charles Darwin, focusing on human evolution and sexual selection theory. It provides details about the book's publication history and translations.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'female mantis', 'male', 'bite off', or 'mating'.",
+                "Document and Answer Keywords Matching": "The document does not mention the word 'Head' in the context of the query.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a book on human evolution and sexual selection, not about insect behavior.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about mantis mating behavior.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a book about human evolution and sexual selection, which does not provide any context or information relevant to the specific behavior of mantises during mating. Therefore, it is judged as irrelevant."
+            },
+            "m.0542n_197": {
+                "Query Analysis": "The query seeks information about the specific part of the male mantis that a female mantis typically bites off during the mating process.",
+                "Query Keywords Extraction": "female mantis, male mantis, bite off, mating",
+                "Answer Analysis": "The answer specifies that the female mantis usually bites off the head of the male mantis during mating.",
+                "Document Content Analysis": "The document discusses malaria, its symptoms, transmission methods, and the role of the female Anopheles mosquito in spreading the disease. It also mentions the lifecycle of the malaria parasite and different species of Plasmodium.",
+                "Document and Query Keywords Matching": "None of the query keywords ('female mantis', 'male mantis', 'bite off', 'mating') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'head' in the context of mantises or mating.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document focuses on malaria and mosquitoes, which is unrelated to mantises and their mating behavior.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about mantis mating behavior.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses malaria and its transmission by mosquitoes, which has no connection to the mating behavior of mantises. Therefore, it cannot provide any useful context or additional information relevant to the query."
+            },
+            "m.0542n_63": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document provides detailed information about malaria, a mosquito-borne infectious disease. It covers the causes, symptoms, transmission, and types of Plasmodium parasites responsible for the disease. The document also mentions the role of female Anopheles mosquitoes in transmitting malaria.",
+                "Document and Query Keywords Matching": "None of the query keywords ('female mantis', 'male', 'bite off', 'mating') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Head' in the context of mantises or mating.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document. The document focuses entirely on malaria and mosquitoes, which are unrelated to mantises and their mating behavior.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer details about mantises or their mating habits.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on malaria and its transmission by mosquitoes, which is unrelated to the query about mantis mating behavior. It does not provide any useful context or additional information relevant to the query, making it irrelevant."
+            },
+            "triviaqa_37508_13": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document provides information about the red back spider, including its appearance, the effects of its bite, its life cycle, and some behaviors such as the female eating the male after mating. It also mentions other types of spiders like the black widow and wolf spiders.",
+                "Document and Query Keywords Matching": "The document mentions 'female' and 'eating the male following mating', but these are in the context of spiders, not mantises.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Head' in the context of mantises or any relevant behavior related to mantises.",
+                "Key Information Matching": "The document discusses similar behavior (female eating male) but in a different species (spiders, specifically red back spiders and black widows).",
+                "Can the Document Answer the Query": "No, the document does not provide information about mantises or the specific behavior of female mantises biting off the head of males during mating.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document mentions a related behavior in spiders, this information is not directly applicable to mantises and does not help infer the specific behavior of mantises.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on spiders and their behaviors, particularly the red back spider and black widow. While it mentions a behavior similar to the query (female eating the male after mating), this information is specific to spiders and not relevant to mantises. Therefore, the document does not provide any useful context or additional information directly related to the query about mantises."
+            },
+            "nq_2992_40": {
+                "Query Analysis": "The query asks about the specific part of the male mantis that a female mantis usually bites off during the mating process.",
+                "Query Keywords Extraction": "female mantis, male mantis, bite off, mating",
+                "Answer Analysis": "The answer specifies that the part bitten off is the head.",
+                "Document Content Analysis": "The document discusses the mouthparts and feeding behavior of mosquitoes, particularly focusing on the female mosquito's proboscis and its components. It describes the structure and function of various mouthparts like the labium, mandibles, and maxillae.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'female mantis', 'male mantis', 'bite off', or 'mating'.",
+                "Document and Answer Keywords Matching": "The document does not mention the word 'head' in the context of mantises or any related behavior.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely about mosquitoes and their feeding mechanisms, which is unrelated to mantises and their mating behavior.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it contains no information about mantises or their mating habits.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer details about mantis mating behavior.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on the anatomy and feeding behavior of mosquitoes, which is entirely unrelated to the mating behavior of mantises. It does not provide any useful context, background, or additional information that could assist in answering the query or enhancing understanding of the topic."
+            },
+            "ott_20853_1": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, male, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document lists various fictional arthropods from literature, including spiders and other insects, and provides details about their characteristics and appearances in different works of fiction.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'female mantis', 'male', 'bite off', or 'mating'.",
+                "Document and Answer Keywords Matching": "The document does not mention the word 'Head' in the context of mantises or any related behavior.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on fictional arthropods and does not provide any biological or behavioral information about real mantises.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it lacks any relevant information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer details about the mating behavior of mantises.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses fictional arthropods in literature and does not provide any useful context or information about the biological behavior of real mantises. Therefore, it is deemed irrelevant to the query."
+            },
+            "triviaqa_73023_10": {
+                "Query Analysis": "The query seeks information about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, male, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses various mating behaviors in different species, including octopuses and praying mantises. It provides detailed descriptions of these behaviors, focusing on the praying mantis section where it mentions the cannibalistic behavior of females during mating.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'female praying mantises', 'eat the heads', and 'mates during intercourse', which directly relate to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'eat the heads', which matches the answer 'Head'.",
+                "Key Information Matching": "The document directly addresses the behavior of female mantises biting off the heads of males during mating, which is the key information sought by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that female mantises eat the heads of their mates during intercourse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the frequency and reasons behind this behavior, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the behavior of female mantises biting off the heads of males during mating. It not only answers the query but also provides additional context, making it highly relevant."
+            }
+        },
+        "llm_mark_result_ds": {
+            "tat_1705_0": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses inventories related to flocks of chickens, including layers, pullets, and breeders. It provides financial data and descriptions of the types of chickens maintained for egg production.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('female mantis', 'bite off', 'mating', 'male') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Head' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to mantises, mating behaviors, or the specific behavior described in the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the topic of mantises or their mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely irrelevant to the query as it discusses inventories of chicken flocks and provides no information about mantises or their mating behaviors. There is no overlap in keywords or key information between the document and the query."
+            },
+            "triviaqa_73023_9": {
+                "Query Analysis": "The query asks about the specific part of the male that a female mantis usually bites off during mating.",
+                "Query Keywords Extraction": "female mantis, bite off, male, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses various mating behaviors in different species, including bees, wasp spiders, and octopuses. It mentions violent mating behaviors such as males dying during copulation, genitals breaking off, and males being eaten by females. However, it does not specifically mention mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "The document does not mention 'female mantis', 'bite off', or 'mantis' at all.",
+                "Document and Answer Keywords Matching": "The document does not mention 'head' in the context of mantises or mating behaviors.",
+                "Key Information Matching": "The document does not provide any information about mantises or their mating behaviors, which is the key focus of the query.",
+                "Can the Document Answer the Query": "No, the document does not mention mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about mantises or their mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses mating behaviors in other species but does not mention mantises or their specific behaviors, such as biting off the male's head during mating. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_22820_51": {
+                "Query Analysis": "The query asks about the specific part of the male mantis that a female mantis usually bites off during mating.",
+                "Query Keywords Extraction": "male, female mantis, bite off, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses the behavior of praying mantises, particularly their cannibalistic tendencies. It mentions that female mantises often consume the male after mating, specifically biting off the male's head to release a neurological block, allowing the sperm packet to be released.",
+                "Document and Query Keywords Matching": "The document mentions 'female mantis', 'male', 'bite off', and 'mating', which are all keywords from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions that the female bites off the male's head, which matches the answer 'Head'.",
+                "Key Information Matching": "The document provides detailed information about the mating behavior of mantises, specifically mentioning that the female bites off the male's head during mating, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the female mantis bites off the male's head during mating.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the mating behavior of mantises, including the reason why the female bites off the male's head.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It explicitly mentions that the female mantis bites off the male's head during mating, which is the exact information needed to answer the query."
+            },
+            "m.02l2z6_8": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses Charles Darwin's work on evolutionary theory, particularly 'The Descent of Man, and Selection in Relation to Sex'. It mentions topics like natural selection, sexual selection, and human evolution but does not provide any information about mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('female mantis', 'bite off', 'mating', 'male') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Head' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to mantises, their mating behaviors, or the specific act of a female mantis biting off the male's head.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Charles Darwin's theories on evolution and sexual selection but does not mention mantises or their mating behaviors. Therefore, it provides no useful context or information to answer the query."
+            },
+            "triviaqa_48174_23": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that female mantises typically bite off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses various examples of sexual cannibalism and aggressive behaviors in different species, including spiders, sharks, snakes, eagles, spotted hyenas, and mosquitoes. However, it does not mention mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to 'female mantis', 'bite off', or 'mating'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'head' in the context of mantises or mating behaviors.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It discusses sexual cannibalism in other species but does not address mantises.",
+                "Can the Document Answer the Query": "No, the document does not mention mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide context for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention mantises or their mating behaviors. It discusses sexual cannibalism in other species but provides no useful context or information related to the query."
+            },
+            "triviaqa_73023_11": {
+                "Query Analysis": "The query asks about the specific part of the male that a female mantis usually bites off during mating.",
+                "Query Keywords Extraction": "female mantis, bite off, male, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses the mating behavior of female praying mantises, specifically mentioning that they sometimes eat the heads of their mates during intercourse. It also provides context about the frequency and reasons for this behavior, noting that it is not always the case and can vary between species.",
+                "Document and Query Keywords Matching": "The document mentions 'female praying mantises', 'eat the heads', 'mates', and 'intercourse', which align with the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'eat the heads', which matches the answer 'Head'.",
+                "Key Information Matching": "The document provides key information about the mating behavior of female mantises, specifically mentioning that they sometimes eat the heads of their mates, which directly relates to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that female mantises sometimes eat the heads of their mates during mating.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the frequency and reasons for this behavior, which could help infer more information about the mating habits of mantises.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that enhances understanding of the query. It not only answers the query directly but also offers additional insights into the mating behavior of female mantises."
+            },
+            "nq_96777_39": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses the behavior of koalas, particularly their aggressive tendencies, reproduction, and mating behaviors. It mentions how males and females interact during mating, including aggressive behaviors and physical interactions, but does not mention mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to the query, such as 'female mantis', 'bite off', or 'mating'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Head' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on koalas and their behaviors, which are unrelated to mantises.",
+                "Can the Document Answer the Query": "No, the document does not mention mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses koalas and their behaviors, with no mention of mantises or their mating habits. Therefore, it provides no useful context or information to answer the query or infer additional details."
+            },
+            "ott_20543_2": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document describes several incidents of dog attacks, including details about the victims, the dogs involved, and the outcomes. There is no mention of mantises, mating, or any related biological behavior.",
+                "Document and Query Keywords Matching": "None of the query keywords ('female mantis', 'bite off', 'mating', 'male') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Head' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer. It focuses entirely on dog attacks and does not mention mantises or their mating behavior.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about mantises or their mating behavior.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses dog attacks and does not mention mantises, mating, or any behavior related to the query. Therefore, it is irrelevant and provides no useful context or information for answering the query."
+            },
+            "m.02l2z6_6": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses Charles Darwin's book 'The Descent of Man, and Selection in Relation to Sex', focusing on human evolution and sexual selection theory. It provides details about the book's publication history, translations, and content but does not mention mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "None of the query keywords ('female mantis', 'bite off', 'mating', 'male') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Head' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to mantises, their mating behaviors, or the specific act of a female mantis biting off the male's head.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the topic of mantises or their mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It discusses human evolution and sexual selection theory as described by Charles Darwin but does not mention mantises or their mating behaviors. Therefore, it provides no useful context or information to answer the query."
+            },
+            "m.0542n_197": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses malaria, its symptoms, transmission, and the role of mosquitoes in spreading the disease. It does not mention mantises, mating behaviors, or any related topics.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to mantises, mating behaviors, or the specific act of biting off a male's head during mating.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses malaria and mosquitoes, which have no connection to the mating behavior of mantises. Therefore, the document is irrelevant to the query."
+            },
+            "m.0542n_63": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses malaria, its causes, symptoms, transmission, and impact. It does not mention mantises, mating behaviors, or any related topics.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the query and provides no relevant context or information.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about malaria, a mosquito-borne disease, and does not mention mantises, mating behaviors, or any related topics. It provides no useful context or information for the query, making it irrelevant."
+            },
+            "triviaqa_37508_13": {
+                "Query Analysis": "The query asks about the specific part of the male that a female mantis usually bites off during mating.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document primarily discusses spiders, specifically the red back spider and black widow spider, including their appearance, life cycle, and mating behaviors. It mentions that female spiders may eat the male after mating but does not mention mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "The document does not mention 'female mantis', 'bite off', or 'mating' in the context of mantises.",
+                "Document and Answer Keywords Matching": "The document does not mention 'head' in the context of mantises or their mating behaviors.",
+                "Key Information Matching": "The document does not provide any information about mantises or their mating behaviors, which are the key focus of the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not mention mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to mantises or their mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on spiders and does not mention mantises or their mating behaviors. Therefore, it provides no relevant information to answer the query or infer additional information related to the query."
+            },
+            "nq_2992_40": {
+                "Query Analysis": "The query asks about the specific part of the male that a female mantis usually bites off during mating.",
+                "Query Keywords Extraction": "female mantis, bite off, male, mating",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the head of the male during mating.",
+                "Document Content Analysis": "The document discusses the feeding structures and behaviors of mosquitoes, specifically focusing on the female mosquito's mouthparts and how they function during feeding. It does not mention mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query, such as 'female mantis', 'bite off', 'male', or 'mating'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Head' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on mosquito anatomy and feeding behavior.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the topic of mantises or their mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses mosquito anatomy and feeding behavior, which has no connection to the mating behaviors of mantises. Therefore, it is irrelevant to the query and cannot assist in answering it or inferring additional information."
+            },
+            "ott_20853_1": {
+                "Query Analysis": "The query asks about a specific behavior of female mantises during mating, specifically which part of the male they usually bite off.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document lists various fictional arthropods, including spiders and other insects, from literature and media. It provides details about their characteristics, origins, and roles in stories but does not mention mantises or their mating behaviors.",
+                "Document and Query Keywords Matching": "None of the query keywords ('female mantis', 'bite off', 'mating', 'male') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Head' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to mantises, their mating behaviors, or the specific act of biting off the male's head.",
+                "Can the Document Answer the Query": "No, the document does not mention mantises or their mating behaviors.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about mantises or their mating behaviors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses fictional arthropods from literature and media but does not mention mantises or their mating behaviors. Therefore, it provides no useful context or information to answer the query or infer additional details."
+            },
+            "triviaqa_73023_10": {
+                "Query Analysis": "The query asks about the specific part of the male that a female mantis usually bites off during mating.",
+                "Query Keywords Extraction": "female mantis, bite off, mating, male",
+                "Answer Analysis": "The answer is 'Head', indicating that the female mantis typically bites off the male's head during mating.",
+                "Document Content Analysis": "The document discusses various mating behaviors in different species, including octopuses and praying mantises. It mentions that female praying mantises sometimes eat the heads of their mates during intercourse, but this behavior is not always the case and occurs in a minority of instances.",
+                "Document and Query Keywords Matching": "The document mentions 'female praying mantises', 'eat the heads', and 'mates during intercourse', which align with the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'eat the heads', which matches the answer 'Head'.",
+                "Key Information Matching": "The document provides information about the mating behavior of female praying mantises, specifically mentioning that they sometimes eat the heads of their mates during intercourse. This directly relates to the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that female praying mantises sometimes eat the heads of their mates during intercourse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the frequency and reasons for this behavior, which could help infer more information about the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that enhances understanding of the query. It directly answers the query by stating that female praying mantises sometimes eat the heads of their mates during intercourse, and it also provides additional information about the frequency and reasons for this behavior."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "tat_1705_0": {},
+            "triviaqa_73023_9": {},
+            "triviaqa_22820_51": {},
+            "m.02l2z6_8": {},
+            "triviaqa_48174_23": {},
+            "triviaqa_73023_11": {},
+            "nq_96777_39": {},
+            "ott_20543_2": {},
+            "m.02l2z6_6": {},
+            "m.0542n_197": {},
+            "m.0542n_63": {},
+            "triviaqa_37508_13": {},
+            "nq_2992_40": {},
+            "ott_20853_1": {},
+            "triviaqa_73023_10": {}
+        },
+        "relevance_judgement": 2,
+        "llm_fail": {},
+        "dataset_score": {
+            "ott": 0,
+            "nq": 0,
+            "kg": 0,
+            "triviaqa": 4,
+            "tat": 0
+        }
+    }
+}

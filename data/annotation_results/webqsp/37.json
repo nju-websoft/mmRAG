@@ -1,0 +1,1279 @@
+{
+    "index": 37,
+    "context": [
+        "m.04pxy3"
+    ],
+    "qa": {
+        "question": "what county is heathrow airport in?",
+        "answer": "Hillingdon",
+        "BM25_documents": [
+            {
+                "id": "nq_238627_88",
+                "score": 13.298999786376953
+            },
+            {
+                "id": "nq_119097_74",
+                "score": 13.19909954071045
+            },
+            {
+                "id": "nq_119097_88",
+                "score": 12.999699592590332
+            },
+            {
+                "id": "nq_266751_130",
+                "score": 12.73740005493164
+            },
+            {
+                "id": "nq_119097_87",
+                "score": 12.63659954071045
+            },
+            {
+                "id": "nq_2159_114",
+                "score": 12.509300231933594
+            },
+            {
+                "id": "triviaqa_802_207",
+                "score": 12.204099655151367
+            },
+            {
+                "id": "nq_266751_131",
+                "score": 12.1943998336792
+            },
+            {
+                "id": "nq_238627_80",
+                "score": 12.128600120544434
+            },
+            {
+                "id": "nq_207161_45",
+                "score": 12.06470012664795
+            },
+            {
+                "id": "nq_119097_62",
+                "score": 12.04170036315918
+            },
+            {
+                "id": "nq_281439_55",
+                "score": 11.80739974975586
+            },
+            {
+                "id": "nq_2978_54",
+                "score": 11.807398796081543
+            },
+            {
+                "id": "triviaqa_802_210",
+                "score": 11.713399887084961
+            },
+            {
+                "id": "triviaqa_802_209",
+                "score": 11.692099571228027
+            },
+            {
+                "id": "triviaqa_802_218",
+                "score": 11.603799819946289
+            },
+            {
+                "id": "nq_266751_124",
+                "score": 11.548500061035156
+            },
+            {
+                "id": "triviaqa_802_213",
+                "score": 11.533699989318848
+            },
+            {
+                "id": "triviaqa_802_211",
+                "score": 11.495699882507324
+            },
+            {
+                "id": "triviaqa_802_217",
+                "score": 11.487299919128418
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.04pxy3_9",
+                "score": 7.704899787902832
+            },
+            {
+                "id": "m.04pxy3_6",
+                "score": 6.575399875640869
+            },
+            {
+                "id": "m.04pxy3_12",
+                "score": 6.358500003814697
+            },
+            {
+                "id": "m.04pxy3_13",
+                "score": 6.358499050140381
+            },
+            {
+                "id": "m.04pxy3_7",
+                "score": 6.3584980964660645
+            },
+            {
+                "id": "m.04pxy3_10",
+                "score": 6.255399227142334
+            },
+            {
+                "id": "m.04pxy3_16",
+                "score": 4.674099922180176
+            },
+            {
+                "id": "m.04pxy3_8",
+                "score": 4.211696147918701
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_10116_3",
+                "score": 9.241999626159668
+            },
+            {
+                "id": "ott_18726_3",
+                "score": 9.241998672485352
+            },
+            {
+                "id": "ott_21559_3",
+                "score": 9.241997718811035
+            },
+            {
+                "id": "ott_41316_3",
+                "score": 9.241996765136719
+            },
+            {
+                "id": "ott_5460_3",
+                "score": 9.241995811462402
+            },
+            {
+                "id": "ott_10116_2",
+                "score": 9.096699714660645
+            },
+            {
+                "id": "ott_18726_2",
+                "score": 9.096698760986328
+            },
+            {
+                "id": "ott_21559_2",
+                "score": 9.096697807312012
+            },
+            {
+                "id": "ott_41316_2",
+                "score": 9.096696853637695
+            },
+            {
+                "id": "ott_5460_2",
+                "score": 9.096695899963379
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_238627_88",
+                "score": 13.298999786376953
+            },
+            {
+                "id": "nq_119097_74",
+                "score": 13.19909954071045
+            },
+            {
+                "id": "nq_119097_88",
+                "score": 12.999699592590332
+            },
+            {
+                "id": "nq_266751_130",
+                "score": 12.73740005493164
+            },
+            {
+                "id": "nq_119097_87",
+                "score": 12.63659954071045
+            },
+            {
+                "id": "nq_2159_114",
+                "score": 12.509300231933594
+            },
+            {
+                "id": "nq_266751_131",
+                "score": 12.1943998336792
+            },
+            {
+                "id": "nq_238627_80",
+                "score": 12.128600120544434
+            },
+            {
+                "id": "nq_207161_45",
+                "score": 12.06470012664795
+            },
+            {
+                "id": "nq_119097_62",
+                "score": 12.04170036315918
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_802_207",
+                "score": 12.204099655151367
+            },
+            {
+                "id": "triviaqa_802_210",
+                "score": 11.713399887084961
+            },
+            {
+                "id": "triviaqa_802_209",
+                "score": 11.692099571228027
+            },
+            {
+                "id": "triviaqa_802_218",
+                "score": 11.603799819946289
+            },
+            {
+                "id": "triviaqa_802_213",
+                "score": 11.533699989318848
+            },
+            {
+                "id": "triviaqa_802_211",
+                "score": 11.495699882507324
+            },
+            {
+                "id": "triviaqa_802_217",
+                "score": 11.487299919128418
+            },
+            {
+                "id": "triviaqa_802_212",
+                "score": 11.465900421142578
+            },
+            {
+                "id": "triviaqa_802_208",
+                "score": 11.413100242614746
+            },
+            {
+                "id": "triviaqa_802_216",
+                "score": 11.389699935913086
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.013y0__16",
+                "score": 9.341400146484375
+            },
+            {
+                "id": "m.0qk79_35",
+                "score": 9.305000305175781
+            },
+            {
+                "id": "m.0qk79_25",
+                "score": 9.054100036621094
+            },
+            {
+                "id": "m.0qk79_53",
+                "score": 8.72819995880127
+            },
+            {
+                "id": "m.013y0__15",
+                "score": 8.634900093078613
+            },
+            {
+                "id": "m.0qk79_41",
+                "score": 8.543700218200684
+            },
+            {
+                "id": "m.0qk79_34",
+                "score": 8.483499526977539
+            },
+            {
+                "id": "m.013y0__10",
+                "score": 8.282899856567383
+            },
+            {
+                "id": "m.01ky3d_73",
+                "score": 8.172699928283691
+            },
+            {
+                "id": "m.01ky3d_72",
+                "score": 8.152000427246094
+            },
+            {
+                "id": "m.01ky3d_26",
+                "score": 8.150400161743164
+            },
+            {
+                "id": "m.01ky3d_25",
+                "score": 8.042499542236328
+            },
+            {
+                "id": "m.0qk79_187",
+                "score": 8.017999649047852
+            },
+            {
+                "id": "m.0p1l2_57",
+                "score": 7.812099933624268
+            },
+            {
+                "id": "m.013y0__9",
+                "score": 7.80210018157959
+            },
+            {
+                "id": "m.0qk79_42",
+                "score": 7.802099227905273
+            },
+            {
+                "id": "m.04pxy3_9",
+                "score": 7.704899787902832
+            },
+            {
+                "id": "m.0qk79_26",
+                "score": 7.610300064086914
+            },
+            {
+                "id": "m.0qk79_52",
+                "score": 7.610299110412598
+            },
+            {
+                "id": "m.0qk79_18",
+                "score": 7.545400142669678
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_802_62",
+                "score": 0.7000839114189148
+            },
+            {
+                "id": "triviaqa_69539_20",
+                "score": 0.6934466361999512
+            },
+            {
+                "id": "nq_56563_57",
+                "score": 0.6821249127388
+            },
+            {
+                "id": "nq_56563_10",
+                "score": 0.6705769300460815
+            },
+            {
+                "id": "nq_56563_56",
+                "score": 0.6673121452331543
+            },
+            {
+                "id": "m.0nblr_9",
+                "score": 0.6586438417434692
+            },
+            {
+                "id": "nq_56563_50",
+                "score": 0.6474989652633667
+            },
+            {
+                "id": "nq_56563_19",
+                "score": 0.646977961063385
+            },
+            {
+                "id": "triviaqa_43848_30",
+                "score": 0.6452528238296509
+            },
+            {
+                "id": "nq_56563_9",
+                "score": 0.6423156261444092
+            },
+            {
+                "id": "nq_56563_45",
+                "score": 0.6420369148254395
+            },
+            {
+                "id": "nq_56563_12",
+                "score": 0.6385202407836914
+            },
+            {
+                "id": "nq_56563_16",
+                "score": 0.637109100818634
+            },
+            {
+                "id": "nq_220264_145",
+                "score": 0.6360399723052979
+            },
+            {
+                "id": "nq_266751_401",
+                "score": 0.6360399723052979
+            },
+            {
+                "id": "triviaqa_10283_18",
+                "score": 0.6356525421142578
+            },
+            {
+                "id": "nq_56563_21",
+                "score": 0.6347252130508423
+            },
+            {
+                "id": "triviaqa_48308_12",
+                "score": 0.6319078803062439
+            },
+            {
+                "id": "nq_56563_60",
+                "score": 0.6303698420524597
+            },
+            {
+                "id": "nq_56563_20",
+                "score": 0.6301965713500977
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.04pxy3_9",
+                "score": 0.6061651110649109
+            },
+            {
+                "id": "m.04pxy3_10",
+                "score": 0.5687620639801025
+            },
+            {
+                "id": "m.04pxy3_6",
+                "score": 0.5257197618484497
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_36267_2",
+                "score": 0.5866914391517639
+            },
+            {
+                "id": "ott_25905_2",
+                "score": 0.5866914391517639
+            },
+            {
+                "id": "ott_37648_2",
+                "score": 0.5866914391517639
+            },
+            {
+                "id": "ott_17826_0",
+                "score": 0.5819475054740906
+            },
+            {
+                "id": "ott_18304_0",
+                "score": 0.5819475054740906
+            },
+            {
+                "id": "ott_26020_0",
+                "score": 0.5819475054740906
+            },
+            {
+                "id": "ott_30425_0",
+                "score": 0.5819475054740906
+            },
+            {
+                "id": "ott_18304_2",
+                "score": 0.5818524360656738
+            },
+            {
+                "id": "ott_26020_2",
+                "score": 0.5818524360656738
+            },
+            {
+                "id": "ott_17826_2",
+                "score": 0.5818524360656738
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_56563_57",
+                "score": 0.6821249127388
+            },
+            {
+                "id": "nq_56563_10",
+                "score": 0.6705769300460815
+            },
+            {
+                "id": "nq_56563_56",
+                "score": 0.6673121452331543
+            },
+            {
+                "id": "nq_56563_50",
+                "score": 0.6474989652633667
+            },
+            {
+                "id": "nq_56563_19",
+                "score": 0.646977961063385
+            },
+            {
+                "id": "nq_56563_9",
+                "score": 0.6423156261444092
+            },
+            {
+                "id": "nq_56563_45",
+                "score": 0.6420369148254395
+            },
+            {
+                "id": "nq_56563_12",
+                "score": 0.6385202407836914
+            },
+            {
+                "id": "nq_56563_16",
+                "score": 0.637109100818634
+            },
+            {
+                "id": "nq_220264_145",
+                "score": 0.6360399723052979
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_802_62",
+                "score": 0.7000839114189148
+            },
+            {
+                "id": "triviaqa_69539_20",
+                "score": 0.6934466361999512
+            },
+            {
+                "id": "triviaqa_43848_30",
+                "score": 0.6452528238296509
+            },
+            {
+                "id": "triviaqa_10283_18",
+                "score": 0.6356525421142578
+            },
+            {
+                "id": "triviaqa_48308_12",
+                "score": 0.6319078803062439
+            },
+            {
+                "id": "triviaqa_45049_31",
+                "score": 0.6262272000312805
+            },
+            {
+                "id": "triviaqa_802_61",
+                "score": 0.6250463724136353
+            },
+            {
+                "id": "triviaqa_59900_15",
+                "score": 0.6224749088287354
+            },
+            {
+                "id": "triviaqa_69539_19",
+                "score": 0.6197109222412109
+            },
+            {
+                "id": "triviaqa_41279_0",
+                "score": 0.6129228472709656
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0nblr_9",
+                "score": 0.6586438417434692
+            },
+            {
+                "id": "m.07ssc_2710",
+                "score": 0.6176649332046509
+            },
+            {
+                "id": "m.0qk79_26",
+                "score": 0.6162340641021729
+            },
+            {
+                "id": "m.027776__12",
+                "score": 0.609896183013916
+            },
+            {
+                "id": "m.0g_8qs_2",
+                "score": 0.6093038320541382
+            },
+            {
+                "id": "m.04pxy3_9",
+                "score": 0.6061651110649109
+            },
+            {
+                "id": "m.04b4fqt_1",
+                "score": 0.6017294526100159
+            },
+            {
+                "id": "m.0g_8qs_3",
+                "score": 0.5971624255180359
+            },
+            {
+                "id": "m.027776__11",
+                "score": 0.5967162847518921
+            },
+            {
+                "id": "m.0qk79_53",
+                "score": 0.596325695514679
+            },
+            {
+                "id": "m.07ssc_877",
+                "score": 0.5924479961395264
+            },
+            {
+                "id": "m.0qk79_59",
+                "score": 0.5913505554199219
+            },
+            {
+                "id": "m.0qk79_68",
+                "score": 0.5898269414901733
+            },
+            {
+                "id": "m.0qk79_69",
+                "score": 0.5886133313179016
+            },
+            {
+                "id": "m.01m_zd_87",
+                "score": 0.5871626138687134
+            },
+            {
+                "id": "m.07ssc_470",
+                "score": 0.5865592956542969
+            },
+            {
+                "id": "m.013y0__16",
+                "score": 0.5859453678131104
+            },
+            {
+                "id": "m.0qk79_25",
+                "score": 0.585067093372345
+            },
+            {
+                "id": "m.07ssc_978",
+                "score": 0.5850636959075928
+            },
+            {
+                "id": "m.0ncv__7",
+                "score": 0.5844007730484009
+            }
+        ],
+        "llm_mark_result": {
+            "m.04pxy3_10": {
+                "Query Analysis": "The query seeks to identify the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer specifies that Heathrow Airport is in Hillingdon.",
+                "Document Content Analysis": "The document provides information about Hillingdon, including notable people born there and the fact that it contains London Heathrow Airport. It also offers historical and geographical context about Hillingdon.",
+                "Document and Query Keywords Matching": "The document mentions 'Hillingdon' and 'London Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document includes 'Hillingdon', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Hillingdon contains London Heathrow Airport, which directly addresses the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Heathrow Airport is in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Hillingdon, such as its history and geographical location.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Heathrow Airport is located in Hillingdon, providing a direct answer to the query. Additionally, it offers useful context about Hillingdon, enhancing the understanding of the location."
+            },
+            "m.04pxy3_9": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer provided is Hillingdon, indicating that Heathrow Airport is located within this area.",
+                "Document Content Analysis": "The document provides information about Hillingdon, including its geographical location, notable people born there, and key features. Importantly, it mentions that Hillingdon contains London Heathrow Airport.",
+                "Document and Query Keywords Matching": "The document matches the keyword 'Heathrow Airport' from the query and also indirectly matches 'county' by mentioning that Heathrow Airport is contained within Hillingdon.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Hillingdon', which is the provided answer to the query.",
+                "Key Information Matching": "The document directly states that Hillingdon contains London Heathrow Airport, thereby providing the exact information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document clearly indicates that Heathrow Airport is located in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only answers the query but also provides additional context about Hillingdon, such as its geographical location and other notable features.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by stating that Heathrow Airport is located in Hillingdon. It also provides additional useful context about Hillingdon, enhancing the understanding of the query."
+            },
+            "m.04pxy3_12": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, indicating that Heathrow Airport is in the Hillingdon county.",
+                "Document Content Analysis": "The document provides various pieces of information about Hillingdon, including notable people born there, time zones, and other related data. It also mentions that London Heathrow Airport is contained by Hillingdon.",
+                "Document and Query Keywords Matching": "The document mentions 'London Heathrow Airport' and 'Hillingdon'.",
+                "Document and Answer Keywords Matching": "The document includes 'Hillingdon', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that 'London Heathrow Airport -- Contained by --> Hillingdon', directly linking the airport to the county.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Heathrow Airport is in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Hillingdon, such as notable individuals and time zones.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Heathrow Airport is contained by Hillingdon, thus providing the exact answer to the query. Additionally, it offers supplementary information about Hillingdon, enhancing the context."
+            },
+            "m.013y0__16": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is 'Hillingdon', which is the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document provides information about London Paddington station, its services, and its connection to Heathrow Airport via the Heathrow Express and Heathrow Connect services. It also mentions the station's location in the Westminster borough of London.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "While the document mentions Heathrow Airport, it does not provide any information about the county in which the airport is located.",
+                "Can the Document Answer the Query": "No, the document does not specify the county where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer the county where Heathrow Airport is located.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the county where Heathrow Airport is located, nor does it contain any details that could help infer this information."
+            },
+            "triviaqa_802_62": {
+                "Query Analysis": "The query is seeking to identify the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer specifies that Heathrow Airport is in Hillingdon.",
+                "Document Content Analysis": "The document provides detailed information about Heathrow Airport, including its significance, terminal operations, and transportation options. However, it does not explicitly mention the county in which the airport is located.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "While the document extensively discusses Heathrow Airport, it lacks specific information about its geographical location in terms of county.",
+                "Can the Document Answer the Query": "No, the document does not provide the county name where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any contextual clues that could help infer the county.",
+                "Relevance Judgement": "0",
+                "Explanation": "Although the document is about Heathrow Airport, it does not contain the specific information needed to answer the query about the county. Therefore, it is considered irrelevant to the query."
+            },
+            "m.0nblr_9": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, indicating that Heathrow Airport is located in the county of Hillingdon.",
+                "Document Content Analysis": "The document primarily discusses Newington, London and provides information about various people and places related to Newington. It mentions Heathrow is located in Greater London but does not provide specific information about the county where Heathrow Airport is located.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow' and 'Greater London', but it does not mention 'county'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions that Heathrow is located in Greater London, which is a broader geographical context but does not specify the county. The document lacks information about the county of Hillingdon.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific county (Hillingdon) where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, the document provides information that Heathrow is in Greater London, which can help narrow down the location but does not directly help identify the county.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides some relevant information by mentioning Heathrow and its location in Greater London, but it lacks the specific detail required to directly answer the query about the county. Therefore, it is only partially relevant as it provides a broader context without the precise information needed."
+            },
+            "triviaqa_802_207": {
+                "Query Analysis": "The query is seeking information about the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "Heathrow Airport, county",
+                "Answer Analysis": "The answer specifies that Heathrow Airport is in Hillingdon.",
+                "Document Content Analysis": "The document provides information about various locations in the UK, including towns and cities, but does not mention Heathrow Airport or its location. It also includes a section about Gatwick Airport but does not provide details about Heathrow Airport's location.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'Heathrow Airport' or 'county'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Hillingdon'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the location of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the county in which Heathrow Airport is located.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Heathrow Airport or its location. The document focuses on various towns and cities in the UK and mentions Gatwick Airport, but lacks any relevant details about Heathrow Airport."
+            },
+            "triviaqa_69539_20": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer provided is 'Hillingdon', which is the county (or borough) where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides general information about Heathrow Airport, including its size, international importance, and operational details. It also mentions transport options to London and briefly describes London Gatwick Airport. However, it does not specify the county or borough where Heathrow Airport is located.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' but does not mention 'county'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "While the document contains information about Heathrow Airport, it lacks specific details about the county or borough in which it is located.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the county or borough where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that can help infer the county or borough of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document provides general information about Heathrow Airport but does not include any information about the county or borough in which it is located. Therefore, it cannot directly answer the query nor help infer additional information required by the query. This makes the document irrelevant to the specific question asked."
+            },
+            "nq_119097_87": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, indicating that Heathrow Airport is located in the county of Hillingdon.",
+                "Document Content Analysis": "The document lists various international airports, including London–Heathrow. However, it does not provide any information about the county where Heathrow Airport is located.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport', which matches one of the keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon' or any other county names.",
+                "Key Information Matching": "While the document mentions Heathrow Airport, it does not provide any information about the county where it is located.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific county where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any information about the county or region surrounding Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any information about the county in which it is located. Therefore, it is irrelevant to the query as it neither directly answers the query nor provides useful context to infer the required information."
+            },
+            "nq_56563_57": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, indicating that Heathrow Airport is in the Hillingdon county.",
+                "Document Content Analysis": "The document provides coordinates and names of various airports and airfields in the London region, including Heston, Hounslow Heath, London Air Park, and Stag Lane. It does not explicitly mention Heathrow Airport or the county it is in.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'Heathrow Airport' or 'county'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Hillingdon'.",
+                "Key Information Matching": "There is no direct or indirect mention of Heathrow Airport or its county in the document.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Heathrow Airport or the county it is in.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Heathrow Airport, the county Hillingdon, or any related information that could assist in answering the query."
+            },
+            "m.04pxy3_6": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, indicating that Heathrow Airport is located in the Hillingdon county.",
+                "Document Content Analysis": "The document provides various references and metadata related to the term 'Hillingdon', including its presence in different Wikipedia languages and contexts. It also mentions that London Heathrow Airport is contained by Hillingdon.",
+                "Document and Query Keywords Matching": "The document mentions 'London Heathrow Airport' and 'Hillingdon'.",
+                "Document and Answer Keywords Matching": "The document includes 'Hillingdon', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that 'London Heathrow Airport -- Contained by --> Hillingdon', which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Heathrow Airport is in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Hillingdon, including its various representations in different languages and its classification as a location.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that London Heathrow Airport is contained by Hillingdon. Additionally, it provides supplementary information about Hillingdon, enhancing the context and confirming the relevance."
+            },
+            "nq_56563_56": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document provides geographical coordinates and links for various airports in London, including Great West, Hendon, Heston, and Hounslow Heath. It does not explicitly mention Heathrow Airport or the county Hillingdon.",
+                "Document and Query Keywords Matching": "The document does not directly mention 'Heathrow Airport' or 'county'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document lists airports in London but does not provide specific information about Heathrow Airport or its location in terms of county.",
+                "Can the Document Answer the Query": "No, the document does not provide the information needed to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that would help infer the county in which Heathrow Airport is located.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Heathrow Airport, the county Hillingdon, or any related information that could assist in answering the query."
+            },
+            "m.0qk79_35": {
+                "Query Analysis": "The query seeks to identify the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer specifies that Heathrow Airport is in Hillingdon.",
+                "Document Content Analysis": "The document discusses various airports in Europe, focusing on Charles de Gaulle Airport in Paris and comparing it to others, including London Heathrow. It provides details about passenger traffic and cargo handling, emphasizing Heathrow's position as a major airport.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow' but does not mention 'county'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "While the document discusses Heathrow Airport, it does not provide any information about its geographical location in terms of county.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about the county in which Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any context or details that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any relevant information about its location in terms of county. Therefore, it cannot assist in answering the query or providing additional useful context."
+            },
+            "nq_119097_74": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, indicating that Heathrow Airport is in Hillingdon county.",
+                "Document Content Analysis": "The document lists various airports and their associated airlines, including a mention of Heathrow Airport in the context of British Airways.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document contains a reference to Heathrow Airport but does not provide any information about its location in terms of county.",
+                "Can the Document Answer the Query": "No, the document does not provide the county information for Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any additional information that could help infer the county in which Heathrow Airport is located.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions Heathrow Airport, it does not provide any relevant information about its location or the county it is in. Therefore, it is irrelevant to the query."
+            },
+            "ott_10116_3": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document provides information about various terrorist incidents in the United Kingdom, including a specific mention of the 1984 Heathrow Airport bombing. It details the event, the location (Heathrow Airport, England), and the consequences of the bombing.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "While the document mentions 'Heathrow Airport', it does not provide any information about the county it is located in.",
+                "Can the Document Answer the Query": "No, the document does not provide the county name where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any additional information that could help infer the county where Heathrow Airport is located.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the county in which Heathrow Airport is located. The mention of Heathrow Airport in the context of a terrorist incident does not contribute to answering the query about its geographical location."
+            },
+            "nq_238627_88": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document primarily lists various airports and their connections to other destinations. It mentions Heathrow Airport but does not provide any information about its location or the county it is situated in.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport', which matches one of the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document only mentions 'Heathrow Airport' without providing any additional information about its location or the county it is in.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific county where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any information that can help infer the county where Heathrow Airport is located.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any information about its location or the county it is situated in. Therefore, it is irrelevant to answering the query directly or inferring additional information required by the query."
+            },
+            "nq_119097_88": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document lists various international airports along with their names and Wikipedia links. It includes 'London–Heathrow' as one of the airports.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document identifies 'Heathrow Airport' but does not provide any information about its location in terms of county.",
+                "Can the Document Answer the Query": "No, the document does not specify the county in which Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document only lists the airport without providing any additional context or location details.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions 'Heathrow Airport', it lacks any information about its geographical location, such as the county. Therefore, it does not provide any useful context or additional information to answer the query."
+            },
+            "nq_56563_10": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer to the query is Hillingdon, indicating that Heathrow Airport is located in the London Borough of Hillingdon.",
+                "Document Content Analysis": "The document provides detailed information about Heathrow Airport, including its location in the London Borough of Hillingdon, its size, capacity issues, and transportation connections. It also mentions various expansion projects and passenger statistics.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' and specifies its location in the 'London Borough of Hillingdon'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Heathrow Airport is located in the 'London Borough of Hillingdon', which matches the answer 'Hillingdon'.",
+                "Key Information Matching": "The document directly states that Heathrow Airport is located in the London Borough of Hillingdon, which answers the query about the county (borough) where the airport is situated.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Heathrow Airport is located in the London Borough of Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Not necessary, as the document already provides the exact information required by the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it directly answers the query by specifying that Heathrow Airport is located in the London Borough of Hillingdon. It provides substantial useful context that enhances understanding of the query."
+            },
+            "nq_266751_130": {
+                "Query Analysis": "The query seeks to identify the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer specifies that Heathrow Airport is in Hillingdon.",
+                "Document Content Analysis": "The document discusses various aspects of London's railway system, including the busiest stations, the Crossrail project, and mentions Heathrow Airport as a branch destination for Crossrail.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "While the document mentions 'Heathrow Airport', it does not provide any information about the county it is located in.",
+                "Can the Document Answer the Query": "No, the document does not specify the county in which Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer the county.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the county in which Heathrow Airport is located, nor does it contain any key information that could help infer the answer."
+            },
+            "m.07ssc_2710": {
+                "Query Analysis": "The query asks for the specific county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is 'Hillingdon', which is the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document lists various locations and entities within the United Kingdom, including places, institutions, and notable individuals.",
+                "Document and Query Keywords Matching": "The document does not mention 'Heathrow Airport' or 'county'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "There is no information in the document that directly relates to Heathrow Airport or its location.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Heathrow Airport or its county.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the location of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Heathrow Airport, the county of Hillingdon, or any related information that could assist in answering the query."
+            },
+            "ott_36267_2": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is 'Hillingdon', which is the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document provides a list of airports along with their locations. It includes London Heathrow Airport and specifies its location as Hayes, Hillingdon, Greater London, United Kingdom.",
+                "Document and Query Keywords Matching": "The document mentions 'London Heathrow Airport', which directly relates to the query keyword 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document includes 'Hillingdon', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that London Heathrow Airport is in 'Hillingdon', directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Heathrow Airport is in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by specifying the broader location (Greater London, United Kingdom) of Heathrow Airport.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states the county in which Heathrow Airport is located, thereby providing a direct answer to the query. Additionally, it offers further geographical context, enhancing the understanding of the location."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.04pxy3_10": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides information about Hillingdon, including its location, historical background, and notable features. It explicitly states that Hillingdon contains London Heathrow Airport.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' and 'Hillingdon', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Hillingdon', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Hillingdon contains London Heathrow Airport, which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Hillingdon contains Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Hillingdon, including its location and historical background.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly states that Hillingdon contains Heathrow Airport, which is the answer to the query. Additionally, it provides useful context about Hillingdon, enhancing understanding of the query."
+            },
+            "m.04pxy3_9": {
+                "Query Analysis": "The query asks about the county location of Heathrow Airport",
+                "Query Keywords Extraction": [
+                    "Heathrow Airport",
+                    "county"
+                ],
+                "Answer Analysis": "The answer indicates that Heathrow Airport is located in Hillingdon",
+                "Document Content Analysis": "The document contains information about Hillingdon, including its geographic location, notable people born there, and importantly mentions that it contains London Heathrow Airport. It describes Hillingdon as a suburban area within the London Borough of Hillingdon",
+                "Document and Query Keywords Matching": "The document contains 'London Heathrow Airport' and mentions its location relationship with Hillingdon",
+                "Document and Answer Keywords Matching": "The document extensively discusses Hillingdon and explicitly states that it 'Contains --> London Heathrow Airport'",
+                "Key Information Matching": "The document directly establishes the relationship between Heathrow Airport and Hillingdon through the 'Contains' relationship statement",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Hillingdon contains London Heathrow Airport",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides additional context about Hillingdon's location within Greater London and its geographic coordinates",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) because it directly answers the query by explicitly stating that Heathrow Airport is contained within Hillingdon. It also provides additional useful context about Hillingdon's location and characteristics, making it a comprehensive source for understanding the geographic context of Heathrow Airport's location."
+            },
+            "m.04pxy3_12": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides various pieces of information about Hillingdon, including notable people born there, time zones, and other attributes. It also explicitly states that 'London Heathrow Airport -- Contained by --> Hillingdon'.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' and 'Hillingdon'.",
+                "Document and Answer Keywords Matching": "The document includes 'Hillingdon', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Heathrow Airport is contained by Hillingdon, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Heathrow Airport is in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly answers the query without the need for additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It explicitly states that Heathrow Airport is contained by Hillingdon, which is the answer to the query."
+            },
+            "m.013y0__16": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document discusses London Paddington station, its services, and its connections, including a mention of Heathrow Airport. However, it does not provide information about the county in which Heathrow Airport is located.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions 'Heathrow Airport' but does not provide information about the county it is in.",
+                "Can the Document Answer the Query": "No, the document does not specify the county of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any information about the county it is located in. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_802_62": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides detailed information about Heathrow Airport, including its status as London and Europe's largest airport, its terminals, and its operations. However, it does not explicitly mention the county in which Heathrow Airport is located.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions 'Heathrow Airport' but does not provide information about the county it is located in.",
+                "Can the Document Answer the Query": "No, the document does not specify the county in which Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Heathrow Airport but does not contain any information about the county it is located in. Therefore, it is irrelevant to the query."
+            },
+            "m.0nblr_9": {
+                "Query Analysis": "The query asks about the specific county where Heathrow Airport is located.",
+                "Query Keywords Extraction": "Heathrow airport, county",
+                "Answer Analysis": "The answer indicates Heathrow Airport is located in Hillingdon.",
+                "Document Content Analysis": "The document only mentions that Heathrow is located in Greater London, followed by information about Newington, London including various people born there and organizational relationships.",
+                "Document and Query Keywords Matching": "The document contains 'Heathrow' but does not mention 'county'.",
+                "Document and Answer Keywords Matching": "The document does not contain 'Hillingdon'.",
+                "Key Information Matching": "While the document mentions Heathrow is in Greater London, it does not provide the specific county information requested in the query.",
+                "Can the Document Answer the Query": "No, the document does not specify which county Heathrow Airport is in.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially - it provides the broader geographical context that Heathrow is in Greater London, but this alone is insufficient to determine the specific county.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some geographical context about Heathrow's location (Greater London), but does not contain the specific county information (Hillingdon) needed to directly answer the query. Most of the document focuses on unrelated information about Newington, London."
+            },
+            "triviaqa_802_207": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document discusses various towns and cities in the UK, their distances from London, and some of their notable features. It also mentions London's airports, including Heathrow and Gatwick, but does not provide specific information about the county in which Heathrow is located.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon', the county where Heathrow is located.",
+                "Key Information Matching": "The document mentions 'Heathrow' but does not provide any information about the county in which it is located.",
+                "Can the Document Answer the Query": "No, the document does not specify the county in which Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any information about the county in which it is located. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_69539_20": {
+                "Query Analysis": "The query asks about the specific county where Heathrow Airport is located.",
+                "Query Keywords Extraction": "Heathrow Airport, county",
+                "Answer Analysis": "The answer indicates that Heathrow Airport is located in Hillingdon county.",
+                "Document Content Analysis": "The document provides extensive information about Heathrow Airport, including its IATA code, status as London's largest airport, terminal information, British Airways' presence, potential delays, and transport options. It also contains information about Gatwick Airport.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' multiple times but does not mention any county information.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon' anywhere.",
+                "Key Information Matching": "While the document contains detailed information about Heathrow Airport's operations, terminals, and transport connections, it does not provide the specific county location information requested in the query.",
+                "Can the Document Answer the Query": "No, the document does not specify which county Heathrow Airport is located in.",
+                "Can the Document Help Infer Additional Information Required by the Query": "The document only indicates that Heathrow is in London, which is too broad to infer the specific county.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant (Label 1) because while it contains extensive information about Heathrow Airport's operations and facilities, it does not provide the specific county location information requested in the query. It provides context about the airport but cannot help answer the main question about its county location. The document focuses more on practical information for travelers rather than administrative geography."
+            },
+            "nq_119097_87": {
+                "Query Analysis": "The query asks about the specific county where Heathrow Airport is located.",
+                "Query Keywords Extraction": "Heathrow airport, county",
+                "Answer Analysis": "The answer indicates that Heathrow Airport is located in Hillingdon county.",
+                "Document Content Analysis": "The document appears to be a list of various international airports with their wiki links. It only mentions Heathrow Airport in passing as 'London–Heathrow' with a wiki link.",
+                "Document and Query Keywords Matching": "The document only contains 'Heathrow' as part of 'London-Heathrow' with a link to 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not contain the answer 'Hillingdon'.",
+                "Key Information Matching": "While the document mentions Heathrow Airport, it does not provide any information about its location at the county level.",
+                "Can the Document Answer the Query": "No, the document cannot directly answer the query as it does not mention which county Heathrow Airport is in.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document only lists Heathrow as one among many airports without providing any additional location details.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is only partially relevant (Label 1) because while it mentions Heathrow Airport, which is the subject of the query, it provides no information about its county location. The document appears to be a simple list of airports with wiki links, offering no detailed information that would help answer the specific question about Heathrow's county location."
+            },
+            "nq_56563_57": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document lists various airports and airfields in the London area, including their names, coordinates, and regions. However, it does not mention Heathrow Airport specifically.",
+                "Document and Query Keywords Matching": "The document does not mention 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document does not provide any information about Heathrow Airport or its location in Hillingdon.",
+                "Can the Document Answer the Query": "No, the document does not mention Heathrow Airport or its location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Heathrow Airport or its county.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to Heathrow Airport or its location in Hillingdon. Therefore, it is irrelevant to the query."
+            },
+            "m.04pxy3_6": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides information about Hillingdon, including its various associations and types. It explicitly states that 'London Heathrow Airport -- Contained by --> Hillingdon', indicating that Heathrow Airport is located in Hillingdon.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' and 'Hillingdon', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Hillingdon', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Heathrow Airport is contained by Hillingdon, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Heathrow Airport is located in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It explicitly states that Heathrow Airport is located in Hillingdon, which is the answer to the query."
+            },
+            "nq_56563_56": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides information about various airports in London, including their names, coordinates, and regions. It mentions regions such as GB-HIL (Hillingdon), GB-BNE (Barnet), and GB-HNS (Hounslow).",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document mentions 'GB-HIL', which corresponds to Hillingdon, the county where Heathrow Airport is located.",
+                "Key Information Matching": "The document includes 'GB-HIL', which is the region code for Hillingdon, the county mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not directly mention Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about the region 'GB-HIL', which is Hillingdon, the county where Heathrow Airport is located.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document does not directly mention Heathrow Airport but provides information about the region 'GB-HIL', which is Hillingdon, the county where Heathrow Airport is located. This makes the document partially relevant as it helps infer the required information."
+            },
+            "m.0qk79_35": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document discusses various airports, including Heathrow Airport, in terms of passenger traffic and cargo volume. It mentions Heathrow Airport as a major airport in Europe but does not provide information about its location or the county it is in.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions Heathrow Airport but does not provide any information about its location or the county it is in.",
+                "Can the Document Answer the Query": "No, the document does not mention the county where Heathrow Airport is located.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any information about its location or the county it is in. Therefore, it is irrelevant to the query."
+            },
+            "nq_119097_74": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document lists various airports and their associated airlines, including a mention of Heathrow Airport in the context of British Airways.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions 'Heathrow Airport', which is directly related to the query, but it does not provide information about the county in which it is located.",
+                "Can the Document Answer the Query": "No, the document does not specify the county of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport, which is relevant to the query, but it does not provide any information about the county in which it is located. Therefore, it is considered irrelevant as it does not assist in answering the query or inferring additional information."
+            },
+            "ott_10116_3": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides information about various terrorist incidents in the UK, including the 1984 Heathrow Airport bombing. It mentions Heathrow Airport and its location in England but does not specify the county.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions 'Heathrow Airport' but does not provide the specific county (Hillingdon) where it is located.",
+                "Can the Document Answer the Query": "No, the document does not specify the county of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide the specific county (Hillingdon) where it is located. Therefore, it does not contain any key information relevant to the query and is considered irrelevant."
+            },
+            "nq_238627_88": {
+                "Query Analysis": "The query asks about the specific county where Heathrow Airport is located.",
+                "Query Keywords Extraction": "Heathrow airport, county",
+                "Answer Analysis": "The answer indicates that Heathrow Airport is located in Hillingdon county.",
+                "Document Content Analysis": "The document appears to be a list of airline routes and destinations, with Heathrow Airport mentioned only as a destination served by Virgin Atlantic.",
+                "Document and Query Keywords Matching": "The document only mentions 'Heathrow Airport' as 'London-Heathrow' in the context of Virgin Atlantic's routes.",
+                "Document and Answer Keywords Matching": "The document does not contain the answer 'Hillingdon'.",
+                "Key Information Matching": "While the document mentions Heathrow Airport, it provides no information about its location within any county.",
+                "Can the Document Answer the Query": "No, the document does not contain information about which county Heathrow Airport is located in.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document only mentions Heathrow as a destination and provides no additional contextual information about its location.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to answering the query about Heathrow Airport's county location. While it mentions Heathrow Airport, it only does so in the context of airline routes and provides no information about its geographic location or administrative division. The document cannot help answer the query or provide any useful additional context about the airport's location."
+            },
+            "nq_119097_88": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document lists various international airports, including Heathrow Airport, but does not provide information about the counties in which these airports are located.",
+                "Document and Query Keywords Matching": "The document mentions 'London–Heathrow', which is related to 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions 'London–Heathrow', which is related to the query, but it does not provide the county information.",
+                "Can the Document Answer the Query": "No, the document does not specify the county of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any information about the county in which it is located. Therefore, it is irrelevant to the query."
+            },
+            "nq_56563_10": {
+                "Query Analysis": "The query asks about the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer states that Heathrow Airport is in Hillingdon.",
+                "Document Content Analysis": "The document provides detailed information about Heathrow Airport, including its location, size, capacity, connectivity, and recent passenger statistics.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport' multiple times.",
+                "Document and Answer Keywords Matching": "The document mentions 'London Borough of Hillingdon' as the location of Heathrow Airport.",
+                "Key Information Matching": "The document directly states that Heathrow is 'Located in the London Borough of Hillingdon', which matches the query's intent and the provided answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the location of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Heathrow Airport, including its size, capacity, connectivity, and recent developments.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly answers the query by stating that Heathrow Airport is located in the London Borough of Hillingdon. It also provides substantial additional context about the airport, including its size, capacity, connectivity, and recent developments, which enhances understanding of the topic beyond just answering the specific question."
+            },
+            "nq_266751_130": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document discusses various railway stations and transportation projects in London, including a mention of Heathrow Airport in the context of the Crossrail project.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document mentions 'Heathrow Airport' but does not provide information about the county it is located in.",
+                "Can the Document Answer the Query": "No, the document does not specify the county of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the county of Heathrow Airport.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Heathrow Airport but does not provide any information about the county it is located in. Therefore, it is irrelevant to the query."
+            },
+            "m.07ssc_2710": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document lists various places, people, and statistics related to the United Kingdom, but it does not mention Heathrow Airport or Hillingdon.",
+                "Document and Query Keywords Matching": "The document does not mention 'Heathrow Airport' or 'county'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon'.",
+                "Key Information Matching": "The document does not provide any information related to Heathrow Airport or its location in Hillingdon.",
+                "Can the Document Answer the Query": "No, the document does not mention Heathrow Airport or Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Heathrow Airport or its location.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to Heathrow Airport or Hillingdon, making it irrelevant to the query."
+            },
+            "ott_36267_2": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": "county, Heathrow Airport",
+                "Answer Analysis": "The answer is Hillingdon, which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document provides a list of airports, including London Heathrow Airport, along with their locations and other details such as IATA codes and cargo traffic statistics.",
+                "Document and Query Keywords Matching": "The document mentions 'London Heathrow Airport', which matches the query keyword 'Heathrow Airport'.",
+                "Document and Answer Keywords Matching": "The document includes 'Hillingdon' as part of the location for London Heathrow Airport, which matches the answer.",
+                "Key Information Matching": "The document lists 'Hillingdon' as part of the location for London Heathrow Airport, directly matching the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Heathrow Airport is in Hillingdon.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly provides the answer to the query by stating that Heathrow Airport is located in Hillingdon, making it highly relevant."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.04pxy3_10": {},
+            "m.04pxy3_9": {},
+            "m.04pxy3_12": {},
+            "m.013y0__16": {},
+            "triviaqa_802_62": {},
+            "m.0nblr_9": {},
+            "triviaqa_802_207": {},
+            "triviaqa_69539_20": {
+                "Query Analysis": "The query asks for the county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": [
+                    "county",
+                    "Heathrow Airport"
+                ],
+                "Answer Analysis": "The answer is 'Hillingdon', which is the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document discusses Heathrow Airport extensively, including its importance as London's and Europe's largest airport, its terminal structure, the role of British Airways, and details on operations and transit options. However, it does not explicitly mention the location of Heathrow Airport in terms of its county. The document also contains information about a second airport, London Gatwick, but that content is irrelevant to the query.",
+                "Document and Query Keywords Matching": [
+                    "Heathrow Airport"
+                ],
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Hillingdon'.",
+                "Key Information Matching": "The document does not explicitly discuss the county of Heathrow Airport, making it unable to directly match the answer or provide additional inferential information about the county.",
+                "Can the Document Answer the Query": "No, the document does not provide the explicit information needed to answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer Heathrow Airport's location in Hillingdon.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses Heathrow Airport in terms of its size, operations, and facilities but does not contain any information about its county (Hillingdon). As such, it is irrelevant to the query and provides no useful context or additional information related to answering it."
+            },
+            "nq_119097_87": {
+                "Query Analysis": "The query is asking for the specific county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": [
+                    "county",
+                    "Heathrow Airport"
+                ],
+                "Answer Analysis": "The answer to the query is 'Hillingdon', which is the county where Heathrow Airport is located.",
+                "Document Content Analysis": "The document lists various airports worldwide, mentioning many airport names along with their associated locations or regions. Heathrow Airport is mentioned, but no specific information about its county is provided.",
+                "Document and Query Keywords Matching": "The document mentions 'Heathrow Airport', a key term from the query. However, it does not mention 'county' or provide county-specific information.",
+                "Document and Answer Keywords Matching": "The document does not mention the word 'Hillingdon' or any information related to this county. Therefore, there is no direct match with the answer.",
+                "Key Information Matching": "While the document mentions Heathrow Airport, it does not provide any key information regarding the county where the airport is located.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the county in which Heathrow Airport is located, so it cannot directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not include any details that would help infer the county where Heathrow Airport is situated.",
+                "Relevance Judgement": "0",
+                "Explanation": "Although the document mentions Heathrow Airport, it lacks any associated information about its county or any useful context relevant to answering the query. Therefore, the document is deemed irrelevant."
+            },
+            "nq_56563_57": {},
+            "m.04pxy3_6": {},
+            "nq_56563_56": {
+                "Query Analysis": "The query asks for the specific county in which Heathrow Airport is located.",
+                "Query Keywords Extraction": [
+                    "county",
+                    "Heathrow Airport"
+                ],
+                "Answer Analysis": "The answer is Hillingdon, which indicates the county where Heathrow Airport is situated.",
+                "Document Content Analysis": "The document contains geographic coordinates and descriptions of several airports in London, such as Croydon, Great West, Hendon, Heston, and Hounslow Heath. No mention of Heathrow Airport is found in the document.",
+                "Document and Query Keywords Matching": "The document does not mention 'Heathrow' or 'county', so there is no keyword matching with the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Hillingdon', so there is no keyword matching with the answer.",
+                "Key Information Matching": "The document provides information about airports in London but does not mention Heathrow Airport or provide any geographical or administrative details relevant to it.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the location or county of Heathrow Airport.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any indirect information or context that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not mention Heathrow Airport or provide any information about its location or associated county. Therefore, it neither directly answers the query nor helps infer the required information."
+            },
+            "m.0qk79_35": {},
+            "nq_119097_74": {},
+            "ott_10116_3": {},
+            "nq_238627_88": {},
+            "nq_119097_88": {},
+            "nq_56563_10": {},
+            "nq_266751_130": {},
+            "m.07ssc_2710": {},
+            "ott_36267_2": {}
+        },
+        "relevance_judgement": 2,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_36267_2": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 9,
+            "nq": 2,
+            "triviaqa": 0,
+            "ott": 2,
+            "tat": 0
+        }
+    }
+}

@@ -1,0 +1,1335 @@
+{
+    "index": 5906,
+    "context": [
+        "# Microsoft Azure SQL Database\n\nFrom Wikipedia, the free encyclopedia\n\nJump to: navigation, search\n\n![](//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png) | This article **contains content that is written like[an advertisement](/wiki/Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_soapbox_or_means_of_promotion \"Wikipedia:What Wikipedia is not\")**. Please help [improve it](//en.wikipedia.org/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit) by removing [promotional content](/wiki/Wikipedia:Spam \"Wikipedia:Spam\") and inappropriate [external links](/wiki/Wikipedia:External_links \"Wikipedia:External links\"), and by adding encyclopedic content written from a [neutral point of view](/wiki/Wikipedia:Neutral_point_of_view \"Wikipedia:Neutral point of view\"). _(June 2017)_ _([Learn how and when to remove this template message](/wiki/Help:Maintenance_template_removal \"Help:Maintenance template removal\"))_  \n---|---  \n![](//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png) | This article **may be too[technical](https://en.wiktionary.org/wiki/technical#Adjective \"wikt:technical\") for most readers to understand**. Please [help improve it](//en.wikipedia.org/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit) to [make it understandable to non-experts](/wiki/Wikipedia:Make_technical_articles_understandable \"Wikipedia:Make technical articles understandable\"), without removing the technical details. The [talk page](/wiki/Talk:Microsoft_Azure_SQL_Database \"Talk:Microsoft Azure SQL Database\") may contain suggestions. _(June 2017)_ _([Learn how and when to remove this template message](/wiki/Help:Maintenance_template_removal \"Help:Maintenance template removal\"))_  \n---|---  \n  \n**Microsoft Azure SQL Database** (formerly **SQL Azure** , **SQL Server Data\nServices** , **SQL Services** , and **Windows Azure SQL Database**)[1] is a\nmanaged cloud database ([SaaS](/wiki/Software_as_a_Service \"Software as a\nService\")) provided as part of [Microsoft Azure](/wiki/Microsoft_Azure\n\"Microsoft Azure\").\n\nA [cloud database](/wiki/Cloud_database \"Cloud database\") is a\n[database](/wiki/Database \"Database\") that runs on a [cloud\ncomputing](/wiki/Cloud_computing \"Cloud computing\") platform, and access to it\nis provided as a service. Managed database services take care of scalability,\nbackup, and high availability of the database. Azure SQL Database is a managed\ndatabase service which is different from AWS RDS which is a container service.\n\nMicrosoft Azure SQL Database includes built-in intelligence that learns app\npatterns and adapts to maximize performance, reliability, and data protection.\n\nIt was originally announced in 2009 and released in 2010.\n\nKey capabilities include:\n\n  * Continuous learning of your unique app patterns, adaptive performance tuning, and automatic improvements to reliability and data protection[2]\n  * Scaling as needed, with virtually no app downtime[3]\n  * Management and monitoring of multitenant apps with isolation benefits of one-customer-per-database[4]\n  * Leverage open source tools like cheetah,[5] sql-cli,[6] VS Code [7] and Microsoft tools like Visual Studio[8] and SQL Server Management Studio,[9] Azure Management Portal, PowerShell, and [REST](/wiki/Representational_state_transfer \"Representational state transfer\") APIs\n  * Data protection[10] with encryption, authentication, limiting user access to the appropriate subset of the data, continuous monitoring and auditing to help detect potential threats and provide a record of critical events in case of a breach\n\n## Contents\n\n[hide]\n\n  * 1 Popular Use Cases\n  * 2 Design\n  * 3 Timeline\n  * 4 Pricing\n  * 5 See also\n  * 6 References\n\n## Popular Use\nCases[[edit](/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit&section=1\n\"Edit section: Popular Use Cases\")]\n\n  * Relational data storage for cloud based applications and web sites\n  * Business and consumer web and mobile apps\n  * Manage databases for multi-tenant apps ([software-as-a-service](/wiki/Software_as_a_service \"Software as a service\"))\n  * Quickly create dev and test databases to speed up development cycles\n  * Scale production business services quickly and at a known cost\n  * Containerize data in the cloud for isolation and security\n  * Outsource database management in order to focus on value-added services\n\n##\nDesign[[edit](/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit&section=2\n\"Edit section: Design\")]\n\nAzure SQL Database shares the SQL Server 2016 codebase. It is compatible with\nSQL Server 2014 and 2016 and most of the features available in SQL Server 2016\nare available in Azure SQL Database. A list of incompatibilities[11] is\npublished by Microsoft.\n\n##\nTimeline[[edit](/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit&section=3\n\"Edit section: Timeline\")]\n\n2009 – Service announced[12]\n\n2010 – Service went live[13]\n\n2014 – New version announced[14]\n\n2015 – Elastic Pools announced[15]\n\n##\nPricing[[edit](/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit&section=4\n\"Edit section: Pricing\")]\n\nAzure SQL Database is offered either as a Standalone database or Elastic\ndatabase pool, and is priced in three tiers: Basic, Standard and Premium. Each\ntier offers different performance levels to accommodate a variety of\nworkloads.\n\nThe resources available for Standalone databases are expressed in terms of\nDatabase Transaction Units (DTUs) and for elastic pools in terms of elastic\nDTUs or eDTUs. A DTU is defined as a blended measure of CPU, memory, and data\nI/O and transaction log I/O in a ratio determined by an OLTP benchmark\nworkload designed to be typical of real-world OLTP workloads.\n\nDatabases are available as Standalone databases or in database pools which\nallow multiple databases to share storage and compute resources.\n\nService tier | Target workloads  \n---|---  \nBasic | Best suited for a small database, supporting typically one single active operation at a given time. Examples include databases used for development or testing, or small-scale infrequently used applications.  \nStandard | The go-to option for most cloud applications, supporting multiple concurrent queries. Examples include workgroup or web applications.  \nPremium | Designed for high transactional volume, supporting many concurrent users and requiring the highest level of business continuity capabilities. Examples are databases supporting mission critical applications.  \n  \nIt is also available as a limited service offering with a trial Web site or\nMobile service and eligible for use with an Azure trial subscription.\n\n## See\nalso[[edit](/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit&section=5\n\"Edit section: See also\")]\n\n  * [Microsoft Azure](/wiki/Microsoft_Azure \"Microsoft Azure\")\n  * [SQL Server](/wiki/Microsoft_SQL_Server \"Microsoft SQL Server\")\n  * [Amazon Relational Database Service](/wiki/Amazon_Relational_Database_Service \"Amazon Relational Database Service\")\n  * [Relational Database](/wiki/Relational_database \"Relational database\")\n  * [Cloud computing](/wiki/Cloud_computing \"Cloud computing\")\n  * [Software as a service](/wiki/Software_as_a_service \"Software as a service\")\n\n##\nReferences[[edit](/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit&section=6\n\"Edit section: References\")]\n\n  1. **Jump up ^** [\"MS Branding\"](https://wheany.com/ms-branding/).\n  2. **Jump up ^** Rabeler, Carl (October 13, 2016). [\"Azure SQL Database Learns & Adapts\"](https://azure.microsoft.com/en-us/documentation/articles/sql-database-learn-and-adapt/). Retrieved 2016-11-03.\n  3. **Jump up ^** Rabeler, Carl (October 13, 2016). [\"Azure SQL Database Scales on the fly\"](https://azure.microsoft.com/en-us/documentation/articles/sql-database-scale-on-the-fly/).\n  4. **Jump up ^** Rabeler, Carl (October 13, 2016). [\"Builds Multi-tenant Apps with Azure SQL Database With Isolation and Efficiency\"](https://azure.microsoft.com/en-us/documentation/articles/sql-database-build-multi-tenant-apps/).\n  5. **Jump up ^** [\"wunderlist/cheetah\"](https://github.com/wunderlist/cheetah). _GitHub_. Retrieved 2016-11-03.\n  6. **Jump up ^** [\"sql-cli\"](https://www.npmjs.com/package/sql-cli). _npm_. Retrieved 2016-11-03.\n  7. **Jump up ^** [\"Visual Studio Code - Code Editing. Redefined\"](https://code.visualstudio.com/). _code.visualstudio.com_. Retrieved 2016-11-03.\n  8. **Jump up ^** [\"Any Developer, Any App, Any Platform | Visual Studio\"](https://www.visualstudio.com/visual-studio-homepage-vs.aspx). _www.visualstudio.com_. Retrieved 2016-11-03.\n  9. **Jump up ^** [\"Use SQL Server Management Studio\"](https://msdn.microsoft.com/library/ms174173.aspx). _msdn.microsoft.com_. Retrieved 2016-11-03.\n  10. **Jump up ^** Rabeler, Carl (September 13, 2016). [\"Azure SQL Database Secures and Protects\"](https://azure.microsoft.com/en-us/documentation/articles/sql-database-helps-secures-and-protects/).\n  11. **Jump up ^** Byham, Rick (August 30, 2016). [\"Azure SQL Database Transact-SQL differences\"](https://azure.microsoft.com/en-us/documentation/articles/sql-database-transact-sql-information/).\n  12. **Jump up ^** [\"SQL Data Services announces plans to accelerate core relational database features\"](https://azure.microsoft.com/en-us/blog/sql-data-services-announces-plans-to-accelerate-core-relational-database-features/). _azure.microsoft.com_. Retrieved 2016-11-03.\n  13. **Jump up ^** [\"SQL Azure - The Year in Review\"](https://azure.microsoft.com/en-us/blog/sql-azure-the-year-in-review/). _azure.microsoft.com_. Retrieved 2016-11-03.\n  14. **Jump up ^** [\"Preview for greater SQL Server compatibility coming soon to Azure SQL Database\"](https://azure.microsoft.com/en-us/blog/preview-for-greater-sql-server-compatibility-coming-soon-to-azure-sql-database/). _azure.microsoft.com_. Retrieved 2016-11-03.\n  15. **Jump up ^** [\"Azure continues to be the best place for Software as a Service\"](https://azure.microsoft.com/en-us/blog/with-newly-available-services-azure-continues-to-be-the-best-place-for-software-as-a-service-developers/). _azure.microsoft.com_. Retrieved 2016-11-03.\n\n  \n\n  \n\n[show]\n\n  * [v](/wiki/Template:Cloud_computing \"Template:Cloud computing\")\n  * [t](/wiki/Template_talk:Cloud_computing \"Template talk:Cloud computing\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Cloud_computing&action=edit)\n\n[Cloud computing](/wiki/Cloud_computing \"Cloud computing\")  \n---  \n[Applications](/wiki/Software_as_a_service \"Software as a service\") | \n\n  * [Box](/wiki/Box_\\(company\\) \"Box \\(company\\)\")\n  * [Enstratius](/wiki/Enstratius \"Enstratius\")\n  * [Google](/wiki/Google \"Google\")\n    * [G Suite](/wiki/G_Suite \"G Suite\")\n    * [Docs, Sheets and Slides](/wiki/Google_Docs,_Sheets_and_Slides \"Google Docs, Sheets and Slides\")\n  * [HP Cloud](/wiki/HP_Cloud \"HP Cloud\") (closed)\n  * [Microsoft Online](/wiki/Microsoft_Online_Services \"Microsoft Online Services\")\n  * [Rackspace](/wiki/Rackspace \"Rackspace\")\n  * [Salesforce](/wiki/Salesforce.com \"Salesforce.com\")\n\n  \n[Platforms](/wiki/Platform_as_a_service \"Platform as a service\") | \n\n  * [Alpha7](/wiki/Alpha7 \"Alpha7\")\n  * [Amazon](/wiki/Amazon_Web_Services \"Amazon Web Services\")\n  * [AppScale](/wiki/AppScale \"AppScale\")\n  * [Box](/wiki/Box_\\(company\\) \"Box \\(company\\)\")\n  * [Bluemix](/wiki/Bluemix \"Bluemix\")\n  * [Cloud Foundry](/wiki/Cloud_Foundry \"Cloud Foundry\")\n  * [Cocaine (PaaS)](/wiki/Cocaine_\\(PaaS\\) \"Cocaine \\(PaaS\\)\")\n  * [Engine Yard](/wiki/Engine_Yard \"Engine Yard\")\n  * [Enstratius](/wiki/Enstratius \"Enstratius\")\n  * [eXo Platform](/wiki/EXo_Platform \"EXo Platform\")\n  * [Helion](/wiki/HPE_Helion \"HPE Helion\")\n  * [GE Predix](/wiki/Predix_\\(software\\) \"Predix \\(software\\)\")\n  * [Google App Engine](/wiki/Google_App_Engine \"Google App Engine\")\n  * [GreenQloud](/wiki/GreenQloud \"GreenQloud\")\n  * [Heroku](/wiki/Heroku \"Heroku\")\n  * [Inktank](/wiki/Inktank_Storage \"Inktank Storage\")\n  * [Jelastic](/wiki/Jelastic \"Jelastic\")\n  * [Mendix](/wiki/Mendix \"Mendix\")\n  * [Microsoft Azure](/wiki/Microsoft_Azure \"Microsoft Azure\")\n  * [OutSystems](/wiki/OutSystems \"OutSystems\")\n  * [openQRM](/wiki/OpenQRM \"OpenQRM\")\n  * [OpenShift](/wiki/OpenShift \"OpenShift\")\n  * [RightScale](/wiki/RightScale \"RightScale\")\n  * [Force.com](/wiki/Salesforce.com#Force.com \"Salesforce.com\")\n  * [SAP Cloud Platform](/wiki/SAP_Cloud_Platform \"SAP Cloud Platform\")\n  * [VMware vCloud Air](/wiki/VMware_vCloud_Air \"VMware vCloud Air\")\n\n  \n[Infrastructure](/wiki/Infrastructure_as_a_service \"Infrastructure as a service\") | \n\n  * [Amazon](/wiki/Amazon_Web_Services \"Amazon Web Services\")\n  * [Abiquo Enterprise Edition](/wiki/Abiquo_Enterprise_Edition \"Abiquo Enterprise Edition\")\n  * [CloudStack](/wiki/Apache_CloudStack \"Apache CloudStack\")\n  * [CtrlS](/wiki/CtrlS \"CtrlS\")\n  * [Cloud4c](/w/index.php?title=Cloud4c&action=edit&redlink=1 \"Cloud4c \\(page does not exist\\)\")\n  * [DigitalOcean](/wiki/DigitalOcean \"DigitalOcean\")\n  * [EMC Atmos](/wiki/EMC_Atmos \"EMC Atmos\")\n  * [Enstratius](/wiki/Enstratius \"Enstratius\")\n  * [Eucalyptus](/wiki/Eucalyptus_\\(software\\) \"Eucalyptus \\(software\\)\")\n  * [Fujitsu](/wiki/FUJITSU_Cloud_IaaS_Trusted_Public_S5 \"FUJITSU Cloud IaaS Trusted Public S5\")\n  * [GoGrid](/wiki/GoGrid \"GoGrid\")\n  * [Google Cloud Platform](/wiki/Google_Cloud_Platform \"Google Cloud Platform\")\n  * [GreenButton](/wiki/GreenButton \"GreenButton\")\n  * [GreenQloud](/wiki/GreenQloud \"GreenQloud\")\n  * [IBM cloud computing](/wiki/IBM_cloud_computing \"IBM cloud computing\")\n  * [iland](/wiki/Iland \"Iland\")\n  * [Joyent](/wiki/Joyent \"Joyent\")\n  * [Lunacloud](/wiki/Lunacloud \"Lunacloud\")\n  * [Nimbula](/wiki/Nimbula \"Nimbula\")\n  * [Nimbus](/wiki/Nimbus_\\(cloud_computing\\) \"Nimbus \\(cloud computing\\)\")\n  * [OpenNebula](/wiki/OpenNebula \"OpenNebula\")\n  * [OpenStack](/wiki/OpenStack \"OpenStack\")\n  * [OrionVM](/wiki/OrionVM \"OrionVM\")\n  * [Rackspace Cloud](/wiki/Rackspace_Cloud \"Rackspace Cloud\")\n  * [SoftLayer](/wiki/SoftLayer \"SoftLayer\")\n  * [Zadara Storage](/wiki/Zadara_Storage \"Zadara Storage\")\n  * [libvirt](/wiki/Libvirt \"Libvirt\")\n  * [libguestfs](/wiki/Libguestfs \"Libguestfs\")\n  * [OVirt](/wiki/OVirt \"OVirt\")\n  * [Virtual Machine Manager](/wiki/Virtual_Machine_Manager \"Virtual Machine Manager\")\n  * [Wakame-vdc](/wiki/Wakame-vdc \"Wakame-vdc\")\n  * [Virtual Private Cloud OnDemand](/wiki/Virtual_Private_Cloud_OnDemand \"Virtual Private Cloud OnDemand\")\n\n  \nTechnologies | \n\n  * [Cloud database](/wiki/Cloud_database \"Cloud database\")\n  * [Data centers](/wiki/Data_center \"Data center\")\n  * [Distributed file system for cloud](/wiki/Distributed_file_system_for_cloud \"Distributed file system for cloud\")\n  * [Hardware virtualization](/wiki/Hardware_virtualization \"Hardware virtualization\")\n  * [Internet](/wiki/Internet \"Internet\")\n  * [Networking](/wiki/Computer_network \"Computer network\")\n  * [Security](/wiki/Cloud_computing_security \"Cloud computing security\")\n  * [Structured storage](/wiki/Comparison_of_structured_storage_software \"Comparison of structured storage software\")\n  * [Virtual appliance](/wiki/Virtual_appliance \"Virtual appliance\")\n  * [Web APIs](/wiki/Web_API \"Web API\")\n  * [Virtual private cloud](/wiki/Virtual_private_cloud \"Virtual private cloud\")\n\n  \n  \n  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) **[Category](/wiki/Category:Cloud_computing \"Category:Cloud computing\")**\n  * ![Commons page](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png) [**Commons**](https://commons.wikimedia.org/wiki/Category:Cloud_computing \"commons:Category:Cloud computing\")\n\n  \n  \n[show]\n\n  * [v](/wiki/Template:Microsoft \"Template:Microsoft\")\n  * [t](/wiki/Template_talk:Microsoft \"Template talk:Microsoft\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Microsoft&action=edit)\n\n[Microsoft](/wiki/Microsoft \"Microsoft\")  \n---  \n  \n  * [History](/wiki/History_of_Microsoft \"History of Microsoft\")\n  * [All topics](/wiki/Index_of_Microsoft-related_articles \"Index of Microsoft-related articles\")\n\n  \nPeople  \n([list](/wiki/Category:Microsoft_people \"Category:Microsoft people\")) |  | Founders | \n\n  * [Bill Gates](/wiki/Bill_Gates \"Bill Gates\")\n  * [Paul Allen](/wiki/Paul_Allen \"Paul Allen\")\n\n  \n---|---  \n[Board of directors](/wiki/Board_of_directors \"Board of directors\") | \n\n  * [John W. Thompson](/wiki/John_W._Thompson \"John W. Thompson\") (Chairman)\n  * [Satya Nadella](/wiki/Satya_Nadella \"Satya Nadella\") (CEO)\n  * [Dina Dublon](/wiki/Dina_Dublon \"Dina Dublon\")\n  * [Maria Klawe](/wiki/Maria_Klawe \"Maria Klawe\")\n  * [David Marquardt](/wiki/David_Marquardt \"David Marquardt\")\n  * [Charles Noski](/wiki/Charles_Noski \"Charles Noski\")\n  * [Helmut Panke](/wiki/Helmut_Panke \"Helmut Panke\")\n  * [Mason Morfit](/wiki/Mason_Morfit \"Mason Morfit\")\n  * [John W. Stanton](/wiki/John_W._Stanton \"John W. Stanton\")\n\n  \nSenior leadership team | \n\n  * [Satya Nadella](/wiki/Satya_Nadella \"Satya Nadella\") (CEO)\n  * [Scott Guthrie](/wiki/Scott_Guthrie \"Scott Guthrie\")\n  * [Amy Hood](/wiki/Amy_Hood \"Amy Hood\") (CFO)\n  * [Terry Myerson](/wiki/Terry_Myerson \"Terry Myerson\")\n  * [Harry Shum](/wiki/Harry_Shum \"Harry Shum\")\n\n  \nCorporate VPs | \n\n  * [Gabe Aul](/wiki/Gabe_Aul \"Gabe Aul\") (VP)\n  * [Joe Belfiore](/wiki/Joe_Belfiore \"Joe Belfiore\")\n  * [Richard Rashid](/wiki/Richard_Rashid \"Richard Rashid\") (SVP)\n  * [S. Somasegar](/wiki/S._Somasegar \"S. Somasegar\") (SVP)\n\n  \nDivisions | \n\n  * [Engineering groups](/wiki/Microsoft_engineering_groups \"Microsoft engineering groups\")\n    * [Mobile](/wiki/Microsoft_Mobile \"Microsoft Mobile\")\n    * [Skype unit](/wiki/Skype_Technologies \"Skype Technologies\")\n  * [Digital Crimes Unit](/wiki/Microsoft_Digital_Crimes_Unit \"Microsoft Digital Crimes Unit\")\n  * [Garage](/wiki/Microsoft_Garage \"Microsoft Garage\")\n  * [Press](/wiki/Microsoft_Press \"Microsoft Press\")\n  * [Research](/wiki/Microsoft_Research \"Microsoft Research\")\n  * [Studios](/wiki/Microsoft_Studios \"Microsoft Studios\")\n  * [.NET Foundation](/wiki/.NET_Foundation \".NET Foundation\")\n  * [Outercurve Foundation](/wiki/Outercurve_Foundation \"Outercurve Foundation\")\n\n  \nEstates | \n\n  * [Microsoft Redmond campus](/wiki/Microsoft_Redmond_campus \"Microsoft Redmond campus\")\n  * [Microsoft Talo](/wiki/Microsoft_Talo \"Microsoft Talo\")\n  * [Microsoft Algeria](/wiki/Microsoft_Algeria \"Microsoft Algeria\")\n  * [Microsoft Egypt](/wiki/Microsoft_Egypt \"Microsoft Egypt\")\n  * [Microsoft India](/wiki/Microsoft_India \"Microsoft India\")\n  * [Microsoft Japan](/wiki/Microsoft_Japan \"Microsoft Japan\")\n\n  \nProduct families | \n\n  * [Operating systems](/wiki/List_of_Microsoft_operating_systems \"List of Microsoft operating systems\")\n    * [Windows](/wiki/Microsoft_Windows \"Microsoft Windows\")\n  * [Software](/wiki/List_of_Microsoft_software \"List of Microsoft software\")\n    * [Office](/wiki/Microsoft_Office \"Microsoft Office\")\n    * [Servers](/wiki/Microsoft_Servers \"Microsoft Servers\")\n    * [Visual Studio](/wiki/Microsoft_Visual_Studio \"Microsoft Visual Studio\")\n  * [Hardware](/wiki/Microsoft_hardware \"Microsoft hardware\")\n    * [HoloLens](/wiki/Microsoft_HoloLens \"Microsoft HoloLens\")\n    * [Surface](/wiki/Microsoft_Surface \"Microsoft Surface\")\n    * [Xbox](/wiki/Xbox \"Xbox\")\n\n  \nWeb properties | \n\n  * [Bing](/wiki/Bing_\\(search_engine\\) \"Bing \\(search engine\\)\")\n  * [Channel 9](/wiki/Channel_9_\\(Microsoft\\) \"Channel 9 \\(Microsoft\\)\")\n  * [CodePlex](/wiki/CodePlex \"CodePlex\")\n  * [Developer Network](/wiki/Microsoft_Developer_Network \"Microsoft Developer Network\")\n  * [MSN](/wiki/MSN \"MSN\")\n  * [Mixer](/wiki/Mixer_\\(website\\) \"Mixer \\(website\\)\")\n  * [Office.com](/wiki/Microsoft_Office_website \"Microsoft Office website\")\n  * [OneDrive](/wiki/OneDrive \"OneDrive\")\n  * [Outlook.com](/wiki/Outlook.com \"Outlook.com\")\n  * [TechNet](/wiki/Microsoft_TechNet \"Microsoft TechNet\")\n  * [Windows Store](/wiki/Windows_Store \"Windows Store\")\n\n  \nConferences | \n\n  * [Build](/wiki/Build_\\(developer_conference\\) \"Build \\(developer conference\\)\")\n  * [MIX](/wiki/MIX_\\(Microsoft\\) \"MIX \\(Microsoft\\)\")\n  * [PDC](/wiki/Professional_Developers_Conference \"Professional Developers Conference\")\n  * [TechEd](/wiki/TechEd \"TechEd\")\n  * [WinHEC](/wiki/Windows_Hardware_Engineering_Conference \"Windows Hardware Engineering Conference\")\n  * [Inspire](/wiki/Microsoft_Inspire \"Microsoft Inspire\")\n\n  \n[Criticism](/wiki/Criticism_of_Microsoft \"Criticism of Microsoft\") | \n\n  * [Bundling of Microsoft Windows](/wiki/Bundling_of_Microsoft_Windows \"Bundling of Microsoft Windows\")\n  * [Clippy](/wiki/Office_Assistant \"Office Assistant\")\n  * [iLoo](/wiki/ILoo#Reaction \"ILoo\")\n  * [Internet Explorer](/wiki/Internet_Explorer#Security_vulnerabilities \"Internet Explorer\")\n  * [Microsoft Bob](/wiki/Microsoft_Bob \"Microsoft Bob\")\n  * [_NSAKEY](/wiki/NSAKEY \"NSAKEY\")\n  * [Windows](/wiki/Criticism_of_Microsoft_Windows \"Criticism of Microsoft Windows\")\n    * [ME](/wiki/Windows_ME#Criticism \"Windows ME\")\n    * [XP](/wiki/Criticism_of_Windows_XP \"Criticism of Windows XP\")\n    * [Vista](/wiki/Criticism_of_Windows_Vista \"Criticism of Windows Vista\")\n    * [10](/wiki/Criticism_of_Windows_10 \"Criticism of Windows 10\")\n\n  \n[Litigation](/wiki/Microsoft_litigation \"Microsoft litigation\") | \n\n  * _[Alcatel-Lucent v. Microsoft](/wiki/Alcatel-Lucent_v._Microsoft_Corp. \"Alcatel-Lucent v. Microsoft Corp.\")_\n  * _[_Apple v. Microsoft_](/wiki/Apple_Computer,_Inc._v._Microsoft_Corp. \"Apple Computer, Inc. v. Microsoft Corp.\")_\n  * _[European Union Microsoft competition case](/wiki/Microsoft_Corp_v_Commission \"Microsoft Corp v Commission\")_\n  * _[Microsoft v. Lindows](/wiki/Microsoft_Corp._v._Lindows.com,_Inc. \"Microsoft Corp. v. Lindows.com, Inc.\")_\n  * _[Microsoft vs. MikeRoweSoft](/wiki/Microsoft_vs._MikeRoweSoft \"Microsoft vs. MikeRoweSoft\")_\n  * _[Microsoft v. Shah](/wiki/Microsoft_Corp._v._Shah \"Microsoft Corp. v. Shah\")_\n  * _[_United States v. Microsoft_](/wiki/United_States_v._Microsoft_Corp. \"United States v. Microsoft Corp.\")_\n\n  \n[Acquisitions](/wiki/List_of_mergers_and_acquisitions_by_Microsoft \"List of mergers and acquisitions by Microsoft\") | \n\n  * [6Wunderkinder](/wiki/Wunderlist \"Wunderlist\")\n  * [Altamira Software](/wiki/Altamira_Software \"Altamira Software\")\n  * [aQuantive](/wiki/AQuantive \"AQuantive\")\n  * [Azyxxi](/wiki/Microsoft_Amalga \"Microsoft Amalga\")\n  * [The Blue Ribbon SoundWorks](/wiki/The_Blue_Ribbon_SoundWorks \"The Blue Ribbon SoundWorks\")\n  * [Beam](/wiki/Mixer_\\(website\\) \"Mixer \\(website\\)\")\n  * [Bungie](/wiki/Bungie \"Bungie\")\n  * [Calista Technologies](/wiki/Calista_Technologies \"Calista Technologies\")\n  * [Colloquis](/wiki/Colloquis \"Colloquis\")\n  * [Connectix](/wiki/Connectix \"Connectix\")\n  * [Consumers Software](/wiki/Consumers_Software \"Consumers Software\")\n  * [Danger](/wiki/Danger_\\(company\\) \"Danger \\(company\\)\")\n  * [Farecast](/wiki/MSN_Travel \"MSN Travel\")\n  * [FASA Studio](/wiki/FASA_Studio \"FASA Studio\")\n  * [Fast Search & Transfer](/wiki/Fast_Search_%26_Transfer \"Fast Search & Transfer\")\n  * [Firefly](/wiki/Firefly_\\(website\\) \"Firefly \\(website\\)\")\n  * [Forethought](/wiki/Forethought,_Inc. \"Forethought, Inc.\")\n  * [GIANT Company Software](/wiki/GIANT_Company_Software \"GIANT Company Software\")\n  * [GreenButton](/wiki/GreenButton \"GreenButton\")\n  * [Groove Networks](/wiki/Groove_Networks \"Groove Networks\")\n  * [High Heat: Major League Baseball](/wiki/High_Heat:_Major_League_Baseball \"High Heat: Major League Baseball\")\n  * [Hotmail](/wiki/Outlook.com \"Outlook.com\")\n  * [Jellyfish.com](/wiki/Jellyfish.com \"Jellyfish.com\")\n  * [LinkExchange](/wiki/LinkExchange \"LinkExchange\")\n  * [Lionhead Studios](/wiki/Lionhead_Studios \"Lionhead Studios\")\n  * [Maluuba](/wiki/Maluuba \"Maluuba\")\n  * [Massive Incorporated](/wiki/Massive_Incorporated \"Massive Incorporated\")\n  * [Mobile Data Labs](/wiki/MileIQ \"MileIQ\")\n  * [Mojang](/wiki/Mojang \"Mojang\")\n  * [Nokia Devices and Services](/wiki/Microsoft_Mobile \"Microsoft Mobile\")\n  * [Onfolio](/wiki/Windows_Live_Toolbar#Onfolio \"Windows Live Toolbar\")\n  * [Pando Networks](/wiki/Pando_Networks \"Pando Networks\")\n  * [Perceptive Pixel](/wiki/Perceptive_Pixel \"Perceptive Pixel\")\n  * [PlaceWare](/wiki/PlaceWare \"PlaceWare\")\n  * [Powerset](/wiki/Powerset_\\(company\\) \"Powerset \\(company\\)\")\n  * [ProClarity](/wiki/ProClarity \"ProClarity\")\n  * [Rare](/wiki/Rare_\\(company\\) \"Rare \\(company\\)\")\n  * [Revolution Analytics](/wiki/Revolution_Analytics \"Revolution Analytics\")\n  * [ScreenTonic](/wiki/ScreenTonic \"ScreenTonic\")\n  * [Secure Islands](/wiki/Secure_Islands \"Secure Islands\")\n  * [Simplygon](/wiki/Simplygon \"Simplygon\")\n  * [Skype](/wiki/Skype_Technologies \"Skype Technologies\")\n  * [Sunrise Atelier](/wiki/Sunrise_Calendar \"Sunrise Calendar\")\n  * [SwiftKey](/wiki/SwiftKey \"SwiftKey\")\n  * [Winternals Software](/wiki/Sysinternals \"Sysinternals\")\n  * [Teleo](/wiki/Teleo \"Teleo\")\n  * [Telekinesys Research](/wiki/Havok_\\(company\\) \"Havok \\(company\\)\")\n  * [Tellme Networks](/wiki/Tellme_Networks \"Tellme Networks\")\n  * [Twisted Pixel Games](/wiki/Twisted_Pixel_Games \"Twisted Pixel Games\")\n  * [Vermeer Technologies](/wiki/Vermeer_Technologies \"Vermeer Technologies\")\n  * [Visio Corporation](/wiki/Visio_Corporation \"Visio Corporation\")\n  * [Vivaty](/wiki/Flux_\\(software\\) \"Flux \\(software\\)\")\n  * [VoloMetrix](/wiki/VoloMetrix \"VoloMetrix\")\n  * [VXtreme](/wiki/NetShow \"NetShow\")\n  * [WebTV Networks](/wiki/MSN_TV \"MSN TV\")\n  * [Xamarin](/wiki/Xamarin \"Xamarin\")\n  * [Yammer](/wiki/Yammer \"Yammer\")\n  * [Yupi](/wiki/Yupi \"Yupi\")\n  * [LinkedIn](/wiki/LinkedIn \"LinkedIn\")\n\n  \n  \n  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) [Category](/wiki/Category:Microsoft \"Category:Microsoft\")\n  * ![Portal](//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png) [Portal](/wiki/Portal:Microsoft \"Portal:Microsoft\")\n\n  \n  \n[show]\n\n  * [v](/wiki/Template:Microsoft_Azure_Services_Platform \"Template:Microsoft Azure Services Platform\")\n  * [t](/wiki/Template_talk:Microsoft_Azure_Services_Platform \"Template talk:Microsoft Azure Services Platform\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Microsoft_Azure_Services_Platform&action=edit)\n\n[Azure Services Platform](/wiki/Azure_Services_Platform \"Azure Services\nPlatform\")  \n---  \nWinFabric layer | \n\n  * [Microsoft Azure](/wiki/Microsoft_Azure \"Microsoft Azure\")\n\n  \n[AppFabric](/wiki/AppFabric \"AppFabric\") layer | \n\n  * [Caching Service](/wiki/AppFabric_Caching_Service \"AppFabric Caching Service\")\n\n  \nServices layer | \n\n  * [Live Services](/wiki/Windows_Live_Messenger_Connect \"Windows Live Messenger Connect\")\n    * [Live Mesh](/wiki/Windows_Live_Mesh \"Windows Live Mesh\")\n  * [SQL Services](/wiki/SQL_Azure \"SQL Azure\")\n  * [.NET Services](/wiki/.NET_Framework \".NET Framework\")\n  * [SharePoint Services](/wiki/Microsoft_SharePoint_Foundation \"Microsoft SharePoint Foundation\")\n  * [Dynamics CRM Services](/wiki/Microsoft_Dynamics_CRM \"Microsoft Dynamics CRM\")\n\n  \nOnline applications | \n\n  * [Azure AD Connect](/wiki/Azure_AD_Connect \"Azure AD Connect\")\n  * [Hohm](/wiki/Hohm \"Hohm\")\n  * [Microsoft Dynamics CRM Online](/wiki/Microsoft_Dynamics_CRM \"Microsoft Dynamics CRM\")\n  * [Microsoft Exchange Online](/wiki/Microsoft_Exchange_Server \"Microsoft Exchange Server\")\n  * [Microsoft SharePoint Online](/wiki/Microsoft_SharePoint \"Microsoft SharePoint\")\n  * [Office Live](/wiki/Microsoft_Office_Live \"Microsoft Office Live\")\n  * [Windows Live](/wiki/Windows_Live \"Windows Live\")\n\n  \n  \n[show]\n\n  * [v](/wiki/Template:Microsoft_development_tools \"Template:Microsoft development tools\")\n  * [t](/wiki/Template_talk:Microsoft_development_tools \"Template talk:Microsoft development tools\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Microsoft_development_tools&action=edit)\n\n[Microsoft development tools](/wiki/Category:Microsoft_development_tools\n\"Category:Microsoft development tools\")  \n---  \nDevelopment  \nenvironments |  | [Visual Studio](/wiki/Microsoft_Visual_Studio \"Microsoft Visual Studio\") | \n\n  * [Code](/wiki/Visual_Studio_Code \"Visual Studio Code\")\n  * [Express](/wiki/Microsoft_Visual_Studio_Express \"Microsoft Visual Studio Express\")\n  * [Lab Management](/wiki/Visual_Studio_Lab_Management \"Visual Studio Lab Management\")\n  * [Team System Profiler](/wiki/VSTS_Profiler \"VSTS Profiler\")\n  * [Test Professional](/wiki/Visual_Studio_Test_Professional \"Visual Studio Test Professional\")\n  * [Tools for Applications](/wiki/Visual_Studio_Tools_for_Applications \"Visual Studio Tools for Applications\")\n  * [Tools for Office](/wiki/Visual_Studio_Tools_for_Office \"Visual Studio Tools for Office\")\n\n  \n---|---  \nOthers | \n\n  * [.NET Compiler Platform](/wiki/.NET_Compiler_Platform \".NET Compiler Platform\")\n  * [App Studio](/wiki/Windows_App_Studio \"Windows App Studio\")\n  * [Blend](/wiki/Microsoft_Blend \"Microsoft Blend\")\n  * [Expression Web](/wiki/Microsoft_Expression_Web \"Microsoft Expression Web\")\n  * [GW-BASIC](/wiki/GW-BASIC \"GW-BASIC\")\n  * [Microsoft Pascal](/wiki/Microsoft_Pascal \"Microsoft Pascal\")\n  * [MSBuild](/wiki/MSBuild \"MSBuild\")\n  * [Robotics Developer Studio](/wiki/Microsoft_Robotics_Developer_Studio \"Microsoft Robotics Developer Studio\")\n  * [SharePoint Designer](/wiki/Microsoft_SharePoint_Designer \"Microsoft SharePoint Designer\")\n    * [FrontPage](/wiki/Microsoft_FrontPage \"Microsoft FrontPage\")\n  * [PowerShell ISE](/wiki/PowerShell#PowerShell_2.0 \"PowerShell\")\n  * [QuickBASIC](/wiki/QuickBASIC \"QuickBASIC\")\n    * [QBasic](/wiki/QBasic \"QBasic\")\n  * [QuickC](/wiki/QuickC \"QuickC\")\n  * [Small Basic](/wiki/Microsoft_Small_Basic \"Microsoft Small Basic\")\n  * [WebMatrix](/wiki/Microsoft_WebMatrix \"Microsoft WebMatrix\")\n  * [Windows SDK](/wiki/Microsoft_Windows_SDK \"Microsoft Windows SDK\")\n    * [CLR Profiler](/wiki/CLR_Profiler \"CLR Profiler\")\n    * [ILAsm](/wiki/ILAsm \"ILAsm\")\n    * [Native Image Generator](/wiki/Native_Image_Generator \"Native Image Generator\")\n    * [XAMLPad](/wiki/XAMLPad \"XAMLPad\")\n\n  \nLanguages | \n\n  * [Microsoft Basic](/wiki/Microsoft_BASIC \"Microsoft BASIC\")\n  * [Visual Basic](/wiki/Visual_Basic \"Visual Basic\")\n  * [Visual Basic .NET](/wiki/Visual_Basic_.NET \"Visual Basic .NET\")\n  * [Visual C++](/wiki/Visual_C%2B%2B \"Visual C++\")\n    * [C++/CX](/wiki/C%2B%2B/CX \"C++/CX\")\n    * [C++/CLI](/wiki/C%2B%2B/CLI \"C++/CLI\")\n    * [Managed C++](/wiki/Managed_Extensions_for_C%2B%2B \"Managed Extensions for C++\")\n  * [C#](/wiki/C_Sharp_\\(programming_language\\) \"C Sharp \\(programming language\\)\")\n  * [F#](/wiki/F_Sharp_\\(programming_language\\) \"F Sharp \\(programming language\\)\")\n  * [J#](/wiki/J_Sharp \"J Sharp\")\n  * [Visual FoxPro](/wiki/Visual_FoxPro \"Visual FoxPro\")\n  * [IronPython](/wiki/IronPython \"IronPython\")\n  * [IronRuby](/wiki/IronRuby \"IronRuby\")\n  * [JScript](/wiki/JScript \"JScript\")\n  * [PowerShell](/wiki/Windows_PowerShell \"Windows PowerShell\")\n  * [TypeScript](/wiki/TypeScript \"TypeScript\")\n  * [VBScript](/wiki/VBScript \"VBScript\")\n  * [XAML](/wiki/Extensible_Application_Markup_Language \"Extensible Application Markup Language\")\n\n  \nMajor [APIs](/wiki/Application_programming_interface \"Application programming\ninterface\") and  \nframeworks  \n([See all](/wiki/Template:Microsoft_APIs \"Template:Microsoft APIs\")) |  | \n\n  * [Windows API](/wiki/Windows_API \"Windows API\")\n  * [Silverlight](/wiki/Microsoft_Silverlight \"Microsoft Silverlight\")\n  * [XNA](/wiki/Microsoft_XNA \"Microsoft XNA\")\n  * [DirectX](/wiki/DirectX \"DirectX\")\n    * [Managed DirectX](/wiki/Managed_DirectX \"Managed DirectX\")\n  * [Xbox Development Kit](/wiki/Xbox_Development_Kit \"Xbox Development Kit\")\n  * [Windows Installer](/wiki/Windows_Installer \"Windows Installer\")\n\n  \n---  \n[.NET Framework](/wiki/.NET_Framework \".NET Framework\") | \n\n  * [ASP.NET](/wiki/ASP.NET \"ASP.NET\")\n    * [ASP.NET Core](/wiki/ASP.NET_Core \"ASP.NET Core\")\n    * [ASP.NET AJAX](/wiki/ASP.NET_AJAX \"ASP.NET AJAX\")\n    * [ASP.NET Dynamic Data](/wiki/ASP.NET_Dynamic_Data \"ASP.NET Dynamic Data\")\n    * [ASP.NET MVC](/wiki/ASP.NET_MVC \"ASP.NET MVC\")\n    * [ASP.NET Razor](/wiki/ASP.NET_Razor \"ASP.NET Razor\")\n  * [ADO.NET](/wiki/ADO.NET \"ADO.NET\")\n    * [Entity Framework](/wiki/Entity_Framework \"Entity Framework\")\n  * [CardSpace](/wiki/Windows_CardSpace \"Windows CardSpace\")\n  * [Communication Foundation](/wiki/Windows_Communication_Foundation \"Windows Communication Foundation\")\n  * [Identity Foundation](/wiki/Windows_Identity_Foundation \"Windows Identity Foundation\")\n  * [LINQ](/wiki/Language_Integrated_Query \"Language Integrated Query\")\n  * [Presentation Foundation](/wiki/Windows_Presentation_Foundation \"Windows Presentation Foundation\")\n  * [Workflow Foundation](/wiki/Windows_Workflow_Foundation \"Windows Workflow Foundation\")\n\n  \n[Device drivers](/wiki/Device_driver \"Device driver\") | \n\n  * [WDK](/wiki/Windows_Driver_Kit \"Windows Driver Kit\")\n  * [WDF](/wiki/Windows_Driver_Frameworks \"Windows Driver Frameworks\")\n    * [KMDF](/wiki/Kernel-Mode_Driver_Framework \"Kernel-Mode Driver Framework\")\n    * [UMDF](/wiki/User-Mode_Driver_Framework \"User-Mode Driver Framework\")\n  * [Windows Hardware Certification Kit](/wiki/Windows_Hardware_Certification_Kit \"Windows Hardware Certification Kit\")\n  * [WDM](/wiki/Windows_Driver_Model \"Windows Driver Model\")\n\n  \nDatabase |  | [SQL Server](/wiki/Microsoft_SQL_Server \"Microsoft SQL Server\") | \n\n  * [Express](/wiki/SQL_Server_Express \"SQL Server Express\")\n  * [Compact](/wiki/SQL_Server_Compact \"SQL Server Compact\")\n  * [Management Studio](/wiki/SQL_Server_Management_Studio \"SQL Server Management Studio\")\n  * [Business Intelligence Development Studio](/wiki/Business_Intelligence_Development_Studio \"Business Intelligence Development Studio\")\n  * [MSDE](/wiki/MSDE \"MSDE\")\n\n  \n---|---  \nSQL services | \n\n  * [Analysis](/wiki/Microsoft_Analysis_Services \"Microsoft Analysis Services\")\n  * [Reporting](/wiki/SQL_Server_Reporting_Services \"SQL Server Reporting Services\")\n  * [Integration](/wiki/SQL_Server_Integration_Services \"SQL Server Integration Services\")\n  * [Notification](/wiki/SQL_Server_Notification_Services \"SQL Server Notification Services\")\n\n  \nOther | \n\n  * [Visual FoxPro](/wiki/Visual_FoxPro \"Visual FoxPro\")\n  * [Microsoft Access](/wiki/Microsoft_Access \"Microsoft Access\")\n  * [Jet Engine](/wiki/Microsoft_Jet_Database_Engine \"Microsoft Jet Database Engine\")\n  * [Extensible Storage Engine](/wiki/Extensible_Storage_Engine \"Extensible Storage Engine\")\n  * [Azure DocumentDB](/wiki/DocumentDB \"DocumentDB\")\n\n  \nSource control | \n\n  * [Team Foundation Server](/wiki/Team_Foundation_Server \"Team Foundation Server\")\n  * [Visual SourceSafe](/wiki/Microsoft_Visual_SourceSafe \"Microsoft Visual SourceSafe\")\n\n  \nDelivery | \n\n  * [Active Setup](/wiki/Active_Setup \"Active Setup\")\n  * [ClickOnce](/wiki/ClickOnce \"ClickOnce\")\n  * [NuGet](/wiki/NuGet \"NuGet\")\n  * [Web Platform](/wiki/Web_Platform_Installer \"Web Platform Installer\")\n  * [Windows Installer](/wiki/Windows_Installer \"Windows Installer\")\n    * [WiX](/wiki/WiX \"WiX\")\n  * [Windows Store](/wiki/Windows_Store \"Windows Store\")\n\n  \n  \n![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)\n\nRetrieved from\n\"[https://en.wikipedia.org/w/index.php?title=Microsoft_Azure_SQL_Database&oldid=785723639](https://en.wikipedia.org/w/index.php?title=Microsoft_Azure_SQL_Database&oldid=785723639)\"\n\n[Categories](/wiki/Help:Category \"Help:Category\"):\n\n  * [Microsoft cloud services](/wiki/Category:Microsoft_cloud_services \"Category:Microsoft cloud services\")\n\nHidden categories:\n\n  * [Articles with a promotional tone from June 2017](/wiki/Category:Articles_with_a_promotional_tone_from_June_2017 \"Category:Articles with a promotional tone from June 2017\")\n  * [All articles with a promotional tone](/wiki/Category:All_articles_with_a_promotional_tone \"Category:All articles with a promotional tone\")\n  * [Wikipedia articles that are too technical from June 2017](/wiki/Category:Wikipedia_articles_that_are_too_technical_from_June_2017 \"Category:Wikipedia articles that are too technical from June 2017\")\n  * [All articles that are too technical](/wiki/Category:All_articles_that_are_too_technical \"Category:All articles that are too technical\")\n  * [Articles needing expert attention from June 2017](/wiki/Category:Articles_needing_expert_attention_from_June_2017 \"Category:Articles needing expert attention from June 2017\")\n  * [All articles needing expert attention](/wiki/Category:All_articles_needing_expert_attention \"Category:All articles needing expert attention\")\n\n## Navigation menu\n\n### Personal tools\n\n  * Not logged in\n  * [Talk](/wiki/Special:MyTalk \"Discussion about edits from this IP address \\[ctrl-alt-n\\]\")\n  * [Contributions](/wiki/Special:MyContributions \"A list of edits made from this IP address \\[ctrl-alt-y\\]\")\n  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=Microsoft+Azure+SQL+Database \"You are encouraged to create an account and log in; however, it is not mandatory\")\n  * [Log in](/w/index.php?title=Special:UserLogin&returnto=Microsoft+Azure+SQL+Database \"You're encouraged to log in; however, it's not mandatory. \\[ctrl-alt-o\\]\")\n\n### Namespaces\n\n  * [Article](/wiki/Microsoft_Azure_SQL_Database \"View the content page \\[ctrl-alt-c\\]\")\n  * [Talk](/wiki/Talk:Microsoft_Azure_SQL_Database \"Discussion about the content page \\[ctrl-alt-t\\]\")\n\n###  Variants\n\n### Views\n\n  * [Read](/wiki/Microsoft_Azure_SQL_Database)\n  * [Edit](/w/index.php?title=Microsoft_Azure_SQL_Database&action=edit \"Edit this page \\[ctrl-alt-e\\]\")\n  * [View history](/w/index.php?title=Microsoft_Azure_SQL_Database&action=history \"Past revisions of this page \\[ctrl-alt-h\\]\")\n\n### More\n\n###  Search\n\n[](/wiki/Main_Page \"Visit the main page\")\n\n### Navigation\n\n  * [Main page](/wiki/Main_Page \"Visit the main page \\[ctrl-alt-z\\]\")\n  * [Contents](/wiki/Portal:Contents \"Guides to browsing Wikipedia\")\n  * [Featured content](/wiki/Portal:Featured_content \"Featured content – the best of Wikipedia\")\n  * [Current events](/wiki/Portal:Current_events \"Find background information on current events\")\n  * [Random article](/wiki/Special:Random \"Load a random article \\[ctrl-alt-x\\]\")\n  * [Donate to Wikipedia](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en \"Support us\")\n  * [Wikipedia store](//shop.wikimedia.org \"Visit the Wikipedia store\")\n\n### Interaction\n\n  * [Help](/wiki/Help:Contents \"Guidance on how to use and edit Wikipedia\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Find out about Wikipedia\")\n  * [Community portal](/wiki/Wikipedia:Community_portal \"About the project, what you can do, where to find things\")\n  * [Recent changes](/wiki/Special:RecentChanges \"A list of recent changes in the wiki \\[ctrl-alt-r\\]\")\n  * [Contact page](//en.wikipedia.org/wiki/Wikipedia:Contact_us \"How to contact Wikipedia\")\n\n### Tools\n\n  * [What links here](/wiki/Special:WhatLinksHere/Microsoft_Azure_SQL_Database \"List of all English Wikipedia pages containing links to this page \\[ctrl-alt-j\\]\")\n  * [Related changes](/wiki/Special:RecentChangesLinked/Microsoft_Azure_SQL_Database \"Recent changes in pages linked from this page \\[ctrl-alt-k\\]\")\n  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard \"Upload files \\[ctrl-alt-u\\]\")\n  * [Special pages](/wiki/Special:SpecialPages \"A list of all special pages \\[ctrl-alt-q\\]\")\n  * [Permanent link](/w/index.php?title=Microsoft_Azure_SQL_Database&oldid=785723639 \"Permanent link to this revision of the page\")\n  * [Page information](/w/index.php?title=Microsoft_Azure_SQL_Database&action=info \"More information about this page\")\n  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q1187310 \"Link to connected data repository item \\[ctrl-alt-g\\]\")\n  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=Microsoft_Azure_SQL_Database&id=785723639 \"Information on how to cite this page\")\n\n### Print/export\n\n  * [Create a book](/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Microsoft+Azure+SQL+Database)\n  * [Download as PDF](/w/index.php?title=Special:ElectronPdf&page=Microsoft+Azure+SQL+Database&action=show-selection-screen&coll-download-url=%2Fw%2Findex.php%3Ftitle%3DSpecial%3ABook%26bookcmd%3Drender_article%26arttitle%3DMicrosoft%2BAzure%2BSQL%2BDatabase%26returnto%3DMicrosoft%2BAzure%2BSQL%2BDatabase%26oldid%3D785723639%26writer%3Drdf2latex)\n  * [Printable version](/w/index.php?title=Microsoft_Azure_SQL_Database&printable=yes \"Printable version of this page \\[ctrl-alt-p\\]\")\n\n### Languages\n\n  * [العربية](https://ar.wikipedia.org/wiki/%D8%A7%D8%B3_%D9%83%D9%8A%D9%88_%D8%A7%D9%84_%D8%A7%D8%B2%D9%88%D8%B1 \"اس كيو ال ازور – Arabic\")\n  * [עברית](https://he.wikipedia.org/wiki/SQL_Azure \"SQL Azure – Hebrew\")\n  * [日本語](https://ja.wikipedia.org/wiki/SQL_Azure \"SQL Azure – Japanese\")\n  * [Polski](https://pl.wikipedia.org/wiki/SQL_Azure \"SQL Azure – Polish\")\n  * [Русский](https://ru.wikipedia.org/wiki/SQL_Azure \"SQL Azure – Russian\")\n  * [Українська](https://uk.wikipedia.org/wiki/SQL_Azure \"SQL Azure – Ukrainian\")\n  * [中文](https://zh.wikipedia.org/wiki/Microsoft_Azure_SQL_Database \"Microsoft Azure SQL Database – Chinese\")\n\n[Edit\nlinks](https://www.wikidata.org/wiki/Special:EntityPage/Q1187310#sitelinks-\nwikipedia \"Edit interlanguage links\")\n\n  * This page was last edited on 15 June 2017, at 02:15.\n  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)[](//creativecommons.org/licenses/by-sa/3.0/); additional terms may apply. By using this site, you agree to the [Terms of Use](//wikimediafoundation.org/wiki/Terms_of_Use) and [Privacy Policy](//wikimediafoundation.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.\n\n  * [Privacy policy](https://wikimediafoundation.org/wiki/Privacy_policy \"wmf:Privacy policy\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Wikipedia:About\")\n  * [Disclaimers](/wiki/Wikipedia:General_disclaimer \"Wikipedia:General disclaimer\")\n  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)\n  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)\n  * [Cookie statement](https://wikimediafoundation.org/wiki/Cookie_statement)\n  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=Microsoft_Azure_SQL_Database&mobileaction=toggle_view_mobile)\n\n  * [![Wikimedia Foundation](/static/images/wikimedia-button.png)](https://wikimediafoundation.org/)\n  * [![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)](//www.mediawiki.org/)\n\n  *[v]: View this template\n  *[t]: Discuss this template\n  *[e]: Edit this template\n\n"
+    ],
+    "qa": {
+        "question": "what version of sql server does azure use",
+        "answer": "['2016 codebase']",
+        "BM25_documents": [
+            {
+                "id": "nq_5906_3",
+                "score": 22.511699676513672
+            },
+            {
+                "id": "nq_5906_5",
+                "score": 21.042800903320312
+            },
+            {
+                "id": "nq_5906_7",
+                "score": 20.58449935913086
+            },
+            {
+                "id": "nq_5906_4",
+                "score": 20.34269905090332
+            },
+            {
+                "id": "nq_5906_8",
+                "score": 19.383800506591797
+            },
+            {
+                "id": "nq_5906_42",
+                "score": 19.241300582885742
+            },
+            {
+                "id": "nq_5906_6",
+                "score": 19.023700714111328
+            },
+            {
+                "id": "ott_3617_0",
+                "score": 18.33060073852539
+            },
+            {
+                "id": "ott_9445_0",
+                "score": 18.330598831176758
+            },
+            {
+                "id": "nq_5906_1",
+                "score": 18.194000244140625
+            },
+            {
+                "id": "nq_5906_27",
+                "score": 18.178499221801758
+            },
+            {
+                "id": "nq_5906_2",
+                "score": 18.04050064086914
+            },
+            {
+                "id": "nq_47098_34",
+                "score": 18.002099990844727
+            },
+            {
+                "id": "nq_23935_21",
+                "score": 17.901199340820312
+            },
+            {
+                "id": "nq_5906_35",
+                "score": 17.86910057067871
+            },
+            {
+                "id": "nq_23935_1",
+                "score": 17.765499114990234
+            },
+            {
+                "id": "nq_23935_2",
+                "score": 17.72760009765625
+            },
+            {
+                "id": "nq_23935_5",
+                "score": 17.281200408935547
+            },
+            {
+                "id": "nq_23935_4",
+                "score": 17.208599090576172
+            },
+            {
+                "id": "nq_23935_22",
+                "score": 17.190500259399414
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "nq_5906_3",
+                "score": 22.511699676513672
+            },
+            {
+                "id": "nq_5906_5",
+                "score": 21.042800903320312
+            },
+            {
+                "id": "nq_5906_7",
+                "score": 20.58449935913086
+            },
+            {
+                "id": "nq_5906_4",
+                "score": 20.34269905090332
+            },
+            {
+                "id": "nq_5906_8",
+                "score": 19.383800506591797
+            },
+            {
+                "id": "nq_5906_42",
+                "score": 19.241300582885742
+            },
+            {
+                "id": "nq_5906_6",
+                "score": 19.023700714111328
+            },
+            {
+                "id": "nq_5906_1",
+                "score": 18.194000244140625
+            },
+            {
+                "id": "nq_5906_27",
+                "score": 18.178499221801758
+            },
+            {
+                "id": "nq_5906_2",
+                "score": 18.04050064086914
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_72_1",
+                "score": 16.24169921875
+            },
+            {
+                "id": "tat_72_2",
+                "score": 16.033899307250977
+            },
+            {
+                "id": "tat_72_4",
+                "score": 14.846199989318848
+            },
+            {
+                "id": "tat_72_5",
+                "score": 12.529600143432617
+            },
+            {
+                "id": "tat_533_0",
+                "score": 8.600799560546875
+            },
+            {
+                "id": "tat_2197_1",
+                "score": 5.736999988555908
+            },
+            {
+                "id": "tat_2197_0",
+                "score": 5.269899845123291
+            },
+            {
+                "id": "tat_1385_0",
+                "score": 4.4046735763549805
+            },
+            {
+                "id": "tat_942_0",
+                "score": 4.283497333526611
+            },
+            {
+                "id": "tat_1936_0",
+                "score": 4.203999042510986
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_3617_0",
+                "score": 18.33060073852539
+            },
+            {
+                "id": "ott_9445_0",
+                "score": 18.330598831176758
+            },
+            {
+                "id": "ott_13743_1",
+                "score": 13.869799613952637
+            },
+            {
+                "id": "ott_19491_1",
+                "score": 13.86979866027832
+            },
+            {
+                "id": "ott_30733_1",
+                "score": 13.869797706604004
+            },
+            {
+                "id": "ott_32831_1",
+                "score": 13.869796752929688
+            },
+            {
+                "id": "ott_37883_1",
+                "score": 13.869795799255371
+            },
+            {
+                "id": "ott_13743_0",
+                "score": 12.769000053405762
+            },
+            {
+                "id": "ott_19491_0",
+                "score": 12.768999099731445
+            },
+            {
+                "id": "ott_30733_0",
+                "score": 12.768998146057129
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_5906_3",
+                "score": 22.511699676513672
+            },
+            {
+                "id": "nq_5906_5",
+                "score": 21.042800903320312
+            },
+            {
+                "id": "nq_5906_7",
+                "score": 20.58449935913086
+            },
+            {
+                "id": "nq_5906_4",
+                "score": 20.34269905090332
+            },
+            {
+                "id": "nq_5906_8",
+                "score": 19.383800506591797
+            },
+            {
+                "id": "nq_5906_42",
+                "score": 19.241300582885742
+            },
+            {
+                "id": "nq_5906_6",
+                "score": 19.023700714111328
+            },
+            {
+                "id": "nq_5906_1",
+                "score": 18.194000244140625
+            },
+            {
+                "id": "nq_5906_27",
+                "score": 18.178499221801758
+            },
+            {
+                "id": "nq_5906_2",
+                "score": 18.04050064086914
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_65954_37",
+                "score": 10.529898643493652
+            },
+            {
+                "id": "triviaqa_46061_234",
+                "score": 10.124899864196777
+            },
+            {
+                "id": "triviaqa_26118_114",
+                "score": 9.135499954223633
+            },
+            {
+                "id": "triviaqa_70499_3",
+                "score": 9.051400184631348
+            },
+            {
+                "id": "triviaqa_19607_16",
+                "score": 9.02649974822998
+            },
+            {
+                "id": "triviaqa_26118_113",
+                "score": 9.011899948120117
+            },
+            {
+                "id": "triviaqa_59663_6",
+                "score": 8.91759967803955
+            },
+            {
+                "id": "triviaqa_12827_177",
+                "score": 8.90880012512207
+            },
+            {
+                "id": "triviaqa_59663_7",
+                "score": 8.78320026397705
+            },
+            {
+                "id": "triviaqa_24457_0",
+                "score": 8.760299682617188
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.059j2_3279",
+                "score": 7.673299789428711
+            },
+            {
+                "id": "m.02r7w88_3",
+                "score": 7.567500114440918
+            },
+            {
+                "id": "m.01cx__265",
+                "score": 7.404600143432617
+            },
+            {
+                "id": "m.0d6lp_1411",
+                "score": 7.404599189758301
+            },
+            {
+                "id": "m.02r7w88_2",
+                "score": 7.29610013961792
+            },
+            {
+                "id": "m.0d6lp_1410",
+                "score": 7.288300037384033
+            },
+            {
+                "id": "m.0d6lp_2111",
+                "score": 7.288299083709717
+            },
+            {
+                "id": "m.07chmzf_0",
+                "score": 7.226600170135498
+            },
+            {
+                "id": "m.07chmzf_4",
+                "score": 7.212100028991699
+            },
+            {
+                "id": "m.07chmzf_3",
+                "score": 7.211599826812744
+            },
+            {
+                "id": "m.07chmzf_1",
+                "score": 7.2032999992370605
+            },
+            {
+                "id": "m.07chmzf_2",
+                "score": 7.184899806976318
+            },
+            {
+                "id": "m.07chmzf_5",
+                "score": 7.107699871063232
+            },
+            {
+                "id": "m.07pzc_252",
+                "score": 6.193299770355225
+            },
+            {
+                "id": "m.07pzc_544",
+                "score": 6.193298816680908
+            },
+            {
+                "id": "m.059g4_942",
+                "score": 6.0971999168396
+            },
+            {
+                "id": "m.04hzj_270",
+                "score": 6.046000003814697
+            },
+            {
+                "id": "m.0cy97d_14",
+                "score": 6.036099910736084
+            },
+            {
+                "id": "m.0cy97d_15",
+                "score": 5.840099811553955
+            },
+            {
+                "id": "m.017rcq_20",
+                "score": 5.774700164794922
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_5906_4",
+                "score": 0.7218744158744812
+            },
+            {
+                "id": "nq_5906_42",
+                "score": 0.7150230407714844
+            },
+            {
+                "id": "nq_5906_5",
+                "score": 0.7133705019950867
+            },
+            {
+                "id": "nq_5906_8",
+                "score": 0.7007676959037781
+            },
+            {
+                "id": "nq_23935_0",
+                "score": 0.696043074131012
+            },
+            {
+                "id": "nq_23935_15",
+                "score": 0.6949491500854492
+            },
+            {
+                "id": "nq_23935_6",
+                "score": 0.6908749938011169
+            },
+            {
+                "id": "nq_23935_7",
+                "score": 0.6895061135292053
+            },
+            {
+                "id": "nq_5906_7",
+                "score": 0.687053918838501
+            },
+            {
+                "id": "nq_5906_43",
+                "score": 0.684765100479126
+            },
+            {
+                "id": "nq_5906_2",
+                "score": 0.6843056082725525
+            },
+            {
+                "id": "nq_5906_1",
+                "score": 0.6817024946212769
+            },
+            {
+                "id": "nq_5906_3",
+                "score": 0.681267499923706
+            },
+            {
+                "id": "nq_23935_14",
+                "score": 0.679516077041626
+            },
+            {
+                "id": "nq_23935_4",
+                "score": 0.6775029897689819
+            },
+            {
+                "id": "nq_90761_43",
+                "score": 0.6744464039802551
+            },
+            {
+                "id": "nq_5906_36",
+                "score": 0.6711219549179077
+            },
+            {
+                "id": "nq_23935_13",
+                "score": 0.670072078704834
+            },
+            {
+                "id": "nq_23935_5",
+                "score": 0.6693698763847351
+            },
+            {
+                "id": "nq_54135_23",
+                "score": 0.6673271656036377
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "nq_5906_4",
+                "score": 0.7218744158744812
+            },
+            {
+                "id": "nq_5906_42",
+                "score": 0.7150230407714844
+            },
+            {
+                "id": "nq_5906_5",
+                "score": 0.7133705019950867
+            },
+            {
+                "id": "nq_5906_8",
+                "score": 0.7007676959037781
+            },
+            {
+                "id": "nq_5906_7",
+                "score": 0.687053918838501
+            },
+            {
+                "id": "nq_5906_43",
+                "score": 0.684765100479126
+            },
+            {
+                "id": "nq_5906_2",
+                "score": 0.6843056082725525
+            },
+            {
+                "id": "nq_5906_1",
+                "score": 0.6817024946212769
+            },
+            {
+                "id": "nq_5906_3",
+                "score": 0.681267499923706
+            },
+            {
+                "id": "nq_5906_36",
+                "score": 0.6711219549179077
+            }
+        ],
+        "BGE_tat_documents": [
+            {
+                "id": "tat_72_2",
+                "score": 0.5856122970581055
+            },
+            {
+                "id": "tat_533_0",
+                "score": 0.5741949677467346
+            },
+            {
+                "id": "tat_1621_0",
+                "score": 0.5580592751502991
+            },
+            {
+                "id": "tat_158_0",
+                "score": 0.5570104718208313
+            },
+            {
+                "id": "tat_942_0",
+                "score": 0.5531309247016907
+            },
+            {
+                "id": "tat_99_1",
+                "score": 0.5504085421562195
+            },
+            {
+                "id": "tat_1102_0",
+                "score": 0.5489097833633423
+            },
+            {
+                "id": "tat_1206_0",
+                "score": 0.5477835536003113
+            },
+            {
+                "id": "tat_1394_0",
+                "score": 0.5473142266273499
+            },
+            {
+                "id": "tat_72_1",
+                "score": 0.5451650619506836
+            }
+        ],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_3617_0",
+                "score": 0.6326034069061279
+            },
+            {
+                "id": "ott_9445_0",
+                "score": 0.6326034069061279
+            },
+            {
+                "id": "ott_1011_0",
+                "score": 0.598332405090332
+            },
+            {
+                "id": "ott_3525_0",
+                "score": 0.598332405090332
+            },
+            {
+                "id": "ott_29169_0",
+                "score": 0.598332405090332
+            },
+            {
+                "id": "ott_13743_0",
+                "score": 0.5747390985488892
+            },
+            {
+                "id": "ott_37883_0",
+                "score": 0.5747390985488892
+            },
+            {
+                "id": "ott_32831_0",
+                "score": 0.5747390985488892
+            },
+            {
+                "id": "ott_30733_0",
+                "score": 0.5747390985488892
+            },
+            {
+                "id": "ott_19491_0",
+                "score": 0.5747390985488892
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_5906_4",
+                "score": 0.7218744158744812
+            },
+            {
+                "id": "nq_5906_42",
+                "score": 0.7150230407714844
+            },
+            {
+                "id": "nq_5906_5",
+                "score": 0.7133705019950867
+            },
+            {
+                "id": "nq_5906_8",
+                "score": 0.7007676959037781
+            },
+            {
+                "id": "nq_23935_0",
+                "score": 0.696043074131012
+            },
+            {
+                "id": "nq_23935_15",
+                "score": 0.6949491500854492
+            },
+            {
+                "id": "nq_23935_6",
+                "score": 0.6908749938011169
+            },
+            {
+                "id": "nq_23935_7",
+                "score": 0.6895061135292053
+            },
+            {
+                "id": "nq_5906_7",
+                "score": 0.687053918838501
+            },
+            {
+                "id": "nq_5906_43",
+                "score": 0.684765100479126
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_36570_32",
+                "score": 0.6021692156791687
+            },
+            {
+                "id": "triviaqa_36570_17",
+                "score": 0.5901567339897156
+            },
+            {
+                "id": "triviaqa_36570_19",
+                "score": 0.5774196982383728
+            },
+            {
+                "id": "triviaqa_51944_43",
+                "score": 0.5762243866920471
+            },
+            {
+                "id": "triviaqa_36570_1",
+                "score": 0.5753328204154968
+            },
+            {
+                "id": "triviaqa_36570_13",
+                "score": 0.5745590329170227
+            },
+            {
+                "id": "triviaqa_40951_74",
+                "score": 0.5699663162231445
+            },
+            {
+                "id": "triviaqa_21318_9",
+                "score": 0.5697559118270874
+            },
+            {
+                "id": "triviaqa_36570_30",
+                "score": 0.5695119500160217
+            },
+            {
+                "id": "triviaqa_39383_578",
+                "score": 0.5692102313041687
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02zgwmc_81",
+                "score": 0.5843176245689392
+            },
+            {
+                "id": "m.0zjn84y_5",
+                "score": 0.5787529945373535
+            },
+            {
+                "id": "m.0349s_26748",
+                "score": 0.5775662660598755
+            },
+            {
+                "id": "m.02zgwmc_591",
+                "score": 0.5762917995452881
+            },
+            {
+                "id": "m.0349s_24958",
+                "score": 0.5762709975242615
+            },
+            {
+                "id": "m.0349s_25302",
+                "score": 0.5761947631835938
+            },
+            {
+                "id": "m.0349s_16275",
+                "score": 0.5748867988586426
+            },
+            {
+                "id": "m.0349s_15297",
+                "score": 0.5736698508262634
+            },
+            {
+                "id": "m.0349s_20557",
+                "score": 0.5736459493637085
+            },
+            {
+                "id": "m.0349s_8689",
+                "score": 0.5732212662696838
+            },
+            {
+                "id": "m.0349s_26765",
+                "score": 0.5723870992660522
+            },
+            {
+                "id": "m.0x73qxb_36",
+                "score": 0.5723179578781128
+            },
+            {
+                "id": "m.0349s_8108",
+                "score": 0.5721867680549622
+            },
+            {
+                "id": "m.0q767z1_48",
+                "score": 0.5721539258956909
+            },
+            {
+                "id": "m.0349s_24916",
+                "score": 0.5719238519668579
+            },
+            {
+                "id": "m.0zslc7k_30",
+                "score": 0.5716536045074463
+            },
+            {
+                "id": "m.0349s_13083",
+                "score": 0.5713383555412292
+            },
+            {
+                "id": "m.0zlx2vf_8",
+                "score": 0.5708200335502625
+            },
+            {
+                "id": "m.0349s_3380",
+                "score": 0.5695264935493469
+            },
+            {
+                "id": "m.0349s_19706",
+                "score": 0.5692199468612671
+            }
+        ],
+        "fail_detail": {
+            "m.02r7w88_3": [
+                true,
+                true,
+                true
+            ],
+            "m.02zgwmc_81": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_65954_37": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_36570_32": [
+                true,
+                true,
+                true
+            ],
+            "nq_5906_7": [
+                true,
+                true,
+                true
+            ],
+            "nq_5906_4": [
+                true,
+                true,
+                true
+            ],
+            "tat_72_1": [
+                true,
+                true,
+                true
+            ],
+            "tat_72_2": [
+                true,
+                true,
+                true
+            ],
+            "m.0zjn84y_5": [
+                true,
+                true,
+                true
+            ],
+            "nq_5906_8": [
+                true,
+                true,
+                true
+            ],
+            "m.059j2_3279": [
+                true,
+                true,
+                true
+            ],
+            "nq_23935_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_5906_5": [
+                true,
+                true,
+                true
+            ],
+            "ott_3617_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_5906_42": [
+                true,
+                true,
+                true
+            ],
+            "nq_5906_3": [
+                true,
+                true,
+                true
+            ]
+        },
+        "llm_fail": {},
+        "relevance_judgement": 2,
+        "llm_mark_result": {
+            "m.02r7w88_3": {
+                "Query Analysis": "The query seeks to determine the specific version of SQL Server that Azure utilizes.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document appears to be related to a location named 'Used, Huesca' and includes various metadata such as Wikipedia page identifiers and titles in different languages, as well as population numbers related to server topics. There is no clear information about SQL Server or Azure.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('2016 codebase') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on a geographical location and its related metadata, which is unrelated to the technical query about SQL Server versions used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a geographical location and its metadata, which has no relevance to the technical aspects of SQL Server versions used by Azure. Therefore, it is deemed irrelevant."
+            },
+            "m.02zgwmc_81": {
+                "Query Analysis": "The query is seeking information about the specific version of SQL Server that Microsoft Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the '2016 codebase'.",
+                "Document Content Analysis": "The document appears to be a series of Blob_IDs and their corresponding lengths, uploaded by a user named 'namesbc'. There is no readable text content related to SQL Server or Azure.",
+                "Document and Query Keywords Matching": "None of the query keywords ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('2016 codebase') are found in the document.",
+                "Key Information Matching": "There is no key information related to SQL Server or Azure in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It consists of technical data (Blob_IDs and lengths) without any textual content that could be relevant to SQL Server or Azure. Therefore, it is judged as irrelevant."
+            },
+            "triviaqa_65954_37": {
+                "Query Analysis": "The query is asking about the specific version of SQL Server that is used by Microsoft Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the 2016 codebase.",
+                "Document Content Analysis": "The document primarily discusses historical and logistical details about Ascension Island, including its use during World War II, the construction of an airfield, and various challenges faced on the island. It also mentions a SQL syntax error but does not provide any context related to Azure or SQL Server versions.",
+                "Document and Query Keywords Matching": "The document contains a mention of 'SQL' in the context of a syntax error, but it does not include 'Azure' or 'version'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as '2016 codebase' or any specific SQL Server version.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The mention of 'SQL' is incidental and unrelated to the context of Azure or SQL Server versions.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on historical and logistical aspects of Ascension Island and contains no relevant information about Azure or SQL Server versions. The single mention of 'SQL' is in the context of a syntax error and does not contribute to answering the query."
+            },
+            "triviaqa_36570_32": {
+                "Query Analysis": "The query is seeking information about the specific version of SQL Server that Microsoft Azure utilizes.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document lists various editions and versions of Windows Server 2003, along with their respective product codes (MPCs). It provides instructions on how to perform a repair install and how to retrieve or modify the MPC.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords ('version', 'SQL Server', 'Azure').",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer ('2016 codebase').",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on Windows Server 2003 and product codes, which are unrelated to SQL Server versions used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about SQL Server versions or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about SQL Server versions or Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Windows Server 2003 and product codes, which are not relevant to the specific version of SQL Server used by Azure. Therefore, it provides no useful context or additional information to answer the query."
+            },
+            "nq_5906_7": {
+                "Query Analysis": "The query seeks information about the specific version of SQL Server that Microsoft Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the '2016 codebase'.",
+                "Document Content Analysis": "The document consists of a list of hyperlinks and references primarily related to SQL tools, Visual Studio, and Azure SQL Database documentation, with retrieval dates around November 2016.",
+                "Document and Query Keywords Matching": "The document mentions 'SQL' and 'Azure' in several contexts, but does not explicitly mention 'version' or 'SQL Server'.",
+                "Document and Answer Keywords Matching": "The document does not directly mention '2016 codebase' or any specific version of SQL Server.",
+                "Key Information Matching": "While the document references Azure SQL Database and related topics, it lacks specific information about the version of SQL Server used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain enough relevant details to infer the specific version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is largely irrelevant to the query as it does not provide any specific information about the version of SQL Server used by Azure. The references are more about general SQL tools and Azure SQL Database documentation, which do not directly address the query's focus on the SQL Server version."
+            },
+            "nq_5906_4": {
+                "Query Analysis": "The query is asking for the specific version of SQL Server that Microsoft Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' for its SQL Server.",
+                "Document Content Analysis": "The document provides a timeline of the Microsoft Azure SQL Database service and details about its pricing and service tiers. It mentions various features and updates but does not explicitly state the version of SQL Server used.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure SQL Database', which is directly related to the query keywords 'Azure' and 'SQL Server'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention '2016 codebase' or any specific version number of SQL Server.",
+                "Key Information Matching": "While the document discusses Azure SQL Database extensively, it lacks specific information about the SQL Server version used.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Azure SQL Database, which is relevant to the broader topic of the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about Azure SQL Database, which is related to the query. However, it does not directly answer the specific question about the SQL Server version, making it insufficient for a direct answer but useful for understanding the broader context."
+            },
+            "tat_72_1": {
+                "Query Analysis": "The query is seeking information about the specific version of SQL Server that Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document provides financial and operational details about Microsoft's performance in Fiscal Year 2019 compared to 2018. It includes segments on Productivity and Business Processes, Intelligent Cloud, and specific revenue and growth figures related to Azure, Office 365, LinkedIn, and server products.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' and 'SQL Server 2008' in the context of end-of-support.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention '2016 codebase'.",
+                "Key Information Matching": "While the document discusses Azure and SQL Server, it does not provide specific information about the version of SQL Server that Azure uses. The mention of SQL Server 2008 is related to end-of-support, not the version used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any additional context that could help infer the specific version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily focused on financial and operational performance metrics and does not contain specific technical details about the versions of software used by Azure. While it mentions Azure and SQL Server, the context is not relevant to the query's specific need for the version of SQL Server used by Azure."
+            },
+            "tat_72_2": {
+                "Query Analysis": "The query is seeking information about the specific version of SQL Server that Microsoft Azure utilizes.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document discusses Azure's revenue growth, the demand for server products, and the end-of-support for SQL Server 2008 and Windows Server 2008. It provides financial details and growth metrics related to various Microsoft products and services, including Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' and 'SQL Server 2008', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention '2016 codebase' or any specific version of SQL Server used by Azure.",
+                "Key Information Matching": "While the document discusses SQL Server in the context of end-of-support for SQL Server 2008, it does not provide direct information about the version of SQL Server that Azure uses.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about SQL Server and Azure, which could be tangentially relevant, but it does not help infer the specific version used.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it mentions Azure and SQL Server, but it lacks the specific detail needed to directly answer the query about the version of SQL Server used by Azure. Therefore, it is partially relevant."
+            },
+            "m.0zjn84y_5": {
+                "Query Analysis": "The query is seeking information about the specific version of SQL Server that is used by Microsoft Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the '2016 codebase'.",
+                "Document Content Analysis": "The document provides information about a musical composition titled 'Adagio and Rondo for Glass Armonica, Flute, Oboe, Viola & Cello in C minor, K. 617'. It includes details about the composition, its recorded versions, and its classification as a musical piece.",
+                "Document and Query Keywords Matching": "None of the query keywords ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('2016 codebase') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches or relates to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about SQL Server or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to SQL Server or Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a musical composition and contains no information about technology, databases, or Azure. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "nq_5906_8": {
+                "Query Analysis": "The query is seeking information about the specific version of SQL Server that Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' for its SQL Server.",
+                "Document Content Analysis": "The document appears to be a list of hyperlinks and references related to SQL Data Services and Azure, with titles suggesting discussions about SQL Server compatibility and features in Azure. However, the actual content of the linked articles is not provided in the document.",
+                "Document and Query Keywords Matching": "The document mentions 'SQL Server' and 'Azure' in the titles of the linked articles.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention '2016 codebase'.",
+                "Key Information Matching": "While the document contains references to SQL Server and Azure, it lacks specific information about the version of SQL Server used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Possibly, the linked articles might contain relevant information about SQL Server compatibility and features in Azure, which could indirectly help infer the version used.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it mentions SQL Server and Azure, which are key components of the query. However, it does not directly provide the specific version information required to answer the query. The linked articles might offer more detailed information that could be useful for inferential purposes."
+            },
+            "m.059j2_3279": {
+                "Query Analysis": "The query asks about the specific version of SQL Server that Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document provides information about various entities and their associations with the Netherlands, including country of origin, region, and country of nationality. It primarily focuses on geographical and cultural associations with the Netherlands.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'version', 'SQL Server', or 'Azure'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as '2016 codebase'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely unrelated to technology, databases, or Azure.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about SQL Server or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about SQL Server versions used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It focuses on geographical and cultural associations with the Netherlands and does not mention any technology-related topics, including SQL Server or Azure. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "nq_23935_0": {
+                "Query Analysis": "The query seeks to identify the specific version of SQL Server that is used by Microsoft Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the '2016 codebase'.",
+                "Document Content Analysis": "The document provides information about Microsoft SQL Server Express, including its stable release version (SQL Server 2017 Express), development details, operating system compatibility, and other technical specifications.",
+                "Document and Query Keywords Matching": "The document mentions 'SQL Server', but does not explicitly mention 'Azure' or 'version'.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' but does mention 'SQL Server 2017 Express'.",
+                "Key Information Matching": "While the document discusses SQL Server, it focuses on the Express version and does not provide information directly related to Azure or the specific codebase used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the SQL Server version used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's focus on SQL Server Express does not offer relevant context or details about Azure's SQL Server usage.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about SQL Server Express and does not contain any information directly related to Azure or the specific SQL Server version it uses. Therefore, it is irrelevant to the query."
+            },
+            "nq_5906_5": {
+                "Query Analysis": "The query seeks to identify the specific version of SQL Server that Microsoft Azure uses for its SQL Database service.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' for its SQL Server.",
+                "Document Content Analysis": "The document describes different service tiers (Basic, Standard, Premium) for Microsoft Azure SQL Database, their typical use cases, and mentions that it is available as a limited service offering with a trial Web site or Mobile service.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' and 'SQL Database', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention '2016 codebase' or any specific version of SQL Server.",
+                "Key Information Matching": "While the document discusses Azure SQL Database and its service tiers, it lacks specific information about the SQL Server version used.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Azure SQL Database services, which is tangentially related to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses Azure SQL Database, which is the subject of the query, but it does not provide the specific detail required to answer the query about the SQL Server version. The document's focus on service tiers and use cases provides some context but lacks the necessary technical detail."
+            },
+            "ott_3617_0": {
+                "Query Analysis": "The query seeks to identify the specific version of SQL Server that is used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document provides a comparison of various version-control software, detailing their history and notable users. It includes entries for Azure DevOps Server and Azure DevOps Services but does not mention SQL Server.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' in the context of Azure DevOps Server and Azure DevOps Services.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any version of SQL Server.",
+                "Key Information Matching": "While the document mentions 'Azure', it does not provide any information related to SQL Server or its versions.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information about SQL Server or its usage in Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on version-control software and does not provide any information about SQL Server or its versions. Therefore, it is irrelevant to the query about the version of SQL Server used by Azure."
+            },
+            "nq_5906_42": {
+                "Query Analysis": "The query seeks to identify the specific version of SQL Server that Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document appears to be a part of a Wikipedia page about Microsoft Azure SQL Database, with links to different language versions and licensing information. The provided text does not contain substantive content about the SQL Server version used by Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'Microsoft Azure SQL Database', which is related to the query keywords 'Azure' and 'SQL'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer, such as '2016 codebase'.",
+                "Key Information Matching": "While the document is related to Azure SQL Database, it lacks specific information about the version of SQL Server used.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any additional information that could help infer the SQL Server version used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not provide any useful context or additional information about the version of SQL Server used by Azure. The text is primarily about page navigation and licensing, which does not assist in answering the query."
+            },
+            "nq_5906_3": {
+                "Query Analysis": "The query seeks to determine the version of SQL Server that Azure uses, specifically focusing on the codebase version.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the '2016 codebase' for its SQL Server.",
+                "Document Content Analysis": "The document provides information about Microsoft Azure SQL Database, including its design, use cases, timeline, and pricing. It mentions that Azure SQL Database shares the SQL Server 2016 codebase and is compatible with SQL Server 2014 and 2016.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Azure' and 'SQL Server'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'SQL Server 2016 codebase', which matches the answer.",
+                "Key Information Matching": "The document directly states that Azure SQL Database shares the SQL Server 2016 codebase, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the codebase version used by Azure SQL Database.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the compatibility with other SQL Server versions and features available in Azure SQL Database.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information about the SQL Server codebase version used by Azure. It not only answers the query but also offers additional context that enhances understanding."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.02r7w88_3": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the 2016 codebase.",
+                "Document Content Analysis": "The document contains information about 'Used, Huesca' including various identifiers and population numbers, but does not mention SQL Server, Azure, or any related technologies.",
+                "Document and Query Keywords Matching": "None of the query keywords ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('2016 codebase') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SQL Server, Azure, or their versions.",
+                "Can the Document Answer the Query": "No, the document does not mention SQL Server or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about SQL Server versions in Azure. It does not provide any useful context or additional information relevant to the query."
+            },
+            "m.02zgwmc_81": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document appears to be a series of metadata entries or logs, possibly related to file uploads or system operations, with no discernible content about SQL Server or Azure.",
+                "Document and Query Keywords Matching": "None of the keywords 'version', 'SQL Server', or 'Azure' are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer, such as '2016' or 'codebase', are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SQL Server versions or Azure services.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about SQL Server versions used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query, containing no information about SQL Server, Azure, or any relevant context that could assist in answering the query."
+            },
+            "triviaqa_65954_37": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document primarily discusses historical and logistical details about Ascension Island, including its airfield, military activities, and environmental conditions. There is a brief mention of an SQL syntax error, but it pertains to MySQL, not SQL Server or Azure.",
+                "Document and Query Keywords Matching": "None of the query keywords ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('2016 codebase') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SQL Server versions or Azure.",
+                "Can the Document Answer the Query": "No, the document does not mention SQL Server or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about SQL Server versions used by Azure. It does not mention any of the key terms or provide any context that could assist in answering the query."
+            },
+            "triviaqa_36570_32": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document provides a list of various editions and versions of Server 2003, including Standard, Web, Enterprise, and Datacenter editions, along with their licensing types and evaluation versions. It does not mention SQL Server or Azure.",
+                "Document and Query Keywords Matching": "None of the query keywords ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('2016', 'codebase') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SQL Server or Azure, nor does it mention any version or codebase related to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention SQL Server or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses Server 2003 editions and licensing without any mention of SQL Server or Azure. Therefore, it is irrelevant to the query."
+            },
+            "nq_5906_7": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document contains various references to Azure SQL Database, including links to documentation and blog posts about Azure SQL Database features, compatibility, and updates. However, it does not explicitly mention the version of SQL Server used by Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure SQL Database' and 'SQL Server', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention '2016 codebase' or any specific version of SQL Server.",
+                "Key Information Matching": "The document discusses Azure SQL Database and its features but does not provide the specific version of SQL Server used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not directly state the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Azure SQL Database and its features, which could indirectly help in understanding the SQL Server version used.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses Azure SQL Database, but it lacks the specific information about the SQL Server version used by Azure. It provides some context but does not directly answer the query."
+            },
+            "nq_5906_4": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document provides a timeline of Azure SQL Database, pricing details, and service tiers but does not explicitly mention the SQL Server version used.",
+                "Document and Query Keywords Matching": "The document mentions 'Microsoft Azure SQL Database' and 'SQL Server', which partially match the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any specific SQL Server version.",
+                "Key Information Matching": "The document discusses Azure SQL Database but lacks specific information about the SQL Server version used.",
+                "Can the Document Answer the Query": "No, the document does not provide the SQL Server version used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the SQL Server version.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not provide any key information related to the SQL Server version used by Azure, making it irrelevant to the query."
+            },
+            "tat_72_1": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the 2016 codebase of SQL Server.",
+                "Document Content Analysis": "The document discusses Microsoft's financial performance, including segments like Productivity and Business Processes, Intelligent Cloud, and mentions Azure, SQL Server, and other cloud services. It highlights revenue growth and operational details but does not explicitly state the version of SQL Server used by Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' and 'SQL Server'.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any specific version of SQL Server.",
+                "Key Information Matching": "The document mentions Azure and SQL Server but does not provide information about the specific version of SQL Server used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not specify the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Azure and SQL Server but does not contain any information about the version of SQL Server used by Azure. Therefore, it is irrelevant to the query."
+            },
+            "tat_72_2": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the 2016 codebase of SQL Server.",
+                "Document Content Analysis": "The document discusses Azure's revenue growth, server products, and mentions SQL Server 2008 and Windows Server 2008 in the context of end-of-support. It does not provide specific information about the version of SQL Server currently used by Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' and 'SQL Server'.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any specific version of SQL Server used by Azure.",
+                "Key Information Matching": "The document mentions 'SQL Server' in the context of end-of-support for SQL Server 2008, but does not provide information about the current version used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not specify the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'SQL Server' and 'Azure', but it does not provide any relevant information about the version of SQL Server used by Azure. Therefore, it is irrelevant to the query."
+            },
+            "m.0zjn84y_5": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the 2016 codebase.",
+                "Document Content Analysis": "The document contains information about a musical composition, specifically 'Adagio and Rondo for Glass Armonica, Flute, Oboe, Viola & Cello in C minor, K. 617: I. Adagio', including its type, recorded versions, and other related metadata. There is no mention of SQL Server, Azure, or any related technology.",
+                "Document and Query Keywords Matching": "None of the query keywords ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('2016 codebase') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SQL Server or Azure, nor does it provide any context that could help infer the answer to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about SQL Server or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could assist in answering the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, which is about the version of SQL Server used by Azure. The content of the document is about a musical composition and does not provide any useful context or information relevant to the query."
+            },
+            "nq_5906_8": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document contains references to Azure SQL Database and SQL Data Services, mentioning compatibility and features related to SQL Server in Azure. However, it does not explicitly state the version of SQL Server used.",
+                "Document and Query Keywords Matching": "The document mentions 'SQL Server', 'Azure', and 'SQL Database', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention '2016 codebase' or any specific version of SQL Server.",
+                "Key Information Matching": "The document discusses Azure SQL Database and its features but lacks specific information about the SQL Server version used.",
+                "Can the Document Answer the Query": "No, the document does not directly state the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Azure SQL Database and its compatibility with SQL Server, which could indirectly help in understanding the version used.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses Azure SQL Database and SQL Server compatibility, but it does not provide the specific version information required to answer the query directly."
+            },
+            "m.059j2_3279": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document contains a list of various entities and their associations with the Netherlands, including countries of origin, regions, and other unrelated information.",
+                "Document and Query Keywords Matching": "None of the query keywords ('version', 'SQL Server', 'Azure') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('2016 codebase') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SQL Server, Azure, or software versions.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about SQL Server or Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it does not mention SQL Server, Azure, or any software versions. It provides no useful context or additional information relevant to the query."
+            },
+            "nq_23935_0": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server version based on the 2016 codebase.",
+                "Document Content Analysis": "The document provides information about Microsoft SQL Server Express, including its stable release (SQL Server 2017 Express), developer, operating system, and other technical details. However, it does not mention Azure or the specific version of SQL Server used by Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'SQL Server' but does not mention 'Azure' or 'version' in the context of Azure.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any version related to Azure.",
+                "Key Information Matching": "The document does not provide any information about Azure or the version of SQL Server it uses. It focuses solely on SQL Server Express.",
+                "Can the Document Answer the Query": "No, the document does not mention Azure or the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Azure or the SQL Server version it uses.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about SQL Server Express and does not mention Azure or the specific version of SQL Server used by Azure. Therefore, it is irrelevant to the query."
+            },
+            "nq_5906_5": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the '2016 codebase' of SQL Server.",
+                "Document Content Analysis": "The document discusses different tiers of Microsoft Azure SQL Database (Standard, Premium) and their use cases but does not mention the specific version of SQL Server used by Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'SQL Server' and 'Azure'.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any specific version of SQL Server.",
+                "Key Information Matching": "The document mentions 'SQL Server' and 'Azure' but lacks information about the version of SQL Server used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not specify the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any key information related to the query about the version of SQL Server used by Azure, making it irrelevant."
+            },
+            "ott_3617_0": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses a SQL Server based on the 2016 codebase.",
+                "Document Content Analysis": "The document provides a comparison of various version-control software, including Azure DevOps Server and Azure DevOps Services, but does not mention SQL Server or its versions.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' in the context of Azure DevOps Server and Azure DevOps Services, but does not mention 'SQL Server' or 'version' in relation to SQL Server.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any version of SQL Server.",
+                "Key Information Matching": "The document does not provide any information about SQL Server or its versions used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not mention SQL Server or its versions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about SQL Server or Azure's use of it.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about version-control software and does not contain any information related to SQL Server or its versions used by Azure, making it irrelevant to the query."
+            },
+            "nq_5906_42": {
+                "Query Analysis": "The query asks about the version of SQL Server used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the 2016 codebase of SQL Server.",
+                "Document Content Analysis": "The document appears to be a Wikipedia page about Microsoft Azure SQL Database, but the provided content does not contain any substantive information about the SQL Server version used by Azure. It includes links to different language versions of the page and copyright information.",
+                "Document and Query Keywords Matching": "The document mentions 'Microsoft Azure SQL Database', which partially matches 'Azure' and 'SQL Server' from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any version-related information.",
+                "Key Information Matching": "The document does not provide any key information related to the SQL Server version used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer or any version-related information.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any substantive information related to the query or the answer. It is irrelevant as it does not provide any useful context or additional information about the SQL Server version used by Azure."
+            },
+            "nq_5906_3": {
+                "Query Analysis": "The query asks about the version of SQL Server that Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure SQL Database uses the '2016 codebase' of SQL Server.",
+                "Document Content Analysis": "The document provides information about Microsoft Azure SQL Database, including its design, timeline, pricing, and popular use cases. It specifically mentions that Azure SQL Database shares the SQL Server 2016 codebase and is compatible with SQL Server 2014 and 2016.",
+                "Document and Query Keywords Matching": "The document mentions 'SQL Server', 'Azure', and '2016', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Azure SQL Database shares the SQL Server 2016 codebase', which matches the answer '2016 codebase'.",
+                "Key Information Matching": "The document directly states that Azure SQL Database uses the SQL Server 2016 codebase, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about compatibility and features of Azure SQL Database.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by specifying the SQL Server version used by Azure (2016 codebase) and provides additional relevant information about Azure SQL Database's design and compatibility."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.02r7w88_3": {},
+            "m.02zgwmc_81": {},
+            "triviaqa_65954_37": {},
+            "triviaqa_36570_32": {},
+            "nq_5906_7": {
+                "Query Analysis": "The query seeks to identify the specific version of SQL Server that is utilized by Azure.",
+                "Query Keywords Extraction": "SQL Server, version, Azure",
+                "Answer Analysis": "The answer suggests that Azure uses the 2016 codebase.",
+                "Document Content Analysis": "The document consists of references and links to various articles and blogs related to Azure SQL Database features, management, and compatibility, but it does not directly mention the version of SQL Server used by Azure.",
+                "Document and Query Keywords Matching": "The document includes references to 'Azure SQL Database' and 'SQL' but does not specifically address SQL Server versions.",
+                "Document and Answer Keywords Matching": "The document does not contain any mention or indication of the '2016 codebase'.",
+                "Key Information Matching": "While the document references Azure SQL Database and related topics, it does not offer specific information regarding the SQL Server version used by Azure.",
+                "Can the Document Answer the Query": "No, the document does not provide information on the specific SQL Server version used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "The document might offer some context on Azure SQL Database features, but it does not provide specific information or hints about the SQL Server version.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not mention or provide relevant details about the SQL Server version used by Azure, nor does it assist in inferring this information. Therefore, it is deemed irrelevant to the query about the specific SQL Server version."
+            },
+            "nq_5906_4": {
+                "Query Analysis": "The query asks for the specific version of SQL Server that Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document provides information about the timeline of Microsoft's Azure SQL Database service, mentioning its announcement, live operation, and updates, as well as pricing tiers and service offerings. It does not directly mention specific SQL Server versions used by Azure.",
+                "Document and Query Keywords Matching": "The document implicitly refers to Azure and SQL Server through the mention of 'Azure SQL Database'.",
+                "Document and Answer Keywords Matching": "The document does not contain any explicit mention of '2016 codebase'.",
+                "Key Information Matching": "The document lacks direct information regarding the specific version of SQL Server that Azure employs. However, it does relate to Azure SQL Database offerings.",
+                "Can the Document Answer the Query": "No, the document does not specify the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the SQL Server version used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the SQL Server version used by Azure, nor does it assist in inferring this information. The document focuses on Azure SQL Database's timeline and pricing, which are unrelated to the specific SQL Server version inquiry."
+            },
+            "tat_72_1": {},
+            "tat_72_2": {
+                "Query Analysis": "The query asks for the version of SQL Server that Azure uses.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the 2016 codebase for SQL Server.",
+                "Document Content Analysis": "The document discusses various aspects of Azure and other Microsoft products' revenues and growth but does not specifically mention any version of SQL Server used by Azure.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' and 'SQL Server', but does not specify the version.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase' or any specific version of SQL Server.",
+                "Key Information Matching": "While the document mentions SQL Server, it does not provide any details about which version Azure uses, hence it lacks the key information needed to directly or indirectly provide an answer.",
+                "Can the Document Answer the Query": "No, the document does not specify the version of SQL Server used by Azure.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that would help infer the version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain key information about the specific SQL Server version used by Azure and thus cannot answer the query or help infer the answer. Therefore, it is deemed irrelevant."
+            },
+            "m.0zjn84y_5": {},
+            "nq_5906_8": {},
+            "m.059j2_3279": {},
+            "nq_23935_0": {},
+            "nq_5906_5": {
+                "Query Analysis": "The query is asking for information about which version of SQL Server is used by Azure.",
+                "Query Keywords Extraction": "version, SQL Server, Azure",
+                "Answer Analysis": "The answer indicates that Azure uses the '2016 codebase' version of SQL Server.",
+                "Document Content Analysis": "The document describes various service offerings related to Azure SQL Database, categorizing them into Basic, Standard, and Premium, and mentions service capabilities. It also includes references and links related to topics such as Microsoft Azure and SQL Server.",
+                "Document and Query Keywords Matching": "The document mentions 'Azure' and 'SQL Server', but it does not directly address the specific version used.",
+                "Document and Answer Keywords Matching": "The document does not mention '2016 codebase'.",
+                "Key Information Matching": "The document provides contextual information about Azure SQL Database offerings and capabilities but does not specify the SQL Server version or codebase.",
+                "Can the Document Answer the Query": "No, the document does not specify which version of SQL Server Azure uses.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide specific information or context that helps infer the version of SQL Server used by Azure.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document contains information about Azure SQL Database offerings and related topics but lacks any details on the SQL Server version or codebase used by Azure. It cannot answer the query or assist in inferring the answer, making it irrelevant to the specific question."
+            },
+            "ott_3617_0": {},
+            "nq_5906_42": {},
+            "nq_5906_3": {}
+        },
+        "dataset_score": {
+            "nq": 2,
+            "tat": 0,
+            "kg": 0,
+            "triviaqa": 0,
+            "ott": 0
+        }
+    }
+}

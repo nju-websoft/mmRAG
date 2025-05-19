@@ -1,0 +1,967 @@
+{
+    "index": 76648,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "What was the name of Gene Autry's horse?",
+        "answer": "Champion",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_26120_20",
+                "score": 17.4596004486084
+            },
+            {
+                "id": "triviaqa_26120_5",
+                "score": 17.4153995513916
+            },
+            {
+                "id": "triviaqa_26120_0",
+                "score": 17.264400482177734
+            },
+            {
+                "id": "triviaqa_26120_21",
+                "score": 16.452299118041992
+            },
+            {
+                "id": "triviaqa_60375_117",
+                "score": 16.138599395751953
+            },
+            {
+                "id": "triviaqa_26120_4",
+                "score": 15.737099647521973
+            },
+            {
+                "id": "triviaqa_26120_1",
+                "score": 15.655200004577637
+            },
+            {
+                "id": "triviaqa_60375_116",
+                "score": 15.362299919128418
+            },
+            {
+                "id": "nq_180361_7",
+                "score": 15.10319995880127
+            },
+            {
+                "id": "nq_204851_7",
+                "score": 15.103199005126953
+            },
+            {
+                "id": "nq_219639_7",
+                "score": 15.103198051452637
+            },
+            {
+                "id": "triviaqa_26120_19",
+                "score": 14.76159954071045
+            },
+            {
+                "id": "nq_224675_9",
+                "score": 13.932999610900879
+            },
+            {
+                "id": "nq_224675_11",
+                "score": 13.661600112915039
+            },
+            {
+                "id": "triviaqa_26120_32",
+                "score": 13.560500144958496
+            },
+            {
+                "id": "nq_224675_10",
+                "score": 13.47700023651123
+            },
+            {
+                "id": "nq_224675_6",
+                "score": 13.375800132751465
+            },
+            {
+                "id": "nq_224675_8",
+                "score": 13.295700073242188
+            },
+            {
+                "id": "triviaqa_59_38",
+                "score": 13.172800064086914
+            },
+            {
+                "id": "triviaqa_26120_33",
+                "score": 13.126799583435059
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_10909_0",
+                "score": 8.360799789428711
+            },
+            {
+                "id": "ott_14907_0",
+                "score": 8.360798835754395
+            },
+            {
+                "id": "ott_8772_0",
+                "score": 8.360797882080078
+            },
+            {
+                "id": "ott_23279_0",
+                "score": 7.476099967956543
+            },
+            {
+                "id": "ott_28413_0",
+                "score": 7.476099014282227
+            },
+            {
+                "id": "ott_32274_0",
+                "score": 7.47609806060791
+            },
+            {
+                "id": "ott_32657_0",
+                "score": 7.476097106933594
+            },
+            {
+                "id": "ott_33692_0",
+                "score": 7.476096153259277
+            },
+            {
+                "id": "ott_28500_0",
+                "score": 7.4394001960754395
+            },
+            {
+                "id": "ott_37238_0",
+                "score": 7.439399242401123
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_180361_7",
+                "score": 15.10319995880127
+            },
+            {
+                "id": "nq_204851_7",
+                "score": 15.103199005126953
+            },
+            {
+                "id": "nq_219639_7",
+                "score": 15.103198051452637
+            },
+            {
+                "id": "nq_224675_9",
+                "score": 13.932999610900879
+            },
+            {
+                "id": "nq_224675_11",
+                "score": 13.661600112915039
+            },
+            {
+                "id": "nq_224675_10",
+                "score": 13.47700023651123
+            },
+            {
+                "id": "nq_224675_6",
+                "score": 13.375800132751465
+            },
+            {
+                "id": "nq_224675_8",
+                "score": 13.295700073242188
+            },
+            {
+                "id": "nq_281492_104",
+                "score": 12.947799682617188
+            },
+            {
+                "id": "nq_177165_12",
+                "score": 12.922699928283691
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_26120_20",
+                "score": 17.4596004486084
+            },
+            {
+                "id": "triviaqa_26120_5",
+                "score": 17.4153995513916
+            },
+            {
+                "id": "triviaqa_26120_0",
+                "score": 17.264400482177734
+            },
+            {
+                "id": "triviaqa_26120_21",
+                "score": 16.452299118041992
+            },
+            {
+                "id": "triviaqa_60375_117",
+                "score": 16.138599395751953
+            },
+            {
+                "id": "triviaqa_26120_4",
+                "score": 15.737099647521973
+            },
+            {
+                "id": "triviaqa_26120_1",
+                "score": 15.655200004577637
+            },
+            {
+                "id": "triviaqa_60375_116",
+                "score": 15.362299919128418
+            },
+            {
+                "id": "triviaqa_26120_19",
+                "score": 14.76159954071045
+            },
+            {
+                "id": "triviaqa_26120_32",
+                "score": 13.560500144958496
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.03ydjpz_0",
+                "score": 10.746500015258789
+            },
+            {
+                "id": "m.03ydjpz_4",
+                "score": 10.480500221252441
+            },
+            {
+                "id": "m.03ydjpz_2",
+                "score": 10.357799530029297
+            },
+            {
+                "id": "m.03ydjpz_3",
+                "score": 10.277400016784668
+            },
+            {
+                "id": "m.03ydjpz_1",
+                "score": 9.168800354003906
+            },
+            {
+                "id": "m.03ydjpz_5",
+                "score": 9.106100082397461
+            },
+            {
+                "id": "m.03ydjpz_6",
+                "score": 8.993300437927246
+            },
+            {
+                "id": "m.05mph_1169",
+                "score": 8.875800132751465
+            },
+            {
+                "id": "m.05mph_99",
+                "score": 8.875799179077148
+            },
+            {
+                "id": "m.06b1q_79",
+                "score": 8.084699630737305
+            },
+            {
+                "id": "m.05mph_908",
+                "score": 7.946800231933594
+            },
+            {
+                "id": "m.03mp8k_246",
+                "score": 7.813600063323975
+            },
+            {
+                "id": "m.05mph_1074",
+                "score": 7.813599109649658
+            },
+            {
+                "id": "m.03mp8k_449",
+                "score": 7.684800148010254
+            },
+            {
+                "id": "m.05mph_467",
+                "score": 7.6847991943359375
+            },
+            {
+                "id": "m.05mph_468",
+                "score": 7.684798240661621
+            },
+            {
+                "id": "m.05mph_630",
+                "score": 7.684797286987305
+            },
+            {
+                "id": "m.05mph_631",
+                "score": 7.684796333312988
+            },
+            {
+                "id": "m.05mph_98",
+                "score": 7.684795379638672
+            },
+            {
+                "id": "m.09c7w0_504",
+                "score": 7.3225998878479
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_26120_20",
+                "score": 0.727227509021759
+            },
+            {
+                "id": "triviaqa_26120_1",
+                "score": 0.6963070034980774
+            },
+            {
+                "id": "triviaqa_26120_0",
+                "score": 0.6889855861663818
+            },
+            {
+                "id": "triviaqa_26120_5",
+                "score": 0.6874186396598816
+            },
+            {
+                "id": "triviaqa_26120_4",
+                "score": 0.6859238743782043
+            },
+            {
+                "id": "triviaqa_26120_21",
+                "score": 0.6529455184936523
+            },
+            {
+                "id": "triviaqa_26120_24",
+                "score": 0.6446257829666138
+            },
+            {
+                "id": "triviaqa_26120_23",
+                "score": 0.6391236186027527
+            },
+            {
+                "id": "triviaqa_26120_27",
+                "score": 0.6334895491600037
+            },
+            {
+                "id": "triviaqa_60375_117",
+                "score": 0.6298303008079529
+            },
+            {
+                "id": "triviaqa_26120_10",
+                "score": 0.6286051273345947
+            },
+            {
+                "id": "triviaqa_26120_22",
+                "score": 0.6263558268547058
+            },
+            {
+                "id": "triviaqa_26120_31",
+                "score": 0.619208574295044
+            },
+            {
+                "id": "nq_234999_3",
+                "score": 0.6162505745887756
+            },
+            {
+                "id": "triviaqa_26120_18",
+                "score": 0.6159208416938782
+            },
+            {
+                "id": "triviaqa_26120_3",
+                "score": 0.6159037351608276
+            },
+            {
+                "id": "triviaqa_26120_8",
+                "score": 0.6082791090011597
+            },
+            {
+                "id": "nq_193412_5",
+                "score": 0.6073395609855652
+            },
+            {
+                "id": "nq_177909_53",
+                "score": 0.6050394773483276
+            },
+            {
+                "id": "triviaqa_26120_19",
+                "score": 0.6048012971878052
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_38878_0",
+                "score": 0.5901225805282593
+            },
+            {
+                "id": "ott_22742_0",
+                "score": 0.5901225805282593
+            },
+            {
+                "id": "ott_6113_0",
+                "score": 0.5901225805282593
+            },
+            {
+                "id": "ott_22742_1",
+                "score": 0.5759927034378052
+            },
+            {
+                "id": "ott_6113_1",
+                "score": 0.5759927034378052
+            },
+            {
+                "id": "ott_38878_1",
+                "score": 0.5759927034378052
+            },
+            {
+                "id": "ott_39372_0",
+                "score": 0.5739278793334961
+            },
+            {
+                "id": "ott_27707_0",
+                "score": 0.5739278793334961
+            },
+            {
+                "id": "ott_32274_0",
+                "score": 0.5607772469520569
+            },
+            {
+                "id": "ott_28413_0",
+                "score": 0.5607772469520569
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_234999_3",
+                "score": 0.6162505745887756
+            },
+            {
+                "id": "nq_193412_5",
+                "score": 0.6073395609855652
+            },
+            {
+                "id": "nq_177909_53",
+                "score": 0.6050394773483276
+            },
+            {
+                "id": "nq_48404_5",
+                "score": 0.6039153933525085
+            },
+            {
+                "id": "nq_301194_3",
+                "score": 0.6019166111946106
+            },
+            {
+                "id": "nq_177909_47",
+                "score": 0.6012624502182007
+            },
+            {
+                "id": "nq_48029_41",
+                "score": 0.6009730696678162
+            },
+            {
+                "id": "nq_175999_153",
+                "score": 0.6005108952522278
+            },
+            {
+                "id": "nq_276056_68",
+                "score": 0.5981755256652832
+            },
+            {
+                "id": "nq_276056_50",
+                "score": 0.5969468355178833
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_26120_20",
+                "score": 0.727227509021759
+            },
+            {
+                "id": "triviaqa_26120_1",
+                "score": 0.6963070034980774
+            },
+            {
+                "id": "triviaqa_26120_0",
+                "score": 0.6889855861663818
+            },
+            {
+                "id": "triviaqa_26120_5",
+                "score": 0.6874186396598816
+            },
+            {
+                "id": "triviaqa_26120_4",
+                "score": 0.6859238743782043
+            },
+            {
+                "id": "triviaqa_26120_21",
+                "score": 0.6529455184936523
+            },
+            {
+                "id": "triviaqa_26120_24",
+                "score": 0.6446257829666138
+            },
+            {
+                "id": "triviaqa_26120_23",
+                "score": 0.6391236186027527
+            },
+            {
+                "id": "triviaqa_26120_27",
+                "score": 0.6334895491600037
+            },
+            {
+                "id": "triviaqa_60375_117",
+                "score": 0.6298303008079529
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.03ydjpz_0",
+                "score": 0.5995897054672241
+            },
+            {
+                "id": "m.03ydjpz_4",
+                "score": 0.569895327091217
+            },
+            {
+                "id": "m.034c5l_53",
+                "score": 0.5686050653457642
+            },
+            {
+                "id": "m.03ydjpz_2",
+                "score": 0.5641903877258301
+            },
+            {
+                "id": "m.03ydjpz_1",
+                "score": 0.5619657635688782
+            },
+            {
+                "id": "m.034c5l_14",
+                "score": 0.5587594509124756
+            },
+            {
+                "id": "m.03ydjpz_5",
+                "score": 0.5554122924804688
+            },
+            {
+                "id": "m.034c5l_18",
+                "score": 0.550721287727356
+            },
+            {
+                "id": "m.034c5l_1",
+                "score": 0.5502070784568787
+            },
+            {
+                "id": "m.034c5l_52",
+                "score": 0.548363208770752
+            },
+            {
+                "id": "m.05mph_468",
+                "score": 0.547633171081543
+            },
+            {
+                "id": "m.034c5l_6",
+                "score": 0.5472813844680786
+            },
+            {
+                "id": "m.034c5l_46",
+                "score": 0.544811487197876
+            },
+            {
+                "id": "m.034c5l_24",
+                "score": 0.5422261357307434
+            },
+            {
+                "id": "m.034c5l_7",
+                "score": 0.5421105027198792
+            },
+            {
+                "id": "m.034c5l_41",
+                "score": 0.5419052243232727
+            },
+            {
+                "id": "m.0f_lf__1",
+                "score": 0.5416096448898315
+            },
+            {
+                "id": "m.034c5l_38",
+                "score": 0.5413623452186584
+            },
+            {
+                "id": "m.034c5l_28",
+                "score": 0.5404931306838989
+            },
+            {
+                "id": "m.034c5l_29",
+                "score": 0.5398210883140564
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_60375_117": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer to the query is 'Champion'.",
+                "Document Content Analysis": "The document provides historical information about The Gene Autry Show, including details about Gene Autry's career and his show. It mentions that Gene Autry had a horse named Champion which performed amazing tricks during the show.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse', and specifically names the horse as 'Champion'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Gene Autry's horse was named 'Champion'.",
+                "Key Information Matching": "The document directly matches the key information required by the query, mentioning both 'Gene Autry' and 'Champion', the name of his horse.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Gene Autry's horse was named 'Champion'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Not applicable, as the document directly provides the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document not only contains the exact answer to the query but also provides additional context about Gene Autry and his show. Therefore, it is highly relevant and provides useful context."
+            },
+            "nq_234999_3": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry, a famous Western actor and singer.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides information about 'The Roy Rogers Show', detailing the main characters, their roles, and the animal stars of the show, specifically mentioning Roy Rogers' horse Trigger and his dog Bullet.",
+                "Document and Query Keywords Matching": "The document does not mention 'Gene Autry' or 'Champion'. It focuses on 'Roy Rogers' and his horse 'Trigger'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Champion'.",
+                "Key Information Matching": "The document discusses horses in the context of a Western show, but it is specific to Roy Rogers and not Gene Autry.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Gene Autry or his horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is specific to 'The Roy Rogers Show' and does not provide any relevant information about Gene Autry.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Gene Autry or his horse Champion. It focuses on a different Western actor, Roy Rogers, and his horse Trigger. Therefore, it provides no useful context or additional information related to the query."
+            },
+            "m.03ydjpz_0": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides information about a person named Autry Inman, including his full name, various identifiers, and a brief description of his career as a country and rockabilly musician. There is no mention of horses or Gene Autry.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Autry', but it refers to 'Autry Inman' rather than 'Gene Autry'. There is no mention of 'horse' or 'name' in the context relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Champion' or any reference to a horse named Champion.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a musician named Autry Inman, which is unrelated to Gene Autry's horse.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the name of Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it provides no information about Gene Autry or his horse. The mention of 'Autry' in the document refers to a different individual, Autry Inman, and is unrelated to the query's subject."
+            },
+            "triviaqa_26120_0": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry, a famous cowboy actor.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Champion was the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides information about various famous horses in movie and TV Westerns, including details about their owners and appearances in films and television shows.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'Champion', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Champion - Gene Autry’s Horse', which matches the answer.",
+                "Key Information Matching": "The document directly provides the key information that Champion was Gene Autry's horse, matching both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Champion was Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Champion's appearances and significance in Gene Autry's career.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Champion was Gene Autry's horse, thus providing a direct answer. Additionally, it offers supplementary information about Champion's role in Gene Autry's films and television shows, enhancing the context and understanding of the query."
+            },
+            "nq_180361_7": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document discusses the history and cultural impact of the song 'You Are My Sunshine', mentioning various artists associated with it, including Gene Autry. It also mentions a horse named 'Sunshine' ridden by Jimmie Davis during his campaign for governor of Louisiana.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion'.",
+                "Key Information Matching": "The document mentions Gene Autry in the context of his involvement with the song 'You Are My Sunshine', but does not provide any information about his horse.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information about Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Gene Autry's horse, nor does it contain any details that could help infer the answer. The mention of Gene Autry is in a different context unrelated to his horse."
+            },
+            "ott_10909_0": {
+                "Query Analysis": "The query seeks the name of the horse owned by Gene Autry, a well-known American singer and actor.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Gene Autry's horse was named Champion.",
+                "Document Content Analysis": "The document lists various best-selling music singles, including artists, the singles they released, the year of release, and sales figures. It mentions Gene Autry in the context of one of his songs, 'That Silver-Haired Daddy of Mine'.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion'.",
+                "Key Information Matching": "The document only mentions Gene Autry in the context of his music career, not providing any information about his personal life or possessions such as his horse.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the name of Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only discusses Gene Autry's music career and best-selling singles, without any reference to his horse or personal life. Therefore, it cannot assist in answering the query or providing additional relevant information."
+            },
+            "triviaqa_26120_20": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Gene Autry's horse was named Champion.",
+                "Document Content Analysis": "The document provides information about various horses ridden by famous western actors, including Gene Autry, Dale Evans, Rex Allen, Pancho, the Lone Ranger, Lash LaRue, Johnny Mack Brown, and Smiley Burnette. It details their names, the films and television series they appeared in, and some background information.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'Champion', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Champion' as Gene Autry's horse, which matches the answer.",
+                "Key Information Matching": "The document directly provides the name of Gene Autry's horse, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Gene Autry's horse was named Champion.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document also provides additional context about Champion, such as the number of films he appeared in and the existence of multiple horses named Champion.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Gene Autry's horse was named Champion. It not only answers the query but also provides additional useful context about the horse, making it highly relevant."
+            },
+            "triviaqa_26120_4": {
+                "Query Analysis": "The query asks for the name of the horse owned by Gene Autry, a famous cowboy star known for his roles in Western films, radio, and television.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Gene Autry's horse was named Champion.",
+                "Document Content Analysis": "The document provides information about several famous horses in American Western entertainment, including Trigger (owned by Roy Rogers), Buttermilk (owned by Dale Evans), and Champion (owned by Gene Autry). It details their appearances in films and television series, their physical descriptions, and other related trivia.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'Champion', which are direct matches to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Champion - Gene Autry’s Horse', which directly matches the answer.",
+                "Key Information Matching": "The document directly provides the name of Gene Autry's horse as Champion, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Gene Autry's horse was named Champion.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document also provides additional context about Champion's appearances and characteristics, enhancing the understanding of Gene Autry's horse.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the name of Gene Autry's horse, which is the answer to the query. Additionally, it provides supplementary information about the horse, making it highly relevant and useful for understanding the context."
+            },
+            "m.03ydjpz_4": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Gene Autry's horse was named Champion.",
+                "Document Content Analysis": "The document provides biographical information about Autry Inman, an American country and rockabilly musician. It details his career, recordings, and personal life but does not mention Gene Autry or any horses.",
+                "Document and Query Keywords Matching": "The document contains the name 'Autry', but it refers to Autry Inman, not Gene Autry.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion' in the context of a horse or Gene Autry.",
+                "Key Information Matching": "There is no key information in the document that matches the query about Gene Autry's horse.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about Autry Inman and does not provide any relevant information about Gene Autry or his horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on Autry Inman, a musician, and does not contain any information about Gene Autry or his horse. The presence of 'Autry' in the document is misleading as it refers to a different individual."
+            },
+            "triviaqa_26120_21": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Gene Autry's horse was named Champion.",
+                "Document Content Analysis": "The document provides information about various horses ridden by different cowboy actors in films and television series. It mentions specific actors and their horses, including details about name changes and the number of films they appeared in.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and discusses horses related to him, though it does not directly state the name of his horse.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion', the name of Gene Autry's horse.",
+                "Key Information Matching": "The document mentions 'Gene Autry' and discusses his association with Smiley Burnette and their films, but it does not provide the name of Gene Autry's horse.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that would help infer the name of Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions Gene Autry and discusses horses of other cowboy actors, it lacks any specific information about Gene Autry's horse. Therefore, it cannot answer the query or provide relevant context to infer the answer."
+            },
+            "triviaqa_26120_5": {
+                "Query Analysis": "The query asks for the name of the horse that belonged to Gene Autry, a famous cowboy actor and singer.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Gene Autry's horse was named Champion.",
+                "Document Content Analysis": "The document provides detailed information about Champion, Gene Autry's horse, including its appearance in various films, television shows, and other media. It also mentions other horses and details about Gene Autry's career.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'Champion', which directly relate to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Champion' as Gene Autry's horse, which matches the answer.",
+                "Key Information Matching": "The document directly addresses the query by stating that Champion was Gene Autry's horse, providing substantial context and details about Champion.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Champion was Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Champion and Gene Autry's career, enhancing the understanding of the context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides not only the exact answer but also additional relevant information about Gene Autry's horse, making it highly relevant."
+            },
+            "triviaqa_26120_1": {
+                "Query Analysis": "The query asks for the name of the horse ridden by Gene Autry, a famous Western film actor and singer.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating that Gene Autry's horse was named Champion.",
+                "Document Content Analysis": "The document provides detailed information about Gene Autry's horse named Champion, including its appearance in films, characteristics, and related media such as a TV series and comic book. It also mentions other horses and their respective owners in Western films.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'Champion', which are direct matches to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes the name 'Champion' multiple times, which is the exact answer to the query.",
+                "Key Information Matching": "The document directly discusses Gene Autry's horse and provides extensive information about Champion, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Gene Autry's horse was named Champion.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Champion, including his appearances in films and other media.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only provides the exact answer but also offers additional context and information about Gene Autry's horse, Champion. This enhances the understanding of the query and provides substantial useful context."
+            },
+            "ott_38878_0": {
+                "Query Analysis": "The query seeks the name of the horse owned by Gene Autry.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', indicating the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document lists various horses that have been awarded the title of American Champion Older Dirt Male Horse, along with their respective years, ages, trainers, and owners. It also provides an introduction explaining the nature of the award.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Champion', but it is used in a different context (as an award title) and does not mention 'Gene Autry'.",
+                "Document and Answer Keywords Matching": "The document includes the word 'Champion', but it refers to a racing honor, not Gene Autry's horse.",
+                "Key Information Matching": "There is no direct mention of Gene Autry or his horse in the document. The keyword 'Champion' appears but in a different context.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Gene Autry or his horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the name of Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Gene Autry or provide any context that could help infer the name of his horse. The keyword 'Champion' appears but is used in a completely different context, making the document unrelated to the specific query about Gene Autry's horse."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_60375_117": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer indicates Gene Autry's horse was named Champion",
+                "Document Content Analysis": "The document discusses The Gene Autry Show which premiered on TV in 1950, mentioning Gene Autry, his sidekick Pat Buttram, and his horse Champion who performed tricks on the show. It also includes other historical events from July 23rd.",
+                "Document and Query Keywords Matching": "The document contains 'Gene Autry' and 'horse'",
+                "Document and Answer Keywords Matching": "The document mentions 'Champion' as Gene Autry's horse who performed tricks on the show",
+                "Key Information Matching": "The document directly confirms that Champion was Gene Autry's horse, stating 'his horse, Champion, would do some amazing horse tricks'",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Champion as Gene Autry's horse",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides additional context about Champion performing tricks on The Gene Autry Show",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (2) because it directly answers the query by naming Champion as Gene Autry's horse. It also provides valuable additional context about the horse's role in The Gene Autry Show, performing tricks. The information is presented within the context of discussing Gene Autry's television show, making it a reliable and contextually appropriate source for answering the query."
+            },
+            "nq_234999_3": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document discusses 'The Roy Rogers Show', including details about Roy Rogers, his horse Trigger, and other characters and elements of the show. However, it does not mention Gene Autry or his horse.",
+                "Document and Query Keywords Matching": "The document does not mention 'Gene Autry' or 'Champion', but it does mention 'horse' in the context of Roy Rogers' horse, Trigger.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion'.",
+                "Key Information Matching": "The document does not provide any information about Gene Autry or his horse, Champion. It only discusses Roy Rogers and his horse, Trigger.",
+                "Can the Document Answer the Query": "No, the document does not mention Gene Autry or his horse, Champion.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Gene Autry or his horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on 'The Roy Rogers Show' and does not mention Gene Autry or his horse, Champion. Therefore, it is irrelevant to the query."
+            },
+            "m.03ydjpz_0": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides information about Autry Inman, a country and rockabilly musician, including his name, description, dates of birth and death, and various identifiers. However, it does not mention Gene Autry or his horse.",
+                "Document and Query Keywords Matching": "The document does not mention 'Gene Autry' or 'horse'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion'.",
+                "Key Information Matching": "The document does not contain any information related to Gene Autry or his horse.",
+                "Can the Document Answer the Query": "No, the document does not mention Gene Autry or his horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Gene Autry or his horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Autry Inman, a musician, and does not mention Gene Autry or his horse, Champion. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_26120_0": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides detailed information about various horses associated with famous movie/TV cowboys, including Gene Autry's horse, Champion. It describes Champion's appearances in films, radio, and television, as well as details about other horses used by Gene Autry.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse', specifically 'Champion', which is Gene Autry's horse.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Champion', which matches the answer provided.",
+                "Key Information Matching": "The document directly provides the name of Gene Autry's horse, 'Champion', and includes additional details about the horse's career and appearances.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming Gene Autry's horse as 'Champion'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Champion's career and appearances, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, 'Champion', as well as additional relevant information about Gene Autry's horse. This makes the document highly relevant and useful for answering the query."
+            },
+            "nq_180361_7": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document discusses the history of the song 'You Are My Sunshine', including its origins, performances, and covers by various artists, including Gene Autry. It also mentions Gene Autry's association with the song and his political campaign where he sang it while riding a horse named 'Sunshine'.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion'.",
+                "Key Information Matching": "The document mentions Gene Autry and a horse named 'Sunshine', but it does not mention the name 'Champion'.",
+                "Can the Document Answer the Query": "No, the document does not mention the name 'Champion'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Gene Autry and a horse, but it does not provide the name 'Champion' or any information that could help infer the name of Gene Autry's horse. Therefore, the document is irrelevant to the query."
+            },
+            "ott_10909_0": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document lists best-selling singles, including one by Gene Autry titled 'That Silver-Haired Daddy of Mine'. However, it does not mention anything about Gene Autry's horse.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion' or any reference to Gene Autry's horse.",
+                "Key Information Matching": "The document mentions Gene Autry but does not provide any information about his horse or its name.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Gene Autry's horse or its name. It only mentions Gene Autry in the context of a best-selling single, which is unrelated to the query."
+            },
+            "triviaqa_26120_20": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "Gene Autry, horse, name",
+                "Answer Analysis": "The answer is 'Champion'.",
+                "Document Content Analysis": "The document provides information about various horses owned by famous individuals, including Gene Autry's horse, Champion. It details Champion's appearances in films and television series, as well as some historical context about the horse.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Champion' as Gene Autry's horse.",
+                "Key Information Matching": "The document directly provides the name of Gene Autry's horse as 'Champion', which matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Gene Autry's horse was named Champion.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Champion, such as his appearances in films and television series.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about Gene Autry's horse, Champion."
+            },
+            "triviaqa_26120_4": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides information about several famous horses in American Western films and television, including Trigger (Roy Rogers' horse), Buttermilk (Dale Evans' horse), and Champion (Gene Autry's horse). It details their appearances in films, television series, and their legacy.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse', specifically referring to 'Champion' as Gene Autry's horse.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Champion' as Gene Autry's horse, which matches the answer.",
+                "Key Information Matching": "The document directly provides the name 'Champion' as Gene Autry's horse, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming 'Champion' as Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Champion's appearances in films and television, as well as details about other horses in the Western genre.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Champion') as well as additional relevant information about Gene Autry's horse and its legacy. This makes the document highly relevant and useful for answering the query."
+            },
+            "m.03ydjpz_4": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides detailed information about Autry Inman, a country and rockabilly musician, including his recordings, profession, instruments played, and other personal details. However, there is no mention of Gene Autry or his horse.",
+                "Document and Query Keywords Matching": "The document does not mention 'Gene Autry' or 'horse'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion'.",
+                "Key Information Matching": "The document does not contain any information related to Gene Autry or his horse, Champion.",
+                "Can the Document Answer the Query": "No, the document does not mention Gene Autry or his horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Autry Inman, a musician, and does not mention Gene Autry or his horse, Champion. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_26120_21": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion'.",
+                "Document Content Analysis": "The document provides information about various horses owned by different actors, including Gene Autry. It mentions Smiley Burnette's horse, which went through several name changes, but does not directly mention Gene Autry's horse.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion'.",
+                "Key Information Matching": "The document mentions Gene Autry and horses, but it does not provide the name of Gene Autry's horse.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of Gene Autry's horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of Gene Autry's horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Gene Autry and horses, but it does not provide the name of Gene Autry's horse or any information that could help infer the name. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_26120_5": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion', which is the name of Gene Autry's horse.",
+                "Document Content Analysis": "The document provides detailed information about Gene Autry's horse, Champion, including its appearance, career with Autry, and its legacy in film, radio, and television. It also mentions other horses associated with Autry and their roles.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse', specifically referring to 'Champion' as Gene Autry's horse.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Champion' as Gene Autry's horse, which matches the answer.",
+                "Key Information Matching": "The document directly provides the name of Gene Autry's horse, 'Champion', which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming Gene Autry's horse as 'Champion'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Champion's career and legacy, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, 'Champion', as well as additional context about the horse's career and legacy. This makes it highly relevant and useful for answering the query."
+            },
+            "triviaqa_26120_1": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion'.",
+                "Document Content Analysis": "The document provides detailed information about Gene Autry's horse, Champion, including its appearance, history, and involvement in films and TV series. It also mentions other horses associated with western film heroes.",
+                "Document and Query Keywords Matching": "The document mentions 'Gene Autry' and 'horse'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Champion' multiple times, which is the name of Gene Autry's horse.",
+                "Key Information Matching": "The document directly mentions 'Champion' as Gene Autry's horse and provides extensive details about its history and appearances.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Gene Autry's horse was named 'Champion'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about Champion, such as its appearance, history, and involvement in films and TV series.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about Gene Autry's horse, Champion."
+            },
+            "ott_38878_0": {
+                "Query Analysis": "The query asks for the name of Gene Autry's horse.",
+                "Query Keywords Extraction": "name, Gene Autry, horse",
+                "Answer Analysis": "The answer is 'Champion'.",
+                "Document Content Analysis": "The document lists American Champion Older Dirt Male Horses from various years, including their names, ages, trainers, and owners. It does not mention Gene Autry or his horse.",
+                "Document and Query Keywords Matching": "The document mentions 'horse' but does not mention 'Gene Autry' or 'name' in the context of Gene Autry's horse.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Champion' in the context of Gene Autry's horse.",
+                "Key Information Matching": "The document does not provide any information related to Gene Autry or his horse.",
+                "Can the Document Answer the Query": "No, the document does not mention Gene Autry or his horse.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Gene Autry or his horse.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any way. It does not provide any useful context or additional information about Gene Autry or his horse."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_60375_117": {},
+            "nq_234999_3": {},
+            "m.03ydjpz_0": {},
+            "triviaqa_26120_0": {},
+            "nq_180361_7": {},
+            "ott_10909_0": {},
+            "triviaqa_26120_20": {},
+            "triviaqa_26120_4": {},
+            "m.03ydjpz_4": {},
+            "triviaqa_26120_21": {},
+            "triviaqa_26120_5": {},
+            "triviaqa_26120_1": {},
+            "ott_38878_0": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_38878_0": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "triviaqa": 4,
+            "ott": 0,
+            "nq": 0,
+            "kg": 0,
+            "tat": 0
+        }
+    }
+}

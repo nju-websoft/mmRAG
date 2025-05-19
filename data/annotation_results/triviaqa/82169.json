@@ -1,0 +1,909 @@
+{
+    "index": 82169,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "In heraldry, a bar sinister, a broad diagonal stripe from top right to bottom left on a shield, was supposed to signify what?",
+        "answer": "Bastardy",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_36718_56",
+                "score": 35.84049987792969
+            },
+            {
+                "id": "triviaqa_36718_55",
+                "score": 35.094398498535156
+            },
+            {
+                "id": "triviaqa_46645_249",
+                "score": 32.57849884033203
+            },
+            {
+                "id": "triviaqa_46645_250",
+                "score": 29.774700164794922
+            },
+            {
+                "id": "triviaqa_12827_229",
+                "score": 29.434200286865234
+            },
+            {
+                "id": "triviaqa_36718_109",
+                "score": 27.07200050354004
+            },
+            {
+                "id": "triviaqa_76404_24",
+                "score": 27.04990005493164
+            },
+            {
+                "id": "triviaqa_76404_8",
+                "score": 26.593399047851562
+            },
+            {
+                "id": "triviaqa_47560_17",
+                "score": 26.548799514770508
+            },
+            {
+                "id": "triviaqa_76404_9",
+                "score": 26.233200073242188
+            },
+            {
+                "id": "triviaqa_13369_22",
+                "score": 26.14419937133789
+            },
+            {
+                "id": "triviaqa_36718_104",
+                "score": 25.72879981994629
+            },
+            {
+                "id": "triviaqa_36718_85",
+                "score": 25.67729949951172
+            },
+            {
+                "id": "nq_59630_109",
+                "score": 25.532499313354492
+            },
+            {
+                "id": "triviaqa_76404_23",
+                "score": 25.43720054626465
+            },
+            {
+                "id": "triviaqa_12827_48",
+                "score": 25.35930061340332
+            },
+            {
+                "id": "triviaqa_36718_80",
+                "score": 22.979299545288086
+            },
+            {
+                "id": "triviaqa_36718_65",
+                "score": 22.837299346923828
+            },
+            {
+                "id": "triviaqa_51794_89",
+                "score": 22.832199096679688
+            },
+            {
+                "id": "triviaqa_65244_19",
+                "score": 22.347700119018555
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_28995_1",
+                "score": 10.691399574279785
+            },
+            {
+                "id": "ott_32921_1",
+                "score": 10.691398620605469
+            },
+            {
+                "id": "ott_40836_1",
+                "score": 10.691397666931152
+            },
+            {
+                "id": "ott_824_1",
+                "score": 10.691396713256836
+            },
+            {
+                "id": "ott_25760_2",
+                "score": 9.583700180053711
+            },
+            {
+                "id": "ott_37955_2",
+                "score": 9.583699226379395
+            },
+            {
+                "id": "ott_15066_0",
+                "score": 9.53030014038086
+            },
+            {
+                "id": "ott_29735_0",
+                "score": 9.530299186706543
+            },
+            {
+                "id": "ott_30421_0",
+                "score": 9.530298233032227
+            },
+            {
+                "id": "ott_33791_0",
+                "score": 9.53029727935791
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_59630_109",
+                "score": 25.532499313354492
+            },
+            {
+                "id": "nq_59630_111",
+                "score": 20.720199584960938
+            },
+            {
+                "id": "nq_196219_47",
+                "score": 20.15250015258789
+            },
+            {
+                "id": "nq_59630_108",
+                "score": 19.7362003326416
+            },
+            {
+                "id": "nq_59630_110",
+                "score": 19.368900299072266
+            },
+            {
+                "id": "nq_11522_8",
+                "score": 18.288700103759766
+            },
+            {
+                "id": "nq_214395_62",
+                "score": 18.14299964904785
+            },
+            {
+                "id": "nq_40855_5",
+                "score": 17.747400283813477
+            },
+            {
+                "id": "nq_11522_31",
+                "score": 17.425100326538086
+            },
+            {
+                "id": "nq_196219_3",
+                "score": 17.312999725341797
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_36718_56",
+                "score": 35.84049987792969
+            },
+            {
+                "id": "triviaqa_36718_55",
+                "score": 35.094398498535156
+            },
+            {
+                "id": "triviaqa_46645_249",
+                "score": 32.57849884033203
+            },
+            {
+                "id": "triviaqa_46645_250",
+                "score": 29.774700164794922
+            },
+            {
+                "id": "triviaqa_12827_229",
+                "score": 29.434200286865234
+            },
+            {
+                "id": "triviaqa_36718_109",
+                "score": 27.07200050354004
+            },
+            {
+                "id": "triviaqa_76404_24",
+                "score": 27.04990005493164
+            },
+            {
+                "id": "triviaqa_76404_8",
+                "score": 26.593399047851562
+            },
+            {
+                "id": "triviaqa_47560_17",
+                "score": 26.548799514770508
+            },
+            {
+                "id": "triviaqa_76404_9",
+                "score": 26.233200073242188
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0dxw83_0",
+                "score": 8.493200302124023
+            },
+            {
+                "id": "m.09r62_70",
+                "score": 8.458700180053711
+            },
+            {
+                "id": "m.0dxw83_1",
+                "score": 8.388999938964844
+            },
+            {
+                "id": "m.06j9j7_10",
+                "score": 8.069499969482422
+            },
+            {
+                "id": "m.0hzndwh_4",
+                "score": 7.9070000648498535
+            },
+            {
+                "id": "m.0hzndwh_0",
+                "score": 7.578800201416016
+            },
+            {
+                "id": "m.06__6t_29",
+                "score": 7.481800079345703
+            },
+            {
+                "id": "m.06j9j7_9",
+                "score": 7.477499961853027
+            },
+            {
+                "id": "m.02p68d_54",
+                "score": 7.462900161743164
+            },
+            {
+                "id": "m.07cbs_164",
+                "score": 7.298600196838379
+            },
+            {
+                "id": "m.014tss_302",
+                "score": 7.256499767303467
+            },
+            {
+                "id": "m.014tss_303",
+                "score": 7.25649881362915
+            },
+            {
+                "id": "m.02p68d_51",
+                "score": 7.1956000328063965
+            },
+            {
+                "id": "m.0hzndwh_5",
+                "score": 7.195098876953125
+            },
+            {
+                "id": "m.06__6t_9",
+                "score": 7.178699970245361
+            },
+            {
+                "id": "m.0gyh_956",
+                "score": 7.051700115203857
+            },
+            {
+                "id": "m.0fgkhp_6",
+                "score": 6.979400157928467
+            },
+            {
+                "id": "m.02yy8_240",
+                "score": 6.934999942779541
+            },
+            {
+                "id": "m.02p68d_82",
+                "score": 6.878399848937988
+            },
+            {
+                "id": "m.02h40lc_7297",
+                "score": 6.833489894866943
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_12827_229",
+                "score": 0.7627102732658386
+            },
+            {
+                "id": "triviaqa_36718_52",
+                "score": 0.7472065091133118
+            },
+            {
+                "id": "triviaqa_13369_22",
+                "score": 0.7351478338241577
+            },
+            {
+                "id": "triviaqa_47560_144",
+                "score": 0.7265381813049316
+            },
+            {
+                "id": "triviaqa_47560_17",
+                "score": 0.7251994013786316
+            },
+            {
+                "id": "triviaqa_46798_9",
+                "score": 0.7239032983779907
+            },
+            {
+                "id": "triviaqa_12827_175",
+                "score": 0.7221885323524475
+            },
+            {
+                "id": "triviaqa_46798_12",
+                "score": 0.7212333083152771
+            },
+            {
+                "id": "triviaqa_12827_226",
+                "score": 0.7185715436935425
+            },
+            {
+                "id": "nq_196219_47",
+                "score": 0.7133566737174988
+            },
+            {
+                "id": "triviaqa_46798_11",
+                "score": 0.7110626101493835
+            },
+            {
+                "id": "triviaqa_36718_53",
+                "score": 0.706454873085022
+            },
+            {
+                "id": "triviaqa_12827_95",
+                "score": 0.7050499320030212
+            },
+            {
+                "id": "triviaqa_46645_249",
+                "score": 0.704258382320404
+            },
+            {
+                "id": "triviaqa_13369_148",
+                "score": 0.7032661437988281
+            },
+            {
+                "id": "triviaqa_47560_18",
+                "score": 0.7001287937164307
+            },
+            {
+                "id": "triviaqa_12827_253",
+                "score": 0.6998312473297119
+            },
+            {
+                "id": "triviaqa_12827_232",
+                "score": 0.6982932686805725
+            },
+            {
+                "id": "triviaqa_23111_342",
+                "score": 0.6966453790664673
+            },
+            {
+                "id": "triviaqa_13369_163",
+                "score": 0.6948181390762329
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_196219_47",
+                "score": 0.7133566737174988
+            },
+            {
+                "id": "nq_196219_4",
+                "score": 0.6838369965553284
+            },
+            {
+                "id": "nq_196219_49",
+                "score": 0.6598832607269287
+            },
+            {
+                "id": "nq_196219_48",
+                "score": 0.6572487950325012
+            },
+            {
+                "id": "nq_211941_86",
+                "score": 0.6435274481773376
+            },
+            {
+                "id": "nq_153303_33",
+                "score": 0.6433570981025696
+            },
+            {
+                "id": "nq_64192_86",
+                "score": 0.642253041267395
+            },
+            {
+                "id": "nq_120100_93",
+                "score": 0.6403793692588806
+            },
+            {
+                "id": "nq_196219_46",
+                "score": 0.6403422951698303
+            },
+            {
+                "id": "nq_1113_86",
+                "score": 0.6393306255340576
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_12827_229",
+                "score": 0.7627102732658386
+            },
+            {
+                "id": "triviaqa_36718_52",
+                "score": 0.7472065091133118
+            },
+            {
+                "id": "triviaqa_13369_22",
+                "score": 0.7351478338241577
+            },
+            {
+                "id": "triviaqa_47560_144",
+                "score": 0.7265381813049316
+            },
+            {
+                "id": "triviaqa_47560_17",
+                "score": 0.7251994013786316
+            },
+            {
+                "id": "triviaqa_46798_9",
+                "score": 0.7239032983779907
+            },
+            {
+                "id": "triviaqa_12827_175",
+                "score": 0.7221885323524475
+            },
+            {
+                "id": "triviaqa_46798_12",
+                "score": 0.7212333083152771
+            },
+            {
+                "id": "triviaqa_12827_226",
+                "score": 0.7185715436935425
+            },
+            {
+                "id": "triviaqa_46798_11",
+                "score": 0.7110626101493835
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02lxg9_51",
+                "score": 0.5635923743247986
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_13369_22": {
+                "Query Analysis": "The query seeks to understand the symbolic meaning of a bar sinister in heraldry, specifically what it signifies when depicted as a broad diagonal stripe from the top right to the bottom left on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, diagonal stripe, top right, bottom left, shield, signify",
+                "Answer Analysis": "The answer indicates that a bar sinister signifies 'bastardy'.",
+                "Document Content Analysis": "The document discusses various aspects of heraldry, including patterns of colors on shields, such as barry, paly, bendy, and bendy sinister. It also mentions honourable ordinaries and sub-ordinaries but does not explicitly define or explain the significance of a bar sinister.",
+                "Document and Query Keywords Matching": "The document mentions 'heraldry', 'bendy sinister', and 'stripes', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'bastardy'.",
+                "Key Information Matching": "While the document discusses heraldic symbols and patterns, including diagonal stripes (bendy sinister), it does not provide the specific meaning or significance of a bar sinister.",
+                "Can the Document Answer the Query": "No, the document does not directly state that a bar sinister signifies bastardy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about heraldic patterns and symbols, which could help in understanding the broader topic of heraldry.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses heraldry and mentions related terms like 'bendy sinister', which could be helpful in understanding the context of heraldic symbols. However, it lacks the specific information needed to directly answer the query about the significance of a bar sinister."
+            },
+            "ott_28995_1": {
+                "Query Analysis": "The query is about the symbolic meaning of a bar sinister in heraldry, specifically what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister signifies illegitimacy or bastardy in heraldry.",
+                "Document Content Analysis": "The document provides information about a television show, 'Dancing with the Stars Australia', including details about the judges, contestants, scores, and themes of dance performances.",
+                "Document and Query Keywords Matching": "None of the keywords from the query (heraldry, bar sinister, broad diagonal stripe, shield, signify) are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'Bastardy' or any related term is not found in the document.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document is about a TV show and does not mention anything related to heraldry or symbolic meanings.",
+                "Can the Document Answer the Query": "No, the document does not contain any information related to heraldry or the meaning of a bar sinister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the meaning of a bar sinister in heraldry.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a television show and does not touch on the subject of heraldry or symbolic meanings in any way. Therefore, it cannot answer the query or provide any useful context for it."
+            },
+            "triviaqa_47560_17": {
+                "Query Analysis": "The query seeks to understand the significance of a bar sinister in heraldry, specifically what it signifies when depicted as a broad diagonal stripe from the top right to the bottom left on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, diagonal stripe, top right, bottom left, shield, signify",
+                "Answer Analysis": "The answer indicates that a bar sinister signifies 'Bastardy'.",
+                "Document Content Analysis": "The document discusses various aspects of heraldry, including the division of shields, patterns of colors, and different types of stripes such as barry, paly, bendy, and bendy sinister. It also mentions honourable ordinaries and subordinaries in heraldry.",
+                "Document and Query Keywords Matching": "The document mentions 'heraldry', 'shield', and 'bendy sinister', which is related to the concept of a bar sinister.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Bastardy'.",
+                "Key Information Matching": "While the document discusses heraldry and mentions 'bendy sinister', which is similar to a bar sinister, it does not provide the specific significance of a bar sinister as asked in the query.",
+                "Can the Document Answer the Query": "No, the document does not directly state that a bar sinister signifies bastardy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about heraldry and the types of stripes, which could help in understanding the broader topic of heraldic symbols.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses heraldry and mentions a term similar to 'bar sinister'. However, it lacks the specific information needed to directly answer the query about the significance of a bar sinister. Therefore, it is partially relevant."
+            },
+            "triviaqa_36718_55": {
+                "Query Analysis": "The query asks about the symbolic meaning of a bar sinister in heraldry, specifically what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister signifies illegitimacy or bastardy in heraldry.",
+                "Document Content Analysis": "The document provides information about various symbols in heraldry, including the bear, beaver, bee, bell, and bend. It describes their meanings and historical contexts. The document also mentions the bend sinister, which is a diagonal band going from the upper left to the lower right corner of a shield.",
+                "Document and Query Keywords Matching": "The document mentions 'heraldry' and 'bend sinister', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Bastardy' or any related term.",
+                "Key Information Matching": "While the document discusses heraldry and mentions the bend sinister, it does not provide the specific meaning of a bar sinister as asked in the query.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific meaning of a bar sinister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about heraldry and mentions the bend sinister, which could help in understanding the broader topic of heraldic symbols.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it contains information about heraldry and mentions the bend sinister, which is related to the query. However, it lacks the specific detail about the meaning of a bar sinister, making it unable to directly answer the query."
+            },
+            "nq_59630_109": {
+                "Query Analysis": "The query asks about the symbolic meaning of a bar sinister in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, diagonal stripe, top right, bottom left, shield, signify",
+                "Answer Analysis": "The answer indicates that a bar sinister signifies bastardy.",
+                "Document Content Analysis": "The document describes the coat of arms of Ponce, including its various elements and their symbolic meanings. It mentions an escutcheon (shield) with a party per bend division running from top left to bottom right, a lion, a bridge, and other symbols representing the municipality's history and economy.",
+                "Document and Query Keywords Matching": "The document mentions 'shield' and 'heraldry' but does not mention 'bar sinister' or 'diagonal stripe'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'bastardy'.",
+                "Key Information Matching": "While the document discusses heraldry and a shield, it does not address the specific element of a bar sinister or its meaning.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the bar sinister or its significance.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any relevant details about the bar sinister or related heraldic symbols.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the coat of arms of Ponce and its symbolic elements, but it does not mention or provide any context about the bar sinister or its meaning in heraldry. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_46645_249": {
+                "Query Analysis": "The query seeks to understand the symbolic meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from the top right to the bottom left on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, diagonal stripe, top right, bottom left, shield, signify",
+                "Answer Analysis": "The answer indicates that a bar sinister signifies 'bastardy'.",
+                "Document Content Analysis": "The document provides a list of heraldic terms and their meanings, including descriptions of various symbols, colors, and devices used in heraldry.",
+                "Document and Query Keywords Matching": "The document mentions 'Barre', which is sometimes used to mean a 'bend sinister', and 'Bar', which is a horizontal strip, but does not explicitly mention 'bar sinister'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'bastardy'.",
+                "Key Information Matching": "While the document discusses heraldic terms and includes references to 'Barre' and 'Bar', it does not directly address the meaning of a 'bar sinister' or its association with bastardy.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific meaning of a 'bar sinister'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about other heraldic terms and symbols, which could help in understanding the broader context of heraldry.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses heraldic terms and symbols, which are in the same domain as the 'bar sinister'. However, it lacks the specific information needed to directly answer the query about the meaning of a 'bar sinister'. Therefore, it is partially relevant."
+            },
+            "m.09r62_70": {
+                "Query Analysis": "The query asks about the significance of a bar sinister in heraldry, specifically what it is supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister signifies illegitimacy or bastardy in heraldry.",
+                "Document Content Analysis": "The document provides information about Spiro Agnew, including his impersonations, family, career, and various statements he made. It also mentions his birthplace, the time he held office, and other related details.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query such as 'heraldry', 'bar sinister', 'shield', or 'signify'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Bastardy' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document focuses entirely on Spiro Agnew and does not touch on topics related to heraldry or symbolism.",
+                "Can the Document Answer the Query": "No, the document does not provide any information related to heraldry or the significance of a bar sinister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about heraldry or the symbolism of a bar sinister.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Spiro Agnew and lacks any content related to heraldry, symbolism, or the specific topic of a bar sinister. Therefore, it cannot answer the query or provide any useful context or additional information relevant to the query."
+            },
+            "triviaqa_47560_144": {
+                "Query Analysis": "The query is asking about the historical significance of a specific heraldic symbol, the bar sinister, which is a diagonal stripe on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer indicates that the bar sinister signifies 'bastardy', meaning illegitimate birth.",
+                "Document Content Analysis": "The document discusses the concept of 'sinister' in heraldry, clarifying that it denotes illegitimacy but is often misunderstood. It mentions the baton sinister, which is similar to the bar sinister, and provides an example with Henry Fitzroy, 1st Duke of Grafton, who had a baton sinister on his arms.",
+                "Document and Query Keywords Matching": "The document includes keywords like 'sinister', 'illegitimacy', and 'coat of arms', which are related to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'illegitimacy', which directly corresponds to the answer 'bastardy'.",
+                "Key Information Matching": "The document explains that a 'sinister' element denotes illegitimacy, which matches the query's focus on the significance of the bar sinister.",
+                "Can the Document Answer the Query": "Yes, the document provides the information that a 'sinister' element, which includes the bar sinister, signifies illegitimacy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document also provides historical context and an example, enhancing the understanding of the concept.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly addresses the significance of the bar sinister in heraldry, confirming that it signifies illegitimacy, which is the query's focus. Additionally, it provides historical context and an example, making it highly relevant."
+            },
+            "m.02lxg9_51": {
+                "Query Analysis": "The query is about the significance of a bar sinister in heraldry, specifically what it is supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer indicates that a bar sinister signifies 'bastardy'.",
+                "Document Content Analysis": "The document describes a figure, possibly a deity or mythical entity, with various symbolic attributes such as a rope in the left hand, an angry expression, prominent canines, an aura of fire, and sitting on a rock. It also mentions a specific form, Kurikara Fudo, represented as a dragon wrapped around a sword. The text appears to be related to Buddhist iconography, specifically the deity Acala in Vajrayana Buddhism.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('heraldry', 'bar sinister', 'broad diagonal stripe', 'shield', 'signify') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'bastardy' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document discusses symbolic elements in a religious context, which is unrelated to heraldry.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about heraldry or the significance of a bar sinister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is entirely unrelated to the topic of heraldry or the specific symbol of a bar sinister.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about heraldry, shields, or the symbolism of a bar sinister. The content is focused on Buddhist iconography and symbolism, which is unrelated to the topic of the query."
+            },
+            "nq_196219_47": {
+                "Query Analysis": "The query asks about the significance of a bar sinister in heraldry, specifically what it is supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister signifies illegitimacy or bastardy in heraldry.",
+                "Document Content Analysis": "The document provides an outline and links related to heraldry, including terms like 'sinister' and various elements of heraldic achievements, but does not explicitly mention the bar sinister or its significance.",
+                "Document and Query Keywords Matching": "The document mentions 'sinister', which is a keyword from the query, but does not contextually use it in relation to a bar or its significance.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Bastardy' or any related term that directly corresponds to the answer.",
+                "Key Information Matching": "While the document includes the term 'sinister', it lacks the specific context of a 'bar sinister' and its heraldic significance.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about what a bar sinister signifies.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any additional context or information that could help infer the significance of a bar sinister.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not directly related to the query as it lacks specific information about the bar sinister and its heraldic meaning. The mention of 'sinister' is too general and does not provide useful context for answering the query."
+            },
+            "triviaqa_46645_250": {
+                "Query Analysis": "The query is asking about the symbolic meaning of a specific heraldic symbol, the bar sinister, which is a broad diagonal stripe from the top right to the bottom left on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer indicates that the bar sinister signifies 'bastardy'.",
+                "Document Content Analysis": "The document provides a list of various heraldic terms and their descriptions, including different types of divisions, charges, and symbols used in heraldry.",
+                "Document and Query Keywords Matching": "The document mentions 'Bend Sinister', which is similar to the 'bar sinister' described in the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'bastardy'.",
+                "Key Information Matching": "The document includes 'Bend Sinister', which is directly related to the 'bar sinister' in the query, but it does not provide its symbolic meaning.",
+                "Can the Document Answer the Query": "No, the document does not state what the bar sinister signifies.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about heraldic symbols and their forms, which can help in understanding the general topic of heraldry.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions a term closely related to the query ('Bend Sinister'), which is part of the heraldic terminology. However, it lacks the specific information about the symbolic meaning of the bar sinister, which is the core of the query. Thus, while it provides some context, it does not directly answer the query."
+            },
+            "triviaqa_36718_52": {
+                "Query Analysis": "The query asks about the significance of a bar sinister in heraldry, specifically what it is supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister signifies illegitimacy.",
+                "Document Content Analysis": "The document discusses various heraldic symbols and their meanings, including banners, barrels, and bars. It explains the distinction between banners and flags, the use of barrels in heraldry, and the rules and meanings associated with bars and barrulets.",
+                "Document and Query Keywords Matching": "The document mentions 'heraldry' and 'bars', but does not specifically mention 'bar sinister'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Bastardy' or any related term.",
+                "Key Information Matching": "While the document discusses heraldry and bars, it does not address the specific type of bar mentioned in the query (bar sinister) or its significance.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the bar sinister or its meaning.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that would help infer the meaning of a bar sinister.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not mention the bar sinister or its significance. It only discusses other heraldic symbols and their meanings, which do not help in answering the specific query about the bar sinister."
+            },
+            "m.0dxw83_0": {
+                "Query Analysis": "The query is seeking information about the significance of a bar sinister in heraldry, specifically what it is supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer indicates that a bar sinister signifies bastardy.",
+                "Document Content Analysis": "The document provides information about the Broad Centre Right Front, a political party in Haiti, including its performance in elections and various metadata related to the party.",
+                "Document and Query Keywords Matching": "None of the query keywords ('heraldry', 'bar sinister', 'broad diagonal stripe', 'shield', 'signify') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer ('bastardy').",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document is about a political party in Haiti, which is unrelated to heraldry or the significance of a bar sinister.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a political party in Haiti, which has no connection to the topic of heraldry or the specific symbol of a bar sinister. Therefore, it cannot provide any useful context or information to answer the query or infer additional relevant details."
+            },
+            "triviaqa_36718_56": {
+                "Query Analysis": "The query asks about the symbolic meaning of a bar sinister in heraldry, specifically what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister symbolizes illegitimacy.",
+                "Document Content Analysis": "The document discusses various heraldic symbols and their meanings, including bells, the bend, the bend sinister, bezants, and billets. It provides detailed descriptions and historical context for each symbol.",
+                "Document and Query Keywords Matching": "The document mentions 'bend sinister', which is related to the query's 'bar sinister'.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'mark of illegitimacy', which aligns with the answer 'Bastardy'.",
+                "Key Information Matching": "The document specifically mentions that the bend sinister has been used occasionally as a mark of illegitimacy, directly addressing the query's focus on the significance of the bar sinister.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the bend sinister (bar sinister) signifies illegitimacy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context on the use and history of the bend sinister in heraldry.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the bend sinister and its occasional use as a mark of illegitimacy, which directly answers the query. Additionally, it provides context on other heraldic symbols, enhancing the understanding of the topic."
+            },
+            "triviaqa_12827_229": {
+                "Query Analysis": "The query asks about the significance of a bar sinister in heraldry, specifically what it is supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister is traditionally supposed to signify illegitimate birth.",
+                "Document Content Analysis": "The document discusses various elements of heraldry, including ordinaries and subordinaries, their definitions, and some common misconceptions. It mentions the bend sinister and clarifies that the bar sinister is often incorrectly used in fiction to symbolize illegitimacy, but it actually has no such heraldic significance.",
+                "Document and Query Keywords Matching": "The document mentions 'bar sinister' and discusses its incorrect use in fiction.",
+                "Document and Answer Keywords Matching": "The document does not directly mention 'Bastardy' but discusses the concept of illegitimacy in the context of heraldry.",
+                "Key Information Matching": "The document addresses the误解 about the bar sinister and its supposed significance, which is related to the query's focus on what it signifies.",
+                "Can the Document Answer the Query": "No, the document does not confirm that the bar sinister signifies bastardy; instead, it clarifies that it does not have this significance.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the bar sinister and its misuse in fiction, which helps to understand the misconception around its significance.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it addresses the bar sinister and its common misconception, which is related to the query. However, it does not directly confirm the traditional significance of the bar sinister as bastardy, making it not fully aligned with the query's specific answer."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_13369_22": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it was supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', which refers to the status of being born to parents not married to each other.",
+                "Document Content Analysis": "The document discusses various patterns and variations in heraldry, including diagonal stripes called 'bendy' or 'bendy sinister', and mentions the use of bold rectilinear shapes on shields for identification purposes. However, it does not explicitly mention the term 'bar sinister' or its significance.",
+                "Document and Query Keywords Matching": "The document mentions 'diagonal stripes' and 'bendy sinister', which are related to the query's 'broad diagonal stripe' and 'bar sinister'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Bastardy' or any related terms.",
+                "Key Information Matching": "The document discusses diagonal stripes in heraldry, which is related to the query's focus on a 'bar sinister'. However, it does not provide information about the specific meaning or significance of a 'bar sinister'.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about the meaning of a 'bar sinister'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about diagonal stripes in heraldry, which could help infer the meaning of a 'bar sinister'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some context about diagonal stripes in heraldry, which is related to the query. However, it does not directly address the meaning of a 'bar sinister' or its significance, so it cannot fully answer the query."
+            },
+            "ott_28995_1": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', which refers to the status of being born out of wedlock.",
+                "Document Content Analysis": "The document discusses the thirteenth season of Dancing with the Stars Australia, including details about contestants, judges, and performances. It does not mention heraldry, bar sinister, or anything related to the query.",
+                "Document and Query Keywords Matching": "None of the query keywords ('heraldry', 'bar sinister', 'broad diagonal stripe', 'top right to bottom left', 'shield', 'signify') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Bastardy' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to heraldry, the bar sinister, or the concept of bastardy.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide context for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a television show and does not mention heraldry, the bar sinister, or any concept related to the query. Therefore, it is irrelevant and provides no useful context or information."
+            },
+            "triviaqa_47560_17": {
+                "Query Analysis": "The query asks about the significance of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it was supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister was used to signify illegitimacy in heraldry.",
+                "Document Content Analysis": "The document discusses various patterns and variations in heraldry, including diagonal stripes called 'bendy' or 'bendy sinister'. It also mentions the use of bold rectilinear shapes on shields for identification purposes and distinguishes between 'honourable ordinaries' and 'subordinaries'.",
+                "Document and Query Keywords Matching": "The document mentions 'diagonal stripes', 'bendy sinister', and 'shield', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'bastardy' or 'illegitimacy'.",
+                "Key Information Matching": "The document provides information about diagonal stripes in heraldry, including the term 'bendy sinister', which is related to the 'bar sinister' mentioned in the query. However, it does not explicitly state the significance of a bar sinister as signifying bastardy.",
+                "Can the Document Answer the Query": "No, the document does not directly state that a bar sinister signifies bastardy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about diagonal stripes in heraldry, which could help infer the significance of a bar sinister.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about diagonal stripes in heraldry, including the term 'bendy sinister', which is related to the query. However, it does not explicitly state the significance of a bar sinister as signifying bastardy, so it cannot directly answer the query but offers useful context."
+            },
+            "triviaqa_36718_55": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy,' which refers to the status of being born out of wedlock.",
+                "Document Content Analysis": "The document discusses various symbols in heraldry, including the bend (a broad diagonal band across the shield) and the bend sinister (the opposite diagonal). It mentions that the bend signifies defense or protection and is a bearing of high honor. However, it does not explicitly state what the bend sinister signifies.",
+                "Document and Query Keywords Matching": "The document mentions 'heraldry,' 'broad diagonal band,' 'shield,' and 'bend sinister,' which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'bastardy' or any direct reference to the meaning of the bend sinister.",
+                "Key Information Matching": "The document provides information about the bend and bend sinister in heraldry, including their orientation and general symbolism, but it does not explicitly state what the bend sinister signifies.",
+                "Can the Document Answer the Query": "No, the document does not directly state that the bar sinister signifies 'bastardy.'",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the bend sinister in heraldry, which is related to the query, but it does not provide the specific meaning required to answer the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses the bend sinister in heraldry, which is directly related to the query. However, it does not provide the specific meaning of the bar sinister (bastardy), which is required to answer the query. Thus, it provides some useful context but falls short of directly answering the query."
+            },
+            "nq_59630_109": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister in heraldry signifies illegitimacy.",
+                "Document Content Analysis": "The document describes the coat of arms of Ponce, detailing its components such as the shield, colors, and symbols. It mentions a diagonal division of the shield but does not specifically address the meaning of a 'bar sinister' or its significance.",
+                "Document and Query Keywords Matching": "The document mentions 'shield' and 'diagonal' but does not specifically mention 'bar sinister' or its meaning.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Bastardy' or any related terms.",
+                "Key Information Matching": "The document discusses a shield with a diagonal division but does not provide information about the meaning of a 'bar sinister' or its association with illegitimacy.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about the meaning of a 'bar sinister'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the meaning of a 'bar sinister' or its significance in heraldry.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention 'bar sinister' or its meaning. It provides details about a specific coat of arms but does not address the heraldic concept in question."
+            },
+            "triviaqa_46645_249": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', which refers to the status of being born out of wedlock.",
+                "Document Content Analysis": "The document provides definitions and descriptions of various heraldic terms, including 'bar', 'bend', and 'barre', but does not explicitly mention 'bar sinister' or its meaning.",
+                "Document and Query Keywords Matching": "The document mentions 'bar', 'bend', and 'barre', which are related to the concept of stripes on a shield, but does not directly mention 'bar sinister'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'bastardy' or any related terms.",
+                "Key Information Matching": "The document discusses heraldic terms related to stripes on a shield, such as 'bar' and 'bend', but does not provide information about the specific meaning of a 'bar sinister' or its association with 'bastardy'.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about the meaning of a 'bar sinister'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the meaning of a 'bar sinister' or its association with 'bastardy'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses heraldic terms but does not mention 'bar sinister' or its meaning. It does not provide any key information related to the query, making it irrelevant to answering the query or inferring additional information."
+            },
+            "m.09r62_70": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy,' which refers to the status of being born out of wedlock.",
+                "Document Content Analysis": "The document primarily discusses Spiro Agnew, including his personal life, career, and political views. It does not mention heraldry, bar sinister, or anything related to the query.",
+                "Document and Query Keywords Matching": "None of the query keywords ('heraldry', 'bar sinister', 'broad diagonal stripe', 'top right to bottom left', 'shield', 'signify') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Bastardy' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to heraldry, bar sinister, or the concept of bastardy.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the answer or related details.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Spiro Agnew and his political career, with no mention of heraldry, bar sinister, or bastardy. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_47560_144": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy,' which refers to illegitimacy.",
+                "Document Content Analysis": "The document discusses the concept of 'sinister' in heraldry, clarifying that a 'baton sinister' (not a 'bend sinister') denotes illegitimacy on British Royal Arms. It also provides historical context about Henry Fitzroy, an illegitimate son of King Charles II, and describes his coat of arms, which includes a baton sinister.",
+                "Document and Query Keywords Matching": "The document mentions 'sinister,' 'coat of arms,' and 'illegitimacy,' which are related to the query's keywords.",
+                "Document and Answer Keywords Matching": "The document mentions 'illegitimacy,' which is synonymous with 'bastardy,' the answer to the query.",
+                "Key Information Matching": "The document clarifies the meaning of 'sinister' in heraldry and specifically mentions that a 'baton sinister' denotes illegitimacy, which aligns with the query's focus on the significance of a diagonal stripe (bar sinister) on a shield.",
+                "Can the Document Answer the Query": "Yes, the document directly explains that a 'baton sinister' denotes illegitimacy, which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context and examples of coats of arms with a baton sinister, enhancing understanding of the topic.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explains the meaning of 'sinister' in heraldry and specifically addresses the concept of illegitimacy, which is the answer to the query. It also provides additional context and examples, making it highly useful for understanding the topic."
+            },
+            "m.02lxg9_51": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy,' which refers to the status of being born out of wedlock.",
+                "Document Content Analysis": "The document discusses a Buddhist deity named Acala, describing his symbolic attributes, such as a rope in his left hand symbolizing concentration, his fierce appearance, and his representation as a dragon coiled around a sword. It also mentions his role as a protector in Vajrayana Buddhism and his significance in Chinese and Japanese iconography.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('heraldry', 'bar sinister', 'broad diagonal stripe', 'top right to bottom left', 'shield', 'signify') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Bastardy' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to heraldry, the bar sinister, or its symbolic meaning. It focuses entirely on Buddhist iconography and the deity Acala.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about heraldry or the bar sinister.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the meaning of the bar sinister or its significance in heraldry.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a Buddhist deity and his symbolic attributes, with no mention of heraldry, the bar sinister, or its meaning. Therefore, it is irrelevant to the query."
+            },
+            "nq_196219_47": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister in heraldry signifies illegitimacy.",
+                "Document Content Analysis": "The document discusses various aspects of heraldry, including charges, escutcheons (shields), and divisions of the field. It mentions terms like 'sinister' and 'charge', but does not explicitly define or explain the meaning of a 'bar sinister' or its significance.",
+                "Document and Query Keywords Matching": "The document mentions 'sinister', which is related to the query's keyword 'bar sinister'. However, it does not explicitly mention 'bar sinister' or its meaning.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Bastardy' or any related terms.",
+                "Key Information Matching": "The document provides general information about heraldry, including terms like 'sinister' and 'charge', but lacks specific details about the 'bar sinister' or its significance.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about the meaning of a 'bar sinister'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide enough information to infer the meaning of a 'bar sinister' or its significance.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not provide any key information about the 'bar sinister' or its meaning. It mentions related terms like 'sinister' but does not address the specific query or help infer the answer."
+            },
+            "triviaqa_46645_250": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister in heraldry signifies illegitimacy.",
+                "Document Content Analysis": "The document provides definitions and descriptions of various heraldic terms, including 'Bend Sinister', which is described as a diagonal band running from top right to bottom left on a shield.",
+                "Document and Query Keywords Matching": "The document mentions 'Bend Sinister', which matches the query's description of a 'bar sinister' as a broad diagonal stripe from top right to bottom left on a shield.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Bastardy' or 'illegitimacy', but it does describe 'Bend Sinister', which is the heraldic term for a bar sinister.",
+                "Key Information Matching": "The document provides a description of 'Bend Sinister', which aligns with the query's description of a 'bar sinister'. However, it does not explicitly state that it signifies 'Bastardy'.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that a bar sinister signifies 'Bastardy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about 'Bend Sinister', which is the heraldic term for a bar sinister, and this could help infer the meaning of a bar sinister in heraldry.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about 'Bend Sinister', which is related to the query's topic of a 'bar sinister'. However, it does not directly answer the query by stating that a bar sinister signifies 'Bastardy'. It provides useful context but lacks the specific information needed to fully answer the query."
+            },
+            "triviaqa_36718_52": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister in heraldry signifies illegitimacy.",
+                "Document Content Analysis": "The document discusses various elements of heraldry, including banners, barrels, and bars. It explains the rules and symbolism associated with bars in heraldry, such as their diminutive form (barrulet), their use in representing acts of bravery, and their symbolic meaning in setting 'bars of conscience, religion, and honour against angry passions and evil temptations.' However, it does not mention the term 'bar sinister' or its specific meaning.",
+                "Document and Query Keywords Matching": "The document mentions 'heraldry' and 'bars', but does not mention 'bar sinister', 'broad diagonal stripe', or 'top right to bottom left'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Bastardy' or any related terms.",
+                "Key Information Matching": "The document provides general information about bars in heraldry but does not address the specific concept of a 'bar sinister' or its meaning.",
+                "Can the Document Answer the Query": "No, the document does not mention 'bar sinister' or its meaning.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the meaning of a 'bar sinister' or its significance in heraldry.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses general heraldic symbols and rules but does not address the specific concept of a 'bar sinister' or its meaning. Therefore, it is irrelevant to the query."
+            },
+            "m.0dxw83_0": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it signifies.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister in heraldry signifies illegitimacy.",
+                "Document Content Analysis": "The document discusses the 'Broad Centre Right Front', a political party in Haiti, including its performance in elections, its type, and its geographic scope. It does not mention heraldry, bar sinister, or any related concepts.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to heraldry, bar sinister, or the concept of bastardy.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the answer or related details.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a political party in Haiti and does not mention heraldry, bar sinister, or any concepts related to the query or its answer. Therefore, it is irrelevant to the conversation."
+            },
+            "triviaqa_36718_56": {
+                "Query Analysis": "The query asks about the meaning of a 'bar sinister' in heraldry, specifically a broad diagonal stripe from top right to bottom left on a shield, and what it was supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy,' indicating that the bar sinister was traditionally used to signify illegitimacy.",
+                "Document Content Analysis": "The document discusses various heraldic symbols, including the 'bend' and 'bend sinister.' It explains that the bend is a broad diagonal band across the shield, often signifying defense or protection. The bend sinister follows the opposite diagonal and has been used occasionally as a mark of illegitimacy, though this is not commonly the case. More often, a bendlet sinister or baton sinister is used for this purpose.",
+                "Document and Query Keywords Matching": "The document mentions 'heraldry,' 'broad diagonal band,' 'shield,' 'bend sinister,' and 'signify,' which align with the query keywords.",
+                "Document and Answer Keywords Matching": "The document mentions 'bend sinister' and 'mark of illegitimacy,' which relate to the answer 'Bastardy.'",
+                "Key Information Matching": "The document provides information about the 'bend sinister,' which is a broad diagonal stripe from top right to bottom left on a shield, and mentions its occasional use as a mark of illegitimacy. This aligns with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions that the bend sinister has been used as a mark of illegitimacy, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the use of the bend sinister and its variations in heraldry.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact information needed to answer the question about the bar sinister in heraldry. It also provides additional context about the use of the bend sinister and its significance, enhancing understanding of the topic."
+            },
+            "triviaqa_12827_229": {
+                "Query Analysis": "The query asks about the significance of a 'bar sinister' in heraldry, specifically what it was supposed to signify.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, top right to bottom left, shield, signify",
+                "Answer Analysis": "The answer is 'Bastardy', indicating that a bar sinister was traditionally associated with illegitimacy.",
+                "Document Content Analysis": "The document discusses various heraldic terms and concepts, including ordinaries, subordinaries, and their meanings. It specifically mentions that the term 'bar sinister' is often incorrectly used in fiction as a symbol for illegitimacy and clarifies that it has no such significance in heraldry. Instead, illegitimacy is denoted heraldically in other ways.",
+                "Document and Query Keywords Matching": "The document mentions 'bar sinister', 'heraldry', and 'shield', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'bastardy' but discusses the incorrect use of 'bar sinister' as a symbol for illegitimacy.",
+                "Key Information Matching": "The document provides information about the term 'bar sinister' and its incorrect association with illegitimacy, which is relevant to the query. However, it does not directly confirm that a bar sinister signifies 'bastardy'.",
+                "Can the Document Answer the Query": "No, the document does not directly state that a bar sinister signifies 'bastardy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the term 'bar sinister' and its incorrect association with illegitimacy, which could help infer the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some context about the term 'bar sinister' and its incorrect association with illegitimacy. However, it does not directly confirm the significance of a bar sinister as 'bastardy', which is the focus of the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_13369_22": {},
+            "ott_28995_1": {},
+            "triviaqa_47560_17": {},
+            "triviaqa_36718_55": {},
+            "nq_59630_109": {},
+            "triviaqa_46645_249": {
+                "Query Analysis": "The query asks about the significance of a 'bar sinister', which is a broad diagonal stripe on a shield, in the context of heraldry.",
+                "Query Keywords Extraction": "heraldry, bar sinister, broad diagonal stripe, shield, signify",
+                "Answer Analysis": "The answer is 'bastardy', indicating what the 'bar sinister' is supposed to signify in heraldry.",
+                "Document Content Analysis": "The document provides definitions and explanations for various terms used in heraldry, including terms like 'Bar', 'Band(e)', and 'Barre'. It explains that 'Barre' can sometimes mean a 'bend sinister'.",
+                "Document and Query Keywords Matching": "The document mentions 'Barre' and 'bend', which are related to 'bar sinister'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'bastardy' directly.",
+                "Key Information Matching": "While the document provides some context on terms that could be related to 'bar sinister', such as 'Barre' and 'bend sinister', it doesn't provide the specific information about the significance as 'bastardy'.",
+                "Can the Document Answer the Query": "No, the document does not specifically state that 'bar sinister' signifies 'bastardy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides information on related terms in heraldry that might aid in understanding the broader context of heraldic symbols.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides some context by explaining terms related to 'bar sinister', such as 'Barre', but it does not explicitly state the significance of 'bar sinister' as 'bastardy'. Therefore, it is partially relevant as it offers peripheral information that could help infer more about heraldic symbols."
+            },
+            "m.09r62_70": {},
+            "triviaqa_47560_144": {},
+            "m.02lxg9_51": {},
+            "nq_196219_47": {},
+            "triviaqa_46645_250": {},
+            "triviaqa_36718_52": {},
+            "m.0dxw83_0": {},
+            "triviaqa_36718_56": {},
+            "triviaqa_12827_229": {}
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "dataset_score": {
+            "triviaqa": 7,
+            "ott": 0,
+            "kg": 0,
+            "nq": 0,
+            "tat": 0
+        }
+    }
+}

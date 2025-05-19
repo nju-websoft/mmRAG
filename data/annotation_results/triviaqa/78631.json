@@ -1,0 +1,987 @@
+{
+    "index": 78631,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which snooker player is nicknamed the Rocket?",
+        "answer": "Ronnie O Sullivan",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_6534_0",
+                "score": 19.839000701904297
+            },
+            {
+                "id": "triviaqa_6534_9",
+                "score": 19.418699264526367
+            },
+            {
+                "id": "triviaqa_6534_10",
+                "score": 19.238300323486328
+            },
+            {
+                "id": "triviaqa_6534_1",
+                "score": 19.063400268554688
+            },
+            {
+                "id": "triviaqa_6534_11",
+                "score": 18.86910057067871
+            },
+            {
+                "id": "triviaqa_6534_5",
+                "score": 18.648700714111328
+            },
+            {
+                "id": "triviaqa_6534_8",
+                "score": 18.547300338745117
+            },
+            {
+                "id": "triviaqa_6534_2",
+                "score": 18.237300872802734
+            },
+            {
+                "id": "triviaqa_11808_13",
+                "score": 17.41950035095215
+            },
+            {
+                "id": "triviaqa_11808_20",
+                "score": 16.704599380493164
+            },
+            {
+                "id": "triviaqa_11808_14",
+                "score": 16.005399703979492
+            },
+            {
+                "id": "triviaqa_6534_3",
+                "score": 15.890700340270996
+            },
+            {
+                "id": "triviaqa_11808_21",
+                "score": 15.380399703979492
+            },
+            {
+                "id": "nq_249079_233",
+                "score": 15.253100395202637
+            },
+            {
+                "id": "nq_249079_234",
+                "score": 14.932299613952637
+            },
+            {
+                "id": "triviaqa_11808_23",
+                "score": 14.906299591064453
+            },
+            {
+                "id": "triviaqa_32974_0",
+                "score": 14.833100318908691
+            },
+            {
+                "id": "triviaqa_11808_0",
+                "score": 14.612600326538086
+            },
+            {
+                "id": "triviaqa_6534_4",
+                "score": 14.296099662780762
+            },
+            {
+                "id": "triviaqa_11808_24",
+                "score": 14.180299758911133
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_20716_1",
+                "score": 9.494399070739746
+            },
+            {
+                "id": "ott_39734_1",
+                "score": 9.49439811706543
+            },
+            {
+                "id": "ott_20716_0",
+                "score": 8.942299842834473
+            },
+            {
+                "id": "ott_39734_0",
+                "score": 8.942298889160156
+            },
+            {
+                "id": "ott_16270_1",
+                "score": 8.838899612426758
+            },
+            {
+                "id": "ott_22603_1",
+                "score": 8.838898658752441
+            },
+            {
+                "id": "ott_29145_1",
+                "score": 8.838897705078125
+            },
+            {
+                "id": "ott_29201_1",
+                "score": 8.838896751403809
+            },
+            {
+                "id": "ott_10593_0",
+                "score": 8.732799530029297
+            },
+            {
+                "id": "ott_21429_0",
+                "score": 8.73279857635498
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_249079_233",
+                "score": 15.253100395202637
+            },
+            {
+                "id": "nq_249079_234",
+                "score": 14.932299613952637
+            },
+            {
+                "id": "nq_249079_159",
+                "score": 10.601799964904785
+            },
+            {
+                "id": "nq_249079_4",
+                "score": 10.586700439453125
+            },
+            {
+                "id": "nq_249079_232",
+                "score": 10.569600105285645
+            },
+            {
+                "id": "nq_249079_160",
+                "score": 10.521100044250488
+            },
+            {
+                "id": "nq_249079_44",
+                "score": 10.514100074768066
+            },
+            {
+                "id": "nq_249079_153",
+                "score": 10.48069953918457
+            },
+            {
+                "id": "nq_249079_5",
+                "score": 10.411800384521484
+            },
+            {
+                "id": "nq_249079_155",
+                "score": 10.384599685668945
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_6534_0",
+                "score": 19.839000701904297
+            },
+            {
+                "id": "triviaqa_6534_9",
+                "score": 19.418699264526367
+            },
+            {
+                "id": "triviaqa_6534_10",
+                "score": 19.238300323486328
+            },
+            {
+                "id": "triviaqa_6534_1",
+                "score": 19.063400268554688
+            },
+            {
+                "id": "triviaqa_6534_11",
+                "score": 18.86910057067871
+            },
+            {
+                "id": "triviaqa_6534_5",
+                "score": 18.648700714111328
+            },
+            {
+                "id": "triviaqa_6534_8",
+                "score": 18.547300338745117
+            },
+            {
+                "id": "triviaqa_6534_2",
+                "score": 18.237300872802734
+            },
+            {
+                "id": "triviaqa_11808_13",
+                "score": 17.41950035095215
+            },
+            {
+                "id": "triviaqa_11808_20",
+                "score": 16.704599380493164
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.043jv80_53",
+                "score": 9.074700355529785
+            },
+            {
+                "id": "m.029ccj_36",
+                "score": 8.917699813842773
+            },
+            {
+                "id": "m.029ccj_37",
+                "score": 8.817399978637695
+            },
+            {
+                "id": "m.029ccj_11",
+                "score": 8.749799728393555
+            },
+            {
+                "id": "m.043jv80_26",
+                "score": 8.452500343322754
+            },
+            {
+                "id": "m.02xt6q_166",
+                "score": 8.322099685668945
+            },
+            {
+                "id": "m.02xt6q_360",
+                "score": 8.322098731994629
+            },
+            {
+                "id": "m.02xt6q_550",
+                "score": 8.212499618530273
+            },
+            {
+                "id": "m.043jv80_25",
+                "score": 8.156100273132324
+            },
+            {
+                "id": "m.029ccj_35",
+                "score": 8.14579963684082
+            },
+            {
+                "id": "m.02xt6q_165",
+                "score": 8.14210033416748
+            },
+            {
+                "id": "m.02xt6q_359",
+                "score": 8.142099380493164
+            },
+            {
+                "id": "m.03nw3pl_0",
+                "score": 8.077500343322754
+            },
+            {
+                "id": "m.02xt6q_551",
+                "score": 8.044699668884277
+            },
+            {
+                "id": "m.043jv80_54",
+                "score": 7.533899784088135
+            },
+            {
+                "id": "m.0jmfb_31",
+                "score": 7.475900173187256
+            },
+            {
+                "id": "m.0jmdb_55",
+                "score": 7.230100154876709
+            },
+            {
+                "id": "m.012xdf_259",
+                "score": 7.091100215911865
+            },
+            {
+                "id": "m.054c1_111",
+                "score": 6.971499919891357
+            },
+            {
+                "id": "m.03nw3pl_6",
+                "score": 6.934492111206055
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_6534_11",
+                "score": 0.7617149949073792
+            },
+            {
+                "id": "triviaqa_6534_0",
+                "score": 0.7607554197311401
+            },
+            {
+                "id": "triviaqa_6534_1",
+                "score": 0.7433366179466248
+            },
+            {
+                "id": "triviaqa_6534_2",
+                "score": 0.7336347699165344
+            },
+            {
+                "id": "triviaqa_11808_21",
+                "score": 0.6896881461143494
+            },
+            {
+                "id": "triviaqa_6534_8",
+                "score": 0.6858915686607361
+            },
+            {
+                "id": "triviaqa_6534_10",
+                "score": 0.6841031908988953
+            },
+            {
+                "id": "triviaqa_11808_20",
+                "score": 0.6819233298301697
+            },
+            {
+                "id": "triviaqa_6534_5",
+                "score": 0.6810738444328308
+            },
+            {
+                "id": "triviaqa_11808_14",
+                "score": 0.6735338568687439
+            },
+            {
+                "id": "triviaqa_32974_0",
+                "score": 0.6667516231536865
+            },
+            {
+                "id": "triviaqa_6534_3",
+                "score": 0.6591761112213135
+            },
+            {
+                "id": "triviaqa_6534_6",
+                "score": 0.6455150842666626
+            },
+            {
+                "id": "triviaqa_11808_16",
+                "score": 0.6426601409912109
+            },
+            {
+                "id": "triviaqa_6534_4",
+                "score": 0.6419134140014648
+            },
+            {
+                "id": "triviaqa_11808_13",
+                "score": 0.6401320099830627
+            },
+            {
+                "id": "triviaqa_6534_9",
+                "score": 0.639045238494873
+            },
+            {
+                "id": "nq_249079_21",
+                "score": 0.638359010219574
+            },
+            {
+                "id": "triviaqa_6534_7",
+                "score": 0.6361513733863831
+            },
+            {
+                "id": "triviaqa_2164_11",
+                "score": 0.6343236565589905
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_20716_0",
+                "score": 0.6145579218864441
+            },
+            {
+                "id": "ott_39734_0",
+                "score": 0.6145579218864441
+            },
+            {
+                "id": "ott_1554_1",
+                "score": 0.6131826639175415
+            },
+            {
+                "id": "ott_40732_1",
+                "score": 0.6131826639175415
+            },
+            {
+                "id": "ott_29129_1",
+                "score": 0.6131826639175415
+            },
+            {
+                "id": "ott_21106_1",
+                "score": 0.6131826639175415
+            },
+            {
+                "id": "ott_38229_1",
+                "score": 0.6131826639175415
+            },
+            {
+                "id": "ott_5820_1",
+                "score": 0.6131826639175415
+            },
+            {
+                "id": "ott_7111_0",
+                "score": 0.6012959480285645
+            },
+            {
+                "id": "ott_40483_0",
+                "score": 0.6012959480285645
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_249079_21",
+                "score": 0.638359010219574
+            },
+            {
+                "id": "nq_249079_115",
+                "score": 0.6319811344146729
+            },
+            {
+                "id": "nq_249079_30",
+                "score": 0.6282681822776794
+            },
+            {
+                "id": "nq_249079_12",
+                "score": 0.6233652830123901
+            },
+            {
+                "id": "nq_249079_18",
+                "score": 0.6227883100509644
+            },
+            {
+                "id": "nq_249079_128",
+                "score": 0.6192615032196045
+            },
+            {
+                "id": "nq_249079_29",
+                "score": 0.6163740754127502
+            },
+            {
+                "id": "nq_249079_176",
+                "score": 0.6155469417572021
+            },
+            {
+                "id": "nq_249079_34",
+                "score": 0.6131195425987244
+            },
+            {
+                "id": "nq_249079_109",
+                "score": 0.6124212741851807
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_6534_11",
+                "score": 0.7617149949073792
+            },
+            {
+                "id": "triviaqa_6534_0",
+                "score": 0.7607554197311401
+            },
+            {
+                "id": "triviaqa_6534_1",
+                "score": 0.7433366179466248
+            },
+            {
+                "id": "triviaqa_6534_2",
+                "score": 0.7336347699165344
+            },
+            {
+                "id": "triviaqa_11808_21",
+                "score": 0.6896881461143494
+            },
+            {
+                "id": "triviaqa_6534_8",
+                "score": 0.6858915686607361
+            },
+            {
+                "id": "triviaqa_6534_10",
+                "score": 0.6841031908988953
+            },
+            {
+                "id": "triviaqa_11808_20",
+                "score": 0.6819233298301697
+            },
+            {
+                "id": "triviaqa_6534_5",
+                "score": 0.6810738444328308
+            },
+            {
+                "id": "triviaqa_11808_14",
+                "score": 0.6735338568687439
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.029ccj_36",
+                "score": 0.596200168132782
+            },
+            {
+                "id": "m.029ccj_9",
+                "score": 0.58863365650177
+            },
+            {
+                "id": "m.029ccj_10",
+                "score": 0.5859324932098389
+            },
+            {
+                "id": "m.02dsz_291",
+                "score": 0.5819043517112732
+            },
+            {
+                "id": "m.029ccj_5",
+                "score": 0.5816145539283752
+            },
+            {
+                "id": "m.029ccj_6",
+                "score": 0.5803171992301941
+            },
+            {
+                "id": "m.02dsz_387",
+                "score": 0.5739771723747253
+            },
+            {
+                "id": "m.029ccj_18",
+                "score": 0.5722283124923706
+            },
+            {
+                "id": "m.029ccj_21",
+                "score": 0.5710070133209229
+            },
+            {
+                "id": "m.029ccj_19",
+                "score": 0.5709198713302612
+            },
+            {
+                "id": "m.03l0pt_4",
+                "score": 0.5707317590713501
+            },
+            {
+                "id": "m.029ccj_11",
+                "score": 0.5697696208953857
+            },
+            {
+                "id": "m.02dsz_353",
+                "score": 0.5693496465682983
+            },
+            {
+                "id": "m.0j5g9_529",
+                "score": 0.5670121312141418
+            },
+            {
+                "id": "m.02dsz_382",
+                "score": 0.5661612153053284
+            },
+            {
+                "id": "m.03nw3pl_7",
+                "score": 0.5621562004089355
+            },
+            {
+                "id": "m.02dsz_307",
+                "score": 0.561379611492157
+            },
+            {
+                "id": "m.02dsz_386",
+                "score": 0.5571901202201843
+            },
+            {
+                "id": "m.02dsz_177",
+                "score": 0.556696891784668
+            },
+            {
+                "id": "m.029ccj_35",
+                "score": 0.5562981367111206
+            }
+        ],
+        "llm_mark_result": {
+            "nq_249079_233": {
+                "Query Analysis": "The query asks for the nickname 'the Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is a well-known snooker player nicknamed 'the Rocket'.",
+                "Document Content Analysis": "The document provides a list of various categories related to snooker, including links to lists of world champions, ranking title winners, Triple Crown winners, world number ones, and other miscellaneous categories such as nicknames of snooker players.",
+                "Document and Query Keywords Matching": "The document includes a section titled 'Nicknames', which is directly related to the query's focus on a snooker player's nickname.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Key Information Matching": "The document contains a section on nicknames, which is a key piece of information related to the query, even though it does not specify the nickname 'the Rocket' or the player Ronnie O'Sullivan.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document can help infer additional information by directing the user to a list of snooker player nicknames, where the answer might be found.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it includes a section on nicknames, which is directly related to the query's focus. However, it does not contain the specific information needed to answer the query directly. It provides a pathway to potentially find the answer, making it useful for inferential purposes."
+            },
+            "triviaqa_6534_11": {
+                "Query Analysis": "The query seeks to identify the snooker player who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nickname, Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, indicating that he is the snooker player with the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his rapid playing style, nickname 'The Rocket', achievements in snooker such as being a World Champion multiple times, his ranking titles, and other records.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and 'The Rocket' directly.",
+                "Document and Answer Keywords Matching": "The document includes 'Ronnie O'Sullivan' and explicitly states his nickname as 'The Rocket'.",
+                "Key Information Matching": "The document directly matches the key information of the query by stating that Ronnie O'Sullivan is known as 'The Rocket'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Ronnie O'Sullivan as 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Ronnie O'Sullivan's career and achievements, which enhances understanding of why he might have earned the nickname 'The Rocket'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it not only provides the exact answer but also offers substantial additional context about Ronnie O'Sullivan's career, thereby enhancing the understanding of the query."
+            },
+            "triviaqa_6534_1": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player known as 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, indicating that he is the snooker player with the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides a detailed profile of Ronnie O'Sullivan, including his nickname 'The Rocket', his career achievements, and personal information.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document includes 'Ronnie O'Sullivan' and explicitly states his nickname as 'The Rocket'.",
+                "Key Information Matching": "The document directly matches the key information by stating that Ronnie O'Sullivan is known as 'The Rocket'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by confirming that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Ronnie O'Sullivan's career and achievements.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by confirming Ronnie O'Sullivan's nickname and provides additional context about his career, enhancing the understanding of why he might be called 'The Rocket'."
+            },
+            "triviaqa_6534_10": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player known as 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, indicating that he is the snooker player nicknamed 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his achievements in snooker, his net worth, and various records he holds.",
+                "Document and Query Keywords Matching": "The document mentions 'Ronnie O'Sullivan' and explicitly states his nickname 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document includes the name 'Ronnie O'Sullivan' and the nickname 'The Rocket'.",
+                "Key Information Matching": "The document directly mentions that Ronnie O'Sullivan is nicknamed 'The Rocket', which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Ronnie O'Sullivan's career and achievements, which enhances the context of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly provides the answer (Ronnie O'Sullivan being nicknamed 'The Rocket') and offers substantial additional context about his career and achievements in snooker."
+            },
+            "m.043jv80_53": {
+                "Query Analysis": "The query is seeking the identity of a snooker player who is known by the nickname 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer identifies Ronnie O'Sullivan as the snooker player with the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document primarily discusses Tom Thibodeau, an American basketball coach, and his career, including his time with the Chicago Bulls and Houston Rockets. It also mentions his achievements and personal details.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'snooker player', 'nickname', or 'the Rocket'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Ronnie O'Sullivan'. It does mention 'Rockets' in the context of the Houston Rockets basketball team, but this is not relevant to the query.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on basketball, not snooker.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about snooker players or their nicknames.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Tom Thibodeau, a basketball coach, and contains no information related to snooker or the nickname 'the Rocket'. Therefore, it is irrelevant to the query."
+            },
+            "m.029ccj_36": {
+                "Query Analysis": "The query asks for the nickname 'the Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer identifies Ronnie O'Sullivan as the snooker player with the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ken Doherty, an Irish professional snooker player, including his achievements, notable matches, and personal details.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' but does not reference any nicknames.",
+                "Document and Answer Keywords Matching": "The document does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Key Information Matching": "The document focuses on Ken Doherty and does not provide any information related to the nickname 'the Rocket' or Ronnie O'Sullivan.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the nickname 'the Rocket' or Ronnie O'Sullivan.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is solely about Ken Doherty and does not mention any other snooker players or their nicknames. Therefore, it is irrelevant to the query about the nickname 'the Rocket' associated with a different snooker player, Ronnie O'Sullivan."
+            },
+            "triviaqa_11808_21": {
+                "Query Analysis": "The query asks for the nickname 'The Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, Rocket",
+                "Answer Analysis": "The answer identifies Ronnie O'Sullivan as the snooker player with the nickname 'The Rocket'.",
+                "Document Content Analysis": "The document provides a detailed biography of Ronnie O'Sullivan, including his achievements, personal life, and career highlights. It mentions his official nickname 'The Rocket' and other monikers.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'snooker player' and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Ronnie O'Sullivan' and 'The Rocket' directly.",
+                "Key Information Matching": "The document explicitly states that Ronnie O'Sullivan's fast play has earned him the nickname 'The Rocket', directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Ronnie O'Sullivan's career and personal life, enhancing the context around the nickname.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by confirming that Ronnie O'Sullivan is known as 'The Rocket'. Additionally, it provides substantial context and background information about O'Sullivan, which enhances understanding of why he earned this nickname."
+            },
+            "triviaqa_6534_2": {
+                "Query Analysis": "The query asks for the nickname 'The Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, The Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, indicating that he is the snooker player known by the nickname 'The Rocket'.",
+                "Document Content Analysis": "The document provides a detailed biography of Ronnie O'Sullivan, highlighting his achievements, playing style, and the fact that he is nicknamed 'The Rocket'. It mentions his world championships, career earnings, ranking titles, and records in snooker.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', 'Ronnie O'Sullivan', and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document includes 'Ronnie O'Sullivan' and explicitly states he is nicknamed 'The Rocket'.",
+                "Key Information Matching": "The document directly matches the key information by stating that Ronnie O'Sullivan is known as 'The Rocket'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by confirming that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Ronnie O'Sullivan's career and achievements, which enhances understanding of why he might have earned the nickname 'The Rocket'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and background information about Ronnie O'Sullivan, including the specific detail that he is nicknamed 'The Rocket'. This makes it highly relevant to the query."
+            },
+            "triviaqa_6534_9": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player known as 'The Rocket'.",
+                "Query Keywords Extraction": "snooker player, nickname, The Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, indicating that he is the snooker player nicknamed 'The Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his net worth, achievements in snooker, and his nickname 'The Rocket'. It also mentions his playing style, titles won, and records held.",
+                "Document and Query Keywords Matching": "The document mentions 'Ronnie O'Sullivan', 'snooker player', and the nickname 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Ronnie O'Sullivan' and his nickname 'The Rocket'.",
+                "Key Information Matching": "The document directly matches the key information of the query by stating that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by confirming that Ronnie O'Sullivan is known as 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive additional information about Ronnie O'Sullivan's career and achievements, which enhances the context of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly answers the question by confirming Ronnie O'Sullivan's nickname and provides additional context about his career and achievements in snooker."
+            },
+            "m.029ccj_9": {
+                "Query Analysis": "The query asks for the nickname 'the Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is a well-known snooker player nicknamed 'the Rocket'.",
+                "Document Content Analysis": "The document provides information about Ken Doherty, an Irish professional snooker player. It mentions his achievements, such as winning the Malta Cup in 2006, his ranking, and his playing style. It also mentions other players like John Higgins and Stephen Hendry.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' but does not contain the keywords 'nickname' or 'Rocket'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Ronnie O'Sullivan'.",
+                "Key Information Matching": "The document focuses on Ken Doherty and other players but does not provide any information about Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the nickname 'the Rocket' or Ronnie O'Sullivan.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Ronnie O'Sullivan or the nickname 'the Rocket'. It focuses solely on Ken Doherty and other aspects of snooker that do not relate to the specific query."
+            },
+            "ott_20716_0": {
+                "Query Analysis": "The query asks for the nickname 'the Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Stephen Hendry's career in snooker, including his achievements, titles, and opponents in various championships.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and details about Stephen Hendry's career, but does not mention the nickname 'the Rocket'.",
+                "Document and Answer Keywords Matching": "The document does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Key Information Matching": "The document focuses solely on Stephen Hendry and does not provide any information related to Ronnie O'Sullivan or his nickname.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the nickname of Ronnie O'Sullivan.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Stephen Hendry and does not mention Ronnie O'Sullivan or the nickname 'the Rocket'. Therefore, it is irrelevant to the query as it provides no useful context or additional information related to the query."
+            },
+            "ott_20716_1": {
+                "Query Analysis": "The query asks for the nickname 'the Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, indicating that he is the snooker player known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides information about Stephen Hendry's career in snooker, including his achievements, titles, and records. It also mentions Ronnie O'Sullivan in the context of sharing the record for the most ranking titles.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and 'Ronnie O'Sullivan'.",
+                "Document and Answer Keywords Matching": "The document includes 'Ronnie O'Sullivan', which is the answer to the query.",
+                "Key Information Matching": "While the document mentions Ronnie O'Sullivan, it does not explicitly state his nickname 'the Rocket'.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Ronnie O'Sullivan is nicknamed 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Ronnie O'Sullivan's significance in snooker, which could help infer his prominence and potential nicknames.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions Ronnie O'Sullivan, who is the answer to the query, but it does not explicitly confirm his nickname 'the Rocket'. The document provides useful context about snooker players and their achievements, which could aid in understanding the query better."
+            },
+            "triviaqa_6534_0": {
+                "Query Analysis": "The query asks for the nickname 'The Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, The Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, indicating he is the snooker player known by the nickname 'The Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his rapid playing style, nickname 'The Rocket', career achievements, and personal details.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document includes 'Ronnie O'Sullivan' and explicitly states he is nicknamed 'The Rocket'.",
+                "Key Information Matching": "The document directly matches the key information by stating that Ronnie O'Sullivan is known as 'The Rocket'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Ronnie O'Sullivan as 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Ronnie O'Sullivan, enhancing the context of the nickname.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by confirming Ronnie O'Sullivan's nickname as 'The Rocket' and provides additional context about his career and achievements."
+            },
+            "nq_249079_21": {
+                "Query Analysis": "The query asks for the nickname 'the Rocket' associated with a snooker player.",
+                "Query Keywords Extraction": "snooker player, nickname, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is a well-known snooker player nicknamed 'the Rocket'.",
+                "Document Content Analysis": "The document provides a list of snooker matches, including dates, players, and events. It mentions players like Stephen Hendry, Jimmy White, and Gary Wilkinson, but does not explicitly mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Document and Query Keywords Matching": "The document is about snooker and mentions several snooker players, but does not contain the keywords 'nickname' or 'the Rocket'.",
+                "Document and Answer Keywords Matching": "The document does not mention Ronnie O'Sullivan or any of his associated nicknames.",
+                "Key Information Matching": "While the document is related to snooker and includes names of snooker players, it lacks any direct reference to Ronnie O'Sullivan or his nickname 'the Rocket'.",
+                "Can the Document Answer the Query": "No, the document does not provide the information needed to answer the query directly.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that would help infer the nickname of a snooker player.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the nickname 'the Rocket' or mention Ronnie O'Sullivan. It only lists snooker matches and players without any reference to nicknames."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_249079_233": {
+                "Query Analysis": "The query asks for the name of the snooker player who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides a list of topics related to snooker, including players, champions, rankings, breaks, and miscellaneous information such as nicknames. It specifically mentions a section on 'Nicknames' under the 'Miscellaneous' category.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and 'Nicknames', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Ronnie O'Sullivan' or 'the Rocket', but it does reference a section on 'Nicknames', which could contain the relevant information.",
+                "Key Information Matching": "The document includes a section on 'Nicknames', which is directly related to the query. However, it does not explicitly state the nickname 'the Rocket' or the player associated with it.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the name of the player nicknamed 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document points to a section on 'Nicknames', which could contain the information needed to answer the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides a link to a section on 'Nicknames', which is directly related to the query. However, it does not explicitly contain the answer or the specific nickname 'the Rocket'. Therefore, it can help infer additional information but does not directly answer the query."
+            },
+            "triviaqa_6534_11": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player, specifically 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is nicknamed 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his rapid playing style, his achievements in snooker, and his career statistics.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', 'nicknamed', and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Ronnie O'Sullivan' and 'The Rocket'.",
+                "Key Information Matching": "The document directly mentions Ronnie O'Sullivan as the snooker player nicknamed 'The Rocket', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Ronnie O'Sullivan as the player nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about Ronnie O'Sullivan's career and achievements, which could be useful for further context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, identifying Ronnie O'Sullivan as the snooker player nicknamed 'The Rocket'. It also offers additional context about his career, enhancing understanding of the query."
+            },
+            "triviaqa_6534_1": {
+                "Query Analysis": "The query asks for the name of the snooker player who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his rapid playing style, his achievements in snooker, and his career statistics.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', 'nicknamed', and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Ronnie O'Sullivan' and 'The Rocket'.",
+                "Key Information Matching": "The document directly states that Ronnie O'Sullivan is nicknamed 'The Rocket', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Ronnie O'Sullivan as the snooker player nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Ronnie O'Sullivan's career and achievements, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer. It also offers substantial additional information about Ronnie O'Sullivan, making it highly relevant."
+            },
+            "triviaqa_6534_10": {
+                "Query Analysis": "The query asks for the name of the snooker player who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his career achievements, and his net worth. It also mentions his rapid playing style and his status as a three-time World Champion.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', 'nicknamed', and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Ronnie O'Sullivan' and 'The Rocket'.",
+                "Key Information Matching": "The document directly provides the name 'Ronnie O'Sullivan' and confirms his nickname 'The Rocket', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Ronnie O'Sullivan as the snooker player nicknamed 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Ronnie O'Sullivan's career and achievements, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about Ronnie O'Sullivan's career. This makes it highly relevant and useful for understanding the query."
+            },
+            "m.043jv80_53": {
+                "Query Analysis": "The query asks for the name of the snooker player who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is a famous snooker player known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides information about Tom Thibodeau, an American basketball coach, including his career, achievements, and associations with teams like the Chicago Bulls and Houston Rockets. It does not mention snooker or any snooker players.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query, such as 'snooker player', 'nicknamed', or 'Rocket'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Ronnie O'Sullivan' or any snooker-related terms.",
+                "Key Information Matching": "The document does not provide any information related to snooker, nicknames, or the specific player mentioned in the query or answer.",
+                "Can the Document Answer the Query": "No, the document does not mention snooker or the nickname 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to snooker or the nickname 'the Rocket'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a basketball coach and does not provide any information related to snooker or the nickname 'the Rocket'. Therefore, it is irrelevant to the query."
+            },
+            "m.029ccj_36": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player, referred to as 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer identifies the snooker player nicknamed 'the Rocket' as Ronnie O'Sullivan.",
+                "Document Content Analysis": "The document provides detailed information about Ken Doherty, an Irish professional snooker player, including his career achievements, notable matches, and personal details. However, it does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', which matches a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Ronnie O'Sullivan' or 'the Rocket', so there are no matching keywords from the answer.",
+                "Key Information Matching": "The document discusses a snooker player (Ken Doherty) but does not provide any information about Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Answer the Query": "No, the document does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Ken Doherty, a different snooker player, and does not mention Ronnie O'Sullivan or the nickname 'the Rocket'. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_11808_21": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player, known as 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is nicknamed 'The Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his career achievements, personal life, and challenges.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', 'nickname', and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Ronnie O'Sullivan' and 'The Rocket'.",
+                "Key Information Matching": "The document directly states that Ronnie O'Sullivan is nicknamed 'The Rocket', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Ronnie O'Sullivan's career and personal life, which could be useful for understanding his background.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about Ronnie O'Sullivan. It is highly relevant as it not only answers the query but also enhances understanding of the topic."
+            },
+            "triviaqa_6534_2": {
+                "Query Analysis": "The query asks for the name of the snooker player who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is nicknamed 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his achievements in snooker, and his rapid playing style.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', 'nicknamed', and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Ronnie O'Sullivan' and 'The Rocket'.",
+                "Key Information Matching": "The document directly states that Ronnie O'Sullivan is nicknamed 'The Rocket', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about Ronnie O'Sullivan's career and achievements, which could be useful for understanding his significance in snooker.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about Ronnie O'Sullivan's career, enhancing understanding of the query."
+            },
+            "triviaqa_6534_9": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player, specifically identifying the player known as 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is nicknamed 'The Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his career achievements, and his net worth. It also mentions his rapid playing style and his status as a three-time World Champion.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player', 'nicknamed', and 'The Rocket'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Ronnie O'Sullivan' and 'The Rocket'.",
+                "Key Information Matching": "The document directly states that Ronnie O'Sullivan is nicknamed 'The Rocket', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Ronnie O'Sullivan as 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Ronnie O'Sullivan's career and achievements, which enhances understanding of why he is nicknamed 'The Rocket'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about Ronnie O'Sullivan's career, which enhances understanding of the query."
+            },
+            "m.029ccj_9": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player, specifically who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document discusses Ken Doherty, an Irish professional snooker player, his achievements, and his playing style. It mentions his nickname 'Crafty Ken' and his ranking in the snooker world. However, there is no mention of Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and 'nickname' (in the form of 'Crafty Ken'), but it does not mention 'the Rocket'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Ronnie O'Sullivan' or 'the Rocket'.",
+                "Key Information Matching": "The document provides information about Ken Doherty, a snooker player, but does not provide any information about Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Answer the Query": "No, the document does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Ken Doherty, a different snooker player, and does not mention Ronnie O'Sullivan or the nickname 'the Rocket'. Therefore, it is irrelevant to the query."
+            },
+            "ott_20716_0": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player, referred to as 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, the Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is commonly known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides detailed information about Stephen Hendry, a Scottish former professional snooker player, including his career achievements, finals, and titles. However, it does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' but does not include 'nicknamed' or 'the Rocket'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Ronnie O'Sullivan' or 'the Rocket'.",
+                "Key Information Matching": "The document focuses on Stephen Hendry's career and does not provide any information related to Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Answer the Query": "No, the document does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Stephen Hendry and does not contain any information related to Ronnie O'Sullivan or the nickname 'the Rocket'. Therefore, it is irrelevant to the query."
+            },
+            "ott_20716_1": {
+                "Query Analysis": "The query asks for the nickname of a specific snooker player, referred to as 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, Rocket",
+                "Answer Analysis": "The answer identifies the snooker player nicknamed 'the Rocket' as Ronnie O'Sullivan.",
+                "Document Content Analysis": "The document provides a detailed overview of Stephen Hendry's career, including his achievements, records, and comparisons with other players, notably Ronnie O'Sullivan. It mentions that Hendry shares the record for the most ranking titles (36) with Ronnie O'Sullivan.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker player' and 'Ronnie O'Sullivan', but does not explicitly mention the nickname 'Rocket'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Ronnie O'Sullivan', which matches the answer.",
+                "Key Information Matching": "The document mentions Ronnie O'Sullivan in the context of sharing the record for the most ranking titles with Stephen Hendry, but it does not explicitly state his nickname.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Ronnie O'Sullivan is nicknamed 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions Ronnie O'Sullivan and his achievements, which could help infer that he is a prominent snooker player, but it does not provide the specific nickname.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions Ronnie O'Sullivan, the player in question, and provides context about his achievements in snooker. However, it does not directly state his nickname, 'the Rocket', which is the key information required to answer the query."
+            },
+            "triviaqa_6534_0": {
+                "Query Analysis": "The query asks for the name of the snooker player who is nicknamed 'The Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is known by the nickname 'The Rocket'.",
+                "Document Content Analysis": "Both documents provide detailed information about Ronnie O'Sullivan, including his nickname 'The Rocket', his achievements in snooker, and his rapid playing style.",
+                "Document and Query Keywords Matching": "Both documents mention 'snooker player', 'nicknamed', and 'Rocket'.",
+                "Document and Answer Keywords Matching": "Both documents mention 'Ronnie O'Sullivan' and 'The Rocket'.",
+                "Key Information Matching": "The documents directly mention Ronnie O'Sullivan as the snooker player nicknamed 'The Rocket', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, both documents directly state that Ronnie O'Sullivan is nicknamed 'The Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the documents provide additional context about Ronnie O'Sullivan's career and achievements.",
+                "Relevance Judgement": "2",
+                "Explanation": "Both documents are directly relevant to the query as they explicitly state that Ronnie O'Sullivan is nicknamed 'The Rocket'. They also provide additional useful context about his career, which enhances understanding of the query."
+            },
+            "nq_249079_21": {
+                "Query Analysis": "The query asks for the name of the snooker player who is nicknamed 'the Rocket'.",
+                "Query Keywords Extraction": "snooker player, nicknamed, Rocket",
+                "Answer Analysis": "The answer is Ronnie O'Sullivan, who is widely known by the nickname 'the Rocket'.",
+                "Document Content Analysis": "The document provides information about snooker tournaments and players, including Stephen Hendry and Jimmy White, but does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Document and Query Keywords Matching": "The document mentions 'snooker' and 'player', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Ronnie O'Sullivan' or 'the Rocket'.",
+                "Key Information Matching": "The document does not provide any information about Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Answer the Query": "No, the document does not mention Ronnie O'Sullivan or the nickname 'the Rocket'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Ronnie O'Sullivan or the nickname 'the Rocket', nor does it provide any information that could help infer the answer."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_249079_233": {},
+            "triviaqa_6534_11": {},
+            "triviaqa_6534_1": {},
+            "triviaqa_6534_10": {},
+            "m.043jv80_53": {},
+            "m.029ccj_36": {},
+            "triviaqa_11808_21": {},
+            "triviaqa_6534_2": {},
+            "triviaqa_6534_9": {},
+            "m.029ccj_9": {},
+            "ott_20716_0": {},
+            "ott_20716_1": {},
+            "triviaqa_6534_0": {},
+            "nq_249079_21": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "ott": 1,
+            "triviaqa": 4,
+            "kg": 0,
+            "nq": 1,
+            "tat": 0
+        }
+    }
+}

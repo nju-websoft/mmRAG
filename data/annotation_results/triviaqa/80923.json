@@ -1,0 +1,973 @@
+{
+    "index": 80923,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "The painting, La Jaconde, is better known by what name?",
+        "answer": "Mona Lisa",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_2485_0",
+                "score": 11.810500144958496
+            },
+            {
+                "id": "triviaqa_35092_555",
+                "score": 10.534600257873535
+            },
+            {
+                "id": "triviaqa_73039_350",
+                "score": 10.534599304199219
+            },
+            {
+                "id": "triviaqa_4338_297",
+                "score": 10.443699836730957
+            },
+            {
+                "id": "triviaqa_24321_214",
+                "score": 10.169599533081055
+            },
+            {
+                "id": "triviaqa_24457_21",
+                "score": 10.169598579406738
+            },
+            {
+                "id": "triviaqa_62937_262",
+                "score": 10.102700233459473
+            },
+            {
+                "id": "triviaqa_65024_566",
+                "score": 10.082099914550781
+            },
+            {
+                "id": "triviaqa_13776_4",
+                "score": 10.044400215148926
+            },
+            {
+                "id": "triviaqa_72796_75",
+                "score": 9.993399620056152
+            },
+            {
+                "id": "triviaqa_16908_23",
+                "score": 9.922699928283691
+            },
+            {
+                "id": "triviaqa_12557_8",
+                "score": 9.885700225830078
+            },
+            {
+                "id": "triviaqa_2485_37",
+                "score": 9.859199523925781
+            },
+            {
+                "id": "triviaqa_65024_516",
+                "score": 9.847900390625
+            },
+            {
+                "id": "triviaqa_12557_22",
+                "score": 9.786499977111816
+            },
+            {
+                "id": "triviaqa_16908_24",
+                "score": 9.753600120544434
+            },
+            {
+                "id": "triviaqa_73039_253",
+                "score": 9.74530029296875
+            },
+            {
+                "id": "triviaqa_35092_546",
+                "score": 9.710200309753418
+            },
+            {
+                "id": "triviaqa_73039_341",
+                "score": 9.710199356079102
+            },
+            {
+                "id": "triviaqa_2485_12",
+                "score": 9.704500198364258
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_22211_3",
+                "score": 8.288900375366211
+            },
+            {
+                "id": "ott_24189_3",
+                "score": 8.288899421691895
+            },
+            {
+                "id": "ott_32001_3",
+                "score": 8.288898468017578
+            },
+            {
+                "id": "ott_22211_2",
+                "score": 8.279500007629395
+            },
+            {
+                "id": "ott_24189_2",
+                "score": 8.279499053955078
+            },
+            {
+                "id": "ott_32001_2",
+                "score": 8.279498100280762
+            },
+            {
+                "id": "ott_22919_0",
+                "score": 6.6545000076293945
+            },
+            {
+                "id": "ott_33463_0",
+                "score": 6.654499053955078
+            },
+            {
+                "id": "ott_34719_0",
+                "score": 6.654498100280762
+            },
+            {
+                "id": "ott_25874_0",
+                "score": 6.46589994430542
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_303658_36",
+                "score": 9.600099563598633
+            },
+            {
+                "id": "nq_129642_47",
+                "score": 9.420900344848633
+            },
+            {
+                "id": "nq_130302_61",
+                "score": 9.319199562072754
+            },
+            {
+                "id": "nq_264562_4",
+                "score": 9.246500015258789
+            },
+            {
+                "id": "nq_165568_47",
+                "score": 9.173800468444824
+            },
+            {
+                "id": "nq_429_48",
+                "score": 9.173799514770508
+            },
+            {
+                "id": "nq_246381_27",
+                "score": 8.982099533081055
+            },
+            {
+                "id": "nq_264562_3",
+                "score": 8.883000373840332
+            },
+            {
+                "id": "nq_246599_13",
+                "score": 8.575699806213379
+            },
+            {
+                "id": "nq_258015_94",
+                "score": 8.468099594116211
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_2485_0",
+                "score": 11.810500144958496
+            },
+            {
+                "id": "triviaqa_35092_555",
+                "score": 10.534600257873535
+            },
+            {
+                "id": "triviaqa_73039_350",
+                "score": 10.534599304199219
+            },
+            {
+                "id": "triviaqa_4338_297",
+                "score": 10.443699836730957
+            },
+            {
+                "id": "triviaqa_24321_214",
+                "score": 10.169599533081055
+            },
+            {
+                "id": "triviaqa_24457_21",
+                "score": 10.169598579406738
+            },
+            {
+                "id": "triviaqa_62937_262",
+                "score": 10.102700233459473
+            },
+            {
+                "id": "triviaqa_65024_566",
+                "score": 10.082099914550781
+            },
+            {
+                "id": "triviaqa_13776_4",
+                "score": 10.044400215148926
+            },
+            {
+                "id": "triviaqa_72796_75",
+                "score": 9.993399620056152
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.05np2_226",
+                "score": 9.521599769592285
+            },
+            {
+                "id": "m.04nl1vp_0",
+                "score": 8.722200393676758
+            },
+            {
+                "id": "m.03y8vk2_0",
+                "score": 8.243300437927246
+            },
+            {
+                "id": "m.01xnj_108",
+                "score": 8.154399871826172
+            },
+            {
+                "id": "m.05np2_246",
+                "score": 8.110699653625488
+            },
+            {
+                "id": "m.04vvgl_2",
+                "score": 8.025099754333496
+            },
+            {
+                "id": "m.03xj1_150",
+                "score": 8.008199691772461
+            },
+            {
+                "id": "m.03xj1_151",
+                "score": 8.008198738098145
+            },
+            {
+                "id": "m.03xj1_383",
+                "score": 7.856500148773193
+            },
+            {
+                "id": "m.06g19v_1",
+                "score": 7.668499946594238
+            },
+            {
+                "id": "m.04vvgl_1",
+                "score": 7.625699996948242
+            },
+            {
+                "id": "m.05t6y5_9",
+                "score": 7.537799835205078
+            },
+            {
+                "id": "m.010fdzhp_0",
+                "score": 7.4608001708984375
+            },
+            {
+                "id": "m.07pzc_419",
+                "score": 7.453400135040283
+            },
+            {
+                "id": "m.07_m2_163",
+                "score": 7.427999973297119
+            },
+            {
+                "id": "m.05t6y5_10",
+                "score": 7.4141998291015625
+            },
+            {
+                "id": "m.01vxhv1_0",
+                "score": 7.188399791717529
+            },
+            {
+                "id": "m.02hxfyw_0",
+                "score": 7.184199810028076
+            },
+            {
+                "id": "m.0j28k64_0",
+                "score": 7.183899879455566
+            },
+            {
+                "id": "m.09v7twj_2",
+                "score": 7.180300235748291
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_75307_47",
+                "score": 0.5943994522094727
+            },
+            {
+                "id": "m.03xj1_165",
+                "score": 0.5825343728065491
+            },
+            {
+                "id": "nq_130302_94",
+                "score": 0.5802330374717712
+            },
+            {
+                "id": "triviaqa_75307_30",
+                "score": 0.5789836645126343
+            },
+            {
+                "id": "triviaqa_75307_35",
+                "score": 0.5750305652618408
+            },
+            {
+                "id": "triviaqa_75307_46",
+                "score": 0.5740639567375183
+            },
+            {
+                "id": "triviaqa_43601_64",
+                "score": 0.568895161151886
+            },
+            {
+                "id": "triviaqa_75307_0",
+                "score": 0.5688753724098206
+            },
+            {
+                "id": "m.03xj1_152",
+                "score": 0.5684871077537537
+            },
+            {
+                "id": "m.049xrv_68",
+                "score": 0.5672285556793213
+            },
+            {
+                "id": "nq_130302_100",
+                "score": 0.5672260522842407
+            },
+            {
+                "id": "m.064_8sq_2883",
+                "score": 0.5653481483459473
+            },
+            {
+                "id": "triviaqa_40761_679",
+                "score": 0.5639772415161133
+            },
+            {
+                "id": "m.049xrv_140",
+                "score": 0.5602610111236572
+            },
+            {
+                "id": "nq_236278_142",
+                "score": 0.5589374303817749
+            },
+            {
+                "id": "triviaqa_43601_67",
+                "score": 0.5582568049430847
+            },
+            {
+                "id": "triviaqa_75303_395",
+                "score": 0.5576220750808716
+            },
+            {
+                "id": "triviaqa_45279_102",
+                "score": 0.5571068525314331
+            },
+            {
+                "id": "nq_109616_35",
+                "score": 0.5566510558128357
+            },
+            {
+                "id": "triviaqa_39996_6",
+                "score": 0.556610107421875
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_130302_94",
+                "score": 0.5802330374717712
+            },
+            {
+                "id": "nq_130302_100",
+                "score": 0.5672260522842407
+            },
+            {
+                "id": "nq_236278_142",
+                "score": 0.5589374303817749
+            },
+            {
+                "id": "nq_109616_35",
+                "score": 0.5566510558128357
+            },
+            {
+                "id": "nq_130302_108",
+                "score": 0.55545574426651
+            },
+            {
+                "id": "nq_297599_51",
+                "score": 0.5532605648040771
+            },
+            {
+                "id": "nq_130302_93",
+                "score": 0.5530298948287964
+            },
+            {
+                "id": "nq_130302_1",
+                "score": 0.551090657711029
+            },
+            {
+                "id": "nq_130302_98",
+                "score": 0.5508861541748047
+            },
+            {
+                "id": "nq_116331_92",
+                "score": 0.5506200790405273
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_75307_47",
+                "score": 0.5943994522094727
+            },
+            {
+                "id": "triviaqa_75307_30",
+                "score": 0.5789836645126343
+            },
+            {
+                "id": "triviaqa_75307_35",
+                "score": 0.5750305652618408
+            },
+            {
+                "id": "triviaqa_75307_46",
+                "score": 0.5740639567375183
+            },
+            {
+                "id": "triviaqa_43601_64",
+                "score": 0.568895161151886
+            },
+            {
+                "id": "triviaqa_75307_0",
+                "score": 0.5688753724098206
+            },
+            {
+                "id": "triviaqa_40761_679",
+                "score": 0.5639772415161133
+            },
+            {
+                "id": "triviaqa_43601_67",
+                "score": 0.5582568049430847
+            },
+            {
+                "id": "triviaqa_75303_395",
+                "score": 0.5576220750808716
+            },
+            {
+                "id": "triviaqa_45279_102",
+                "score": 0.5571068525314331
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.03xj1_165",
+                "score": 0.5825343728065491
+            },
+            {
+                "id": "m.03xj1_152",
+                "score": 0.5684871077537537
+            },
+            {
+                "id": "m.049xrv_68",
+                "score": 0.5672285556793213
+            },
+            {
+                "id": "m.064_8sq_2883",
+                "score": 0.5653481483459473
+            },
+            {
+                "id": "m.049xrv_140",
+                "score": 0.5602610111236572
+            },
+            {
+                "id": "m.0n1h_115",
+                "score": 0.5555095672607422
+            },
+            {
+                "id": "m.03xj1_377",
+                "score": 0.5546607971191406
+            },
+            {
+                "id": "m.03xj1_166",
+                "score": 0.5531635880470276
+            },
+            {
+                "id": "m.03xj1_434",
+                "score": 0.5505614280700684
+            },
+            {
+                "id": "m.03xj1_435",
+                "score": 0.5500361919403076
+            },
+            {
+                "id": "m.015xrq_484",
+                "score": 0.549913763999939
+            },
+            {
+                "id": "m.073_6_658",
+                "score": 0.5497459173202515
+            },
+            {
+                "id": "m.049xrv_67",
+                "score": 0.5475888848304749
+            },
+            {
+                "id": "m.03xj1_378",
+                "score": 0.5468541383743286
+            },
+            {
+                "id": "m.073_6_205",
+                "score": 0.5468086004257202
+            },
+            {
+                "id": "m.03xj1_443",
+                "score": 0.5467926859855652
+            },
+            {
+                "id": "m.015xrq_120",
+                "score": 0.5465044379234314
+            },
+            {
+                "id": "m.04lx1_215",
+                "score": 0.5464235544204712
+            },
+            {
+                "id": "m.07_m2_251",
+                "score": 0.5462318658828735
+            },
+            {
+                "id": "m.04lx1_139",
+                "score": 0.5445647239685059
+            }
+        ],
+        "llm_mark_result": {
+            "m.04nl1vp_0": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more popular name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document provides information about an individual named Andrés Parra, including his various names, descriptions of his career, and some keys related to his identity in databases.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Mona Lisa' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or the answer. The document is entirely about Andrés Parra, which is unrelated to the painting 'La Jaconde'.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the painting 'La Jaconde' or its alternative name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Andrés Parra, a Colombian actor, and contains no information related to the painting 'La Jaconde' or its better-known name, 'Mona Lisa'. Therefore, it is irrelevant to the query."
+            },
+            "m.03xj1_152": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document lists various artworks and artists associated with Impressionism, including titles of paintings and names of artists.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document focuses on Impressionism and related artworks and artists, which does not include 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'La Jaconde' or its better-known name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Impressionism and associated artworks and artists, while the query pertains to a specific painting known as 'La Jaconde' or 'Mona Lisa', which is not mentioned in the document. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_2485_0": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document provides information about the artist Domenikos Theotokopoulos, better known as 'El Greco'. It details his personal life, career, and some of his notable works, including The Miracle of Christ Healing the Blind, Saint Jerome as Cardinal, The View of Toledo, Christ Driving the Traders from the Temple, and The Burial of Count Orgaz.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa'.",
+                "Key Information Matching": "The document discusses another artist, El Greco, and his works, but does not provide any information related to 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the artist El Greco and his works, which are unrelated to the query about the painting 'La Jaconde'. It does not provide any information that could directly answer the query or help infer the answer. Therefore, it is deemed irrelevant."
+            },
+            "nq_130302_94": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more popular name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document provides information about two artworks: 'Nature morte à la nappe à carreaux (Still Life with Checked Tablecloth)' by Juan Gris and 'Femme au miroir (Femme à sa toilette, Lady at her Dressing Table)' by Jean Metzinger. It includes details such as the artists, creation years, materials, dimensions, and the collections they belong to.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Mona Lisa'.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses specific artworks by different artists and does not mention 'La Jaconde' or 'Mona Lisa' in any context. Therefore, it cannot provide any useful context or additional information to answer the query."
+            },
+            "triviaqa_4338_297": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document contains a series of questions and answers about various trivia topics, including names of authors, actors, historical figures, geographical locations, and other miscellaneous facts.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about 'La Jaconde' or 'Mona Lisa'. The document's content is focused on a variety of trivia questions and answers that do not relate to the specific topic of the query."
+            },
+            "triviaqa_75307_35": {
+                "Query Analysis": "The query is asking for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document provides detailed information about the Mona Lisa painting, including its other names (Italian: La Gioconda, French: La Joconde), the artist (Leonardo da Vinci), the medium (oil on poplar), dimensions, location (Musée du Louvre, Paris, France), and historical context.",
+                "Document and Query Keywords Matching": "The document mentions 'La Gioconda' which is the Italian name for 'La Jaconde'.",
+                "Document and Answer Keywords Matching": "The document extensively mentions 'Mona Lisa', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'Mona Lisa' and provides its alternative names, including 'La Gioconda', which matches the query's 'La Jaconde'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Mona Lisa is also known as La Gioconda.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the Mona Lisa, enhancing the understanding of the painting.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only provides the answer ('Mona Lisa') but also additional context and information about the painting, including its other names which include 'La Gioconda', directly corresponding to 'La Jaconde'."
+            },
+            "ott_22211_3": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known name",
+                "Answer Analysis": "The answer is 'Mona Lisa', indicating that 'La Jaconde' is another name for the famous painting 'Mona Lisa'.",
+                "Document Content Analysis": "The document discusses the works of Vermeer, including the popularity of his paintings from different periods, the number of attributed works, and the issue of forgeries. It also mentions that many Vermeer paintings are known by various names.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa' or any related terms.",
+                "Key Information Matching": "The document does not contain any information related to 'La Jaconde' or 'Mona Lisa'. It focuses solely on Vermeer and his works.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'La Jaconde' or its alternative name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Vermeer and his paintings, with no mention or relevance to 'La Jaconde' or 'Mona Lisa'. Therefore, it is irrelevant to the query."
+            },
+            "m.05np2_226": {
+                "Query Analysis": "The query asks for the alternative name by which the painting 'La Jaconde' is more commonly known.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', indicating that 'La Jaconde' is another name for the famous painting 'Mona Lisa'.",
+                "Document Content Analysis": "The document provides various quotes and information related to Oscar Wilde, including his works, influences, and notable sayings. It also mentions a meeting with Toulouse-Lautrec, an artist, but does not discuss specific artworks like 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'La Jaconde', 'better known', or 'name'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Mona Lisa'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses entirely on Oscar Wilde and does not mention any paintings or related art history.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the painting 'La Jaconde' or its alternative name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Oscar Wilde and does not mention any relevant information about the painting 'La Jaconde' or its alternative name 'Mona Lisa'. Therefore, it is irrelevant to the query."
+            },
+            "nq_303658_36": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document contains references to various exhibitions and articles related to art, specifically focusing on the works of Tom Bendhem, Bridget Riley, and others. It includes hyperlinks and retrieval dates for these references.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde', 'Mona Lisa', or any related terms directly.",
+                "Document and Answer Keywords Matching": "The document does not contain the term 'Mona Lisa' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the painting 'La Jaconde' or its alternative name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on art exhibitions and specific artists, but does not mention 'La Jaconde' or 'Mona Lisa'. Therefore, it cannot provide any useful context or information to answer the query or infer additional relevant details."
+            },
+            "triviaqa_75307_47": {
+                "Query Analysis": "The query is asking for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more common name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document discusses the Mona Lisa, also referred to as La Joconde and La Gioconda, and its history, including its association with Napoleon's art looting and its legal acquisition by François I. It also mentions Vincenzo Peruggia's belief about the painting's origins.",
+                "Document and Query Keywords Matching": "The document mentions 'La Joconde', which is a variation of 'La Jaconde'.",
+                "Document and Answer Keywords Matching": "The document includes 'Mona Lisa', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions both 'La Joconde' (a variation of 'La Jaconde') and 'Mona Lisa', establishing a clear connection between the two names.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that 'La Joconde' is also known as 'the Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about the Mona Lisa, including its acquisition and display history.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that 'La Joconde' is also known as 'the Mona Lisa', thereby directly answering the query. Additionally, it provides useful historical context that enhances understanding of the painting's significance."
+            },
+            "m.03xj1_165": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document primarily discusses various artworks and artists associated with the Impressionism movement. It lists multiple artworks and artists, noting their connection to Impressionism.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'La Jaconde', 'better known', or 'name'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on Impressionism, which is unrelated to 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'La Jaconde' or its alternative name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information related to 'La Jaconde' or 'Mona Lisa'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Impressionism and does not mention 'La Jaconde' or 'Mona Lisa'. Therefore, it cannot answer the query or provide any useful context or additional information related to the query."
+            },
+            "triviaqa_24321_214": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document lists various trivia questions and answers related to music, films, and celebrities. It includes questions about hit songs, band members, and famous individuals.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document focuses on music and celebrity trivia, while the query is about a famous painting.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the painting 'La Jaconde' or its alternative name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on music and celebrity trivia, while the query pertains to a famous painting. There is no overlap in keywords or relevant information that could assist in answering the query."
+            },
+            "triviaqa_75307_30": {
+                "Query Analysis": "The query is asking for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', indicating that 'La Jaconde' is another name for the Mona Lisa.",
+                "Document Content Analysis": "The document discusses the theft of the Mona Lisa, its subsequent recovery, and the impact of the theft on the painting's fame. It also mentions 'La Joconde' as the French name for the Mona Lisa.",
+                "Document and Query Keywords Matching": "The document includes the term 'La Joconde', which is a variation of 'La Jaconde'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Mona Lisa' multiple times.",
+                "Key Information Matching": "The document directly links 'La Joconde' to 'Mona Lisa', which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document provides the information that 'La Joconde' is another name for the Mona Lisa.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the painting's fame and its alternative name.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that 'La Joconde' is another name for the Mona Lisa, thus providing the exact answer to the query. Additionally, it offers context about the painting's significance and fame, enhancing understanding of why the painting might have multiple names."
+            },
+            "triviaqa_35092_555": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document appears to be a list of various trivia questions and partial answers, covering a wide range of topics from history, science, art, and more.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'La Jaconde', 'better known', or 'name'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Mona Lisa'.",
+                "Key Information Matching": "There is no information in the document that directly relates to the painting 'La Jaconde' or its alternative name 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the painting 'La Jaconde' or its more commonly known name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'La Jaconde', 'Mona Lisa', or any relevant context that could assist in answering the query. Therefore, it is deemed irrelevant."
+            },
+            "triviaqa_73039_350": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document consists of a series of unrelated trivia questions and does not mention anything about paintings, 'La Jaconde', or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Mona Lisa'.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the painting 'La Jaconde' or its alternative name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It consists of trivia questions on various topics but does not mention anything about paintings, 'La Jaconde', or 'Mona Lisa'. Therefore, it cannot assist in answering the query or providing any relevant context."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.04nl1vp_0": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document provides information about Andrés Parra, a Colombian actor, including his name, aliases, descriptions, and roles in film and television. There is no mention of the painting 'La Jaconde' or its more commonly known name, 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('painting', 'La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Mona Lisa') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the painting 'La Jaconde' or its more commonly known name, 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the painting 'La Jaconde' or its more commonly known name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention the painting 'La Jaconde' or its more commonly known name, 'Mona Lisa', nor does it provide any context or information that could assist in answering the query."
+            },
+            "m.03xj1_152": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document lists various artworks, artists, and topics related to Impressionism, but it does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or any related terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa' or any related terms from the answer.",
+                "Key Information Matching": "The document does not provide any information related to 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'La Jaconde' or 'Mona Lisa' and provides no information that could assist in answering the query."
+            },
+            "triviaqa_2485_0": {
+                "Query Analysis": "The query asks for the better-known name of the painting 'La Jaconde.'",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa,' which is the more commonly known name for the painting 'La Jaconde.'",
+                "Document Content Analysis": "The document discusses the life and career of Domenikos Theotokopoulos, better known as 'El Greco,' including his artistic training, notable works, and personal life. It does not mention 'La Jaconde' or 'Mona Lisa.'",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query, such as 'La Jaconde' or 'painting.'",
+                "Document and Answer Keywords Matching": "The document does not contain the answer 'Mona Lisa.'",
+                "Key Information Matching": "The document does not provide any information related to 'La Jaconde' or 'Mona Lisa.' It focuses entirely on El Greco and his works.",
+                "Can the Document Answer the Query": "No, the document does not mention 'La Jaconde' or 'Mona Lisa.'",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses El Greco and his works, with no mention of 'La Jaconde' or 'Mona Lisa.' Therefore, it does not provide any useful context or information to assist in answering the query."
+            },
+            "nq_130302_94": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document discusses various artworks, including 'Nature morte à la nappe à carreaux' by Juan Gris and 'Femme au miroir' by Jean Metzinger. It does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa' or any related terms.",
+                "Key Information Matching": "The document does not contain any information related to 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention 'La Jaconde' or 'Mona Lisa' and does not provide any information that could help answer the query or infer additional information."
+            },
+            "triviaqa_4338_297": {
+                "Query Analysis": "The query asks for the better-known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the better-known name of the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document contains a series of trivia questions and answers, covering a wide range of topics including history, geography, entertainment, and art. However, it does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('painting', 'La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Mona Lisa' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the painting 'La Jaconde' or its better-known name 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention 'La Jaconde' or 'Mona Lisa' and provides no information that could assist in answering the query or inferring additional relevant information."
+            },
+            "triviaqa_75307_35": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name of the painting.",
+                "Document Content Analysis": "The document provides detailed information about the painting 'Mona Lisa', including its alternate names ('La Gioconda' and 'La Joconde'), its history, dimensions, and its current location in the Louvre. It also discusses the painting's significance and the artist Leonardo da Vinci's involvement.",
+                "Document and Query Keywords Matching": "The document mentions 'La Joconde', which is the French name for the painting referred to in the query as 'La Jaconde'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Mona Lisa', which is the answer to the query.",
+                "Key Information Matching": "The document directly provides the alternate name 'Mona Lisa' for the painting referred to as 'La Jaconde' in the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer 'Mona Lisa' to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the painting, which could be useful for understanding its context and significance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer ('Mona Lisa') and additional relevant information about the painting. This makes it highly relevant and useful for answering the query."
+            },
+            "ott_22211_3": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document discusses Vermeer's paintings, their popularity, the number of paintings attributed to him, and the issue of forgeries. It also mentions that many Vermeer paintings are known by various names and that alternative names are noted below.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa'.",
+                "Key Information Matching": "The document does not provide any information related to 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Vermeer's paintings and does not mention 'La Jaconde' or 'Mona Lisa'. Therefore, it is irrelevant to the query."
+            },
+            "m.05np2_226": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document contains various quotes and information related to Oscar Wilde, including his works, influences, and personal quotes. There is no mention of the painting 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('painting', 'La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Mona Lisa' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the painting 'La Jaconde' or its more commonly known name 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the painting 'La Jaconde' or its more commonly known name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Oscar Wilde and his works, with no mention of the painting 'La Jaconde' or its more commonly known name 'Mona Lisa'. Therefore, it is irrelevant to the query."
+            },
+            "nq_303658_36": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document contains references to various art-related topics, including exhibitions and articles about artists like Bridget Riley, but does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('painting', 'La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Mona Lisa' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to 'La Jaconde' or 'Mona Lisa', nor does it provide any context or background that could help infer the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'La Jaconde' or 'Mona Lisa', nor does it provide any context or background that could assist in answering the query. Therefore, it is irrelevant."
+            },
+            "triviaqa_75307_47": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document discusses the history and various names of the painting 'La Jaconde', including 'La Gioconda' and 'Mona Lisa'. It also provides historical context about the painting's ownership and its connection to Leonardo da Vinci and François I.",
+                "Document and Query Keywords Matching": "The document mentions 'La Jaconde' and 'Mona Lisa', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Mona Lisa', which is the answer to the query.",
+                "Key Information Matching": "The document provides the name 'Mona Lisa' as an alternative name for 'La Jaconde', which directly matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the more commonly known name 'Mona Lisa' for the painting 'La Jaconde'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about the painting, which could be useful for understanding its background.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer ('Mona Lisa') and additional context about the painting 'La Jaconde'. This makes it highly relevant and useful for answering the query."
+            },
+            "m.03xj1_165": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document discusses various artworks and their association with the Impressionist movement. It mentions several artists and their works, but does not directly reference 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "The document does not mention 'La Jaconde' or any related keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Mona Lisa' or any related keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information about 'La Jaconde' or 'Mona Lisa', nor does it mention any related context or details.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the Impressionist movement and does not mention 'La Jaconde' or 'Mona Lisa'. It provides no useful context or information related to the query, making it irrelevant."
+            },
+            "triviaqa_24321_214": {
+                "Query Analysis": "The query asks for the better-known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document contains a series of trivia questions and answers related to music, singers, and entertainment, but does not mention anything about paintings or 'La Jaconde'.",
+                "Document and Query Keywords Matching": "None of the query keywords ('painting', 'La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Mona Lisa' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention 'La Jaconde' or 'Mona Lisa'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'La Jaconde', 'Mona Lisa', or any information about paintings. Therefore, it is irrelevant to the query and cannot assist in answering it or providing additional context."
+            },
+            "triviaqa_75307_30": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name of the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document discusses the history and fame of the Mona Lisa, including its theft and recovery. It mentions that 'La Joconde' is the French name for the Mona Lisa and provides details about the painting's theft and its impact on its fame.",
+                "Document and Query Keywords Matching": "The document mentions 'La Joconde', which is the French name for 'La Jaconde'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Mona Lisa', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'La Joconde' as the French name for the Mona Lisa, which matches the query's request for the better-known name of 'La Jaconde'.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer 'Mona Lisa' as the better-known name for 'La Jaconde'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the painting's history and fame, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Mona Lisa') as well as additional context about the painting's history and fame. This makes it highly relevant to the query."
+            },
+            "triviaqa_35092_555": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document contains a list of trivia questions and answers, none of which directly mention 'La Jaconde' or 'Mona Lisa'.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('painting', 'La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Mona Lisa') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the painting 'La Jaconde' or its more commonly known name 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information related to 'La Jaconde' or 'Mona Lisa'. It does not provide any useful context or additional information that could assist in answering the query."
+            },
+            "triviaqa_73039_350": {
+                "Query Analysis": "The query asks for the more commonly known name of the painting 'La Jaconde'.",
+                "Query Keywords Extraction": "painting, La Jaconde, better known, name",
+                "Answer Analysis": "The answer is 'Mona Lisa', which is the more commonly known name for the painting 'La Jaconde'.",
+                "Document Content Analysis": "The document appears to be a list of trivia questions and answers, covering a wide range of topics including sports, music, history, and science. However, it does not contain any information related to the painting 'La Jaconde' or its more commonly known name.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('painting', 'La Jaconde', 'better known', 'name') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Mona Lisa' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the painting 'La Jaconde' or its more commonly known name, 'Mona Lisa'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It does not mention 'La Jaconde', 'Mona Lisa', or any information about paintings or art. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.04nl1vp_0": {},
+            "m.03xj1_152": {},
+            "triviaqa_2485_0": {},
+            "nq_130302_94": {},
+            "triviaqa_4338_297": {},
+            "triviaqa_75307_35": {},
+            "ott_22211_3": {},
+            "m.05np2_226": {},
+            "nq_303658_36": {},
+            "triviaqa_75307_47": {},
+            "m.03xj1_165": {},
+            "triviaqa_24321_214": {},
+            "triviaqa_75307_30": {},
+            "triviaqa_35092_555": {},
+            "triviaqa_73039_350": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "ott": 0,
+            "triviaqa": 2,
+            "kg": 0,
+            "nq": 0,
+            "tat": 0
+        }
+    }
+}

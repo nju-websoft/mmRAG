@@ -1,0 +1,911 @@
+{
+    "index": 81374,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "What was the name of the late King’s jester in Shakespeare’s ‘Hamlet’?",
+        "answer": "Yorick",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_37032_122",
+                "score": 18.333099365234375
+            },
+            {
+                "id": "nq_176645_0",
+                "score": 17.863800048828125
+            },
+            {
+                "id": "nq_77799_0",
+                "score": 17.510499954223633
+            },
+            {
+                "id": "nq_77799_1",
+                "score": 17.132200241088867
+            },
+            {
+                "id": "triviaqa_37032_68",
+                "score": 16.809999465942383
+            },
+            {
+                "id": "nq_80729_17",
+                "score": 16.60810089111328
+            },
+            {
+                "id": "triviaqa_55372_10",
+                "score": 16.165800094604492
+            },
+            {
+                "id": "triviaqa_22948_561",
+                "score": 16.07200050354004
+            },
+            {
+                "id": "nq_80729_18",
+                "score": 16.04439926147461
+            },
+            {
+                "id": "triviaqa_37032_131",
+                "score": 15.780900001525879
+            },
+            {
+                "id": "triviaqa_55372_11",
+                "score": 15.211999893188477
+            },
+            {
+                "id": "triviaqa_58418_18",
+                "score": 15.089799880981445
+            },
+            {
+                "id": "triviaqa_37032_123",
+                "score": 14.974699974060059
+            },
+            {
+                "id": "triviaqa_46156_33",
+                "score": 14.918999671936035
+            },
+            {
+                "id": "triviaqa_46156_46",
+                "score": 14.794699668884277
+            },
+            {
+                "id": "triviaqa_46156_5",
+                "score": 14.675999641418457
+            },
+            {
+                "id": "triviaqa_37032_16",
+                "score": 14.568599700927734
+            },
+            {
+                "id": "m.081k8_2236",
+                "score": 14.474800109863281
+            },
+            {
+                "id": "triviaqa_63038_24",
+                "score": 14.44789981842041
+            },
+            {
+                "id": "triviaqa_18076_16",
+                "score": 14.26669979095459
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_14493_0",
+                "score": 9.597800254821777
+            },
+            {
+                "id": "ott_1947_0",
+                "score": 9.597799301147461
+            },
+            {
+                "id": "ott_22481_0",
+                "score": 9.597798347473145
+            },
+            {
+                "id": "ott_31838_0",
+                "score": 9.597797393798828
+            },
+            {
+                "id": "ott_36631_0",
+                "score": 9.597796440124512
+            },
+            {
+                "id": "ott_25711_1",
+                "score": 9.482999801635742
+            },
+            {
+                "id": "ott_25772_1",
+                "score": 9.482998847961426
+            },
+            {
+                "id": "ott_13528_0",
+                "score": 7.250500202178955
+            },
+            {
+                "id": "ott_20807_0",
+                "score": 7.250499248504639
+            },
+            {
+                "id": "ott_33790_0",
+                "score": 7.250498294830322
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_176645_0",
+                "score": 17.863800048828125
+            },
+            {
+                "id": "nq_77799_0",
+                "score": 17.510499954223633
+            },
+            {
+                "id": "nq_77799_1",
+                "score": 17.132200241088867
+            },
+            {
+                "id": "nq_80729_17",
+                "score": 16.60810089111328
+            },
+            {
+                "id": "nq_80729_18",
+                "score": 16.04439926147461
+            },
+            {
+                "id": "nq_92355_0",
+                "score": 14.165800094604492
+            },
+            {
+                "id": "nq_7327_7",
+                "score": 14.00730037689209
+            },
+            {
+                "id": "nq_30885_6",
+                "score": 13.961199760437012
+            },
+            {
+                "id": "nq_7327_6",
+                "score": 13.961198806762695
+            },
+            {
+                "id": "nq_92355_22",
+                "score": 13.77970027923584
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_37032_122",
+                "score": 18.333099365234375
+            },
+            {
+                "id": "triviaqa_37032_68",
+                "score": 16.809999465942383
+            },
+            {
+                "id": "triviaqa_55372_10",
+                "score": 16.165800094604492
+            },
+            {
+                "id": "triviaqa_22948_561",
+                "score": 16.07200050354004
+            },
+            {
+                "id": "triviaqa_37032_131",
+                "score": 15.780900001525879
+            },
+            {
+                "id": "triviaqa_55372_11",
+                "score": 15.211999893188477
+            },
+            {
+                "id": "triviaqa_58418_18",
+                "score": 15.089799880981445
+            },
+            {
+                "id": "triviaqa_37032_123",
+                "score": 14.974699974060059
+            },
+            {
+                "id": "triviaqa_46156_33",
+                "score": 14.918999671936035
+            },
+            {
+                "id": "triviaqa_46156_46",
+                "score": 14.794699668884277
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.081k8_2236",
+                "score": 14.474800109863281
+            },
+            {
+                "id": "m.081k8_2913",
+                "score": 14.043499946594238
+            },
+            {
+                "id": "m.081k8_1518",
+                "score": 13.93120002746582
+            },
+            {
+                "id": "m.081k8_968",
+                "score": 13.895000457763672
+            },
+            {
+                "id": "m.081k8_1044",
+                "score": 13.876899719238281
+            },
+            {
+                "id": "m.081k8_2563",
+                "score": 13.842599868774414
+            },
+            {
+                "id": "m.081k8_1352",
+                "score": 13.829299926757812
+            },
+            {
+                "id": "m.081k8_2962",
+                "score": 13.7677001953125
+            },
+            {
+                "id": "m.081k8_755",
+                "score": 13.760499954223633
+            },
+            {
+                "id": "m.081k8_230",
+                "score": 13.736900329589844
+            },
+            {
+                "id": "m.081k8_1736",
+                "score": 13.718099594116211
+            },
+            {
+                "id": "m.081k8_2133",
+                "score": 13.666199684143066
+            },
+            {
+                "id": "m.081k8_2979",
+                "score": 13.629400253295898
+            },
+            {
+                "id": "m.081k8_1043",
+                "score": 13.59160041809082
+            },
+            {
+                "id": "m.081k8_2183",
+                "score": 13.51099967956543
+            },
+            {
+                "id": "m.081k8_3058",
+                "score": 13.463500022888184
+            },
+            {
+                "id": "m.081k8_1818",
+                "score": 13.39109992980957
+            },
+            {
+                "id": "m.081k8_2086",
+                "score": 13.30620002746582
+            },
+            {
+                "id": "m.081k8_1448",
+                "score": 13.300000190734863
+            },
+            {
+                "id": "m.081k8_1000",
+                "score": 13.299099922180176
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_77799_1",
+                "score": 0.7517972588539124
+            },
+            {
+                "id": "triviaqa_37032_68",
+                "score": 0.7252938151359558
+            },
+            {
+                "id": "nq_77799_0",
+                "score": 0.7044969201087952
+            },
+            {
+                "id": "triviaqa_37032_62",
+                "score": 0.6931412220001221
+            },
+            {
+                "id": "triviaqa_63038_7",
+                "score": 0.6823992729187012
+            },
+            {
+                "id": "triviaqa_37032_5",
+                "score": 0.6815615296363831
+            },
+            {
+                "id": "triviaqa_63038_19",
+                "score": 0.6810320019721985
+            },
+            {
+                "id": "nq_80729_1",
+                "score": 0.6775907874107361
+            },
+            {
+                "id": "triviaqa_63038_26",
+                "score": 0.6766470074653625
+            },
+            {
+                "id": "nq_77799_4",
+                "score": 0.6752291321754456
+            },
+            {
+                "id": "triviaqa_45363_42",
+                "score": 0.673185408115387
+            },
+            {
+                "id": "triviaqa_37032_91",
+                "score": 0.6720559597015381
+            },
+            {
+                "id": "triviaqa_63038_14",
+                "score": 0.6715745329856873
+            },
+            {
+                "id": "triviaqa_37032_90",
+                "score": 0.6709330677986145
+            },
+            {
+                "id": "triviaqa_63038_24",
+                "score": 0.66791170835495
+            },
+            {
+                "id": "triviaqa_63038_4",
+                "score": 0.667149007320404
+            },
+            {
+                "id": "triviaqa_37032_65",
+                "score": 0.6657695770263672
+            },
+            {
+                "id": "nq_77799_3",
+                "score": 0.6642395853996277
+            },
+            {
+                "id": "triviaqa_37032_73",
+                "score": 0.6622892618179321
+            },
+            {
+                "id": "triviaqa_37032_67",
+                "score": 0.6605623364448547
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_77799_1",
+                "score": 0.7517972588539124
+            },
+            {
+                "id": "nq_77799_0",
+                "score": 0.7044969201087952
+            },
+            {
+                "id": "nq_80729_1",
+                "score": 0.6775907874107361
+            },
+            {
+                "id": "nq_77799_4",
+                "score": 0.6752291321754456
+            },
+            {
+                "id": "nq_77799_3",
+                "score": 0.6642395853996277
+            },
+            {
+                "id": "nq_80729_16",
+                "score": 0.656021773815155
+            },
+            {
+                "id": "nq_176645_14",
+                "score": 0.6548193097114563
+            },
+            {
+                "id": "nq_80729_34",
+                "score": 0.6538071632385254
+            },
+            {
+                "id": "nq_80729_15",
+                "score": 0.6534854769706726
+            },
+            {
+                "id": "nq_80729_39",
+                "score": 0.6529386043548584
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_37032_68",
+                "score": 0.7252938151359558
+            },
+            {
+                "id": "triviaqa_37032_62",
+                "score": 0.6931412220001221
+            },
+            {
+                "id": "triviaqa_63038_7",
+                "score": 0.6823992729187012
+            },
+            {
+                "id": "triviaqa_37032_5",
+                "score": 0.6815615296363831
+            },
+            {
+                "id": "triviaqa_63038_19",
+                "score": 0.6810320019721985
+            },
+            {
+                "id": "triviaqa_63038_26",
+                "score": 0.6766470074653625
+            },
+            {
+                "id": "triviaqa_45363_42",
+                "score": 0.673185408115387
+            },
+            {
+                "id": "triviaqa_37032_91",
+                "score": 0.6720559597015381
+            },
+            {
+                "id": "triviaqa_63038_14",
+                "score": 0.6715745329856873
+            },
+            {
+                "id": "triviaqa_37032_90",
+                "score": 0.6709330677986145
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.081k8_2171",
+                "score": 0.6168975234031677
+            },
+            {
+                "id": "m.081k8_2271",
+                "score": 0.6132826805114746
+            },
+            {
+                "id": "m.081k8_1528",
+                "score": 0.6053615808486938
+            },
+            {
+                "id": "m.081k8_2792",
+                "score": 0.6022425293922424
+            },
+            {
+                "id": "m.081k8_2615",
+                "score": 0.6016935706138611
+            },
+            {
+                "id": "m.081k8_455",
+                "score": 0.5993945002555847
+            },
+            {
+                "id": "m.01stsq_24",
+                "score": 0.5981730222702026
+            },
+            {
+                "id": "m.081k8_787",
+                "score": 0.5977419018745422
+            },
+            {
+                "id": "m.081k8_284",
+                "score": 0.5973436832427979
+            },
+            {
+                "id": "m.081k8_2107",
+                "score": 0.5963576436042786
+            },
+            {
+                "id": "m.01stsq_8",
+                "score": 0.596335232257843
+            },
+            {
+                "id": "m.081k8_1390",
+                "score": 0.5935976505279541
+            },
+            {
+                "id": "m.081k8_1070",
+                "score": 0.5935196280479431
+            },
+            {
+                "id": "m.081k8_2629",
+                "score": 0.592985987663269
+            },
+            {
+                "id": "m.081k8_2791",
+                "score": 0.5910558700561523
+            },
+            {
+                "id": "m.081k8_1469",
+                "score": 0.5910126566886902
+            },
+            {
+                "id": "m.081k8_1526",
+                "score": 0.5906552076339722
+            },
+            {
+                "id": "m.081k8_3049",
+                "score": 0.5898604989051819
+            },
+            {
+                "id": "m.081k8_432",
+                "score": 0.589398980140686
+            },
+            {
+                "id": "m.081k8_1631",
+                "score": 0.588779628276825
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_37032_122": {
+                "Query Analysis": "The query seeks the name of the jester who served the late King in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', indicating that Yorick was the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document discusses themes of life's futility and Hamlet's contemplation of suicide, his age, and includes a specific mention of the skull of the late King Hamlet’s jester, Yorick, in the churchyard scene.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'late King Hamlet’s jester'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Yorick'.",
+                "Key Information Matching": "The document directly references 'Yorick' as the late King Hamlet’s jester, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Yorick’s relationship to Hamlet and the significance of his skull in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Yorick' as the late King Hamlet’s jester, providing the exact answer to the query. Additionally, it offers context about Yorick’s role and significance in the play, enhancing the understanding of the query."
+            },
+            "ott_14493_0": {
+                "Query Analysis": "The query seeks the name of the character who was the late King's jester in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', which is the name of the jester mentioned in 'Hamlet'.",
+                "Document Content Analysis": "The document provides a list of fictional antiheroes from various literary works, including the names of the characters, the works they appear in, the authors, and the first publication dates. It includes a mention of Prince Hamlet from Shakespeare's 'Hamlet'.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'Shakespeare', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "While the document mentions 'Hamlet' and 'Shakespeare', it does not provide any information about the late King's jester or any other characters besides Prince Hamlet.",
+                "Can the Document Answer the Query": "No, the document does not contain the name of the late King's jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer the name of the jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the late King's jester in 'Hamlet'. It only mentions Prince Hamlet, which is not sufficient to answer the query or provide useful context related to the jester."
+            },
+            "triviaqa_37032_62": {
+                "Query Analysis": "The query asks for the name of the character who served as the late King's jester in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', who is the character known as the late King's jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides information about several characters in Shakespeare's 'Hamlet', including Claudius, Gertrude, the Ghost of Hamlet's Father, Polonius, and Ophelia. It describes their roles and relationships but does not mention Yorick.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and characters related to the late King, but it does not mention 'jester'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "The document discusses characters and relationships in 'Hamlet', but it lacks specific information about the jester, Yorick.",
+                "Can the Document Answer the Query": "No, the document does not mention Yorick or the role of the jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the late King's jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about the late King's jester, Yorick, nor does it provide any context that could help infer this information. The characters mentioned in the document are not directly related to the specific query about the jester."
+            },
+            "m.081k8_2236": {
+                "Query Analysis": "The query seeks the name of the character who was the late King's jester in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', which is the name of the character who was the late King's jester in 'Hamlet'.",
+                "Document Content Analysis": "The document lists various works and roles associated with William Shakespeare, including plays, characters, and other literary contributions. It mentions 'Hamlet' as a story by William Shakespeare.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'William Shakespeare', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "While the document mentions 'Hamlet' and its association with William Shakespeare, it does not provide specific character details or roles within the play.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the late King's jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks specific information about characters in 'Hamlet'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily a list of works and roles associated with William Shakespeare, but it does not provide detailed information about the characters in 'Hamlet'. Therefore, it cannot answer the query or help infer additional relevant information about the late King's jester."
+            },
+            "m.081k8_2913": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play ‘Hamlet’.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is Yorick, who is the late King’s jester mentioned in Shakespeare’s ‘Hamlet’.",
+                "Document Content Analysis": "The document provides various pieces of information about William Shakespeare, including his film story credits, quotations, influence on other figures, works written, and recordings. It mentions ‘Hamlet’ in the context of recordings but does not provide specific details about the characters in the play.",
+                "Document and Query Keywords Matching": "The document mentions ‘Hamlet’ but does not directly reference the late King’s jester or any specific characters related to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention ‘Yorick’.",
+                "Key Information Matching": "The document mentions ‘Hamlet’ but lacks any detailed information about the characters or specific plot points related to the query.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information about the characters in ‘Hamlet’ that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is largely irrelevant to the query as it does not provide any specific information about the characters in ‘Hamlet’ or the late King’s jester. The only mention of ‘Hamlet’ is in the context of recordings, which does not assist in answering the query."
+            },
+            "triviaqa_37032_68": {
+                "Query Analysis": "The query asks for the name of the jester who served the late King in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', indicating that Yorick was the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides information about various characters in Shakespeare's 'Hamlet', including their roles and some context about their significance in the play.",
+                "Document and Query Keywords Matching": "The document mentions 'Yorick' and 'King Hamlet', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Yorick', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Yorick was the court jester of old King Hamlet, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Yorick was the court jester of old King Hamlet.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Yorick's role and his significance in the play, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer ('Yorick') and provides additional context about his role in 'Hamlet'. This makes the document highly useful for answering the query and understanding the character's significance."
+            },
+            "nq_77799_1": {
+                "Query Analysis": "The query asks for the name of the character who served as the jester to the late King in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', which is the name of the jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides information about the character known as the 'Ghost' in Shakespeare's play 'Hamlet'. It mentions that the Ghost is Hamlet's late father and provides some background and context about this character.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'late father', which are related to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "While the document discusses a key character from 'Hamlet' and mentions the late King, it does not provide any information about the jester.",
+                "Can the Document Answer the Query": "No, the document does not mention the jester or provide the name 'Yorick'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information about the jester or related context that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the character of the Ghost in 'Hamlet' and does not provide any information about the jester or the late King’s jester. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides useful context or additional information that could help infer the answer."
+            },
+            "m.081k8_2171": {
+                "Query Analysis": "The query asks for the name of the character who was the late King's jester in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', which is the name of the character who was the late King's jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides information about William Shakespeare, including his works, quotations, and influence on other artists. It mentions 'Hamlet' multiple times but does not provide specific details about the characters within the play.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'Shakespeare', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "While the document mentions 'Hamlet' and 'Shakespeare', it does not provide any specific information about the characters in 'Hamlet', including the late King's jester.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the late King's jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information about the characters in 'Hamlet'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about William Shakespeare and his works, but it lacks specific details about the characters in 'Hamlet'. Therefore, it cannot answer the query or provide useful context to infer the answer. The mention of 'Hamlet' is not sufficient to make the document relevant to the specific query about the character Yorick."
+            },
+            "m.081k8_2271": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "late King, jester, Hamlet, Shakespeare",
+                "Answer Analysis": "The answer is Yorick.",
+                "Document Content Analysis": "The document provides a list of characters, plays, and quotes associated with William Shakespeare. It mentions several characters created by Shakespeare and various works he authored or influenced, but it does not provide specific information about 'Hamlet' or its characters beyond a brief mention of 'Bonny Sweet Robin (Hamlet)'.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'Hamlet', but it does not mention 'jester' or 'late King'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "While the document mentions 'Shakespeare' and 'Hamlet', it lacks any specific information about the jester in 'Hamlet' or the character Yorick.",
+                "Can the Document Answer the Query": "No, the document does not contain the name of the late King’s jester in 'Hamlet'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer the name of the jester in 'Hamlet'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because it does not provide any information about the late King’s jester in 'Hamlet' or any details that could help infer this information. The document primarily lists other characters, plays, and quotes associated with Shakespeare without addressing the specific query."
+            },
+            "nq_176645_0": {
+                "Query Analysis": "The query seeks the name of the jester character in Shakespeare's play 'Hamlet' who is referred to as the late King's jester.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet, name",
+                "Answer Analysis": "The answer is 'Yorick', which is the name of the jester in 'Hamlet'.",
+                "Document Content Analysis": "The document discusses the Gravediggers in Shakespeare's 'Hamlet', highlighting their role as Shakespearean fools or jesters. It mentions their appearance in Act V, scene i, and includes a significant detail about Hamlet discovering the skull of his father's beloved jester, Yorick.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'Hamlet', and 'jester'.",
+                "Document and Answer Keywords Matching": "The document specifically mentions 'Yorick', which is the name provided in the answer.",
+                "Key Information Matching": "The document directly references 'Yorick' as the jester, aligning with the query's request for the name of the late King's jester in 'Hamlet'.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions 'Yorick' as the jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Yorick's significance in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'Yorick' as the jester in 'Hamlet', thus providing the exact answer to the query. Additionally, it offers context about Yorick's role and significance, enhancing the understanding of the character."
+            },
+            "nq_77799_0": {
+                "Query Analysis": "The query asks for the name of the jester who served the late King in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', indicating the name of the late King's jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides information about the character known as the 'Ghost' in Shakespeare's play 'Hamlet'. It details the Ghost's relationship to other characters, including being the late father of Prince Hamlet and the former King Hamlet.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and references to the 'late father' or 'former King', which are related to the query's context.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "While the document discusses characters related to the late King in 'Hamlet', it does not provide information about the jester.",
+                "Can the Document Answer the Query": "No, the document does not mention the jester or provide the name 'Yorick'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on the Ghost character and does not provide any context or information about the jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the Ghost character in 'Hamlet' and does not provide any information about the late King's jester. Therefore, it cannot answer the query or help infer additional relevant information."
+            },
+            "triviaqa_63038_7": {
+                "Query Analysis": "The query asks for the name of the character who served as the late King's jester in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "late King’s jester, Shakespeare’s ‘Hamlet’, name",
+                "Answer Analysis": "The answer is 'Yorick', which is the name of the late King's jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides a summary of the end of 'Hamlet', mentioning characters like Hamlet, Horatio, Fortinbras, Gertrude, and Ophelia, as well as the ghost of Hamlet's father. It also includes a brief description of Hamlet's character and his relationships with other characters.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'Ghost of Hamlet's father', which are related to the play 'Hamlet'. However, it does not mention 'jester' or 'Yorick'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "The document provides information about various characters in 'Hamlet' but does not specifically address the late King's jester or mention Yorick.",
+                "Can the Document Answer the Query": "No, the document does not contain the name of the late King's jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that would help infer the name of the late King's jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the summary of the play 'Hamlet' and descriptions of some characters, but it lacks any mention of the jester or Yorick. Therefore, it does not provide any useful context or additional information related to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_37032_122": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document discusses Hamlet's existential musings and his age. It also mentions the gravedigger holding up the skull of Yorick, the late King Hamlet’s jester, who was Hamlet’s childhood babysitter.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet', 'late King Hamlet’s jester', and 'Yorick'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Yorick', which matches the answer.",
+                "Key Information Matching": "The document provides the name 'Yorick' as the late King Hamlet’s jester, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Yorick' as the late King’s jester in 'Hamlet'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Yorick being Hamlet’s childhood babysitter and the gravedigger’s reference to him.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming 'Yorick' as the late King’s jester in 'Hamlet'. It also provides additional context about Yorick’s role and relationship with Hamlet, enhancing understanding of the query."
+            },
+            "ott_14493_0": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play ‘Hamlet’.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides a list of fictional antiheroes, including their names, the works they appear in, the authors, and the first publication dates. It mentions 'Prince Hamlet' from 'Hamlet' by William Shakespeare but does not provide any information about the late King’s jester.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'William Shakespeare', which match keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick' or any reference to the late King’s jester.",
+                "Key Information Matching": "The document mentions 'Hamlet' and 'William Shakespeare', but it lacks any information about the late King’s jester or the name 'Yorick'.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the late King’s jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about the late King’s jester or the name 'Yorick'. It only mentions 'Hamlet' and 'William Shakespeare', which are not sufficient to answer the query or provide additional relevant information."
+            },
+            "triviaqa_37032_62": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides information about several characters in 'Hamlet', including Claudius, Gertrude, the Ghost of Hamlet's Father, Polonius, and Ophelia. However, it does not mention Yorick or the late King’s jester.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'King', but does not mention 'jester' or 'Yorick'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "The document does not provide any information about the late King’s jester or Yorick.",
+                "Can the Document Answer the Query": "No, the document does not mention Yorick or the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to the late King’s jester or Yorick.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information about the late King’s jester or Yorick, and therefore cannot assist in answering the query or provide any relevant context."
+            },
+            "m.081k8_2236": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play ‘Hamlet’.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in ‘Hamlet’.",
+                "Document Content Analysis": "The document lists various works and contributions by William Shakespeare, including multiple references to ‘Hamlet’ as a story by Shakespeare. However, it does not provide specific details about characters or plot elements from ‘Hamlet’.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'Hamlet', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick' or any details about the late King’s jester.",
+                "Key Information Matching": "The document mentions ‘Hamlet’ as a work by Shakespeare but does not provide any information about the characters, including the late King’s jester.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the late King’s jester or any details about this character.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the late King’s jester or related details.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions ‘Hamlet’ and Shakespeare, which are relevant to the query, but it does not provide any information about the late King’s jester or the name 'Yorick'. Therefore, the document is irrelevant to the query as it does not assist in answering or inferring the required information."
+            },
+            "m.081k8_2913": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document contains various information about William Shakespeare, including his works, influences, quotations, and fictional characters. However, it does not explicitly mention the name 'Yorick' or provide details about the late King’s jester in 'Hamlet'.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'Hamlet', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick', the name of the late King’s jester.",
+                "Key Information Matching": "The document mentions 'Shakespeare' and 'Hamlet', but it does not provide specific information about the late King’s jester or the name 'Yorick'.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it does not mention 'Yorick' or provide details about the late King’s jester in 'Hamlet'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the late King’s jester in 'Hamlet'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Shakespeare' and 'Hamlet', which are relevant to the query, but it does not provide any information about the late King’s jester or the name 'Yorick'. Therefore, the document is irrelevant to the query as it does not assist in answering the query or provide any useful context."
+            },
+            "triviaqa_37032_68": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides information about various characters in 'Hamlet', including Yorick, who is described as the court jester of old King Hamlet. It mentions that Yorick amused and looked after the younger Hamlet when he was a child and that Yorick is dead during the play, with his skull being exhumed in Act 5, Scene 1.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet', 'King', and 'jester'.",
+                "Document and Answer Keywords Matching": "The document includes 'Yorick', which is the name of the late King’s jester.",
+                "Key Information Matching": "The document mentions 'Yorick' as the court jester of old King Hamlet, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the late King’s jester, Yorick.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Yorick's role and significance in the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, 'Yorick', as well as additional context about his role in 'Hamlet'. This makes the document highly relevant to the query."
+            },
+            "nq_77799_1": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document discusses the character of the Ghost in Shakespeare’s 'Hamlet', who is the spirit of Hamlet’s late father, King Hamlet. It provides details about the Ghost’s appearances in the play, its origins, and its significance. However, the document does not mention Yorick or the late King’s jester.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'Hamlet', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick', the answer to the query.",
+                "Key Information Matching": "The document provides information about the Ghost in 'Hamlet', which is related to the late King Hamlet, but it does not mention Yorick or the late King’s jester.",
+                "Can the Document Answer the Query": "No, the document does not mention Yorick or the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the late King’s jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the Ghost in 'Hamlet', which is related to the late King Hamlet, but it does not mention Yorick or the late King’s jester. Therefore, it does not provide any useful context or additional information to answer the query, making it irrelevant."
+            },
+            "m.081k8_2171": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides a list of works, quotations, and influences related to William Shakespeare, including references to 'Hamlet' and other plays. However, it does not explicitly mention the name 'Yorick' or provide details about the late King’s jester.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'Hamlet', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick', the name of the late King’s jester.",
+                "Key Information Matching": "The document mentions 'Shakespeare' and 'Hamlet', but it lacks specific information about the late King’s jester or the name 'Yorick'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Yorick' or provide details about the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the late King’s jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because it does not mention 'Yorick' or provide any information about the late King’s jester in 'Hamlet'. While it references 'Shakespeare' and 'Hamlet', it lacks the specific key information required to answer the query."
+            },
+            "m.081k8_2271": {
+                "Query Analysis": "The query asks for the name of the late King's jester in Shakespeare's play 'Hamlet'.",
+                "Query Keywords Extraction": "King's jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer provided is 'Yorick', who is indeed the deceased court jester mentioned in 'Hamlet'.",
+                "Document Content Analysis": "The document contains various information related to William Shakespeare, including characters he created, works he authored, and quotes from his plays. It also mentions some adaptations and works influenced by Shakespeare.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' multiple times and 'Hamlet' once.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Yorick'.",
+                "Key Information Matching": "While the document mentions 'Hamlet' and contains information about Shakespeare's characters and works, it does not specifically mention Yorick or the King's jester from Hamlet.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Shakespeare and mentions 'Hamlet', which could help in understanding the background of the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant to the query. While it doesn't provide the specific answer (Yorick), it contains information about Shakespeare and mentions 'Hamlet'. This context could be useful for someone researching Shakespeare's works or characters, even if it doesn't directly answer the question about the jester. The document provides a broader context about Shakespeare's works and characters, which makes it somewhat related to the query, justifying a relevance judgement of 1 (Partially Relevant)."
+            },
+            "nq_176645_0": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document discusses 'The Gravediggers', characters in Shakespeare’s 'Hamlet'. It mentions that Hamlet discovers the skull of his father's beloved jester, Yorick, during a dialogue with the Gravediggers.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'Hamlet', and 'jester'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Yorick', the name of the late King’s jester.",
+                "Key Information Matching": "The document directly references 'Yorick', the late King’s jester, which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name 'Yorick', which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Yorick’s role in 'Hamlet' and his relationship to Hamlet’s father.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer ('Yorick') and provides additional context about the character’s role in 'Hamlet'. This enhances understanding of the query and its answer."
+            },
+            "nq_77799_0": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document discusses the ghost of Hamlet's late father, a character in Shakespeare's play 'Hamlet'. It provides details about the ghost's family and his name, King Hamlet, but does not mention Yorick or the late King’s jester.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'Hamlet', and 'late father' (related to 'late King').",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick' or any reference to the late King’s jester.",
+                "Key Information Matching": "The document provides information about the ghost of Hamlet's late father, which is related to the query's context of 'Hamlet' and the late King, but it does not mention Yorick or the jester.",
+                "Can the Document Answer the Query": "No, the document does not mention Yorick or the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about Yorick or the jester, nor does it help infer such information.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the ghost of Hamlet's late father, which is related to the play 'Hamlet' but does not mention Yorick or the late King’s jester. Therefore, it does not provide any useful context or information to answer the query."
+            },
+            "triviaqa_63038_7": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play 'Hamlet'.",
+                "Query Keywords Extraction": "name, late King’s jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer is 'Yorick', the name of the late King’s jester in 'Hamlet'.",
+                "Document Content Analysis": "The document provides a summary of the characters and events in Shakespeare’s 'Hamlet', including Hamlet, Claudius, Gertrude, and Fortinbras. However, it does not mention Yorick or the late King’s jester.",
+                "Document and Query Keywords Matching": "The document mentions 'Hamlet' and 'Shakespeare', but does not mention 'late King’s jester' or 'Yorick'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Yorick'.",
+                "Key Information Matching": "The document does not provide any information about the late King’s jester or Yorick, which are key to answering the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Yorick or the late King’s jester.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the late King’s jester.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Yorick or the late King’s jester, which are central to answering the query. It provides information about other characters and events in 'Hamlet', but this does not assist in answering the specific question about the jester."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_37032_122": {},
+            "ott_14493_0": {},
+            "triviaqa_37032_62": {},
+            "m.081k8_2236": {},
+            "m.081k8_2913": {},
+            "triviaqa_37032_68": {},
+            "nq_77799_1": {},
+            "m.081k8_2171": {},
+            "m.081k8_2271": {
+                "Query Analysis": "The query asks for the name of the late King’s jester in Shakespeare’s play ‘Hamlet’. It is seeking specific character-related information from one of William Shakespeare's works.",
+                "Query Keywords Extraction": "late King, jester, Shakespeare, Hamlet",
+                "Answer Analysis": "The answer to the query is 'Yorick', the name of the late King’s jester in the play 'Hamlet'.",
+                "Document Content Analysis": "The document provides an extensive list of characters, works, quotes, and informational snippets associated with William Shakespeare. It includes mentions of various plays, characters, and quotes, but it does not specifically reference Yorick or provide character-specific context about Hamlet.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and contains the title 'Hamlet' (as 'Bonny Sweet Robin (Hamlet)').",
+                "Document and Answer Keywords Matching": "The document does not specifically mention 'Yorick', the answer to the query.",
+                "Key Information Matching": "The document mentions Shakespeare and Hamlet but does not provide information about the late King’s jester, nor does it mention Yorick.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query, as it does not provide information about the late King’s jester in 'Hamlet' or reference Yorick.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide additional context or key information that would help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because, although it contains general information about Shakespeare and his works (including Hamlet), it lacks any mention or context about the specific character (Yorick) or the concept of the late King’s jester. It does not provide any key information that can help address the query or infer the answer."
+            },
+            "nq_176645_0": {},
+            "nq_77799_0": {},
+            "triviaqa_63038_7": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "m.081k8_2271": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 0,
+            "nq": 2,
+            "triviaqa": 2,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

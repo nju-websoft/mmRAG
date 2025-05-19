@@ -1,0 +1,919 @@
+{
+    "index": 78296,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which band released the 1999 comeback single Maria?",
+        "answer": "Blondie",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_26453_11",
+                "score": 13.124300003051758
+            },
+            {
+                "id": "triviaqa_58156_196",
+                "score": 13.090499877929688
+            },
+            {
+                "id": "triviaqa_67043_16",
+                "score": 12.984299659729004
+            },
+            {
+                "id": "triviaqa_26453_10",
+                "score": 12.931400299072266
+            },
+            {
+                "id": "triviaqa_27931_22",
+                "score": 12.86460018157959
+            },
+            {
+                "id": "triviaqa_29410_30",
+                "score": 12.680500030517578
+            },
+            {
+                "id": "triviaqa_38642_5",
+                "score": 12.621999740600586
+            },
+            {
+                "id": "triviaqa_23782_719",
+                "score": 12.610099792480469
+            },
+            {
+                "id": "triviaqa_4338_455",
+                "score": 12.610098838806152
+            },
+            {
+                "id": "triviaqa_65024_673",
+                "score": 12.610097885131836
+            },
+            {
+                "id": "triviaqa_65024_674",
+                "score": 12.61009693145752
+            },
+            {
+                "id": "triviaqa_72796_233",
+                "score": 12.610095977783203
+            },
+            {
+                "id": "nq_119833_71",
+                "score": 12.512800216674805
+            },
+            {
+                "id": "triviaqa_58156_198",
+                "score": 12.500300407409668
+            },
+            {
+                "id": "triviaqa_70037_0",
+                "score": 12.44379997253418
+            },
+            {
+                "id": "triviaqa_4338_454",
+                "score": 12.40880012512207
+            },
+            {
+                "id": "triviaqa_72796_232",
+                "score": 12.408799171447754
+            },
+            {
+                "id": "nq_129209_16",
+                "score": 12.398099899291992
+            },
+            {
+                "id": "nq_299281_16",
+                "score": 12.398098945617676
+            },
+            {
+                "id": "nq_191314_4",
+                "score": 12.393600463867188
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_16762_1",
+                "score": 8.11299991607666
+            },
+            {
+                "id": "ott_19569_1",
+                "score": 8.112998962402344
+            },
+            {
+                "id": "ott_5658_1",
+                "score": 8.112998008728027
+            },
+            {
+                "id": "ott_9592_1",
+                "score": 8.112997055053711
+            },
+            {
+                "id": "ott_24433_2",
+                "score": 7.889499187469482
+            },
+            {
+                "id": "ott_35581_2",
+                "score": 7.889498233795166
+            },
+            {
+                "id": "ott_13039_1",
+                "score": 7.387499809265137
+            },
+            {
+                "id": "ott_5905_1",
+                "score": 7.38749885559082
+            },
+            {
+                "id": "ott_9638_1",
+                "score": 7.387497901916504
+            },
+            {
+                "id": "ott_10144_2",
+                "score": 7.23609733581543
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_119833_71",
+                "score": 12.512800216674805
+            },
+            {
+                "id": "nq_129209_16",
+                "score": 12.398099899291992
+            },
+            {
+                "id": "nq_299281_16",
+                "score": 12.398098945617676
+            },
+            {
+                "id": "nq_191314_4",
+                "score": 12.393600463867188
+            },
+            {
+                "id": "nq_82752_4",
+                "score": 12.393599510192871
+            },
+            {
+                "id": "nq_225843_71",
+                "score": 12.354499816894531
+            },
+            {
+                "id": "nq_163447_10",
+                "score": 11.59850025177002
+            },
+            {
+                "id": "nq_45762_10",
+                "score": 11.44219970703125
+            },
+            {
+                "id": "nq_163447_11",
+                "score": 11.389399528503418
+            },
+            {
+                "id": "nq_45762_11",
+                "score": 11.215700149536133
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_26453_11",
+                "score": 13.124300003051758
+            },
+            {
+                "id": "triviaqa_58156_196",
+                "score": 13.090499877929688
+            },
+            {
+                "id": "triviaqa_67043_16",
+                "score": 12.984299659729004
+            },
+            {
+                "id": "triviaqa_26453_10",
+                "score": 12.931400299072266
+            },
+            {
+                "id": "triviaqa_27931_22",
+                "score": 12.86460018157959
+            },
+            {
+                "id": "triviaqa_29410_30",
+                "score": 12.680500030517578
+            },
+            {
+                "id": "triviaqa_38642_5",
+                "score": 12.621999740600586
+            },
+            {
+                "id": "triviaqa_23782_719",
+                "score": 12.610099792480469
+            },
+            {
+                "id": "triviaqa_4338_455",
+                "score": 12.610098838806152
+            },
+            {
+                "id": "triviaqa_65024_673",
+                "score": 12.610097885131836
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.01pkz02_4",
+                "score": 12.070300102233887
+            },
+            {
+                "id": "m.01pkz02_3",
+                "score": 12.055500030517578
+            },
+            {
+                "id": "m.01pkz02_0",
+                "score": 11.880200386047363
+            },
+            {
+                "id": "m.02r9d1z_8",
+                "score": 8.665800094604492
+            },
+            {
+                "id": "m.02kmm_5732",
+                "score": 8.541600227355957
+            },
+            {
+                "id": "m.05r4w_4481",
+                "score": 8.475799560546875
+            },
+            {
+                "id": "m.0vzm_217",
+                "score": 8.39330005645752
+            },
+            {
+                "id": "m.06kkj8_2",
+                "score": 8.364100456237793
+            },
+            {
+                "id": "m.01hn4dj_1",
+                "score": 8.322400093078613
+            },
+            {
+                "id": "m.06kkj8_3",
+                "score": 8.200300216674805
+            },
+            {
+                "id": "m.02r9d1z_9",
+                "score": 8.173500061035156
+            },
+            {
+                "id": "m.05v8c_5000",
+                "score": 8.162099838256836
+            },
+            {
+                "id": "m.06t8v_1076",
+                "score": 8.059800148010254
+            },
+            {
+                "id": "m.01ls2_1026",
+                "score": 7.9781999588012695
+            },
+            {
+                "id": "m.02k5sc_101",
+                "score": 7.946499824523926
+            },
+            {
+                "id": "m.01hn4dj_12",
+                "score": 7.883299827575684
+            },
+            {
+                "id": "m.059j2_1018",
+                "score": 7.842400074005127
+            },
+            {
+                "id": "m.0dtmg6_16",
+                "score": 7.827698230743408
+            },
+            {
+                "id": "m.01p6w8h_1",
+                "score": 7.7967000007629395
+            },
+            {
+                "id": "m.01hn4dj_2",
+                "score": 7.761300086975098
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_27931_22",
+                "score": 0.612449049949646
+            },
+            {
+                "id": "m.01pkz02_4",
+                "score": 0.592460036277771
+            },
+            {
+                "id": "triviaqa_59841_74",
+                "score": 0.5878130793571472
+            },
+            {
+                "id": "nq_236055_45",
+                "score": 0.5877442955970764
+            },
+            {
+                "id": "nq_192648_43",
+                "score": 0.5873628854751587
+            },
+            {
+                "id": "nq_1779_0",
+                "score": 0.5871320366859436
+            },
+            {
+                "id": "nq_1779_9",
+                "score": 0.5864928364753723
+            },
+            {
+                "id": "nq_1779_1",
+                "score": 0.577639102935791
+            },
+            {
+                "id": "m.03flmcr_7",
+                "score": 0.577576756477356
+            },
+            {
+                "id": "m.0127s7_347",
+                "score": 0.5771741271018982
+            },
+            {
+                "id": "m.02k5sc_57",
+                "score": 0.5766998529434204
+            },
+            {
+                "id": "m.01pkz02_0",
+                "score": 0.5741945505142212
+            },
+            {
+                "id": "nq_185497_6",
+                "score": 0.5736359357833862
+            },
+            {
+                "id": "nq_96702_55",
+                "score": 0.5724362730979919
+            },
+            {
+                "id": "m.0150jk_32",
+                "score": 0.571297824382782
+            },
+            {
+                "id": "nq_138362_46",
+                "score": 0.5707295536994934
+            },
+            {
+                "id": "m.05clg8_1",
+                "score": 0.5696411728858948
+            },
+            {
+                "id": "nq_236055_46",
+                "score": 0.5689688920974731
+            },
+            {
+                "id": "triviaqa_1217_26",
+                "score": 0.5686243176460266
+            },
+            {
+                "id": "nq_185497_5",
+                "score": 0.567695140838623
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_236055_45",
+                "score": 0.5877442955970764
+            },
+            {
+                "id": "nq_192648_43",
+                "score": 0.5873628854751587
+            },
+            {
+                "id": "nq_1779_0",
+                "score": 0.5871320366859436
+            },
+            {
+                "id": "nq_1779_9",
+                "score": 0.5864928364753723
+            },
+            {
+                "id": "nq_1779_1",
+                "score": 0.577639102935791
+            },
+            {
+                "id": "nq_185497_6",
+                "score": 0.5736359357833862
+            },
+            {
+                "id": "nq_96702_55",
+                "score": 0.5724362730979919
+            },
+            {
+                "id": "nq_138362_46",
+                "score": 0.5707295536994934
+            },
+            {
+                "id": "nq_236055_46",
+                "score": 0.5689688920974731
+            },
+            {
+                "id": "nq_185497_5",
+                "score": 0.567695140838623
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_27931_22",
+                "score": 0.612449049949646
+            },
+            {
+                "id": "triviaqa_59841_74",
+                "score": 0.5878130793571472
+            },
+            {
+                "id": "triviaqa_1217_26",
+                "score": 0.5686243176460266
+            },
+            {
+                "id": "triviaqa_27931_11",
+                "score": 0.560723066329956
+            },
+            {
+                "id": "triviaqa_71272_103",
+                "score": 0.5587787628173828
+            },
+            {
+                "id": "triviaqa_3421_110",
+                "score": 0.5587038397789001
+            },
+            {
+                "id": "triviaqa_72322_50",
+                "score": 0.557277500629425
+            },
+            {
+                "id": "triviaqa_68625_66",
+                "score": 0.5563995242118835
+            },
+            {
+                "id": "triviaqa_41097_149",
+                "score": 0.5517890453338623
+            },
+            {
+                "id": "triviaqa_27931_27",
+                "score": 0.5503565073013306
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.01pkz02_4",
+                "score": 0.592460036277771
+            },
+            {
+                "id": "m.03flmcr_7",
+                "score": 0.577576756477356
+            },
+            {
+                "id": "m.0127s7_347",
+                "score": 0.5771741271018982
+            },
+            {
+                "id": "m.02k5sc_57",
+                "score": 0.5766998529434204
+            },
+            {
+                "id": "m.01pkz02_0",
+                "score": 0.5741945505142212
+            },
+            {
+                "id": "m.0150jk_32",
+                "score": 0.571297824382782
+            },
+            {
+                "id": "m.05clg8_1",
+                "score": 0.5696411728858948
+            },
+            {
+                "id": "m.02k5sc_65",
+                "score": 0.5660972595214844
+            },
+            {
+                "id": "m.05zjd_4764",
+                "score": 0.5650861263275146
+            },
+            {
+                "id": "m.06bnz_6581",
+                "score": 0.5612934827804565
+            },
+            {
+                "id": "m.015fr_1624",
+                "score": 0.5607693195343018
+            },
+            {
+                "id": "m.0150jk_19",
+                "score": 0.5592641830444336
+            },
+            {
+                "id": "m.01pj7_594",
+                "score": 0.5586676001548767
+            },
+            {
+                "id": "m.03flmcr_9",
+                "score": 0.5584231019020081
+            },
+            {
+                "id": "m.0pdnhr4_3",
+                "score": 0.5571485161781311
+            },
+            {
+                "id": "m.0127s7_350",
+                "score": 0.5569595694541931
+            },
+            {
+                "id": "m.03hmh__4",
+                "score": 0.5551891326904297
+            },
+            {
+                "id": "m.09z8d1_10",
+                "score": 0.555009126663208
+            },
+            {
+                "id": "m.035hm_1267",
+                "score": 0.5543110370635986
+            },
+            {
+                "id": "m.02k5sc_64",
+                "score": 0.5542462468147278
+            }
+        ],
+        "llm_mark_result": {
+            "m.01pkz02_4": {
+                "Query Analysis": "The query asks for the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document provides information about a musical artist named Maria, detailing her career, record label associations, and various recordings. It mentions her discovery, signing, and the release of her debut album, as well as her collaborations and notable songs.",
+                "Document and Query Keywords Matching": "The document mentions 'Maria' multiple times, but in the context of a musical artist, not a song title. It does not mention 'band', '1999', or 'comeback single'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "The document's mention of 'Maria' is misleading as it refers to a person, not the song 'Maria' by Blondie. There is no matching information regarding the band, the year 1999, or the concept of a comeback single.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the band Blondie or the song 'Maria' as a comeback single in 1999.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it discusses a different 'Maria' who is a musical artist, not the song 'Maria' by Blondie. It lacks any information about the band Blondie, the year 1999, or the concept of a comeback single. Therefore, it cannot assist in answering the query or providing useful context."
+            },
+            "nq_119833_71": {
+                "Query Analysis": "The query asks for the name of the band that released the comeback single 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document discusses the career of the Rolling Stones, particularly focusing on their activities and releases from the late 1980s to the late 1990s. It mentions their induction into the Rock and Roll Hall of Fame, the creation of a new album 'Steel Wheels', and the single 'Mixed Emotions'.",
+                "Document and Query Keywords Matching": "The document mentions 'comeback' and '1999', but these are in the context of the Rolling Stones' career and not related to the single 'Maria'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie' at all.",
+                "Key Information Matching": "The document does not provide any information about the band Blondie or the single 'Maria'. The context of 'comeback' and '1999' is specific to the Rolling Stones and not relevant to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the band that released the single 'Maria' in 1999.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the Rolling Stones and their activities during the specified period. It does not mention Blondie or the single 'Maria'. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides any useful context or additional information that could help infer the answer."
+            },
+            "triviaqa_26453_11": {
+                "Query Analysis": "The query asks for the name of the band that released the comeback single 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document discusses various activities and releases by Eric Burdon and his associated bands, including albums, singles, and tours. It mentions multiple projects and collaborations but does not specifically mention the band Blondie or the single 'Maria'.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'band', 'released', '1999', 'comeback single', or 'Maria'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on Eric Burdon's career and does not provide any relevant information about the band Blondie or the single 'Maria'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Eric Burdon's career and does not mention the band Blondie or the single 'Maria'. Therefore, it cannot provide any useful context or information to answer the query or help infer the answer."
+            },
+            "nq_236055_45": {
+                "Query Analysis": "The query asks for the band that released a specific comeback single titled 'Maria' in the year 1999.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the comeback single 'Maria' in 1999.",
+                "Document Content Analysis": "The document lists various singles that reached number one on the Billboard Hot 100 chart in 1999, along with the artists who performed them, the song titles, the record labels, and the number of weeks each song stayed at number one.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and lists several singles from that year, but does not mention 'Maria' or 'Blondie'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "The document provides information about popular singles from 1999 but does not include any reference to the specific single 'Maria' or the band Blondie.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the band Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the band Blondie or the single 'Maria'. It only lists other popular singles from 1999, which do not assist in answering the specific question posed."
+            },
+            "triviaqa_58156_196": {
+                "Query Analysis": "The query asks for the band that released a comeback single titled 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document discusses the activities and releases of a band, specifically mentioning various singles and albums, their chart performances, and personal events related to the band members. It focuses on the band's efforts to promote their music and the reception of their releases in different countries.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and discusses singles released in that year, but does not mention 'Maria' or 'comeback single'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "The document provides information about a band's activities and releases in 1999, but does not specifically mention the single 'Maria' or the band Blondie.",
+                "Can the Document Answer the Query": "No, the document does not mention the band Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the band that released the single 'Maria'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the band Blondie or the single 'Maria'. It provides details about a different band's activities and releases, which do not assist in answering the query or providing relevant context."
+            },
+            "triviaqa_27931_22": {
+                "Query Analysis": "The query asks for the name of the band that released the comeback single 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document provides a history of Blondie's activities around the late 1990s, including their reunion, tour, album releases, and details about the single 'Maria'.",
+                "Document and Query Keywords Matching": "The document mentions '1999', 'single', and 'Maria'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Blondie' in the context of the single 'Maria'.",
+                "Key Information Matching": "The document directly states that Blondie released the single 'Maria' in 1999, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Blondie released the single 'Maria' in 1999.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Blondie's activities and the significance of the single 'Maria'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Blondie released the single 'Maria' in 1999, providing a direct answer to the query. Additionally, it offers context about the band's activities around that time, enhancing the understanding of the query's context."
+            },
+            "triviaqa_59841_74": {
+                "Query Analysis": "The query asks for the band that released the comeback single 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document lists various singles released in 1999 along with their release dates and the artists who performed them.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and 'Maria'.",
+                "Document and Answer Keywords Matching": "The document includes 'Blondie' and 'Maria' in the same entry.",
+                "Key Information Matching": "The document directly matches the key information by listing 'Blondie - Maria' with a release date in 1999.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying that Blondie released the single 'Maria' in 1999.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context by listing other singles released in the same year, which can help understand the music landscape of 1999.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact information needed to answer it. It specifies that Blondie released the single 'Maria' in 1999, which directly addresses the query. Additionally, the document provides a broader context of other singles released in the same year, enhancing the relevance."
+            },
+            "triviaqa_67043_16": {
+                "Query Analysis": "The query asks for the name of the band that released a comeback single titled 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document discusses the band Simply Red's activities and releases around the late 1990s and early 2000s, including hit singles, albums, and their commercial success or lack thereof.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and 'comeback', but in the context of Simply Red's single 'Ain't That A Lot Of Love'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "While the document discusses a comeback single in 1999, it is related to Simply Red, not the band in question (Blondie).",
+                "Can the Document Answer the Query": "No, the document does not mention the band Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides information about Simply Red, which is unrelated to the query about Blondie.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on Simply Red and their activities, which are unrelated to the query about Blondie's 1999 comeback single 'Maria'. It does not provide any relevant information to answer the query or infer additional information about the band Blondie."
+            },
+            "m.03flmcr_7": {
+                "Query Analysis": "The query asks for the band that released the comeback single 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document appears to be a technical or metadata description related to a musical release titled 'Maria'. It includes various authority keys and references to musicbrainz, indicating different recordings or versions of the track 'Maria', along with their lengths. However, it does not explicitly mention the band name or the year of release.",
+                "Document and Query Keywords Matching": "The document mentions 'Maria' and implies it is a musical release, which matches part of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "The document matches the keyword 'Maria' but lacks other key information such as the band name 'Blondie' and the year '1999'.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the band or the year of release.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional context that could help infer the band or the year of release.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions 'Maria' and indicates it is a musical release, it lacks crucial information such as the band name and the year of release. Therefore, it cannot answer the query or provide useful context to infer the answer."
+            },
+            "triviaqa_26453_10": {
+                "Query Analysis": "The query asks for the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the specified single.",
+                "Document Content Analysis": "The document provides a detailed history of Eric Burdon's musical career, including various bands he formed, tours, albums, and projects from the late 1970s to the 1990s. It mentions multiple albums and singles but focuses exclusively on Eric Burdon's work.",
+                "Document and Query Keywords Matching": "The document does not mention 'Maria', '1999', 'comeback single', or any direct reference to the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is centered around Eric Burdon and does not provide any information related to the band Blondie or the single 'Maria'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Eric Burdon's career and does not mention Blondie or the single 'Maria'. It lacks any relevant information that could assist in answering the query or providing useful context. Therefore, it is deemed irrelevant to the query."
+            },
+            "nq_192648_43": {
+                "Query Analysis": "The query asks for the band that released a specific comeback single titled 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the comeback single 'Maria' in 1999.",
+                "Document Content Analysis": "The document provides information about the song 'Bring It All Back' by S Club 7 and its position on the New Zealand RIANZ Singles Chart. It also mentions other songs and artists such as Mariah Carey and Eiffel 65, along with their chart positions. Additionally, it includes a section about Lou Bega and his studio albums.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'band', '1999', 'comeback single', or 'Maria'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on different songs and artists unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the band that released the single 'Maria' in 1999.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about the band Blondie or the single 'Maria'. The content of the document is focused on different songs and artists, providing no useful context or additional information related to the query."
+            },
+            "m.01pkz02_3": {
+                "Query Analysis": "The query asks for the band that released a comeback single titled 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document provides information about a Danish singer and songwriter named Maria, her career, her recordings, and her association with various musical genres and producers. It mentions her comeback to the stage with a song 'HUDLØS' but does not mention the band Blondie or the single 'Maria' from 1999.",
+                "Document and Query Keywords Matching": "The document mentions 'Maria' as a singer and songwriter, but not in the context of a band or a 1999 comeback single.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "The document's mention of 'Maria' does not align with the context of the query, which is about a band and a specific single from 1999.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the band that released the 1999 comeback single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a Danish singer named Maria and her career, which is unrelated to the query about the band Blondie and their 1999 comeback single 'Maria'. The document does not provide any useful context or additional information relevant to the query."
+            },
+            "ott_16762_1": {
+                "Query Analysis": "The query asks for the band that released the comeback single 'Maria' in 1999.",
+                "Query Keywords Extraction": "band, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is Blondie, indicating that Blondie is the band that released the 1999 comeback single 'Maria'.",
+                "Document Content Analysis": "The document provides information about various songs and their respective bands, primarily focused on the soundtrack of the Rock Band series. It lists several songs along with their bands, release years, genres, and whether they are included in the Rock Band series.",
+                "Document and Query Keywords Matching": "The document does not mention 'Maria', '1999', 'comeback single', or any direct reference to Blondie in the context of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on the Rock Band series and its soundtrack, which does not include the specific details asked in the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the band that released the 1999 comeback single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about the band Blondie or the 1999 comeback single 'Maria'. The content of the document is focused on the Rock Band series and its soundtrack, which is unrelated to the specific details asked in the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.01pkz02_4": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document discusses a musical artist named Maria, detailing her career, recordings, and collaborations. It mentions her comeback to the stage with the song 'HUDLØS' and her work with various producers and labels. However, there is no mention of Blondie or the single 'Maria' released in 1999.",
+                "Document and Query Keywords Matching": "The document mentions 'Maria' and 'comeback', but does not reference '1999', 'band', or 'Blondie'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie' or the single 'Maria' released in 1999.",
+                "Key Information Matching": "The document does not provide any information about Blondie or the 1999 single 'Maria'. It focuses on a different artist named Maria and her career.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Blondie or the 1999 single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a different artist named Maria and her career, with no mention of Blondie or the 1999 single 'Maria'. Therefore, it does not provide any useful context or information relevant to the query."
+            },
+            "nq_119833_71": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document discusses the Rolling Stones' activities from 1985 to 1999, including their albums, singles, and induction into the Rock and Roll Hall of Fame. It mentions their comeback and return to popularity during this period but does not reference the single 'Maria' or the band Blondie.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and 'comeback', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie' or 'Maria'.",
+                "Key Information Matching": "The document discusses the Rolling Stones' activities in 1999 and their comeback, but it does not provide any information about the single 'Maria' or the band Blondie.",
+                "Can the Document Answer the Query": "No, the document does not mention the single 'Maria' or the band Blondie.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the single 'Maria' or the band Blondie. It focuses on the Rolling Stones' activities and does not provide any useful context or information related to the query."
+            },
+            "triviaqa_26453_11": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document discusses the career and activities of Eric Burdon, including his albums, tours, and collaborations. It mentions various albums and singles released by Eric Burdon and his bands, but does not mention Blondie or the single 'Maria'.",
+                "Document and Query Keywords Matching": "The document does not mention '1999', 'comeback single', or 'Maria'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses on Eric Burdon's career and does not mention Blondie or the single 'Maria'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Eric Burdon's career and does not mention Blondie, the single 'Maria', or any related information. Therefore, it is irrelevant to the query and does not provide any useful context or additional information."
+            },
+            "nq_236055_45": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document lists several songs released in 1999, including their release dates, artists, song titles, record labels, and chart positions. However, it does not mention the song 'Maria' or the band 'Blondie'.",
+                "Document and Query Keywords Matching": "The document mentions '1999', which matches the query's keyword '1999'. However, it does not mention 'Maria' or 'comeback single'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie', the band specified in the answer.",
+                "Key Information Matching": "The document does not provide any information about the song 'Maria' or the band 'Blondie', which are key to answering the query.",
+                "Can the Document Answer the Query": "No, the document does not mention the song 'Maria' or the band 'Blondie'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the song 'Maria' or the band 'Blondie'. It provides no useful context or additional information that could assist in answering the query."
+            },
+            "triviaqa_58156_196": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document discusses the activities and releases of the band Ace of Base in 1999, including their singles, album releases, and personal events. It mentions several singles and their chart performances but does not mention the single 'Maria' or the band Blondie.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and 'comeback', but it does not mention 'Maria' or 'Blondie'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie' or 'Maria'.",
+                "Key Information Matching": "The document does not provide any information related to the band Blondie or the single 'Maria'. It focuses entirely on Ace of Base and their activities in 1999.",
+                "Can the Document Answer the Query": "No, the document does not mention the band Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the band Ace of Base and their activities in 1999. It does not mention the band Blondie or the single 'Maria', nor does it provide any information that could help infer the answer to the query. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_27931_22": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document provides a detailed history of the band Blondie, including their reunion in 1997, their international tour in 1998-1999, and the release of their album 'No Exit' in February 1999. It specifically mentions that the first single from this album, 'Maria', became Blondie's sixth UK number one single.",
+                "Document and Query Keywords Matching": "The document mentions '1999', 'comeback' (implied by the reunion and new album), 'single', and 'Maria'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Blondie' as the band that released the single 'Maria'.",
+                "Key Information Matching": "The document directly states that Blondie released the single 'Maria' in 1999, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Blondie released the single 'Maria' in 1999.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Blondie's reunion and the success of the single 'Maria'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer. It also offers additional context about the band and the single, enhancing understanding of the query."
+            },
+            "triviaqa_59841_74": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document lists various songs released in 1999, including the artist and release date for each song. It specifically mentions 'Blondie - Maria' with a release date of 13/2/1999.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and 'Maria', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Blondie', which matches the answer.",
+                "Key Information Matching": "The document directly mentions 'Blondie - Maria', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Blondie released the single 'Maria' in 1999.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly provides the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It lists 'Blondie - Maria' as a song released in 1999, which directly answers the query about the band that released the 1999 comeback single 'Maria'."
+            },
+            "triviaqa_67043_16": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document discusses Simply Red's activities in 1999 and 2000, including the release of their album 'Love And The Russian Winter' and singles like 'Ain't That A Lot Of Love' and 'Your Eyes'. It also mentions their compilation album 'It's Only Love' and their critically acclaimed comeback album 'Home'.",
+                "Document and Query Keywords Matching": "The document mentions '1999' and 'comeback', but does not mention 'Maria' or 'Blondie'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie' or 'Maria'.",
+                "Key Information Matching": "The document does not provide any information about the band Blondie or the single 'Maria'. It focuses on Simply Red's activities during the same time period.",
+                "Can the Document Answer the Query": "No, the document does not mention Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Blondie or the single 'Maria'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Simply Red and their activities in 1999 and 2000. It does not mention Blondie or the single 'Maria', nor does it provide any context or information that could help infer the answer to the query. Therefore, the document is irrelevant to the query."
+            },
+            "m.03flmcr_7": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document contains metadata related to a musical release titled 'Maria', including references to MusicBrainz identifiers and track lengths. However, it does not explicitly mention the band 'Blondie' or provide clear information about the release year or the band associated with the single.",
+                "Document and Query Keywords Matching": "The document mentions 'Maria', which matches the query keyword 'Maria'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie', the band specified in the answer.",
+                "Key Information Matching": "The document contains the keyword 'Maria', which is relevant to the query, but it lacks information about the band 'Blondie' or the release year 1999.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the band or the release year explicitly.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide sufficient information to infer the band or the release year.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Maria', which is relevant to the query, but it does not provide any information about the band 'Blondie' or the release year 1999. Therefore, it is irrelevant to the query as it does not assist in answering or inferring the required information."
+            },
+            "triviaqa_26453_10": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document discusses the career and activities of Eric Burdon, including his various bands, tours, and albums from the late 1970s to the early 1990s. It mentions several bands and projects associated with Eric Burdon but does not reference Blondie or the single 'Maria'.",
+                "Document and Query Keywords Matching": "The document does not mention '1999', 'comeback single', or 'Maria'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on Eric Burdon's career and does not mention Blondie or the single 'Maria'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Eric Burdon's career and bands but does not mention Blondie, the single 'Maria', or any information that could assist in answering the query. Therefore, it is irrelevant to the conversation."
+            },
+            "nq_192648_43": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document discusses music charts and singles from 1999, including mentions of Lou Bega, Mariah Carey, and Eiffel 65. However, it does not mention Blondie or the single 'Maria'.",
+                "Document and Query Keywords Matching": "The document mentions '1999', which matches the query's keyword '1999'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie', the band specified in the answer.",
+                "Key Information Matching": "The document does not provide any information about Blondie or the single 'Maria', which are key to answering the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Blondie or the single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the band or the single in question.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Blondie or the single 'Maria'. It provides information about other artists and singles from 1999, but none of this information is useful for answering the query."
+            },
+            "m.01pkz02_3": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single titled 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document provides information about a singer named Maria Jensen, her career, and her recordings. It mentions her comeback to the stage with a song titled 'HUDLØS' but does not mention the band Blondie or the single 'Maria'.",
+                "Document and Query Keywords Matching": "The document mentions 'Maria' and 'comeback', but these are in reference to a different artist and context.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie' or the single 'Maria'.",
+                "Key Information Matching": "The document does not provide any information about the band Blondie or the 1999 single 'Maria'. It focuses on a different artist named Maria Jensen.",
+                "Can the Document Answer the Query": "No, the document does not mention Blondie or the 1999 single 'Maria'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a different artist named Maria Jensen and does not mention Blondie or the 1999 single 'Maria'. Therefore, it is irrelevant to the query."
+            },
+            "ott_16762_1": {
+                "Query Analysis": "The query asks for the name of the band that released the 1999 comeback single 'Maria'.",
+                "Query Keywords Extraction": "band, released, 1999, comeback single, Maria",
+                "Answer Analysis": "The answer is 'Blondie', indicating that Blondie is the band that released the single 'Maria' in 1999.",
+                "Document Content Analysis": "The document provides information about various songs and bands, including their release years, genres, and availability in the Rock Band series. However, it does not mention the song 'Maria' or the band 'Blondie'.",
+                "Document and Query Keywords Matching": "The document does not mention 'Maria', '1999', or 'comeback single', which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Blondie', the band identified in the answer.",
+                "Key Information Matching": "The document does not contain any information related to the song 'Maria', the year 1999, or the band 'Blondie'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the song 'Maria', the year 1999, or the band 'Blondie'. It provides no useful context or additional information that could assist in answering the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.01pkz02_4": {},
+            "nq_119833_71": {},
+            "triviaqa_26453_11": {},
+            "nq_236055_45": {},
+            "triviaqa_58156_196": {},
+            "triviaqa_27931_22": {},
+            "triviaqa_59841_74": {},
+            "triviaqa_67043_16": {},
+            "m.03flmcr_7": {},
+            "triviaqa_26453_10": {},
+            "nq_192648_43": {},
+            "m.01pkz02_3": {},
+            "ott_16762_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "nq": 0,
+            "triviaqa": 4,
+            "kg": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

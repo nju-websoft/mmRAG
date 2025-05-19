@@ -1,0 +1,1217 @@
+{
+    "index": 2643,
+    "context": [
+        "\nDOCUMENT 1:\n\nFinding the Day of the Week. ... Note that some other easy-to-remember Doomsdays are Valentine's Day ... Because 2000 was a leap year, ... Finding the Day of the Week Finding the Day of the Week\nAbout\nFinding the Day of the Week\nWhen I was growing up way back in the '90s, I used to watch a show called \"Figure It Out.\" It was a sort of game show that would feature a kid with a special talent, and the celebrity panelists would have to, well, figure out what it was. On one episode, there was a boy who could tell you the day of the week that a given date fell on. I remember being absolutely amazed. I had no idea how he did it.\nIt turns out that it's quite easy to determine the day of the week from a given date. In fact, you can do it in your head with a little mental math and a few simple memorizations. Read on for a quick background on the algorithm. And don't worry: we'll get to the formula soon enough.\nOverview of the Doomsday Algorithm\nThe method outlined here is called the Doomsday Algorithm. It's not the only way to find the day of the week of a given date, but it lends itself easily to memorization. Invented by mathematician John Horton Conway (born 1937), the algorithm takes advantage of the fact that in any given year, there are certain easy-to-remember dates that all happen to fall on the same day of the week. Conway referred to this special day of the week as the Doomsday. There are other methods which, with some more difficult memorization and twisting of numbers, will lead you directly to your answer. However, by finding a year's Doomsday first, you can easily find the weekday of any date in that year.\nBesides the formula itself, all you need to memorize is a single Doomsday date for each month. Luckily, they're quite easy, and that's why the algorithm was based around them. In any given year, 4/4, 6/6, 8/8, 10/10, and 12/12 fall on the same day of the week -- the Doomsday. Conveniently, the last day of February (the 28th in a regular year or the 29th if it's a leap year) also falls on this day. It happens that 5/9, 9/5, 7/11, and 11/7 fall on the Doomsday as well. For those familiar with the 7-Eleven convenience store chain, a handy mnemonic for these months is, \"I work from 9 to 5 at the 7-11.\" Or you could simply remember that these are the odd-numbered months after March.\nWhat about the remaining months, January and March? Like February, their Doomsday dates hinge on the leap day as well. If it's a common year (a non-leap year), then January 3 is the Doomsday; if it is a leap year, then January 4 is the Doomsday. (You might remember that for three years, it's the January 3rd, and every fourth year, it's January 4th.) As for March, the last day of February is usually considered March's Doomsday date as \"March 0.\" (Keep in mind that a leap year is a year that is divisible by four: a year when we have the Summer Olympics and the US Presidential election. The exception to the rule is that years divisible by 100 but not 400 are common years: thus, 1700, 1800, and 1900 were not leap years, but 1600 and 2000 were.)\nSo, to review, these are the only Doomsday dates you need to remember:\nMonth\n...2000s, 2400s, 2800s...\nTuesday (remember: \"Y-Tue-K\")\nThe two you will probably need to know the most are those for the 1900s (1900-1999) and the 2000s (2000-2099). You can remember that the anchor day for the 1900s is \"We-in-dis-day\" because most of us were born during that century. Likewise, you can remember that the anchor day for the 2000s is Tuesday with the mnemonic \"Y-Tue-K\" (remember Y2K?).\nThe Math\nYes, you do need to use a little math in order to do this. Here's the formula, broken down step-by-step. In this example, we'll find which day of the week July 13, 1989 fell on.\nDivide the last two digits of the year by 12. 89 divided by 12 is 7, with 5 left over.\nFind how many 4's go into the remainder evenly. 5 divided by 4 is 1, with a remainder that we ignore.\nAdd these three numbers. 7 + 5 + 1 = 13.\nDivide the sum by 7 and take the remainder. 13 divided by 7 is 1, with a remainder of 6.\nAdd the remainder to the century's anchor day to find the year's Doomsday. Wendesday + 6 = Tuesday.\nUse the month's Doomsday to find the day you need. July's Doomsday is 7/11, a Tuesday, so July 13 is a Thursday.\nLet's try another example by verifying that today, January 20, 2017, is a Friday.\n17 divided by 12 is 1, with a remainder of 5.\n4 goes into the remainder 1 time.\n1 + 5 + 1 = 7.\n7 divided by 7 is 1, with a remainder of 0.\nTuesday + 0 = Tuesday. Therefore, 2017's Doomsday is Tuesday.\nBecause January 3 is a Tuesday, then January 20, 17 days later, is a Friday.\nNow it's your turn! Find the day of the week for the following dates. (If you need to check your answers, you can use the calculator at the bottom of the page.)\nThe first Earth Day was observed on April 22, 1970.\nNapoleon was defeated at Waterloo on June 18, 1815.\nJames Joyce's novel Ulysses takes place on June 16, 1904.\nThe United States declared independence from Great Britain on July 4, 1776.\nA total solar eclipse will occur over the contintental United States on August 21, 2017.\nThe first humans landed on the moon on July 20, 1969.\nJohn Horton Conway, the inventor of the Doomsday algorithm, was born on December 26, 1937 -- a Doomsday, as it turns out.\nMillard Fillmore, the 13th President of the United States, was born on January 7, 1800. (Careful: was it a leap year?)\nGold was first discovered in California on January 24, 1849.\nThe Second Continental Congress met in Lancaster, Pennsylvania, on September 27, 1777, making that city the capital of the United States for one day.\nThe muntiny on the Bounty was led by Fletcher Christian, who later named his son Thursday October Christian because he was born on the second Thursday of October 1790. What date was this?\nThursday October Christian died on April 21, 1831. What day of the week was it?\nNorth Korea's Juche calendar, introduced in 1997, counts the years since April 15, 1912, when \"Eternal President\" Kim Il-sung was born. What day was it?\nI just found an invitation to a party that I once had. The date of the party is given as Friday, July 11. The year isn't stated, but I know it was between 2001 and 2004. What year was it?\nJorn Barger devised the word \"weblog\" on December 17, 1997.\nOn December 13, 1795, a meteorite landed near the hamlet of Wold Newton in Yorkshire, England.\nThe film Minority Report gives the date April 22, 2054, as a Tuesday. Is this correct?\nIn the movie Heartbreak Ridge, a calendar shows July 21, 1983, as a Sunday. Is this right?\nIn the movie Forrest Gump, the date March 22, 1982, is given as a Saturday. Is this correct?\nIn the film Hairspray, a news broadcast gives the date as Friday, June 5, 1962. Could this be correct?\nIn the film The Hudsucker Proxy, a newspaper dated Monday, December 19, 1958, is shown. Is this the right day of the week?\nThe movie The Wedding Planner gives June 6, 2001, as a Saturday. Is this right?\nIn the movie The Terminator, a character says that May 12, 1984, is a Thursday. Is he right?\nIn O Brother, Where Art Thou?, a calendar shows that July 1937 begins on a Tuesday. Is it correct?\nIn Remember the Titans, the first day of school is given as September 4, 1971. Could there have been school on this date?\nIn My Dog Skip, a scene takes place in a school on September 27, 1942. Could this have been a school day?\nIn The Thirteenth Floor, a newspaper is shown that is dated Monday, June 21, 2024.\nA pivotal scene in the film Back to the Future takes place at a high school dance on November 12, 1955. Would it have been on a Saturday, as stated?\nIn American Gun, a newspaper gives the date as Thursday, March 18, 1988.\nIn Superman Returns, a newspaper is dated Friday, September 29, 2006.\nIn Raging Bull, a dance is said to take place on Saturday, August 6, 1941.\nThe beginning of The Return of the Living Dead takes place on Friday, July 3, 1984.\nIn Chances Are, a newspaper is dated Sunday, August 7, 1989.\nIn Johnny Mnemonic, a date is given as Thursday, January 17, 2021.\nIn Higher Learning, an event is advertised to take place on Saturday, November 15, 1995.\nIn Phantom of the Paradise, a character mentions that he wanted to commit suicide on Saturday, November 19, 1953.\nIn The Shootist, a newspaper gives the date as Monday, January 22, 1901.\nA History Lesson: The Julian Calendar\nBy now, you should be able to find the day of the week for any date just by using some mental math. Congratulations!\nThere's a small catch, though. Your skills apply only to the Gregorian calendar, the calendar that we currently use. The Gregorian calendar was introduced by the Catholic Church in 1582. Before that, the less accurate Julian calendar was used. The only real difference between the Julian and Gregorian calendars is that they have different leap year rules (all Julian years divisible by 4 are leap years) and differ by an ever-increasing number of days. Julian and Gregorian years usually have different Doomsdays.\nFinding a Doomsday in itself is relatively simple; the trick is to remember whether a given date is Julian or Gregorian. If you're working out the date that some event happened, it's important to consider where it happened. That's because not every country switched to the Gregorian calendar at the same time; in fact, only some Catholic countries adopted the new calendar right away. Great Britain and its colonies, which followed the Church of England, didn't make the switch until 1752. The last country to switch from the Julian to the Gregorian calendar was Turkey in 1926.\nIt's important to remember that, in the study of history, Julian dates are often not converted to their Gregorian equivalents. If a distinction between the calendars needs to be made, Julian dates are referred to as Old Style (O.S.) dates, and Gregorian dates are called New Style (N.S.) dates. Contemporaries of English thinker Isaac Newton would have said that he was born on December 25, 1642, and died on March 20, 1727. However, today we might say that he was born on January 4, 1643, and died on March 31, 1727. Though the dates are different, you'll be able to find that the corresponding days of the week are the same. Incidentally, the Julian and Gregorian calendars have the same days of the week at the same times; only the dates are different.\nTo find the Julian Doomsday, the first four steps are basically the same. When you add up the three numbers (the quotient of the last two digits of the year and 12, the remainder of that, and the number of fours in the remainder), subtract the century digits from the sum, and add that to Sunday. Here's an example for April 23, 1564:\n64 / 12 = 5, remainder 4.\n4 / 4 = 1.\nSunday + 10 - 15 = Sunday - 5 = Tuesday.\nApril 4 is a Tuesday, so April 23, 19 days later, is a Sunday.\nJulian dates are easy because you don't need to remember anchor days or the more complicated leap year rule. So, you should be able to try these:\nVerify that October 4, 1582 (Julian), and October 15, 1582 (Gregorian), occurred on consecutive days of the week.\nVerify that September 2, 1752 (Julian), and September 14, 1752 (Gregorian), occurred on consecutive days of the week.\nThe Battle of Hastings occurred on October 14, 1066.\nIn 1492, Columbus sailed the ocean blue. He made his first landing in the New World on October 12 of that year.\nEnglish poet and playwright William Shakespeare and Spanish author Miguel de Cervantes both died on April 23, 1616, but not on the same day of the week. Find the day of the week that each man died.\nAdvanced Techniques\nThis section is optional. It contains tips on finding Doomsdays more quickly if you're able to memorize more things.\nComplete List of Doomsdays\nIf you find it hard to remember some of the handy Doomsdays for each month, you might benefit from this complete list.\nMonth\nDecember\n5, 12, 19, 26\nNote that some other easy-to-remember Doomsdays are Valentine's Day (February 14), U.S. Independence Day (July 4), Halloween (October 31), and Boxing Day (December 26). Note, however, that February 14 is a Doomsday only in common years.\nMemorizing Years\nOnce you've done Doomsday calculations enough, you might start to memorize the Doomsdays for certain years. Early on in my study of the Doomsday method, I memorized that 1969's Doomsday was Friday. Why? I don't know; I just did. But it's helped me. Consider the satisfaction I got when someone \"challenged\" me to work out June 6, 1969, and I was able to tell them the answer immediately.\nIt may be convienient to know some of the Gregorian years whose Doomsdays are the same as the anchor day for their century. For example, 1945's Doomsday is Wednesday, just as 1900's was. In the Gregorian calendar, the following years of a century have the same Doomsday as the anchor day for their century: '00, '06, '17, '23, '28, '34, '45, '51, '56, '62, '73, '79, '84, '90.\nIncidentally, I've discovered that intervals between these years follows a pattern: 6, 11, 6, 5, 6, 11, 6, 5, 6, 11, 6, 5, 6. Using the 1900s as an example, the pattern actually continues into the next century: ...1984, 1990, 2001, 2007, 2012, 2018... This pattern breaks after 2100, probably because it will not be a leap year. It would be interesting to investigate whether any Doomsday (not just those that are anchor days) can be found as a member of a sequence, and whether this extends to the Julian calendar as well. I think the answer is yes to both, but I don't feel like crunching the numbers. Maybe someone reading this can prove it one way or the other.\nAdvance of the Doomsdays\nYou may have observed in the past that if a certain date falls on a Monday this year, it will be a Tuesday next year (that is, if the next year is a common year). The Doomsday advances one day each year, except in the case of leap years, when it advances two days. If you've memorized the Doomsdays for certain years, you can use this to your advantage. For example, you don't need to do the math for 1999 if you know that 2000's Doomsday is a Tuesday. Because 2000 was a leap year, 1999's Doomsday was two days before it and was therefore Sunday. Likewise, you know that 1900's Doomsday was Wednesday, so 1899's must have been Tuesday, and 1898's was Monday.\nAnchor Days for Future Centuries\nIf you're trying your newly found skills at a party, there's always going to be the snarky person in the bunch who asks you to find the day of the week for January 31, 6732. How are you supposed to find the anchor date for the 6700s? Recall that the anchor dates for the Gregorian calendar repeat every four centuries. (As such, the Gregorian calendar repeats every 400 years. Just as January 20, 2017, is a Friday, so too was January 20, 1617.) If you divide the century digits (the first two digits in four-digit years) by 4, the remainder determines the anchor day. When you 17 by 4, the remainder is 1. Recall that the anchor day for the 1700s is Sunday. When the remainder is 2, the anchor day is Friday. When it's 3, it's Wednesday, and when the remainder is 0 (as in the 2000s), the anchor day is Tuesday. Now for the 6700s: 68 is evenly divisible by 4, so the remainder of 67 divided by 4 is 3. Thus, the anchor day for the 6700s is Wednesday. Now, you should be able to find the day of the week for January 31, 6732. Here's another challenge: January 1, 10,000. (For 5-digit years, the century digits are the first three.)\nDate Calculator\nThis calculator uses the Doomsday method. You must have JavaScript enabled in your browser in order for the calculator to work. You can use it to check your answers (but no cheating!). Enter numeric values for the month, day, and year, then click \"Find day of week.\" The calculator accepts all dates from the years 1 to 9999. However, Gregorian dates prior to October 15, 1582, will be entered as Julian dates instead.\nDoomsday Calculator\nHere's a more easily accessible version of this calculator, better for bookmarking and frequent use.\nMore Information\nAccording to a source who has spoken to Dr. Conway, he devised the Doomsday Algorithm after a colleage showed him a day-of-the-week algorithm by Lewis Carroll and challenged him to simplify it. Conway first published the algorithm in his article, \"Tomorrow is the Day After Doomsday,\" Eureka 36 (1973): 28-31. It is described briefly in a book that he co-authored with Richard K. Guy and Elwyn R. Berkelamp called Winning Ways for Your Mathematical Plays, Vol. 2, London: Academic Press, 1982. Since then, the algorithm appears to have been simplified so that the \"handy Doomsdays\" for the months are easier to remember. Conway now teaches his algorithm using the hand as a mnemonic. He himself can perform the necessary calculations in under two seconds . His secret? Besides being a mathematician, he has a program on his computer that gives him random dates to try whenever he logs on.\nThese resources have proven useful in the research for this page. They might also be useful for you if you've found this article just too confusing.\n\n\nDOCUMENT 2:\n\n... the day of the week for one day in each month of the year. Conway's method uses the fact that the following dates always fall on the same day of the week in any ... What is the day of the week? What is the day of the week?\nAST 309-TIME\nWhat is the day of the week, given any date?\nThis is really a nice trick. You can easily calculate the day of the         week, given any date in history, and with a little practice you can even         do it in your head. The method is based on one developed by John Horton         Conway, and is described in Winning Ways, a book that he wrote         with Berlekamp and Guy. It is described in Volume 2.\nPart 1-Within a Given Year\nThe secret of the method is to have a way of knowing the day of the week         for one day in each month of the year. Conway's method uses the fact         that the following dates always fall on the same day of the week         in any given year. They are easy to memorize, and once one has this down         pat, some simple calculations allow you to do this for any year. These         are the dates that always fall on the same day of the week.\nIn 2015, this special day of the week, which Conway calls \"Doomsday,\" was a Saturday.\n4/4, 6/6, 8/8, 10/10 and 12/12 always fall on the same day of the week         (Doomsday) in any year.\nIf you memorize the phrase \"I went to my nine-to-five job at the         seven-eleven,\" you can also remember easily that 9/5, 7/11, 5/9 and 11/7         also fall on Doomsday.\nAlso, 3/0 (the zeroth day of March, i.e., the last day of February)         falls on Doomsday.\nJanuary and February are complicated by the existence of Leap Years. In         ordinary years, 2/0 (the last day of January) also falls on Doomsday, as         does 1/3; in Leap Years, 2/1 and 1/4 fall on Doomsday.\nAlternatively, you can use the Doomsday for the previous year to handle January and February, without worrying about leap years.         Simply note that 1/2 and 2/6 fall on the Doomsday for the previous year.\nIn 2015, which is a not leap year, therefore, the following dates fall         on Doomsday (Saturday): 1/3, 2/0 (1/31), 3/0 (2/28), 4/4, 5/9, 6/6,         7/11, 8/8, 9/5, 10/10, 11/7 and 12/12.\nSo, when was Christmas 2015? If 12/12 is a Saturday, then so are 12/19 and       12/26, so 12/25 has to have been a Friday.\nWhen was Valentine's day? Since this is a not leap year, 2/0, 2/7 and         2/14 are Saturdays. So, Valentine's day (2/14) also fell on a Saturday.\nOn what date did Labor Day fall in 2015? Labor Day is the first Monday         in September. If 9/5 was a Saturday, then 9/7 was a Monday, and this         must have been Labor Day.\nPractice: On what date did Thanksgiving fall in 2015? Thanksgiving is         the fourth Thursday of November. You figure it out, then check         with a calendar to see if you were right.\nPart 2-What is Doomsday for any year of the 21st         century?\nThe next and hardest part of the trick (because it requires a small         amount of calculation) is to determine Doomsday for the year in         question. Here's how to do it. (This is a new method, devised by Mike         Walters, that is easier than the method that John Conway originally         published):\nIf the year is 20xx, is xx even? If if is, set A=xx; if it is odd, set         A=xx+11.\nSet B=A/2 (A is always even so you can do this exactly).\nIf B is even set C=B; if it is odd, set C=B+11 (this is the same thing         you did in the first step). C will be an even number.\nDivide C by 7 and compute the remainder. Call this remainder R.\nCount R days backwards starting from Tuesday (which         is the special Doomsday that applies to this century). This gives you         the Doomsday for the year 20xx. From this point on, just use Part 1.\nExample: What was Doomsday in 2015? Well, xx=15, which is odd, so         A=15+11=26. B=A/2=13. B is odd so C=B+11=24. If we divide C=24 by 7, we         get 21 with remainder R=3. Count 3 days backwards from Tuesday         to get Saturday. Doomsday in 2015 was a Saturday (a fact we used in Part         1 above).\nExample: The World Trade Center and Pentagon suffered terrorist attacks         on September 11, 2001. xx=1, which is odd, so A=12. B=A/2=6, which is         even, so C=6. The remainder when dividing 6 by 7 is 6, so counting 6         days backwards from Tuesday (or equivalently, counting 1 day forwards)         tells us that doomsday in 2001 was a Wednesday. Therefore, 9/5 was a         Wednesday, 9/12 was a Wednesday, and 9/11 was a Tuesday.\nIn the 20th century, use the same rule, except count backwards from Wednesday instead of Tuesday. Wednesday is the special doomsday day for         the 20th century.\nExample: On what day of the week did D-Day, June 6, 1944, fall? Well,         44 is even so A=44, B= 22 and since B is even, C= 22. The remainder when         dividing C by 7 is 1 so R=1. In the 20th century count 1 day backwards from Wednesday so Doomsday for 1944 is a Tuesday. Since 6/6 (June 6) is         June's magic day, we now know that June 6, 1944 was a Tuesday.\nPractice: On what day of the week was Pearl Harbor bombed? It was         December 7, 1941. Hint: This is also a 20th century date.\nPractice: On what day of the week were you born? Calculate it using the         Doomsday rule and check it on a calendar or (if you already know it)         with your memory.\nPart 3-Other Centuries (Gregorian Calendar)\nThe Gregorian calendar, which is our civil calendar, was introduced in         1582 (1752 in English-speaking countries, and not until 1919 in Russia).         So one has to know whether the Gregorian or the old Julian calendar is         being used. The rule in this section applies only to the Gregorian         Calendar.\nThe only thing that changes in other centuries is that instead of using         Tuesday for the century doomsday as in Part 2 (for the 21st century), we         use another day that depends on the century. This century day cycles         over 4 centuries, so that it is the same in 16xx, 20xx, 24xx etc.         Specifically,\nIn years 15xx, 19xx, 23xx, etc., use Wednesday\nIn years 16xx, 20xx, 24xx, etc., use Tuesday\nIn years 17xx, 21xx, 25xx, etc., use Sunday\nIn years 18xx, 22xx, 26xx, etc., use Friday\nExample: On what day of the week did July 4, 1776 fall? First, calculate         doomsday: xx=76, which is even, so A=xx and B=A/2=38, which is also         even. So C=38, and C/7=35 Remainder 3 and R=3. The century doomsday for         17xx is Sunday, so counting backwards 3 days we find that doomsday for         1776 was a Thursday. Now July 11 is 7/11, which is a Thursday, so July         4, which is 1 week earlier, is also a Thursday. The Declaration of         Independence was signed on a Thursday.\nPractice: The Civil War of the United States opened with the firing on         Fort Sumter, which took place on April 12, 1861. What day of the week         was that?\nPart 4-Julian Calendar\nFinally, the same principles can be used if the date is on the old         Julian Calendar, which was introduced by Julius Caesar some 2000+ years         ago. The only difference is that the different leap year rule of the         Julian calendar means that the rule given in Part 3 has to be modified.         In years ccxx on the Julian calendar, we get the century Doomsday by subtracting cc from Sunday (i.e., counting back one day for each century).\nExample: In 1582 we find the Julian Doomsday as follows: xx= 82         which is even, so A=82 and B=41. B is odd, so C=B+11=52. C/7=7 Remainder         3 so R=3. cc=15 which is 2 weeks and 1 day, so we count 1 day backwards from Sunday to find that the (Julian) century doomsday for 15xx is         Saturday, and since R=3 count another 3 days backwards from Saturday to         find that the (Julian) doomsday for 15xx is Wednesday.\nThe last day of the old Julian calendar was October 4, 1582. Since         10/10/1582 (Julian) was a Wednesday, 10/3/1582 was also a Wednesday, and         the next day, October 4, 1582, was a Thursday.\nThe next day, October 15, 1582 (Gregorian), was the first day of the new         Gregorian calendar. Take the number R=3 that we just calculated         and  count 3 days backwards from Wednesday (the Gregorian century         doomsday for the 15xx dates) to get Gregorian Doomsday: That gives us a         Sunday. Now 10/10/1582 (Gregorian) would have been a Sunday if there         were such a date...So 10/15/1582 (Gregorian), five days later, was a         Friday, which is 1 day later than Thursday, 10/4/1582 (Julian).\nNote that this is the day after Thursday. This is important.         So far as we know, the weekly cycle of the days of the week has not been         broken for thousands of years.\nWe have found that Thursday, October 4, 1582 (Julian) was followed by         Friday, October 15, 1582 (Gregorian).\nPeople complained that 10 days were missing from their lives!\nPractice: September 2, 1752 (Julian) was followed in the         English-speaking world by September 14, 1752 (Gregorian). On what day of         the week did each fall? (Do the calculations separately and verify that         the weekly cycle was not broken when the calendars changed.)\nNote: I wrote above, \"if there were such a date as         10/10/1582.\" Actually, we can calculate backwards from the actual date         of introduction of the Gregorian calendar using the Gregorian rules if         we wish, and we designate such dates as being on the Gregorian Proleptic Calendar. \"Proleptic\" just means \"before this calendar was officially         introduced, but using the same calculation rules\".\nDay of the Week Calculator\nThis JavaScript example calculates the day of the week on the Gregorian         calendar for any date in the twentieth century. For date mm/dd/yy in         this century, enter mm, dd, yy below and click \"compute.\" To use it, you         have to be using a JavaScript-aware browser. You may use it for         practice.\nMonth mm\n\n"
+    ],
+    "qa": {
+        "question": "On what day of the week was Valentines Day in the year 2000?",
+        "answer": "Monday",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_59244_57",
+                "score": 15.42199993133545
+            },
+            {
+                "id": "triviaqa_2643_0",
+                "score": 14.73289966583252
+            },
+            {
+                "id": "nq_296990_52",
+                "score": 13.390600204467773
+            },
+            {
+                "id": "nq_187396_44",
+                "score": 13.368499755859375
+            },
+            {
+                "id": "nq_39177_190",
+                "score": 13.368498802185059
+            },
+            {
+                "id": "nq_141423_114",
+                "score": 13.34689998626709
+            },
+            {
+                "id": "nq_171757_245",
+                "score": 13.346899032592773
+            },
+            {
+                "id": "nq_170934_155",
+                "score": 13.329099655151367
+            },
+            {
+                "id": "nq_282691_52",
+                "score": 13.32909870147705
+            },
+            {
+                "id": "nq_73636_54",
+                "score": 13.329097747802734
+            },
+            {
+                "id": "nq_7547_155",
+                "score": 13.329096794128418
+            },
+            {
+                "id": "nq_3549_78",
+                "score": 13.328996658325195
+            },
+            {
+                "id": "nq_77521_78",
+                "score": 13.328995704650879
+            },
+            {
+                "id": "nq_167288_54",
+                "score": 13.322600364685059
+            },
+            {
+                "id": "nq_292397_54",
+                "score": 13.315299987792969
+            },
+            {
+                "id": "nq_41094_188",
+                "score": 13.315299034118652
+            },
+            {
+                "id": "nq_39850_146",
+                "score": 13.307100296020508
+            },
+            {
+                "id": "nq_141569_187",
+                "score": 13.24370002746582
+            },
+            {
+                "id": "nq_234490_56",
+                "score": 12.946100234985352
+            },
+            {
+                "id": "m.06_wqk4_70",
+                "score": 12.910900115966797
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "triviaqa_2643_0",
+                "score": 14.73289966583252
+            },
+            {
+                "id": "triviaqa_2643_8",
+                "score": 12.754400253295898
+            },
+            {
+                "id": "triviaqa_2643_9",
+                "score": 12.068599700927734
+            },
+            {
+                "id": "triviaqa_2643_1",
+                "score": 11.588500022888184
+            },
+            {
+                "id": "triviaqa_2643_11",
+                "score": 11.5108003616333
+            },
+            {
+                "id": "triviaqa_2643_2",
+                "score": 10.716899871826172
+            },
+            {
+                "id": "triviaqa_2643_15",
+                "score": 10.614500045776367
+            },
+            {
+                "id": "triviaqa_2643_20",
+                "score": 10.504199981689453
+            },
+            {
+                "id": "triviaqa_2643_10",
+                "score": 10.271900177001953
+            },
+            {
+                "id": "triviaqa_2643_13",
+                "score": 9.978699684143066
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_1991_1",
+                "score": 7.660299777984619
+            },
+            {
+                "id": "tat_1224_0",
+                "score": 6.582181930541992
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_10409_0",
+                "score": 10.521400451660156
+            },
+            {
+                "id": "ott_296_0",
+                "score": 10.52139949798584
+            },
+            {
+                "id": "ott_39113_0",
+                "score": 10.521398544311523
+            },
+            {
+                "id": "ott_41025_0",
+                "score": 10.521397590637207
+            },
+            {
+                "id": "ott_11833_0",
+                "score": 9.382800102233887
+            },
+            {
+                "id": "ott_2528_0",
+                "score": 9.38279914855957
+            },
+            {
+                "id": "ott_26689_0",
+                "score": 9.382798194885254
+            },
+            {
+                "id": "ott_9093_0",
+                "score": 9.382797241210938
+            },
+            {
+                "id": "ott_11833_1",
+                "score": 9.069000244140625
+            },
+            {
+                "id": "ott_2528_1",
+                "score": 9.068999290466309
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_296990_52",
+                "score": 13.390600204467773
+            },
+            {
+                "id": "nq_187396_44",
+                "score": 13.368499755859375
+            },
+            {
+                "id": "nq_39177_190",
+                "score": 13.368498802185059
+            },
+            {
+                "id": "nq_141423_114",
+                "score": 13.34689998626709
+            },
+            {
+                "id": "nq_171757_245",
+                "score": 13.346899032592773
+            },
+            {
+                "id": "nq_170934_155",
+                "score": 13.329099655151367
+            },
+            {
+                "id": "nq_282691_52",
+                "score": 13.32909870147705
+            },
+            {
+                "id": "nq_73636_54",
+                "score": 13.329097747802734
+            },
+            {
+                "id": "nq_7547_155",
+                "score": 13.329096794128418
+            },
+            {
+                "id": "nq_3549_78",
+                "score": 13.328996658325195
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_59244_57",
+                "score": 15.42199993133545
+            },
+            {
+                "id": "triviaqa_2643_0",
+                "score": 14.73289966583252
+            },
+            {
+                "id": "triviaqa_2643_8",
+                "score": 12.754400253295898
+            },
+            {
+                "id": "triviaqa_26776_72",
+                "score": 12.690199851989746
+            },
+            {
+                "id": "triviaqa_26776_699",
+                "score": 12.613300323486328
+            },
+            {
+                "id": "triviaqa_26776_700",
+                "score": 12.613299369812012
+            },
+            {
+                "id": "triviaqa_16506_73",
+                "score": 12.546699523925781
+            },
+            {
+                "id": "triviaqa_37173_0",
+                "score": 12.214200019836426
+            },
+            {
+                "id": "triviaqa_18789_15",
+                "score": 12.196000099182129
+            },
+            {
+                "id": "triviaqa_65792_9",
+                "score": 12.103099822998047
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.06_wqk4_70",
+                "score": 12.910900115966797
+            },
+            {
+                "id": "m.06_wqk4_71",
+                "score": 12.890600204467773
+            },
+            {
+                "id": "m.06_wqk4_69",
+                "score": 12.863800048828125
+            },
+            {
+                "id": "m.06_wqk4_72",
+                "score": 12.854999542236328
+            },
+            {
+                "id": "m.06_wqk4_63",
+                "score": 12.838299751281738
+            },
+            {
+                "id": "m.06_wqk4_68",
+                "score": 12.816399574279785
+            },
+            {
+                "id": "m.06_wqk4_66",
+                "score": 12.804900169372559
+            },
+            {
+                "id": "m.06_wqk4_67",
+                "score": 12.77649974822998
+            },
+            {
+                "id": "m.06_wqk4_62",
+                "score": 12.599499702453613
+            },
+            {
+                "id": "m.06_wqk4_64",
+                "score": 12.461199760437012
+            },
+            {
+                "id": "m.06_wqk4_65",
+                "score": 12.445199966430664
+            },
+            {
+                "id": "m.06_wqk4_73",
+                "score": 12.2431001663208
+            },
+            {
+                "id": "m.05dqhjw_29",
+                "score": 11.177200317382812
+            },
+            {
+                "id": "m.06_wqk4_0",
+                "score": 11.064000129699707
+            },
+            {
+                "id": "m.05dqhjw_15",
+                "score": 11.045599937438965
+            },
+            {
+                "id": "m.06_wqk4_1",
+                "score": 11.031200408935547
+            },
+            {
+                "id": "m.06_wqk4_3",
+                "score": 10.985899925231934
+            },
+            {
+                "id": "m.06_wqk4_39",
+                "score": 10.962300300598145
+            },
+            {
+                "id": "m.06_wqk4_27",
+                "score": 10.96150016784668
+            },
+            {
+                "id": "m.06_wqk4_25",
+                "score": 10.957099914550781
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_4192_364",
+                "score": 0.6508083939552307
+            },
+            {
+                "id": "nq_293533_11",
+                "score": 0.6338074207305908
+            },
+            {
+                "id": "m.06_wqk4_39",
+                "score": 0.6297025680541992
+            },
+            {
+                "id": "triviaqa_57834_88",
+                "score": 0.6209471225738525
+            },
+            {
+                "id": "m.02mjmr_39",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_4716",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_15238",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_7057",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_10564",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_2374",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_11730",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.06_wqk4_5",
+                "score": 0.6170793771743774
+            },
+            {
+                "id": "m.02mjmr_1207",
+                "score": 0.615010142326355
+            },
+            {
+                "id": "m.02mjmr_14063",
+                "score": 0.615010142326355
+            },
+            {
+                "id": "nq_102524_18",
+                "score": 0.6147698163986206
+            },
+            {
+                "id": "m.06_wqk4_46",
+                "score": 0.6145467758178711
+            },
+            {
+                "id": "m.06_wqk4_38",
+                "score": 0.6133241653442383
+            },
+            {
+                "id": "triviaqa_71934_22",
+                "score": 0.6110529899597168
+            },
+            {
+                "id": "m.06_wqk4_42",
+                "score": 0.6109592914581299
+            },
+            {
+                "id": "m.06_wqk4_10",
+                "score": 0.6108793020248413
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "triviaqa_2643_5",
+                "score": 0.6086434721946716
+            },
+            {
+                "id": "triviaqa_2643_11",
+                "score": 0.5953513383865356
+            },
+            {
+                "id": "triviaqa_2643_0",
+                "score": 0.5864911079406738
+            },
+            {
+                "id": "triviaqa_2643_4",
+                "score": 0.5716521739959717
+            },
+            {
+                "id": "triviaqa_2643_12",
+                "score": 0.5712583065032959
+            },
+            {
+                "id": "triviaqa_2643_18",
+                "score": 0.565723717212677
+            },
+            {
+                "id": "triviaqa_2643_9",
+                "score": 0.5611328482627869
+            },
+            {
+                "id": "triviaqa_2643_15",
+                "score": 0.5526480078697205
+            },
+            {
+                "id": "triviaqa_2643_3",
+                "score": 0.5451339483261108
+            },
+            {
+                "id": "triviaqa_2643_10",
+                "score": 0.5441877841949463
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_5300_0",
+                "score": 0.5390831232070923
+            },
+            {
+                "id": "ott_18672_0",
+                "score": 0.5390831232070923
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_293533_11",
+                "score": 0.6338074207305908
+            },
+            {
+                "id": "nq_102524_18",
+                "score": 0.6147698163986206
+            },
+            {
+                "id": "nq_107393_19",
+                "score": 0.6108279228210449
+            },
+            {
+                "id": "nq_55343_59",
+                "score": 0.610681414604187
+            },
+            {
+                "id": "nq_101825_55",
+                "score": 0.6045390367507935
+            },
+            {
+                "id": "nq_243850_69",
+                "score": 0.6024661064147949
+            },
+            {
+                "id": "nq_141439_116",
+                "score": 0.6001107096672058
+            },
+            {
+                "id": "nq_141439_19",
+                "score": 0.5984196066856384
+            },
+            {
+                "id": "nq_273502_26",
+                "score": 0.5965331196784973
+            },
+            {
+                "id": "nq_212474_37",
+                "score": 0.5953740477561951
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_4192_364",
+                "score": 0.6508083939552307
+            },
+            {
+                "id": "triviaqa_57834_88",
+                "score": 0.6209471225738525
+            },
+            {
+                "id": "triviaqa_71934_22",
+                "score": 0.6110529899597168
+            },
+            {
+                "id": "triviaqa_20394_16",
+                "score": 0.6104837656021118
+            },
+            {
+                "id": "triviaqa_2643_5",
+                "score": 0.6086434721946716
+            },
+            {
+                "id": "triviaqa_4192_360",
+                "score": 0.6051587462425232
+            },
+            {
+                "id": "triviaqa_4192_359",
+                "score": 0.5991594791412354
+            },
+            {
+                "id": "triviaqa_16506_73",
+                "score": 0.5955137610435486
+            },
+            {
+                "id": "triviaqa_2643_11",
+                "score": 0.5953513383865356
+            },
+            {
+                "id": "triviaqa_2643_0",
+                "score": 0.5864911079406738
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.06_wqk4_39",
+                "score": 0.6297025680541992
+            },
+            {
+                "id": "m.02mjmr_39",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_4716",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_15238",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_7057",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_10564",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_2374",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.02mjmr_11730",
+                "score": 0.6173714995384216
+            },
+            {
+                "id": "m.06_wqk4_5",
+                "score": 0.6170793771743774
+            },
+            {
+                "id": "m.02mjmr_1207",
+                "score": 0.615010142326355
+            },
+            {
+                "id": "m.02mjmr_14063",
+                "score": 0.615010142326355
+            },
+            {
+                "id": "m.06_wqk4_46",
+                "score": 0.6145467758178711
+            },
+            {
+                "id": "m.06_wqk4_38",
+                "score": 0.6133241653442383
+            },
+            {
+                "id": "m.06_wqk4_42",
+                "score": 0.6109592914581299
+            },
+            {
+                "id": "m.06_wqk4_10",
+                "score": 0.6108793020248413
+            },
+            {
+                "id": "m.06_wqk4_44",
+                "score": 0.610325276851654
+            },
+            {
+                "id": "m.06_wqk4_30",
+                "score": 0.608429491519928
+            },
+            {
+                "id": "m.06_wqk4_41",
+                "score": 0.6058039665222168
+            },
+            {
+                "id": "m.06_wqk4_43",
+                "score": 0.6051592230796814
+            },
+            {
+                "id": "m.06_wqk4_16",
+                "score": 0.6047582030296326
+            }
+        ],
+        "llm_mark_result": {
+            "ott_10409_0": {
+                "Query Analysis": "The query asks for the specific day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides a filmography of the actor Topher Grace, listing the years and titles of the films he has appeared in, along with his roles in those films.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' in the context of a film title from 2010.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any days of the week in relation to Valentine's Day or any other specific date.",
+                "Key Information Matching": "The document contains a reference to a film titled 'Valentine's Day', but this is unrelated to the specific date or day of the week in 2000.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on the filmography of Topher Grace and does not provide any information about dates or days of the week, specifically for Valentine's Day in 2000. The mention of 'Valentine's Day' in the film title is coincidental and does not contribute to answering the query."
+            },
+            "m.06_wqk4_71": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides information related to a film titled 'Valentine's Day', including details about its production, release date, and various credits associated with the film. The document focuses on the film industry and does not mention any historical or calendar-related information.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' multiple times, but in the context of a film, not the date or year.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week in relation to Valentine's Day.",
+                "Key Information Matching": "While the document contains the keyword 'Valentine's Day', it does not provide any information about the specific date, year, or day of the week associated with Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the day of the week for Valentine's Day in the year 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is solely focused on a film and does not offer any historical or calendar-related context that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only discusses a film titled 'Valentine's Day' and does not provide any information about the actual date or day of the week for Valentine's Day in the year 2000. The keyword 'Valentine's Day' appears in the document, but in a completely different context that does not assist in answering the query."
+            },
+            "triviaqa_2643_11": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day (February 14) fell in the year 2000.",
+                "Query Keywords Extraction": "Valentines Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that February 14, 2000, was a Monday.",
+                "Document Content Analysis": "The document discusses the Doomsday Algorithm, which is a method to determine the day of the week for any given date. It provides information about how to calculate Doomsday for different years, including leap years and anchor days for various centuries.",
+                "Document and Query Keywords Matching": "The document mentions '2000' and discusses methods to find the day of the week for specific dates.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday' but discusses days of the week in the context of the Doomsday Algorithm.",
+                "Key Information Matching": "The document provides a method (Doomsday Algorithm) that can be used to determine the day of the week for any date, including February 14, 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state that February 14, 2000, was a Monday.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document explains the Doomsday Algorithm, which can be used to infer the day of the week for February 14, 2000.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides a method (Doomsday Algorithm) that can be used to determine the day of the week for the specified date, although it does not directly state the answer. This information can help infer the answer to the query."
+            },
+            "nq_293533_11": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day (February 14) fell in the year 2000.",
+                "Query Keywords Extraction": "Valentines Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides a complex set of rules and calculations for determining the day of the week for any given date, including references to the Gregorian and Julian calendars, dominical letters, and doomsday calculations. It also includes some specific dates and their corresponding days of the week.",
+                "Document and Query Keywords Matching": "The document mentions '2000' and provides methods for determining the day of the week, which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday' or 'Valentine's Day'.",
+                "Key Information Matching": "The document contains methods for calculating the day of the week for any date, which could theoretically be applied to determine the day of the week for February 14, 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state the day of the week for February 14, 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the necessary tools and methods to calculate the day of the week for any given date, including February 14, 2000.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query, it provides relevant methods and calculations that could be used to determine the day of the week for Valentine's Day in 2000. Therefore, it is partially relevant as it aids in inferring the required information."
+            },
+            "m.06_wqk4_39": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, day of the week, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document appears to be a list of Wikipedia page IDs and titles related to Valentine's Day, primarily focusing on a film titled 'Valentine's Day' released in 2010. It does not provide any historical or date-specific information about Valentine's Day itself.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week.",
+                "Key Information Matching": "While the document contains the keyword 'Valentine's Day', it lacks any context or information related to the year 2000 or the day of the week.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the day of the week for Valentine's Day in the year 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any relevant context or additional information that could help infer the day of the week for Valentine's Day in the year 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only lists Wikipedia page IDs and titles related to a film titled 'Valentine's Day' and does not provide any useful information about the actual date or day of the week for Valentine's Day in the year 2000."
+            },
+            "tat_1991_1": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides financial data, including earnings per share, dividends, overheads, inventory, and investments. It discusses financial performance and operational details but does not mention any dates or days of the week.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Valentine's Day', 'year 2000', or 'day of the week'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Monday' in the context of days of the week or any relevant date information.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely focused on financial metrics and operational details.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about dates or days of the week.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the day of the week for Valentine's Day in the year 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on financial data and operational details, lacking any information about dates, days of the week, or Valentine's Day. Therefore, it cannot answer the query or provide any useful context for inferring the answer."
+            },
+            "triviaqa_57834_88": {
+                "Query Analysis": "The query asks for the specific day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document appears to be corrupted or in an unreadable format, containing no recognizable text or information.",
+                "Document and Query Keywords Matching": "None",
+                "Document and Answer Keywords Matching": "None",
+                "Key Information Matching": "There is no key information in the document to match with the query or the answer.",
+                "Can the Document Answer the Query": "No",
+                "Can the Document Help Infer Additional Information Required by the Query": "No",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not contain any readable or useful information related to the query or the answer. It cannot assist in answering the query or providing any context."
+            },
+            "triviaqa_2643_5": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document lists various dates from different years and their corresponding days of the week as mentioned in films and other contexts. It includes dates from years ranging from 1795 to 2024, but none specifically from the year 2000.",
+                "Document and Query Keywords Matching": "The document does not mention 'Valentine's Day', 'year 2000', or any related terms.",
+                "Document and Answer Keywords Matching": "The document mentions several days of the week, including 'Monday', but not in the context of the year 2000 or Valentine's Day.",
+                "Key Information Matching": "There is no key information in the document that matches the specific details of the query (Valentine's Day, year 2000).",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Valentine's Day in the year 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the day of the week for Valentine's Day in the year 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about Valentine's Day in the year 2000 or any related context that could assist in answering the query. The document focuses on verifying the correctness of dates and days of the week mentioned in various films, but none of these references are pertinent to the specific date in question."
+            },
+            "triviaqa_2643_0": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses the Doomsday Algorithm, a method to determine the day of the week for any given date. It mentions that Valentine's Day is one of the easy-to-remember Doomsdays and notes that 2000 was a leap year.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and '2000'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday'.",
+                "Key Information Matching": "The document provides a method (Doomsday Algorithm) that can be used to determine the day of the week for specific dates, including Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Valentine's Day in 2000 was on a Monday.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a method (Doomsday Algorithm) that can be used to infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query, it provides a relevant method (Doomsday Algorithm) that can be used to determine the day of the week for Valentine's Day in 2000. This makes it partially relevant as it aids in inferring the answer."
+            },
+            "triviaqa_59244_57": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document consists of various comments and discussions about horse racing events, particularly the Grand National, and personal experiences related to these events. It includes dates and names of horses but does not mention Valentine's Day or the year 2000 in a relevant context.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Valentine's Day', 'year 2000', or 'day of the week'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Monday' in a context related to Valentine's Day or the year 2000.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on horse racing and does not provide any relevant information about dates or days of the week in the context of Valentine's Day.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the day of the week for Valentine's Day in the year 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on horse racing and personal experiences related to the Grand National, without any mention of Valentine's Day, the year 2000, or days of the week. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "nq_187396_44": {
+                "Query Analysis": "The query asks for the specific day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, day of the week, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document lists various holidays and observances in Algeria, including Valentine's Day, but does not provide the day of the week for these dates.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and the date '14' (February 14).",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any days of the week.",
+                "Key Information Matching": "The document provides the date of Valentine's Day but lacks information on the day of the week.",
+                "Can the Document Answer the Query": "No, the document does not specify the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional context that could help infer the day of the week.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions Valentine's Day, it does not provide the necessary information about the day of the week in the year 2000. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides useful context to infer the answer."
+            },
+            "nq_296990_52": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document lists various holidays, observances, and celebrations in Algeria, including their dates. It mentions Valentine's Day on February 14 but does not provide the day of the week.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and the date '14' which is relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any day of the week.",
+                "Key Information Matching": "The document provides the date of Valentine's Day but lacks the day of the week information for that specific year.",
+                "Can the Document Answer the Query": "No, the document does not specify the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer the day of the week.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions Valentine's Day and its date, it lacks the crucial information about the day of the week in the year 2000. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides any useful context to infer the answer."
+            },
+            "triviaqa_2643_8": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day (February 14) fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, day of the week, 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses the calculation of days of the week for various dates using the Julian and Gregorian calendars. It mentions specific historical dates and events, and provides examples of how to determine the day of the week for given dates. It also notes that February 14 is a Doomsday in common years.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and discusses days of the week, but does not specifically mention the year 2000.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' in relation to Valentine's Day or the year 2000.",
+                "Key Information Matching": "While the document provides methods for determining the day of the week for various dates, it does not directly apply these methods to Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides general methods for calculating the day of the week for any given date, which could be applied to determine the day of the week for Valentine's Day in 2000 if one were to perform the calculations.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it contains information about calculating days of the week, which could be used to infer the answer to the query. However, it does not directly provide the specific day of the week for Valentine's Day in 2000, making it not directly tied to the main topic of the query."
+            },
+            "triviaqa_4192_364": {
+                "Query Analysis": "The query asks for the specific day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides a list of significant events that occurred in the year 2000, organized by date. It includes various events such as sports transfers, criminal incidents, church activities, and television show premieres.",
+                "Document and Query Keywords Matching": "The document mentions '2000' but does not reference 'Valentine's Day' or any specific dates around February 14.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' in the context of dates or events.",
+                "Key Information Matching": "There is no information in the document that directly relates to Valentine's Day or the specific dates in February 2000.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Valentine's Day or the day of the week it fell on in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any relevant context or information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on various events throughout the year 2000 but does not provide any information about Valentine's Day or specific dates in February. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "nq_39177_190": {
+                "Query Analysis": "The query is asking for the specific day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is 'Monday', indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document lists various holidays and observances in Algeria, including their dates. It mentions Valentine's Day on February 14 but does not provide the day of the week.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and the date '14', which is the date of Valentine's Day.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any day of the week.",
+                "Key Information Matching": "The document provides the date of Valentine's Day but lacks the day of the week information for that specific year.",
+                "Can the Document Answer the Query": "No, the document does not provide the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any additional information that could help infer the day of the week.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions Valentine's Day, it does not provide the necessary information about the day of the week in the year 2000. Therefore, it is irrelevant to the query as it neither answers the question directly nor aids in inferring the answer."
+            },
+            "triviaqa_2643_9": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day (February 14) fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses the Doomsday method for determining the day of the week for specific dates. It mentions several key dates, including Valentine's Day, and provides information on how to memorize Doomsdays for different years.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and provides context on how to determine the day of the week for specific dates.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday' in relation to Valentine's Day in the year 2000.",
+                "Key Information Matching": "While the document mentions Valentine's Day and the concept of Doomsdays, it does not provide specific information about the day of the week for Valentine's Day in the year 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the day of the week for Valentine's Day in the year 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides general information about the Doomsday method, which could be used to infer the day of the week for any given date, including Valentine's Day in the year 2000, if the reader is familiar with the method.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses the Doomsday method, which can be used to determine the day of the week for specific dates. However, it does not directly provide the answer to the query about Valentine's Day in the year 2000. It offers useful context that could help someone familiar with the method to infer the answer."
+            },
+            "m.06_wqk4_70": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides information about various films and individuals associated with a movie titled 'Valentine's Day'. It includes details about production, nominations, and release dates, primarily focusing on the year 2010.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any days of the week.",
+                "Key Information Matching": "While the document mentions 'Valentine's Day', it does not provide any information related to the year 2000 or days of the week.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the day of the week for Valentine's Day in the year 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on a movie and its production details, which are unrelated to the specific date and day of the week in question.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or additional information about the day of the week for Valentine's Day in the year 2000. The document's focus on a movie titled 'Valentine's Day' and its production details does not assist in answering the query."
+            },
+            "m.02mjmr_39": {
+                "Query Analysis": "The query is asking for the specific day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentines Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is 'Monday', indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses events related to Barack Obama's political career, particularly his candidacy for the U.S. Senate in 2004 and his victory in the Democratic primary in March 2004. It also mentions his significant speeches during the campaign.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Valentines Day', 'year 2000', or 'day of the week'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Monday' in the context of Valentine's Day or any related context.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on political events and does not mention any dates or days of the week related to Valentine's Day.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Valentine's Day or the year 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on political events and a different year (2004) and does not provide any context or information that could be relevant to determining the day of the week for Valentine's Day in 2000."
+            },
+            "ott_5300_0": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "Valentine's Day, year 2000, day of the week",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides a list of MTV Europe Music Awards, including the year, date, venue, host city, host, and the winner of the Best Song category for each year from 1994 to 2011.",
+                "Document and Query Keywords Matching": "The document mentions the year 2000 but does not reference Valentine's Day or any specific days of the week.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' in relation to any significant date or event.",
+                "Key Information Matching": "The document contains no information about Valentine's Day or the days of the week for any specific dates.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Valentine's Day or the day of the week it fell on in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the MTV Europe Music Awards and provides no information about Valentine's Day or the specific day of the week in question. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "ott_10409_0": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides a filmography of Topher Grace, listing his roles in various films from 2000 to 2014. It mentions the film 'Valentine's Day' released in 2010, but does not provide any information about the day of the week for Valentine's Day in 2000.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and '2000', but only in the context of the film 'Valentine's Day' released in 2010.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week related to Valentine's Day in 2000.",
+                "Key Information Matching": "The document does not provide any information about the day of the week for Valentine's Day in 2000. It only mentions the film 'Valentine's Day' released in 2010.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the day of the week for Valentine's Day in 2000. It only mentions the film 'Valentine's Day' released in 2010, which is not related to the query."
+            },
+            "m.06_wqk4_71": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document contains information about a film titled 'Valentine's Day,' including details about its production, release date (2010-02-12), and other related metadata. However, it does not mention Valentine's Day as a holiday or provide any information about the day of the week for Valentine's Day in 2000.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day,' which matches a keyword from the query. However, it does not mention 'year 2000' or 'day of the week.'",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week related to Valentine's Day in 2000.",
+                "Key Information Matching": "The document does not provide any key information related to the query, such as the day of the week for Valentine's Day in 2000 or any historical context about the holiday.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on a film titled 'Valentine's Day' and does not provide any information about the holiday or its occurrence in the year 2000. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_2643_11": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses the Doomsday Algorithm, which is a method to calculate the day of the week for any given date. It mentions that the anchor day for the 2000s is Tuesday and provides examples of how to calculate the day of the week for various dates using this method.",
+                "Document and Query Keywords Matching": "The document mentions '2000' and discusses methods to determine the 'day of the week' for specific dates.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday' or 'Valentine's Day'.",
+                "Key Information Matching": "The document provides information about the Doomsday Algorithm, which can be used to calculate the day of the week for any date, including Valentine's Day in 2000. However, it does not directly state the day of the week for Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a method (Doomsday Algorithm) that can be used to calculate the day of the week for Valentine's Day in 2000, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document does not directly answer the query but provides a method (Doomsday Algorithm) that can be used to infer the day of the week for Valentine's Day in 2000. This makes the document partially relevant as it offers useful context and a tool to find the answer."
+            },
+            "nq_293533_11": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday.",
+                "Document Content Analysis": "The document provides a method for determining the day of the week for a given date, including the day of the month, month, year, and century. It also mentions the Revised Julian and Gregorian calendars and their alignment from 14 October 1923 to 28 February AD 2800.",
+                "Document and Query Keywords Matching": "The document mentions 'day of the week', 'year', and '2000'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday'.",
+                "Key Information Matching": "The document provides a method to calculate the day of the week for any given date, which can be applied to determine the day of the week for Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a method to calculate the day of the week for any given date, which can be used to infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document provides a detailed method for determining the day of the week for any given date, which is directly relevant to the query. Although it does not directly state the day of the week for Valentine's Day in 2000, it provides the necessary information to infer the answer. Therefore, the document is highly relevant as it provides substantial useful context and additional information that enhances understanding of the query."
+            },
+            "m.06_wqk4_39": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in the year 2000 was on a Monday.",
+                "Document Content Analysis": "The document contains metadata about the film 'Valentine's Day' from various Wikipedia pages in different languages. It includes titles, IDs, and language codes but does not provide any information about the day of the week for Valentine's Day in the year 2000.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day', which matches a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week, so there is no match with the answer keywords.",
+                "Key Information Matching": "The document does not provide any information about the day of the week for Valentine's Day in the year 2000, nor does it contain any relevant context or background information related to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the day of the week for Valentine's Day in the year 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or information related to the day of the week for Valentine's Day in the year 2000. It only contains metadata about a film titled 'Valentine's Day' and does not address the query's topic."
+            },
+            "tat_1991_1": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document contains financial data and operational details, including information about dividends, inventory, fixed assets, and other financial metrics. There is no mention of dates, days of the week, or Valentine's Day.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('day of the week', 'Valentines Day', 'year 2000') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Monday' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer. It focuses entirely on financial and operational data, with no relevance to dates or calendar events.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Valentine's Day or the day of the week for any date in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It contains financial and operational data with no mention of dates, days of the week, or Valentine's Day. Therefore, it is irrelevant to the query and cannot assist in answering it or providing additional context."
+            },
+            "triviaqa_57834_88": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday.",
+                "Document Content Analysis": "The document provided is empty or contains no readable text.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Valentine's Day in the year 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely empty or contains no readable text, making it impossible to extract any information relevant to the query. Therefore, it is irrelevant."
+            },
+            "triviaqa_2643_5": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document contains various dates and days of the week mentioned in movies and historical events, but none of them are related to Valentine's Day or the year 2000.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('day of the week', 'Valentine's Day', 'year 2000') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Monday' (the answer) is not found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Valentine's Day or the year 2000.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Valentine's Day, the year 2000, or any related information that could assist in answering the query."
+            },
+            "triviaqa_2643_0": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses the Doomsday Algorithm, a method for determining the day of the week for any given date. It mentions that 2000 was a leap year and provides examples of dates that fall on the same day of the week (Doomsday) in any given year, including Valentine's Day.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and '2000', which are key terms in the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday', but it provides the necessary context to infer the day of the week for Valentine's Day in 2000 using the Doomsday Algorithm.",
+                "Key Information Matching": "The document provides information about the Doomsday Algorithm, which can be used to determine the day of the week for any date, including Valentine's Day in 2000. It also mentions that 2000 was a leap year, which is relevant for calculating the day of the week.",
+                "Can the Document Answer the Query": "No, the document does not directly state the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the necessary context and method (Doomsday Algorithm) to infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides a method (Doomsday Algorithm) that can be used to determine the day of the week for Valentine's Day in 2000. Although it does not directly state the answer, it provides substantial useful context and background information that enhances understanding of how to find the answer."
+            },
+            "triviaqa_59244_57": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document contains various anecdotes and comments about horse racing, particularly the Grand National, and mentions dates and events unrelated to Valentine's Day or the year 2000.",
+                "Document and Query Keywords Matching": "The document does not mention 'Valentines Day', 'year 2000', or 'day of the week'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week related to Valentine's Day in 2000.",
+                "Key Information Matching": "The document does not provide any information related to Valentine's Day, the year 2000, or days of the week.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses horse racing and personal anecdotes about the Grand National, with no mention of Valentine's Day, the year 2000, or days of the week. Therefore, it is irrelevant to the query."
+            },
+            "nq_187396_44": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document lists various holidays, observances, and celebrations in Algeria, including Valentine's Day on February 14. However, it does not specify the day of the week for any of these dates.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and 'February', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any specific day of the week for Valentine's Day.",
+                "Key Information Matching": "The document mentions Valentine's Day and its date (February 14), but it does not provide information about the day of the week for that date in 2000.",
+                "Can the Document Answer the Query": "No, the document does not specify the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Valentine's Day and its date, but it does not provide the day of the week for that date in 2000. Therefore, it does not contain any key information that could answer the query or help infer the answer."
+            },
+            "nq_296990_52": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document lists holidays, observances, and celebrations in Algeria, including Valentine's Day on February 14. However, it does not specify the day of the week for Valentine's Day in any particular year.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and 'February', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any specific day of the week for Valentine's Day.",
+                "Key Information Matching": "The document mentions Valentine's Day but does not provide information about the day of the week it fell on in 2000.",
+                "Can the Document Answer the Query": "No, the document does not specify the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Valentine's Day but does not provide any information about the day of the week it fell on in 2000. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_2643_8": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses the Julian and Gregorian calendars, Doomsday calculations, and mentions specific dates and events. It also notes that February 14 (Valentine's Day) is a Doomsday in common years.",
+                "Document and Query Keywords Matching": "The document mentions 'February 14' (Valentine's Day) and discusses days of the week and calendar calculations, which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday' or the year 2000 in relation to Valentine's Day.",
+                "Key Information Matching": "The document provides information about calendar systems and Doomsday calculations, which could theoretically be used to determine the day of the week for a specific date like February 14, 2000. However, it does not directly provide the day of the week for Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about calendar systems and Doomsday calculations, which could be used to infer the day of the week for February 14, 2000, with additional calculations.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about calendar systems and Doomsday calculations, which are related to determining the day of the week for a specific date. However, it does not directly answer the query or provide the specific day of the week for Valentine's Day in 2000."
+            },
+            "triviaqa_4192_364": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document provides a timeline of events that occurred in the UK during the year 2000, including notable news, television show premieres, and cultural events. However, it does not mention Valentine's Day or any specific dates related to it.",
+                "Document and Query Keywords Matching": "The document mentions '2000' as the year, but does not mention 'Valentines Day' or 'day of the week'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week in relation to Valentine's Day.",
+                "Key Information Matching": "The document does not provide any information about Valentine's Day or the day of the week it fell on in 2000.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Valentine's Day or the day of the week it fell on in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Valentine's Day or provide any information that could help determine the day of the week it fell on in 2000."
+            },
+            "nq_39177_190": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document lists holidays, observances, and celebrations in Algeria, including Valentine's Day on February 14. However, it does not specify the day of the week for Valentine's Day in any particular year.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and 'February', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any specific day of the week for Valentine's Day.",
+                "Key Information Matching": "The document mentions Valentine's Day and its date (February 14), but it does not provide information about the day of the week for Valentine's Day in the year 2000.",
+                "Can the Document Answer the Query": "No, the document does not specify the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Valentine's Day and its date, but it does not provide any information about the day of the week for Valentine's Day in the year 2000. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_2643_9": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document discusses the concept of 'Doomsdays' and provides a list of memorable dates, including Valentine's Day (February 14), which is mentioned as a Doomsday in common years. It also discusses the Doomsday method for calculating the day of the week for specific dates and mentions that 2000's Doomsday is the same as the anchor day for its century.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day' and '2000', which are key terms in the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday', but it provides information about the Doomsday method, which could be used to calculate the day of the week for Valentine's Day in 2000.",
+                "Key Information Matching": "The document mentions Valentine's Day as a Doomsday and discusses the Doomsday method, which is relevant to determining the day of the week for a specific date. However, it does not directly state the day of the week for Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about the Doomsday method, which could be used to calculate the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides information about the Doomsday method, which could be used to infer the day of the week for Valentine's Day in 2000. However, it does not directly answer the query, as it does not specify the day of the week for Valentine's Day in 2000."
+            },
+            "m.06_wqk4_70": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday, indicating that Valentine's Day in 2000 was on a Monday.",
+                "Document Content Analysis": "The document contains information about the film 'Valentine's Day', including its production details, nominations, and related entities. However, it does not provide any information about the day of the week for Valentine's Day in the year 2000.",
+                "Document and Query Keywords Matching": "The document mentions 'Valentine's Day', but it does not mention 'day of the week' or 'year 2000'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week.",
+                "Key Information Matching": "The document does not provide any key information related to the query, such as the day of the week for Valentine's Day in 2000.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the day of the week for Valentine's Day in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on a film titled 'Valentine's Day' and does not provide any information about the day of the week for Valentine's Day in the year 2000. Therefore, it is irrelevant to the query."
+            },
+            "m.02mjmr_39": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday.",
+                "Document Content Analysis": "The document discusses political events in the year 2000, including Barack Obama's campaign for the U.S. Senate and other national events. It does not mention Valentine's Day or days of the week.",
+                "Document and Query Keywords Matching": "The document mentions '2000', which is part of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any days of the week.",
+                "Key Information Matching": "The document mentions the year 2000 but does not provide any information related to Valentine's Day or days of the week.",
+                "Can the Document Answer the Query": "No, the document does not mention Valentine's Day or days of the week.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the day of the week for Valentine's Day in 2000.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any way. It does not provide any useful context or additional information about Valentine's Day or days of the week in the year 2000."
+            },
+            "ott_5300_0": {
+                "Query Analysis": "The query asks for the day of the week on which Valentine's Day fell in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentines Day, year 2000",
+                "Answer Analysis": "The answer is Monday.",
+                "Document Content Analysis": "The document provides information about the MTV Europe Music Awards from 1994 to 2011, including the year, date, venue, host city, host, and best song winner for each event.",
+                "Document and Query Keywords Matching": "The document mentions '2000' in the context of the MTV Europe Music Awards, but does not mention 'Valentines Day' or 'day of the week'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Monday' or any other day of the week.",
+                "Key Information Matching": "The document does not provide any information related to Valentine's Day or the days of the week for any dates in 2000.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Valentine's Day or the days of the week in 2000.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the MTV Europe Music Awards and does not mention Valentine's Day, days of the week, or any information that could assist in answering the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "ott_10409_0": {},
+            "m.06_wqk4_71": {},
+            "triviaqa_2643_11": {},
+            "nq_293533_11": {
+                "Query Analysis": "The query is asking for the day of the week for February 14, 2000, which is Valentine's Day.",
+                "Query Keywords Extraction": "Valentines Day, 2000, day of the week",
+                "Answer Analysis": "The answer specifies that Valentine's Day in the year 2000 fell on a Monday.",
+                "Document Content Analysis": "The document provides detailed calculations for determining days of the week, including examples for specific dates such as January 1, 2000, and explanations of concepts like dominical letters and doomsdays. It includes calculations for 1 January 2000, which is determined to be a Saturday, and discusses how the Revised Julian calendar aligns with the Gregorian from 1923 to 2800.",
+                "Document and Query Keywords Matching": "The document includes information related to calendar calculations and the year 2000, but does not directly reference Valentine's Day or February 14.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Monday', which is the answer for the query.",
+                "Key Information Matching": "The document provides tools and reference calculations that could be used to determine the day of the week for any given date in the year 2000, but it does not perform this specific calculation for February 14, 2000.",
+                "Can the Document Answer the Query": "No, the document does not directly state what day Valentine's Day falls on in the year 2000, although it provides methods that could be applied to determine it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a method (e.g. doomsday rule) that can be used to calculate the day of the week for any given date in the year 2000, including February 14.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document does not directly answer the query but provides relevant information on how to calculate the day of the week for dates in the year 2000. This makes it partially relevant as it offers tools necessary to determine the answer using the provided methods."
+            },
+            "m.06_wqk4_39": {},
+            "tat_1991_1": {},
+            "triviaqa_57834_88": {},
+            "triviaqa_2643_5": {},
+            "triviaqa_2643_0": {
+                "Query Analysis": "The query asks about the day of the week for Valentine's Day in the year 2000.",
+                "Query Keywords Extraction": "day of the week, Valentine's Day, year 2000",
+                "Answer Analysis": "The answer is Monday.",
+                "Document Content Analysis": "The document discusses the Doomsday Algorithm, a method to determine the day of the week for any given date. It mentions specific Doomsday dates and provides a background on how the algorithm works.",
+                "Document and Query Keywords Matching": "The document references Valentine's Day and the year 2000, which are part of the query.",
+                "Document and Answer Keywords Matching": "The document does not directly contain the answer 'Monday' or other specific matching keywords from the answer.",
+                "Key Information Matching": "The document provides information on how to calculate the day of the week for a given date, which is related to the query.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Valentine's Day in 2000 falls on a Monday.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document explains the Doomsday Algorithm, which can be used to calculate that Valentine's Day in 2000 was on a Monday.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is relevant as it provides the method (Doomsday Algorithm) needed to calculate the day of the week for Valentine's Day in 2000. While it doesn't state the answer directly, it contains substantial useful context that can lead to finding the answer."
+            },
+            "triviaqa_59244_57": {},
+            "nq_187396_44": {},
+            "nq_296990_52": {},
+            "triviaqa_2643_8": {},
+            "triviaqa_4192_364": {},
+            "nq_39177_190": {},
+            "triviaqa_2643_9": {},
+            "m.06_wqk4_70": {},
+            "m.02mjmr_39": {},
+            "ott_5300_0": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "m.02mjmr_39": [
+                true,
+                true,
+                true
+            ],
+            "ott_5300_0": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "ott": 0,
+            "nq": 1,
+            "kg": 0,
+            "triviaqa": 2,
+            "tat": 0
+        }
+    }
+}

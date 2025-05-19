@@ -1,0 +1,997 @@
+{
+    "index": 77782,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which sultan of Egypt, who precipitated the third Crusade, subsequently made peace with Richard I?",
+        "answer": "Saladin",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_16858_267",
+                "score": 18.916500091552734
+            },
+            {
+                "id": "triviaqa_16858_272",
+                "score": 18.394899368286133
+            },
+            {
+                "id": "triviaqa_37679_7",
+                "score": 17.662099838256836
+            },
+            {
+                "id": "triviaqa_37679_18",
+                "score": 17.62540054321289
+            },
+            {
+                "id": "triviaqa_16858_227",
+                "score": 17.576000213623047
+            },
+            {
+                "id": "triviaqa_16858_263",
+                "score": 16.43120002746582
+            },
+            {
+                "id": "triviaqa_16858_284",
+                "score": 15.646400451660156
+            },
+            {
+                "id": "triviaqa_16858_252",
+                "score": 15.513899803161621
+            },
+            {
+                "id": "triviaqa_37679_54",
+                "score": 15.479499816894531
+            },
+            {
+                "id": "triviaqa_16858_83",
+                "score": 15.232000350952148
+            },
+            {
+                "id": "triviaqa_48157_170",
+                "score": 15.221500396728516
+            },
+            {
+                "id": "triviaqa_26343_15",
+                "score": 15.101300239562988
+            },
+            {
+                "id": "triviaqa_62288_223",
+                "score": 15.090299606323242
+            },
+            {
+                "id": "triviaqa_44598_49",
+                "score": 15.028400421142578
+            },
+            {
+                "id": "triviaqa_55214_116",
+                "score": 15.028399467468262
+            },
+            {
+                "id": "triviaqa_17017_77",
+                "score": 14.9399995803833
+            },
+            {
+                "id": "triviaqa_37679_10",
+                "score": 14.847700119018555
+            },
+            {
+                "id": "triviaqa_62288_162",
+                "score": 14.846099853515625
+            },
+            {
+                "id": "triviaqa_16858_122",
+                "score": 14.685400009155273
+            },
+            {
+                "id": "triviaqa_37679_19",
+                "score": 14.62660026550293
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_30258_0",
+                "score": 7.8694000244140625
+            },
+            {
+                "id": "ott_31323_0",
+                "score": 7.869399070739746
+            },
+            {
+                "id": "ott_40902_0",
+                "score": 7.86939811706543
+            },
+            {
+                "id": "ott_18973_1",
+                "score": 7.639599800109863
+            },
+            {
+                "id": "ott_4160_1",
+                "score": 7.639598846435547
+            },
+            {
+                "id": "ott_12016_2",
+                "score": 7.544099807739258
+            },
+            {
+                "id": "ott_2415_2",
+                "score": 7.544098854064941
+            },
+            {
+                "id": "ott_13510_0",
+                "score": 7.120500087738037
+            },
+            {
+                "id": "ott_16025_0",
+                "score": 7.120499134063721
+            },
+            {
+                "id": "ott_2003_0",
+                "score": 7.120498180389404
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_2231_35",
+                "score": 14.060600280761719
+            },
+            {
+                "id": "nq_126368_100",
+                "score": 14.04010009765625
+            },
+            {
+                "id": "nq_211237_51",
+                "score": 13.990599632263184
+            },
+            {
+                "id": "nq_126368_101",
+                "score": 13.958000183105469
+            },
+            {
+                "id": "nq_211237_52",
+                "score": 13.526900291442871
+            },
+            {
+                "id": "nq_2231_36",
+                "score": 13.506600379943848
+            },
+            {
+                "id": "nq_265446_49",
+                "score": 12.7524995803833
+            },
+            {
+                "id": "nq_206787_29",
+                "score": 12.672499656677246
+            },
+            {
+                "id": "nq_96605_15",
+                "score": 12.617899894714355
+            },
+            {
+                "id": "nq_303891_28",
+                "score": 12.61769962310791
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_16858_267",
+                "score": 18.916500091552734
+            },
+            {
+                "id": "triviaqa_16858_272",
+                "score": 18.394899368286133
+            },
+            {
+                "id": "triviaqa_37679_7",
+                "score": 17.662099838256836
+            },
+            {
+                "id": "triviaqa_37679_18",
+                "score": 17.62540054321289
+            },
+            {
+                "id": "triviaqa_16858_227",
+                "score": 17.576000213623047
+            },
+            {
+                "id": "triviaqa_16858_263",
+                "score": 16.43120002746582
+            },
+            {
+                "id": "triviaqa_16858_284",
+                "score": 15.646400451660156
+            },
+            {
+                "id": "triviaqa_16858_252",
+                "score": 15.513899803161621
+            },
+            {
+                "id": "triviaqa_37679_54",
+                "score": 15.479499816894531
+            },
+            {
+                "id": "triviaqa_16858_83",
+                "score": 15.232000350952148
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.01x4qb_67",
+                "score": 12.342499732971191
+            },
+            {
+                "id": "m.01x4qb_66",
+                "score": 11.299699783325195
+            },
+            {
+                "id": "m.02k54_2820",
+                "score": 10.77649974822998
+            },
+            {
+                "id": "m.02k54_5832",
+                "score": 10.712400436401367
+            },
+            {
+                "id": "m.02k54_5833",
+                "score": 10.71239948272705
+            },
+            {
+                "id": "m.02k54_9091",
+                "score": 10.666299819946289
+            },
+            {
+                "id": "m.02k54_5525",
+                "score": 10.663399696350098
+            },
+            {
+                "id": "m.02k54_8396",
+                "score": 10.65719985961914
+            },
+            {
+                "id": "m.0d58h_120",
+                "score": 10.202099800109863
+            },
+            {
+                "id": "m.02k54_4534",
+                "score": 9.792900085449219
+            },
+            {
+                "id": "m.02k54_4535",
+                "score": 9.790300369262695
+            },
+            {
+                "id": "m.0flw86_2751",
+                "score": 9.673500061035156
+            },
+            {
+                "id": "m.01ffbn_79",
+                "score": 9.624500274658203
+            },
+            {
+                "id": "m.01x4qb_68",
+                "score": 9.605600357055664
+            },
+            {
+                "id": "m.02k54_3230",
+                "score": 9.598999977111816
+            },
+            {
+                "id": "m.02k54_9565",
+                "score": 9.547800064086914
+            },
+            {
+                "id": "m.02k54_4915",
+                "score": 9.534000396728516
+            },
+            {
+                "id": "m.01ffbn_80",
+                "score": 9.259400367736816
+            },
+            {
+                "id": "m.01ffbn_76",
+                "score": 9.16469955444336
+            },
+            {
+                "id": "m.0g0nh4_0",
+                "score": 8.983799934387207
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_37679_57",
+                "score": 0.6885244846343994
+            },
+            {
+                "id": "triviaqa_37679_5",
+                "score": 0.6816372275352478
+            },
+            {
+                "id": "triviaqa_16858_18",
+                "score": 0.6799766421318054
+            },
+            {
+                "id": "triviaqa_37679_54",
+                "score": 0.6704503297805786
+            },
+            {
+                "id": "triviaqa_37679_18",
+                "score": 0.6556228995323181
+            },
+            {
+                "id": "triviaqa_16858_14",
+                "score": 0.651047945022583
+            },
+            {
+                "id": "triviaqa_37679_50",
+                "score": 0.6496821641921997
+            },
+            {
+                "id": "triviaqa_37679_7",
+                "score": 0.649627149105072
+            },
+            {
+                "id": "triviaqa_16858_258",
+                "score": 0.6485083699226379
+            },
+            {
+                "id": "triviaqa_16858_0",
+                "score": 0.6470182538032532
+            },
+            {
+                "id": "triviaqa_37679_36",
+                "score": 0.6461559534072876
+            },
+            {
+                "id": "triviaqa_37679_2",
+                "score": 0.6460140943527222
+            },
+            {
+                "id": "triviaqa_16858_263",
+                "score": 0.6451958417892456
+            },
+            {
+                "id": "triviaqa_16858_122",
+                "score": 0.6448599100112915
+            },
+            {
+                "id": "triviaqa_16858_17",
+                "score": 0.6434047222137451
+            },
+            {
+                "id": "triviaqa_37679_1",
+                "score": 0.641416072845459
+            },
+            {
+                "id": "triviaqa_37679_49",
+                "score": 0.6412745714187622
+            },
+            {
+                "id": "triviaqa_16858_259",
+                "score": 0.6409167647361755
+            },
+            {
+                "id": "triviaqa_18283_49",
+                "score": 0.639784038066864
+            },
+            {
+                "id": "triviaqa_16858_227",
+                "score": 0.637762188911438
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_303891_14",
+                "score": 0.6123951077461243
+            },
+            {
+                "id": "nq_303891_28",
+                "score": 0.6099445223808289
+            },
+            {
+                "id": "nq_53797_9",
+                "score": 0.6093519330024719
+            },
+            {
+                "id": "nq_179266_63",
+                "score": 0.6051726937294006
+            },
+            {
+                "id": "nq_53797_21",
+                "score": 0.5913436412811279
+            },
+            {
+                "id": "nq_84565_159",
+                "score": 0.5801678895950317
+            },
+            {
+                "id": "nq_193292_101",
+                "score": 0.5794498324394226
+            },
+            {
+                "id": "nq_53797_10",
+                "score": 0.5792897939682007
+            },
+            {
+                "id": "nq_53797_8",
+                "score": 0.5779304504394531
+            },
+            {
+                "id": "nq_311_57",
+                "score": 0.5772668123245239
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_37679_57",
+                "score": 0.6885244846343994
+            },
+            {
+                "id": "triviaqa_37679_5",
+                "score": 0.6816372275352478
+            },
+            {
+                "id": "triviaqa_16858_18",
+                "score": 0.6799766421318054
+            },
+            {
+                "id": "triviaqa_37679_54",
+                "score": 0.6704503297805786
+            },
+            {
+                "id": "triviaqa_37679_18",
+                "score": 0.6556228995323181
+            },
+            {
+                "id": "triviaqa_16858_14",
+                "score": 0.651047945022583
+            },
+            {
+                "id": "triviaqa_37679_50",
+                "score": 0.6496821641921997
+            },
+            {
+                "id": "triviaqa_37679_7",
+                "score": 0.649627149105072
+            },
+            {
+                "id": "triviaqa_16858_258",
+                "score": 0.6485083699226379
+            },
+            {
+                "id": "triviaqa_16858_0",
+                "score": 0.6470182538032532
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.01x4qb_66",
+                "score": 0.5976819396018982
+            },
+            {
+                "id": "m.09sxn_59",
+                "score": 0.5670832991600037
+            },
+            {
+                "id": "m.01x4qb_23",
+                "score": 0.559097170829773
+            },
+            {
+                "id": "m.01x4qb_67",
+                "score": 0.5587363243103027
+            },
+            {
+                "id": "m.0rzb_42",
+                "score": 0.5550533533096313
+            },
+            {
+                "id": "m.01x4qb_18",
+                "score": 0.5523664951324463
+            },
+            {
+                "id": "m.064c01_5",
+                "score": 0.5512629747390747
+            },
+            {
+                "id": "m.01x4qb_65",
+                "score": 0.546259343624115
+            },
+            {
+                "id": "m.0flw86_3618",
+                "score": 0.5461992621421814
+            },
+            {
+                "id": "m.01ppq_72",
+                "score": 0.5441357493400574
+            },
+            {
+                "id": "m.039lx5_2",
+                "score": 0.5432783365249634
+            },
+            {
+                "id": "m.0flw86_2082",
+                "score": 0.5393184423446655
+            },
+            {
+                "id": "m.0flw86_3312",
+                "score": 0.5390096306800842
+            },
+            {
+                "id": "m.0flw86_967",
+                "score": 0.5389139652252197
+            },
+            {
+                "id": "m.0flw86_343",
+                "score": 0.5379530191421509
+            },
+            {
+                "id": "m.061f8_34",
+                "score": 0.5379501581192017
+            },
+            {
+                "id": "m.011kgg_35",
+                "score": 0.5375792980194092
+            },
+            {
+                "id": "m.0flw86_1844",
+                "score": 0.5373209714889526
+            },
+            {
+                "id": "m.0flw86_4643",
+                "score": 0.5372055768966675
+            },
+            {
+                "id": "m.061f8_11",
+                "score": 0.5367212295532227
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_37679_7": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating that he was the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document provides detailed information about Saladin, including his role as the leader of the Muslims against the crusaders led by King Richard I, his capture of Jerusalem in 1187 which led to the Third Crusade, and the peace treaty signed between Saladin and King Richard I at the end of the Third Crusade.",
+                "Document and Query Keywords Matching": "The document mentions 'Saladin', 'Egypt', 'Third Crusade', 'peace', and 'Richard I'.",
+                "Document and Answer Keywords Matching": "The document extensively mentions 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the key points of the query: Saladin's role in precipitating the Third Crusade and his subsequent peace agreement with Richard I.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Saladin as the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the events leading up to and following the Third Crusade, including the capture of Jerusalem and the terms of the peace treaty.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by identifying Saladin and provides substantial context about the events and interactions between Saladin and Richard I, enhancing the understanding of the query's topic."
+            },
+            "triviaqa_37679_5": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating he was the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document provides information about key figures during the Third Crusade, including King Richard I, King Philip II, and Frederick Barbarossa. It mentions Richard I's leadership, his battles with Saladin, and his efforts to recapture lands in Asia Minor.",
+                "Document and Query Keywords Matching": "The document mentions 'Richard I' and 'Saladin', and it discusses the Third Crusade.",
+                "Document and Answer Keywords Matching": "The document includes 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions Saladin and Richard I in the context of the Third Crusade, indicating their significant roles and interactions during this period.",
+                "Can the Document Answer the Query": "Yes, the document mentions Saladin and his battles with Richard I, which aligns with the query's focus on the sultan who precipitated the Third Crusade and made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Third Crusade and the key figures involved, enhancing understanding of the historical background.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions both Saladin and Richard I in the context of the Third Crusade, providing substantial useful context that enhances understanding of the query. The document can directly answer the query by identifying Saladin as the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I."
+            },
+            "nq_303891_14": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I (Richard the Lionheart).",
+                "Query Keywords Extraction": "sultan of Egypt, precipitated, third Crusade, made peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating that he was the sultan of Egypt who both precipitated the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses the events leading up to and following the Siege of Jerusalem in 1187, mentioning the Third Crusade and Richard the Lionheart. It also mentions Saladin's conquests and the response of Latin Christians by launching the Third Crusade.",
+                "Document and Query Keywords Matching": "The document includes 'Third Crusade', 'Richard the Lionheart', and mentions 'Saladin'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Saladin'.",
+                "Key Information Matching": "The document links Saladin to the events surrounding the Third Crusade and mentions Richard the Lionheart, providing a context that connects Saladin to the query's focus.",
+                "Can the Document Answer the Query": "Yes, the document mentions Saladin in the context of the Third Crusade and Richard the Lionheart, directly answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the events and figures involved in the Third Crusade, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions Saladin in the context of the Third Crusade and Richard the Lionheart, providing substantial useful context and directly answering the query."
+            },
+            "m.09sxn_59": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and played a significant role in the Third Crusade.",
+                "Document Content Analysis": "The document discusses the marriage of Henry VIII and Anne Boleyn, the role of Thomas Cranmer, and the resulting schism between the Church of England and the Roman Catholic Church. It provides details about Anne Boleyn's life and the actions taken by Henry VIII and Cranmer.",
+                "Document and Query Keywords Matching": "None of the query keywords ('sultan of Egypt', 'third Crusade', 'peace', 'Richard I') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Saladin' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on a different historical period and set of events.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the sultan of Egypt, the Third Crusade, or Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses events and figures from the reign of Henry VIII, which is a different historical context than the Third Crusade and Saladin. Therefore, it provides no useful information to answer the query or infer additional relevant details."
+            },
+            "triviaqa_16858_267": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and a key figure in the Third Crusade, eventually making peace with Richard I.",
+                "Document Content Analysis": "The document discusses various Crusades, focusing on the Sixth and Seventh Crusades, and mentions interactions between European leaders and the Sultan of Egypt, specifically al-Kamil. It details diplomatic efforts and treaties but does not directly mention the Third Crusade or Saladin.",
+                "Document and Query Keywords Matching": "The document mentions 'Sultan of Egypt' and 'peace' but does not explicitly mention the 'third Crusade' or 'Richard I'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Saladin'.",
+                "Key Information Matching": "While the document discusses interactions between European leaders and the Sultan of Egypt, it does not provide information specifically related to the Third Crusade or Saladin.",
+                "Can the Document Answer the Query": "No, the document does not contain information directly answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not mention the Third Crusade, Saladin, or Richard I. It focuses on later Crusades and different figures, making it unable to answer the query or provide useful context."
+            },
+            "triviaqa_37679_57": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I of England.",
+                "Query Keywords Extraction": "sultan of Egypt, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating that he was the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Document Content Analysis": "The document provides a detailed biography of King Richard I of England, focusing on his life, reign, and involvement in the Third Crusade. It mentions his motivations for joining the crusade, key events during the crusade, and his interactions with other leaders, including a truce with Saladin.",
+                "Document and Query Keywords Matching": "The document mentions 'Third Crusade', 'Richard I', and 'Saladin'.",
+                "Document and Answer Keywords Matching": "The document includes the name 'Saladin' and describes a truce made with him.",
+                "Key Information Matching": "The document directly mentions Saladin's role in prompting the Third Crusade and Richard I's subsequent truce with him.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Richard I made a truce with Saladin, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the Third Crusade and the interactions between Richard I and Saladin.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains explicit information about Saladin's role in the Third Crusade and the peace agreement with Richard I. This directly answers the query and provides useful context."
+            },
+            "ott_30258_0": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and a key figure in the Third Crusade.",
+                "Document Content Analysis": "The document provides a list of female United States presidential and vice-presidential candidates, including their names, parties, vote counts, and the elected presidents for various years.",
+                "Document and Query Keywords Matching": "None of the query keywords ('sultan of Egypt', 'third Crusade', 'peace', 'Richard I') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Saladin' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on female U.S. presidential and vice-presidential candidates, which has no connection to the historical figures and events mentioned in the query."
+            },
+            "nq_2231_35": {
+                "Query Analysis": "The query asks for the identity of a specific sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating that he was the sultan who fits the criteria described in the query.",
+                "Document Content Analysis": "The document provides a historical overview of Egypt, covering various periods and dynasties, including Roman, Christian, Muslim, and Ottoman rule. It mentions several key historical events and entities but does not provide detailed narratives about specific individuals or their actions.",
+                "Document and Query Keywords Matching": "The document mentions 'Egypt' and various dynasties, including the Ayyubid dynasty, which is relevant to the period of Saladin.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Saladin'.",
+                "Key Information Matching": "The document mentions the Ayyubid dynasty, which is the dynasty to which Saladin belonged, but does not provide specific details about his role in the Third Crusade or his peace agreement with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the name of the sultan or details about the Third Crusade and peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the historical period and dynasties in Egypt, which could help infer that Saladin, being a prominent figure of the Ayyubid dynasty, might be the relevant sultan.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides historical context about Egypt and mentions the Ayyubid dynasty, which is related to the period of Saladin. However, it lacks specific details about Saladin's actions related to the Third Crusade and his peace agreement with Richard I, making it insufficient to directly answer the query."
+            },
+            "triviaqa_37679_18": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating he was the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses the Third Crusade, mentioning key figures like Richard I, Philip II of France, and Barbarossa. It highlights Saladin's role in capturing Jerusalem and unifying Syria and Egypt, making him a formidable adversary. The document also mentions a truce with Saladin, allowing pilgrims to visit Jerusalem, and Richard's departure in October 1192.",
+                "Document and Query Keywords Matching": "The document includes 'Saladin', 'Richard', 'truce', and references to the Third Crusade.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document matches key information by discussing Saladin's role in the Third Crusade and the subsequent truce with Richard I.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Saladin making peace with Richard I, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the Third Crusade and the involvement of key figures, enhancing understanding of the historical context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it, including the identity of Saladin and his actions related to the Third Crusade and the truce with Richard I. It also offers additional context that enriches the understanding of the historical events surrounding the query."
+            },
+            "triviaqa_37679_54": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating he was the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document provides a timeline of events during and after the Third Crusade, including the Treaty of Jaffa, which ended hostilities between Richard I and Saladin, and mentions Saladin's scorched-earth tactics against the Crusaders.",
+                "Document and Query Keywords Matching": "The document mentions 'Saladin', 'Richard I', 'Third Crusade', and 'peace' in the context of the Treaty of Jaffa.",
+                "Document and Answer Keywords Matching": "The document includes 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions Saladin's role in the Third Crusade and his peace negotiations with Richard I, aligning with the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Saladin made peace with Richard I, answering the query directly.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the events surrounding the Third Crusade and the interactions between Saladin and Richard I.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains explicit information about Saladin's role in the Third Crusade and his subsequent peace agreement with Richard I. This directly answers the query and provides additional useful context."
+            },
+            "m.01x4qb_66": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and a key figure in the Third Crusade.",
+                "Document Content Analysis": "The document provides information about the Seventh Crusade, mentioning various entities and events related to it, such as Louis IX of France, the Ayyubid Sultan Turanshah, and the Bahariyya Mamluks. It also mentions the capture and defeat of King Louis by the Egyptian army.",
+                "Document and Query Keywords Matching": "The document mentions 'Egypt' and 'Sultan', but these are in the context of the Seventh Crusade, not the Third Crusade or Richard I.",
+                "Document and Answer Keywords Matching": "The document mentions 'Ayyubid Sultan', which is related to Saladin, but does not explicitly name Saladin.",
+                "Key Information Matching": "While the document mentions sultans of Egypt and crusades, it specifically discusses the Seventh Crusade, not the Third Crusade or any interactions with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the Third Crusade or the sultan who made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on a different crusade and does not provide relevant context or details about the Third Crusade or Richard I.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about the Seventh Crusade and does not contain any direct or indirect information about the Third Crusade, Saladin, or Richard I. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_16858_227": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I (Richard the Lionheart).",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating that he was the sultan who precipitated the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document provides a historical account of Saladin's rise to power, his conflicts, and interactions during the Third Crusade, including his victories and setbacks, and his interactions with Richard the Lionheart.",
+                "Document and Query Keywords Matching": "The document mentions 'Saladin', 'Egypt', 'Third Crusade', and 'Richard the Lionheart'.",
+                "Document and Answer Keywords Matching": "The document includes 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document details Saladin's role in the Third Crusade and his interactions with Richard the Lionheart, including the context of their conflicts and the subsequent peace.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Saladin's involvement in the Third Crusade and his interactions with Richard I, including the peace settlement.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information on Saladin's actions and the broader context of the Third Crusade.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides detailed information about Saladin's role in the Third Crusade and his peace negotiations with Richard I, thereby directly answering the query and offering additional context."
+            },
+            "triviaqa_16858_272": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who initiated the Third Crusade and later made peace with Richard I (Richard the Lionheart).",
+                "Query Keywords Extraction": "sultan, Egypt, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer to the query is Saladin.",
+                "Document Content Analysis": "The document provides historical context about the Crusades, mentioning key figures like Saladin, St. Francis of Assisi, Richard the Lionheart, and events such as the recapture of Jerusalem by Saladin through negotiations with Balian of Ibelin. It also touches on modern efforts to bridge the gap created by the Crusades and interfaith relations.",
+                "Document and Query Keywords Matching": "The document mentions 'Saladin', 'Egypt', 'Crusades', and 'Richard the Lionheart'.",
+                "Document and Answer Keywords Matching": "The document includes 'Saladin', which matches the answer provided.",
+                "Key Information Matching": "The document confirms that Saladin was a significant figure during the Crusades and specifically mentions his interactions with Richard the Lionheart. However, it does not explicitly state that Saladin precipitated the Third Crusade or made peace with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Saladin precipitated the Third Crusade or made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Saladin's role in the Crusades and his interactions with Richard the Lionheart, which can help infer that he was indeed a key figure during this period.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides important contextual information about Saladin and his involvement in the Crusades, including his interactions with Richard the Lionheart. However, it lacks the specific details required to directly answer the query about Saladin precipitating the Third Crusade and making peace with Richard I."
+            },
+            "triviaqa_16858_18": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating that Saladin was the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses the Third Crusade, highlighting negotiations between Richard I and Saladin, granting special rights to Christian pilgrims. It also mentions Richard I's captures and Saladin's death, along with subsequent events in the region.",
+                "Document and Query Keywords Matching": "The document mentions 'Richard I', 'Saladin', and 'Third Crusade'.",
+                "Document and Answer Keywords Matching": "The document includes 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions Saladin and his negotiations with Richard I, which aligns with the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions Saladin negotiating with Richard I, which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the aftermath of the Third Crusade and the interactions between Richard I and Saladin.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions Saladin and his negotiations with Richard I, providing substantial context and directly answering the query."
+            },
+            "m.01x4qb_67": {
+                "Query Analysis": "The query asks for the identity of the sultan of Egypt who triggered the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and played a key role in the Third Crusade and subsequent peace negotiations with Richard I.",
+                "Document Content Analysis": "The document provides information about the Seventh Crusade, led by Louis IX of France, and mentions various entities and events related to the Crusades, including the involvement of the Egyptian army and the Ayyubid Sultan Turanshah. It also discusses the context of Jerusalem's control and the lack of enthusiasm for a new crusade among European Christians.",
+                "Document and Query Keywords Matching": "The document mentions 'Egypt' and 'Crusade', but does not specifically mention the 'third Crusade' or 'Richard I'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Saladin'.",
+                "Key Information Matching": "While the document discusses the Crusades and involves Egypt, it focuses on the Seventh Crusade rather than the Third Crusade or any interactions with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the sultan who precipitated the Third Crusade or made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's focus on the Seventh Crusade and related events does not provide relevant context or information about the Third Crusade or Saladin.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about the Seventh Crusade and does not contain any direct or indirect information about the Third Crusade, Saladin, or Richard I. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_37679_7": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and a key figure in the Third Crusade.",
+                "Document Content Analysis": "The document provides detailed information about Saladin, including his role as the leader of the Muslims during the Third Crusade, his capture of Jerusalem, and his eventual peace treaty with King Richard I. It also mentions his generosity and key events during the Crusade.",
+                "Document and Query Keywords Matching": "The document mentions 'Saladin', 'sultan', 'Egypt', 'Third Crusade', 'peace', and 'Richard I'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the query by detailing Saladin's role in the Third Crusade, his capture of Jerusalem, and the peace treaty with Richard I.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Saladin as the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Saladin, the Third Crusade, and the peace treaty, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context, background, and additional information that enhances understanding of the conversation. It directly answers the query by identifying Saladin and provides detailed information about his role in the Third Crusade and the peace treaty with Richard I."
+            },
+            "triviaqa_37679_5": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses key figures involved in the Third Crusade, including King Richard I, King Philip II, and Frederick Barbarossa. It mentions Richard I's battles with Saladin and his efforts during the Crusade, but it does not explicitly state that Saladin made peace with Richard I.",
+                "Document and Query Keywords Matching": "The document mentions 'Third Crusade', 'Richard I', and 'Saladin', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document mentions Saladin in the context of the Third Crusade and his battles with Richard I, but it does not explicitly state that Saladin made peace with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Saladin made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the Third Crusade and the relationship between Richard I and Saladin, which helps infer that Saladin is the sultan referred to in the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the Third Crusade and mentions Saladin, who is the answer to the query. However, it does not explicitly state that Saladin made peace with Richard I, which is the specific detail required to directly answer the query. Therefore, the document is partially relevant."
+            },
+            "nq_303891_14": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and played a key role in the Third Crusade.",
+                "Document Content Analysis": "The document discusses the Third Crusade, mentioning key figures such as Richard the Lionheart (Richard I of England), Philip Augustus, and Frederick Barbarossa. It also references the Battle of Hattin and the capture of several cities by Saladin, who is implicitly identified as a central figure in the events leading up to and during the Third Crusade.",
+                "Document and Query Keywords Matching": "The document mentions 'Third Crusade' and 'Richard the Lionheart' (Richard I), which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Saladin', but it describes events and actions attributed to him, such as the capture of cities and the Battle of Hattin.",
+                "Key Information Matching": "The document provides context about the Third Crusade and the role of Richard I, as well as the actions of Saladin, though it does not explicitly state his name or the peace agreement with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not explicitly name Saladin or mention the peace agreement with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the Third Crusade and the actions of Saladin, which helps infer his role in the events.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about the Third Crusade and the actions of Saladin, but it does not directly answer the query by naming Saladin or mentioning the peace agreement with Richard I."
+            },
+            "m.09sxn_59": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses Anne Boleyn, her marriage to Henry VIII, and the subsequent schism between the Church of England and Rome. It does not mention Egypt, the Third Crusade, Saladin, or Richard I.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Saladin, the Third Crusade, or Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Anne Boleyn and the Church of England, which have no connection to the sultan of Egypt, the Third Crusade, or Saladin. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_16858_267": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses various Crusades, including the Sixth and Seventh Crusades, and mentions key figures such as Frederick II, al-Kamil, and Louis IX. However, it does not mention Saladin or the third Crusade directly.",
+                "Document and Query Keywords Matching": "The document mentions 'Crusade' and 'Egypt', but does not mention 'third Crusade', 'peace', or 'Richard I'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Saladin'.",
+                "Key Information Matching": "The document does not provide any information about the third Crusade, Saladin, or the peace agreement with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not mention Saladin or the third Crusade.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the third Crusade or Saladin.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to the query about Saladin, the third Crusade, or the peace agreement with Richard I. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_37679_57": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and a key figure in the Third Crusade.",
+                "Document Content Analysis": "The document provides a detailed account of Richard I's life, including his involvement in the Third Crusade, his conflicts with Saladin, and the eventual truce made between them.",
+                "Document and Query Keywords Matching": "The document mentions 'Third Crusade', 'Richard I', and 'Saladin'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin', who is the answer to the query.",
+                "Key Information Matching": "The document mentions Saladin's role in the Third Crusade and the truce made with Richard I, which directly relates to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Saladin, who is the sultan of Egypt that precipitated the Third Crusade and made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Third Crusade and the relationship between Richard I and Saladin.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial useful context and directly answers the query by mentioning Saladin, the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I."
+            },
+            "ott_30258_0": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and a key figure in the third Crusade.",
+                "Document Content Analysis": "The document provides a list of female United States presidential and vice-presidential candidates, including their names, parties, votes received, and the elected president. It does not mention any historical figures, events, or topics related to Egypt, the Crusades, or Richard I.",
+                "Document and Query Keywords Matching": "None of the query keywords ('sultan', 'Egypt', 'precipitated', 'third Crusade', 'peace', 'Richard I') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Saladin' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer. It focuses entirely on U.S. presidential candidates and does not mention historical figures, events, or topics relevant to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the sultan of Egypt, the third Crusade, or Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or background information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses U.S. presidential candidates and does not mention any historical figures, events, or topics relevant to the query about the sultan of Egypt, the third Crusade, or Richard I. Therefore, it is irrelevant."
+            },
+            "nq_2231_35": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document provides a list of historical periods and dynasties in Egypt, including the Ayyubid dynasty, which is associated with Saladin.",
+                "Document and Query Keywords Matching": "The document mentions 'Egypt' and 'Ayyubid dynasty', which is related to Saladin, the sultan of Egypt.",
+                "Document and Answer Keywords Matching": "The document mentions 'Ayyubid dynasty', which is directly associated with Saladin.",
+                "Key Information Matching": "The document mentions the 'Ayyubid dynasty', which is directly linked to Saladin, the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Saladin made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions the 'Ayyubid dynasty', which is associated with Saladin, providing context that could help infer the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the Ayyubid dynasty, which is associated with Saladin, the sultan of Egypt during the Third Crusade. However, it does not explicitly state that Saladin made peace with Richard I, so it is only partially relevant."
+            },
+            "triviaqa_37679_18": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses the Third Crusade, mentioning Richard I of England, Philip II of France, and Barbarossa. It also describes Saladin's role in capturing Jerusalem and unifying Syria and Egypt, as well as the truce made with Richard I.",
+                "Document and Query Keywords Matching": "The document mentions 'Third Crusade', 'Richard I', and 'Saladin'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin', who is the answer to the query.",
+                "Key Information Matching": "The document provides information about Saladin's role in the Third Crusade and his truce with Richard I, which directly relates to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Saladin as the sultan who made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the Third Crusade and the roles of key figures, including Saladin and Richard I.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions Saladin, the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I. It provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_37679_54": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the Third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document provides a detailed account of events during the Third Crusade, including the Treaty of Jaffa negotiated between Richard I and Saladin, which ended the hostilities. It also mentions Saladin's death and the subsequent political instability in the Ayyubid Empire.",
+                "Document and Query Keywords Matching": "The document mentions 'Richard I', 'Third Crusade', 'peace', and 'Saladin'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin' multiple times, which is the answer to the query.",
+                "Key Information Matching": "The document mentions the Treaty of Jaffa, which was negotiated between Richard I and Saladin, directly matching the key information in the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Saladin as the sultan who made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Third Crusade, including the Treaty of Jaffa and Saladin's role in the conflict.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions Saladin, the sultan of Egypt who precipitated the Third Crusade and made peace with Richard I. It provides substantial useful context and background information about the events of the Third Crusade, including the Treaty of Jaffa, which directly answers the query."
+            },
+            "m.01x4qb_66": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses the Seventh Crusade, mentioning various entities involved, including the Ayyubid Sultan Turanshah and other Mamluk leaders. It also provides historical context about the Crusades and the involvement of different factions.",
+                "Document and Query Keywords Matching": "The document mentions 'Egypt' and 'Crusade', but it focuses on the Seventh Crusade rather than the third Crusade.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Saladin' or 'Richard I'.",
+                "Key Information Matching": "The document provides information about Crusades and Egypt but does not specifically address the third Crusade or the figures of Saladin and Richard I.",
+                "Can the Document Answer the Query": "No, the document does not mention Saladin or the third Crusade.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on the Seventh Crusade and does not provide relevant information about the third Crusade or the figures involved.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it discusses the Seventh Crusade and does not mention Saladin, Richard I, or the third Crusade. It provides no useful context or information related to the query."
+            },
+            "triviaqa_16858_227": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document provides a detailed historical account of Saladin's rise to power, his conflicts with Nur al-Din, his victories during the third Crusade, and his eventual peace with Richard I. It also mentions his death and the subsequent events in the region.",
+                "Document and Query Keywords Matching": "The document mentions 'Saladin', 'Egypt', 'third Crusade', and 'Richard I'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document provides key information about Saladin's role in the third Crusade, his conflict with Richard I, and the eventual peace between them.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Saladin as the sultan of Egypt who precipitated the third Crusade and made peace with Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Saladin's actions during the third Crusade and his interactions with Richard I.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It mentions Saladin, the third Crusade, and his peace with Richard I, which are all key elements of the query."
+            },
+            "triviaqa_16858_272": {
+                "Query Analysis": "The query asks about a sultan of Egypt who caused the Third Crusade and made peace with Richard I (Richard the Lionheart)",
+                "Query Keywords Extraction": "sultan, Egypt, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, indicating he was the sultan who both precipitated the Third Crusade and made peace with Richard I",
+                "Document Content Analysis": "The document discusses the Crusades, mentioning Saladin and Richard the Lionheart among other historical figures. It focuses on interfaith relations, peace efforts, and lessons from the Crusades. The document specifically mentions Saladin recapturing Jerusalem through negotiations.",
+                "Document and Query Keywords Matching": "The document mentions 'Saladin', 'Richard the Lionheart' (Richard I), and discusses events related to the Crusades",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin' multiple times and portrays him as a respected historical figure",
+                "Key Information Matching": "While the document mentions both Saladin and Richard the Lionheart, it does not explicitly discuss their peace agreement or Saladin's role in precipitating the Third Crusade",
+                "Can the Document Answer the Query": "No, while the document mentions both key figures, it does not explicitly describe their peace agreement or Saladin's role in causing the Third Crusade",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Saladin's character and his involvement in the Crusades, mentioning him alongside Richard the Lionheart",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions both key figures (Saladin and Richard the Lionheart) and discusses the Crusades period, but does not provide specific information about their peace agreement or Saladin's role in starting the Third Crusade. It provides historical context and background information that helps understand the broader historical setting, making it partially relevant rather than irrelevant."
+            },
+            "triviaqa_16858_18": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the Third Crusade and subsequently made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt and made peace with Richard I after the Third Crusade.",
+                "Document Content Analysis": "The document discusses the events surrounding the Third Crusade, including negotiations between Richard I and Saladin, the capture of cities by Richard, and the aftermath of Saladin's death. It also mentions the political and military events in the region during that period.",
+                "Document and Query Keywords Matching": "The document mentions 'Third Crusade', 'Richard I', and 'Saladin', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Saladin', which is the answer to the query.",
+                "Key Information Matching": "The document provides detailed information about Saladin's role in the Third Crusade, his negotiations with Richard I, and the subsequent events following his death. This directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions Saladin as the sultan of Egypt who made peace with Richard I after the Third Crusade.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Third Crusade, the negotiations between Richard I and Saladin, and the political landscape of the region during that time.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer (Saladin) and substantial context about the Third Crusade, the negotiations between Richard I and Saladin, and the political events of the time. This enhances understanding of the query and provides useful background information."
+            },
+            "m.01x4qb_67": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who precipitated the third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan, Egypt, precipitated, third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin, who was the sultan of Egypt during the third Crusade and made peace with Richard I.",
+                "Document Content Analysis": "The document discusses the Seventh Crusade, led by Louis IX of France, and mentions the Ayyubid Sultan Turanshah and the Egyptian army. It also references the fall of Jerusalem and the involvement of the Khwarezmians and Mamluks. However, it does not mention the third Crusade, Saladin, or Richard I.",
+                "Document and Query Keywords Matching": "The document mentions 'Egypt' and 'Sultan' (in the context of Turanshah), but does not mention 'third Crusade', 'Richard I', or 'Saladin'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Saladin'.",
+                "Key Information Matching": "The document does not provide any information about the third Crusade, Saladin, or Richard I, which are central to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Saladin or the third Crusade.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the third Crusade or Saladin.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the Seventh Crusade and does not mention the third Crusade, Saladin, or Richard I. It provides no useful context or information related to the query, making it irrelevant."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_37679_7": {},
+            "triviaqa_37679_5": {
+                "Query Analysis": "The query asks about the sultan of Egypt who was involved in the Third Crusade and later made peace with the English monarch Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer identifies Saladin as the sultan of Egypt in question.",
+                "Document Content Analysis": "The document contains historical information about King Richard I, King Philip II, and Frederick Barbarossa, focusing on their roles in the Third Crusade. It emphasizes Richard I's leadership and actions but does not directly mention peace treaties or interactions with Saladin.",
+                "Document and Query Keywords Matching": "The document mentions 'Richard I' and information related to the 'Third Crusade'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin' when discussing Richard I's actions during the Third Crusade.",
+                "Key Information Matching": "The document provides information on Richard I's role in the Third Crusade but does not mention any peace treaty signed with Saladin or detail Saladin's involvement.",
+                "Can the Document Answer the Query": "No, the document does not specify the peace treaty or explicitly connect Saladin with Richard I beyond their military conflict.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, as it provides context about key figures in the Third Crusade, specifically detailing Richard I's actions, which are relevant background information.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document provides context about the Third Crusade and mentions Richard I and Saladin, it lacks direct information about the peace treaty between Saladin and Richard I. Therefore, it offers partial relevance by providing background context without fully answering the query."
+            },
+            "nq_303891_14": {
+                "Query Analysis": "The query asks for the name of the sultan of Egypt who initiated the Third Crusade and later made peace with Richard I.",
+                "Query Keywords Extraction": "sultan of Egypt, Third Crusade, peace, Richard I",
+                "Answer Analysis": "The answer is Saladin.",
+                "Document Content Analysis": "The document gives a historical account of events surrounding the Third Crusade, mentioning battles, key figures, and regions involved but does not mention any specific sultan.",
+                "Document and Query Keywords Matching": "The document mentions 'Third Crusade', and 'Richard the Lionheart', who is also known as Richard I.",
+                "Document and Answer Keywords Matching": "The document mentions 'Saladin' in the context of capturing various locations, aligning with the historical figure from the query.",
+                "Key Information Matching": "The document contains historical context and mentions key figures involved in the Third Crusade, including Richard I and Saladin. However, it does not specifically mention making peace.",
+                "Can the Document Answer the Query": "No, the document does not mention the peace agreement between Saladin and Richard I.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides background on the Third Crusade and mentions Saladin's involvement, which is relevant background information for the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides substantial historical context surrounding the Third Crusade and mentions both Richard I and Saladin, who are key figures in the query. However, it lacks the specific detail about the peace agreement, making it only partially relevant."
+            },
+            "m.09sxn_59": {},
+            "triviaqa_16858_267": {},
+            "triviaqa_37679_57": {},
+            "ott_30258_0": {},
+            "nq_2231_35": {},
+            "triviaqa_37679_18": {},
+            "triviaqa_37679_54": {},
+            "m.01x4qb_66": {},
+            "triviaqa_16858_227": {},
+            "triviaqa_16858_272": {},
+            "triviaqa_16858_18": {},
+            "m.01x4qb_67": {}
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "dataset_score": {
+            "triviaqa": 4,
+            "nq": 2,
+            "kg": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

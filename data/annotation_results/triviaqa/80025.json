@@ -1,0 +1,946 @@
+{
+    "index": 80025,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Lapsong souchong is a type of what?",
+        "answer": "Tea",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_37154_12",
+                "score": 10.854000091552734
+            },
+            {
+                "id": "triviaqa_37154_6",
+                "score": 10.758199691772461
+            },
+            {
+                "id": "triviaqa_37154_7",
+                "score": 9.921899795532227
+            },
+            {
+                "id": "nq_193517_14",
+                "score": 9.28030014038086
+            },
+            {
+                "id": "nq_193517_19",
+                "score": 9.241700172424316
+            },
+            {
+                "id": "nq_193517_20",
+                "score": 9.24169921875
+            },
+            {
+                "id": "triviaqa_26010_10",
+                "score": 9.11989974975586
+            },
+            {
+                "id": "nq_61607_62",
+                "score": 9.090399742126465
+            },
+            {
+                "id": "nq_61607_63",
+                "score": 9.090398788452148
+            },
+            {
+                "id": "triviaqa_48271_5",
+                "score": 9.01669979095459
+            },
+            {
+                "id": "triviaqa_37154_5",
+                "score": 8.055800437927246
+            },
+            {
+                "id": "triviaqa_37154_13",
+                "score": 7.997799873352051
+            },
+            {
+                "id": "triviaqa_26010_11",
+                "score": 7.884200096130371
+            },
+            {
+                "id": "triviaqa_37154_0",
+                "score": 7.53249979019165
+            },
+            {
+                "id": "triviaqa_52116_24",
+                "score": 7.274099826812744
+            },
+            {
+                "id": "triviaqa_52116_23",
+                "score": 7.156099796295166
+            },
+            {
+                "id": "triviaqa_73849_5",
+                "score": 7.15609884262085
+            },
+            {
+                "id": "nq_126368_74",
+                "score": 6.603700160980225
+            },
+            {
+                "id": "nq_266374_107",
+                "score": 6.524099826812744
+            },
+            {
+                "id": "nq_126816_0",
+                "score": 6.447500228881836
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_193517_14",
+                "score": 9.28030014038086
+            },
+            {
+                "id": "nq_193517_19",
+                "score": 9.241700172424316
+            },
+            {
+                "id": "nq_193517_20",
+                "score": 9.24169921875
+            },
+            {
+                "id": "nq_61607_62",
+                "score": 9.090399742126465
+            },
+            {
+                "id": "nq_61607_63",
+                "score": 9.090398788452148
+            },
+            {
+                "id": "nq_126368_74",
+                "score": 6.603700160980225
+            },
+            {
+                "id": "nq_266374_107",
+                "score": 6.524099826812744
+            },
+            {
+                "id": "nq_126816_0",
+                "score": 6.447500228881836
+            },
+            {
+                "id": "nq_212134_91",
+                "score": 6.404900074005127
+            },
+            {
+                "id": "nq_44824_0",
+                "score": 6.3628997802734375
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_37154_12",
+                "score": 10.854000091552734
+            },
+            {
+                "id": "triviaqa_37154_6",
+                "score": 10.758199691772461
+            },
+            {
+                "id": "triviaqa_37154_7",
+                "score": 9.921899795532227
+            },
+            {
+                "id": "triviaqa_26010_10",
+                "score": 9.11989974975586
+            },
+            {
+                "id": "triviaqa_48271_5",
+                "score": 9.01669979095459
+            },
+            {
+                "id": "triviaqa_37154_5",
+                "score": 8.055800437927246
+            },
+            {
+                "id": "triviaqa_37154_13",
+                "score": 7.997799873352051
+            },
+            {
+                "id": "triviaqa_26010_11",
+                "score": 7.884200096130371
+            },
+            {
+                "id": "triviaqa_37154_0",
+                "score": 7.53249979019165
+            },
+            {
+                "id": "triviaqa_52116_24",
+                "score": 7.274099826812744
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0306c6_71",
+                "score": 6.231100082397461
+            },
+            {
+                "id": "m.07pzc_204",
+                "score": 5.985899925231934
+            },
+            {
+                "id": "m.07pzc_179",
+                "score": 5.914899826049805
+            },
+            {
+                "id": "m.0306c6_70",
+                "score": 5.8358001708984375
+            },
+            {
+                "id": "m.07pzc_203",
+                "score": 5.807400226593018
+            },
+            {
+                "id": "m.07pzc_453",
+                "score": 5.807399272918701
+            },
+            {
+                "id": "m.07pzc_454",
+                "score": 5.807398319244385
+            },
+            {
+                "id": "m.07pzc_178",
+                "score": 5.626200199127197
+            },
+            {
+                "id": "m.0306c6_29",
+                "score": 5.394000053405762
+            },
+            {
+                "id": "m.0306c6_30",
+                "score": 5.334700107574463
+            },
+            {
+                "id": "m.07pzc_448",
+                "score": 5.254799842834473
+            },
+            {
+                "id": "m.0306c6_5",
+                "score": 4.280799865722656
+            },
+            {
+                "id": "m.0306c6_7",
+                "score": 4.206500053405762
+            },
+            {
+                "id": "m.07pzc_500",
+                "score": 4.206499099731445
+            },
+            {
+                "id": "m.0306c6_43",
+                "score": 4.134799957275391
+            },
+            {
+                "id": "m.0306c6_44",
+                "score": 4.134799003601074
+            },
+            {
+                "id": "m.0306c6_58",
+                "score": 4.134798049926758
+            },
+            {
+                "id": "m.0306c6_60",
+                "score": 4.134797096252441
+            },
+            {
+                "id": "m.0306c6_32",
+                "score": 4.065499782562256
+            },
+            {
+                "id": "m.0306c6_36",
+                "score": 4.0654988288879395
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_37154_6",
+                "score": 0.622929036617279
+            },
+            {
+                "id": "triviaqa_37154_13",
+                "score": 0.5941134691238403
+            },
+            {
+                "id": "triviaqa_37154_12",
+                "score": 0.5916681885719299
+            },
+            {
+                "id": "triviaqa_23029_486",
+                "score": 0.5786643028259277
+            },
+            {
+                "id": "triviaqa_53663_336",
+                "score": 0.570682942867279
+            },
+            {
+                "id": "ott_12251_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_5924_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_40468_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_8213_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_10709_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "nq_294958_67",
+                "score": 0.5673226118087769
+            },
+            {
+                "id": "nq_139686_35",
+                "score": 0.5665959715843201
+            },
+            {
+                "id": "triviaqa_48271_5",
+                "score": 0.5664802193641663
+            },
+            {
+                "id": "nq_156672_163",
+                "score": 0.5658425688743591
+            },
+            {
+                "id": "nq_151379_264",
+                "score": 0.5655964016914368
+            },
+            {
+                "id": "nq_285267_128",
+                "score": 0.5638991594314575
+            },
+            {
+                "id": "nq_168972_43",
+                "score": 0.5635309815406799
+            },
+            {
+                "id": "triviaqa_18823_7",
+                "score": 0.5634979009628296
+            },
+            {
+                "id": "nq_194203_10",
+                "score": 0.5634216666221619
+            },
+            {
+                "id": "triviaqa_53663_337",
+                "score": 0.5633699297904968
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_12251_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_5924_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_40468_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_8213_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_10709_1",
+                "score": 0.5685365796089172
+            },
+            {
+                "id": "ott_31651_1",
+                "score": 0.5399925708770752
+            },
+            {
+                "id": "ott_6076_1",
+                "score": 0.5399925708770752
+            },
+            {
+                "id": "ott_11338_1",
+                "score": 0.5399925708770752
+            },
+            {
+                "id": "ott_416_1",
+                "score": 0.5399925708770752
+            },
+            {
+                "id": "ott_30943_1",
+                "score": 0.5386554002761841
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_294958_67",
+                "score": 0.5673226118087769
+            },
+            {
+                "id": "nq_139686_35",
+                "score": 0.5665959715843201
+            },
+            {
+                "id": "nq_156672_163",
+                "score": 0.5658425688743591
+            },
+            {
+                "id": "nq_151379_264",
+                "score": 0.5655964016914368
+            },
+            {
+                "id": "nq_285267_128",
+                "score": 0.5638991594314575
+            },
+            {
+                "id": "nq_168972_43",
+                "score": 0.5635309815406799
+            },
+            {
+                "id": "nq_194203_10",
+                "score": 0.5634216666221619
+            },
+            {
+                "id": "nq_270391_156",
+                "score": 0.5628587603569031
+            },
+            {
+                "id": "nq_171172_102",
+                "score": 0.5621064901351929
+            },
+            {
+                "id": "nq_45037_108",
+                "score": 0.5616863965988159
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_37154_6",
+                "score": 0.622929036617279
+            },
+            {
+                "id": "triviaqa_37154_13",
+                "score": 0.5941134691238403
+            },
+            {
+                "id": "triviaqa_37154_12",
+                "score": 0.5916681885719299
+            },
+            {
+                "id": "triviaqa_23029_486",
+                "score": 0.5786643028259277
+            },
+            {
+                "id": "triviaqa_53663_336",
+                "score": 0.570682942867279
+            },
+            {
+                "id": "triviaqa_48271_5",
+                "score": 0.5664802193641663
+            },
+            {
+                "id": "triviaqa_18823_7",
+                "score": 0.5634979009628296
+            },
+            {
+                "id": "triviaqa_53663_337",
+                "score": 0.5633699297904968
+            },
+            {
+                "id": "triviaqa_37154_7",
+                "score": 0.5633372664451599
+            },
+            {
+                "id": "triviaqa_6916_43",
+                "score": 0.5626367330551147
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0clq3__14",
+                "score": 0.5608642101287842
+            },
+            {
+                "id": "m.072p8_25",
+                "score": 0.5597714185714722
+            },
+            {
+                "id": "m.01r2l_1014",
+                "score": 0.5583300590515137
+            },
+            {
+                "id": "m.04q452_53",
+                "score": 0.5578562617301941
+            },
+            {
+                "id": "m.05kj__5",
+                "score": 0.5565069913864136
+            },
+            {
+                "id": "m.02hwyss_2803",
+                "score": 0.5556326508522034
+            },
+            {
+                "id": "m.015kp7_53",
+                "score": 0.55561763048172
+            },
+            {
+                "id": "m.0653m_689",
+                "score": 0.5550568699836731
+            },
+            {
+                "id": "m.05kj__508",
+                "score": 0.554755687713623
+            },
+            {
+                "id": "m.04q452_52",
+                "score": 0.5537511706352234
+            },
+            {
+                "id": "m.04q452_6",
+                "score": 0.5534633994102478
+            },
+            {
+                "id": "m.015xrq_11",
+                "score": 0.5516164898872375
+            },
+            {
+                "id": "m.06zvd_16",
+                "score": 0.5511431694030762
+            },
+            {
+                "id": "m.04hhv_1114",
+                "score": 0.5508041977882385
+            },
+            {
+                "id": "m.02hwyss_1872",
+                "score": 0.549344539642334
+            },
+            {
+                "id": "m.07zrf_414",
+                "score": 0.5491527318954468
+            },
+            {
+                "id": "m.04hhv_1407",
+                "score": 0.5489287972450256
+            },
+            {
+                "id": "m.09ff3_40",
+                "score": 0.5487543344497681
+            },
+            {
+                "id": "m.03s9v_258",
+                "score": 0.548566460609436
+            },
+            {
+                "id": "m.04hhv_548",
+                "score": 0.5476657748222351
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_23029_486": {
+                "Query Analysis": "The query is asking for the classification or category to which Lapsong souchong belongs.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document lists various food items and their descriptions, including types of cheese, crab, fish, noodles, soup, and other food products.",
+                "Document and Query Keywords Matching": "The document does not contain any mention of 'Lapsong souchong' or 'tea'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'tea'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information related to Lapsong souchong or tea.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on various food items and their descriptions, but none of these items or descriptions are relevant to Lapsong souchong or tea. Therefore, the document cannot assist in answering the query or providing any useful context."
+            },
+            "ott_12251_1": {
+                "Query Analysis": "The query is asking for the category or type to which Lapsong souchong belongs.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document provides information about various ingredients used in Thai cuisine, including their Thai names, English names, and typical uses in dishes.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'tea' does not appear in the document.",
+                "Key Information Matching": "There is no information in the document that relates to Lapsong souchong or tea.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong souchong or its category.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or related information that could help infer the type of Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on ingredients used in Thai cuisine, which has no connection to Lapsong souchong or tea. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "triviaqa_37154_7": {
+                "Query Analysis": "The query asks for the classification of Lapsong souchong, specifically what type of product or category it belongs to.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses various grades of leafy tea, including pekoe souchong and souchong, and provides information about black tea, including its nutritional content and the concept of single teas and blends.",
+                "Document and Query Keywords Matching": "The document mentions 'souchong', which is a part of 'Lapsong souchong'.",
+                "Document and Answer Keywords Matching": "The document is about tea grades and types, which aligns with the answer that Lapsong souchong is a type of tea.",
+                "Key Information Matching": "The document discusses tea types and grades, which is relevant to the query asking about the type of Lapsong souchong.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Lapsong souchong is a type of tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about different types of tea, which can help infer that Lapsong souchong, being a souchong, is likely a type of tea.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about tea types and grades, which can help infer that Lapsong souchong is a type of tea. However, it does not directly state this, making it partially relevant."
+            },
+            "triviaqa_37154_6": {
+                "Query Analysis": "The query asks for the classification of Lapsong Souchong.",
+                "Query Keywords Extraction": "Lapsong Souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong Souchong is a type of tea.",
+                "Document Content Analysis": "The document provides detailed information about various grades of tea, including Souchong, and mentions different types of tea grades produced in Assam.",
+                "Document and Query Keywords Matching": "The document mentions 'Souchong', which is a part of 'Lapsong Souchong'.",
+                "Document and Answer Keywords Matching": "The document discusses various types of tea, which indirectly matches the answer 'tea'.",
+                "Key Information Matching": "The document includes 'Souchong' as a type of tea grade, which is directly related to 'Lapsong Souchong'.",
+                "Can the Document Answer the Query": "Yes, the document implicitly answers the query by mentioning 'Souchong' as a type of tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about different tea grades and types, which helps in understanding the classification of Lapsong Souchong.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'Souchong', which is a part of 'Lapsong Souchong', and provides context about various tea grades. This information helps in confirming that Lapsong Souchong is a type of tea, making the document highly relevant."
+            },
+            "triviaqa_53663_336": {
+                "Query Analysis": "The query is asking for the category or type to which Lapsong souchong belongs.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document provides descriptions of various food items and beverages, including soft drinks, cheeses, crabs, fish, noodles, soups, and syrups, but does not mention tea or Lapsong souchong.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'tea' or any related terms.",
+                "Key Information Matching": "There is no matching key information related to Lapsong souchong or tea in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the type of Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Lapsong souchong, tea, or any related concepts, and therefore cannot assist in answering the query or providing relevant context."
+            },
+            "m.072p8_25": {
+                "Query Analysis": "The query asks for the category or type to which Lapsong Souchong belongs.",
+                "Query Keywords Extraction": "Lapsong Souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong Souchong is a type of tea.",
+                "Document Content Analysis": "The document provides information about the Statue of Liberty, including its description, location, and historical significance. It mentions details about its design, dedication date, and the fact that it is a gift from the people of France to the United States.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Lapsong Souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'Tea' is not mentioned in the document.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document discusses the Statue of Liberty, which is unrelated to the topic of tea or Lapsong Souchong.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong Souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer details about Lapsong Souchong or its category.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the Statue of Liberty, while the query asks about a type of tea. There is no overlap in keywords or relevant information, making the document irrelevant to the query."
+            },
+            "triviaqa_37154_13": {
+                "Query Analysis": "The query asks for the classification of Lapsang Souchong, specifically what type of product or category it belongs to.",
+                "Query Keywords Extraction": "Lapsang Souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsang Souchong is a type of tea.",
+                "Document Content Analysis": "The document provides information about various types of tea, including Lapsang Souchong, Yunnan Tea, and Turkish Tea. It describes the origin, preparation, and flavor characteristics of Lapsang Souchong in detail.",
+                "Document and Query Keywords Matching": "The document mentions 'Lapsang Souchong' directly.",
+                "Document and Answer Keywords Matching": "The document discusses 'tea' in general and specifically mentions Lapsang Souchong as a type of tea.",
+                "Key Information Matching": "The document explicitly mentions Lapsang Souchong and describes it in the context of tea, aligning with the query's focus on its classification.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Lapsang Souchong is a type of tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about Lapsang Souchong, including its origin and flavor, which enhances understanding of what type of tea it is.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions Lapsang Souchong and classifies it as a type of tea, providing substantial useful context and additional information about its characteristics."
+            },
+            "nq_193517_14": {
+                "Query Analysis": "The query asks for the category or type to which Lapsang souchong belongs.",
+                "Query Keywords Extraction": "Lapsang souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsang souchong is a type of tea.",
+                "Document Content Analysis": "The document lists various types of teas, including black tea and oolong tea, along with their common varieties. Lapsang souchong is mentioned under the black tea category.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'Lapsang souchong'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention the word 'Tea' in direct association with Lapsang souchong, but it is implied by the context of the list under 'Black tea'.",
+                "Key Information Matching": "Lapsang souchong is listed under 'Black tea', which is a type of tea, thus providing the necessary context to infer that Lapsang souchong is a type of tea.",
+                "Can the Document Answer the Query": "Yes, by listing Lapsang souchong under 'Black tea', the document indirectly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context by categorizing Lapsang souchong under black tea, which helps infer that it is a type of tea.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly provides the context needed to answer the query by categorizing Lapsang souchong under black tea, which is a type of tea. This makes the document highly relevant as it provides substantial useful context to understand that Lapsang souchong is a type of tea."
+            },
+            "nq_294958_67": {
+                "Query Analysis": "The query asks for the classification of Lapsong souchong, specifically what type of product or category it belongs to.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document appears to be a snippet from a Wikipedia page about the 'Dark Ages', with links to various language versions of the page and some general information about the page's licensing and last edit date. It does not contain any specific content related to Lapsong souchong or tea.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Tea' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong souchong or its classification.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the 'Dark Ages' and provides no information about Lapsong souchong or tea. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "m.0306c6_71": {
+                "Query Analysis": "The query asks for the classification of Lapsong Souchong, specifically what category it belongs to.",
+                "Query Keywords Extraction": "Lapsong Souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong Souchong is a type of tea.",
+                "Document Content Analysis": "The document provides information about a movie titled 'What's Eating Gilbert Grape', including various identifiers, ratings, and types related to the film.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'tea' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Lapsong Souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the topic of the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses solely on a movie and contains no information about Lapsong Souchong or its classification. There is no overlap in keywords or key information, making it impossible for the document to answer the query or provide any useful context."
+            },
+            "nq_193517_19": {
+                "Query Analysis": "The query is asking for the category or type to which Lapsong souchong belongs.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document lists various types of teas categorized under different headings such as White tea, Yellow tea, Fermented tea, and Blended or flavoured teas. It includes specific tea names under each category.",
+                "Document and Query Keywords Matching": "The document mentions 'Lapsang souchong'.",
+                "Document and Answer Keywords Matching": "The document includes 'Lapsang souchong' under the category of 'Blended or flavoured teas', which indirectly confirms it is a type of tea.",
+                "Key Information Matching": "The document places 'Lapsang souchong' within a list of teas, directly supporting the idea that it is a type of tea.",
+                "Can the Document Answer the Query": "Yes, by listing 'Lapsang souchong' under the category of teas, the document implicitly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context by categorizing 'Lapsang souchong' within a broader classification of teas.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant as it categorizes 'Lapsang souchong' under teas, which directly answers the query about its type. The inclusion of 'Lapsang souchong' in a list of teas provides substantial context and confirms it is a type of tea."
+            },
+            "triviaqa_37154_12": {
+                "Query Analysis": "The query asks for the classification of Lapsang Souchong, specifically what type of item or category it belongs to.",
+                "Query Keywords Extraction": "Lapsang Souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsang Souchong is a type of tea.",
+                "Document Content Analysis": "The document provides descriptions of various types of tea, including their origins, flavors, and characteristics. It mentions Lapsang Souchong specifically, detailing its origin, flavor, and preparation method.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Lapsang Souchong'.",
+                "Document and Answer Keywords Matching": "The document implicitly categorizes Lapsang Souchong as a tea by discussing it in the context of other teas.",
+                "Key Information Matching": "The document discusses Lapsang Souchong in the context of different types of tea, which aligns with the answer that it is a type of tea.",
+                "Can the Document Answer the Query": "Yes, the document implicitly answers the query by discussing Lapsang Souchong in the context of various teas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about Lapsang Souchong and its characteristics, which supports the inference that it is a type of tea.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it discusses Lapsang Souchong in the context of different types of tea, thereby confirming that it is a type of tea. The detailed description of Lapsang Souchong provides useful context and additional information that enhances understanding of the query."
+            },
+            "m.07pzc_204": {
+                "Query Analysis": "The query asks for the category or type to which Lapsong Souchong belongs.",
+                "Query Keywords Extraction": "Lapsong Souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong Souchong is a type of tea.",
+                "Document Content Analysis": "The document provides a list of recordings, albums, and other attributes associated with Tupac Shakur, a musical artist. It includes details about his works, compositions, and various types of recordings.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'tea' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches or is related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong Souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Tupac Shakur's musical career and has no information about Lapsong Souchong or tea. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "m.0clq3__14": {
+                "Query Analysis": "The query is asking for the category or type to which Lapsong souchong belongs.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer indicates that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document provides descriptions of Syzygium jambos, a type of fruit, in multiple languages. It includes details about its scientific name, common names, habitat, and uses.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'tea' does not appear in the document.",
+                "Key Information Matching": "There is no matching key information related to Lapsong souchong or tea in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides information about a completely different subject (Syzygium jambos) and does not aid in understanding or inferring information about Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Syzygium jambos, a type of fruit, and does not mention or provide any context that could be related to Lapsong souchong or tea. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_23029_486": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsong souchong'.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document provides descriptions of various food items, including soft-ripened cheese, softshell crab, sole fish, somen noodles, sopa seca, sopes, sorbet, sorghum, sorghum syrup, and sorrel. However, it does not mention 'Lapsong souchong' or 'tea'.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'Lapsong souchong' or 'type'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'tea'.",
+                "Key Information Matching": "The document does not provide any information related to 'Lapsong souchong' or 'tea'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Lapsong souchong' or 'tea'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'Lapsong souchong' or 'tea' and provides no information that could assist in answering the query or inferring additional relevant information."
+            },
+            "ott_12251_1": {
+                "Query Analysis": "The query asks for the classification or type of Lapsong souchong.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses various ingredients used in Thai cuisine, including vegetables, sprouts, and eggplants, but does not mention Lapsong souchong or tea.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Tea' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Lapsong souchong or tea.",
+                "Can the Document Answer the Query": "No, the document does not mention Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the type of Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses Thai cuisine ingredients and does not mention Lapsong souchong or tea. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_37154_7": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsong souchong'.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses various types of tea, including grades like 'pekoe souchong' and 'souchong', and mentions different tea types such as Assam and Ceylon. It also provides information about tea blends and nutritional content.",
+                "Document and Query Keywords Matching": "The document mentions 'souchong', which is part of the query term 'Lapsong souchong'.",
+                "Document and Answer Keywords Matching": "The document frequently mentions 'tea', which is the answer to the query.",
+                "Key Information Matching": "The document discusses 'souchong' as a type of tea and provides general information about tea types, which aligns with the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that 'Lapsong souchong' is a type of tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about 'souchong' as a type of tea, which can help infer that 'Lapsong souchong' is also a type of tea.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about 'souchong' as a type of tea, which is related to the query. However, it does not directly mention 'Lapsong souchong', so it cannot fully answer the query but provides useful context."
+            },
+            "triviaqa_37154_6": {
+                "Query Analysis": "The query asks for the classification or type of Lapsong souchong.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses various types of tea grades, including Souchong, Broken Orange Pekoe, and others, and mentions that all types are sold as either 'single' teas or blends. It also provides nutritional information about black tea.",
+                "Document and Query Keywords Matching": "The document mentions 'Souchong', which is part of 'Lapsong souchong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'tea' multiple times, which is the answer to the query.",
+                "Key Information Matching": "The document mentions 'Souchong' and discusses various types of tea, which aligns with the query's focus on Lapsong souchong as a type of tea.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions that Souchong is a type of tea, which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about different tea grades and types, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying Souchong as a type of tea and provides additional relevant information about tea grades and types, making it highly relevant."
+            },
+            "triviaqa_53663_336": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsong souchong'.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses various food items, including soft drinks, cheese, crab, fish, noodles, soups, and syrups, but does not mention Lapsong souchong or tea.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'Lapsong souchong' or 'type'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Tea'.",
+                "Key Information Matching": "The document does not provide any information related to Lapsong souchong or tea.",
+                "Can the Document Answer the Query": "No, the document does not mention Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the type of Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query as it does not mention Lapsong souchong, tea, or any related information. It provides no useful context or additional information to answer the query."
+            },
+            "m.072p8_25": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsong souchong'.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses the Statue of Liberty, its history, design, and significance. It does not mention anything related to tea or Lapsong souchong.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Tea' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Lapsong souchong or tea.",
+                "Can the Document Answer the Query": "No, the document does not mention Lapsong souchong or its classification.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the type of Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Statue of Liberty and does not mention Lapsong souchong, tea, or any related concepts. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_37154_13": {
+                "Query Analysis": "The query asks for the classification or type of Lapsong souchong.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses various types of tea, including Lapsang Souchong, Yunnan Tea, and Turkish Tea. It provides details about the production, flavor, and characteristics of these teas.",
+                "Document and Query Keywords Matching": "The document mentions 'Lapsang Souchong', which matches the query keyword 'Lapsong souchong'.",
+                "Document and Answer Keywords Matching": "The document frequently mentions 'tea', which matches the answer 'Tea'.",
+                "Key Information Matching": "The document explicitly mentions 'Lapsang Souchong' and describes it as a type of tea, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Lapsang Souchong is a type of tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about the characteristics and production of Lapsang Souchong.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly identifies Lapsang Souchong as a type of tea and provides additional relevant information about it."
+            },
+            "nq_193517_14": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsang souchong'.",
+                "Query Keywords Extraction": "Lapsang souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsang souchong is a type of tea.",
+                "Document Content Analysis": "The document lists various types of black tea, including 'Lapsang souchong', under the category of 'Black tea'.",
+                "Document and Query Keywords Matching": "The document mentions 'Lapsang souchong', which is the main keyword in the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Black tea', which is a type of tea, aligning with the answer 'Tea'.",
+                "Key Information Matching": "The document directly lists 'Lapsang souchong' as a type of black tea, which matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Lapsang souchong is a type of black tea, which is a type of tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other types of black tea.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying Lapsang souchong as a type of black tea, which is a type of tea. It also provides additional relevant information about other types of black tea, enhancing understanding of the query."
+            },
+            "nq_294958_67": {
+                "Query Analysis": "The query asks for the classification of Lapsong souchong, specifically what type of thing it is.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document appears to be a list of interlanguage links and metadata related to a Wikipedia page, but it does not contain any information about Lapsong souchong or tea.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Tea' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Lapsong souchong or tea.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It does not mention Lapsong souchong, tea, or any related information, making it irrelevant to the query."
+            },
+            "m.0306c6_71": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsong souchong'.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document provides information about the film 'What's Eating Gilbert Grape', including its sources, tagline, ratings, and types. There is no mention of 'Lapsong souchong' or 'tea' in the document.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to 'Lapsong souchong' or 'tea'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Lapsong souchong' or 'tea'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the type of 'Lapsong souchong'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a film and does not mention 'Lapsong souchong' or 'tea', making it irrelevant to the query."
+            },
+            "nq_193517_19": {
+                "Query Analysis": "The query asks for the classification or type of Lapsang souchong.",
+                "Query Keywords Extraction": "Lapsang souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsang souchong is a type of tea.",
+                "Document Content Analysis": "The document lists various types of teas, including Lapsang souchong, under the category of 'Blended or flavoured teas'.",
+                "Document and Query Keywords Matching": "The document mentions 'Lapsang souchong', which is the main keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Tea' in relation to Lapsang souchong, but it is implied as Lapsang souchong is listed under tea categories.",
+                "Key Information Matching": "The document lists Lapsang souchong under 'Blended or flavoured teas', which implies it is a type of tea.",
+                "Can the Document Answer the Query": "Yes, the document directly indicates that Lapsang souchong is a type of tea by listing it under tea categories.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by categorizing Lapsang souchong under 'Blended or flavoured teas'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by listing Lapsang souchong under tea categories, providing clear and relevant information."
+            },
+            "triviaqa_37154_12": {
+                "Query Analysis": "The query asks for the classification of Lapsang Souchong, specifically what type of product or category it belongs to.",
+                "Query Keywords Extraction": "Lapsang Souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsang Souchong is a type of tea.",
+                "Document Content Analysis": "The document provides detailed descriptions of various types of tea, including Lapsang Souchong. It describes Lapsang Souchong as a tea grown in the Wuyi Mountains of the Fujian Province of China, with a distinctive smoky flavor and aroma.",
+                "Document and Query Keywords Matching": "The document mentions 'Lapsang Souchong'.",
+                "Document and Answer Keywords Matching": "The document refers to Lapsang Souchong as a 'tea'.",
+                "Key Information Matching": "The document explicitly identifies Lapsang Souchong as a type of tea, which directly matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Lapsang Souchong is a type of tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about Lapsang Souchong, such as its origin and flavor profile.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only identifies Lapsang Souchong as a type of tea but also provides additional context about its characteristics. This enhances understanding and directly answers the query."
+            },
+            "m.07pzc_204": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsong souchong'.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document contains a list of recordings, albums, and other works associated with Tupac Shakur, a musical artist. There is no mention of Lapsong souchong or tea.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Lapsong souchong or tea.",
+                "Can the Document Answer the Query": "No, the document does not mention Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the type of Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Lapsong souchong, tea, or any related concepts, making it irrelevant to the conversation."
+            },
+            "m.0clq3__14": {
+                "Query Analysis": "The query asks for the classification or type of 'Lapsong souchong'.",
+                "Query Keywords Extraction": "Lapsong souchong, type",
+                "Answer Analysis": "The answer is 'Tea', indicating that Lapsong souchong is a type of tea.",
+                "Document Content Analysis": "The document discusses various names and descriptions of Syzygium jambos, a species of plant, including its scientific name, common names in different languages, and its characteristics. There is no mention of Lapsong souchong or tea in the document.",
+                "Document and Query Keywords Matching": "No keywords from the query ('Lapsong souchong', 'type') are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer ('Tea') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Lapsong souchong or tea.",
+                "Can the Document Answer the Query": "No, the document does not mention Lapsong souchong or tea.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the type of Lapsong souchong.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Syzygium jambos, a plant species, and does not mention Lapsong souchong or tea in any way. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_23029_486": {},
+            "ott_12251_1": {},
+            "triviaqa_37154_7": {},
+            "triviaqa_37154_6": {},
+            "triviaqa_53663_336": {},
+            "m.072p8_25": {},
+            "triviaqa_37154_13": {},
+            "nq_193517_14": {},
+            "nq_294958_67": {},
+            "m.0306c6_71": {},
+            "nq_193517_19": {},
+            "triviaqa_37154_12": {},
+            "m.07pzc_204": {},
+            "m.0clq3__14": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "ott": 0,
+            "nq": 2,
+            "triviaqa": 2,
+            "kg": 0,
+            "tat": 0
+        }
+    }
+}

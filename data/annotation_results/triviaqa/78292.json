@@ -1,0 +1,994 @@
+{
+    "index": 78292,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which stand-up comedian has the real name of Royston Vasey?",
+        "answer": "Roy Chubby Brown",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_5437_0",
+                "score": 28.91360092163086
+            },
+            {
+                "id": "triviaqa_5437_1",
+                "score": 25.63629913330078
+            },
+            {
+                "id": "triviaqa_5437_19",
+                "score": 22.888099670410156
+            },
+            {
+                "id": "triviaqa_5437_20",
+                "score": 22.62700080871582
+            },
+            {
+                "id": "triviaqa_5437_15",
+                "score": 20.951200485229492
+            },
+            {
+                "id": "triviaqa_5437_16",
+                "score": 18.313800811767578
+            },
+            {
+                "id": "triviaqa_5437_30",
+                "score": 18.267799377441406
+            },
+            {
+                "id": "triviaqa_5437_32",
+                "score": 18.116100311279297
+            },
+            {
+                "id": "triviaqa_5437_31",
+                "score": 18.047300338745117
+            },
+            {
+                "id": "triviaqa_57830_139",
+                "score": 17.617399215698242
+            },
+            {
+                "id": "triviaqa_2806_13",
+                "score": 17.54509925842285
+            },
+            {
+                "id": "triviaqa_2806_51",
+                "score": 17.54509735107422
+            },
+            {
+                "id": "triviaqa_66156_13",
+                "score": 17.54509735107422
+            },
+            {
+                "id": "triviaqa_2128_126",
+                "score": 17.33099937438965
+            },
+            {
+                "id": "triviaqa_25246_88",
+                "score": 17.330997467041016
+            },
+            {
+                "id": "triviaqa_2854_88",
+                "score": 17.330997467041016
+            },
+            {
+                "id": "triviaqa_2806_14",
+                "score": 17.226999282836914
+            },
+            {
+                "id": "triviaqa_2806_52",
+                "score": 17.22699737548828
+            },
+            {
+                "id": "triviaqa_66156_14",
+                "score": 17.22699737548828
+            },
+            {
+                "id": "triviaqa_57830_138",
+                "score": 16.52549934387207
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_11012_0",
+                "score": 9.444499969482422
+            },
+            {
+                "id": "ott_12292_0",
+                "score": 9.444499015808105
+            },
+            {
+                "id": "ott_26458_0",
+                "score": 9.444498062133789
+            },
+            {
+                "id": "ott_30534_0",
+                "score": 9.444497108459473
+            },
+            {
+                "id": "ott_31140_0",
+                "score": 9.444496154785156
+            },
+            {
+                "id": "ott_19723_0",
+                "score": 7.8942999839782715
+            },
+            {
+                "id": "ott_35869_0",
+                "score": 7.894299030303955
+            },
+            {
+                "id": "ott_38838_0",
+                "score": 7.894298076629639
+            },
+            {
+                "id": "ott_5222_0",
+                "score": 7.894297122955322
+            },
+            {
+                "id": "ott_14995_2",
+                "score": 7.764100074768066
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_200527_12",
+                "score": 10.163299560546875
+            },
+            {
+                "id": "nq_287858_12",
+                "score": 10.163298606872559
+            },
+            {
+                "id": "nq_292168_17",
+                "score": 9.67389965057373
+            },
+            {
+                "id": "nq_225439_0",
+                "score": 9.499799728393555
+            },
+            {
+                "id": "nq_217672_9",
+                "score": 9.087800025939941
+            },
+            {
+                "id": "nq_238852_30",
+                "score": 9.011500358581543
+            },
+            {
+                "id": "nq_888_53",
+                "score": 8.990599632263184
+            },
+            {
+                "id": "nq_296830_11",
+                "score": 8.947600364685059
+            },
+            {
+                "id": "nq_888_54",
+                "score": 8.930999755859375
+            },
+            {
+                "id": "nq_292602_49",
+                "score": 8.913900375366211
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_5437_0",
+                "score": 28.91360092163086
+            },
+            {
+                "id": "triviaqa_5437_1",
+                "score": 25.63629913330078
+            },
+            {
+                "id": "triviaqa_5437_19",
+                "score": 22.888099670410156
+            },
+            {
+                "id": "triviaqa_5437_20",
+                "score": 22.62700080871582
+            },
+            {
+                "id": "triviaqa_5437_15",
+                "score": 20.951200485229492
+            },
+            {
+                "id": "triviaqa_5437_16",
+                "score": 18.313800811767578
+            },
+            {
+                "id": "triviaqa_5437_30",
+                "score": 18.267799377441406
+            },
+            {
+                "id": "triviaqa_5437_32",
+                "score": 18.116100311279297
+            },
+            {
+                "id": "triviaqa_5437_31",
+                "score": 18.047300338745117
+            },
+            {
+                "id": "triviaqa_57830_139",
+                "score": 17.617399215698242
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.01pj2d_0",
+                "score": 9.349699974060059
+            },
+            {
+                "id": "m.01qw2j5_2",
+                "score": 9.290599822998047
+            },
+            {
+                "id": "m.01pj2d_1",
+                "score": 9.07229995727539
+            },
+            {
+                "id": "m.081k8_1850",
+                "score": 8.747599601745605
+            },
+            {
+                "id": "m.0mzt5cs_0",
+                "score": 8.533699989318848
+            },
+            {
+                "id": "m.0mzt5cs_1",
+                "score": 8.430700302124023
+            },
+            {
+                "id": "m.0cvs4h_0",
+                "score": 8.23289966583252
+            },
+            {
+                "id": "m.02rcn42_2",
+                "score": 7.969299793243408
+            },
+            {
+                "id": "m.01qw2j5_114",
+                "score": 7.912499904632568
+            },
+            {
+                "id": "m.01qw2j5_118",
+                "score": 7.811999797821045
+            },
+            {
+                "id": "m.0mzt5cs_2",
+                "score": 7.803599834442139
+            },
+            {
+                "id": "m.01qw2j5_117",
+                "score": 7.786099910736084
+            },
+            {
+                "id": "m.01qw2j5_1",
+                "score": 7.714399814605713
+            },
+            {
+                "id": "m.01qw2j5_115",
+                "score": 7.7143988609313965
+            },
+            {
+                "id": "m.027nb_112",
+                "score": 7.659800052642822
+            },
+            {
+                "id": "m.09tlh_7",
+                "score": 7.546999931335449
+            },
+            {
+                "id": "m.04t_gkf_0",
+                "score": 7.36870002746582
+            },
+            {
+                "id": "m.04t_gkf_1",
+                "score": 7.352200031280518
+            },
+            {
+                "id": "m.0mzt5cs_45",
+                "score": 7.337900161743164
+            },
+            {
+                "id": "m.0m_921m_0",
+                "score": 7.337500095367432
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_5437_0",
+                "score": 0.693353533744812
+            },
+            {
+                "id": "triviaqa_5437_20",
+                "score": 0.6660336256027222
+            },
+            {
+                "id": "triviaqa_5437_1",
+                "score": 0.6566280722618103
+            },
+            {
+                "id": "triviaqa_5437_16",
+                "score": 0.619204580783844
+            },
+            {
+                "id": "triviaqa_5437_19",
+                "score": 0.5985699892044067
+            },
+            {
+                "id": "nq_11596_6",
+                "score": 0.5861217975616455
+            },
+            {
+                "id": "triviaqa_15787_4",
+                "score": 0.5826767683029175
+            },
+            {
+                "id": "triviaqa_5437_17",
+                "score": 0.5742816925048828
+            },
+            {
+                "id": "nq_3343_10",
+                "score": 0.5722094774246216
+            },
+            {
+                "id": "nq_46618_3",
+                "score": 0.5625755786895752
+            },
+            {
+                "id": "triviaqa_5437_15",
+                "score": 0.5622411966323853
+            },
+            {
+                "id": "nq_163805_33",
+                "score": 0.5598188638687134
+            },
+            {
+                "id": "triviaqa_5437_27",
+                "score": 0.555422306060791
+            },
+            {
+                "id": "nq_11596_7",
+                "score": 0.5528373718261719
+            },
+            {
+                "id": "m.015cjr_224",
+                "score": 0.5528199672698975
+            },
+            {
+                "id": "nq_215783_37",
+                "score": 0.5512699484825134
+            },
+            {
+                "id": "nq_11596_5",
+                "score": 0.5488649606704712
+            },
+            {
+                "id": "triviaqa_67962_86",
+                "score": 0.5473465919494629
+            },
+            {
+                "id": "nq_11596_8",
+                "score": 0.5464165210723877
+            },
+            {
+                "id": "triviaqa_5437_2",
+                "score": 0.5456687211990356
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_24240_1",
+                "score": 0.5049323439598083
+            },
+            {
+                "id": "ott_39566_1",
+                "score": 0.5049323439598083
+            },
+            {
+                "id": "ott_6747_1",
+                "score": 0.5049323439598083
+            },
+            {
+                "id": "ott_17372_6",
+                "score": 0.48239681124687195
+            },
+            {
+                "id": "ott_38838_0",
+                "score": 0.47151684761047363
+            },
+            {
+                "id": "ott_35869_0",
+                "score": 0.47151684761047363
+            },
+            {
+                "id": "ott_5222_0",
+                "score": 0.47151684761047363
+            },
+            {
+                "id": "ott_19723_0",
+                "score": 0.47151684761047363
+            },
+            {
+                "id": "ott_34442_1",
+                "score": 0.4697510600090027
+            },
+            {
+                "id": "ott_12420_1",
+                "score": 0.4697510600090027
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_11596_6",
+                "score": 0.5861217975616455
+            },
+            {
+                "id": "nq_3343_10",
+                "score": 0.5722094774246216
+            },
+            {
+                "id": "nq_46618_3",
+                "score": 0.5625755786895752
+            },
+            {
+                "id": "nq_163805_33",
+                "score": 0.5598188638687134
+            },
+            {
+                "id": "nq_11596_7",
+                "score": 0.5528373718261719
+            },
+            {
+                "id": "nq_215783_37",
+                "score": 0.5512699484825134
+            },
+            {
+                "id": "nq_11596_5",
+                "score": 0.5488649606704712
+            },
+            {
+                "id": "nq_11596_8",
+                "score": 0.5464165210723877
+            },
+            {
+                "id": "nq_3343_0",
+                "score": 0.5452743172645569
+            },
+            {
+                "id": "nq_260145_5",
+                "score": 0.5447741150856018
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_5437_0",
+                "score": 0.693353533744812
+            },
+            {
+                "id": "triviaqa_5437_20",
+                "score": 0.6660336256027222
+            },
+            {
+                "id": "triviaqa_5437_1",
+                "score": 0.6566280722618103
+            },
+            {
+                "id": "triviaqa_5437_16",
+                "score": 0.619204580783844
+            },
+            {
+                "id": "triviaqa_5437_19",
+                "score": 0.5985699892044067
+            },
+            {
+                "id": "triviaqa_15787_4",
+                "score": 0.5826767683029175
+            },
+            {
+                "id": "triviaqa_5437_17",
+                "score": 0.5742816925048828
+            },
+            {
+                "id": "triviaqa_5437_15",
+                "score": 0.5622411966323853
+            },
+            {
+                "id": "triviaqa_5437_27",
+                "score": 0.555422306060791
+            },
+            {
+                "id": "triviaqa_67962_86",
+                "score": 0.5473465919494629
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.015cjr_224",
+                "score": 0.5528199672698975
+            },
+            {
+                "id": "m.01qw2j5_117",
+                "score": 0.5379180312156677
+            },
+            {
+                "id": "m.015cjr_99",
+                "score": 0.5333166718482971
+            },
+            {
+                "id": "m.04ct6p_0",
+                "score": 0.5301529765129089
+            },
+            {
+                "id": "m.015cjr_455",
+                "score": 0.5268962979316711
+            },
+            {
+                "id": "m.015cjr_488",
+                "score": 0.5266451239585876
+            },
+            {
+                "id": "m.015cjr_33",
+                "score": 0.5238978266716003
+            },
+            {
+                "id": "m.015cjr_414",
+                "score": 0.5224723219871521
+            },
+            {
+                "id": "m.015cjr_461",
+                "score": 0.5219011902809143
+            },
+            {
+                "id": "m.015cjr_426",
+                "score": 0.5186024904251099
+            },
+            {
+                "id": "m.02dsz_105",
+                "score": 0.5162146091461182
+            },
+            {
+                "id": "m.015cjr_628",
+                "score": 0.5161016583442688
+            },
+            {
+                "id": "m.015cjr_116",
+                "score": 0.5159445405006409
+            },
+            {
+                "id": "m.015cjr_462",
+                "score": 0.5136212110519409
+            },
+            {
+                "id": "m.015cjr_474",
+                "score": 0.5133301019668579
+            },
+            {
+                "id": "m.015cjr_411",
+                "score": 0.5131099224090576
+            },
+            {
+                "id": "m.05bcl_197",
+                "score": 0.5120018124580383
+            },
+            {
+                "id": "m.04ct6p_17",
+                "score": 0.5116670727729797
+            },
+            {
+                "id": "m.01lct6_47",
+                "score": 0.5111818313598633
+            },
+            {
+                "id": "m.015cjr_449",
+                "score": 0.5105226635932922
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_5437_16": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian who uses the stage name Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, indicating that Royston Vasey is the stage name for Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides biographical information about Roy Chubby Brown, including his early life, career, stage persona, and notable performances. It also mentions that his real name, Royston Vasey, was used as the namesake for a fictional town in a comedy television show.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'Roy Chubby Brown', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Roy Chubby Brown' and explicitly states that 'His real name, Royston Vasey'.",
+                "Key Information Matching": "The document directly matches the key information by stating that Roy Chubby Brown's real name is Royston Vasey.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Roy Chubby Brown's real name is Royston Vasey.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and persona, which enhances understanding of the individual behind the stage name.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Roy Chubby Brown's real name is Royston Vasey, thus providing a direct answer. Additionally, it offers substantial background information about his career and persona, which further supports the relevance."
+            },
+            "triviaqa_5437_15": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, indicating that Royston Vasey is the real name of Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Roy 'Chubby' Brown, including his real name, Royston Vasey, and details about his early life, career, and stage persona. It mentions his appearances on television shows and his success as a blue comedian.",
+                "Document and Query Keywords Matching": "The document mentions 'Roy Chubby Brown' and 'Royston Vasey', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'Roy Chubby Brown' and explicitly states that his real name is 'Royston Vasey'.",
+                "Key Information Matching": "The document directly provides the key information that Royston Vasey is the real name of Roy Chubby Brown, which is the exact answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Roy Chubby Brown's real name is Royston Vasey.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's life and career, which enhances understanding of the comedian.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer and provides additional context about the subject. It explicitly states that Roy Chubby Brown's real name is Royston Vasey, making it highly relevant and useful for answering the query."
+            },
+            "triviaqa_5437_1": {
+                "Query Analysis": "The query seeks to identify the stand-up comedian who uses the stage name 'Roy Chubby Brown' and has the real name 'Royston Vasey'.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey, Roy Chubby Brown",
+                "Answer Analysis": "The answer identifies 'Roy Chubby Brown' as the comedian with the real name 'Royston Vasey'.",
+                "Document Content Analysis": "The document provides information about Roy 'Chubby' Brown, stating his real name is Royston Vasey and giving details about his comedic style, costume, and the controversial nature of his act. It also mentions his birth date and place.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Roy Chubby Brown' and 'Royston Vasey'.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Roy 'Chubby' Brown (real name: Royston Vasey)', matching the answer directly.",
+                "Key Information Matching": "The document directly matches the key information required by the query, confirming the real name of Roy Chubby Brown as Royston Vasey.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating Roy Chubby Brown's real name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and personal details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly provides the information sought: the real name of the comedian Roy Chubby Brown. It not only answers the query but also offers additional context about his comedic style and personal background, enhancing the understanding of the subject."
+            },
+            "nq_200527_12": {
+                "Query Analysis": "The query seeks to identify the stand-up comedian who uses the stage name 'Royston Vasey'.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer indicates that the comedian with the real name Royston Vasey is Roy Chubby Brown.",
+                "Document Content Analysis": "The document discusses various cameos and roles in a film titled 'Grown Ups 2', mentioning several actors and comedians such as Adam Sandler, Chris Hardwick, Steve Austin, Michael Kay, and Shaquille O'Neal.",
+                "Document and Query Keywords Matching": "The document mentions 'stand-up comedian' in relation to Chris Hardwick, but does not mention 'Royston Vasey'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown'.",
+                "Key Information Matching": "There is no mention of 'Royston Vasey' or 'Roy Chubby Brown' in the document. The document focuses on a different set of comedians and actors.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the real name of Royston Vasey.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a film and its cast, but none of the information pertains to the comedian Royston Vasey or Roy Chubby Brown. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "triviaqa_5437_19": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian who is known by the stage name Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer provides the real name of the comedian, which is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Roy Chubby Brown, including his legal issues, publications, support for a football club, and details about his stand-up releases. It also mentions his real life persona of Royston Vasey.",
+                "Document and Query Keywords Matching": "The document mentions 'Roy Chubby Brown' and 'Royston Vasey', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Roy Chubby Brown', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Royston Vasey is also known as Roy 'Chubby' Brown, directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Royston Vasey's real name is Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and persona.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly provides the real name of the comedian known as Royston Vasey, which is Roy Chubby Brown. It also offers additional information about his career, enhancing the context and understanding of the query."
+            },
+            "m.015cjr_224": {
+                "Query Analysis": "The query seeks to identify the stand-up comedian who uses the stage name 'Royston Vasey'.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer reveals that the real name of the comedian known as Royston Vasey is Roy Chubby Brown.",
+                "Document Content Analysis": "The document lists various individuals along with their professions, all of whom are identified as presenters. There is no mention of comedians or specific stage names.",
+                "Document and Query Keywords Matching": "None of the query keywords ('stand-up comedian', 'real name', 'Royston Vasey') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Roy Chubby Brown') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about stand-up comedians or their real names.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query as it only lists individuals with the profession of 'Presenter', and does not mention any comedians or relevant names. Therefore, it cannot assist in answering the query or providing any useful context."
+            },
+            "ott_11012_0": {
+                "Query Analysis": "The query seeks to identify the stand-up comedian who uses the stage name 'Royston Vasey'.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer indicates that the comedian with the real name Royston Vasey is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides details about the 2011 Bradford Bulls rugby league football club's season, including player names, positions, and transfer information.",
+                "Document and Query Keywords Matching": "None of the query keywords ('stand-up comedian', 'real name', 'Royston Vasey') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Roy Chubby Brown') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on rugby league football and does not mention anything related to comedians or their real names.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the 2011 season of the Bradford Bulls rugby league football club and does not mention any information about stand-up comedians or their real names. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_5437_20": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian who is known by the stage name Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer provides the real name of the comedian, which is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Roy Chubby Brown, describing him as Britain's rudest comedian and mentioning his real life persona as Royston Vasey. It discusses his career, his comedic style, and personal life, including his recovery from a throat cancer operation.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'Roy Chubby Brown', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Royston Vasey, aka Roy 'Chubby' Brown', directly matching the answer.",
+                "Key Information Matching": "The document directly provides the information that Royston Vasey is the stage name for Roy Chubby Brown, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Royston Vasey's real name is Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and personal life, which enhances understanding of the comedian.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly provides the answer that Royston Vasey's real name is Roy Chubby Brown. Additionally, it offers substantial context about his career and personal life, making it highly relevant."
+            },
+            "m.01pj2d_0": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian who is known by the stage name Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer provides the real name of the comedian, which is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Alexandra Wentworth, an American actress, comedian, author, and producer. It includes her various names and aliases, as well as a brief description of her career.",
+                "Document and Query Keywords Matching": "The document mentions 'comedian' but does not mention 'Royston Vasey' or 'real name'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown'.",
+                "Key Information Matching": "The document focuses on Alexandra Wentworth and does not provide any information related to Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Royston Vasey, Roy Chubby Brown, or any related information that could assist in answering the query. The document is solely about Alexandra Wentworth, who is not relevant to the query."
+            },
+            "nq_11596_6": {
+                "Query Analysis": "The query seeks to identify the stand-up comedian who uses the stage name 'Royston Vasey'.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer indicates that the comedian with the real name Royston Vasey is Roy Chubby Brown.",
+                "Document Content Analysis": "The document lists various British comedians with links to their respective Wikipedia pages, but it does not provide any information about their real names or stage names.",
+                "Document and Query Keywords Matching": "The document mentions several comedians but does not include the keywords 'Royston Vasey' or 'real name'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown'.",
+                "Key Information Matching": "There is no matching key information related to 'Royston Vasey' or 'Roy Chubby Brown' in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain the information needed to answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is a list of British comedians and does not provide any information about their real names or stage names. It is therefore irrelevant to the query, as it neither contains the answer nor any useful context that could help infer the answer."
+            },
+            "m.01qw2j5_117": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian who uses the stage name Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, indicating that Royston Vasey is the stage name for Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Anders Matthesen, a Danish stand-up comedian, actor, and rapper. It details his career, including his start in stand-up comedy and his various projects.",
+                "Document and Query Keywords Matching": "The document mentions 'stand-up comedian' but does not mention 'Royston Vasey' or 'real name'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown'.",
+                "Key Information Matching": "The document provides information about a stand-up comedian but does not mention Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the real name of Royston Vasey.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a different stand-up comedian, Anders Matthesen, and does not contain any information related to Royston Vasey or Roy Chubby Brown. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_5437_0": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian who is known by the stage name 'Royston Vasey'.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, indicating that Royston Vasey is the stage name for Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides a profile of Roy Chubby Brown, including his real name (Royston Vasey), birth details, career highlights, and comedic style.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'Roy Chubby Brown', which are the key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Roy Chubby Brown's real name is Royston Vasey, matching the answer directly.",
+                "Key Information Matching": "The document directly provides the information that Roy Chubby Brown's real name is Royston Vasey, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Roy Chubby Brown's real name is Royston Vasey.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's life and career, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact information needed to answer it. It not only provides the real name of the comedian but also additional context about his life and career, making it highly useful for understanding the query."
+            },
+            "m.01qw2j5_2": {
+                "Query Analysis": "The query seeks to identify the stand-up comedian who uses the stage name 'Royston Vasey'.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer reveals that the comedian with the real name Royston Vasey is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides a detailed biography of Anders 'Anden' Matthesen, a Danish stand-up comedian, actor, and rapper. It discusses his career, characters, and various projects he has been involved in.",
+                "Document and Query Keywords Matching": "The document mentions 'stand-up comedian' but does not reference 'Royston Vasey' or any other specific real names of comedians.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown' or any details related to him.",
+                "Key Information Matching": "The document focuses on Anders Matthesen and does not provide any information related to Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Anders Matthesen and does not mention or provide any relevant information about Royston Vasey or Roy Chubby Brown. Therefore, it is irrelevant to the query."
+            },
+            "ott_24240_1": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian who is known by the stage name Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer identifies Roy Chubby Brown as the comedian with the real name Royston Vasey.",
+                "Document Content Analysis": "The document provides information about Richard Michael Mayall, an English comedian, actor, and writer. It details his career, partnerships, notable roles, and achievements.",
+                "Document and Query Keywords Matching": "The document does not mention 'Royston Vasey', 'Roy Chubby Brown', or any terms directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown' or any terms directly related to the answer keywords.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on Richard Michael Mayall, who is unrelated to Royston Vasey.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer the real name of Royston Vasey.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Richard Michael Mayall and does not provide any information related to Royston Vasey or Roy Chubby Brown. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_5437_16": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides a detailed biography of Roy Chubby Brown, including his early life, career, stage persona, and notable appearances. It mentions that his real name, Royston Vasey, was used as the namesake for a fictional town in the comedy television show 'The League of Gentlemen'.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'stand-up comedian'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Roy Chubby Brown' and 'Royston Vasey'.",
+                "Key Information Matching": "The document directly states that Roy Chubby Brown's real name is Royston Vasey, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Roy Chubby Brown's real name is Royston Vasey.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and the origin of the name Royston Vasey.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about the comedian's career and the origin of the name Royston Vasey, enhancing understanding of the query."
+            },
+            "triviaqa_5437_15": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, whose real name is Royston Vasey.",
+                "Document Content Analysis": "The document provides detailed information about Roy 'Chubby' Brown, including his real name (Royston Vasey), early life, career, and stage persona.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'Roy Chubby Brown', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Roy Chubby Brown (born Royston Vasey)', matching the answer.",
+                "Key Information Matching": "The document directly provides the real name of the comedian, Royston Vasey, and confirms that his stage name is Roy Chubby Brown.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Roy Chubby Brown's real name is Royston Vasey.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and background, which could be useful for understanding the query better.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer (Roy Chubby Brown's real name is Royston Vasey) and provides additional context about the comedian's life and career, enhancing understanding of the query."
+            },
+            "triviaqa_5437_1": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Roy 'Chubby' Brown, including his real name (Royston Vasey), birth details, and a description of his comedic style and stage persona. It also mentions his controversial nature and typical attire during performances.",
+                "Document and Query Keywords Matching": "The document mentions 'stand-up comedian', 'real name', and 'Royston Vasey'.",
+                "Document and Answer Keywords Matching": "The document includes 'Roy Chubby Brown', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Roy 'Chubby' Brown's real name is Royston Vasey, which matches the query's request.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the real name of the comedian as Royston Vasey.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy 'Chubby' Brown's career and persona.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the query, including the real name of the comedian and additional context about his career."
+            },
+            "nq_200527_12": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, which is the real name of the stand-up comedian known as Royston Vasey.",
+                "Document Content Analysis": "The document discusses the cast and production details of the movie 'Grown Ups 2,' including cameo appearances by various celebrities and stand-up comedians like Chris Hardwick. However, it does not mention Royston Vasey or Roy Chubby Brown.",
+                "Document and Query Keywords Matching": "The document mentions 'stand-up comedian' but does not mention 'Royston Vasey' or 'real name'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown'.",
+                "Key Information Matching": "The document does not provide any information related to Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not mention Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the real name of Royston Vasey.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a movie and its cast but does not mention Royston Vasey, Roy Chubby Brown, or any information that could assist in answering the query. Therefore, it is irrelevant."
+            },
+            "triviaqa_5437_19": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown.",
+                "Document Content Analysis": "The document discusses Roy Chubby Brown, including his career, releases, and legal issues. It also mentions that his real-life persona is Royston Vasey.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'stand-up comedian'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Roy Chubby Brown'.",
+                "Key Information Matching": "The document directly states that Royston Vasey is the real-life persona of Roy Chubby Brown, which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Royston Vasey is the real name of Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and persona.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the query, including the real name of the comedian and additional context about his career."
+            },
+            "m.015cjr_224": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, which is the real name of the stand-up comedian known as Royston Vasey.",
+                "Document Content Analysis": "The document lists various individuals and their professions, all of whom are presenters. There is no mention of stand-up comedians, Royston Vasey, or Roy Chubby Brown.",
+                "Document and Query Keywords Matching": "None of the query keywords ('stand-up comedian', 'real name', 'Royston Vasey') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Roy Chubby Brown') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to stand-up comedians, Royston Vasey, or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention any stand-up comedians, Royston Vasey, or Roy Chubby Brown, and provides no useful context or information that could assist in answering the query."
+            },
+            "ott_11012_0": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, which is the real name of the comedian known as Royston Vasey.",
+                "Document Content Analysis": "The document details the 2011 season of the Bradford Bulls rugby league football club, including player transfers and team information. It does not mention any stand-up comedians or the name Royston Vasey.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to stand-up comedians, Royston Vasey, or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the comedian or his real name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the topic of stand-up comedians or the name Royston Vasey.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a rugby league football club's season and player transfers, which is completely unrelated to the query about a stand-up comedian's real name. It provides no useful context or additional information relevant to the query."
+            },
+            "triviaqa_5437_20": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown.",
+                "Document Content Analysis": "The document discusses Roy Chubby Brown, a British comedian, and mentions that his stage persona is different from his real-life persona, Royston Vasey. It provides details about his career, his controversial style, and his personal life.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'stand-up comedian'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Roy Chubby Brown', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Royston Vasey is the real name of Roy Chubby Brown, which matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Royston Vasey as the real name of Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy Chubby Brown's career and personal life, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer. It also offers additional context about the comedian's career and personal life, which enhances understanding of the query. Therefore, the document is highly relevant."
+            },
+            "m.01pj2d_0": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, which is the real name of the stand-up comedian known as Royston Vasey.",
+                "Document Content Analysis": "The document provides information about Alexandra Wentworth, including her various names, descriptions, and career details. It does not mention Royston Vasey or Roy Chubby Brown.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query, such as 'stand-up comedian', 'real name', or 'Royston Vasey'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer, such as 'Roy Chubby Brown'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on Alexandra Wentworth, who is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide context for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Royston Vasey, Roy Chubby Brown, or any stand-up comedian. Therefore, it is irrelevant to the query and provides no useful context or information."
+            },
+            "nq_11596_6": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, which is the real name of the comedian known as Royston Vasey.",
+                "Document Content Analysis": "The document lists names of various British comedians and humorists, including links to their Wikipedia pages. It does not explicitly mention Royston Vasey or Roy Chubby Brown.",
+                "Document and Query Keywords Matching": "The document does not mention 'Royston Vasey' or 'stand-up comedian' directly.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown'.",
+                "Key Information Matching": "The document does not provide any information related to Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Royston Vasey or Roy Chubby Brown, nor does it provide any information that could help infer the answer."
+            },
+            "m.01qw2j5_117": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Anders Matthesen, a Danish stand-up comedian, actor, and rapper. It mentions his career, including his participation in the Danish Stand-Up Championship and his creation of memorable characters.",
+                "Document and Query Keywords Matching": "The document mentions 'stand-up comedian', which matches a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown' or any variation of the answer.",
+                "Key Information Matching": "The document discusses a stand-up comedian but does not provide any information about Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Answer the Query": "No, the document does not mention Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the real name of Royston Vasey.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a different stand-up comedian and does not provide any information related to Royston Vasey or Roy Chubby Brown. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_5437_0": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, which is the stage name of the comedian whose real name is Royston Vasey.",
+                "Document Content Analysis": "The document provides information about Roy 'Chubby' Brown, including his real name (Royston Vasey), his career as a comedian, and some details about his life and performances.",
+                "Document and Query Keywords Matching": "The document mentions 'Royston Vasey' and 'stand-up comedian'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Roy Chubby Brown' and 'Royston Vasey'.",
+                "Key Information Matching": "The document directly states that Roy 'Chubby' Brown's real name is Royston Vasey, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the real name of the comedian as Royston Vasey.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Roy 'Chubby' Brown's career and life, which could be useful for understanding the query better.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the query, including the real name of the comedian and additional context about his career."
+            },
+            "m.01qw2j5_2": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian whose stage name is Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown, which is the real name of the comedian known as Royston Vasey.",
+                "Document Content Analysis": "The document provides detailed information about Anders Matthesen, a Danish stand-up comedian, actor, and rapper. It describes his career, notable characters, and contributions to various projects, but does not mention Royston Vasey or Roy Chubby Brown.",
+                "Document and Query Keywords Matching": "The document mentions 'stand-up comedian', which matches a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Roy Chubby Brown' or 'Royston Vasey', so there are no matching keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information related to Royston Vasey or Roy Chubby Brown, so there is no key information matching the query or answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the real name of Royston Vasey.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a different stand-up comedian, Anders Matthesen, and does not provide any information related to Royston Vasey or Roy Chubby Brown. Therefore, it is irrelevant to the query."
+            },
+            "ott_24240_1": {
+                "Query Analysis": "The query asks for the real name of a stand-up comedian known as Royston Vasey.",
+                "Query Keywords Extraction": "stand-up comedian, real name, Royston Vasey",
+                "Answer Analysis": "The answer is Roy Chubby Brown.",
+                "Document Content Analysis": "The document provides information about Richard Michael Mayall, an English comedian, actor, and writer, detailing his career, notable works, and comedic style. It does not mention Royston Vasey or Roy Chubby Brown.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords ('stand-up comedian', 'real name', 'Royston Vasey').",
+                "Document and Answer Keywords Matching": "The document does not contain the answer keyword 'Roy Chubby Brown'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Royston Vasey or Roy Chubby Brown.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Richard Michael Mayall and does not contain any information related to the query or the answer. It is completely irrelevant to the topic of Royston Vasey or Roy Chubby Brown."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_5437_16": {},
+            "triviaqa_5437_15": {},
+            "triviaqa_5437_1": {},
+            "nq_200527_12": {},
+            "triviaqa_5437_19": {},
+            "m.015cjr_224": {},
+            "ott_11012_0": {},
+            "triviaqa_5437_20": {},
+            "m.01pj2d_0": {},
+            "nq_11596_6": {},
+            "m.01qw2j5_117": {},
+            "triviaqa_5437_0": {},
+            "m.01qw2j5_2": {},
+            "ott_24240_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_24240_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "triviaqa": 2,
+            "kg": 0,
+            "ott": 0,
+            "nq": 0,
+            "tat": 0
+        }
+    }
+}

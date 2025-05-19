@@ -1,0 +1,987 @@
+{
+    "index": 77380,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which Austrian wrote The Psychopathology of Everyday Life?",
+        "answer": "Freud",
+        "BM25_documents": [
+            {
+                "id": "nq_246775_40",
+                "score": 14.725099563598633
+            },
+            {
+                "id": "nq_246775_41",
+                "score": 14.663100242614746
+            },
+            {
+                "id": "nq_130641_5",
+                "score": 14.540599822998047
+            },
+            {
+                "id": "nq_1564_4",
+                "score": 14.54059886932373
+            },
+            {
+                "id": "nq_73299_4",
+                "score": 14.540597915649414
+            },
+            {
+                "id": "nq_55806_53",
+                "score": 11.531900405883789
+            },
+            {
+                "id": "m.0k1b_31",
+                "score": 10.694999694824219
+            },
+            {
+                "id": "triviaqa_4338_26",
+                "score": 10.638099670410156
+            },
+            {
+                "id": "m.0k1b_102",
+                "score": 10.348299980163574
+            },
+            {
+                "id": "m.0k1b_66",
+                "score": 10.276300430297852
+            },
+            {
+                "id": "m.04306rv_10481",
+                "score": 10.239800453186035
+            },
+            {
+                "id": "m.0k1b_103",
+                "score": 10.23270034790039
+            },
+            {
+                "id": "m.0k1b_67",
+                "score": 10.223400115966797
+            },
+            {
+                "id": "m.04306rv_10482",
+                "score": 10.150199890136719
+            },
+            {
+                "id": "m.04306rv_816",
+                "score": 10.150198936462402
+            },
+            {
+                "id": "m.04306rv_815",
+                "score": 10.062199592590332
+            },
+            {
+                "id": "triviaqa_66853_47",
+                "score": 9.814499855041504
+            },
+            {
+                "id": "nq_73680_3",
+                "score": 9.368399620056152
+            },
+            {
+                "id": "triviaqa_26776_483",
+                "score": 9.203499794006348
+            },
+            {
+                "id": "triviaqa_26776_484",
+                "score": 9.056599617004395
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_753_1",
+                "score": 4.504598140716553
+            },
+            {
+                "id": "tat_753_0",
+                "score": 4.274570941925049
+            },
+            {
+                "id": "tat_2107_1",
+                "score": 4.101597309112549
+            },
+            {
+                "id": "tat_2107_0",
+                "score": 4.052478790283203
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_11093_1",
+                "score": 6.397799968719482
+            },
+            {
+                "id": "ott_8457_1",
+                "score": 6.397799015045166
+            },
+            {
+                "id": "ott_19274_1",
+                "score": 5.937099933624268
+            },
+            {
+                "id": "ott_33891_1",
+                "score": 5.937098979949951
+            },
+            {
+                "id": "ott_3644_1",
+                "score": 5.937098026275635
+            },
+            {
+                "id": "ott_8153_1",
+                "score": 5.937097072601318
+            },
+            {
+                "id": "ott_10449_1",
+                "score": 5.565800189971924
+            },
+            {
+                "id": "ott_10842_1",
+                "score": 5.565799236297607
+            },
+            {
+                "id": "ott_1653_1",
+                "score": 5.565798282623291
+            },
+            {
+                "id": "ott_34194_1",
+                "score": 5.565797328948975
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_246775_40",
+                "score": 14.725099563598633
+            },
+            {
+                "id": "nq_246775_41",
+                "score": 14.663100242614746
+            },
+            {
+                "id": "nq_130641_5",
+                "score": 14.540599822998047
+            },
+            {
+                "id": "nq_1564_4",
+                "score": 14.54059886932373
+            },
+            {
+                "id": "nq_73299_4",
+                "score": 14.540597915649414
+            },
+            {
+                "id": "nq_55806_53",
+                "score": 11.531900405883789
+            },
+            {
+                "id": "nq_73680_3",
+                "score": 9.368399620056152
+            },
+            {
+                "id": "nq_62816_5",
+                "score": 8.813699722290039
+            },
+            {
+                "id": "nq_111237_11",
+                "score": 8.744000434875488
+            },
+            {
+                "id": "nq_111237_12",
+                "score": 8.625900268554688
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_4338_26",
+                "score": 10.638099670410156
+            },
+            {
+                "id": "triviaqa_66853_47",
+                "score": 9.814499855041504
+            },
+            {
+                "id": "triviaqa_26776_483",
+                "score": 9.203499794006348
+            },
+            {
+                "id": "triviaqa_26776_484",
+                "score": 9.056599617004395
+            },
+            {
+                "id": "triviaqa_8332_25",
+                "score": 9.053899765014648
+            },
+            {
+                "id": "triviaqa_49968_14",
+                "score": 8.943499565124512
+            },
+            {
+                "id": "triviaqa_66853_48",
+                "score": 8.866800308227539
+            },
+            {
+                "id": "triviaqa_66853_17",
+                "score": 8.820500373840332
+            },
+            {
+                "id": "triviaqa_55878_21",
+                "score": 8.807900428771973
+            },
+            {
+                "id": "triviaqa_47391_2",
+                "score": 8.7608003616333
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0k1b_31",
+                "score": 10.694999694824219
+            },
+            {
+                "id": "m.0k1b_102",
+                "score": 10.348299980163574
+            },
+            {
+                "id": "m.0k1b_66",
+                "score": 10.276300430297852
+            },
+            {
+                "id": "m.04306rv_10481",
+                "score": 10.239800453186035
+            },
+            {
+                "id": "m.0k1b_103",
+                "score": 10.23270034790039
+            },
+            {
+                "id": "m.0k1b_67",
+                "score": 10.223400115966797
+            },
+            {
+                "id": "m.04306rv_10482",
+                "score": 10.150199890136719
+            },
+            {
+                "id": "m.04306rv_816",
+                "score": 10.150198936462402
+            },
+            {
+                "id": "m.04306rv_815",
+                "score": 10.062199592590332
+            },
+            {
+                "id": "m.06y8v_332",
+                "score": 7.995200157165527
+            },
+            {
+                "id": "m.0f2nf_655",
+                "score": 7.983500003814697
+            },
+            {
+                "id": "m.0k1b_107",
+                "score": 7.132299900054932
+            },
+            {
+                "id": "m.0k1b_32",
+                "score": 7.096099853515625
+            },
+            {
+                "id": "m.0jcx_261",
+                "score": 7.083399772644043
+            },
+            {
+                "id": "m.0k1b_70",
+                "score": 7.0553998947143555
+            },
+            {
+                "id": "m.01cx__358",
+                "score": 6.942299842834473
+            },
+            {
+                "id": "m.0k1b_69",
+                "score": 6.8805999755859375
+            },
+            {
+                "id": "m.085wn_109",
+                "score": 6.7769999504089355
+            },
+            {
+                "id": "m.06y8v_359",
+                "score": 6.667099952697754
+            },
+            {
+                "id": "m.0h7x_2933",
+                "score": 6.587900161743164
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.04306rv_10482",
+                "score": 0.6683499217033386
+            },
+            {
+                "id": "nq_130641_5",
+                "score": 0.6585094332695007
+            },
+            {
+                "id": "m.04306rv_10481",
+                "score": 0.6443801522254944
+            },
+            {
+                "id": "nq_1564_4",
+                "score": 0.6311688423156738
+            },
+            {
+                "id": "nq_30480_88",
+                "score": 0.6304240822792053
+            },
+            {
+                "id": "nq_30480_86",
+                "score": 0.63005131483078
+            },
+            {
+                "id": "triviaqa_66328_94",
+                "score": 0.6260002255439758
+            },
+            {
+                "id": "nq_94972_20",
+                "score": 0.6220598220825195
+            },
+            {
+                "id": "nq_30480_107",
+                "score": 0.6196034550666809
+            },
+            {
+                "id": "nq_157301_99",
+                "score": 0.6175608038902283
+            },
+            {
+                "id": "nq_44925_169",
+                "score": 0.617129921913147
+            },
+            {
+                "id": "nq_30480_87",
+                "score": 0.616863489151001
+            },
+            {
+                "id": "nq_73299_4",
+                "score": 0.61674964427948
+            },
+            {
+                "id": "nq_55806_52",
+                "score": 0.6135189533233643
+            },
+            {
+                "id": "nq_30480_85",
+                "score": 0.6134465932846069
+            },
+            {
+                "id": "nq_186124_56",
+                "score": 0.6120423674583435
+            },
+            {
+                "id": "nq_94972_21",
+                "score": 0.6099795699119568
+            },
+            {
+                "id": "nq_30480_97",
+                "score": 0.609011709690094
+            },
+            {
+                "id": "m.043tg_117",
+                "score": 0.607897937297821
+            },
+            {
+                "id": "nq_30480_89",
+                "score": 0.6067246198654175
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_130641_5",
+                "score": 0.6585094332695007
+            },
+            {
+                "id": "nq_1564_4",
+                "score": 0.6311688423156738
+            },
+            {
+                "id": "nq_30480_88",
+                "score": 0.6304240822792053
+            },
+            {
+                "id": "nq_30480_86",
+                "score": 0.63005131483078
+            },
+            {
+                "id": "nq_94972_20",
+                "score": 0.6220598220825195
+            },
+            {
+                "id": "nq_30480_107",
+                "score": 0.6196034550666809
+            },
+            {
+                "id": "nq_157301_99",
+                "score": 0.6175608038902283
+            },
+            {
+                "id": "nq_44925_169",
+                "score": 0.617129921913147
+            },
+            {
+                "id": "nq_30480_87",
+                "score": 0.616863489151001
+            },
+            {
+                "id": "nq_73299_4",
+                "score": 0.61674964427948
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_66328_94",
+                "score": 0.6260002255439758
+            },
+            {
+                "id": "triviaqa_1698_154",
+                "score": 0.6044954657554626
+            },
+            {
+                "id": "triviaqa_20518_269",
+                "score": 0.6001031994819641
+            },
+            {
+                "id": "triviaqa_17491_13",
+                "score": 0.5962530374526978
+            },
+            {
+                "id": "triviaqa_26506_155",
+                "score": 0.5951701402664185
+            },
+            {
+                "id": "triviaqa_57877_218",
+                "score": 0.592738926410675
+            },
+            {
+                "id": "triviaqa_20518_273",
+                "score": 0.5919915437698364
+            },
+            {
+                "id": "triviaqa_74686_171",
+                "score": 0.5918738842010498
+            },
+            {
+                "id": "triviaqa_58465_263",
+                "score": 0.589943528175354
+            },
+            {
+                "id": "triviaqa_17491_15",
+                "score": 0.589737057685852
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.04306rv_10482",
+                "score": 0.6683499217033386
+            },
+            {
+                "id": "m.04306rv_10481",
+                "score": 0.6443801522254944
+            },
+            {
+                "id": "m.043tg_117",
+                "score": 0.607897937297821
+            },
+            {
+                "id": "m.04306rv_2659",
+                "score": 0.6009029746055603
+            },
+            {
+                "id": "m.04306rv_5864",
+                "score": 0.5945460200309753
+            },
+            {
+                "id": "m.043tg_13",
+                "score": 0.5920757055282593
+            },
+            {
+                "id": "m.04306rv_816",
+                "score": 0.589107871055603
+            },
+            {
+                "id": "m.04306rv_13652",
+                "score": 0.5869710445404053
+            },
+            {
+                "id": "m.06lbp_18",
+                "score": 0.5861219167709351
+            },
+            {
+                "id": "m.043tg_9",
+                "score": 0.5833183526992798
+            },
+            {
+                "id": "m.043tg_127",
+                "score": 0.579538106918335
+            },
+            {
+                "id": "m.0h7x_542",
+                "score": 0.5761119723320007
+            },
+            {
+                "id": "m.04306rv_17187",
+                "score": 0.5757725834846497
+            },
+            {
+                "id": "m.04306rv_24749",
+                "score": 0.5732358694076538
+            },
+            {
+                "id": "m.04306rv_12086",
+                "score": 0.5720884203910828
+            },
+            {
+                "id": "m.043tg_112",
+                "score": 0.5716763138771057
+            },
+            {
+                "id": "m.043tg_42",
+                "score": 0.5697628259658813
+            },
+            {
+                "id": "m.04306rv_14439",
+                "score": 0.5697067975997925
+            },
+            {
+                "id": "m.04306rv_6000",
+                "score": 0.5696052312850952
+            },
+            {
+                "id": "m.043tg_15",
+                "score": 0.5673778653144836
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, wrote the book.",
+                "Document Content Analysis": "The document provides historical information about various events and publications from the 16th century, including details about explorers, herbal books, and the introduction of crops.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Austrian', 'wrote', 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on historical events and botanical information, which is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses historical events and botanical publications from the 16th century, which have no connection to the Austrian author or the book mentioned in the query. Therefore, it is deemed irrelevant."
+            },
+            "nq_30480_88": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, wrote the book.",
+                "Document Content Analysis": "The document lists various psychological works and their publication details, but does not explicitly mention 'The Psychopathology of Everyday Life' or 'Freud'.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords ('Austrian', 'wrote', 'The Psychopathology of Everyday Life').",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud'.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention 'The Psychopathology of Everyday Life', 'Freud', or any related key information that could assist in answering the query."
+            },
+            "ott_11093_1": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, wrote the book.",
+                "Document Content Analysis": "The document provides a list of films made during the Second World War in 1944, including their titles, directors, and brief descriptions of their plots or themes. The document primarily focuses on war-related films from various countries.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely about war films and does not touch on Austrian authors or psychological works.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on war films from the 1940s and does not provide any information about Austrian authors or psychological literature. Therefore, it is irrelevant to the query."
+            },
+            "m.04306rv_10481": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author who wrote the book.",
+                "Document Content Analysis": "The document appears to be a list of works and their associated languages, including references to 'The Psychopathology of Everyday Life' and its original language being German. It also mentions other works and individuals, but does not explicitly state the author of 'The Psychopathology of Everyday Life'.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud'.",
+                "Key Information Matching": "The document contains the title 'The Psychopathology of Everyday Life', which is a key component of the query, but lacks the author's name.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Freud wrote 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context that 'The Psychopathology of Everyday Life' is a significant work, which could be useful in a broader search for its author.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions the title of the book in question, which is a key part of the query. However, it does not provide the direct answer (the author's name) and therefore cannot fully answer the query. It does, however, provide some context that could be useful in further research."
+            },
+            "nq_130641_5": {
+                "Query Analysis": "The query asks for the identity of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the book.",
+                "Document Content Analysis": "The document lists several individuals and important works in the field of psychology, including the book 'The Psychopathology of Everyday Life'. However, it does not explicitly mention the author of the book or their nationality.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud'.",
+                "Key Information Matching": "The document mentions the book 'The Psychopathology of Everyday Life', which is a key part of the query, but does not provide information about its author or their nationality.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the author or their nationality.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks the necessary information to infer the author's identity or nationality.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions the book in question, it does not provide any information about its author or their nationality, which are crucial to answering the query. Therefore, it is irrelevant to the query."
+            },
+            "tat_753_1": {
+                "Query Analysis": "The query seeks to identify the Austrian author of the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, wrote the book.",
+                "Document Content Analysis": "The document discusses financial aspects related to patents and intangible assets, including amortization periods and write-offs. It is focused on financial reporting and does not mention any literary works or authors.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Austrian', 'wrote', or 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely unrelated to the topic of the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that could directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on financial aspects of patents and intangible assets, which have no connection to the topic of Austrian authors or the specific book mentioned in the query. Therefore, it is judged as irrelevant."
+            },
+            "nq_1564_4": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author who wrote the book.",
+                "Document Content Analysis": "The document lists several important works in psychoanalysis, including 'The Psychopathology of Everyday Life', but does not explicitly mention the author's name or nationality.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud'.",
+                "Key Information Matching": "The document lists 'The Psychopathology of Everyday Life' as an important work, which is a key piece of information related to the query.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Freud wrote 'The Psychopathology of Everyday Life' or mention his nationality.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a list of important works in psychoanalysis, which can help infer that 'The Psychopathology of Everyday Life' is a significant work in the field, potentially leading to the conclusion that a major figure in psychoanalysis, like Freud, wrote it.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the query by listing 'The Psychopathology of Everyday Life' as an important work, but it lacks the necessary detail (author's name and nationality) to directly answer it. However, it can help infer additional information that might lead to the correct answer."
+            },
+            "nq_246775_41": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, wrote the book.",
+                "Document Content Analysis": "The document lists several titles of books and essays, including 'The Psychopathology of Everyday Life'.",
+                "Document and Query Keywords Matching": "The document includes the exact phrase 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud'.",
+                "Key Information Matching": "The document contains the title of the book mentioned in the query, but does not provide the author's name.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Freud wrote 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document can help infer that the book is a significant work, possibly by a notable author, which could lead to further research identifying Freud as the author.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it mentions the book in question, which is a key part of the query. However, it lacks the direct information about the author, making it insufficient to fully answer the query but still useful for inferential purposes."
+            },
+            "m.0k1b_31": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author who wrote the book.",
+                "Document Content Analysis": "The document provides information about Austrian German, the national standard variety of the German language spoken in Austria. It discusses the characteristics of Austrian German, its usage, and its relationship with other German dialects and Standard German. The document also mentions various contexts where Austrian German is spoken or used, including in media and by different groups of people.",
+                "Document and Query Keywords Matching": "The document mentions 'Austrian', but does not mention 'The Psychopathology of Everyday Life' or any author.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud'.",
+                "Key Information Matching": "The document only matches the keyword 'Austrian' from the query but does not provide any information related to the book 'The Psychopathology of Everyday Life' or its author.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the Austrian German language and does not provide any information related to the specific book or author in question. Therefore, it is irrelevant to the query."
+            },
+            "nq_246775_40": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author who wrote the book.",
+                "Document Content Analysis": "The document lists various books written by Sigmund Freud, including 'The Psychopathology of Everyday Life'.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Sigmund Freud', which is the answer to the query.",
+                "Key Information Matching": "The document directly lists 'The Psychopathology of Everyday Life' as one of the books written by Sigmund Freud, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by listing 'The Psychopathology of Everyday Life' under Sigmund Freud's works.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other works by Sigmund Freud, reinforcing his identity as the author.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly lists 'The Psychopathology of Everyday Life' as a work by Sigmund Freud, thus providing a direct answer to the query. The additional list of Freud's other works further supports the relevance and context."
+            },
+            "triviaqa_66328_94": {
+                "Query Analysis": "The query asks for the identity of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the mentioned book.",
+                "Document Content Analysis": "The document discusses personality disturbances of Kaiser Wilhelm II, referencing various historical and biographical sources. It mentions figures like Hitler and Lovis Corinth but does not reference Freud or any of his works.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords ('Austrian', 'wrote', 'The Psychopathology of Everyday Life').",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information related to the query or the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on historical figures and events unrelated to Freud or his works, providing no useful context or information that could help answer the query."
+            },
+            "m.0k1b_102": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, wrote the book.",
+                "Document Content Analysis": "The document provides information about Austrian German, the national standard variety of the German language spoken in Austria and Italy. It discusses the characteristics, usage, and official status of Austrian German.",
+                "Document and Query Keywords Matching": "The document mentions 'Austrian', but does not mention 'wrote' or 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud'.",
+                "Key Information Matching": "The document only matches the keyword 'Austrian', but does not provide any information related to the book 'The Psychopathology of Everyday Life' or its author.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the topic of Austrian German and does not provide any information related to the query about the author of 'The Psychopathology of Everyday Life'. Therefore, it is irrelevant to the query."
+            },
+            "nq_73299_4": {
+                "Query Analysis": "The query asks for the identity of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the book.",
+                "Document Content Analysis": "The document lists various important works and mentions 'The Psychopathology of Everyday Life' among them. However, it does not explicitly state the author's name or nationality.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud'.",
+                "Key Information Matching": "The document lists 'The Psychopathology of Everyday Life' as an important work, which is a key piece of information related to the query.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Freud wrote 'The Psychopathology of Everyday Life' or that he is Austrian.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a list of important works which includes the book in question, suggesting that it is a significant work in the field of psychoanalysis, which can help infer the author's identity if the user has prior knowledge.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions the book 'The Psychopathology of Everyday Life', which is central to the query. However, it lacks explicit information about the author's identity and nationality, making it insufficient to directly answer the query but still useful for inferring additional information."
+            },
+            "m.04306rv_10482": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote the book 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, wrote the book.",
+                "Document Content Analysis": "The document primarily lists various works and their original languages, focusing on the German language. It mentions 'The Psychopathology of Everyday Life' and states that its original language is German.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life', which is a key phrase from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any author's name.",
+                "Key Information Matching": "While the document identifies the original language of the book, it does not provide information about the author.",
+                "Can the Document Answer the Query": "No, the document does not specify the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any information about the author or any context that could help infer the author's identity.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only provides information about the original language of the book and does not mention the author. It cannot answer the query or help infer additional relevant information."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, is the author of the mentioned book.",
+                "Document Content Analysis": "The document discusses various historical events and figures from the 16th century, including explorers, herbalists, and the introduction of crops like sweet potatoes. It does not mention Sigmund Freud or 'The Psychopathology of Everyday Life'.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Austrian', 'wrote', 'The Psychopathology of Everyday Life') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Freud' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Sigmund Freud, his works, or Austrian authors.",
+                "Can the Document Answer the Query": "No, the document does not mention Sigmund Freud or 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses historical events and figures from the 16th century, none of which are connected to Sigmund Freud, Austrian authors, or 'The Psychopathology of Everyday Life'. Therefore, the document is irrelevant to the query."
+            },
+            "nq_30480_88": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the mentioned book.",
+                "Document Content Analysis": "The document lists various works related to psychology, including titles, authors, and publication details. However, it does not mention 'The Psychopathology of Everyday Life' or Sigmund Freud.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Austrian', 'wrote', or 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any related information.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses on other psychological works and authors.",
+                "Can the Document Answer the Query": "No, the document does not mention 'The Psychopathology of Everyday Life' or Sigmund Freud.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention 'The Psychopathology of Everyday Life', Sigmund Freud, or any related information. It focuses on entirely different psychological works and authors."
+            },
+            "ott_11093_1": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', referring to Sigmund Freud, the Austrian neurologist and founder of psychoanalysis.",
+                "Document Content Analysis": "The document lists various films made during the Second World War, including their titles, directors, and brief descriptions. It does not mention 'The Psychopathology of Everyday Life' or Sigmund Freud.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords ('Austrian', 'wrote', 'The Psychopathology of Everyday Life').",
+                "Document and Answer Keywords Matching": "The document does not contain the answer keyword 'Freud'.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses on films made during World War II, which is unrelated to the topic of psychoanalysis or Sigmund Freud.",
+                "Can the Document Answer the Query": "No, the document does not mention 'The Psychopathology of Everyday Life' or Sigmund Freud.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide context for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses films made during World War II and does not mention 'The Psychopathology of Everyday Life', Sigmund Freud, or any related topics. Therefore, it is irrelevant to the query."
+            },
+            "m.04306rv_10481": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author who wrote the book.",
+                "Document Content Analysis": "The document contains metadata about various works, including 'The Psychopathology of Everyday Life', and mentions languages such as German. However, it does not explicitly name the author of the book.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life' and 'German Language', which partially matches the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any other author's name.",
+                "Key Information Matching": "The document mentions 'The Psychopathology of Everyday Life' and its original language (German), but it does not provide the name of the Austrian author.",
+                "Can the Document Answer the Query": "No, the document does not name the Austrian author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the author's name or nationality.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'The Psychopathology of Everyday Life' and its original language, but it does not provide any information about the author or their nationality. Therefore, it is irrelevant to the query."
+            },
+            "nq_130641_5": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the mentioned work.",
+                "Document Content Analysis": "The document lists important works in psychology, including 'The Psychopathology of Everyday Life', and mentions various psychologists and schools of thought. However, it does not explicitly state the author of the work.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life', which matches the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any other Austrian author explicitly in connection with 'The Psychopathology of Everyday Life'.",
+                "Key Information Matching": "The document mentions 'The Psychopathology of Everyday Life' but does not provide the author's name or nationality, which are key to answering the query.",
+                "Can the Document Answer the Query": "No, the document does not directly state the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the author's identity or nationality.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'The Psychopathology of Everyday Life', which is relevant to the query, but it does not provide any information about the author or their nationality. Therefore, it cannot assist in answering the query or inferring additional information, making it irrelevant."
+            },
+            "tat_753_1": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud, an Austrian, is the author of the mentioned book.",
+                "Document Content Analysis": "The document discusses intangible assets, patents, amortization, and write-offs related to financial reporting. It does not mention any authors, books, or Austrian-related content.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Austrian', 'wrote', 'The Psychopathology of Everyday Life') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Freud' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer. It focuses entirely on financial and intangible asset reporting.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about the author or the book.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention any authors, books, or Austrian-related content, nor does it provide any context that could assist in answering the query. Therefore, it is irrelevant."
+            },
+            "nq_1564_4": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the mentioned work.",
+                "Document Content Analysis": "The document lists important works in psychoanalysis, including 'The Psychopathology of Everyday Life', and mentions various figures in the field, but does not explicitly state the author of the work.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life', which matches the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud' in the provided text.",
+                "Key Information Matching": "The document lists 'The Psychopathology of Everyday Life' as an important work but does not directly link it to Freud or specify the author's nationality.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Freud wrote 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document lists 'The Psychopathology of Everyday Life' as an important work, which could lead to further research or inference about its author.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions 'The Psychopathology of Everyday Life', a key element of the query, but it does not provide the author's name or nationality, which are necessary to answer the query directly."
+            },
+            "nq_246775_41": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the mentioned book.",
+                "Document Content Analysis": "The document lists various works attributed to Sigmund Freud, including 'The Psychopathology of Everyday Life', along with other essays and books.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life', which matches the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud' or 'Austrian', but the works listed are commonly associated with Sigmund Freud, an Austrian.",
+                "Key Information Matching": "The document lists 'The Psychopathology of Everyday Life' among other works by Sigmund Freud, an Austrian, which matches the query's key information.",
+                "Can the Document Answer the Query": "Yes, the document lists 'The Psychopathology of Everyday Life' among Freud's works, directly answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides a list of Freud's works, reinforcing the connection between Freud and the book in question.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly lists 'The Psychopathology of Everyday Life' among Sigmund Freud's works, which directly answers the query. Additionally, it provides context by listing other works by Freud, reinforcing the connection between Freud and the book."
+            },
+            "m.0k1b_31": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the mentioned book.",
+                "Document Content Analysis": "The document discusses Austrian German, its usage, and its relation to other languages. It mentions various contexts where Austrian German is spoken but does not provide information about authors or books.",
+                "Document and Query Keywords Matching": "The document mentions 'Austrian' in the context of language and culture.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any authors.",
+                "Key Information Matching": "The document does not provide any information about authors, books, or 'The Psychopathology of Everyday Life'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Freud' or any information about the book.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Austrian authors or literature.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the topic of Austrian German and its linguistic characteristics. It does not mention 'Freud', 'The Psychopathology of Everyday Life', or any related information. Therefore, it is irrelevant to the query."
+            },
+            "nq_246775_40": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', referring to Sigmund Freud, the Austrian neurologist and founder of psychoanalysis.",
+                "Document Content Analysis": "The document is a Wikipedia template about Sigmund Freud, listing his notable works, including 'The Psychopathology of Everyday Life'.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life', which matches the query.",
+                "Document and Answer Keywords Matching": "The document is about Sigmund Freud, who is the answer to the query.",
+                "Key Information Matching": "The document directly mentions 'The Psychopathology of Everyday Life' and is about Sigmund Freud, the Austrian author of the book.",
+                "Can the Document Answer the Query": "Yes, the document directly identifies Sigmund Freud as the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Sigmund Freud and his works, which is relevant to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query, as it identifies Sigmund Freud as the Austrian author of 'The Psychopathology of Everyday Life'. It also provides additional information about Freud's other works, enhancing understanding of the query."
+            },
+            "triviaqa_66328_94": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author who wrote the book.",
+                "Document Content Analysis": "The document discusses historical figures and events, primarily focusing on Kaiser Wilhelm II and his personality traits, as well as some references to Munich's artistic and literary scene. There is no mention of Sigmund Freud or 'The Psychopathology of Everyday Life'.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Austrian', 'wrote', 'The Psychopathology of Everyday Life') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Freud' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Sigmund Freud or his works, including 'The Psychopathology of Everyday Life'.",
+                "Can the Document Answer the Query": "No, the document does not mention Sigmund Freud or his works.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Sigmund Freud, 'The Psychopathology of Everyday Life', or any Austrian authors. Therefore, it is irrelevant to the query and cannot assist in answering it or providing additional context."
+            },
+            "m.0k1b_102": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', referring to Sigmund Freud, the Austrian neurologist and founder of psychoanalysis.",
+                "Document Content Analysis": "The document discusses Austrian German, its variations, and its usage in Austria and South Tyrol. It does not mention Sigmund Freud or his works.",
+                "Document and Query Keywords Matching": "The document mentions 'Austrian' in the context of Austrian German, but does not mention 'The Psychopathology of Everyday Life' or any author.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any related terms.",
+                "Key Information Matching": "The document does not provide any information about Sigmund Freud or his works, nor does it mention 'The Psychopathology of Everyday Life'.",
+                "Can the Document Answer the Query": "No, the document does not mention Sigmund Freud or his works.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Austrian German and its linguistic variations. It does not mention Sigmund Freud, his works, or any information related to 'The Psychopathology of Everyday Life'. Therefore, it is irrelevant to the query."
+            },
+            "nq_73299_4": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', indicating that Sigmund Freud is the Austrian author of the mentioned work.",
+                "Document Content Analysis": "The document lists important works in psychology, including 'The Psychopathology of Everyday Life', but does not explicitly mention the author's name or nationality.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life', which matches the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any other Austrian author explicitly.",
+                "Key Information Matching": "The document contains the title 'The Psychopathology of Everyday Life', which is directly related to the query, but lacks information about the author or their nationality.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state the author's name or nationality.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that 'The Psychopathology of Everyday Life' is a significant work in psychology, which could lead to further research to identify the author.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions the work in question but does not provide the necessary information about the author or their nationality to directly answer the query."
+            },
+            "m.04306rv_10482": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is 'Freud', referring to Sigmund Freud, the Austrian neurologist and founder of psychoanalysis.",
+                "Document Content Analysis": "The document mentions 'The Psychopathology of Everyday Life' and its original language, German. However, it does not provide any information about the author or their nationality.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life', which matches a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Freud' or any other author.",
+                "Key Information Matching": "The document mentions 'The Psychopathology of Everyday Life' but does not provide any information about the author or their nationality, which are key to answering the query.",
+                "Can the Document Answer the Query": "No, the document does not mention the author or their nationality.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the author or their nationality.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'The Psychopathology of Everyday Life', which is relevant to the query, but it does not provide any information about the author or their nationality. Therefore, it is irrelevant to answering the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_4338_26": {},
+            "nq_30480_88": {},
+            "ott_11093_1": {},
+            "m.04306rv_10481": {
+                "Query Analysis": "The query asks for the name of the Austrian author who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, author, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer is Freud.",
+                "Document Content Analysis": "The document seems to contain information related to various works and their languages. It mentions 'The Psychopathology of Everyday Life' and notes its original language as German, but it does not provide information about the author.",
+                "Document and Query Keywords Matching": "'The Psychopathology of Everyday Life' and 'German language' are mentioned, but there is no mention of Austria or an author.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud' or any equivalent.",
+                "Key Information Matching": "The document acknowledges 'The Psychopathology of Everyday Life' and its connection to the German language, but it does not relate to the Austrian author aspect or provide any indication of who wrote it.",
+                "Can the Document Answer the Query": "No, the document does not identify the author of 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while it mentions the original language of the work, it lacks context for further inference about the author.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not provide any useful information regarding the query about the Austrian author of 'The Psychopathology of Everyday Life'. It lacks both the direct answer and any contextual clues that could help infer who the author is."
+            },
+            "nq_130641_5": {},
+            "tat_753_1": {},
+            "nq_1564_4": {},
+            "nq_246775_41": {
+                "Query Analysis": "The query is asking for the author, specifically an Austrian, who wrote 'The Psychopathology of Everyday Life'.",
+                "Query Keywords Extraction": "Austrian, wrote, The Psychopathology of Everyday Life",
+                "Answer Analysis": "The answer to the query is 'Freud'.",
+                "Document Content Analysis": "The document lists several works, including 'The Psychopathology of Everyday Life' and other psychoanalytic essays and texts.",
+                "Document and Query Keywords Matching": "The document mentions 'The Psychopathology of Everyday Life'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Freud'.",
+                "Key Information Matching": "The document lists 'The Psychopathology of Everyday Life' among other psychoanalytic works, but does not directly associate it with an author.",
+                "Can the Document Answer the Query": "No, the document does not specify who wrote 'The Psychopathology of Everyday Life'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, without additional context or the mention of Freud, it does not help infer that Freud is the author, despite the work being listed.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document lists the book 'The Psychopathology of Everyday Life', it does not provide information about the author, Freud, nor does it connect the book to him, which is necessary to answer the query or assist in inferring the answer. Therefore, it does not provide useful context in terms of related key information."
+            },
+            "m.0k1b_31": {},
+            "nq_246775_40": {},
+            "triviaqa_66328_94": {},
+            "m.0k1b_102": {},
+            "nq_73299_4": {},
+            "m.04306rv_10482": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "kg": 0,
+            "nq": 4,
+            "tat": 0,
+            "ott": 0,
+            "triviaqa": 0
+        }
+    }
+}

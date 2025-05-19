@@ -1,0 +1,970 @@
+{
+    "index": 76781,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "When was the Scrabble World championship first held?",
+        "answer": "1991",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_367_5",
+                "score": 18.623600006103516
+            },
+            {
+                "id": "triviaqa_367_0",
+                "score": 17.928699493408203
+            },
+            {
+                "id": "triviaqa_367_3",
+                "score": 17.713899612426758
+            },
+            {
+                "id": "triviaqa_367_2",
+                "score": 17.61949920654297
+            },
+            {
+                "id": "triviaqa_367_6",
+                "score": 17.617399215698242
+            },
+            {
+                "id": "triviaqa_367_12",
+                "score": 17.339799880981445
+            },
+            {
+                "id": "triviaqa_367_13",
+                "score": 17.29680061340332
+            },
+            {
+                "id": "triviaqa_367_11",
+                "score": 17.248199462890625
+            },
+            {
+                "id": "triviaqa_367_4",
+                "score": 17.021299362182617
+            },
+            {
+                "id": "triviaqa_367_14",
+                "score": 16.683000564575195
+            },
+            {
+                "id": "triviaqa_367_1",
+                "score": 16.55459976196289
+            },
+            {
+                "id": "triviaqa_26212_17",
+                "score": 15.89169979095459
+            },
+            {
+                "id": "triviaqa_67658_17",
+                "score": 15.891698837280273
+            },
+            {
+                "id": "triviaqa_9295_15",
+                "score": 15.891697883605957
+            },
+            {
+                "id": "triviaqa_367_10",
+                "score": 15.87600040435791
+            },
+            {
+                "id": "triviaqa_367_15",
+                "score": 14.49489974975586
+            },
+            {
+                "id": "triviaqa_26212_16",
+                "score": 14.212800025939941
+            },
+            {
+                "id": "triviaqa_367_16",
+                "score": 13.758299827575684
+            },
+            {
+                "id": "triviaqa_367_9",
+                "score": 13.719300270080566
+            },
+            {
+                "id": "triviaqa_9295_14",
+                "score": 13.522899627685547
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_19810_1",
+                "score": 10.188400268554688
+            },
+            {
+                "id": "ott_33171_1",
+                "score": 10.188399314880371
+            },
+            {
+                "id": "ott_19310_1",
+                "score": 9.976400375366211
+            },
+            {
+                "id": "ott_2128_1",
+                "score": 9.976399421691895
+            },
+            {
+                "id": "ott_25791_1",
+                "score": 9.976398468017578
+            },
+            {
+                "id": "ott_3335_1",
+                "score": 9.976397514343262
+            },
+            {
+                "id": "ott_4893_1",
+                "score": 9.976396560668945
+            },
+            {
+                "id": "ott_28236_1",
+                "score": 9.90939998626709
+            },
+            {
+                "id": "ott_30422_1",
+                "score": 9.909399032592773
+            },
+            {
+                "id": "ott_37003_1",
+                "score": 9.909398078918457
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_134396_304",
+                "score": 12.850000381469727
+            },
+            {
+                "id": "nq_162223_170",
+                "score": 12.84999942779541
+            },
+            {
+                "id": "nq_170663_292",
+                "score": 12.849998474121094
+            },
+            {
+                "id": "nq_278422_292",
+                "score": 12.849997520446777
+            },
+            {
+                "id": "nq_131686_123",
+                "score": 12.849896430969238
+            },
+            {
+                "id": "nq_72566_296",
+                "score": 12.849895477294922
+            },
+            {
+                "id": "nq_425_106",
+                "score": 12.845100402832031
+            },
+            {
+                "id": "nq_243769_113",
+                "score": 12.840700149536133
+            },
+            {
+                "id": "nq_60991_94",
+                "score": 12.837900161743164
+            },
+            {
+                "id": "nq_82800_294",
+                "score": 12.830100059509277
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_367_5",
+                "score": 18.623600006103516
+            },
+            {
+                "id": "triviaqa_367_0",
+                "score": 17.928699493408203
+            },
+            {
+                "id": "triviaqa_367_3",
+                "score": 17.713899612426758
+            },
+            {
+                "id": "triviaqa_367_2",
+                "score": 17.61949920654297
+            },
+            {
+                "id": "triviaqa_367_6",
+                "score": 17.617399215698242
+            },
+            {
+                "id": "triviaqa_367_12",
+                "score": 17.339799880981445
+            },
+            {
+                "id": "triviaqa_367_13",
+                "score": 17.29680061340332
+            },
+            {
+                "id": "triviaqa_367_11",
+                "score": 17.248199462890625
+            },
+            {
+                "id": "triviaqa_367_4",
+                "score": 17.021299362182617
+            },
+            {
+                "id": "triviaqa_367_14",
+                "score": 16.683000564575195
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0125wfr4_0",
+                "score": 10.6673002243042
+            },
+            {
+                "id": "m.04q78bx_1",
+                "score": 9.179100036621094
+            },
+            {
+                "id": "m.04q78bx_2",
+                "score": 9.174699783325195
+            },
+            {
+                "id": "m.010s1gx9_1",
+                "score": 9.167499542236328
+            },
+            {
+                "id": "m.010s1gx9_0",
+                "score": 9.027299880981445
+            },
+            {
+                "id": "m.018n8_14",
+                "score": 8.51159954071045
+            },
+            {
+                "id": "m.03hggnl_6",
+                "score": 8.299799919128418
+            },
+            {
+                "id": "m.03hggnl_7",
+                "score": 8.299798965454102
+            },
+            {
+                "id": "m.025yq0y_1",
+                "score": 8.213199615478516
+            },
+            {
+                "id": "m.01rzxl_85",
+                "score": 8.21030044555664
+            },
+            {
+                "id": "m.02svkr_58",
+                "score": 8.096799850463867
+            },
+            {
+                "id": "m.0cny90__3",
+                "score": 8.004899978637695
+            },
+            {
+                "id": "m.0c5z5s_27",
+                "score": 7.854100227355957
+            },
+            {
+                "id": "m.02svkr_57",
+                "score": 7.740099906921387
+            },
+            {
+                "id": "m.0c5z5s_28",
+                "score": 7.662600040435791
+            },
+            {
+                "id": "m.04tfrv_4",
+                "score": 7.656499862670898
+            },
+            {
+                "id": "m.04tg8s_2",
+                "score": 7.636499881744385
+            },
+            {
+                "id": "m.04j7dq_7",
+                "score": 7.630499839782715
+            },
+            {
+                "id": "m.018n8_15",
+                "score": 7.608799934387207
+            },
+            {
+                "id": "m.025yq0y_0",
+                "score": 7.572400093078613
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_367_3",
+                "score": 0.7884736657142639
+            },
+            {
+                "id": "triviaqa_367_2",
+                "score": 0.7811412811279297
+            },
+            {
+                "id": "triviaqa_367_11",
+                "score": 0.7784247994422913
+            },
+            {
+                "id": "triviaqa_367_0",
+                "score": 0.7544655799865723
+            },
+            {
+                "id": "triviaqa_367_10",
+                "score": 0.7502455711364746
+            },
+            {
+                "id": "triviaqa_367_5",
+                "score": 0.7457062005996704
+            },
+            {
+                "id": "triviaqa_367_6",
+                "score": 0.7410475611686707
+            },
+            {
+                "id": "triviaqa_367_14",
+                "score": 0.7218409776687622
+            },
+            {
+                "id": "triviaqa_367_13",
+                "score": 0.7206055521965027
+            },
+            {
+                "id": "triviaqa_367_12",
+                "score": 0.7137125730514526
+            },
+            {
+                "id": "triviaqa_367_1",
+                "score": 0.7128422260284424
+            },
+            {
+                "id": "triviaqa_175_5",
+                "score": 0.7091305255889893
+            },
+            {
+                "id": "triviaqa_175_4",
+                "score": 0.7078447341918945
+            },
+            {
+                "id": "triviaqa_26212_4",
+                "score": 0.70027756690979
+            },
+            {
+                "id": "triviaqa_367_4",
+                "score": 0.6995145082473755
+            },
+            {
+                "id": "triviaqa_26212_39",
+                "score": 0.695867121219635
+            },
+            {
+                "id": "triviaqa_367_7",
+                "score": 0.6933373212814331
+            },
+            {
+                "id": "triviaqa_26212_38",
+                "score": 0.6930786371231079
+            },
+            {
+                "id": "triviaqa_26212_37",
+                "score": 0.6898725032806396
+            },
+            {
+                "id": "triviaqa_367_15",
+                "score": 0.6868462562561035
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_24481_0",
+                "score": 0.5824704766273499
+            },
+            {
+                "id": "ott_20075_0",
+                "score": 0.5824704766273499
+            },
+            {
+                "id": "ott_28349_0",
+                "score": 0.5824704766273499
+            },
+            {
+                "id": "ott_32276_0",
+                "score": 0.5824704766273499
+            },
+            {
+                "id": "ott_21023_2",
+                "score": 0.5802475810050964
+            },
+            {
+                "id": "ott_3144_2",
+                "score": 0.5802475810050964
+            },
+            {
+                "id": "ott_28224_2",
+                "score": 0.5802475810050964
+            },
+            {
+                "id": "ott_3083_2",
+                "score": 0.5802475810050964
+            },
+            {
+                "id": "ott_4990_2",
+                "score": 0.5802475810050964
+            },
+            {
+                "id": "ott_27680_1",
+                "score": 0.5797308683395386
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_60991_95",
+                "score": 0.6609576344490051
+            },
+            {
+                "id": "nq_82800_295",
+                "score": 0.6592342257499695
+            },
+            {
+                "id": "nq_243769_113",
+                "score": 0.6566610932350159
+            },
+            {
+                "id": "nq_162223_170",
+                "score": 0.6521938443183899
+            },
+            {
+                "id": "nq_20579_110",
+                "score": 0.6498066782951355
+            },
+            {
+                "id": "nq_82800_294",
+                "score": 0.6408392190933228
+            },
+            {
+                "id": "nq_425_107",
+                "score": 0.6407198905944824
+            },
+            {
+                "id": "nq_170663_292",
+                "score": 0.6405551433563232
+            },
+            {
+                "id": "nq_278422_292",
+                "score": 0.6405551433563232
+            },
+            {
+                "id": "nq_241521_100",
+                "score": 0.6362048983573914
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_367_3",
+                "score": 0.7884736657142639
+            },
+            {
+                "id": "triviaqa_367_2",
+                "score": 0.7811412811279297
+            },
+            {
+                "id": "triviaqa_367_11",
+                "score": 0.7784247994422913
+            },
+            {
+                "id": "triviaqa_367_0",
+                "score": 0.7544655799865723
+            },
+            {
+                "id": "triviaqa_367_10",
+                "score": 0.7502455711364746
+            },
+            {
+                "id": "triviaqa_367_5",
+                "score": 0.7457062005996704
+            },
+            {
+                "id": "triviaqa_367_6",
+                "score": 0.7410475611686707
+            },
+            {
+                "id": "triviaqa_367_14",
+                "score": 0.7218409776687622
+            },
+            {
+                "id": "triviaqa_367_13",
+                "score": 0.7206055521965027
+            },
+            {
+                "id": "triviaqa_367_12",
+                "score": 0.7137125730514526
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0400zd_7",
+                "score": 0.5891082286834717
+            },
+            {
+                "id": "m.0ct7_g_3",
+                "score": 0.576688289642334
+            },
+            {
+                "id": "m.02svkr_7",
+                "score": 0.5658086538314819
+            },
+            {
+                "id": "m.018g60_74",
+                "score": 0.559719443321228
+            },
+            {
+                "id": "m.018g60_73",
+                "score": 0.559231162071228
+            },
+            {
+                "id": "m.018g60_79",
+                "score": 0.5552953481674194
+            },
+            {
+                "id": "m.04tg7d_4",
+                "score": 0.5544887185096741
+            },
+            {
+                "id": "m.02jcw_242",
+                "score": 0.553934633731842
+            },
+            {
+                "id": "m.0k_l4_32",
+                "score": 0.5539311170578003
+            }
+        ],
+        "llm_mark_result": {
+            "m.0400zd_7": {
+                "Query Analysis": "The query seeks the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer indicates that the Scrabble World Championship was first held in 1991.",
+                "Document Content Analysis": "The document discusses the New Zealand national netball team, their achievements, competitions, and history in netball. It mentions the World Netball Championships and Commonwealth Games but focuses exclusively on netball.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query such as 'Scrabble World Championship', 'first held', or 'year'.",
+                "Document and Answer Keywords Matching": "The document does not mention the year '1991' or any context related to the Scrabble World Championship.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about netball, not Scrabble.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Scrabble World Championship.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about the New Zealand national netball team and their involvement in netball tournaments. It does not mention Scrabble or any related events. Therefore, it is irrelevant to the query about the Scrabble World Championship."
+            },
+            "triviaqa_367_11": {
+                "Query Analysis": "The query seeks to determine the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer indicates that the first Scrabble World Championship was held in 1991.",
+                "Document Content Analysis": "The document provides information about a specific Scrabble World Championship event in 2007, the history of Scrabble, and some trivia about high scores in Scrabble competitions. It also mentions that the competition has occurred every other year since 1991.",
+                "Document and Query Keywords Matching": "The document mentions 'Scrabble World Championship' and 'since 1991'.",
+                "Document and Answer Keywords Matching": "The document includes the year '1991' in the context of the frequency of the competition.",
+                "Key Information Matching": "The document states that the competition has occurred every other year since 1991, which implies that the first event was in 1991.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the competition has occurred every other year since 1991, indicating the first event was in 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the history and frequency of the competition.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly addresses the query by stating that the competition has occurred every other year since 1991, which directly answers when the first Scrabble World Championship was held. Additionally, it provides relevant context about the competition's history and frequency."
+            },
+            "triviaqa_367_3": {
+                "Query Analysis": "The query asks for the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year when the first Scrabble World Championship took place.",
+                "Document Content Analysis": "The document provides detailed information about the first Scrabble World Championship, including the year it was held, the location, the host, the number of players, the prize pool, and subsequent events. It also mentions the rules, notable players, and the evolution of the tournament over the years.",
+                "Document and Query Keywords Matching": "The document includes the exact phrase 'first Scrabble World Championship' and mentions '1991', which directly corresponds to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly states '1991' as the year the first championship was held, matching the answer directly.",
+                "Key Information Matching": "The document directly provides the key information asked in the query: the year when the first Scrabble World Championship was held.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the first Scrabble World Championship was held in 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context such as the location, host, and details about the event, which enhances understanding of the query's context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query and provides substantial additional information about the first Scrabble World Championship, including historical context and details about the event."
+            },
+            "nq_60991_95": {
+                "Query Analysis": "The query seeks to determine the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer specifies that the first Scrabble World Championship was held in 1991.",
+                "Document Content Analysis": "The document lists various world championships across different categories, including Scrabble, but does not provide specific details about the history or dates of these championships.",
+                "Document and Query Keywords Matching": "The document mentions 'Scrabble Championship', which is a partial match to the query keyword 'Scrabble World Championship'.",
+                "Document and Answer Keywords Matching": "The document does not contain the year '1991' or any specific years related to the Scrabble World Championship.",
+                "Key Information Matching": "The document only mentions the existence of a 'World Scrabble Championship' without providing any historical context or dates.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific year when the Scrabble World Championship was first held.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any historical or chronological information about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions the 'World Scrabble Championship', it does not provide any relevant details regarding its inception date or history. Therefore, it cannot assist in answering the query or infer additional useful information."
+            },
+            "triviaqa_367_10": {
+                "Query Analysis": "The query seeks the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year of the first Scrabble World Championship.",
+                "Document Content Analysis": "The document discusses various aspects of the World Scrabble Championships, including a specific event in 2007, the history of the competition occurring every other year since 1991, and background information about the game's invention and name changes.",
+                "Document and Query Keywords Matching": "The document mentions 'World Scrabble Championships' and 'since 1991'.",
+                "Document and Answer Keywords Matching": "The document includes '1991', which is the year the competition started.",
+                "Key Information Matching": "The document directly states that the competition has occurred every other year since 1991, which matches the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions that the competition has occurred every other year since 1991, directly answering the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the history and frequency of the championships.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer when the Scrabble World Championship was first held. The mention of 'since 1991' directly addresses the query, making the document highly relevant."
+            },
+            "m.04q78bx_1": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document provides detailed information about Poliana Okimoto, a Brazilian long-distance swimmer. It includes her biography, achievements in various swimming competitions, and her participation in events like the FINA World Swimming Championships, Pan American Games, and the Olympics.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords related to the query such as 'Scrabble World Championship', 'first held', or 'year'.",
+                "Document and Answer Keywords Matching": "The document does not mention the year '1991' or any context related to the Scrabble World Championship.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is solely focused on Poliana Okimoto's swimming career.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Scrabble World Championship.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the biography and achievements of Poliana Okimoto, a Brazilian swimmer, and does not contain any information related to the Scrabble World Championship. Therefore, it is irrelevant to the query."
+            },
+            "ott_24481_0": {
+                "Query Analysis": "The query asks for the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year when the first Scrabble World Championship took place.",
+                "Document Content Analysis": "The document provides information about the Biathlon World Championships, listing the winners, runners-up, and third-place teams for various seasons starting from 1966.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Scrabble', 'World Championship', or 'first held'.",
+                "Document and Answer Keywords Matching": "The document does not mention the year '1991' or any context related to Scrabble.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is solely focused on Biathlon World Championships.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Scrabble World Championship.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the year of the first Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Biathlon World Championships and does not provide any information about Scrabble or its championships. Therefore, it is irrelevant to the query."
+            },
+            "m.0ct7_g_3": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document provides detailed information about the 1950 NBA Finals, including the teams involved, key players, and the outcome of the series. It also mentions the context of the NBA's first season and the championship event.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Scrabble', 'World Championship', or 'first held'.",
+                "Document and Answer Keywords Matching": "The document does not contain the year '1991' or any related context that would match the answer.",
+                "Key Information Matching": "There is no key information in the document that relates to the Scrabble World Championship or its inception year.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Scrabble World Championship.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is solely focused on the 1950 NBA Finals and does not provide any relevant context or information that could help infer details about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the 1950 NBA Finals in detail, which has no relevance to the Scrabble World Championship or its first occurrence. Therefore, it cannot assist in answering the query or providing any useful context."
+            },
+            "triviaqa_367_2": {
+                "Query Analysis": "The query asks for the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year when the first Scrabble World Championship took place.",
+                "Document Content Analysis": "The document provides information about the Scrabble World Championship, mentioning its history, the first event in 1991, and details about subsequent championships. It also discusses the participation of African countries and the experiences of a specific champion.",
+                "Document and Query Keywords Matching": "The document mentions 'Scrabble World Championship' and 'first ever championship in 1991'.",
+                "Document and Answer Keywords Matching": "The document explicitly states '1991' as the year of the first championship.",
+                "Key Information Matching": "The document directly provides the key information that the first Scrabble World Championship was held in 1991, matching the query's requirement.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the first championship was held in 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the championship's history and participation details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the year 1991 as the time when the first Scrabble World Championship was held. This directly answers the query and provides additional useful context about the event's history and participation."
+            },
+            "triviaqa_367_0": {
+                "Query Analysis": "The query asks for the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year of the first Scrabble World Championship.",
+                "Document Content Analysis": "DOCUMENT 1 provides detailed information about the World SCRABBLE Championship (WSC), including its history, organizers, sponsors, and notable events. It mentions that the first WSC was organized in 1991 by Philip Nelkon in London. DOCUMENT 2 discusses a Nigerian player winning a world Scrabble title but does not provide historical context about the first championship.",
+                "Document and Query Keywords Matching": "DOCUMENT 1 mentions 'World SCRABBLE Championship' and 'first WSC'.",
+                "Document and Answer Keywords Matching": "DOCUMENT 1 includes the year '1991', which is the answer to the query.",
+                "Key Information Matching": "DOCUMENT 1 directly states that the first WSC was organized in 1991, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, DOCUMENT 1 directly answers the query by stating the first WSC was in 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, DOCUMENT 1 provides additional historical context about the WSC.",
+                "Relevance Judgement": "2",
+                "Explanation": "DOCUMENT 1 is directly relevant to the query as it provides the exact year when the first Scrabble World Championship was held, along with additional historical context. DOCUMENT 2, while related to Scrabble, does not provide information about the first championship and is thus less relevant."
+            },
+            "triviaqa_367_5": {
+                "Query Analysis": "The query asks for the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year when the first Scrabble World Championship took place.",
+                "Document Content Analysis": "The document discusses various Scrabble tournaments, including the SCT (Scrabble Champions Tournament) held in 2013 and 2014, the WESPA Championship held in 2015, and the World Youth Scrabble Championship. It mentions winners and some details about the tournaments but does not provide historical information about the inception of the Scrabble World Championship.",
+                "Document and Query Keywords Matching": "The document mentions 'World Scrabble Championships' but does not specifically address the 'first held' aspect.",
+                "Document and Answer Keywords Matching": "The document does not mention the year '1991'.",
+                "Key Information Matching": "While the document discusses various Scrabble tournaments, it lacks specific historical context about the first Scrabble World Championship.",
+                "Can the Document Answer the Query": "No, the document does not provide the year when the first Scrabble World Championship was held.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any historical information that could help infer the year of the first Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on recent Scrabble tournaments and lacks any historical context or information about the inception of the Scrabble World Championship. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides any useful information to infer the answer."
+            },
+            "nq_134396_304": {
+                "Query Analysis": "The query seeks to determine the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer specifies that the first Scrabble World Championship was held in 1991.",
+                "Document Content Analysis": "The document lists various world championships for different games and sports, including a mention of the World Scrabble Championship.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'Scrabble' in the context of 'World Scrabble Championship'.",
+                "Document and Answer Keywords Matching": "The document does not contain the year '1991' or any specific years related to the championships.",
+                "Key Information Matching": "The document mentions the 'World Scrabble Championship', which is directly related to the query, but lacks specific details about when it was first held.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific year when the Scrabble World Championship was first held.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms the existence of a 'World Scrabble Championship', which is relevant context for the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query by providing the year 1991, it does mention the 'World Scrabble Championship', which is a key piece of context related to the query. This makes the document partially relevant as it provides some context but lacks the specific detail needed to fully answer the query."
+            },
+            "ott_19810_1": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the first Scrabble World Championship was held in that year.",
+                "Document Content Analysis": "The document lists the dates and locations of the World Nine-ball Championships for several years and provides some historical context about the event. It mentions the first occurrence of the World Nine-ball Championships in 1990 and details about different categories and changes in the event structure over the years.",
+                "Document and Query Keywords Matching": "The document does not mention 'Scrabble World Championship' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not contain the year '1991' in the context of the Scrabble World Championship.",
+                "Key Information Matching": "There is no key information in the document that matches the query about the Scrabble World Championship.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Scrabble World Championship.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about the World Nine-ball Championships and does not provide any relevant information that could help infer details about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query as it focuses on the World Nine-ball Championships and does not mention or provide any information about the Scrabble World Championship. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "triviaqa_367_6": {
+                "Query Analysis": "The query seeks to determine the year when the first Scrabble World Championship was held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer specifies that the first Scrabble World Championship was held in 1991.",
+                "Document Content Analysis": "The document primarily discusses the World Youth Scrabble Championship (WYSC), its eligibility criteria, and schedule changes. It also mentions the World Scrabble Championships in a different context, focusing on a recent event and the winner.",
+                "Document and Query Keywords Matching": "The document mentions 'World Scrabble Championships' but does not specifically address the 'first held' aspect.",
+                "Document and Answer Keywords Matching": "The document does not mention the year '1991'.",
+                "Key Information Matching": "While the document discusses various aspects of Scrabble championships, it does not provide historical information about the first World Scrabble Championship.",
+                "Can the Document Answer the Query": "No, the document does not provide the year when the first Scrabble World Championship was held.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks historical context or details about the inception of the World Scrabble Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the first Scrabble World Championship or its historical context. The focus is on recent events and the youth championship, which do not assist in answering the query."
+            },
+            "m.0125wfr4_0": {
+                "Query Analysis": "The query seeks to determine the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer specifies that the Scrabble World Championship was first held in 1991.",
+                "Document Content Analysis": "The document provides detailed information about the 1979 Juniors Track World Championships, including its description, events, and notable participants. It focuses solely on a cycling event and does not mention Scrabble or any related championships.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Scrabble World Championship', 'first held', 'year') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the year '1991' or any reference to the Scrabble World Championship.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a completely different topic (track cycling) and does not provide any relevant context or information about Scrabble.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Scrabble World Championship or its inception year.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer details about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a specific event in the realm of track cycling and does not mention or provide any information relevant to the Scrabble World Championship. Therefore, it is deemed irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0400zd_7": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating that the Scrabble World Championship was first held in 1991.",
+                "Document Content Analysis": "The document discusses the New Zealand national netball team, their achievements, and their participation in various tournaments, including the World Netball Championship and the Commonwealth Games. It mentions the inauguration of the World Netball Championship in 1963 and other related details about netball.",
+                "Document and Query Keywords Matching": "The document does not mention 'Scrabble World Championship' or any related keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention '1991' or any year related to the Scrabble World Championship.",
+                "Key Information Matching": "The document does not provide any information related to the Scrabble World Championship or its inauguration year.",
+                "Can the Document Answer the Query": "No, the document does not mention the Scrabble World Championship or its inauguration year.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the year the Scrabble World Championship was first held.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the New Zealand national netball team and their participation in netball tournaments. It does not mention the Scrabble World Championship or provide any information that could be relevant to the query. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_367_11": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document provides information about the history of Scrabble, including its invention and development. It also mentions that the World Scrabble Championship was held for the first time in London in 1991.",
+                "Document and Query Keywords Matching": "The document mentions 'Scrabble World Championship' and '1991', which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document includes '1991', which matches the answer provided.",
+                "Key Information Matching": "The document directly states that the World Scrabble Championship was first held in 1991, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the Scrabble World Championship was first held in 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions the year 1991, which is the answer to the query, and thus provides substantial useful context."
+            },
+            "triviaqa_367_3": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, when",
+                "Answer Analysis": "The answer is 1991, indicating the year the first Scrabble World Championship took place.",
+                "Document Content Analysis": "The document provides detailed information about the first Scrabble World Championship, including the year it was held (1991), the location (London), the host (Spears), and other related details such as the number of participants, prize pool, and tournament rules.",
+                "Document and Query Keywords Matching": "The document mentions 'Scrabble World Championship' and 'first held', which directly match the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly states '1991', which matches the answer.",
+                "Key Information Matching": "The document provides the exact year (1991) when the first Scrabble World Championship was held, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the first Scrabble World Championship was held in 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the event, such as the location, host, and other details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer (1991) and provides substantial additional context about the first Scrabble World Championship, enhancing understanding of the event."
+            },
+            "nq_60991_95": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document lists various world championships across different categories, including eSports, motorsport, and other games. However, it does not mention the Scrabble World Championship or provide any information about its history or inception.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'Scrabble World Championship' or 'first held'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword '1991' or any reference to the Scrabble World Championship.",
+                "Key Information Matching": "The document does not provide any information related to the Scrabble World Championship or its inception year.",
+                "Can the Document Answer the Query": "No, the document does not mention the Scrabble World Championship or its first held year.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the Scrabble World Championship or provide any information about its inception year. It focuses on other types of world championships, which are unrelated to the query."
+            },
+            "triviaqa_367_10": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, when",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document provides information about the World Scrabble Championships, including details about the 2007 championship, the history of Scrabble, and the fact that the competition has occurred every other year since 1991.",
+                "Document and Query Keywords Matching": "The document mentions 'World Scrabble Championships' and '1991', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes '1991', which matches the answer provided.",
+                "Key Information Matching": "The document explicitly states that the World Scrabble Championships have occurred every other year since 1991, which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the World Scrabble Championships have been held every other year since 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions the year 1991 as the starting point for the World Scrabble Championships, which is the answer to the query."
+            },
+            "m.04q78bx_1": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating that the first Scrabble World Championship was held in that year.",
+                "Document Content Analysis": "The document provides detailed information about Poliana Okimoto, a Brazilian long-distance swimmer, including her birth date, achievements, and participation in various swimming events. There is no mention of Scrabble or any related events.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Scrabble or the Scrabble World Championship.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about the Scrabble World Championship.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Poliana Okimoto and her swimming career, with no mention of Scrabble or the Scrabble World Championship. Therefore, it is irrelevant to the query."
+            },
+            "ott_24481_0": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating that the first Scrabble World Championship was held in that year.",
+                "Document Content Analysis": "The document provides information about the Biathlon World Championships, including the season, winners, runners-up, and third-place finishers from various years. It does not mention Scrabble or any related events.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Scrabble World Championship', 'first held', 'year') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not contain the answer '1991' or any reference to the year 1991 in the context of Scrabble or any related event.",
+                "Key Information Matching": "The document does not provide any information related to Scrabble, the Scrabble World Championship, or the year 1991.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Scrabble World Championship or its first occurrence.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about the Biathlon World Championships and does not provide any relevant context or information about Scrabble.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Biathlon World Championships and does not mention Scrabble, the Scrabble World Championship, or the year 1991. Therefore, it is irrelevant to the query."
+            },
+            "m.0ct7_g_3": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held",
+                "Answer Analysis": "The answer is 1991, indicating that the Scrabble World Championship was first held in 1991.",
+                "Document Content Analysis": "The document discusses the 1950 NBA Finals, including details about the teams, players, and outcomes of the championship series. It does not mention Scrabble or any related events.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Scrabble World Championship or the year 1991.",
+                "Can the Document Answer the Query": "No, the document does not mention the Scrabble World Championship or its first occurrence.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer details about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the 1950 NBA Finals and does not contain any information related to the Scrabble World Championship or the year 1991. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_367_2": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held",
+                "Answer Analysis": "The answer is 1991, indicating the year the first Scrabble World Championship took place.",
+                "Document Content Analysis": "The document provides detailed information about the history of the Scrabble World Championship, including the fact that the first championship was held in London in 1991. It also mentions the host, the number of players, and the prize pool.",
+                "Document and Query Keywords Matching": "The document mentions 'Scrabble World Championship' and 'first held' in the context of the 1991 event.",
+                "Document and Answer Keywords Matching": "The document explicitly states '1991' as the year the first Scrabble World Championship was held.",
+                "Key Information Matching": "The document directly matches the key information of the query and answer by stating that the first Scrabble World Championship was held in 1991.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the first Scrabble World Championship was held in 1991.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the event, such as the location, host, and prize pool.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer (1991) as well as additional relevant information about the first Scrabble World Championship. It enhances understanding of the query by providing context and background."
+            },
+            "triviaqa_367_0": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held",
+                "Answer Analysis": "The answer is 1991, indicating the year the first Scrabble World Championship took place.",
+                "Document Content Analysis": "Document 1 provides detailed information about the history of the World SCRABBLE Championship (WSC), including its inception in 1991, its organization, sponsors, and notable winners. Document 2 mentions a recent Scrabble world title win by Nigeria’s Wellington Jighere but does not provide historical context about the championship's origins.",
+                "Document and Query Keywords Matching": "Document 1 mentions 'World SCRABBLE Championship' and '1991', which directly matches the query keywords. Document 2 does not mention the first championship or its year.",
+                "Document and Answer Keywords Matching": "Document 1 explicitly states '1991' as the year the first WSC was held, matching the answer. Document 2 does not mention 1991 or the first championship.",
+                "Key Information Matching": "Document 1 provides the exact year (1991) when the first Scrabble World Championship was held, directly answering the query. Document 2 does not provide any information about the first championship.",
+                "Can the Document Answer the Query": "Yes, Document 1 directly answers the query by stating the first WSC was held in 1991. Document 2 does not answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Document 1 provides additional historical context about the championship, including its organization and notable winners. Document 2 does not provide any relevant information.",
+                "Relevance Judgement": "2",
+                "Explanation": "Document 1 is directly relevant to the query as it contains the exact year (1991) when the Scrabble World Championship was first held, along with additional historical context. Document 2 is irrelevant as it does not address the query or provide any related information."
+            },
+            "triviaqa_367_5": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, year",
+                "Answer Analysis": "The answer is 1991, indicating that the first Scrabble World Championship was held in 1991.",
+                "Document Content Analysis": "The document discusses various Scrabble tournaments, including the SCT (Scrabble Champions Tournament), WESPA Championship, and World Youth Scrabble Championship. It mentions specific years and locations for these tournaments but does not explicitly state when the first Scrabble World Championship was held.",
+                "Document and Query Keywords Matching": "The document mentions 'World Scrabble Championships' and 'Scrabble World Championship', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention '1991', the year the first Scrabble World Championship was held.",
+                "Key Information Matching": "The document discusses Scrabble tournaments and their history but does not provide the specific year (1991) when the first Scrabble World Championship was held.",
+                "Can the Document Answer the Query": "No, the document does not directly state the year when the first Scrabble World Championship was held.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the year when the first Scrabble World Championship was held.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses Scrabble tournaments but does not provide any information about the first Scrabble World Championship or the year it was held. Therefore, it is irrelevant to the query."
+            },
+            "nq_134396_304": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document lists various world championships, including a mention of the 'World Scrabble Championship' under the 'Scrabble' category. However, it does not provide any specific details about the year it was first held.",
+                "Document and Query Keywords Matching": "The document mentions 'Scrabble' and 'World Scrabble Championship', which match the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention '1991' or any specific year related to the Scrabble World Championship.",
+                "Key Information Matching": "The document mentions the 'World Scrabble Championship', which is relevant to the query, but it lacks the specific year (1991) when it was first held.",
+                "Can the Document Answer the Query": "No, the document does not provide the year when the Scrabble World Championship was first held.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms the existence of the 'World Scrabble Championship', which is relevant to the query, but it does not provide the specific year.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions the 'World Scrabble Championship', which is directly related to the query. However, it does not provide the specific year (1991) when the championship was first held, which is the key information required to answer the query."
+            },
+            "ott_19810_1": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document provides information about the World Nine-ball Championships, including the year it was first held (1990), details about various tournaments, and changes in event formats over the years. However, it does not mention the Scrabble World Championship.",
+                "Document and Query Keywords Matching": "The document does not mention 'Scrabble World Championship' or 'first held' in the context of Scrabble.",
+                "Document and Answer Keywords Matching": "The document does not mention '1991' in the context of the Scrabble World Championship.",
+                "Key Information Matching": "The document does not provide any information related to the Scrabble World Championship or its first held year.",
+                "Can the Document Answer the Query": "No, the document does not mention the Scrabble World Championship or its first held year.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about the World Nine-ball Championships and does not mention the Scrabble World Championship or any related information. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_367_6": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held, when",
+                "Answer Analysis": "The answer is 1991, indicating the year the Scrabble World Championship was first held.",
+                "Document Content Analysis": "The document discusses various Scrabble championships, including the World Youth Scrabble Championship (WYSC) and the World Scrabble Championships. It mentions details about the tournaments, such as dates, locations, and participants, but does not explicitly state when the first Scrabble World Championship was held.",
+                "Document and Query Keywords Matching": "The document mentions 'World Scrabble Championships', which matches the query's keyword 'Scrabble World Championship'.",
+                "Document and Answer Keywords Matching": "The document does not mention '1991', the year the first Scrabble World Championship was held.",
+                "Key Information Matching": "The document provides information about Scrabble championships and their details but does not specify the year the first Scrabble World Championship was held.",
+                "Can the Document Answer the Query": "No, the document does not provide the year the first Scrabble World Championship was held.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the year the first Scrabble World Championship was held.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses Scrabble championships but does not provide any information about the first Scrabble World Championship or its year. Therefore, it is irrelevant to the query."
+            },
+            "m.0125wfr4_0": {
+                "Query Analysis": "The query asks for the year when the Scrabble World Championship was first held.",
+                "Query Keywords Extraction": "Scrabble World Championship, first held",
+                "Answer Analysis": "The answer is 1991, indicating that the Scrabble World Championship was first held in 1991.",
+                "Document Content Analysis": "The document provides detailed information about the 1979 Juniors Track World Championships, including its location, events, and notable participants. It does not mention anything about the Scrabble World Championship.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the Scrabble World Championship or its history.",
+                "Can the Document Answer the Query": "No, the document does not mention the Scrabble World Championship or its first occurrence.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely about a different event and does not provide any relevant information about the Scrabble World Championship.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the 1979 Juniors Track World Championships and does not contain any information related to the Scrabble World Championship. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0400zd_7": {},
+            "triviaqa_367_11": {},
+            "triviaqa_367_3": {},
+            "nq_60991_95": {},
+            "triviaqa_367_10": {},
+            "m.04q78bx_1": {},
+            "ott_24481_0": {},
+            "m.0ct7_g_3": {},
+            "triviaqa_367_2": {},
+            "triviaqa_367_0": {},
+            "triviaqa_367_5": {},
+            "nq_134396_304": {},
+            "ott_19810_1": {},
+            "triviaqa_367_6": {},
+            "m.0125wfr4_0": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "ott": 0,
+            "kg": 0,
+            "triviaqa": 2,
+            "nq": 1,
+            "tat": 0
+        }
+    }
+}

@@ -1,0 +1,989 @@
+{
+    "index": 78851,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which fruit is distilled to make Calvados?",
+        "answer": "Apples",
+        "BM25_documents": [
+            {
+                "id": "nq_193199_37",
+                "score": 18.426599502563477
+            },
+            {
+                "id": "nq_457_25",
+                "score": 18.366500854492188
+            },
+            {
+                "id": "nq_193199_38",
+                "score": 17.934200286865234
+            },
+            {
+                "id": "nq_457_26",
+                "score": 17.634599685668945
+            },
+            {
+                "id": "triviaqa_23649_102",
+                "score": 16.96030044555664
+            },
+            {
+                "id": "triviaqa_47302_2",
+                "score": 16.52560043334961
+            },
+            {
+                "id": "triviaqa_47302_9",
+                "score": 16.519500732421875
+            },
+            {
+                "id": "triviaqa_23649_101",
+                "score": 16.30739974975586
+            },
+            {
+                "id": "triviaqa_47302_11",
+                "score": 14.80780029296875
+            },
+            {
+                "id": "triviaqa_61446_0",
+                "score": 14.733400344848633
+            },
+            {
+                "id": "triviaqa_61446_1",
+                "score": 14.126500129699707
+            },
+            {
+                "id": "triviaqa_23649_99",
+                "score": 14.078300476074219
+            },
+            {
+                "id": "triviaqa_61446_8",
+                "score": 13.633899688720703
+            },
+            {
+                "id": "triviaqa_68411_1",
+                "score": 13.491299629211426
+            },
+            {
+                "id": "triviaqa_68411_4",
+                "score": 13.223799705505371
+            },
+            {
+                "id": "triviaqa_53030_13",
+                "score": 13.107199668884277
+            },
+            {
+                "id": "triviaqa_2128_44",
+                "score": 13.08530044555664
+            },
+            {
+                "id": "triviaqa_2128_54",
+                "score": 13.085299491882324
+            },
+            {
+                "id": "triviaqa_25246_16",
+                "score": 13.085298538208008
+            },
+            {
+                "id": "triviaqa_25246_6",
+                "score": 13.085297584533691
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_12717_1",
+                "score": 7.850800037384033
+            },
+            {
+                "id": "ott_14268_1",
+                "score": 7.850799083709717
+            },
+            {
+                "id": "ott_20778_1",
+                "score": 7.8507981300354
+            },
+            {
+                "id": "ott_29672_1",
+                "score": 7.850797176361084
+            },
+            {
+                "id": "ott_12717_0",
+                "score": 7.729700088500977
+            },
+            {
+                "id": "ott_14268_0",
+                "score": 7.72969913482666
+            },
+            {
+                "id": "ott_20778_0",
+                "score": 7.729698181152344
+            },
+            {
+                "id": "ott_29672_0",
+                "score": 7.729697227478027
+            },
+            {
+                "id": "ott_11958_27",
+                "score": 6.545198917388916
+            },
+            {
+                "id": "ott_16792_27",
+                "score": 6.5451979637146
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_193199_37",
+                "score": 18.426599502563477
+            },
+            {
+                "id": "nq_457_25",
+                "score": 18.366500854492188
+            },
+            {
+                "id": "nq_193199_38",
+                "score": 17.934200286865234
+            },
+            {
+                "id": "nq_457_26",
+                "score": 17.634599685668945
+            },
+            {
+                "id": "nq_73106_34",
+                "score": 11.707799911499023
+            },
+            {
+                "id": "nq_158772_17",
+                "score": 11.029500007629395
+            },
+            {
+                "id": "nq_193199_0",
+                "score": 10.684399604797363
+            },
+            {
+                "id": "nq_193199_14",
+                "score": 10.63700008392334
+            },
+            {
+                "id": "nq_193199_19",
+                "score": 10.610199928283691
+            },
+            {
+                "id": "nq_193199_15",
+                "score": 9.591099739074707
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_23649_102",
+                "score": 16.96030044555664
+            },
+            {
+                "id": "triviaqa_47302_2",
+                "score": 16.52560043334961
+            },
+            {
+                "id": "triviaqa_47302_9",
+                "score": 16.519500732421875
+            },
+            {
+                "id": "triviaqa_23649_101",
+                "score": 16.30739974975586
+            },
+            {
+                "id": "triviaqa_47302_11",
+                "score": 14.80780029296875
+            },
+            {
+                "id": "triviaqa_61446_0",
+                "score": 14.733400344848633
+            },
+            {
+                "id": "triviaqa_61446_1",
+                "score": 14.126500129699707
+            },
+            {
+                "id": "triviaqa_23649_99",
+                "score": 14.078300476074219
+            },
+            {
+                "id": "triviaqa_61446_8",
+                "score": 13.633899688720703
+            },
+            {
+                "id": "triviaqa_68411_1",
+                "score": 13.491299629211426
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.05g56_31",
+                "score": 7.161799907684326
+            },
+            {
+                "id": "m.05g56_32",
+                "score": 6.689199924468994
+            },
+            {
+                "id": "m.05g56_40",
+                "score": 6.689198970794678
+            },
+            {
+                "id": "m.05g56_20",
+                "score": 6.545199871063232
+            },
+            {
+                "id": "m.05g56_28",
+                "score": 5.88730001449585
+            },
+            {
+                "id": "m.05g56_30",
+                "score": 5.802999973297119
+            },
+            {
+                "id": "m.05g56_6",
+                "score": 5.615499973297119
+            },
+            {
+                "id": "m.0gzh_1798",
+                "score": 5.589700222015381
+            },
+            {
+                "id": "m.05g56_17",
+                "score": 5.5640997886657715
+            },
+            {
+                "id": "m.05g56_18",
+                "score": 5.513599872589111
+            },
+            {
+                "id": "m.05g56_26",
+                "score": 5.464099884033203
+            },
+            {
+                "id": "m.0bwx3_226",
+                "score": 5.42579984664917
+            },
+            {
+                "id": "m.0gvs0cq_3",
+                "score": 5.41540002822876
+            },
+            {
+                "id": "m.05g56_24",
+                "score": 5.367599964141846
+            },
+            {
+                "id": "m.064_8sq_12234",
+                "score": 5.367599010467529
+            },
+            {
+                "id": "m.064_8sq_4231",
+                "score": 5.367598056793213
+            },
+            {
+                "id": "m.06jkm_275",
+                "score": 5.367400169372559
+            },
+            {
+                "id": "m.05g56_16",
+                "score": 5.274499893188477
+            },
+            {
+                "id": "m.05g56_35",
+                "score": 5.27449893951416
+            },
+            {
+                "id": "m.05g56_38",
+                "score": 5.274497985839844
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_47302_3",
+                "score": 0.7397993803024292
+            },
+            {
+                "id": "triviaqa_16797_39",
+                "score": 0.7370713949203491
+            },
+            {
+                "id": "triviaqa_23649_100",
+                "score": 0.733716607093811
+            },
+            {
+                "id": "triviaqa_23649_102",
+                "score": 0.7286278009414673
+            },
+            {
+                "id": "nq_193199_19",
+                "score": 0.7168351411819458
+            },
+            {
+                "id": "nq_193199_38",
+                "score": 0.7135216593742371
+            },
+            {
+                "id": "triviaqa_53030_13",
+                "score": 0.6977583765983582
+            },
+            {
+                "id": "triviaqa_47302_12",
+                "score": 0.6949611902236938
+            },
+            {
+                "id": "triviaqa_47302_4",
+                "score": 0.6937171816825867
+            },
+            {
+                "id": "nq_457_26",
+                "score": 0.6887282729148865
+            },
+            {
+                "id": "triviaqa_47302_14",
+                "score": 0.6865750551223755
+            },
+            {
+                "id": "triviaqa_56056_36",
+                "score": 0.6837753653526306
+            },
+            {
+                "id": "triviaqa_53030_14",
+                "score": 0.6828835606575012
+            },
+            {
+                "id": "triviaqa_61446_12",
+                "score": 0.6808305978775024
+            },
+            {
+                "id": "triviaqa_23649_112",
+                "score": 0.6792296171188354
+            },
+            {
+                "id": "triviaqa_61446_11",
+                "score": 0.677729070186615
+            },
+            {
+                "id": "triviaqa_23649_99",
+                "score": 0.673319935798645
+            },
+            {
+                "id": "triviaqa_47302_9",
+                "score": 0.6709884405136108
+            },
+            {
+                "id": "triviaqa_67288_54",
+                "score": 0.6703900694847107
+            },
+            {
+                "id": "triviaqa_61446_8",
+                "score": 0.6702528595924377
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_29672_1",
+                "score": 0.6260033845901489
+            },
+            {
+                "id": "ott_20778_1",
+                "score": 0.6260033845901489
+            },
+            {
+                "id": "ott_12717_1",
+                "score": 0.6260033845901489
+            },
+            {
+                "id": "ott_14268_1",
+                "score": 0.6260033845901489
+            },
+            {
+                "id": "ott_12717_0",
+                "score": 0.6181510090827942
+            },
+            {
+                "id": "ott_20778_0",
+                "score": 0.6181510090827942
+            },
+            {
+                "id": "ott_29672_0",
+                "score": 0.6181510090827942
+            },
+            {
+                "id": "ott_14268_0",
+                "score": 0.6181510090827942
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_193199_19",
+                "score": 0.7168351411819458
+            },
+            {
+                "id": "nq_193199_38",
+                "score": 0.7135216593742371
+            },
+            {
+                "id": "nq_457_26",
+                "score": 0.6887282729148865
+            },
+            {
+                "id": "nq_193199_37",
+                "score": 0.6689730882644653
+            },
+            {
+                "id": "nq_193199_2",
+                "score": 0.656762957572937
+            },
+            {
+                "id": "nq_193199_15",
+                "score": 0.6558854579925537
+            },
+            {
+                "id": "nq_193199_1",
+                "score": 0.6513366103172302
+            },
+            {
+                "id": "nq_193199_7",
+                "score": 0.6492029428482056
+            },
+            {
+                "id": "nq_193199_8",
+                "score": 0.6482181549072266
+            },
+            {
+                "id": "nq_457_25",
+                "score": 0.646035373210907
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_47302_3",
+                "score": 0.7397993803024292
+            },
+            {
+                "id": "triviaqa_16797_39",
+                "score": 0.7370713949203491
+            },
+            {
+                "id": "triviaqa_23649_100",
+                "score": 0.733716607093811
+            },
+            {
+                "id": "triviaqa_23649_102",
+                "score": 0.7286278009414673
+            },
+            {
+                "id": "triviaqa_53030_13",
+                "score": 0.6977583765983582
+            },
+            {
+                "id": "triviaqa_47302_12",
+                "score": 0.6949611902236938
+            },
+            {
+                "id": "triviaqa_47302_4",
+                "score": 0.6937171816825867
+            },
+            {
+                "id": "triviaqa_47302_14",
+                "score": 0.6865750551223755
+            },
+            {
+                "id": "triviaqa_56056_36",
+                "score": 0.6837753653526306
+            },
+            {
+                "id": "triviaqa_53030_14",
+                "score": 0.6828835606575012
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02qvz_4047",
+                "score": 0.5731460452079773
+            },
+            {
+                "id": "m.05l0d6_11",
+                "score": 0.5725833177566528
+            },
+            {
+                "id": "m.0f5f8_36",
+                "score": 0.5694200992584229
+            },
+            {
+                "id": "m.07_lq_327",
+                "score": 0.5655660033226013
+            },
+            {
+                "id": "m.06s0l_14",
+                "score": 0.5637877583503723
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_16797_39": {
+                "Query Analysis": "The query asks for the specific fruit used in the distillation process to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document discusses the process of making brandy, primarily from wine and grapes, and mentions various types of brandies and their origins. It also touches on fruit brandies in general but does not specifically mention Calvados.",
+                "Document and Query Keywords Matching": "The document mentions 'distilled' and 'fruit brandies', but does not explicitly mention 'Calvados'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples'.",
+                "Key Information Matching": "The document provides information about fruit brandies and the distillation process but lacks specific details about Calvados and apples.",
+                "Can the Document Answer the Query": "No, the document does not directly mention Calvados or apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about fruit brandies and distillation, which could help infer that Calvados might be a type of fruit brandy.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses fruit brandies and the distillation process, which are related concepts. However, it lacks specific information about Calvados and apples, making it unable to directly answer the query."
+            },
+            "m.02qvz_4047": {
+                "Query Analysis": "The query asks about the specific fruit used in the distillation process to produce Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a detailed description of ethanol, its chemical properties, production methods, and uses. It mentions that ethanol is a common alcohol found in various beverages like wine, beer, and spirits, and it also discusses its industrial applications and production techniques.",
+                "Document and Query Keywords Matching": "The document does not mention 'Calvados' or any specific fruits used in distillation.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples'.",
+                "Key Information Matching": "The document discusses alcohol production in general but does not provide specific information about the distillation process for Calvados or the fruits used in it.",
+                "Can the Document Answer the Query": "No, the document does not contain information about Calvados or the fruit used to make it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the specific fruit used to make Calvados.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the general properties and production of ethanol, which is a common component in many alcoholic beverages, but it does not provide any specific information about Calvados or the fruits used in its production. Therefore, it is irrelevant to the query."
+            },
+            "ott_12717_1": {
+                "Query Analysis": "The query asks for the specific fruit that is used in the distillation process to produce Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document lists various alcoholic beverages and their primary ingredients or characteristics. It includes beverages like Patxaran, Ratafia, Queimada, Txakoli, Zurracapote, Sangria, and Sidra, along with their regions and types.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'Calvados' or 'distilled'.",
+                "Document and Answer Keywords Matching": "The document mentions 'apples' in the context of Sidra, an alcoholic beverage made from apples.",
+                "Key Information Matching": "While the document mentions apples in relation to Sidra, it does not connect this information to Calvados.",
+                "Can the Document Answer the Query": "No, the document does not directly mention Calvados or its production process.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about another alcoholic beverage made from apples (Sidra), which could indirectly suggest that apples are used in alcoholic beverages, but it does not specifically help infer the production of Calvados.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any direct information about Calvados or its production process. While it mentions apples in the context of Sidra, this is not sufficient to infer the specific details required by the query. Therefore, the document is deemed irrelevant to the query."
+            },
+            "nq_457_25": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used in the distillation process to produce Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a list of various alcoholic beverages, categorized by type, including distilled drinks and fortified wines. It also includes a section that lists distilled drinks by ingredients, specifically mentioning 'Apple' and 'Calvados' under the fruit category.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and 'fruit', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Apple', which is the answer to the query.",
+                "Key Information Matching": "The document directly links 'Calvados' with 'Apple' under the fruit category, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other distilled drinks and their ingredients, which can help understand the broader category of fruit-based distilled beverages.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Calvados is made from apples, thus providing the exact answer. Additionally, the document offers broader context about other distilled drinks and their ingredients, enhancing the understanding of the topic."
+            },
+            "nq_193199_38": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used in the distillation process to produce Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document lists various distilled drinks categorized by their primary ingredients, including different types of fruits. It mentions 'Calvados' under the 'Apple' category.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Calvados' and 'fruit' (implicitly through the categorization by fruit ingredients).",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Apple', which is the answer to the query.",
+                "Key Information Matching": "The document directly associates 'Calvados' with 'Apple', which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by listing 'Calvados' under the 'Apple' category.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other distilled drinks and their primary fruit ingredients, which can help understand the broader category of fruit-based distilled beverages.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that 'Calvados' is made from apples, thereby providing the exact answer. Additionally, it offers useful context about other fruit-based distilled drinks, enhancing the understanding of the topic."
+            },
+            "triviaqa_23649_100": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used to produce Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides detailed information about various spirits, including Calvados, which is described as an apple brandy produced in Normandy, France from double distilled fermented apple juice. It also mentions other spirits like Applejack, Aquavit, Batavia Arrack, Bitters, Bonded Whiskey, and Bourbon.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and 'apple brandy', which directly relate to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Calvados is made from 'apple juice', which matches the answer 'Apples'.",
+                "Key Information Matching": "The document directly states that Calvados is produced from apple juice, which is derived from apples, thus matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Calvados is made from apple juice.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Calvados, including its production process and characteristics.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Calvados is made from apple juice, which is derived from apples. This directly answers the query and provides additional useful context about the spirit."
+            },
+            "m.05g56_32": {
+                "Query Analysis": "The query asks about the specific type of fruit that is used to produce Calvados, a type of distilled spirit.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a geographical and administrative description of the Normandy region in France, including details about its departments and major cities. It mentions the names of departments such as Seine-Maritime, Eure, Orne, Calvados, and Manche.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados', which is a key term in the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples' or any other fruit.",
+                "Key Information Matching": "The only key information from the query found in the document is the term 'Calvados'. There is no information about fruits or the distillation process.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the fruit used to make Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or additional information that could help infer the type of fruit used to make Calvados.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document mentions 'Calvados', it does so only in the context of a geographical and administrative region in France. It lacks any information about the production of Calvados or the ingredients used, making it irrelevant to the query."
+            },
+            "triviaqa_23649_102": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used in the distillation process to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides information about various types of spirits and their production processes, including Cognac, Calvados, Pisco, Cachaça, and Cobbler. It details the ingredients and methods used in making these spirits.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and describes its production process.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Calvados is made from apples, matching the answer directly.",
+                "Key Information Matching": "The document directly addresses the key information of the query by specifying that Calvados is made from apples.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the production process of Calvados, including the fermentation and aging processes.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly provides the answer (apples) and offers additional useful context about the production of Calvados. This makes it a valuable source for understanding the query in depth."
+            },
+            "m.05l0d6_11": {
+                "Query Analysis": "The query asks about the specific type of fruit that is used to produce Calvados, a type of distilled spirit.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides descriptions of Averrhoa bilimbi, a plant from the Oxalidaceae family, cultivated in warm countries for its edible fruits. It includes various descriptions in different languages but does not mention anything about distilled spirits or Calvados.",
+                "Document and Query Keywords Matching": "None of the query keywords ('fruit', 'distilled', 'Calvados') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Apples' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document focuses on a different plant and does not provide any context related to distilled spirits or specific fruits used in their production.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Calvados or the fruit used to make it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a different plant and does not mention any aspects related to Calvados or the fruits used in its production. Therefore, it is irrelevant to the query."
+            },
+            "nq_457_26": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used in the distillation process to produce Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document lists various distilled drinks and categorizes them by the type of fruit used in their production. It includes a section on drinks made from apples, specifically mentioning Calvados.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Calvados' and 'fruit'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Apple' as a fruit used in distillation, which matches the answer 'Apples'.",
+                "Key Information Matching": "The document directly states that Calvados is made from apples, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other drinks made from various fruits, which can help understand the broader category of fruit-based distilled beverages.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it. It not only mentions Calvados but also clearly states that it is made from apples, directly addressing the query's focus."
+            },
+            "triviaqa_47302_3": {
+                "Query Analysis": "The query asks for the specific fruit used to make Calvados, a type of distilled spirit.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides information about various types of brandies, including grape brandies like Cognac, fruit brandies, and pomace brandies. It mentions specific fruit brandies such as Framboise, Kirsch, Slivovitz, and Poire, but does not explicitly mention Calvados or apples.",
+                "Document and Query Keywords Matching": "The document mentions 'fruit' and 'distilled' in the context of fruit brandies.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples' specifically.",
+                "Key Information Matching": "While the document discusses fruit brandies and their production, it does not directly mention Calvados or the specific fruit used to make it.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about the fruit used to make Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides general information about fruit brandies, which could help infer that Calvados, being a fruit brandy, is made from a specific fruit.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses fruit brandies, which is a broader category that includes Calvados. However, it lacks specific information about Calvados and apples, making it partially relevant but not directly tied to the main topic of the query."
+            },
+            "nq_193199_37": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used to make Calvados, a type of distilled beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that Calvados is made from apples.",
+                "Document Content Analysis": "The document provides a list of various alcoholic beverages, categorized into distilled drinks and fortified wines. It also includes a section on distilled drinks by ingredients, listing different fruits and the beverages made from them.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and 'fruit' in the context of distilled drinks.",
+                "Document and Answer Keywords Matching": "The document includes 'Apple' as an ingredient for distilled drinks, specifically listing 'Calvados' under 'Apple'.",
+                "Key Information Matching": "The document directly matches the key information by listing 'Calvados' under the fruit 'Apple', which is the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other distilled drinks and their respective fruit ingredients.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Calvados is made from apples, thereby providing the exact answer. Additionally, it offers broader context about other distilled drinks and their ingredients, enhancing the understanding of the topic."
+            },
+            "nq_193199_19": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that Calvados is made from apples.",
+                "Document Content Analysis": "The document provides information about various types of brandies, including Cognac, Cyprus brandy, dried fruit brandy, Greek brandy, and Brandy de Jerez. It details their origins, production methods, and alcohol concentrations.",
+                "Document and Query Keywords Matching": "The document does not mention 'Calvados' or 'apples'. It does discuss various types of brandies and their production methods.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples'.",
+                "Key Information Matching": "The document discusses brandy production but does not specifically address Calvados or the fruits used in its production.",
+                "Can the Document Answer the Query": "No, the document does not provide information about Calvados or the fruit used to make it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that would help infer the specific fruit used to make Calvados.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not mention Calvados or apples. It focuses on other types of brandies and their production methods, which do not provide any useful context or additional information related to the specific query about Calvados."
+            },
+            "m.05g56_31": {
+                "Query Analysis": "The query asks for the specific type of fruit that is used in the distillation process to produce Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a description of Normandy, a region in northern France. It includes administrative divisions, historical context, and some demographic information. The document mentions the name 'Calvados' as one of the departments in the Basse-Normandie region.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples' or any other fruit.",
+                "Key Information Matching": "While the document contains the keyword 'Calvados', it does not provide any information about the distillation process or the ingredients used to make Calvados.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the fruit used to make Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only mentions 'Calvados' in the context of a geographical region and does not provide any information about the beverage or its production process. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "ott_29672_1": {
+                "Query Analysis": "The query asks about the specific fruit used in the distillation process to produce Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer specifies that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a list of various alcoholic beverages, their regions of origin, and brief descriptions. It includes beverages like Patxaran, Ratafia, Queimada, Txakoli, Zurracapote, Sangria, and Sidra.",
+                "Document and Query Keywords Matching": "The document does not mention 'Calvados' directly.",
+                "Document and Answer Keywords Matching": "The document mentions 'apples' in the context of Sidra, an alcoholic beverage made from apples.",
+                "Key Information Matching": "While the document does not directly mention Calvados, it does mention apples in relation to Sidra, which is another apple-based alcoholic beverage.",
+                "Can the Document Answer the Query": "No, the document does not directly mention Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about another apple-based alcoholic beverage (Sidra), which can help infer that apples are used in alcoholic beverages, indirectly supporting the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions apples in the context of another alcoholic beverage (Sidra), which can help infer the use of apples in alcoholic beverages. However, it lacks direct mention of Calvados, making it unable to directly answer the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_16797_39": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document discusses the production of brandy, including the types of fruits used in various brandies, such as cherries, plums, apricots, and peaches. It also mentions that brandies are produced wherever grapes are grown and that Cognac is a specific type of brandy made from grapes in a particular region of France.",
+                "Document and Query Keywords Matching": "The document mentions 'distilled' and 'fruit', but it does not specifically mention 'Calvados'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples'.",
+                "Key Information Matching": "The document provides information about the types of fruits used in brandy production, but it does not mention Calvados or apples specifically.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvados or apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not mention Calvados or apples, which are key to answering the query. Therefore, it is irrelevant to the query."
+            },
+            "m.02qvz_4047": {
+                "Query Analysis": "The query asks which fruit is used to distill Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document discusses ethanol, its chemical properties, production methods, and uses in alcoholic beverages and as a fuel. It mentions fermentation of sugars and the production of alcoholic drinks like wine, beer, and aguardiente, but does not specifically mention Calvados or the fruit used to produce it.",
+                "Document and Query Keywords Matching": "The document does not mention 'Calvados' or 'fruit' directly.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples' or any specific fruit used in the production of Calvados.",
+                "Key Information Matching": "The document provides general information about ethanol and alcoholic beverages but lacks specific details about Calvados or the fruit used in its production.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvados or the fruit used to produce it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the fruit used to make Calvados.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Calvados, the fruit used to produce it, or any related information. It focuses on ethanol and general alcoholic beverages, which do not assist in answering the query."
+            },
+            "ott_12717_1": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used in the distillation process to make Calvados.",
+                "Document Content Analysis": "The document lists various alcoholic beverages, their ingredients, and regions of origin. It mentions 'Sidra', an alcoholic beverage made from apples, which is relevant to the query.",
+                "Document and Query Keywords Matching": "The document mentions 'distilled' in the context of 'Queimada' and 'Sidra', and 'fruit' in the context of 'Sidra' being made from apples.",
+                "Document and Answer Keywords Matching": "The document mentions 'apples' in the context of 'Sidra', which aligns with the answer.",
+                "Key Information Matching": "The document provides information about 'Sidra', an alcoholic beverage made from apples, which is directly related to the query about the fruit used to make Calvados.",
+                "Can the Document Answer the Query": "Yes, the document mentions 'Sidra', which is made from apples, the same fruit used to make Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about alcoholic beverages made from apples, which supports the answer to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions 'Sidra', an alcoholic beverage made from apples, which is the same fruit used to make Calvados. This provides substantial useful context and directly answers the query."
+            },
+            "nq_457_25": {
+                "Query Analysis": "The query asks which fruit is used in the distillation process to produce Calvados.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document lists various distilled drinks and their ingredients. It specifically mentions 'Calvados' under the category of distilled drinks made from fruit, with 'Apple' listed as the fruit used for Calvados.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'Calvados' and 'fruit'.",
+                "Document and Answer Keywords Matching": "The document includes 'Apple', which matches the answer 'Apples'.",
+                "Key Information Matching": "The document explicitly states that Calvados is made from apples, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It explicitly states that Calvados is made from apples, which is the answer to the query."
+            },
+            "nq_193199_38": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document lists various distilled drinks categorized by their ingredients, including fruits. It specifically mentions 'Apple' as an ingredient for 'Calvados' and 'Applejack'.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and 'fruit', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Apple', which is the answer to the query.",
+                "Key Information Matching": "The document directly links 'Calvados' to 'Apple', which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that apples are used to make Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It explicitly states that apples are the fruit used to make Calvados, making it highly relevant."
+            },
+            "triviaqa_23649_100": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document describes Calvados as an internationally acclaimed apple brandy produced in Normandy, France, from double-distilled fermented apple juice. It also mentions other spirits and their production processes, but the focus is on Calvados and its apple-based origin.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and 'apple', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Calvados is made from 'apple juice', matching the answer 'Apples'.",
+                "Key Information Matching": "The document directly states that Calvados is made from apples, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Calvados, including its production process and origin.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about Calvados. It is highly relevant and provides useful context."
+            },
+            "m.05g56_32": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a geographical and administrative description of Normandy, a region in northern France. It mentions the departments within Normandy, including Calvados, but does not discuss Calvados as a brandy or its production process.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples' or any other fruit related to the production of Calvados.",
+                "Key Information Matching": "The document mentions 'Calvados' as a department in Normandy but does not provide any information about the production of Calvados brandy or the fruit used in its distillation.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the fruit used to make Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the production of Calvados or the fruit used in its distillation.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Calvados' as a geographical region but does not provide any information about the production of Calvados brandy or the fruit used in its distillation. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_23649_102": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides information about various types of brandy, including Calvados. It mentions that Calvados is an apple brandy from the Lower Normandy region of France, made from apples (sometimes over 100 varieties) and sometimes pears. The process involves harvesting, pressing, fermenting into cider, distilling into eau de vie, and aging in oak casks.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and 'distilled', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'apples', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Calvados is made from apples, directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about the production process of Calvados, including the use of apples and sometimes pears.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about the production of Calvados. It contains all the key information needed to answer the query and enhances understanding of the topic."
+            },
+            "m.05l0d6_11": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document discusses the bilimbi fruit, its characteristics, and its cultivation in warm countries. It does not mention Calvados or any fruit used in its production.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'Calvados' or 'distilled'. It mentions 'fruit', but in the context of bilimbi, not apples.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples' or any related terms.",
+                "Key Information Matching": "The document does not provide any information about Calvados, distillation, or apples, which are key to the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvados or the fruit used to make it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional details about Calvados.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses bilimbi, a different fruit, and does not mention Calvados, distillation, or apples. Therefore, it is irrelevant to the query and cannot assist in answering it or providing additional context."
+            },
+            "nq_457_26": {
+                "Query Analysis": "The query asks which fruit is used to make Calvados, a type of distilled drink.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document lists various distilled drinks categorized by their ingredients, including fruits. It specifically mentions 'Calvados' under the 'Apple' category.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'Calvados' and 'fruit', which match the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Apple' as the fruit used to make Calvados, which matches the answer 'Apples'.",
+                "Key Information Matching": "The document directly states that Calvados is made from apples, which aligns with both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Calvados is made from apples, which is the exact information needed to answer the query."
+            },
+            "triviaqa_47302_3": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document discusses various types of brandy, including fruit brandies, and mentions that fruit brandies are made by distilling the wine or fermented mash of any fruit other than grapes. It also mentions specific fruit brandies like Framboise (raspberries), Kirsch (cherries), Slivovitz (plums), and Poire (pears). However, it does not explicitly mention Calvados or apples.",
+                "Document and Query Keywords Matching": "The document mentions 'fruit' and 'distilled', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples', which is the keyword from the answer.",
+                "Key Information Matching": "The document discusses fruit brandies and the process of distilling fruit, but it does not provide specific information about Calvados or apples.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvados or apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the fruit used to make Calvados.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses fruit brandies and the process of distilling fruit, but it does not mention Calvados or apples. Therefore, it does not provide any useful context or additional information relevant to the query."
+            },
+            "nq_193199_37": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a list of distilled drinks categorized by their ingredients, including a section on fruit-based distilled drinks. It specifically mentions 'Apple' as an ingredient for 'Calvados' and 'Applejack'.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados' and 'distilled', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Apple', which is the answer to the query.",
+                "Key Information Matching": "The document directly links 'Calvados' to 'Apple', which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Calvados is made from apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about other fruit-based distilled drinks, which could be useful for related queries.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Calvados is made from apples. It also provides additional relevant information about other fruit-based distilled drinks, enhancing understanding of the topic."
+            },
+            "nq_193199_19": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document discusses various types of brandy, including their origins, ingredients, and production methods. It mentions brandies made from grapes, dried fruit, and Muscat wine, but does not specifically mention Calvados or apples.",
+                "Document and Query Keywords Matching": "The document mentions 'fruit' and 'distilled', but does not mention 'Calvados'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples'.",
+                "Key Information Matching": "The document does not provide any information about Calvados or the fruit used to make it.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvados or apples.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Calvados or the fruit used to make it.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not mention Calvados or apples, and it does not provide any information that could help answer the query or infer additional relevant information. Therefore, it is irrelevant to the query."
+            },
+            "m.05g56_31": {
+                "Query Analysis": "The query asks which fruit is distilled to make Calvados, a type of brandy.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document provides a description of Normandy, a region in northern France, including its administrative divisions and some demographic information. It mentions Calvados as one of the départements in the Basse-Normandie region.",
+                "Document and Query Keywords Matching": "The document mentions 'Calvados', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'apples' or any other fruit related to the production of Calvados.",
+                "Key Information Matching": "The document mentions 'Calvados' as a geographical region but does not provide any information about the production of Calvados or the fruit used in its distillation.",
+                "Can the Document Answer the Query": "No, the document does not mention the fruit used to make Calvados.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to the production of Calvados or the fruit used in its distillation.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Calvados' as a geographical region but does not provide any information about the production of Calvados or the fruit used in its distillation. Therefore, it is irrelevant to the query."
+            },
+            "ott_29672_1": {
+                "Query Analysis": "The query asks which fruit is used to distill Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is 'Apples', indicating that apples are the fruit used to make Calvados.",
+                "Document Content Analysis": "The document lists various alcoholic beverages from Spain, including their ingredients and characteristics. It mentions 'Sidra', a drink made from apples, but does not explicitly mention Calvados.",
+                "Document and Query Keywords Matching": "The document does not directly mention 'Calvados' or 'distilled' in the context of Calvados. However, it does mention 'fruit' and 'apples' in the context of 'Sidra'.",
+                "Document and Answer Keywords Matching": "The document mentions 'apples' as the ingredient for 'Sidra', which aligns with the answer.",
+                "Key Information Matching": "The document does not mention Calvados but does mention a drink made from apples ('Sidra'), which is the same fruit used to make Calvados.",
+                "Can the Document Answer the Query": "No, the document does not mention Calvados directly.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions that apples are used to make 'Sidra', which could indirectly suggest that apples are used in similar beverages like Calvados.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document does not directly answer the query about Calvados but provides relevant information about a similar beverage made from apples, which could help infer the answer."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_16797_39": {
+                "Query Analysis": "The query is asking for which specific fruit is used to produce Calvados.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer is that Calvados is distilled from apples.",
+                "Document Content Analysis": "The document provides information about various types of brandy and spirits, primarily focusing on brandy made from grapes and other fruits. It includes details on the production of cognac, and generic information on distilling and brandy types. However, it does not specifically mention Calvados or the fruits involved in its production.",
+                "Document and Query Keywords Matching": "The document contains the term 'distilled' and mentions 'fruit' in the context of brandy.",
+                "Document and Answer Keywords Matching": "The document does not contain the word 'apples' or mention Calvados.",
+                "Key Information Matching": "The document talks about brandies made from fruits but does not discuss Calvados or specifically mention apples as a source for any particular brandy.",
+                "Can the Document Answer the Query": "No, the document does not provide information about Calvados or mention apples as the fruit used for its production.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document provides general information about brandy production, it lacks any details related to Calvados or the specific use of apples.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not mention Calvados or provide any information that could help deduce which fruit is used to make it. The content related to brandy production is broad and not connected to the query about Calvados, rendering it irrelevant to answering the query."
+            },
+            "m.02qvz_4047": {},
+            "ott_12717_1": {
+                "Query Analysis": "The query is asking which fruit is used in the distillation process to make Calvados, a type of alcoholic beverage.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer indicates that apples are the fruit distilled to make Calvados.",
+                "Document Content Analysis": "The document lists various types of alcoholic beverages and their primary ingredients or flavor components, including grape-based drinks, Patxaran, Ratafia, Queimada, Txakoli, Zurracapote, Sangria, and Sidra. Notably, Sidra is mentioned as an alcoholic beverage made from apples.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention Calvados but lists different alcoholic beverages and their ingredients.",
+                "Document and Answer Keywords Matching": "The document mentions Sidra as an alcoholic beverage made from apples, which is the same fruit used for making Calvados.",
+                "Key Information Matching": "While the document does not mention Calvados directly, it contains information about an apple-based alcoholic beverage (Sidra), linking to the key ingredient for Calvados.",
+                "Can the Document Answer the Query": "No, the document does not directly answer which fruit is used to make Calvados, as it does not mention Calvados itself.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the mention of Sidra as a beverage made from apples helps infer that apples are used in certain distilled beverages, potentially leading to the connection with Calvados.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document does not directly mention Calvados but includes relevant information about an apple-based alcoholic beverage (Sidra). This context helps infer that apples are a key ingredient in some distilled beverages, thus partially relating to the query."
+            },
+            "nq_457_25": {},
+            "nq_193199_38": {},
+            "triviaqa_23649_100": {},
+            "m.05g56_32": {},
+            "triviaqa_23649_102": {},
+            "m.05l0d6_11": {},
+            "nq_457_26": {},
+            "triviaqa_47302_3": {
+                "Query Analysis": "The query asks which fruit is used to make Calvados.",
+                "Query Keywords Extraction": "fruit, distilled, Calvados",
+                "Answer Analysis": "The answer indicates that apples are distilled to make Calvados.",
+                "Document Content Analysis": "The document discusses different types of brandies, including Grappa, Cognac, and various fruit brandies. It explains how fruit brandies are made by distilling specific fruits and provides examples of Eau-de-vie made from raspberries, cherries, plums, and pears. However, it does not mention Calvados or apples.",
+                "Document and Query Keywords Matching": "The document contains general references to 'fruit' and 'distilling,' but does not mention Calvados.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention apples, which are the key fruit distilled to make Calvados.",
+                "Key Information Matching": "The document provides information about fruit brandies and distillation but lacks specific mention of Calvados or apples.",
+                "Can the Document Answer the Query": "No, the document does not provide information about Calvados or which fruit is used to make it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide sufficient context or information about Calvados or its composition.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not mention Calvados or apples. While it discusses brandies from other fruits, it lacks any key information related to the query about Calvados, making it irrelevant in this context."
+            },
+            "nq_193199_37": {},
+            "nq_193199_19": {},
+            "m.05g56_31": {},
+            "ott_29672_1": {}
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_29672_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "triviaqa": 2,
+            "kg": 0,
+            "nq": 4,
+            "ott": 2,
+            "tat": 0
+        }
+    }
+}

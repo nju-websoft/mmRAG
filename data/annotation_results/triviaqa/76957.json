@@ -1,0 +1,953 @@
+{
+    "index": 76957,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which country lies immediately to the south of Estonia?",
+        "answer": "Latvia",
+        "BM25_documents": [
+            {
+                "id": "nq_73680_3",
+                "score": 10.600299835205078
+            },
+            {
+                "id": "m.02kmm_3945",
+                "score": 9.959199905395508
+            },
+            {
+                "id": "m.02kmm_6756",
+                "score": 9.949700355529785
+            },
+            {
+                "id": "m.02kmm_3895",
+                "score": 9.94480037689209
+            },
+            {
+                "id": "m.02kmm_1603",
+                "score": 9.942399978637695
+            },
+            {
+                "id": "m.02kmm_4648",
+                "score": 9.942399024963379
+            },
+            {
+                "id": "m.02kmm_3944",
+                "score": 9.938899993896484
+            },
+            {
+                "id": "m.02kmm_3238",
+                "score": 9.911299705505371
+            },
+            {
+                "id": "m.02kmm_1311",
+                "score": 9.896499633789062
+            },
+            {
+                "id": "m.02kmm_5701",
+                "score": 9.873800277709961
+            },
+            {
+                "id": "m.02kmm_1602",
+                "score": 9.814900398254395
+            },
+            {
+                "id": "m.02kmm_5702",
+                "score": 9.807700157165527
+            },
+            {
+                "id": "m.02kmm_6034",
+                "score": 9.797699928283691
+            },
+            {
+                "id": "m.02kmm_1310",
+                "score": 9.795100212097168
+            },
+            {
+                "id": "m.02kmm_4751",
+                "score": 9.787500381469727
+            },
+            {
+                "id": "m.02kmm_3874",
+                "score": 9.780200004577637
+            },
+            {
+                "id": "m.02kmm_6757",
+                "score": 9.74120044708252
+            },
+            {
+                "id": "m.02kmm_4647",
+                "score": 9.652899742126465
+            },
+            {
+                "id": "m.02kmm_3237",
+                "score": 9.640299797058105
+            },
+            {
+                "id": "triviaqa_4338_26",
+                "score": 9.275300025939941
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_26329_0",
+                "score": 8.250399589538574
+            },
+            {
+                "id": "ott_29903_0",
+                "score": 8.250398635864258
+            },
+            {
+                "id": "ott_35692_0",
+                "score": 8.250397682189941
+            },
+            {
+                "id": "ott_36075_0",
+                "score": 8.250396728515625
+            },
+            {
+                "id": "ott_1297_0",
+                "score": 7.192299842834473
+            },
+            {
+                "id": "ott_19246_0",
+                "score": 7.192298889160156
+            },
+            {
+                "id": "ott_11600_0",
+                "score": 7.146599769592285
+            },
+            {
+                "id": "ott_14090_0",
+                "score": 7.146598815917969
+            },
+            {
+                "id": "ott_22069_0",
+                "score": 7.146597862243652
+            },
+            {
+                "id": "ott_25198_0",
+                "score": 7.146596908569336
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_73680_3",
+                "score": 10.600299835205078
+            },
+            {
+                "id": "nq_220980_1",
+                "score": 8.785400390625
+            },
+            {
+                "id": "nq_95228_1",
+                "score": 8.785399436950684
+            },
+            {
+                "id": "nq_96255_52",
+                "score": 8.777400016784668
+            },
+            {
+                "id": "nq_73680_4",
+                "score": 8.615400314331055
+            },
+            {
+                "id": "nq_199264_46",
+                "score": 8.405599594116211
+            },
+            {
+                "id": "nq_96679_24",
+                "score": 8.26609992980957
+            },
+            {
+                "id": "nq_25129_47",
+                "score": 8.252900123596191
+            },
+            {
+                "id": "nq_130659_181",
+                "score": 8.072199821472168
+            },
+            {
+                "id": "nq_130659_182",
+                "score": 8.072198867797852
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_4338_26",
+                "score": 9.275300025939941
+            },
+            {
+                "id": "triviaqa_21120_6",
+                "score": 8.743200302124023
+            },
+            {
+                "id": "triviaqa_26023_509",
+                "score": 8.657999992370605
+            },
+            {
+                "id": "triviaqa_125_11",
+                "score": 8.602700233459473
+            },
+            {
+                "id": "triviaqa_42460_6",
+                "score": 8.405200004577637
+            },
+            {
+                "id": "triviaqa_48157_171",
+                "score": 8.380599975585938
+            },
+            {
+                "id": "triviaqa_41773_146",
+                "score": 8.253700256347656
+            },
+            {
+                "id": "triviaqa_26023_508",
+                "score": 8.201199531555176
+            },
+            {
+                "id": "triviaqa_34902_41",
+                "score": 8.108699798583984
+            },
+            {
+                "id": "triviaqa_41773_145",
+                "score": 7.7804999351501465
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.02kmm_3945",
+                "score": 9.959199905395508
+            },
+            {
+                "id": "m.02kmm_6756",
+                "score": 9.949700355529785
+            },
+            {
+                "id": "m.02kmm_3895",
+                "score": 9.94480037689209
+            },
+            {
+                "id": "m.02kmm_1603",
+                "score": 9.942399978637695
+            },
+            {
+                "id": "m.02kmm_4648",
+                "score": 9.942399024963379
+            },
+            {
+                "id": "m.02kmm_3944",
+                "score": 9.938899993896484
+            },
+            {
+                "id": "m.02kmm_3238",
+                "score": 9.911299705505371
+            },
+            {
+                "id": "m.02kmm_1311",
+                "score": 9.896499633789062
+            },
+            {
+                "id": "m.02kmm_5701",
+                "score": 9.873800277709961
+            },
+            {
+                "id": "m.02kmm_1602",
+                "score": 9.814900398254395
+            },
+            {
+                "id": "m.02kmm_5702",
+                "score": 9.807700157165527
+            },
+            {
+                "id": "m.02kmm_6034",
+                "score": 9.797699928283691
+            },
+            {
+                "id": "m.02kmm_1310",
+                "score": 9.795100212097168
+            },
+            {
+                "id": "m.02kmm_4751",
+                "score": 9.787500381469727
+            },
+            {
+                "id": "m.02kmm_3874",
+                "score": 9.780200004577637
+            },
+            {
+                "id": "m.02kmm_6757",
+                "score": 9.74120044708252
+            },
+            {
+                "id": "m.02kmm_4647",
+                "score": 9.652899742126465
+            },
+            {
+                "id": "m.02kmm_3237",
+                "score": 9.640299797058105
+            },
+            {
+                "id": "m.02kmm_4792",
+                "score": 9.059200286865234
+            },
+            {
+                "id": "m.02kmm_3240",
+                "score": 9.008099555969238
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.02kmm_1167",
+                "score": 0.7210944294929504
+            },
+            {
+                "id": "m.02kmm_4371",
+                "score": 0.7076905965805054
+            },
+            {
+                "id": "m.02kmm_134",
+                "score": 0.7046573162078857
+            },
+            {
+                "id": "m.02kmm_2893",
+                "score": 0.7043164968490601
+            },
+            {
+                "id": "m.02kmm_1790",
+                "score": 0.7034890055656433
+            },
+            {
+                "id": "m.02kmm_133",
+                "score": 0.7024340629577637
+            },
+            {
+                "id": "m.02kmm_60",
+                "score": 0.7017499804496765
+            },
+            {
+                "id": "m.02kmm_5236",
+                "score": 0.6996058821678162
+            },
+            {
+                "id": "m.02kmm_1859",
+                "score": 0.6983203887939453
+            },
+            {
+                "id": "m.02kmm_4615",
+                "score": 0.6979202628135681
+            },
+            {
+                "id": "m.02kmm_927",
+                "score": 0.6977205276489258
+            },
+            {
+                "id": "m.02kmm_2656",
+                "score": 0.697279691696167
+            },
+            {
+                "id": "m.02kmm_1860",
+                "score": 0.6950145959854126
+            },
+            {
+                "id": "m.02kmm_5419",
+                "score": 0.6935770511627197
+            },
+            {
+                "id": "m.02kmm_6112",
+                "score": 0.692075252532959
+            },
+            {
+                "id": "m.02kmm_4370",
+                "score": 0.6919692158699036
+            },
+            {
+                "id": "m.02kmm_3513",
+                "score": 0.6883887648582458
+            },
+            {
+                "id": "m.02kmm_5418",
+                "score": 0.6879720687866211
+            },
+            {
+                "id": "m.02kmm_926",
+                "score": 0.6866127252578735
+            },
+            {
+                "id": "m.02kmm_1791",
+                "score": 0.6839160323143005
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_697_11",
+                "score": 0.6413010358810425
+            },
+            {
+                "id": "nq_297559_18",
+                "score": 0.6304131150245667
+            },
+            {
+                "id": "nq_227007_3",
+                "score": 0.619111180305481
+            },
+            {
+                "id": "nq_273484_3",
+                "score": 0.619111180305481
+            },
+            {
+                "id": "nq_283686_87",
+                "score": 0.6169177293777466
+            },
+            {
+                "id": "nq_31904_76",
+                "score": 0.6166748404502869
+            },
+            {
+                "id": "nq_104006_5",
+                "score": 0.6162941455841064
+            },
+            {
+                "id": "nq_131378_113",
+                "score": 0.6158062219619751
+            },
+            {
+                "id": "nq_38080_70",
+                "score": 0.614895224571228
+            },
+            {
+                "id": "nq_64219_79",
+                "score": 0.6135115027427673
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_42460_7",
+                "score": 0.6282126307487488
+            },
+            {
+                "id": "triviaqa_42460_30",
+                "score": 0.6208102107048035
+            },
+            {
+                "id": "triviaqa_42460_6",
+                "score": 0.6061520576477051
+            },
+            {
+                "id": "triviaqa_34711_122",
+                "score": 0.6053724884986877
+            },
+            {
+                "id": "triviaqa_73587_263",
+                "score": 0.6051487326622009
+            },
+            {
+                "id": "triviaqa_21746_124",
+                "score": 0.5985502600669861
+            },
+            {
+                "id": "triviaqa_33834_362",
+                "score": 0.5965138077735901
+            },
+            {
+                "id": "triviaqa_51794_19",
+                "score": 0.5948912501335144
+            },
+            {
+                "id": "triviaqa_33834_373",
+                "score": 0.5902183651924133
+            },
+            {
+                "id": "triviaqa_27592_2",
+                "score": 0.589972734451294
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02kmm_1167",
+                "score": 0.7210944294929504
+            },
+            {
+                "id": "m.02kmm_4371",
+                "score": 0.7076905965805054
+            },
+            {
+                "id": "m.02kmm_134",
+                "score": 0.7046573162078857
+            },
+            {
+                "id": "m.02kmm_2893",
+                "score": 0.7043164968490601
+            },
+            {
+                "id": "m.02kmm_1790",
+                "score": 0.7034890055656433
+            },
+            {
+                "id": "m.02kmm_133",
+                "score": 0.7024340629577637
+            },
+            {
+                "id": "m.02kmm_60",
+                "score": 0.7017499804496765
+            },
+            {
+                "id": "m.02kmm_5236",
+                "score": 0.6996058821678162
+            },
+            {
+                "id": "m.02kmm_1859",
+                "score": 0.6983203887939453
+            },
+            {
+                "id": "m.02kmm_4615",
+                "score": 0.6979202628135681
+            },
+            {
+                "id": "m.02kmm_927",
+                "score": 0.6977205276489258
+            },
+            {
+                "id": "m.02kmm_2656",
+                "score": 0.697279691696167
+            },
+            {
+                "id": "m.02kmm_1860",
+                "score": 0.6950145959854126
+            },
+            {
+                "id": "m.02kmm_5419",
+                "score": 0.6935770511627197
+            },
+            {
+                "id": "m.02kmm_6112",
+                "score": 0.692075252532959
+            },
+            {
+                "id": "m.02kmm_4370",
+                "score": 0.6919692158699036
+            },
+            {
+                "id": "m.02kmm_3513",
+                "score": 0.6883887648582458
+            },
+            {
+                "id": "m.02kmm_5418",
+                "score": 0.6879720687866211
+            },
+            {
+                "id": "m.02kmm_926",
+                "score": 0.6866127252578735
+            },
+            {
+                "id": "m.02kmm_1791",
+                "score": 0.6839160323143005
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the name of the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document provides historical information about various events and discoveries in the 16th century, including plantations in Mexico, the Magellan voyage, the Spice Islands, and the publication of botanical books. It does not mention any geographical locations related to Estonia or Latvia.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('country', 'south', 'Estonia') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "There is no key information in the document that matches the geographical context of the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Estonia or its neighboring countries.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on historical events and botanical information from the 16th century, which do not provide any useful context or information about the geographical location of Estonia or its neighboring countries. Therefore, it is deemed irrelevant."
+            },
+            "nq_73680_3": {
+                "Query Analysis": "The query asks for the name of the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document discusses a statement attributed to Aristotle by Diogenes Laërtius and its historical context, including various titles of a fable and its spread through Europe. It focuses on the theme of truth and lies in classical literature and its reception in different periods.",
+                "Document and Query Keywords Matching": "None of the query keywords ('country', 'south', 'Estonia') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "There is no key information related to geography, countries, or Estonia in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Estonia or its neighboring countries.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or information that could help infer the location of countries relative to Estonia.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on classical literature and the theme of truth and lies, with no mention of geographic locations or countries. Therefore, it cannot answer the query or provide any useful context for it."
+            },
+            "m.02kmm_134": {
+                "Query Analysis": "The query asks for the name of the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document provides geographical information about Estonia, including its borders. It mentions that Estonia is bordered to the south by Latvia and provides additional details about Estonia's geography, climate, demographics, and economy.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south' in the context of its borders.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Latvia' as the country to the south of Estonia.",
+                "Key Information Matching": "The document directly states that Estonia is bordered to the south by Latvia, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia lies to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Estonia's borders and neighboring countries.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Latvia is the country to the south of Estonia, thus providing a direct answer to the query. Additionally, it offers context about Estonia's other borders and general information, enhancing the understanding of the geographical relationship between Estonia and its neighbors."
+            },
+            "m.02kmm_1790": {
+                "Query Analysis": "The query asks for the country that is immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides a detailed description of Estonia, including its geographical boundaries, political system, climate, and other demographic and economic information. Specifically, it mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south' in the context of its borders.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Latvia' as the country to the south of Estonia.",
+                "Key Information Matching": "The document directly states that Estonia is bordered to the south by Latvia, which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia is to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Estonia's borders and geographical relationships.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Latvia is the country lying immediately to the south of Estonia, thus providing a direct answer to the query. Additionally, it offers comprehensive information about Estonia's geography, which enhances the understanding of the query's context."
+            },
+            "m.02kmm_2893": {
+                "Query Analysis": "The query asks for the name of the country that is immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document provides detailed information about Estonia, including its geographical location, borders, climate, political system, economy, and demographic data. Specifically, it mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south', and directly states that Latvia is to the south of Estonia.",
+                "Document and Answer Keywords Matching": "The document includes the keyword 'Latvia', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Estonia is bordered to the south by Latvia, directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia is to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional geographical context about Estonia's borders, which helps in understanding the regional layout.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly provides the answer by stating that Latvia is the country to the south of Estonia. It also offers additional context about Estonia's geographical borders, enhancing the understanding of the query."
+            },
+            "triviaqa_42460_7": {
+                "Query Analysis": "The query is seeking to identify the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document provides historical and geographical information about Estonia, mentioning its neighbors and historical events. It also contains unrelated content about various countries in Europe, focusing on travel and cultural aspects.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and its historical context, but does not explicitly mention its southern neighbor.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "While the document discusses Estonia and its historical background, it does not provide specific information about its southern border or neighboring countries.",
+                "Can the Document Answer the Query": "No, the document does not provide the information needed to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any geographical context that would help infer which country lies to the south of Estonia.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful geographical information about Estonia's southern neighbor. The content is mostly historical and unrelated to the specific geographical question posed by the query."
+            },
+            "m.02kmm_6756": {
+                "Query Analysis": "The query asks for the name of the country that is immediately south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document lists various entities and their associations with Estonia, such as regions, film release regions, and individuals' nationalities. It primarily focuses on items related to Estonia but does not mention any geographical neighbors or borders.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times but does not include keywords like 'country', 'south', or any geographical context related to neighboring countries.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia' or any other country that could be considered a neighbor to Estonia.",
+                "Key Information Matching": "The document lacks any geographical information about Estonia's neighboring countries, which is crucial for answering the query.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Estonia's neighboring countries.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant geographical context or information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any geographical information about Estonia's neighbors. It focuses on various entities associated with Estonia but lacks the necessary context to answer or infer the required information about neighboring countries."
+            },
+            "m.02kmm_4371": {
+                "Query Analysis": "The query asks for the name of the country that is immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document provides a detailed description of Estonia, including its geographical location, borders, and other relevant information. It mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Estonia' and 'south' in the context of its borders.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Latvia' as the country to the south of Estonia.",
+                "Key Information Matching": "The document directly states that Estonia is bordered to the south by Latvia, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia lies immediately to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Estonia's other borders and geographical details, which can enhance understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Latvia is the country to the south of Estonia, thereby providing the exact answer to the query. Additionally, it offers comprehensive information about Estonia's geographical context, which further supports the relevance."
+            },
+            "m.02kmm_3945": {
+                "Query Analysis": "The query asks for the name of the country that is immediately south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country immediately south of Estonia.",
+                "Document Content Analysis": "The document provides various pieces of information related to Estonia, such as film release regions, places contained within Estonia, and the nationalities of various individuals. It focuses on entities and events associated with Estonia but does not mention any geographical neighbors or borders.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "While the document extensively mentions Estonia, it does not provide any information about neighboring countries or geographical boundaries.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the countries bordering Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any geographical context that could help infer the neighboring countries of Estonia.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the countries bordering Estonia or any geographical context that could help infer the answer. It is solely focused on various entities and events within Estonia, which do not assist in answering the query about its southern neighbor."
+            },
+            "ott_26329_0": {
+                "Query Analysis": "The query asks for the name of the country that is immediately south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides results from the figure skating competition at the 1997 Winter Universiade, listing the rankings, names, nations, and scores of the competitors. It includes a mention of Estonia in the context of one of the competitors, Margus Hernits.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' once in the context of a competitor's nationality.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "The document only mentions 'Estonia' in the context of a competitor's nationality and does not provide any geographical or locational information.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the geographical location of Estonia or its neighboring countries.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant geographical or locational information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on figure skating results and does not provide any geographical context or information about Estonia's neighboring countries. The sole mention of 'Estonia' is in a different context and does not aid in answering the query."
+            },
+            "m.02kmm_3895": {
+                "Query Analysis": "The query asks for the name of the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document lists various entities and their associations with Estonia, such as regions, film release regions, and individuals' nationalities. It primarily focuses on items related to Estonia but does not mention geographic relationships or neighboring countries.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times but does not include keywords like 'country' or 'south'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "The document lacks any geographic information about Estonia's neighboring countries, which is crucial for answering the query.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Estonia's southern neighbor.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any geographic context or information about neighboring countries.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any geographic information about Estonia's neighbors. It focuses on various entities associated with Estonia but lacks the necessary context to answer or infer the required information about the country lying to the south of Estonia."
+            },
+            "m.02kmm_1603": {
+                "Query Analysis": "The query asks for the name of the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document lists various items and entities associated with Estonia, such as regions, individuals, and cultural elements. It primarily focuses on Estonia and its related contexts.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "While the document extensively mentions Estonia, it does not provide any geographical context or information about neighboring countries.",
+                "Can the Document Answer the Query": "No, the document does not provide information about countries bordering Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any geographical or border-related information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused solely on various entities and contexts related to Estonia but does not provide any geographical information or mention neighboring countries. Therefore, it cannot assist in answering the query or infer additional relevant information."
+            },
+            "m.02kmm_1167": {
+                "Query Analysis": "The query seeks to identify the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document provides detailed information about Estonia's geographical boundaries, mentioning that it is bordered to the south by Latvia. It also includes other geographical, demographic, and economic details about Estonia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south' in the context of its borders.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Latvia' as the country to the south of Estonia.",
+                "Key Information Matching": "The document directly states that Estonia is bordered to the south by Latvia, which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Latvia is to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional geographical context about Estonia's borders.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by stating that Latvia is the country to the south of Estonia. It also provides additional geographical context that enhances understanding of Estonia's location and borders."
+            },
+            "nq_697_11": {
+                "Query Analysis": "The query asks for the country that is located immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, indicating that Latvia is the country directly south of Estonia.",
+                "Document Content Analysis": "The document primarily discusses Finland, its population, language, geographical region, and political structure. It mentions Finland's location relative to Estonia but does not provide information about countries bordering Estonia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' but does not include 'country' or 'south'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "The document only mentions Estonia in the context of its geographical relationship with Finland, not in relation to its southern border.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the country south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer which country lies to the south of Estonia.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the countries bordering Estonia, specifically the one to its south. The document's focus on Finland and its characteristics does not assist in answering the query or providing relevant context."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document discusses historical events and botanical information from the 16th century, including the introduction of sweet potatoes to Europe and the publication of herbal books. It does not mention Estonia, Latvia, or any geographical information related to the query.",
+                "Document and Query Keywords Matching": "None of the query keywords ('country', 'south', 'Estonia') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Latvia' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Estonia, Latvia, or their geographical relationship.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the country to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses historical and botanical topics from the 16th century and does not mention Estonia, Latvia, or any geographical information that could be relevant to the query. Therefore, it is irrelevant to the conversation."
+            },
+            "nq_73680_3": {
+                "Query Analysis": "The query asks for the name of the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately south of Estonia.",
+                "Document Content Analysis": "The document discusses the history and variations of the fable 'The Boy Who Cried Wolf,' including its origins in Classical times and its spread through Europe. It mentions various titles and translations of the fable but does not provide any geographical or political information.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('country', 'south', 'Estonia') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Latvia' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the geographical location of Estonia or its neighboring countries.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the country south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a fable and its historical context but does not provide any information about Estonia, its neighboring countries, or geographical details. Therefore, it is irrelevant to the query."
+            },
+            "m.02kmm_134": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides geographical information about Estonia, including its borders. It mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Latvia', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Estonia is bordered to the south by Latvia, which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia lies to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions that Latvia is the country immediately to the south of Estonia, which is the answer to the query. Therefore, the document is highly relevant."
+            },
+            "m.02kmm_1790": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides a detailed description of Estonia, including its geographical location, borders, and neighboring countries. It mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Latvia', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Estonia is bordered to the south by Latvia, which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia lies immediately to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions that Estonia is bordered to the south by Latvia, which is the answer to the query. Therefore, the document is highly relevant."
+            },
+            "m.02kmm_2893": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides detailed information about Estonia, including its geographical location, bordering countries, and various socio-economic indicators. Specifically, it mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Latvia' as the country bordering Estonia to the south.",
+                "Key Information Matching": "The document directly states that Latvia borders Estonia to the south, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia is the country immediately to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly provides the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions that Latvia is the country immediately to the south of Estonia, which directly answers the query."
+            },
+            "triviaqa_42460_7": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides information about various countries and regions, including Finland, France, Georgia, Germany, and Greece. It mentions Estonia briefly in the context of its historical occupation by Denmark and the Teutonic Knights.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' but does not mention 'south' or any country to the south of Estonia.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia' or any country to the south of Estonia.",
+                "Key Information Matching": "The document does not provide any information about the country to the south of Estonia.",
+                "Can the Document Answer the Query": "No, the document does not mention Latvia or any country to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the geographical location of Estonia or its neighboring countries.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information about the country to the south of Estonia or any relevant geographical details. It is therefore irrelevant to the query."
+            },
+            "m.02kmm_6756": {
+                "Query Analysis": "The query asks for the name of the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document contains various entries related to Estonia, including regions, film releases, and individuals associated with Estonia. However, it does not mention any neighboring countries or geographical relationships.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times, which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia', which is the answer to the query.",
+                "Key Information Matching": "The document does not provide any information about countries neighboring Estonia or their geographical relationships.",
+                "Can the Document Answer the Query": "No, the document does not mention any countries neighboring Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not provide any information about countries neighboring Estonia or their geographical relationships. It only contains information related to Estonia itself, such as regions, film releases, and individuals associated with Estonia."
+            },
+            "m.02kmm_4371": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides a detailed description of Estonia, including its geographical location, borders, and neighboring countries. It mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Latvia', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Estonia is bordered to the south by Latvia, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Latvia lies to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It explicitly states that Latvia is the country immediately to the south of Estonia, making it highly relevant."
+            },
+            "m.02kmm_3945": {
+                "Query Analysis": "The query asks for the name of the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately south of Estonia.",
+                "Document Content Analysis": "The document contains various pieces of information related to Estonia, including film release regions, places, and individuals associated with Estonia. However, it does not mention any neighboring countries or geographical relationships.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times, which matches the query keyword 'Estonia'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia' or any other country that could be inferred as the answer.",
+                "Key Information Matching": "The document does not provide any information about countries neighboring Estonia or their geographical relationships.",
+                "Can the Document Answer the Query": "No, the document does not mention any country to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or additional relevant information.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the country to the south of Estonia or any geographical context that could help answer the query."
+            },
+            "ott_26329_0": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document provides results from the figure skating competition at the 1997 Winter Universiade, listing participants, their nations, and their rankings. It mentions 'Margus Hernits' from Estonia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia', the answer to the query.",
+                "Key Information Matching": "The document mentions 'Estonia', which is relevant to the query, but it does not provide any information about the country to the south of Estonia.",
+                "Can the Document Answer the Query": "No, the document does not mention Latvia or any country to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about the geographical location of Estonia or its neighboring countries.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Estonia', which is relevant to the query, but it does not provide any information about the country to the south of Estonia or any geographical context. Therefore, it is irrelevant to the query."
+            },
+            "m.02kmm_3895": {
+                "Query Analysis": "The query asks for the name of the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document contains a list of entities and their associations with Estonia, such as regions, nationalities, and release dates. However, it does not explicitly mention any neighboring countries or geographical relationships.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times, which matches the query keyword 'Estonia'. However, it does not mention 'south' or any country to the south of Estonia.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia', which is the answer to the query.",
+                "Key Information Matching": "The document does not provide any information about the geographical location of Estonia or its neighboring countries, which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the country immediately to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant geographical or contextual information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the geographical location of Estonia or its neighboring countries. It focuses on entities associated with Estonia but does not address the specific question about the country to the south of Estonia."
+            },
+            "m.02kmm_1603": {
+                "Query Analysis": "The query asks for the name of the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately to the south of Estonia.",
+                "Document Content Analysis": "The document contains various entries related to Estonia, including regions, places, and individuals associated with Estonia. However, it does not mention any neighboring countries or geographical relationships.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' multiple times, which matches the query keyword 'Estonia'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia' or any other country that lies to the south of Estonia.",
+                "Key Information Matching": "The document does not provide any information about countries neighboring Estonia or their geographical relationships.",
+                "Can the Document Answer the Query": "No, the document does not mention any country to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or additional relevant information.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the country to the south of Estonia or any geographical relationships. It only contains entries related to Estonia itself, without any context or details about neighboring countries."
+            },
+            "m.02kmm_1167": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately south of Estonia.",
+                "Document Content Analysis": "The document provides geographical information about Estonia, including its borders. It mentions that Estonia is bordered to the south by Latvia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' and 'south', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Latvia', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Estonia is bordered to the south by Latvia, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Latvia is the country to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional geographical context about Estonia's borders.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Latvia is the country immediately to the south of Estonia. It also provides additional geographical context, making it highly relevant to the query."
+            },
+            "nq_697_11": {
+                "Query Analysis": "The query asks for the country that lies immediately to the south of Estonia.",
+                "Query Keywords Extraction": "country, south, Estonia",
+                "Answer Analysis": "The answer is Latvia, which is the country immediately south of Estonia.",
+                "Document Content Analysis": "The document provides detailed information about Finland, including its geographical location, population, language, and government structure. However, it does not mention Latvia or any country to the south of Estonia.",
+                "Document and Query Keywords Matching": "The document mentions 'Estonia' but does not mention 'south' or any country to the south of Estonia.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Latvia'.",
+                "Key Information Matching": "The document mentions 'Estonia' but does not provide any information about the country to its south.",
+                "Can the Document Answer the Query": "No, the document does not mention Latvia or any country to the south of Estonia.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the geographical relationship between Estonia and its neighboring countries.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the country to the south of Estonia or any related geographical details."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_4338_26": {},
+            "nq_73680_3": {},
+            "m.02kmm_134": {},
+            "m.02kmm_1790": {},
+            "m.02kmm_2893": {},
+            "triviaqa_42460_7": {},
+            "m.02kmm_6756": {},
+            "m.02kmm_4371": {},
+            "m.02kmm_3945": {},
+            "ott_26329_0": {},
+            "m.02kmm_3895": {},
+            "m.02kmm_1603": {},
+            "m.02kmm_1167": {},
+            "nq_697_11": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "nq_697_11": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 10,
+            "ott": 0,
+            "triviaqa": 0,
+            "nq": 0,
+            "tat": 0
+        }
+    }
+}

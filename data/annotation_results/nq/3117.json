@@ -1,0 +1,1286 @@
+{
+    "index": 3117,
+    "context": [
+        "# Latitude\n\nFrom Wikipedia, the free encyclopedia\n\nJump to: navigation, search\n\nThis article is about the geographical reference system. For other uses, see\n[Latitude (disambiguation)](/wiki/Latitude_\\(disambiguation\\) \"Latitude\n\\(disambiguation\\)\").\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Division_of_the_Earth_into_Gauss-\nKrueger_zones_-_Globe.svg/200px-Division_of_the_Earth_into_Gauss-\nKrueger_zones_-_Globe.svg.png)](/wiki/File:Division_of_the_Earth_into_Gauss-\nKrueger_zones_-_Globe.svg)\n\n[](/wiki/File:Division_of_the_Earth_into_Gauss-Krueger_zones_-_Globe.svg\n\"Enlarge\")\n\nA graticule on the Earth as a [sphere](/wiki/Sphere \"Sphere\") or an\n[ellipsoid](/wiki/Ellipsoid \"Ellipsoid\"). The lines from pole to pole are\nlines of constant [longitude](/wiki/Longitude \"Longitude\"), or **meridians**.\nThe circles parallel to the [equator](/wiki/Equator \"Equator\") are lines of\nconstant latitude, or **parallels**. The graticule shows the latitude and\nlongitude of points on the surface. In this example meridians are spaced at 6°\nintervals and parallels at 4° intervals.\n\nIn [geography](/wiki/Geography \"Geography\"), **latitude** is a [geographic\ncoordinate](/wiki/Geographic_coordinate_system \"Geographic coordinate system\")\nthat specifies the [north](/wiki/North \"North\")–[south](/wiki/South \"South\")\nposition of a point on the Earth's surface. Latitude is an angle (defined\nbelow) which ranges from 0° at the [Equator](/wiki/Equator \"Equator\") to 90°\n(North or South) at the poles. Lines of constant latitude, or _parallels_ ,\nrun east–west as circles parallel to the equator. Latitude is used together\nwith [longitude](/wiki/Longitude \"Longitude\") to specify the precise location\nof features on the surface of the Earth. Without qualification the term\nlatitude should be taken to be the _geodetic latitude_ as defined in the\nfollowing sections. Also defined are six _auxiliary latitudes_ which are used\nin special applications.\n\n## Contents\n\n[hide]\n\n  * 1 Preliminaries\n  * 2 Latitude on the sphere\n    * 2.1 The graticule on the sphere\n    * 2.2 Named latitudes on the Earth\n    * 2.3 Meridian distance on the sphere\n  * 3 Latitude on the ellipsoid\n    * 3.1 Ellipsoids\n    * 3.2 The geometry of the ellipsoid\n    * 3.3 Geodetic and geocentric latitudes\n    * 3.4 Length of a degree of latitude\n  * 4 Auxiliary latitudes\n    * 4.1 Geocentric latitude\n    * 4.2 Reduced (or parametric) latitude\n    * 4.3 Rectifying latitude\n    * 4.4 Authalic latitude\n    * 4.5 Conformal latitude\n    * 4.6 Isometric latitude\n    * 4.7 Inverse formulae and series\n    * 4.8 Numerical comparison of auxiliary latitudes\n  * 5 Latitude and coordinate systems\n    * 5.1 Geodetic coordinates\n    * 5.2 Spherical polar coordinates\n    * 5.3 Ellipsoidal coordinates\n    * 5.4 Coordinate conversions\n  * 6 Astronomical latitude\n  * 7 See also\n  * 8 Notes\n  * 9 References\n  * 10 External links\n\n## Preliminaries[[edit](/w/index.php?title=Latitude&action=edit&section=1\n\"Edit section: Preliminaries\")]\n\nTwo levels of abstraction are employed in the definition of latitude and\nlongitude. In the first step the physical surface is modeled by the\n[geoid](/wiki/Geoid \"Geoid\"), a surface which approximates the [mean sea\nlevel](/wiki/Sea_level \"Sea level\") over the oceans and its continuation under\nthe land masses. The second step is to approximate the geoid by a\nmathematically simpler reference surface. The simplest choice for the\nreference surface is a [sphere](/wiki/Sphere \"Sphere\"), but the geoid is more\naccurately modeled by an ellipsoid. The definitions of latitude and longitude\non such reference surfaces are detailed in the following sections. Lines of\nconstant latitude and longitude together constitute a\n[graticule](/wiki/Geographic_coordinate_system \"Geographic coordinate system\")\non the reference surface. The latitude of a point on the _actual_ surface is\nthat of the corresponding point on the reference surface, the correspondence\nbeing along the [normal](/wiki/Normal_\\(geometry\\) \"Normal \\(geometry\\)\") to\nthe reference surface which passes through the point on the physical surface.\nLatitude and longitude together with some specification of\n[height](/wiki/Altitude \"Altitude\") constitute a [geographic coordinate\nsystem](/wiki/Geographic_coordinate_system \"Geographic coordinate system\") as\ndefined in the specification of the ISO 19111 standard.[a]\n\nSince there are many different [reference\nellipsoids](/wiki/Reference_ellipsoid \"Reference ellipsoid\"), the precise\nlatitude of a feature on the surface is not unique: this is stressed in the\nISO standard which states that \"without the full specification of the\ncoordinate reference system, coordinates (that is latitude and longitude) are\nambiguous at best and meaningless at worst\". This is of great importance in\naccurate applications, such as a [Global Positioning\nSystem](/wiki/Global_Positioning_System \"Global Positioning System\") (GPS),\nbut in common usage, where high accuracy is not required, the reference\nellipsoid is not usually stated.\n\nIn English texts the latitude angle, defined below, is usually denoted by the\nGreek lower-case letter [phi](/wiki/Phi_\\(letter\\) \"Phi \\(letter\\)\") (φ or ϕ).\nIt is measured in [degrees](/wiki/Degree_\\(angle\\) \"Degree \\(angle\\)\"),\n[minutes and seconds](/wiki/Arcminute \"Arcminute\") or [decimal\ndegrees](/wiki/Decimal_degrees \"Decimal degrees\"), north or south of the\nequator.\n\nThe precise measurement of latitude requires an understanding of the\ngravitational field of the Earth, either to set up\n[theodolites](/wiki/Theodolite \"Theodolite\") or to determine GPS satellite\norbits. The study of the [figure of the Earth](/wiki/Figure_of_the_Earth\n\"Figure of the Earth\") together with its gravitational field is the science of\n[geodesy](/wiki/Geodesy \"Geodesy\").\n\nThis article relates to coordinate systems for the Earth: it may be extended\nto cover the Moon, planets and other celestial objects by a simple change of\nnomenclature.\n\n## Latitude on the\nsphere[[edit](/w/index.php?title=Latitude&action=edit&section=2 \"Edit section:\nLatitude on the sphere\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Latitude_and_longitude_graticule_on_a_sphere.svg/200px-\nLatitude_and_longitude_graticule_on_a_sphere.svg.png)](/wiki/File:Latitude_and_longitude_graticule_on_a_sphere.svg)\n\n[](/wiki/File:Latitude_and_longitude_graticule_on_a_sphere.svg \"Enlarge\")\n\nA perspective view of the Earth showing how latitude (φ) and longitude (λ) are\ndefined on a spherical model. The graticule spacing is 10 degrees.\n\n### The graticule on the\nsphere[[edit](/w/index.php?title=Latitude&action=edit&section=3 \"Edit section:\nThe graticule on the sphere\")]\n\nThe graticule is formed by the lines of constant latitude and constant\nlongitude, which are constructed with reference to the rotation axis of the\nEarth. The primary reference points are the [poles](/wiki/Geographical_pole\n\"Geographical pole\") where the axis of rotation of the Earth intersects the\nreference surface. Planes which contain the rotation axis intersect the\nsurface at the [meridians](/wiki/Meridian_\\(geography\\) \"Meridian\n\\(geography\\)\"); and the angle between any one meridian plane and that through\nGreenwich (the [Prime Meridian](/wiki/Prime_Meridian \"Prime Meridian\"))\ndefines the longitude: meridians are lines of constant longitude. The plane\nthrough the centre of the Earth and perpendicular to the rotation axis\nintersects the surface at a great circle called the [Equator](/wiki/Equator\n\"Equator\"). Planes parallel to the equatorial plane intersect the surface in\ncircles of constant latitude; these are the parallels. The Equator has a\nlatitude of 0°, the [North Pole](/wiki/North_Pole \"North Pole\") has a latitude\nof 90° North (written 90° N or +90°), and the [South Pole](/wiki/South_Pole\n\"South Pole\") has a latitude of 90° South (written 90° S or −90°). The\nlatitude of an arbitrary point is the angle between the equatorial plane and\nthe normal to the surface at that point: the normal to the surface of the\nsphere is along the radius vector.\n\nThe latitude, as defined in this way for the sphere, is often termed the\nspherical latitude, to avoid ambiguity with the geodetic latitude and the\nauxiliary latitudes defined in subsequent sections of this article.\n\n### Named latitudes on the\nEarth[[edit](/w/index.php?title=Latitude&action=edit&section=4 \"Edit section:\nNamed latitudes on the Earth\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/December_solstice_geometry.svg/300px-\nDecember_solstice_geometry.svg.png)](/wiki/File:December_solstice_geometry.svg)\n\n[](/wiki/File:December_solstice_geometry.svg \"Enlarge\")\n\nThe orientation of the Earth at the December solstice.\n\nBesides the equator, four other parallels are of significance:\n\n     [Arctic Circle](/wiki/Arctic_Circle \"Arctic Circle\") | 66° 34′ (66.57°) N  \n---|---  \n[Tropic of Cancer](/wiki/Tropic_of_Cancer \"Tropic of Cancer\") | 23° 26′ (23.43°) N  \n[Tropic of Capricorn](/wiki/Tropic_of_Capricorn \"Tropic of Capricorn\") | 23° 26′ (23.43°) S  \n[Antarctic Circle](/wiki/Antarctic_Circle \"Antarctic Circle\") | 66° 34′ (66.57°) S  \n  \nThe plane of the Earth's orbit about the Sun is called the\n[ecliptic](/wiki/Ecliptic \"Ecliptic\"), and the plane perpendicular to the\nrotation axis of the Earth is the equatorial plane. The angle between the\necliptic and the equatorial plane is called variously the axial tilt, the\nobliquity, or the inclination of the ecliptic, and it is conventionally\ndenoted by i. The latitude of the tropical circles is equal to i and the\nlatitude of the polar circles is its complement (90° - _i_). The axis of\nrotation varies slowly over time and the values given here are those for the\ncurrent [epoch](/wiki/Epoch_\\(astronomy\\) \"Epoch \\(astronomy\\)\"). The time\nvariation is discussed more fully in the article on [axial\ntilt](/wiki/Axial_tilt \"Axial tilt\").[b]\n\nThe figure shows the geometry of a [cross-\nsection](/wiki/Cross_section_\\(geometry\\) \"Cross section \\(geometry\\)\") of the\nplane perpendicular to the ecliptic and through the centres of the Earth and\nthe Sun at the December [solstice](/wiki/Solstice \"Solstice\") when the Sun is\noverhead at some point of the [Tropic of Capricorn](/wiki/Tropic_of_Capricorn\n\"Tropic of Capricorn\"). The south polar latitudes below the [Antarctic\nCircle](/wiki/Antarctic_Circle \"Antarctic Circle\") are in daylight, whilst the\nnorth polar latitudes above the Arctic Circle are in night. The situation is\nreversed at the June solstice, when the Sun is overhead at the Tropic of\nCancer. Only at latitudes in between the two [tropics](/wiki/Tropics\n\"Tropics\") is it possible for the Sun to be directly overhead (at the\n[zenith](/wiki/Zenith \"Zenith\")).\n\nOn [map projections](/wiki/Map_projections \"Map projections\") there is no\nuniversal rule as to how meridians and parallels should appear. The examples\nbelow show the named parallels (as red lines) on the commonly used [Mercator\nprojection](/wiki/Mercator_projection \"Mercator projection\") and the\n[Transverse Mercator projection](/wiki/Transverse_Mercator_projection\n\"Transverse Mercator projection\"). On the former the parallels are horizontal\nand the meridians are vertical, whereas on the latter there is no exact\nrelationship of parallels and meridians with horizontal and vertical: both are\ncomplicated curves.\n\n| Normal Mercator |  | Transverse Mercator |   \n---|---|---|---|---  \n|  [![MercNormSph enhanced.png](//upload.wikimedia.org/wikipedia/commons/thumb/5/53/MercNormSph_enhanced.png/200px-MercNormSph_enhanced.png)](/wiki/File:MercNormSph_enhanced.png) |  \\ |  [![MercTranSph enhanced.png](//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/MercTranSph_enhanced.png/200px-MercTranSph_enhanced.png)](/wiki/File:MercTranSph_enhanced.png)  \n  \n### Meridian distance on the\nsphere[[edit](/w/index.php?title=Latitude&action=edit&section=5 \"Edit section:\nMeridian distance on the sphere\")]\n\nOn the sphere the normal passes through the centre and the latitude (φ) is\ntherefore equal to the angle subtended at the centre by the meridian arc from\nthe equator to the point concerned. If the [meridian\ndistance](/wiki/Meridian_arc \"Meridian arc\") is denoted by _m_(_φ_) then\n\n     m ( ϕ ) = π 180 ∘ R ϕ d e g r e e s = R ϕ r a d i a n s {\\displaystyle m(\\phi )={\\frac {\\pi }{180^{\\circ }}}R\\phi _{\\mathrm {degrees} }=R\\phi _{\\mathrm {radians} }} ![{\\\\displaystyle m\\(\\\\phi \\)={\\\\frac {\\\\pi }{180^{\\\\circ }}}R\\\\phi _{\\\\mathrm {degrees} }=R\\\\phi _{\\\\mathrm {radians} }}](https://wikimedia.org/api/rest_v1/media/math/render/svg/508adf4208d93637637efa0bca3d57f2a6613bc0)\n\nwhere R denotes the [mean radius](/wiki/Earth_radius#Mean_radii \"Earth\nradius\") of the Earth. R is equal to 6,371 km or 3,959 miles. No higher\naccuracy is appropriate for R since higher-precision results necessitate an\nellipsoid model. With this value for R the meridian length of 1 degree of\nlatitude on the sphere is 111.2 km or 69.1 miles. The length of 1 minute of\nlatitude is 1.853 km or 1.151 miles, and this distance was formerly used as\nthe basis of the [nautical mile](/wiki/Nautical_mile \"Nautical mile\").\n\n## Latitude on the\nellipsoid[[edit](/w/index.php?title=Latitude&action=edit&section=6 \"Edit\nsection: Latitude on the ellipsoid\")]\n\n### Ellipsoids[[edit](/w/index.php?title=Latitude&action=edit&section=7 \"Edit\nsection: Ellipsoids\")]\n\nIn 1687 [Isaac Newton](/wiki/Isaac_Newton \"Isaac Newton\") published the\n_[Philosophiæ Naturalis Principia\nMathematica](/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica\n\"Philosophiæ Naturalis Principia Mathematica\")_ , in which he proved that a\nrotating self-gravitating fluid body in equilibrium takes the form of an\n[oblate](/wiki/Oblate \"Oblate\") ellipsoid.[1] (This article uses the term\n_ellipsoid_ in preference to the older term _spheroid_.) Newton's result was\nconfirmed by geodetic measurements in the 18th century. (See [Meridian\narc](/wiki/Meridian_arc \"Meridian arc\").) An oblate ellipsoid is the three-\ndimensional surface generated by the rotation of an ellipse about its shorter\naxis (minor axis). \"Oblate ellipsoid of revolution\" is abbreviated to\n'ellipsoid' in the remainder of this article. (Ellipsoids which do not have an\naxis of symmetry are termed triaxial.)\n\nMany different [reference ellipsoids](/wiki/Figure_of_the_Earth \"Figure of the\nEarth\") have been used in the history of [geodesy](/wiki/Geodesy \"Geodesy\").\nIn pre-satellite days they were devised to give a good fit to the\n[geoid](/wiki/Geoid \"Geoid\") over the limited area of a survey but, with the\nadvent of [GPS](/wiki/GPS \"GPS\"), it has become natural to use reference\nellipsoids (such as [WGS84](/wiki/WGS84 \"WGS84\")) with centre at the centre of\nmass of the Earth and minor axis aligned to the rotation axis of the Earth.\nThese geocentric ellipsoids are usually within 100 m (330 ft) of the geoid.\nSince latitude is defined with respect to an ellipsoid, the position of a\ngiven point is different on each ellipsoid: one cannot exactly specify the\nlatitude and longitude of a geographical feature without specifying the\nellipsoid used. Many maps maintained by national agencies are based on older\nellipsoids, so one must know how the latitude and longitude values are\ntransformed from one ellipsoid to another. GPS handsets include software to\ncarry out [datum transformations](/wiki/Datum_\\(geodesy\\) \"Datum \\(geodesy\\)\")\nwhich link WGS84 to the local reference ellipsoid with its associated grid.\n\n### The geometry of the\nellipsoid[[edit](/w/index.php?title=Latitude&action=edit&section=8 \"Edit\nsection: The geometry of the ellipsoid\")]\n\nThe shape of an ellipsoid of revolution is determined by the shape of the\n[ellipse](/wiki/Ellipse \"Ellipse\") which is rotated about its minor (shorter)\naxis. Two parameters are required. One is invariably the equatorial radius,\nwhich is the [semi-major axis](/wiki/Ellipse \"Ellipse\"), a. The other\nparameter is usually (1) the polar radius or [semi-minor axis](/wiki/Ellipse\n\"Ellipse\"), b; or (2) the (first) [flattening](/wiki/Flattening \"Flattening\"),\nf; or (3) the [eccentricity](/wiki/Ellipse \"Ellipse\"), e. These parameters are\nnot independent: they are related by\n\n     f = a − b a , e 2 = 2 f − f 2 , b = a ( 1 − f ) = a 1 − e 2 . {\\displaystyle f={\\frac {a-b}{a}},\\qquad e^{2}=2f-f^{2},\\qquad b=a(1-f)=a{\\sqrt {1-e^{2}}}\\,.} ![{\\\\displaystyle f={\\\\frac {a-b}{a}},\\\\qquad e^{2}=2f-f^{2},\\\\qquad b=a\\(1-f\\)=a{\\\\sqrt {1-e^{2}}}\\\\,.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/d176b5a394f9d591c6242a6e8754f0c3a6e76e90)\n\nMany other parameters (see [ellipse](/wiki/Ellipse \"Ellipse\"),\n[ellipsoid](/wiki/Ellipsoid \"Ellipsoid\")) appear in the study of geodesy,\ngeophysics and map projections but they can all be expressed in terms of one\nor two members of the set a, b, f and e. Both f and e are small and often\nappear in series expansions in calculations; they are of the order 1/300 and\n0.08 respectively. Values for a number of ellipsoids are given in [Figure of\nthe Earth](/wiki/Figure_of_the_Earth \"Figure of the Earth\"). Reference\nellipsoids are usually defined by the semi-major axis and the _inverse_\nflattening, 1/_f_. For example, the defining values for the\n[WGS84](/wiki/WGS84 \"WGS84\") ellipsoid, used by all GPS devices, are[2]\n\n  * a (equatorial radius): 7006637813700000000♠6378137.0 m exactly\n  * 1/_f_ (inverse flattening): 7002298257223563000♠298.257223563 exactly\n\nfrom which are derived\n\n  * b (polar radius): 7006635675231420000♠6356752.3142 m\n  * _e_ 2 (eccentricity squared): 6997669437999014000♠0.00669437999014\n\nThe difference between the semi-major and semi-minor axes is about 21 km (13\nmiles) and as fraction of the semi-major axis it equals the flattening; on a\ncomputer monitor the ellipsoid could be sized as 300 by 299 pixels. This would\nbarely be distinguishable from a 300-by-300-pixel sphere, so illustrations\nusually exaggerate the flattening.\n\n### Geodetic and geocentric\nlatitudes[[edit](/w/index.php?title=Latitude&action=edit&section=9 \"Edit\nsection: Geodetic and geocentric latitudes\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Latitude_and_longitude_graticule_on_an_ellipsoid.svg/200px-\nLatitude_and_longitude_graticule_on_an_ellipsoid.svg.png)](/wiki/File:Latitude_and_longitude_graticule_on_an_ellipsoid.svg)\n\n[](/wiki/File:Latitude_and_longitude_graticule_on_an_ellipsoid.svg \"Enlarge\")\n\nThe definition of geodetic latitude (φ) and longitude (λ) on an ellipsoid. The\nnormal to the surface does not pass through the centre, except at the equator\nand at the poles.\n\nThe graticule on the ellipsoid is constructed in exactly the same way as on\nthe sphere. The normal at a point on the surface of an ellipsoid does not pass\nthrough the centre, except for points on the equator or at the poles, but the\ndefinition of latitude remains unchanged as the angle between the normal and\nthe equatorial plane. The terminology for latitude must be made more precise\nby distinguishing:\n\n  * **Geodetic latitude:** the angle between the normal and the equatorial plane. The standard notation in English publications is φ. This is the definition assumed when the word latitude is used without qualification. The definition must be accompanied with a specification of the ellipsoid.\n  * **Geocentric latitude:** the angle between the radius (from centre to the point on the surface) and the equatorial plane. (Figure below). There is no standard notation: examples from various texts include ψ, q, φ′, _φ_ c, _φ_ g. This article uses ψ.\n  * **Spherical latitude:** the angle between the normal to a spherical reference surface and the equatorial plane.\n  * **Geographic latitude** must be used with care. Some authors use it as a synonym for geodetic latitude whilst others use it as an alternative to the astronomical latitude.\n  * **Latitude** (unqualified) should normally refer to the geodetic latitude.\n\nThe importance of specifying the reference datum may be illustrated by a\nsimple example. On the reference ellipsoid for WGS84, the centre of the\n[Eiffel Tower](/wiki/Eiffel_Tower \"Eiffel Tower\") has a geodetic latitude of\n48° 51′ 29″ N, or 48.8583° N and longitude of 2° 17′ 40″ E or 2.2944°E. The\nsame coordinates on the datum [ED50](/wiki/ED50 \"ED50\") define a point on the\nground which is 140 metres (460 feet) distant from the tower.[_[citation\nneeded](/wiki/Wikipedia:Citation_needed \"Wikipedia:Citation needed\")_] A web\nsearch may produce several different values for the latitude of the tower; the\nreference ellipsoid is rarely specified.\n\n### Length of a degree of\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=10 \"Edit\nsection: Length of a degree of latitude\")]\n\nMain article: [Meridian arc](/wiki/Meridian_arc \"Meridian arc\")\n\nIn [Meridian arc](/wiki/Meridian_arc \"Meridian arc\") and standard\ntexts[3][4][5] it is shown that the distance along a meridian from latitude φ\nto the equator is given by (φ in radians)\n\n     m ( ϕ ) = ∫ 0 ϕ M ( ϕ ′ ) d ϕ ′ = a ( 1 − e 2 ) ∫ 0 ϕ ( 1 − e 2 sin 2 ⁡ ϕ ′ ) − 3 2 d ϕ ′ {\\displaystyle m(\\phi )=\\int _{0}^{\\phi }M(\\phi ')\\,d\\phi '=a(1-e^{2})\\int _{0}^{\\phi }\\left(1-e^{2}\\sin ^{2}\\phi '\\right)^{-{\\frac {3}{2}}}\\,d\\phi '} ![{\\\\displaystyle m\\(\\\\phi \\)=\\\\int _{0}^{\\\\phi }M\\(\\\\phi '\\)\\\\,d\\\\phi '=a\\(1-e^{2}\\)\\\\int _{0}^{\\\\phi }\\\\left\\(1-e^{2}\\\\sin ^{2}\\\\phi '\\\\right\\)^{-{\\\\frac {3}{2}}}\\\\,d\\\\phi '}](https://wikimedia.org/api/rest_v1/media/math/render/svg/651cd15485cd93c8738c13622b86f6c41777808a)\n\nwhere _M_(_φ_) is the meridional [radius of\ncurvature](/wiki/Radius_of_curvature_\\(applications\\) \"Radius of curvature\n\\(applications\\)\").\n\nThe distance from the equator to the pole is\n\n     m p = m ( π 2 ) {\\displaystyle m_{\\mathrm {p} }=m\\left({\\frac {\\pi }{2}}\\right)\\,} ![{\\\\displaystyle m_{\\\\mathrm {p} }=m\\\\left\\({\\\\frac {\\\\pi }{2}}\\\\right\\)\\\\,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f09cc186defc619dca86a937548c4a0de7d00279)\n\nFor [WGS84](/wiki/WGS84 \"WGS84\") this distance is\n7007100019657290000♠10001.965729 km.\n\nThe evaluation of the meridian distance integral is central to many studies in\ngeodesy and map projection. It can be evaluated by expanding the integral by\nthe binomial series and integrating term by term: see [Meridian\narc](/wiki/Meridian_arc \"Meridian arc\") for details. The length of the\nmeridian arc between two given latitudes is given by replacing the limits of\nthe integral by the latitudes concerned. The length of a _small_ meridian arc\nis given by[4][5]\n\n     δ m ( ϕ ) = M ( ϕ ) δ ϕ = a ( 1 − e 2 ) ( 1 − e 2 sin 2 ⁡ ϕ ) − 3 2 δ ϕ {\\displaystyle \\delta m(\\phi )=M(\\phi )\\,\\delta \\phi =a(1-e^{2})\\left(1-e^{2}\\sin ^{2}\\phi \\right)^{-{\\frac {3}{2}}}\\,\\delta \\phi } ![{\\\\displaystyle \\\\delta m\\(\\\\phi \\)=M\\(\\\\phi \\)\\\\,\\\\delta \\\\phi =a\\(1-e^{2}\\)\\\\left\\(1-e^{2}\\\\sin ^{2}\\\\phi \\\\right\\)^{-{\\\\frac {3}{2}}}\\\\,\\\\delta \\\\phi }](https://wikimedia.org/api/rest_v1/media/math/render/svg/3b73ec7bd0b2596edbf68a52003e4463e8030cde)\nϕ {\\displaystyle \\phi } ![\\\\phi ](https://wikimedia.org/api/rest_v1/media/math/render/svg/72b1f30316670aee6270a28334bdf4f5072cdde4) | Δ1  \nlat | Δ1  \nlong  \n---|---|---  \n0° | 110.574 km | 111.320 km  \n15° | 110.649 km | 107.550 km  \n30° | 110.852 km | 96.486 km  \n45° | 111.132 km | 78.847 km  \n60° | 111.412 km | 55.800 km  \n75° | 111.618 km | 28.902 km  \n90° | 111.694 km | 0.000 km  \n  \nWhen the latitude difference is 1 degree, corresponding to π/180 radians, the\narc distance is about\n\n     Δ l a t 1 = π a ( 1 − e 2 ) 180 ∘ ( 1 − e 2 sin 2 ⁡ ϕ ) 3 2 {\\displaystyle \\Delta _{\\mathrm {lat} }^{1}={\\frac {\\pi a\\left(1-e^{2}\\right)}{180^{\\circ }\\left(1-e^{2}\\sin ^{2}\\phi \\right)^{\\frac {3}{2}}}}} ![{\\\\displaystyle \\\\Delta _{\\\\mathrm {lat} }^{1}={\\\\frac {\\\\pi a\\\\left\\(1-e^{2}\\\\right\\)}{180^{\\\\circ }\\\\left\\(1-e^{2}\\\\sin ^{2}\\\\phi \\\\right\\)^{\\\\frac {3}{2}}}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/a2f9aad40dec279e97ee403d25284b40b617961b)\n\nThe distance in metres (correct to 0.01 metre) between latitudes  ϕ\n{\\displaystyle \\phi } ![\\\\phi\n](https://wikimedia.org/api/rest_v1/media/math/render/svg/72b1f30316670aee6270a28334bdf4f5072cdde4)\n− 0.5 degrees and  ϕ {\\displaystyle \\phi } ![\\\\phi\n](https://wikimedia.org/api/rest_v1/media/math/render/svg/72b1f30316670aee6270a28334bdf4f5072cdde4)\n\\+ 0.5 degrees on the WGS84 spheroid is\n\n     Δ l a t 1 = 111 132.954 − 559.822 cos ⁡ 2 ϕ + 1.175 cos ⁡ 4 ϕ {\\displaystyle \\Delta _{\\mathrm {lat} }^{1}=111\\,132.954-559.822\\cos 2\\phi +1.175\\cos 4\\phi } ![{\\\\displaystyle \\\\Delta _{\\\\mathrm {lat} }^{1}=111\\\\,132.954-559.822\\\\cos 2\\\\phi +1.175\\\\cos 4\\\\phi }](https://wikimedia.org/api/rest_v1/media/math/render/svg/093d3aef4fbc446e848e893566cb6edde01f41ec)\n\nThe variation of this distance with latitude (on [WGS84](/wiki/WGS84 \"WGS84\"))\nis shown in the table along with the [length of a degree of\nlongitude](/wiki/Length_of_a_degree_of_longitude \"Length of a degree of\nlongitude\") (east-west distance):\n\n     Δ l o n g 1 = π a cos ⁡ ϕ 180 ∘ 1 − e 2 sin 2 ⁡ ϕ {\\displaystyle \\Delta _{\\mathrm {long} }^{1}={\\frac {\\pi a\\cos \\phi }{180^{\\circ }{\\sqrt {1-e^{2}\\sin ^{2}\\phi }}}}\\,} ![{\\\\displaystyle \\\\Delta _{\\\\mathrm {long} }^{1}={\\\\frac {\\\\pi a\\\\cos \\\\phi }{180^{\\\\circ }{\\\\sqrt {1-e^{2}\\\\sin ^{2}\\\\phi }}}}\\\\,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6c56621cec1272fc6cc6bfd9e8f15e4e15adf620)\n\nA calculator for any latitude is provided by the U.S. Government's [National\nGeospatial-Intelligence Agency](/wiki/National_Geospatial-Intelligence_Agency\n\"National Geospatial-Intelligence Agency\") (NGA).[6]\n\nHistorically a [nautical mile](/wiki/Nautical_mile \"Nautical mile\") was\ndefined as the length of one minute of arc along a meridian of a spherical\nearth. An ellipsoid model leads to a variation of the nautical mile with\nlatitude. This was resolved by defining the nautical mile to be exactly 1,852\nmetres.\n\n## Auxiliary\nlatitudes[[edit](/w/index.php?title=Latitude&action=edit&section=11 \"Edit\nsection: Auxiliary latitudes\")]\n\nThere are six **auxiliary latitudes** that have applications to special\nproblems in geodesy, geophysics and the theory of map projections:\n\n  * Geocentric latitude\n  * Reduced (or parametric) latitude\n  * Rectifying latitude\n  * Authalic latitude\n  * Conformal latitude\n  * Isometric latitude\n\nThe definitions given in this section all relate to locations on the reference\nellipsoid but the first two auxiliary latitudes, like the geodetic latitude,\ncan be extended to define a three-dimensional [geographic coordinate\nsystem](/wiki/Geographic_coordinate_system \"Geographic coordinate system\") as\ndiscussed below. The remaining latitudes are not used in this way; they are\nused _only_ as intermediate constructs in map projections of the reference\nellipsoid to the plane or in calculations of geodesics on the ellipsoid. Their\nnumerical values are not of interest. For example, no one would need to\ncalculate the authalic latitude of the Eiffel Tower.\n\nThe expressions below give the auxiliary latitudes in terms of the geodetic\nlatitude, the semi-major axis, a, and the eccentricity, e. (For inverses see\nbelow.) The forms given are, apart from notational variants, those in the\nstandard reference for map projections, namely \"Map projections: a working\nmanual\" by J. P. Snyder.[7] Derivations of these expressions may be found in\nAdams[8] and online publications by Osborne[4] and Rapp.[5]\n\n### Geocentric\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=12 \"Edit\nsection: Geocentric latitude\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Two-types-of-\nlatitude.png/250px-Two-types-of-latitude.png)](/wiki/File:Two-types-of-\nlatitude.png)\n\n[](/wiki/File:Two-types-of-latitude.png \"Enlarge\")\n\nThe definition of geodetic (or geographic) and geocentric latitudes.\n\nThe **geocentric latitude** is the angle between the equatorial plane and the\nradius from the centre to a point on the surface. The relation between the\ngeocentric latitude (ψ) and the geodetic latitude (φ) is derived in the above\nreferences as\n\n     ψ ( ϕ ) = tan − 1 ⁡ ( ( 1 − e 2 ) tan ⁡ ϕ ) = tan − 1 ⁡ ( ( 1 − f ) 2 tan ⁡ ϕ ) . {\\displaystyle \\psi (\\phi )=\\tan ^{-1}\\left((1-e^{2})\\tan \\phi \\right)=\\tan ^{-1}\\left((1-f)^{2}\\tan \\phi \\right)\\,.} ![{\\\\displaystyle \\\\psi \\(\\\\phi \\)=\\\\tan ^{-1}\\\\left\\(\\(1-e^{2}\\)\\\\tan \\\\phi \\\\right\\)=\\\\tan ^{-1}\\\\left\\(\\(1-f\\)^{2}\\\\tan \\\\phi \\\\right\\)\\\\,.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/26937862df458ad1baaa0cc733ce5ae51cecdf23)\n\nThe geodetic and geocentric latitudes are equal at the equator and at the\npoles but at other latitudes they differ by a few minutes of arc. Taking the\nvalue of the squared eccentricity as 0.0067 (it depends on the choice of\nellipsoid) the maximum difference of  ϕ − ψ {\\displaystyle \\phi {-}\\psi }\n![{\\\\displaystyle \\\\phi {-}\\\\psi\n}](https://wikimedia.org/api/rest_v1/media/math/render/svg/559d8144cd7e4e4a1da7289de7aba7fa3573f210)\nmay be shown to be about 11.5 minutes of arc at a geodetic latitude of\napproximately 45° 6′.[c]\n\n### Reduced (or parametric)\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=13 \"Edit\nsection: Reduced \\(or parametric\\) latitude\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ellipsoid_reduced_angle_definition.svg/200px-\nEllipsoid_reduced_angle_definition.svg.png)](/wiki/File:Ellipsoid_reduced_angle_definition.svg)\n\n[](/wiki/File:Ellipsoid_reduced_angle_definition.svg \"Enlarge\")\n\nDefinition of the reduced latitude (β) on the ellipsoid.\n\nThe **reduced** or **parametric latitude** , β, is defined by the radius drawn\nfrom the centre of the ellipsoid to that point Q on the surrounding sphere (of\nradius a) which is the projection parallel to the Earth's axis of a point P on\nthe ellipsoid at latitude φ. It was introduced by Legendre[9] and Bessel[10]\nwho solved problems for geodesics on the ellipsoid by transforming them to an\nequivalent problem for spherical geodesics by using this smaller latitude.\nBessel's notation, _u_(_φ_), is also used in the current literature. The\nreduced latitude is related to the geodetic latitude by:[4][5]\n\n     β ( ϕ ) = tan − 1 ⁡ ( 1 − e 2 tan ⁡ ϕ ) = tan − 1 ⁡ ( ( 1 − f ) tan ⁡ ϕ ) {\\displaystyle \\beta (\\phi )=\\tan ^{-1}\\left({\\sqrt {1-e^{2}}}\\tan \\phi \\right)=\\tan ^{-1}\\left((1-f)\\tan \\phi \\right)} ![{\\\\displaystyle \\\\beta \\(\\\\phi \\)=\\\\tan ^{-1}\\\\left\\({\\\\sqrt {1-e^{2}}}\\\\tan \\\\phi \\\\right\\)=\\\\tan ^{-1}\\\\left\\(\\(1-f\\)\\\\tan \\\\phi \\\\right\\)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/73a42a66b39844ce024d63ac0ffeb3c4ac3b08d4)\n\nThe alternative name arises from the parameterization of the equation of the\nellipse describing a meridian section. In terms of Cartesian coordinates p,\nthe distance from the minor axis, and z, the distance above the equatorial\nplane, the equation of the [ellipse](/wiki/Ellipse \"Ellipse\") is:\n\n     p 2 a 2 + z 2 b 2 = 1 . {\\displaystyle {\\frac {p^{2}}{a^{2}}}+{\\frac {z^{2}}{b^{2}}}=1\\,.} ![{\\\\displaystyle {\\\\frac {p^{2}}{a^{2}}}+{\\\\frac {z^{2}}{b^{2}}}=1\\\\,.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/9b55d30cf33f6eccc1558881edcfd2dfe423c5dd)\n\nThe Cartesian coordinates of the point are parameterized by\n\n     p = a cos ⁡ β , z = b sin ⁡ β ; {\\displaystyle p=a\\cos \\beta \\,,\\qquad z=b\\sin \\beta \\,;} ![{\\\\displaystyle p=a\\\\cos \\\\beta \\\\,,\\\\qquad z=b\\\\sin \\\\beta \\\\,;}](https://wikimedia.org/api/rest_v1/media/math/render/svg/ab1ea1af54648e83df7ac4fba6091bbc9bc65b34)\n\nCayley suggested the term _parametric latitude_ because of the form of these\nequations.[11]\n\nThe reduced latitude is not used in the theory of map projections. Its most\nimportant application is in the theory of ellipsoid geodesics.\n([Vincenty](/wiki/Vincenty%27s_formulae \"Vincenty's formulae\"), Karney).[12]\n\n### Rectifying\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=14 \"Edit\nsection: Rectifying latitude\")]\n\nSee also: [Rectifying radius](/wiki/Rectifying_radius \"Rectifying radius\")\n\nThe **rectifying latitude** , μ, is the meridian distance scaled so that its\nvalue at the poles is equal to 90 degrees or π/2 radians:\n\n     μ ( ϕ ) = π 2 m ( ϕ ) m p {\\displaystyle \\mu (\\phi )={\\frac {\\pi }{2}}{\\frac {m(\\phi )}{m_{\\mathrm {p} }}}} ![{\\\\displaystyle \\\\mu \\(\\\\phi \\)={\\\\frac {\\\\pi }{2}}{\\\\frac {m\\(\\\\phi \\)}{m_{\\\\mathrm {p} }}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/349ea19e122303e5b69ddfd8be93244b25788c3e)\n\nwhere the meridian distance from the equator to a latitude φ is (see [Meridian\narc](/wiki/Meridian_arc \"Meridian arc\"))\n\n     m ( ϕ ) = a ( 1 − e 2 ) ∫ 0 ϕ ( 1 − e 2 sin 2 ⁡ ϕ ′ ) − 3 2 d ϕ ′ , {\\displaystyle m(\\phi )=a(1-e^{2})\\int _{0}^{\\phi }\\left(1-e^{2}\\sin ^{2}\\phi '\\right)^{-{\\frac {3}{2}}}\\,d\\phi '\\,,} ![{\\\\displaystyle m\\(\\\\phi \\)=a\\(1-e^{2}\\)\\\\int _{0}^{\\\\phi }\\\\left\\(1-e^{2}\\\\sin ^{2}\\\\phi '\\\\right\\)^{-{\\\\frac {3}{2}}}\\\\,d\\\\phi '\\\\,,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/8b41dd930ea477cfd1b087bd055e6e546eb8fb6e)\n\nand the length of the meridian quadrant from the equator to the pole (the\n[polar distance](/wiki/Meridian_arc#Polar_distance \"Meridian arc\")) is\n\n     m p = m ( π 2 ) . {\\displaystyle m_{\\mathrm {p} }=m\\left({\\frac {\\pi }{2}}\\right)\\,.} ![{\\\\displaystyle m_{\\\\mathrm {p} }=m\\\\left\\({\\\\frac {\\\\pi }{2}}\\\\right\\)\\\\,.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/feaed75d16edd488d2ae9b3fcf3d164198d1d4fc)\n\nUsing the rectifying latitude to define a latitude on a sphere of radius\n\n     R = 2 m p π {\\displaystyle R={\\frac {2m_{\\mathrm {p} }}{\\pi }}} ![{\\\\displaystyle R={\\\\frac {2m_{\\\\mathrm {p} }}{\\\\pi }}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f3c5625835b98da55e6ea02beb168219a8abef06)\n\ndefines a projection from the ellipsoid to the sphere such that all meridians\nhave true length and uniform scale. The sphere may then be projected to the\nplane with an [equirectangular projection](/wiki/Equirectangular_projection\n\"Equirectangular projection\") to give a double projection from the ellipsoid\nto the plane such that all meridians have true length and uniform meridian\nscale. An example of the use of the rectifying latitude is the [Equidistant\nconic projection](/wiki/Map_projection \"Map projection\"). (Snyder, Section\n16).[7] The rectifying latitude is also of great importance in the\nconstruction of the [Transverse Mercator\nprojection](/wiki/Transverse_Mercator_projection \"Transverse Mercator\nprojection\").\n\n### Authalic\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=15 \"Edit\nsection: Authalic latitude\")]\n\nSee also: [Authalic radius](/wiki/Authalic_radius \"Authalic radius\")\n\nThe **authalic** (Greek for [same\narea](https://en.wiktionary.org/wiki/authalic \"wiktionary:authalic\"))\nlatitude, ξ, gives an area-preserving transformation to a sphere.\n\n     ξ ( ϕ ) = sin − 1 ⁡ ( q ( ϕ ) q p ) {\\displaystyle \\xi (\\phi )=\\sin ^{-1}\\left({\\frac {q(\\phi )}{q_{\\mathrm {p} }}}\\right)} ![{\\\\displaystyle \\\\xi \\(\\\\phi \\)=\\\\sin ^{-1}\\\\left\\({\\\\frac {q\\(\\\\phi \\)}{q_{\\\\mathrm {p} }}}\\\\right\\)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/fc893a2c538edce543f6f2c8e4f8eed929ea83d5)\n\nwhere\n\n     q ( ϕ ) = ( 1 − e 2 ) sin ⁡ ϕ 1 − e 2 sin 2 ⁡ ϕ − 1 − e 2 2 e ln ⁡ ( 1 − e sin ⁡ ϕ 1 + e sin ⁡ ϕ ) = ( 1 − e 2 ) sin ⁡ ϕ 1 − e 2 sin 2 ⁡ ϕ + 1 − e 2 e tanh − 1 ⁡ ( e sin ⁡ ϕ ) {\\displaystyle {\\begin{aligned}q(\\phi )&={\\frac {(1-e^{2})\\sin \\phi }{1-e^{2}\\sin ^{2}\\phi }}-{\\frac {1-e^{2}}{2e}}\\ln \\left({\\frac {1-e\\sin \\phi }{1+e\\sin \\phi }}\\right)\\\\\\&={\\frac {(1-e^{2})\\sin \\phi }{1-e^{2}\\sin ^{2}\\phi }}+{\\frac {1-e^{2}}{e}}\\tanh ^{-1}(e\\sin \\phi )\\end{aligned}}} ![{\\\\displaystyle {\\\\begin{aligned}q\\(\\\\phi \\)&={\\\\frac {\\(1-e^{2}\\)\\\\sin \\\\phi }{1-e^{2}\\\\sin ^{2}\\\\phi }}-{\\\\frac {1-e^{2}}{2e}}\\\\ln \\\\left\\({\\\\frac {1-e\\\\sin \\\\phi }{1+e\\\\sin \\\\phi }}\\\\right\\)\\\\\\\\&={\\\\frac {\\(1-e^{2}\\)\\\\sin \\\\phi }{1-e^{2}\\\\sin ^{2}\\\\phi }}+{\\\\frac {1-e^{2}}{e}}\\\\tanh ^{-1}\\(e\\\\sin \\\\phi \\)\\\\end{aligned}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/8fc9eff1849175ebb3e1363f7db45073f976d56f)\n\nand\n\n     q p = q ( π 2 ) = 1 − 1 − e 2 2 e ln ⁡ ( 1 − e 1 + e ) = 1 + 1 − e 2 e tanh − 1 ⁡ e {\\displaystyle {\\begin{aligned}q_{\\mathrm {p} }=q\\left({\\frac {\\pi }{2}}\\right)&=1-{\\frac {1-e^{2}}{2e}}\\ln \\left({\\frac {1-e}{1+e}}\\right)&=1+{\\frac {1-e^{2}}{e}}\\tanh ^{-1}e\\end{aligned}}} ![{\\\\displaystyle {\\\\begin{aligned}q_{\\\\mathrm {p} }=q\\\\left\\({\\\\frac {\\\\pi }{2}}\\\\right\\)&=1-{\\\\frac {1-e^{2}}{2e}}\\\\ln \\\\left\\({\\\\frac {1-e}{1+e}}\\\\right\\)&=1+{\\\\frac {1-e^{2}}{e}}\\\\tanh ^{-1}e\\\\end{aligned}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/8c2230208a1e36f0dc6109c9cbc9de506f1d4e83)\n\nand the radius of the sphere is taken as\n\n     R q = a q p 2 . {\\displaystyle R_{q}=a{\\sqrt {\\frac {q_{\\mathrm {p} }}{2}}}\\,.} ![{\\\\displaystyle R_{q}=a{\\\\sqrt {\\\\frac {q_{\\\\mathrm {p} }}{2}}}\\\\,.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/410e3824d4063dc2ceef3089f832b3f559284a28)\n\nAn example of the use of the authalic latitude is the [Albers equal-area conic\nprojection](/wiki/Albers_projection \"Albers projection\").[7]:§14\n\n### Conformal\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=16 \"Edit\nsection: Conformal latitude\")]\n\nThe **conformal latitude** , χ, gives an angle-preserving\n([conformal](/wiki/Conformal_map \"Conformal map\")) transformation to the\nsphere.\n\n     χ ( ϕ ) = 2 tan − 1 ⁡ [ ( 1 + sin ⁡ ϕ 1 − sin ⁡ ϕ ) ( 1 − e sin ⁡ ϕ 1 + e sin ⁡ ϕ ) e ] 1 2 − π 2 = 2 tan − 1 ⁡ [ tan ⁡ ( ϕ 2 + π 4 ) ( 1 − e sin ⁡ ϕ 1 + e sin ⁡ ϕ ) e 2 ] − π 2 = sin − 1 ⁡ [ tanh ⁡ ( tanh − 1 ⁡ ( sin ⁡ ϕ ) − e tanh − 1 ⁡ ( e sin ⁡ ϕ ) ) ] = gd ⁡ [ gd − 1 ⁡ ( ϕ ) − e tanh − 1 ⁡ ( e sin ⁡ ϕ ) ] {\\displaystyle {\\begin{aligned}\\chi (\\phi )&=2\\tan ^{-1}\\left[\\left({\\frac {1+\\sin \\phi }{1-\\sin \\phi }}\\right)\\left({\\frac {1-e\\sin \\phi }{1+e\\sin \\phi }}\\right)^{e}\\right]^{\\frac {1}{2}}-{\\frac {\\pi }{2}}\\\\\\\\[2ex]&=2\\tan ^{-1}\\left[\\tan \\left({\\frac {\\phi }{2}}+{\\frac {\\pi }{4}}\\right)\\left({\\frac {1-e\\sin \\phi }{1+e\\sin \\phi }}\\right)^{\\frac {e}{2}}\\right]-{\\frac {\\pi }{2}}\\\\\\&=\\sin ^{-1}\\left[\\tanh \\left(\\tanh ^{-1}(\\sin \\phi )-e\\tanh ^{-1}(e\\sin \\phi )\\right)\\right]\\\\\\&=\\operatorname {gd} \\left[\\operatorname {gd} ^{-1}(\\phi )-e\\tanh ^{-1}(e\\sin \\phi )\\right]\\end{aligned}}} ![{\\\\displaystyle {\\\\begin{aligned}\\\\chi \\(\\\\phi \\)&=2\\\\tan ^{-1}\\\\left\\[\\\\left\\({\\\\frac {1+\\\\sin \\\\phi }{1-\\\\sin \\\\phi }}\\\\right\\)\\\\left\\({\\\\frac {1-e\\\\sin \\\\phi }{1+e\\\\sin \\\\phi }}\\\\right\\)^{e}\\\\right\\]^{\\\\frac {1}{2}}-{\\\\frac {\\\\pi }{2}}\\\\\\\\\\[2ex\\]&=2\\\\tan ^{-1}\\\\left\\[\\\\tan \\\\left\\({\\\\frac {\\\\phi }{2}}+{\\\\frac {\\\\pi }{4}}\\\\right\\)\\\\left\\({\\\\frac {1-e\\\\sin \\\\phi }{1+e\\\\sin \\\\phi }}\\\\right\\)^{\\\\frac {e}{2}}\\\\right\\]-{\\\\frac {\\\\pi }{2}}\\\\\\\\&=\\\\sin ^{-1}\\\\left\\[\\\\tanh \\\\left\\(\\\\tanh ^{-1}\\(\\\\sin \\\\phi \\)-e\\\\tanh ^{-1}\\(e\\\\sin \\\\phi \\)\\\\right\\)\\\\right\\]\\\\\\\\&=\\\\operatorname {gd} \\\\left\\[\\\\operatorname {gd} ^{-1}\\(\\\\phi \\)-e\\\\tanh ^{-1}\\(e\\\\sin \\\\phi \\)\\\\right\\]\\\\end{aligned}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/78a34a71d3042786a897449f83bab0ee59c5bc3c)\n\nwhere gd(_x_) is the [Gudermannian function](/wiki/Gudermannian_function\n\"Gudermannian function\"). (See also [Mercator\nprojection](/wiki/Mercator_projection#Alternative_expressions \"Mercator\nprojection\").) The conformal latitude defines a transformation from the\nellipsoid to a sphere of _arbitrary_ radius such that the angle of\nintersection between any two lines on the ellipsoid is the same as the\ncorresponding angle on the sphere (so that the shape of _small_ elements is\nwell preserved). A further conformal transformation from the sphere to the\nplane gives a conformal double projection from the ellipsoid to the plane.\nThis is not the only way of generating such a conformal projection. For\nexample, the 'exact' version of the [Transverse Mercator\nprojection](/wiki/Transverse_Mercator_projection \"Transverse Mercator\nprojection\") on the ellipsoid is not a double projection. (It does, however,\ninvolve a generalisation of the conformal latitude to the complex plane).\n\n### Isometric\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=17 \"Edit\nsection: Isometric latitude\")]\n\nThe **isometric latitude** is conventionally denoted by ψ (not to be confused\nwith the geocentric latitude): it is used in the development of the\nellipsoidal versions of the normal [Mercator\nprojection](/wiki/Mercator_projection \"Mercator projection\") and the\n[Transverse Mercator projection](/wiki/Transverse_Mercator_projection\n\"Transverse Mercator projection\"). The name \"isometric\" arises from the fact\nthat at any point on the ellipsoid equal increments of ψ and longitude λ give\nrise to equal distance displacements along the meridians and parallels\nrespectively. The [graticule](/wiki/Geographic_coordinate_system \"Geographic\ncoordinate system\") defined by the lines of constant ψ and constant λ, divides\nthe surface of the ellipsoid into a mesh of squares (of varying size). The\nisometric latitude is zero at the equator but rapidly diverges from the\ngeodetic latitude, tending to infinity at the poles. The conventional notation\nis given in Snyder (page 15):[7]\n\n     ψ ( ϕ ) = ln ⁡ [ tan ⁡ ( π 4 + ϕ 2 ) ] + e 2 ln ⁡ [ 1 − e sin ⁡ ϕ 1 + e sin ⁡ ϕ ] = tanh − 1 ⁡ ( sin ⁡ ϕ ) − e tanh − 1 ⁡ ( e sin ⁡ ϕ ) = gd − 1 ⁡ ( ϕ ) − e tanh − 1 ⁡ ( e sin ⁡ ϕ ) . {\\displaystyle {\\begin{aligned}\\psi (\\phi )&=\\ln \\left[\\tan \\left({\\frac {\\pi }{4}}+{\\frac {\\phi }{2}}\\right)\\right]+{\\frac {e}{2}}\\ln \\left[{\\frac {1-e\\sin \\phi }{1+e\\sin \\phi }}\\right]\\\\\\&=\\tanh ^{-1}(\\sin \\phi )-e\\tanh ^{-1}(e\\sin \\phi )\\\\\\&=\\operatorname {gd} ^{-1}(\\phi )-e\\tanh ^{-1}(e\\sin \\phi ).\\end{aligned}}} ![{\\\\displaystyle {\\\\begin{aligned}\\\\psi \\(\\\\phi \\)&=\\\\ln \\\\left\\[\\\\tan \\\\left\\({\\\\frac {\\\\pi }{4}}+{\\\\frac {\\\\phi }{2}}\\\\right\\)\\\\right\\]+{\\\\frac {e}{2}}\\\\ln \\\\left\\[{\\\\frac {1-e\\\\sin \\\\phi }{1+e\\\\sin \\\\phi }}\\\\right\\]\\\\\\\\&=\\\\tanh ^{-1}\\(\\\\sin \\\\phi \\)-e\\\\tanh ^{-1}\\(e\\\\sin \\\\phi \\)\\\\\\\\&=\\\\operatorname {gd} ^{-1}\\(\\\\phi \\)-e\\\\tanh ^{-1}\\(e\\\\sin \\\\phi \\).\\\\end{aligned}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4c1a509c8c678529e02cdc46e4518cd39a04100a)\n\nFor the _normal_ Mercator projection (on the ellipsoid) this function defines\nthe spacing of the parallels: if the length of the equator on the projection\nis E (units of length or pixels) then the distance, y, of a parallel of\nlatitude φ from the equator is\n\n     y ( ϕ ) = E 2 π ψ ( ϕ ) . {\\displaystyle y(\\phi )={\\frac {E}{2\\pi }}\\psi (\\phi )\\,.} ![{\\\\displaystyle y\\(\\\\phi \\)={\\\\frac {E}{2\\\\pi }}\\\\psi \\(\\\\phi \\)\\\\,.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4c3c8fdb803b473efe5685cc97cdcfe6622aa472)\n\nThe isometric latitude ψ is closely related to the conformal latitude χ:\n\n     ψ ( ϕ ) = gd − 1 ⁡ χ ( ϕ ) . {\\displaystyle \\psi (\\phi )=\\operatorname {gd} ^{-1}\\chi (\\phi )\\,.} ![{\\\\displaystyle \\\\psi \\(\\\\phi \\)=\\\\operatorname {gd} ^{-1}\\\\chi \\(\\\\phi \\)\\\\,.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7eaf60be567d5882f6b8a5b07f11fc3aafa2c157)\n\n### Inverse formulae and\nseries[[edit](/w/index.php?title=Latitude&action=edit&section=18 \"Edit\nsection: Inverse formulae and series\")]\n\nThe formulae in the previous sections give the auxiliary latitude in terms of\nthe geodetic latitude. The expressions for the geocentric and reduced\nlatitudes may be inverted directly but this is impossible in the four\nremaining cases: the rectifying, authalic, conformal, and isometric latitudes.\nThere are two methods of proceeding. The first is a numerical inversion of the\ndefining equation for each and every particular value of the auxiliary\nlatitude. The methods available are [fixed-point iteration](/wiki/Fixed-\npoint_iteration \"Fixed-point iteration\") and\n[Newton–Raphson](/wiki/Newton%27s_method \"Newton's method\") root finding. The\nother, more useful, approach is to express the auxiliary latitude as a series\nin terms of the geodetic latitude and then invert the series by the method of\n[Lagrange\nreversion](/w/index.php?title=Lagrange_reversion&action=edit&redlink=1\n\"Lagrange reversion \\(page does not exist\\)\"). Such series are presented by\nAdams who uses Taylor series expansions and gives coefficients in terms of the\neccentricity.[8] Osborne[4] derives series to arbitrary order by using the\ncomputer algebra package Maxima[13] and expresses the coefficients in terms of\nboth eccentricity and flattening. The series method is not applicable to the\nisometric latitude and one must use the conformal latitude in an intermediate\nstep.\n\n### Numerical comparison of auxiliary\nlatitudes[[edit](/w/index.php?title=Latitude&action=edit&section=19 \"Edit\nsection: Numerical comparison of auxiliary latitudes\")]\n\nThe following plot shows the magnitude of the difference between the geodetic\nlatitude, (denoted as the \"common\" latitude on the plot), and the auxiliary\nlatitudes other than the isometric latitude (which diverges to infinity at the\npoles). In every case the geodetic latitude is the greater. The differences\nshown on the plot are in arc minutes. The horizontal resolution of the plot\nfails to make clear that the maxima of the curves are not at 45° but\ncalculation shows that they are within a few arc minutes of 45°. Some\nrepresentative data points are given in the table following the plot. Note the\ncloseness of the conformal and geocentric latitudes. This was exploited in the\ndays of hand calculators to expedite the construction of map\nprojections.[7]:108\n\n[![Types of latitude\ndifference.png](//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Types_of_latitude_difference.png/400px-\nTypes_of_latitude_difference.png)](/wiki/File:Types_of_latitude_difference.png)\n\n[](/wiki/File:Types_of_latitude_difference.png \"Enlarge\")\n\nApproximate difference from geodetic latitude (φ) φ | Reduced  \n_φ_ − _β_ | Authalic  \n_φ_ − _ξ_ | Rectifying  \n_φ_ − _μ_ | Conformal  \n_φ_ − _χ_ | Geocentric  \n_φ_ − _ψ_  \n---|---|---|---|---|---  \n0° | 0.00′ | 0.00′ | 0.00′ | 0.00′ | 0.00′  \n15° | 2.91′ | 3.89′ | 4.37′ | 5.82′ | 5.82′  \n30° | 5.05′ | 6.73′ | 7.57′ | 10.09′ | 10.09′  \n45° | 5.84′ | 7.78′ | 8.76′ | 11.67′ | 11.67′  \n60° | 5.06′ | 6.75′ | 7.59′ | 10.12′ | 10.13′  \n75° | 2.92′ | 3.90′ | 4.39′ | 5.85′ | 5.85′  \n90° | 0.00′ | 0.00′ | 0.00′ | 0.00′ | 0.00′  \n  \n## Latitude and coordinate\nsystems[[edit](/w/index.php?title=Latitude&action=edit&section=20 \"Edit\nsection: Latitude and coordinate systems\")]\n\nThe geodetic latitude, or any of the auxiliary latitudes defined on the\nreference ellipsoid, constitutes with longitude a two-dimensional coordinate\nsystem on that ellipsoid. To define the position of an arbitrary point it is\nnecessary to extend such a coordinate system into three dimensions. Three\nlatitudes are used in this way: the geodetic, geocentric and reduced latitudes\nare used in geodetic coordinates, spherical polar coordinates and ellipsoidal\ncoordinates respectively.\n\n### Geodetic\ncoordinates[[edit](/w/index.php?title=Latitude&action=edit&section=21 \"Edit\nsection: Geodetic coordinates\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Geodetic_coordinates.svg/200px-\nGeodetic_coordinates.svg.png)](/wiki/File:Geodetic_coordinates.svg)\n\n[](/wiki/File:Geodetic_coordinates.svg \"Enlarge\")\n\nGeodetic coordinates P(_ɸ_ ,_λ_ ,_h_)\n\nAt an arbitrary point P consider the line PN which is normal to the reference\nellipsoid. The geodetic coordinates P(_ɸ_ ,_λ_ ,_h_) are the latitude and\nlongitude of the point N on the ellipsoid and the distance PN. This height\ndiffers from the height above the geoid or a reference height such as that\nabove mean sea level at a specified location. The direction of PN will also\ndiffer from the direction of a vertical plumb line. The relation of these\ndifferent heights requires knowledge of the shape of the geoid and also the\ngravity field of the Earth.\n\n### Spherical polar\ncoordinates[[edit](/w/index.php?title=Latitude&action=edit&section=22 \"Edit\nsection: Spherical polar coordinates\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Geocentric_coordinates.svg/200px-\nGeocentric_coordinates.svg.png)](/wiki/File:Geocentric_coordinates.svg)\n\n[](/wiki/File:Geocentric_coordinates.svg \"Enlarge\")\n\nGeocentric coordinate related to spherical polar coordinates P(_r_ ,_θ_ ,_λ_)\n\nThe geocentric latitude ψ is the complement of the polar angle θ in\nconventional [spherical polar coordinates](/wiki/Spherical_polar_coordinates\n\"Spherical polar coordinates\") in which the coordinates of a point are P(_r_\n,_θ_ ,_λ_) where r is the distance of P from the centre O, θ is the angle\nbetween the radius vector and the polar axis and λ is longitude. Since the\nnormal at a general point on the ellipsoid does not pass through the centre it\nis clear that points on the normal, which all have the same geodetic latitude,\nwill have differing geocentric latitudes. Spherical polar coordinate systems\nare used in the analysis of the gravity field.\n\n### Ellipsoidal\ncoordinates[[edit](/w/index.php?title=Latitude&action=edit&section=23 \"Edit\nsection: Ellipsoidal coordinates\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Ellipsoidal_coordinates.svg/200px-\nEllipsoidal_coordinates.svg.png)](/wiki/File:Ellipsoidal_coordinates.svg)\n\n[](/wiki/File:Ellipsoidal_coordinates.svg \"Enlarge\")\n\nEllipsoidal coordinates P(_u_ ,_β_ ,_λ_)\n\nThe reduced latitude can also be extended to a three-dimensional coordinate\nsystem. For a point P not on the reference ellipsoid (semi-axes OA and OB)\nconstruct an auxiliary ellipsoid which is confocal (same foci F, F′) with the\nreference ellipsoid: the necessary condition is that the product ae of semi-\nmajor axis and eccentricity is the same for both ellipsoids. Let u be the\nsemi-minor axis (OD) of the auxiliary ellipsoid. Further let β be the reduced\nlatitude of P on the auxiliary ellipsoid. The set (_u_ ,_β_ ,_λ_) define the\nellipsoid coordinates.[3]:§4.2.2 These coordinates are the natural choice in\nmodels of the gravity field for a uniform distribution of mass bounded by the\nreference ellipsoid.\n\n### Coordinate\nconversions[[edit](/w/index.php?title=Latitude&action=edit&section=24 \"Edit\nsection: Coordinate conversions\")]\n\nThe relations between the above coordinate systems, and also Cartesian\ncoordinates are not presented here. The transformation between geodetic and\nCartesian coordinates may be found in [Geographic coordinate\nconversion](/wiki/Geographic_coordinate_conversion \"Geographic coordinate\nconversion\"). The relation of Cartesian and spherical polars is given in\n[Spherical coordinate system](/wiki/Spherical_coordinate_system \"Spherical\ncoordinate system\"). The relation of Cartesian and ellipsoidal coordinates is\ndiscussed in Torge.[3]\n\n## Astronomical\nlatitude[[edit](/w/index.php?title=Latitude&action=edit&section=25 \"Edit\nsection: Astronomical latitude\")]\n\n**Astronomical latitude** (Φ) is the angle between the equatorial plane and\nthe true [vertical](/wiki/Vertical_line \"Vertical line\") at a point on the\nsurface. The true vertical, the direction of a [plumb line](/wiki/Plumb_line\n\"Plumb line\"), is also the direction of the gravity acceleration, the\nresultant of the [gravitational acceleration](/wiki/Gravitational_acceleration\n\"Gravitational acceleration\") (mass-based) and the [centrifugal\nacceleration](/wiki/Centrifugal_acceleration \"Centrifugal acceleration\") at\nthat latitude.[3] Astronomic latitude is calculated from angles measured\nbetween the [zenith](/wiki/Zenith \"Zenith\") and stars whose\n[declination](/wiki/Declination \"Declination\") is accurately known.\n\nIn general the true vertical at a point on the surface does not exactly\ncoincide with either the normal to the reference ellipsoid or the normal to\nthe geoid. The angle between the astronomic and geodetic normals is usually a\nfew seconds of arc but it is important in geodesy.[3][14] The reason why it\ndiffers from the normal to the geoid is, because the geoid is an idealized,\ntheoretical shape \"at mean sea level\". Points on the real surface of the earth\nare usually above or below this idealized geoid surface and here the true\nvertical can vary slightly. Also, the true vertical at a point at a specific\ntime is influenced by tidal forces, which the theoretical geoid averages out.\n\nAstronomical latitude is not to be confused with\n[declination](/wiki/Declination \"Declination\"), the coordinate\n[astronomers](/wiki/Astronomer \"Astronomer\") use in a similar way to specify\nthe angular position of stars north/south of the [celestial\nequator](/wiki/Celestial_equator \"Celestial equator\") (see [equatorial\ncoordinates](/wiki/Equatorial_coordinates \"Equatorial coordinates\")), nor with\n[ecliptic latitude](/wiki/Ecliptic_latitude \"Ecliptic latitude\"), the\ncoordinate that astronomers use to specify the angular position of stars\nnorth/south of the [ecliptic](/wiki/Ecliptic \"Ecliptic\") (see [ecliptic\ncoordinates](/wiki/Ecliptic_coordinates \"Ecliptic coordinates\")).\n\n## See also[[edit](/w/index.php?title=Latitude&action=edit&section=26 \"Edit\nsection: See also\")]\n\n  * [Altitude](/wiki/Altitude \"Altitude\") ([mean sea level](/wiki/Sea_level \"Sea level\"))\n  * [Bowditch's American Practical Navigator](/wiki/Bowditch%27s_American_Practical_Navigator \"Bowditch's American Practical Navigator\")\n  * [Cardinal direction](/wiki/Cardinal_direction \"Cardinal direction\")\n  * [Declination](/wiki/Declination \"Declination\") on [celestial sphere](/wiki/Celestial_sphere \"Celestial sphere\")\n  * [Degree Confluence Project](/wiki/Degree_Confluence_Project \"Degree Confluence Project\")\n  * [Geodesy](/wiki/Geodesy \"Geodesy\")\n  * [Geodetic datum](/wiki/Geodetic_datum \"Geodetic datum\")\n  * [Geographic coordinate system](/wiki/Geographic_coordinate_system \"Geographic coordinate system\")\n  * [Geographical distance](/wiki/Geographical_distance \"Geographical distance\")\n  * [Geotagging](/wiki/Geotagging \"Geotagging\")\n  * [Great-circle distance](/wiki/Great-circle_distance \"Great-circle distance\")\n  * [History of latitude measurements](/wiki/History_of_latitude_measurements \"History of latitude measurements\")\n  * [Horse latitudes](/wiki/Horse_latitudes \"Horse latitudes\")\n  * [List of cities by latitude](/wiki/List_of_cities_by_latitude \"List of cities by latitude\")\n  * [List of countries by latitude](/wiki/List_of_countries_by_latitude \"List of countries by latitude\")\n  * [Longitude](/wiki/Longitude \"Longitude\")\n  * [Natural Area Code](/wiki/Natural_Area_Code \"Natural Area Code\")\n  * [Navigation](/wiki/Navigation \"Navigation\")\n  * [Orders of magnitude (length)](/wiki/Orders_of_magnitude_\\(length\\) \"Orders of magnitude \\(length\\)\")\n  * [World Geodetic System](/wiki/World_Geodetic_System \"World Geodetic System\")\n\n## Notes[[edit](/w/index.php?title=Latitude&action=edit&section=27 \"Edit\nsection: Notes\")]\n\n  1. **Jump up ^** The current full documentation of ISO 19111 may be purchased from <http://www.iso.org> but drafts of the final standard are freely available at many web sites, one such is available at the following [CSIRO](https://www.seegrid.csiro.au/wiki/pub/Xmml/CoordinateReferenceSystems/19111_FDIS20021107.pdf)\n  2. **Jump up ^** The value of this angle today is 23°26′13.1″ (or 23.43697°). This figure is provided by [Template:Circle of latitude](/wiki/Template:Circle_of_latitude \"Template:Circle of latitude\").\n  3. **Jump up ^** An elementary calculation involves differentiation to find the maximum difference of the geodetic and geocentric latitudes. Full details may be found on page 90 of [The Mercator projections](https://zenodo.org/record/35392#.WGT1k1XygnQ)\n\n## References[[edit](/w/index.php?title=Latitude&action=edit&section=28 \"Edit\nsection: References\")]\n\n  1. **Jump up ^** Newton, Isaac. \"Book III Proposition XIX Problem III\". [_Philosophiæ Naturalis Principia Mathematica_](https://archive.org/details/100878576). Translated by Motte, Andrew. p. 407.\n  2. **Jump up ^** [\"TR8350.2\"](http://earth-info.nga.mil/GandG/publications/tr8350.2/tr8350_2.htmlNIMA). National Geospatial-Intelligence Agency publication. p. 3-1.\n  3. ^ Jump up to: _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ Torge, W. (2001). _Geodesy_ (3rd ed.). De Gruyter. [ISBN](/wiki/International_Standard_Book_Number \"International Standard Book Number\") [3-11-017072-8](/wiki/Special:BookSources/3-11-017072-8 \"Special:BookSources/3-11-017072-8\").\n  4. ^ Jump up to: _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ Osborne, Peter (2013). \"Chapters 5,6\". _The Mercator Projections_. [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.5281/zenodo.35392](//doi.org/10.5281%2Fzenodo.35392). for LaTeX code and figures.\n  5. ^ Jump up to: _**a**_ _**b**_ _**c**_ _**d**_ Rapp, Richard H. (1991). \"Chapter 3\". [_Geometric Geodesy, Part I_](http://hdl.handle.net/1811/24333). Columbus, OH: Dept. of Geodetic Science and Surveying, Ohio State Univ.\n  6. **Jump up ^** [\"Length of degree calculator\"](http://msi.nga.mil/MSISiteContent/StaticFiles/Calculators/degree.html). National Geospatial-Intelligence Agency.\n  7. ^ Jump up to: _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ Snyder, John P. (1987). [_Map Projections: A Working Manual_](https://pubs.er.usgs.gov/pubs/pp/pp1395). U.S. Geological Survey Professional Paper 1395. Washington, DC: United States Government Printing Office.\n  8. ^ Jump up to: _**a**_ _**b**_ Adams, Oscar S. (1921). [_Latitude Developments Connected With Geodesy and Cartography (with tables, including a table for Lambert equal area meridional projection_](http://docs.lib.noaa.gov/rescue/cgs_specpubs/QB275U35no671921.pdf) (PDF). Special Publication No. 67. US Coast and Geodetic Survey. (_Note_ : Adams uses the nomenclature isometric latitude for the conformal latitude of this article (and throughout the modern literature).)\n  9. **Jump up ^** Legendre, A. M. (1806). \"Analyse des triangles tracés sur la surface d'un sphéroïde\". _Mém. Inst. Nat. Fr_. 1st semester: 130–161.\n  10. **Jump up ^** Bessel, F. W. (1825). [\"Über die Berechnung der geographischen Langen und Breiten aus geodatischen Vermessungen\"](http://arxiv.org/pdf/0908.1824). _Astron. Nachr_. **4** (86): 241–254. [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.1002/asna.201011352](//doi.org/10.1002%2Fasna.201011352).   \n**Translation:** Karney, C. F. F.; Deakin, R. E. (2010). \"The calculation of\nlongitude and latitude from geodesic measurements\". _Astron. Nachr_. **331**\n(8): 852–861. [Bibcode](/wiki/Bibcode\n\"Bibcode\"):[1825AN......4..241B](http://adsabs.harvard.edu/abs/1825AN......4..241B).\n[arXiv](/wiki/ArXiv \"ArXiv\"):[0908.1824](//arxiv.org/abs/0908.1824) ![Freely\naccessible](//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-\ngreen.svg/9px-Lock-green.svg.png). [doi](/wiki/Digital_object_identifier\n\"Digital object\nidentifier\"):[10.1002/asna.18260041601](//doi.org/10.1002%2Fasna.18260041601).\n\n  11. **Jump up ^** Cayley, A. (1870). \"On the geodesic lines on an oblate spheroid\". _Phil. Mag_. **40** (4th ser.): 329–340.\n  12. **Jump up ^** Karney, C. F. F. (2013). \"Algorithms for geodesics\". _J. Geodesy_. **87** (1): 43–55. [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.1007/s00190-012-0578-z](//doi.org/10.1007%2Fs00190-012-0578-z).\n  13. **Jump up ^** [\"Maxima computer algebra system\"](http://maxima.sourceforge.net/). _[Sourceforge](/wiki/Sourceforge \"Sourceforge\")_.\n  14. **Jump up ^** Hofmann-Wellenhof, B.; Moritz, H. (2006). _Physical Geodesy_ (2nd ed.). [ISBN](/wiki/International_Standard_Book_Number \"International Standard Book Number\") [3-211-33544-7](/wiki/Special:BookSources/3-211-33544-7 \"Special:BookSources/3-211-33544-7\").\n\n## External links[[edit](/w/index.php?title=Latitude&action=edit&section=29\n\"Edit section: External links\")]\n\nFind more about**Latitude** at Wikipedia's [sister\nprojects](/wiki/Wikipedia:Wikimedia_sister_projects \"Wikipedia:Wikimedia\nsister projects\")\n\n  * ![](//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/27px-Wiktionary-logo-v2.svg.png)[Definitions](https://en.wiktionary.org/wiki/Special:Search/Latitude \"wikt:Special:Search/Latitude\") from Wiktionary\n  * ![](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/20px-Commons-logo.svg.png)[Media](https://commons.wikimedia.org/wiki/Special:Search/Latitude \"c:Special:Search/Latitude\") from Commons\n  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/27px-Wikinews-logo.svg.png)[News](https://en.wikinews.org/wiki/Special:Search/Latitude \"n:Special:Search/Latitude\") from Wikinews\n  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/23px-Wikiquote-logo.svg.png)[Quotations](https://en.wikiquote.org/wiki/Special:Search/Latitude \"q:Special:Search/Latitude\") from Wikiquote\n  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/26px-Wikisource-logo.svg.png)[Texts](https://en.wikisource.org/wiki/Special:Search/Latitude \"s:Special:Search/Latitude\") from Wikisource\n  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/27px-Wikibooks-logo.svg.png)[Textbooks](https://en.wikibooks.org/wiki/Special:Search/Latitude \"b:Special:Search/Latitude\") from Wikibooks\n  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/27px-Wikiversity-logo-en.svg.png)[Learning resources](https://en.wikiversity.org/wiki/Special:Search/Latitude \"v:Special:Search/Latitude\") from Wikiversity\n\n  * [GEONets Names Server](http://earth-info.nga.mil/gns/html/), access to the [National Geospatial-Intelligence Agency](/wiki/National_Geospatial-Intelligence_Agency \"National Geospatial-Intelligence Agency\")'s (NGA) database of foreign geographic feature names.\n  * [Resources for determining your latitude and longitude](http://jan.ucc.nau.edu/~cvm/latlon_find_location.html)\n  * [Convert decimal degrees into degrees, minutes, seconds](http://geography.about.com/library/howto/htdegrees.htm) \\- Info about decimal to [sexagesimal](/wiki/Sexagesimal \"Sexagesimal\") conversion\n  * [Convert decimal degrees into degrees, minutes, seconds](http://www.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html)\n  * [Distance calculation based on latitude and longitude](http://www.marinewaypoints.com/learn/greatcircle.shtml) \\- JavaScript version\n  * [16th Century Latitude Survey](https://www.academia.edu/12297694/16th_Century_Latitude_Survey)\n  * [Determination of Latitude by Francis Drake on the Coast of California in 1579](http://www.longcamp.com/nav.html)\n  * [Longitude and Latitude of Points of Interest](http://www.thegpscoordinates.com)\n  * [Online computation of all relevant quantities referring to an ellipsoidal latitude on a chosen reference ellipsoid](http://www.in-dubio-pro-geo.de/index.php?file=ellip/latit0&english=1)\n\n[show]\n\n  * [v](/wiki/Template:Geographical_coordinates \"Template:Geographical coordinates\")\n  * [t](/wiki/Template_talk:Geographical_coordinates \"Template talk:Geographical coordinates\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Geographical_coordinates&action=edit)\n\n[Circles of latitude](/wiki/Circle_of_latitude \"Circle of latitude\") /\n[Meridians](/wiki/Meridian_\\(geography\\) \"Meridian \\(geography\\)\")  \n---  \n[![](//upload.wikimedia.org/wikipedia/commons/1/1f/Earthmap720x360_grid.jpg)](/wiki/File:Earthmap720x360_grid.jpg)\n**[Equator](/wiki/Equator \"Equator\")** [Tropic of\nCancer](/wiki/Tropic_of_Cancer \"Tropic of Cancer\") [Tropic of\nCapricorn](/wiki/Tropic_of_Capricorn \"Tropic of Capricorn\") [Arctic\nCircle](/wiki/Arctic_Circle \"Arctic Circle\") [Antarctic\nCircle](/wiki/Antarctic_Circle \"Antarctic Circle\") **[Equator](/wiki/Equator\n\"Equator\")** [Tropic of Cancer](/wiki/Tropic_of_Cancer \"Tropic of Cancer\")\n[Tropic of Capricorn](/wiki/Tropic_of_Capricorn \"Tropic of Capricorn\") [Arctic\nCircle](/wiki/Arctic_Circle \"Arctic Circle\") [Antarctic\nCircle](/wiki/Antarctic_Circle \"Antarctic Circle\") **[Equator](/wiki/Equator\n\"Equator\")** [Tropic of Cancer](/wiki/Tropic_of_Cancer \"Tropic of Cancer\")\n[Tropic of Capricorn](/wiki/Tropic_of_Capricorn \"Tropic of Capricorn\") [Arctic\nCircle](/wiki/Arctic_Circle \"Arctic Circle\") [Antarctic\nCircle](/wiki/Antarctic_Circle \"Antarctic Circle\")\n**[W](/wiki/Western_Hemisphere \"Western Hemisphere\")\n[0°](/wiki/IERS_Reference_Meridian \"IERS Reference Meridian\")\n[E](/wiki/Eastern_Hemisphere \"Eastern Hemisphere\")**\n[30°](/wiki/30th_meridian_east \"30th meridian east\")\n[60°](/wiki/60th_meridian_east \"60th meridian east\")\n[**90°**](/wiki/90th_meridian_east \"90th meridian east\")\n[120°](/wiki/120th_meridian_east \"120th meridian east\")\n[150°](/wiki/150th_meridian_east \"150th meridian east\")\n[**180°**](/wiki/180th_meridian \"180th meridian\")\n[30°](/wiki/30th_meridian_west \"30th meridian west\")\n[60°](/wiki/60th_meridian_west \"60th meridian west\")\n[**90°**](/wiki/90th_meridian_west \"90th meridian west\")\n[120°](/wiki/120th_meridian_west \"120th meridian west\")\n[150°](/wiki/150th_meridian_west \"150th meridian west\")\n[**180°**](/wiki/180th_meridian \"180th meridian\") [5°](/wiki/5th_meridian_east\n\"5th meridian east\") [15°](/wiki/15th_meridian_east \"15th meridian east\")\n[25°](/wiki/25th_meridian_east \"25th meridian east\")\n[35°](/wiki/35th_meridian_east \"35th meridian east\")\n[45°](/wiki/45th_meridian_east \"45th meridian east\")\n[55°](/wiki/55th_meridian_east \"55th meridian east\")\n[65°](/wiki/65th_meridian_east \"65th meridian east\")\n[75°](/wiki/75th_meridian_east \"75th meridian east\")\n[85°](/wiki/85th_meridian_east \"85th meridian east\")\n[95°](/wiki/95th_meridian_east \"95th meridian east\")\n[105°](/wiki/105th_meridian_east \"105th meridian east\")\n[115°](/wiki/115th_meridian_east \"115th meridian east\")\n[125°](/wiki/125th_meridian_east \"125th meridian east\")\n[135°](/wiki/135th_meridian_east \"135th meridian east\")\n[145°](/wiki/145th_meridian_east \"145th meridian east\")\n[155°](/wiki/155th_meridian_east \"155th meridian east\")\n[165°](/wiki/165th_meridian_east \"165th meridian east\")\n[175°](/wiki/175th_meridian_east \"175th meridian east\")\n[5°](/wiki/5th_meridian_west \"5th meridian west\")\n[15°](/wiki/15th_meridian_west \"15th meridian west\")\n[25°](/wiki/25th_meridian_west \"25th meridian west\")\n[35°](/wiki/35th_meridian_west \"35th meridian west\")\n[45°](/wiki/45th_meridian_west \"45th meridian west\")\n[55°](/wiki/55th_meridian_west \"55th meridian west\")\n[65°](/wiki/65th_meridian_west \"65th meridian west\")\n[75°](/wiki/75th_meridian_west \"75th meridian west\")\n[85°](/wiki/85th_meridian_west \"85th meridian west\")\n[95°](/wiki/95th_meridian_west \"95th meridian west\")\n[105°](/wiki/105th_meridian_west \"105th meridian west\")\n[115°](/wiki/115th_meridian_west \"115th meridian west\")\n[125°](/wiki/125th_meridian_west \"125th meridian west\")\n[135°](/wiki/135th_meridian_west \"135th meridian west\")\n[145°](/wiki/145th_meridian_west \"145th meridian west\")\n[155°](/wiki/155th_meridian_west \"155th meridian west\")\n[165°](/wiki/165th_meridian_west \"165th meridian west\")\n[175°](/wiki/175th_meridian_west \"175th meridian west\")\n[10°](/wiki/10th_meridian_east \"10th meridian east\")\n[20°](/wiki/20th_meridian_east \"20th meridian east\")\n[40°](/wiki/40th_meridian_east \"40th meridian east\")\n[50°](/wiki/50th_meridian_east \"50th meridian east\")\n[70°](/wiki/70th_meridian_east \"70th meridian east\")\n[80°](/wiki/80th_meridian_east \"80th meridian east\")\n[100°](/wiki/100th_meridian_east \"100th meridian east\")\n[110°](/wiki/110th_meridian_east \"110th meridian east\")\n[130°](/wiki/130th_meridian_east \"130th meridian east\")\n[140°](/wiki/140th_meridian_east \"140th meridian east\")\n[160°](/wiki/160th_meridian_east \"160th meridian east\")\n[170°](/wiki/170th_meridian_east \"170th meridian east\")\n[10°](/wiki/10th_meridian_west \"10th meridian west\")\n[20°](/wiki/20th_meridian_west \"20th meridian west\")\n[40°](/wiki/40th_meridian_west \"40th meridian west\")\n[50°](/wiki/50th_meridian_west \"50th meridian west\")\n[70°](/wiki/70th_meridian_west \"70th meridian west\")\n[80°](/wiki/80th_meridian_west \"80th meridian west\")\n[100°](/wiki/100th_meridian_west \"100th meridian west\")\n[110°](/wiki/110th_meridian_west \"110th meridian west\")\n[130°](/wiki/130th_meridian_west \"130th meridian west\")\n[140°](/wiki/140th_meridian_west \"140th meridian west\")\n[160°](/wiki/160th_meridian_west \"160th meridian west\")\n[170°](/wiki/170th_meridian_west \"170th meridian west\") **[0°](/wiki/Equator\n\"Equator\")** [10°](/wiki/10th_parallel_north \"10th parallel north\")\n[20°](/wiki/20th_parallel_north \"20th parallel north\")\n[30°](/wiki/30th_parallel_north \"30th parallel north\")\n[40°](/wiki/40th_parallel_north \"40th parallel north\")\n[50°](/wiki/50th_parallel_north \"50th parallel north\")\n[60°](/wiki/60th_parallel_north \"60th parallel north\")\n[70°](/wiki/70th_parallel_north \"70th parallel north\")\n[80°](/wiki/80th_parallel_north \"80th parallel north\") [90°](/wiki/North_Pole\n\"North Pole\") [10°](/wiki/10th_parallel_south \"10th parallel south\")\n[20°](/wiki/20th_parallel_south \"20th parallel south\")\n[30°](/wiki/30th_parallel_south \"30th parallel south\")\n[40°](/wiki/40th_parallel_south \"40th parallel south\")\n[50°](/wiki/50th_parallel_south \"50th parallel south\")\n[60°](/wiki/60th_parallel_south \"60th parallel south\")\n[70°](/wiki/70th_parallel_south \"70th parallel south\")\n[80°](/wiki/80th_parallel_south \"80th parallel south\") [90°](/wiki/South_Pole\n\"South Pole\") [5°](/wiki/5th_parallel_north \"5th parallel north\")\n**[N](/wiki/Northern_Hemisphere \"Northern Hemisphere\")**\n[15°](/wiki/15th_parallel_north \"15th parallel north\")\n[25°](/wiki/25th_parallel_north \"25th parallel north\")\n[35°](/wiki/35th_parallel_north \"35th parallel north\")\n[**45°**](/wiki/45th_parallel_north \"45th parallel north\")\n[55°](/wiki/55th_parallel_north \"55th parallel north\")\n[65°](/wiki/65th_parallel_north \"65th parallel north\")\n[75°](/wiki/75th_parallel_north \"75th parallel north\")\n[85°](/wiki/Arctic_Ocean \"Arctic Ocean\") [5°](/wiki/5th_parallel_south \"5th\nparallel south\") **[S](/wiki/Southern_Hemisphere \"Southern Hemisphere\")**\n[15°](/wiki/15th_parallel_south \"15th parallel south\")\n[25°](/wiki/25th_parallel_south \"25th parallel south\")\n[35°](/wiki/35th_parallel_south \"35th parallel south\")\n[**45°**](/wiki/45th_parallel_south \"45th parallel south\")\n[55°](/wiki/55th_parallel_south \"55th parallel south\")\n[65°](/wiki/65th_parallel_south \"65th parallel south\")\n[75°](/wiki/75th_parallel_south \"75th parallel south\") [85°](/wiki/Antarctica\n\"Antarctica\") [45x90](/wiki/45%C3%9790_points \"45×90 points\")\n[45x90](/wiki/45%C3%9790_points \"45×90 points\")\n[45x90](/wiki/45%C3%9790_points \"45×90 points\")\n[45x90](/wiki/45%C3%9790_points \"45×90 points\")  \n  \n[show]\n\n  * [v](/wiki/Template:Map_projection \"Template:Map projection\")\n  * [t](/wiki/Template_talk:Map_projection \"Template talk:Map projection\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Map_projection&action=edit)\n\n[Map projection](/wiki/Map_projection \"Map projection\")  \n---  \n  \n  * [History](/wiki/History_of_cartography \"History of cartography\")\n  * [List](/wiki/List_of_map_projections \"List of map projections\")\n  * [Portal](/wiki/Portal:Atlas \"Portal:Atlas\")\n\n  \n| [show] [By surface](/wiki/Map_projection#Projections_by_surface \"Map\nprojection\")  \n---  \n| [Cylindrical](/wiki/Map_projection#Cylindrical \"Map projection\") |  | [Mercator](/wiki/Mercator_projection \"Mercator projection\")-conformal | \n\n  * [Gauss–Krüger](/wiki/Gauss%E2%80%93Kr%C3%BCger_coordinate_system \"Gauss–Krüger coordinate system\")\n  * [Transverse Mercator](/wiki/Transverse_Mercator_projection \"Transverse Mercator projection\")\n\n  \n---|---  \n[Equal-area](/wiki/Cylindrical_equal-area_projection \"Cylindrical equal-area projection\") | \n\n  * [Balthasart](/wiki/Cylindrical_equal-area_projection#Discussion \"Cylindrical equal-area projection\")\n  * [Behrmann](/wiki/Behrmann_projection \"Behrmann projection\")\n  * [Gall–Peters](/wiki/Gall%E2%80%93Peters_projection \"Gall–Peters projection\")\n  * [Hobo–Dyer](/wiki/Hobo%E2%80%93Dyer_projection \"Hobo–Dyer projection\")\n  * [Lambert](/wiki/Lambert_cylindrical_equal-area_projection \"Lambert cylindrical equal-area projection\")\n  * [Smyth equal-surface](/wiki/Cylindrical_equal-area_projection#Discussion \"Cylindrical equal-area projection\")\n  * [Trystan Edwards](/wiki/Cylindrical_equal-area_projection#Discussion \"Cylindrical equal-area projection\")\n\n  \n  \n  * [Cassini](/wiki/Cassini_projection \"Cassini projection\")\n  * [Central](/wiki/Central_cylindrical_projection \"Central cylindrical projection\")\n  * [Equirectangular](/wiki/Equirectangular_projection \"Equirectangular projection\")\n  * [Gall stereographic](/wiki/Gall_stereographic_projection \"Gall stereographic projection\")\n  * [Miller](/wiki/Miller_cylindrical_projection \"Miller cylindrical projection\")\n  * [Space-oblique Mercator](/wiki/Space-oblique_Mercator_projection \"Space-oblique Mercator projection\")\n  * [Web Mercator](/wiki/Web_Mercator \"Web Mercator\")\n\n  \n[Pseudocylindrical](/wiki/Map_projection#Pseudocylindrical \"Map projection\") | \n\n  * [Eckert II](/wiki/Eckert_II_projection \"Eckert II projection\")\n  * [Eckert IV](/wiki/Eckert_IV_projection \"Eckert IV projection\")\n  * [Eckert VI](/wiki/Eckert_VI_projection \"Eckert VI projection\")\n  * [Goode homolosine](/wiki/Goode_homolosine_projection \"Goode homolosine projection\")\n  * [Kavrayskiy VII](/wiki/Kavrayskiy_VII_projection \"Kavrayskiy VII projection\")\n  * [Mollweide](/wiki/Mollweide_projection \"Mollweide projection\")\n  * [Sinusoidal](/wiki/Sinusoidal_projection \"Sinusoidal projection\")\n  * [Tobler hyperelliptical](/wiki/Tobler_hyperelliptical_projection \"Tobler hyperelliptical projection\")\n  * [Wagner VI](/wiki/Wagner_VI_projection \"Wagner VI projection\")\n\n  \n[Conical](/wiki/Map_projection#Conical \"Map projection\") | \n\n  * [Albers](/wiki/Albers_projection \"Albers projection\")\n  * [Equidistant](/wiki/Equidistant_conic_projection \"Equidistant conic projection\")\n  * [Lambert conformal](/wiki/Lambert_conformal_conic_projection \"Lambert conformal conic projection\")\n\n  \n[Pseudoconical](/wiki/Map_projection#Pseudoconical \"Map projection\") | \n\n  * [Bonne](/wiki/Bonne_projection \"Bonne projection\")\n  * [Bottomley](/wiki/Bottomley_projection \"Bottomley projection\")\n  * [Polyconic](/wiki/Polyconic_projection \"Polyconic projection\")\n  * [Werner](/wiki/Werner_projection \"Werner projection\")\n\n  \n[Azimuthal  \n(planar)](/wiki/Map_projection#Azimuthal \"Map projection\") |  | [General perspective](/wiki/General_Perspective_projection \"General Perspective projection\") | \n\n  * [Gnomonic](/wiki/Gnomonic_projection \"Gnomonic projection\")\n  * [Orthographic](/wiki/Orthographic_projection_in_cartography \"Orthographic projection in cartography\")\n  * [Stereographic](/wiki/Stereographic_projection \"Stereographic projection\")\n\n  \n---|---  \n  \n  * [Equidistant](/wiki/Azimuthal_equidistant_projection \"Azimuthal equidistant projection\")\n  * [Lambert equal-area](/wiki/Lambert_azimuthal_equal-area_projection \"Lambert azimuthal equal-area projection\")\n\n  \n[Pseudoazimuthal](/wiki/Map_projection#Pseudoazimuthal \"Map projection\") | \n\n  * [Aitoff](/wiki/Aitoff_projection \"Aitoff projection\")\n  * [Hammer](/wiki/Hammer_projection \"Hammer projection\")\n  * [Wiechel](/wiki/Wiechel_projection \"Wiechel projection\")\n  * [Winkel tripel](/wiki/Winkel_tripel_projection \"Winkel tripel projection\")\n\n  \n| [show] [By\nmetric](/wiki/Map_projection#Projections_by_preservation_of_a_metric_property\n\"Map projection\")  \n---  \n| [Conformal](/wiki/Map_projection#Conformal \"Map projection\") | \n\n  * [Adams hemisphere-in-a-square](/wiki/Adams_hemisphere-in-a-square_projection \"Adams hemisphere-in-a-square projection\")\n  * [Gauss–Krüger](/wiki/Gauss%E2%80%93Kr%C3%BCger_coordinate_system \"Gauss–Krüger coordinate system\")\n  * [Guyou hemisphere-in-a-square](/wiki/Guyou_hemisphere-in-a-square_projection \"Guyou hemisphere-in-a-square projection\")\n  * [Lambert conformal conic](/wiki/Lambert_conformal_conic_projection \"Lambert conformal conic projection\")\n  * [Mercator](/wiki/Mercator_projection \"Mercator projection\")\n  * [Peirce quincuncial](/wiki/Peirce_quincuncial_projection \"Peirce quincuncial projection\")\n  * [Stereographic](/wiki/Stereographic_projection \"Stereographic projection\")\n  * [Transverse Mercator](/wiki/Transverse_Mercator_projection \"Transverse Mercator projection\")\n\n  \n---|---  \n[Equal-area](/wiki/Map_projection#Equal-area \"Map projection\") |  | [Bonne](/wiki/Bonne_projection \"Bonne projection\") | \n\n  * [Sinusoidal](/wiki/Sinusoidal_projection \"Sinusoidal projection\")\n  * [Werner](/wiki/Werner_projection \"Werner projection\")\n\n  \n---|---  \n[Bottomley](/wiki/Bottomley_projection \"Bottomley projection\") | \n\n  * [Sinusoidal](/wiki/Sinusoidal_projection \"Sinusoidal projection\")\n  * [Werner](/wiki/Werner_projection \"Werner projection\")\n\n  \n[Cylindrical](/wiki/Cylindrical_equal-area_projection \"Cylindrical equal-area projection\") | \n\n  * [Balthasart](/wiki/Cylindrical_equal-area_projection#Discussion \"Cylindrical equal-area projection\")\n  * [Behrmann](/wiki/Behrmann_projection \"Behrmann projection\")\n  * [Gall–Peters](/wiki/Gall%E2%80%93Peters_projection \"Gall–Peters projection\")\n  * [Hobo–Dyer](/wiki/Hobo%E2%80%93Dyer_projection \"Hobo–Dyer projection\")\n  * [Lambert cylindrical equal-area](/wiki/Lambert_cylindrical_equal-area_projection \"Lambert cylindrical equal-area projection\")\n  * [Smyth equal-surface](/wiki/Cylindrical_equal-area_projection#Discussion \"Cylindrical equal-area projection\")\n  * [Trystan Edwards](/wiki/Cylindrical_equal-area_projection#Discussion \"Cylindrical equal-area projection\")\n\n  \n[Tobler hyperelliptical](/wiki/Tobler_hyperelliptical_projection \"Tobler hyperelliptical projection\") | \n\n  * [Collignon](/wiki/Collignon_projection \"Collignon projection\")\n  * [Mollweide](/wiki/Mollweide_projection \"Mollweide projection\")\n\n  \n  \n  * [Albers](/wiki/Albers_projection \"Albers projection\")\n  * [Briesemeister](/wiki/Hammer_projection#Briesemeister \"Hammer projection\")\n  * [Eckert II](/wiki/Eckert_II_projection \"Eckert II projection\")\n  * [Eckert IV](/wiki/Eckert_IV_projection \"Eckert IV projection\")\n  * [Eckert VI](/wiki/Eckert_VI_projection \"Eckert VI projection\")\n  * [Hammer](/wiki/Hammer_projection \"Hammer projection\")\n  * [Lambert azimuthal equal-area](/wiki/Lambert_azimuthal_equal-area_projection \"Lambert azimuthal equal-area projection\")\n  * [Quadrilateralized spherical cube](/wiki/Quadrilateralized_spherical_cube \"Quadrilateralized spherical cube\")\n\n  \n[Equidistant in  \nsome aspect](/wiki/Map_projection#Equidistant \"Map projection\") | \n\n  * [Conic](/wiki/Equidistant_conic_projection \"Equidistant conic projection\")\n  * [Equirectangular](/wiki/Equirectangular_projection \"Equirectangular projection\")\n  * [Sinusoidal](/wiki/Sinusoidal_projection \"Sinusoidal projection\")\n  * [Two-point](/wiki/Two-point_equidistant_projection \"Two-point equidistant projection\")\n  * [Werner](/wiki/Werner_projection \"Werner projection\")\n\n  \n[Gnomonic](/wiki/Map_projection#Gnomonic \"Map projection\") | \n\n  * [Gnomonic](/wiki/Gnomonic_projection \"Gnomonic projection\")\n\n  \n[Loxodromic](/wiki/Map_projection#Rhumb_line \"Map projection\") | \n\n  * [Loximuthal](/wiki/Loximuthal_projection \"Loximuthal projection\")\n  * [Mercator](/wiki/Mercator_projection \"Mercator projection\")\n\n  \n[Retroazimuthal](/wiki/Map_projection#Retroazimuthal \"Map projection\")  \n(Mecca or Qibla) | \n\n  * [Craig](/wiki/Craig_retroazimuthal_projection \"Craig retroazimuthal projection\")\n  * [Hammer](/wiki/Hammer_retroazimuthal_projection \"Hammer retroazimuthal projection\")\n  * [Littrow](/wiki/Littrow_projection \"Littrow projection\")\n\n  \n| [show] [By construction](/wiki/Map_projection#Classification \"Map\nprojection\")  \n---  \n| [Compromise](/wiki/Map_projection#Compromise_projections \"Map projection\") | \n\n  * [Chamberlin trimetric](/wiki/Chamberlin_trimetric_projection \"Chamberlin trimetric projection\")\n  * [Kavrayskiy VII](/wiki/Kavrayskiy_VII_projection \"Kavrayskiy VII projection\")\n  * [Miller cylindrical](/wiki/Miller_cylindrical_projection \"Miller cylindrical projection\")\n  * [Robinson](/wiki/Robinson_projection \"Robinson projection\")\n  * [Van der Grinten](/wiki/Van_der_Grinten_projection \"Van der Grinten projection\")\n  * [Wagner VI](/wiki/Wagner_VI_projection \"Wagner VI projection\")\n  * [Winkel tripel](/wiki/Winkel_tripel_projection \"Winkel tripel projection\")\n\n  \n---|---  \n[Hybrid](/wiki/Map_projection#Hybrid \"Map projection\") | \n\n  * [Goode homolosine](/wiki/Goode_homolosine_projection \"Goode homolosine projection\")\n  * [HEALPix](/wiki/HEALPix \"HEALPix\")\n\n  \n[Perspective](/wiki/Map_projection#Perspective_projections \"Map projection\") |  | [Planar](/wiki/General_Perspective_projection \"General Perspective projection\") | \n\n  * [Gnomonic](/wiki/Gnomonic_projection \"Gnomonic projection\")\n  * [Orthographic](/wiki/Orthographic_projection_in_cartography \"Orthographic projection in cartography\")\n  * [Stereographic](/wiki/Stereographic_projection \"Stereographic projection\")\n\n  \n---|---  \n  \n  * [Central cylindrical](/wiki/Central_cylindrical_projection \"Central cylindrical projection\")\n\n  \n[Polyhedral](/wiki/Map_projection#Polyhedral \"Map projection\") | \n\n  * [Cahill Butterfly](/wiki/Bernard_J._S._Cahill \"Bernard J. S. Cahill\")\n  * [Dymaxion](/wiki/Dymaxion_map \"Dymaxion map\")\n  * [Quadrilateralized spherical cube](/wiki/Quadrilateralized_spherical_cube \"Quadrilateralized spherical cube\")\n  * [Waterman butterfly](/wiki/Waterman_butterfly_projection \"Waterman butterfly projection\")\n\n  \n| [show] See also  \n---  \n  \n  * Latitude\n  * [Longitude](/wiki/Longitude \"Longitude\")\n  * [Tissot's indicatrix](/wiki/Tissot%27s_indicatrix \"Tissot's indicatrix\")\n\n  \n  \n![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)\n\nRetrieved from\n\"[https://en.wikipedia.org/w/index.php?title=Latitude&oldid=806897572](https://en.wikipedia.org/w/index.php?title=Latitude&oldid=806897572)\"\n\n[Categories](/wiki/Help:Category \"Help:Category\"):\n\n  * [Lines of latitude](/wiki/Category:Lines_of_latitude \"Category:Lines of latitude\")\n  * [Geodesy](/wiki/Category:Geodesy \"Category:Geodesy\")\n  * [Navigation](/wiki/Category:Navigation \"Category:Navigation\")\n\nHidden categories:\n\n  * [All articles with unsourced statements](/wiki/Category:All_articles_with_unsourced_statements \"Category:All articles with unsourced statements\")\n  * [Articles with unsourced statements from December 2011](/wiki/Category:Articles_with_unsourced_statements_from_December_2011 \"Category:Articles with unsourced statements from December 2011\")\n\n## Navigation menu\n\n### Personal tools\n\n  * Not logged in\n  * [Talk](/wiki/Special:MyTalk \"Discussion about edits from this IP address \\[ctrl-alt-n\\]\")\n  * [Contributions](/wiki/Special:MyContributions \"A list of edits made from this IP address \\[ctrl-alt-y\\]\")\n  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=Latitude \"You are encouraged to create an account and log in; however, it is not mandatory\")\n  * [Log in](/w/index.php?title=Special:UserLogin&returnto=Latitude \"You're encouraged to log in; however, it's not mandatory. \\[ctrl-alt-o\\]\")\n\n### Namespaces\n\n  * [Article](/wiki/Latitude \"View the content page \\[ctrl-alt-c\\]\")\n  * [Talk](/wiki/Talk:Latitude \"Discussion about the content page \\[ctrl-alt-t\\]\")\n\n###  Variants\n\n### Views\n\n  * [Read](/wiki/Latitude)\n  * [Edit](/w/index.php?title=Latitude&action=edit \"Edit this page \\[ctrl-alt-e\\]\")\n  * [View history](/w/index.php?title=Latitude&action=history \"Past revisions of this page \\[ctrl-alt-h\\]\")\n\n### More\n\n###  Search\n\n[](/wiki/Main_Page \"Visit the main page\")\n\n### Navigation\n\n  * [Main page](/wiki/Main_Page \"Visit the main page \\[ctrl-alt-z\\]\")\n  * [Contents](/wiki/Portal:Contents \"Guides to browsing Wikipedia\")\n  * [Featured content](/wiki/Portal:Featured_content \"Featured content – the best of Wikipedia\")\n  * [Current events](/wiki/Portal:Current_events \"Find background information on current events\")\n  * [Random article](/wiki/Special:Random \"Load a random article \\[ctrl-alt-x\\]\")\n  * [Donate to Wikipedia](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en \"Support us\")\n  * [Wikipedia store](//shop.wikimedia.org \"Visit the Wikipedia store\")\n\n### Interaction\n\n  * [Help](/wiki/Help:Contents \"Guidance on how to use and edit Wikipedia\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Find out about Wikipedia\")\n  * [Community portal](/wiki/Wikipedia:Community_portal \"About the project, what you can do, where to find things\")\n  * [Recent changes](/wiki/Special:RecentChanges \"A list of recent changes in the wiki \\[ctrl-alt-r\\]\")\n  * [Contact page](//en.wikipedia.org/wiki/Wikipedia:Contact_us \"How to contact Wikipedia\")\n\n### Tools\n\n  * [What links here](/wiki/Special:WhatLinksHere/Latitude \"List of all English Wikipedia pages containing links to this page \\[ctrl-alt-j\\]\")\n  * [Related changes](/wiki/Special:RecentChangesLinked/Latitude \"Recent changes in pages linked from this page \\[ctrl-alt-k\\]\")\n  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard \"Upload files \\[ctrl-alt-u\\]\")\n  * [Special pages](/wiki/Special:SpecialPages \"A list of all special pages \\[ctrl-alt-q\\]\")\n  * [Permanent link](/w/index.php?title=Latitude&oldid=806897572 \"Permanent link to this revision of the page\")\n  * [Page information](/w/index.php?title=Latitude&action=info \"More information about this page\")\n  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q34027 \"Link to connected data repository item \\[ctrl-alt-g\\]\")\n  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=Latitude&id=806897572 \"Information on how to cite this page\")\n\n### Print/export\n\n  * [Create a book](/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Latitude)\n  * [Download as PDF](/w/index.php?title=Special:ElectronPdf&page=Latitude&action=show-download-screen)\n  * [Printable version](/w/index.php?title=Latitude&printable=yes \"Printable version of this page \\[ctrl-alt-p\\]\")\n\n### In other projects\n\n  * [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Latitudes)\n\n### Languages\n\n  * [Afrikaans](https://af.wikipedia.org/wiki/Breedtegraad \"Breedtegraad – Afrikaans\")\n  * [Alemannisch](https://als.wikipedia.org/wiki/Geografische_Breite \"Geografische Breite – Alemannisch\")\n  * [العربية](https://ar.wikipedia.org/wiki/%D8%B9%D8%B1%D8%B6_%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A \"عرض جغرافي – Arabic\")\n  * [Aragonés](https://an.wikipedia.org/wiki/Latitut \"Latitut – Aragonese\")\n  * [Asturianu](https://ast.wikipedia.org/wiki/Llatit%C3%BA \"Llatitú – Asturian\")\n  * [Azərbaycanca](https://az.wikipedia.org/wiki/En_dair%C9%99si \"En dairəsi – Azerbaijani\")\n  * [تۆرکجه](https://azb.wikipedia.org/wiki/%D8%A7%D8%A6%D9%86%D9%84%D9%85 \"ائنلم – South Azerbaijani\")\n  * [বাংলা](https://bn.wikipedia.org/wiki/%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%82%E0%A6%B6 \"অক্ষাংশ – Bangla\")\n  * [Bân-lâm-gú](https://zh-min-nan.wikipedia.org/wiki/H%C5%ABi-t%C5%8D%CD%98 \"Hūi-tō͘ – Chinese \\(Min Nan\\)\")\n  * [Башҡортса](https://ba.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA_%D0%BA%D0%B8%D2%A3%D0%BB%D0%B5%D0%BA \"Географик киңлек – Bashkir\")\n  * [Беларуская](https://be.wikipedia.org/wiki/%D0%A8%D1%8B%D1%80%D0%B0%D1%82%D0%B0 \"Шырата – Belarusian\")\n  * [Беларуская (тарашкевіца)‎](https://be-x-old.wikipedia.org/wiki/%D0%A8%D1%8B%D1%80%D0%B0%D1%82%D0%B0 \"Шырата – Belarusian \\(Taraškievica orthography\\)\")\n  * [भोजपुरी](https://bh.wikipedia.org/wiki/%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%82%E0%A4%B6 \"अक्षांश – Bhojpuri\")\n  * [Български](https://bg.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%81%D0%BA%D0%B0_%D1%88%D0%B8%D1%80%D0%B8%D0%BD%D0%B0 \"Географска ширина – Bulgarian\")\n  * [Bosanski](https://bs.wikipedia.org/wiki/Geografska_%C5%A1irina \"Geografska širina – Bosnian\")\n  * [Brezhoneg](https://br.wikipedia.org/wiki/Ledred \"Ledred – Breton\")\n  * [Català](https://ca.wikipedia.org/wiki/Latitud \"Latitud – Catalan\")\n  * [Cebuano](https://ceb.wikipedia.org/wiki/Latitud \"Latitud – Cebuano\")\n  * [Čeština](https://cs.wikipedia.org/wiki/Zem%C4%9Bpisn%C3%A1_%C5%A1%C3%AD%C5%99ka \"Zeměpisná šířka – Czech\")\n  * [ChiShona](https://sn.wikipedia.org/wiki/Mbariro_dzeTaranyika \"Mbariro dzeTaranyika – Shona\")\n  * [Cymraeg](https://cy.wikipedia.org/wiki/Lledred \"Lledred – Welsh\")\n  * [Deutsch](https://de.wikipedia.org/wiki/Geographische_Breite \"Geographische Breite – German\")\n  * [Dolnoserbski](https://dsb.wikipedia.org/wiki/Geografiska_%C5%A1yrina \"Geografiska šyrina – Lower Sorbian\")\n  * [Eesti](https://et.wikipedia.org/wiki/Geograafiline_laius \"Geograafiline laius – Estonian\")\n  * [Ελληνικά](https://el.wikipedia.org/wiki/%CE%93%CE%B5%CF%89%CE%B3%CF%81%CE%B1%CF%86%CE%B9%CE%BA%CF%8C_%CF%80%CE%BB%CE%AC%CF%84%CE%BF%CF%82 \"Γεωγραφικό πλάτος – Greek\")\n  * [Español](https://es.wikipedia.org/wiki/Latitud \"Latitud – Spanish\")\n  * [Esperanto](https://eo.wikipedia.org/wiki/Latitudo \"Latitudo – Esperanto\")\n  * [Euskara](https://eu.wikipedia.org/wiki/Latitude \"Latitude – Basque\")\n  * [فارسی](https://fa.wikipedia.org/wiki/%D8%B9%D8%B1%D8%B6_%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%DB%8C%D8%A7%DB%8C%DB%8C \"عرض جغرافیایی – Persian\")\n  * [Français](https://fr.wikipedia.org/wiki/Latitude \"Latitude – French\")\n  * [Frysk](https://fy.wikipedia.org/wiki/Breedtegraad \"Breedtegraad – Western Frisian\")\n  * [Galego](https://gl.wikipedia.org/wiki/Latitude \"Latitude – Galician\")\n  * [한국어](https://ko.wikipedia.org/wiki/%EC%9C%84%EB%8F%84 \"위도 – Korean\")\n  * [Հայերեն](https://hy.wikipedia.org/wiki/%D4%B1%D5%B7%D5%AD%D5%A1%D6%80%D5%B0%D5%A1%D5%A3%D6%80%D5%A1%D5%AF%D5%A1%D5%B6_%D5%AC%D5%A1%D5%B5%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6 \"Աշխարհագրական լայնություն – Armenian\")\n  * [हिन्दी](https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%82%E0%A4%B6_%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%8F%E0%A4%81 \"अक्षांश रेखाएँ – Hindi\")\n  * [Hornjoserbsce](https://hsb.wikipedia.org/wiki/Geografiska_%C5%A1%C4%9Brokos%C4%87 \"Geografiska šěrokosć – Upper Sorbian\")\n  * [Hrvatski](https://hr.wikipedia.org/wiki/Zemljopisna_%C5%A1irina \"Zemljopisna širina – Croatian\")\n  * [Ido](https://io.wikipedia.org/wiki/Latitudo \"Latitudo – Ido\")\n  * [Igbo](https://ig.wikipedia.org/wiki/Latitude \"Latitude – Igbo\")\n  * [Ilokano](https://ilo.wikipedia.org/wiki/Latitud \"Latitud – Iloko\")\n  * [Bahasa Indonesia](https://id.wikipedia.org/wiki/Garis_lintang \"Garis lintang – Indonesian\")\n  * [Ирон](https://os.wikipedia.org/wiki/%D0%A3%C3%A6%D1%80%D1%85%D0%B0%D0%B4 \"Уæрхад – Ossetic\")\n  * [Íslenska](https://is.wikipedia.org/wiki/Breiddargr%C3%A1%C3%B0a \"Breiddargráða – Icelandic\")\n  * [Italiano](https://it.wikipedia.org/wiki/Latitudine \"Latitudine – Italian\")\n  * [עברית](https://he.wikipedia.org/wiki/%D7%A7%D7%95_%D7%A8%D7%95%D7%97%D7%91 \"קו רוחב – Hebrew\")\n  * [ಕನ್ನಡ](https://kn.wikipedia.org/wiki/%E0%B2%85%E0%B2%95%E0%B3%8D%E0%B2%B7%E0%B2%BE%E0%B2%82%E0%B2%B6 \"ಅಕ್ಷಾಂಶ – Kannada\")\n  * [ქართული](https://ka.wikipedia.org/wiki/%E1%83%92%E1%83%90%E1%83%9C%E1%83%94%E1%83%93%E1%83%98 \"განედი – Georgian\")\n  * [Қазақша](https://kk.wikipedia.org/wiki/%D0%95%D0%BD%D0%B4%D1%96%D0%BA \"Ендік – Kazakh\")\n  * [Kiswahili](https://sw.wikipedia.org/wiki/Latitudo \"Latitudo – Swahili\")\n  * [Kreyòl ayisyen](https://ht.wikipedia.org/wiki/Latitid \"Latitid – Haitian Creole\")\n  * [Kurdî](https://ku.wikipedia.org/wiki/H%C3%AAl%C3%AEpan \"Hêlîpan – Kurdish\")\n  * [Кыргызча](https://ky.wikipedia.org/wiki/%D0%9A%D0%B5%D2%A3%D0%B4%D0%B8%D0%BA \"Кеңдик – Kyrgyz\")\n  * [ລາວ](https://lo.wikipedia.org/wiki/%E0%BB%80%E0%BA%AA%E0%BA%B1%E0%BB%89%E0%BA%99%E0%BA%82%E0%BA%B0%E0%BB%9C%E0%BA%B2%E0%BA%99 \"ເສັ້ນຂະໜານ – Lao\")\n  * [Latina](https://la.wikipedia.org/wiki/Latitudo_geographica \"Latitudo geographica – Latin\")\n  * [Latviešu](https://lv.wikipedia.org/wiki/%C4%A2eogr%C4%81fiskais_platums \"Ģeogrāfiskais platums – Latvian\")\n  * [Lëtzebuergesch](https://lb.wikipedia.org/wiki/Geographesch_Breet \"Geographesch Breet – Luxembourgish\")\n  * [Lietuvių](https://lt.wikipedia.org/wiki/Platuma \"Platuma – Lithuanian\")\n  * [Lingála](https://ln.wikipedia.org/wiki/Monk%C9%94%CC%81l%C9%94%CC%81t%C9%94%CC%81_mw%C3%A2_libale \"Monkɔ́lɔ́tɔ́ mwâ libale – Lingala\")\n  * [Lumbaart](https://lmo.wikipedia.org/wiki/Latit%C3%BCdin \"Latitüdin – Lombard\")\n  * [Македонски](https://mk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%81%D0%BA%D0%B0_%D1%88%D0%B8%D1%80%D0%B8%D0%BD%D0%B0 \"Географска ширина – Macedonian\")\n  * [Malagasy](https://mg.wikipedia.org/wiki/Laharam-pehintany \"Laharam-pehintany – Malagasy\")\n  * [മലയാളം](https://ml.wikipedia.org/wiki/%E0%B4%85%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B4%BE%E0%B4%82%E0%B4%B6%E0%B4%82 \"അക്ഷാംശം – Malayalam\")\n  * [मराठी](https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%82%E0%A4%B6 \"अक्षांश – Marathi\")\n  * [Bahasa Melayu](https://ms.wikipedia.org/wiki/Latitud \"Latitud – Malay\")\n  * [Nederlands](https://nl.wikipedia.org/wiki/Breedtegraad \"Breedtegraad – Dutch\")\n  * [Nedersaksies](https://nds-nl.wikipedia.org/wiki/Breedtegraod \"Breedtegraod – Low Saxon\")\n  * [नेपाली](https://ne.wikipedia.org/wiki/%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%82%E0%A4%B6 \"अक्षांश – Nepali\")\n  * [日本語](https://ja.wikipedia.org/wiki/%E7%B7%AF%E5%BA%A6 \"緯度 – Japanese\")\n  * [Norsk](https://no.wikipedia.org/wiki/Breddegrad \"Breddegrad – Norwegian\")\n  * [Norsk nynorsk](https://nn.wikipedia.org/wiki/Breiddegrad \"Breiddegrad – Norwegian Nynorsk\")\n  * [Occitan](https://oc.wikipedia.org/wiki/Latitud \"Latitud – Occitan\")\n  * [Олык марий](https://mhr.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BF%D1%82%D1%8B%D0%BA \"Лоптык – Eastern Mari\")\n  * [ଓଡ଼ିଆ](https://or.wikipedia.org/wiki/%E0%AC%85%E0%AC%95%E0%AD%8D%E0%AC%B7%E0%AC%BE%E0%AC%82%E0%AC%B6 \"ଅକ୍ଷାଂଶ – Odia\")\n  * [ਪੰਜਾਬੀ](https://pa.wikipedia.org/wiki/%E0%A8%85%E0%A8%95%E0%A8%B8%E0%A8%BC%E0%A8%BE%E0%A8%82%E0%A8%B8%E0%A8%BC_%E0%A8%B0%E0%A9%87%E0%A8%96%E0%A8%BE \"ਅਕਸ਼ਾਂਸ਼ ਰੇਖਾ – Punjabi\")\n  * [پنجابی](https://pnb.wikipedia.org/wiki/%D9%BE%D8%A6%DB%8C_%D9%84%DB%8C%DA%A9 \"پئی لیک – Western Punjabi\")\n  * [Polski](https://pl.wikipedia.org/wiki/Szeroko%C5%9B%C4%87_geograficzna \"Szerokość geograficzna – Polish\")\n  * [Português](https://pt.wikipedia.org/wiki/Latitude \"Latitude – Portuguese\")\n  * [Română](https://ro.wikipedia.org/wiki/Latitudine \"Latitudine – Romanian\")\n  * [Русский](https://ru.wikipedia.org/wiki/%D0%A8%D0%B8%D1%80%D0%BE%D1%82%D0%B0 \"Широта – Russian\")\n  * [Саха тыла](https://sah.wikipedia.org/wiki/%D0%9A%D1%8D%D1%82%D0%B8%D1%80%D1%8D%D1%8D%D2%BB%D0%B8%D0%BD \"Кэтирээһин – Sakha\")\n  * [Scots](https://sco.wikipedia.org/wiki/Latitude \"Latitude – Scots\")\n  * [Shqip](https://sq.wikipedia.org/wiki/Gjer%C3%ABsia_gjeografike \"Gjerësia gjeografike – Albanian\")\n  * [Sicilianu](https://scn.wikipedia.org/wiki/Latit%C3%B9dini \"Latitùdini – Sicilian\")\n  * [Simple English](https://simple.wikipedia.org/wiki/Latitude \"Latitude – Simple English\")\n  * [Slovenčina](https://sk.wikipedia.org/wiki/Zemepisn%C3%A1_%C5%A1%C3%ADrka \"Zemepisná šírka – Slovak\")\n  * [Slovenščina](https://sl.wikipedia.org/wiki/Zemljepisna_%C5%A1irina \"Zemljepisna širina – Slovenian\")\n  * [Ślůnski](https://szl.wikipedia.org/wiki/Szyroko%C5%9B%C4%87_geograficzno \"Szyrokość geograficzno – Silesian\")\n  * [Soomaaliga](https://so.wikipedia.org/wiki/Lool \"Lool – Somali\")\n  * [کوردی](https://ckb.wikipedia.org/wiki/%DA%BE%DB%8E%DA%B5%DB%8C_%D9%BE%D8%A7%D9%86%DB%8C \"ھێڵی پانی – Central Kurdish\")\n  * [Српски / srpski](https://sr.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%81%D0%BA%D0%B0_%D1%88%D0%B8%D1%80%D0%B8%D0%BD%D0%B0 \"Географска ширина – Serbian\")\n  * [Srpskohrvatski / српскохрватски](https://sh.wikipedia.org/wiki/Geografska_%C5%A1irina \"Geografska širina – Serbo-Croatian\")\n  * [Basa Sunda](https://su.wikipedia.org/wiki/Garis_datar \"Garis datar – Sundanese\")\n  * [Svenska](https://sv.wikipedia.org/wiki/Latitud \"Latitud – Swedish\")\n  * [Tagalog](https://tl.wikipedia.org/wiki/Latitud \"Latitud – Tagalog\")\n  * [தமிழ்](https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AE%BF%E0%AE%B2%E0%AE%A8%E0%AF%87%E0%AE%B0%E0%AF%8D%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AF%81 \"நிலநேர்க்கோடு – Tamil\")\n  * [తెలుగు](https://te.wikipedia.org/wiki/%E0%B0%85%E0%B0%95%E0%B1%8D%E0%B0%B7%E0%B0%BE%E0%B0%82%E0%B0%B6%E0%B0%82 \"అక్షాంశం – Telugu\")\n  * [ไทย](https://th.wikipedia.org/wiki/%E0%B8%A5%E0%B8%B0%E0%B8%95%E0%B8%B4%E0%B8%88%E0%B8%B9%E0%B8%94 \"ละติจูด – Thai\")\n  * [Türkçe](https://tr.wikipedia.org/wiki/Enlem \"Enlem – Turkish\")\n  * [Українська](https://uk.wikipedia.org/wiki/%D0%A8%D0%B8%D1%80%D0%BE%D1%82%D0%B0 \"Широта – Ukrainian\")\n  * [اردو](https://ur.wikipedia.org/wiki/%D8%B9%D8%B1%D8%B6_%D8%A7%D9%84%D8%A8%D9%84%D8%AF \"عرض البلد – Urdu\")\n  * [ئۇيغۇرچە / Uyghurche](https://ug.wikipedia.org/wiki/%D9%83%DB%95%DA%AD%D9%84%D9%89%D9%83 \"كەڭلىك – Uyghur\")\n  * [Vèneto](https://vec.wikipedia.org/wiki/Latitudine \"Latitudine – Venetian\")\n  * [Tiếng Việt](https://vi.wikipedia.org/wiki/V%C4%A9_%C4%91%E1%BB%99 \"Vĩ độ – Vietnamese\")\n  * [West-Vlams](https://vls.wikipedia.org/wiki/Br%C3%AAedtegroad \"Brêedtegroad – West Flemish\")\n  * [Winaray](https://war.wikipedia.org/wiki/Latitud \"Latitud – Waray\")\n  * [Wolof](https://wo.wikipedia.org/wiki/Tus-wu-gaar \"Tus-wu-gaar – Wolof\")\n  * [吴语](https://wuu.wikipedia.org/wiki/%E7%B7%AF%E5%BA%A6 \"緯度 – Wu Chinese\")\n  * [ייִדיש](https://yi.wikipedia.org/wiki/%D7%92%D7%90%D7%A8%D7%98%D7%9C_%D7%9C%D7%99%D7%A0%D7%99%D7%A2_\\(%D7%92%D7%A2%D7%90%D7%92%D7%A8%D7%90%D7%A4%D7%99%D7%A2\\) \"גארטל ליניע \\(געאגראפיע\\) – Yiddish\")\n  * [粵語](https://zh-yue.wikipedia.org/wiki/%E7%B7%AF \"緯 – Cantonese\")\n  * [中文](https://zh.wikipedia.org/wiki/%E7%BA%AC%E5%BA%A6 \"纬度 – Chinese\")\n\n[Edit\nlinks](https://www.wikidata.org/wiki/Special:EntityPage/Q34027#sitelinks-\nwikipedia \"Edit interlanguage links\")\n\n  * This page was last edited on 24 October 2017, at 20:41.\n  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)[](//creativecommons.org/licenses/by-sa/3.0/); additional terms may apply. By using this site, you agree to the [Terms of Use](//wikimediafoundation.org/wiki/Terms_of_Use) and [Privacy Policy](//wikimediafoundation.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.\n\n  * [Privacy policy](https://wikimediafoundation.org/wiki/Privacy_policy \"wmf:Privacy policy\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Wikipedia:About\")\n  * [Disclaimers](/wiki/Wikipedia:General_disclaimer \"Wikipedia:General disclaimer\")\n  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)\n  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)\n  * [Cookie statement](https://wikimediafoundation.org/wiki/Cookie_statement)\n  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=Latitude&mobileaction=toggle_view_mobile)\n  * Enable previews\n\n  * [![Wikimedia Foundation](/static/images/wikimedia-button.png)](https://wikimediafoundation.org/)\n  * [![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)](//www.mediawiki.org/)\n\n  *[v]: View this template\n  *[t]: Discuss this template\n  *[e]: Edit this template\n\n"
+    ],
+    "qa": {
+        "question": "what are the lines parallel to the equator called",
+        "answer": "['Lines of constant latitude']",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_5247_1",
+                "score": 15.03969955444336
+            },
+            {
+                "id": "triviaqa_29831_0",
+                "score": 14.554800033569336
+            },
+            {
+                "id": "triviaqa_29831_4",
+                "score": 14.271200180053711
+            },
+            {
+                "id": "triviaqa_26443_599",
+                "score": 14.16569995880127
+            },
+            {
+                "id": "triviaqa_29831_5",
+                "score": 14.051199913024902
+            },
+            {
+                "id": "triviaqa_74787_7",
+                "score": 13.825499534606934
+            },
+            {
+                "id": "triviaqa_1984_4",
+                "score": 13.817899703979492
+            },
+            {
+                "id": "triviaqa_29831_3",
+                "score": 13.597999572753906
+            },
+            {
+                "id": "triviaqa_1984_6",
+                "score": 13.536800384521484
+            },
+            {
+                "id": "triviaqa_5247_0",
+                "score": 13.500499725341797
+            },
+            {
+                "id": "triviaqa_35752_8",
+                "score": 13.39109992980957
+            },
+            {
+                "id": "triviaqa_74787_4",
+                "score": 13.38129997253418
+            },
+            {
+                "id": "nq_3117_0",
+                "score": 12.78219985961914
+            },
+            {
+                "id": "triviaqa_26443_571",
+                "score": 12.737199783325195
+            },
+            {
+                "id": "nq_3117_6",
+                "score": 12.710599899291992
+            },
+            {
+                "id": "triviaqa_1984_3",
+                "score": 12.701000213623047
+            },
+            {
+                "id": "nq_3117_1",
+                "score": 12.336000442504883
+            },
+            {
+                "id": "triviaqa_74787_8",
+                "score": 12.121600151062012
+            },
+            {
+                "id": "triviaqa_24547_13",
+                "score": 12.012399673461914
+            },
+            {
+                "id": "triviaqa_1984_7",
+                "score": 11.95419979095459
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "nq_3117_0",
+                "score": 12.78219985961914
+            },
+            {
+                "id": "nq_3117_6",
+                "score": 12.710599899291992
+            },
+            {
+                "id": "nq_3117_1",
+                "score": 12.336000442504883
+            },
+            {
+                "id": "nq_3117_10",
+                "score": 9.777299880981445
+            },
+            {
+                "id": "nq_3117_76",
+                "score": 9.635700225830078
+            },
+            {
+                "id": "nq_3117_75",
+                "score": 9.451399803161621
+            },
+            {
+                "id": "nq_3117_7",
+                "score": 9.263899803161621
+            },
+            {
+                "id": "nq_3117_47",
+                "score": 8.354499816894531
+            },
+            {
+                "id": "nq_3117_8",
+                "score": 8.262499809265137
+            },
+            {
+                "id": "nq_3117_45",
+                "score": 8.171600341796875
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_771_1",
+                "score": 5.189198970794678
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_16246_1",
+                "score": 8.961099624633789
+            },
+            {
+                "id": "ott_28958_1",
+                "score": 8.961098670959473
+            },
+            {
+                "id": "ott_35343_1",
+                "score": 8.961097717285156
+            },
+            {
+                "id": "ott_38075_1",
+                "score": 8.96109676361084
+            },
+            {
+                "id": "ott_11582_0",
+                "score": 7.365200042724609
+            },
+            {
+                "id": "ott_26245_0",
+                "score": 7.365199089050293
+            },
+            {
+                "id": "ott_30205_0",
+                "score": 7.365198135375977
+            },
+            {
+                "id": "ott_40077_0",
+                "score": 7.36519718170166
+            },
+            {
+                "id": "ott_16246_2",
+                "score": 6.466000080108643
+            },
+            {
+                "id": "ott_28958_2",
+                "score": 6.465999126434326
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_3117_0",
+                "score": 12.78219985961914
+            },
+            {
+                "id": "nq_3117_6",
+                "score": 12.710599899291992
+            },
+            {
+                "id": "nq_3117_1",
+                "score": 12.336000442504883
+            },
+            {
+                "id": "nq_173805_23",
+                "score": 11.66409969329834
+            },
+            {
+                "id": "nq_173805_22",
+                "score": 11.387299537658691
+            },
+            {
+                "id": "nq_67991_6",
+                "score": 11.311400413513184
+            },
+            {
+                "id": "nq_38_26",
+                "score": 10.913700103759766
+            },
+            {
+                "id": "nq_56272_61",
+                "score": 10.846099853515625
+            },
+            {
+                "id": "nq_199137_62",
+                "score": 10.789899826049805
+            },
+            {
+                "id": "nq_56272_62",
+                "score": 10.789898872375488
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_5247_1",
+                "score": 15.03969955444336
+            },
+            {
+                "id": "triviaqa_29831_0",
+                "score": 14.554800033569336
+            },
+            {
+                "id": "triviaqa_29831_4",
+                "score": 14.271200180053711
+            },
+            {
+                "id": "triviaqa_26443_599",
+                "score": 14.16569995880127
+            },
+            {
+                "id": "triviaqa_29831_5",
+                "score": 14.051199913024902
+            },
+            {
+                "id": "triviaqa_74787_7",
+                "score": 13.825499534606934
+            },
+            {
+                "id": "triviaqa_1984_4",
+                "score": 13.817899703979492
+            },
+            {
+                "id": "triviaqa_29831_3",
+                "score": 13.597999572753906
+            },
+            {
+                "id": "triviaqa_1984_6",
+                "score": 13.536800384521484
+            },
+            {
+                "id": "triviaqa_5247_0",
+                "score": 13.500499725341797
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.01tp60_39",
+                "score": 6.6149001121521
+            },
+            {
+                "id": "m.02vxwk6_1",
+                "score": 6.540200233459473
+            },
+            {
+                "id": "m.07bty_314",
+                "score": 5.945499897003174
+            },
+            {
+                "id": "m.047t__30",
+                "score": 5.769499778747559
+            },
+            {
+                "id": "m.047t__29",
+                "score": 5.625699996948242
+            },
+            {
+                "id": "m.039k0wq_1",
+                "score": 5.5346999168396
+            },
+            {
+                "id": "m.039k0wq_2",
+                "score": 5.5304999351501465
+            },
+            {
+                "id": "m.039k0wq_0",
+                "score": 5.523799896240234
+            },
+            {
+                "id": "m.07pzc_178",
+                "score": 5.5177998542785645
+            },
+            {
+                "id": "m.07pzc_179",
+                "score": 5.517798900604248
+            },
+            {
+                "id": "m.07pzc_448",
+                "score": 5.517797946929932
+            },
+            {
+                "id": "m.07pzc_449",
+                "score": 5.517796993255615
+            },
+            {
+                "id": "m.043m10_4",
+                "score": 5.502099990844727
+            },
+            {
+                "id": "m.06jkm_100",
+                "score": 5.493500232696533
+            },
+            {
+                "id": "m.02vxwk6_0",
+                "score": 5.466599941253662
+            },
+            {
+                "id": "m.07pzc_252",
+                "score": 5.426799774169922
+            },
+            {
+                "id": "m.0306c6_29",
+                "score": 5.378200054168701
+            },
+            {
+                "id": "m.0306c6_30",
+                "score": 5.318999767303467
+            },
+            {
+                "id": "m.01s1m_112",
+                "score": 5.263700008392334
+            },
+            {
+                "id": "m.01s1m_352",
+                "score": 5.263699054718018
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_5247_1",
+                "score": 0.7806496024131775
+            },
+            {
+                "id": "triviaqa_74787_8",
+                "score": 0.776621401309967
+            },
+            {
+                "id": "nq_3117_1",
+                "score": 0.7591428756713867
+            },
+            {
+                "id": "triviaqa_125_20",
+                "score": 0.7362372875213623
+            },
+            {
+                "id": "nq_3117_7",
+                "score": 0.7299754619598389
+            },
+            {
+                "id": "triviaqa_29831_4",
+                "score": 0.7292817234992981
+            },
+            {
+                "id": "triviaqa_69955_3",
+                "score": 0.7266045808792114
+            },
+            {
+                "id": "triviaqa_1984_4",
+                "score": 0.7250851392745972
+            },
+            {
+                "id": "triviaqa_74787_4",
+                "score": 0.722378671169281
+            },
+            {
+                "id": "triviaqa_74787_7",
+                "score": 0.7204481959342957
+            },
+            {
+                "id": "triviaqa_35752_8",
+                "score": 0.7203190326690674
+            },
+            {
+                "id": "triviaqa_74787_6",
+                "score": 0.7199833989143372
+            },
+            {
+                "id": "triviaqa_29831_1",
+                "score": 0.7166606187820435
+            },
+            {
+                "id": "triviaqa_69955_2",
+                "score": 0.714888870716095
+            },
+            {
+                "id": "triviaqa_125_22",
+                "score": 0.7140530943870544
+            },
+            {
+                "id": "triviaqa_55084_41",
+                "score": 0.7134577631950378
+            },
+            {
+                "id": "triviaqa_5247_0",
+                "score": 0.7125082612037659
+            },
+            {
+                "id": "triviaqa_26443_599",
+                "score": 0.7125064730644226
+            },
+            {
+                "id": "nq_3117_0",
+                "score": 0.7113006114959717
+            },
+            {
+                "id": "triviaqa_74787_9",
+                "score": 0.710383951663971
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "nq_3117_1",
+                "score": 0.7591428756713867
+            },
+            {
+                "id": "nq_3117_7",
+                "score": 0.7299754619598389
+            },
+            {
+                "id": "nq_3117_0",
+                "score": 0.7113006114959717
+            },
+            {
+                "id": "nq_3117_10",
+                "score": 0.7069700360298157
+            },
+            {
+                "id": "nq_3117_8",
+                "score": 0.7043265700340271
+            },
+            {
+                "id": "nq_3117_9",
+                "score": 0.7043027877807617
+            },
+            {
+                "id": "nq_3117_6",
+                "score": 0.7005327939987183
+            },
+            {
+                "id": "nq_3117_47",
+                "score": 0.6849822402000427
+            },
+            {
+                "id": "nq_3117_45",
+                "score": 0.6769729256629944
+            },
+            {
+                "id": "nq_3117_76",
+                "score": 0.6745308041572571
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_16246_2",
+                "score": 0.6198157072067261
+            },
+            {
+                "id": "ott_28958_2",
+                "score": 0.6198157072067261
+            },
+            {
+                "id": "ott_35343_2",
+                "score": 0.6198157072067261
+            },
+            {
+                "id": "ott_38075_2",
+                "score": 0.6198157072067261
+            },
+            {
+                "id": "ott_35343_0",
+                "score": 0.6178582906723022
+            },
+            {
+                "id": "ott_38075_0",
+                "score": 0.6178582906723022
+            },
+            {
+                "id": "ott_28958_0",
+                "score": 0.6178582906723022
+            },
+            {
+                "id": "ott_16246_0",
+                "score": 0.6178582906723022
+            },
+            {
+                "id": "ott_38075_1",
+                "score": 0.6116983294487
+            },
+            {
+                "id": "ott_28958_1",
+                "score": 0.6116983294487
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_3117_1",
+                "score": 0.7591428756713867
+            },
+            {
+                "id": "nq_3117_7",
+                "score": 0.7299754619598389
+            },
+            {
+                "id": "nq_3117_0",
+                "score": 0.7113006114959717
+            },
+            {
+                "id": "nq_3117_10",
+                "score": 0.7069700360298157
+            },
+            {
+                "id": "nq_42374_43",
+                "score": 0.7051218152046204
+            },
+            {
+                "id": "nq_3117_8",
+                "score": 0.7043265700340271
+            },
+            {
+                "id": "nq_3117_9",
+                "score": 0.7043027877807617
+            },
+            {
+                "id": "nq_4045_45",
+                "score": 0.7030314207077026
+            },
+            {
+                "id": "nq_266218_0",
+                "score": 0.7006285190582275
+            },
+            {
+                "id": "nq_3117_6",
+                "score": 0.7005327939987183
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_5247_1",
+                "score": 0.7806496024131775
+            },
+            {
+                "id": "triviaqa_74787_8",
+                "score": 0.776621401309967
+            },
+            {
+                "id": "triviaqa_125_20",
+                "score": 0.7362372875213623
+            },
+            {
+                "id": "triviaqa_29831_4",
+                "score": 0.7292817234992981
+            },
+            {
+                "id": "triviaqa_69955_3",
+                "score": 0.7266045808792114
+            },
+            {
+                "id": "triviaqa_1984_4",
+                "score": 0.7250851392745972
+            },
+            {
+                "id": "triviaqa_74787_4",
+                "score": 0.722378671169281
+            },
+            {
+                "id": "triviaqa_74787_7",
+                "score": 0.7204481959342957
+            },
+            {
+                "id": "triviaqa_35752_8",
+                "score": 0.7203190326690674
+            },
+            {
+                "id": "triviaqa_74787_6",
+                "score": 0.7199833989143372
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0jntd_19",
+                "score": 0.6670233607292175
+            },
+            {
+                "id": "m.03rz4_179",
+                "score": 0.6456559300422668
+            },
+            {
+                "id": "m.03rz4_270",
+                "score": 0.6443385481834412
+            },
+            {
+                "id": "m.06nqw_26",
+                "score": 0.6410186290740967
+            },
+            {
+                "id": "m.015fr_9245",
+                "score": 0.6392068266868591
+            },
+            {
+                "id": "m.05k3k_32",
+                "score": 0.6387779116630554
+            },
+            {
+                "id": "m.0j0k_1272",
+                "score": 0.6354666948318481
+            },
+            {
+                "id": "m.0dg3n1_385",
+                "score": 0.6288323998451233
+            },
+            {
+                "id": "m.0j0k_2034",
+                "score": 0.6261136531829834
+            },
+            {
+                "id": "m.05k3k_38",
+                "score": 0.6256382465362549
+            },
+            {
+                "id": "m.07c5l_16",
+                "score": 0.6256223917007446
+            },
+            {
+                "id": "m.0jntd_18",
+                "score": 0.6242123246192932
+            },
+            {
+                "id": "m.03rz4_25",
+                "score": 0.6226219534873962
+            },
+            {
+                "id": "m.05k3k_18",
+                "score": 0.6206659078598022
+            },
+            {
+                "id": "m.0j0k_1631",
+                "score": 0.6197645664215088
+            },
+            {
+                "id": "m.06nqw_116",
+                "score": 0.6194050312042236
+            },
+            {
+                "id": "m.0j0k_462",
+                "score": 0.6190319061279297
+            },
+            {
+                "id": "m.0j0k_468",
+                "score": 0.6189966201782227
+            },
+            {
+                "id": "m.03rz4_177",
+                "score": 0.6174468398094177
+            },
+            {
+                "id": "m.0j0k_59",
+                "score": 0.6167916059494019
+            }
+        ],
+        "fail_detail": {
+            "m.0jntd_19": [
+                true,
+                true,
+                true
+            ],
+            "tat_771_1": [
+                true,
+                true,
+                true
+            ],
+            "nq_3117_6": [
+                true,
+                true,
+                true
+            ],
+            "nq_3117_1": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_29831_4": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_26443_599": [
+                true,
+                true,
+                true
+            ],
+            "m.01tp60_39": [
+                true,
+                true,
+                true
+            ],
+            "m.02vxwk6_1": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_5247_1": [
+                true,
+                true,
+                true
+            ],
+            "m.03rz4_179": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_74787_8": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_125_20": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_29831_5": [
+                true,
+                true,
+                true
+            ],
+            "nq_3117_0": [
+                true,
+                true,
+                true
+            ],
+            "ott_16246_1": [
+                true,
+                true,
+                true
+            ],
+            "ott_16246_2": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_29831_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_3117_7": [
+                true,
+                true,
+                true
+            ]
+        },
+        "llm_fail": {},
+        "relevance_judgement": 2,
+        "llm_mark_result": {
+            "m.0jntd_19": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer states that these lines are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses the concept of hemispheres, particularly the Western Hemisphere, and mentions the equator as a dividing line between the Northern and Southern Hemispheres. It also talks about meridians, especially the Greenwich Meridian, and the International Date Line.",
+                "Document and Query Keywords Matching": "The document mentions 'ecuador' (equator in Spanish) but does not explicitly mention lines parallel to it.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Lines of constant latitude' or any equivalent term.",
+                "Key Information Matching": "While the document discusses the equator and hemispheres, it does not provide information about lines parallel to the equator.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain information that would help infer the name of the lines parallel to the equator.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about hemispheres and meridians, with a brief mention of the equator. It does not address lines parallel to the equator, nor does it provide any context that could help infer the answer to the query. Therefore, it is irrelevant to the query."
+            },
+            "tat_771_1": {
+                "Query Analysis": "The query asks for the term used to describe lines on the Earth's surface that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer provides the term 'Lines of constant latitude' which refers to lines that are parallel to the equator.",
+                "Document Content Analysis": "The document discusses the financial compensation and benefits of Mr. Alastair Murray, including his salary, bonuses, and other perks related to his role as Acting CEO and Chief Financial Officer.",
+                "Document and Query Keywords Matching": "None of the query keywords ('lines', 'parallel', 'equator', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Lines of constant latitude') are found in the document.",
+                "Key Information Matching": "There is no key information related to geography, lines, or the equator in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer details about lines parallel to the equator.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the financial details of an individual's employment and does not mention any geographical concepts or terms related to the equator or latitude."
+            },
+            "nq_3117_6": {
+                "Query Analysis": "The query is asking for the term used to describe lines on the Earth that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer provides the term 'Lines of constant latitude' as the name for lines parallel to the equator.",
+                "Document Content Analysis": "The document explains the concepts of latitude and longitude on a spherical model of the Earth. It describes how the graticule is formed by lines of constant latitude and longitude, and specifically mentions that planes parallel to the equatorial plane intersect the surface in circles of constant latitude, which are termed 'parallels'.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'lines', 'parallel', and 'equator'.",
+                "Document and Answer Keywords Matching": "The document mentions 'lines of constant latitude' and 'parallels', which are synonymous with the answer provided.",
+                "Key Information Matching": "The document directly discusses lines that are parallel to the equator and refers to them as 'parallels' and 'lines of constant latitude', which matches the key information sought by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that planes parallel to the equatorial plane intersect the surface in circles of constant latitude, which are called 'parallels'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about the concepts of latitude and longitude, enhancing the understanding of why these lines are significant.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only contains the exact answer ('lines of constant latitude' and 'parallels') but also provides additional context and explanation about these lines. This makes it highly useful for understanding the query and its answer."
+            },
+            "nq_3117_1": {
+                "Query Analysis": "The query seeks to identify the term for lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer indicates that these lines are referred to as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses the concept of latitude, mentioning that lines of constant latitude, or parallels, run east-west and are parallel to the equator. It provides detailed information about latitude as a geographic coordinate and its role in specifying locations on Earth.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'lines', 'parallel', and 'equator'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'lines of constant latitude' and 'parallels', which are the terms used in the answer.",
+                "Key Information Matching": "The document directly addresses the concept of lines that are parallel to the equator and provides the terms used to describe them.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that these lines are called 'lines of constant latitude' or 'parallels'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the nature and significance of these lines.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by providing the specific terms for lines parallel to the equator. It also offers additional information about the concept of latitude, enhancing the understanding of the topic."
+            },
+            "triviaqa_29831_4": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer indicates that these lines are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document provides information about the Equator, its characteristics, and its significance. It also mentions the Prime Meridian and its role in dividing the Earth into hemispheres. Additionally, it discusses the concept of latitude and how it is measured.",
+                "Document and Query Keywords Matching": "The document mentions 'Equator' and 'latitude', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes the term 'latitude', which is part of the answer 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explains that latitude is measured with imaginary lines that form circles around the Earth, parallel to the Equator, and these lines are known as 'parallels'. This directly relates to the query about lines parallel to the equator.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the lines parallel to the Equator are known as 'parallels', which is synonymous with 'Lines of constant latitude'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about latitude and its measurement, enhancing understanding of the concept.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly addresses the query by explaining that lines parallel to the Equator are known as 'parallels', which aligns with the answer 'Lines of constant latitude'. It also provides additional context about latitude and the Equator, making it highly relevant."
+            },
+            "triviaqa_26443_599": {
+                "Query Analysis": "The query asks for the term used to describe lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer indicates that these lines are referred to as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document provides definitions and explanations for various terms related to parallels, including 'parallel', 'parallel of latitude', and other related concepts. It discusses lines that are parallel to the equator and their significance.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'parallel of latitude', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes the term 'parallel of latitude', which is synonymous with 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explicitly defines 'parallel of latitude' as a circle parallel to the equator, which directly matches the key information sought by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by defining 'parallel of latitude'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context and definitions related to parallels and latitude.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific term 'parallel of latitude' which is the answer to the query. It also offers additional information about related concepts, enhancing the understanding of the topic."
+            },
+            "m.01tp60_39": {
+                "Query Analysis": "The query asks for the term used to describe lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer provides the term 'Lines of constant latitude' which refers to lines that are parallel to the equator.",
+                "Document Content Analysis": "The document provides detailed information about the Strand, a street in London, including its geolocation, historical significance, nearby landmarks, and related trivia. It also mentions the latitude and longitude of the Strand.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'lines', 'parallel', 'equator', or 'called'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Latitude', which is a related term to 'Lines of constant latitude', but does not explicitly use the term 'Lines of constant latitude'.",
+                "Key Information Matching": "The document mentions 'Latitude', which is tangentially related to the concept of lines parallel to the equator, but does not provide any direct information about such lines.",
+                "Can the Document Answer the Query": "No, the document does not provide the term for lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that would help infer the term for lines parallel to the equator.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the Strand in London and provides no direct or indirect information about lines parallel to the equator. The mention of 'Latitude' is too tangential to be considered relevant to the query. Therefore, the document is irrelevant to the query."
+            },
+            "m.02vxwk6_1": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer indicates that these lines are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document provides detailed information about the London Buses route 436, including its history, operational details, and related events. It focuses on the specifics of this particular transit line in London.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query such as 'lines', 'parallel', 'equator', or 'called'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer, such as 'Lines of constant latitude'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely about a bus route in London and does not touch on geographical concepts or terminology.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query about geographical lines.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a specific bus route in London and does not provide any information about geographical lines or the equator. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_5247_1": {
+                "Query Analysis": "The query asks for the term used to describe lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer states that these lines are called 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document explains the grid system of latitude and longitude, describing how lines of latitude run parallel to each other and are called parallels of latitude. It also mentions the equator as a parallel of latitude and contrasts this with lines of longitude, which are called meridians of longitude.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'lines', 'parallel', and 'equator'.",
+                "Document and Answer Keywords Matching": "The document mentions 'parallels of latitude', which is synonymous with 'Lines of constant latitude'.",
+                "Key Information Matching": "The document directly addresses the concept of lines that are parallel to the equator and provides the term 'parallels of latitude', which matches the answer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the lines parallel to the equator are called 'parallels of latitude'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about the grid system of latitude and longitude, enhancing understanding of the topic.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact term for lines parallel to the equator and offers additional context about the grid system of latitude and longitude, thereby enhancing the understanding of the topic."
+            },
+            "m.03rz4_179": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator on the Earth's surface.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer states that these lines are called 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document provides a detailed description of the Indian Ocean, including its geographical boundaries, historical significance, and strategic importance. It mentions the continents and oceans that border the Indian Ocean and some of its key features.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to the query such as 'lines', 'parallel', 'equator', or 'latitude'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer such as 'Lines of constant latitude'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses solely on the Indian Ocean and does not discuss lines of latitude or the equator.",
+                "Can the Document Answer the Query": "No, the document does not provide any information that directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the Indian Ocean and does not mention any concepts related to lines of latitude or the equator. Therefore, it is irrelevant to the query as it provides no useful context or additional information that could assist in answering the query."
+            },
+            "triviaqa_74787_8": {
+                "Query Analysis": "The query is asking for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer indicates that the lines parallel to the equator are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses geographic coordinates, including latitude and longitude lines, their measurements, and their roles in determining locations on Earth. It mentions the equator, prime meridian, and hemispheres but focuses more on the general concept of geographic coordinates rather than specifically naming lines parallel to the equator.",
+                "Document and Query Keywords Matching": "The document mentions 'equator' and 'latitude', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Lines of constant latitude'.",
+                "Key Information Matching": "While the document discusses latitude and the equator, it does not directly state that lines parallel to the equator are called 'Lines of constant latitude'.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the name for the lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about latitude lines and their relationship to the equator, which could help infer that lines parallel to the equator are related to latitude.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about latitude and the equator, which are key concepts related to the query. However, it does not explicitly name the lines parallel to the equator, making it partially relevant. The document can help infer additional information but does not directly answer the query."
+            },
+            "triviaqa_125_20": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer indicates that these lines are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses the equator, its geographical significance, the countries it passes through in Africa, and the experiences of traveling along the equator. It also mentions the dynamic nature of the equator's position and the presence of equatorial markers.",
+                "Document and Query Keywords Matching": "The document mentions 'equator' but does not explicitly mention 'lines', 'parallel', or 'called'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Lines of constant latitude' or any term directly related to this concept.",
+                "Key Information Matching": "While the document provides detailed information about the equator, it does not discuss lines parallel to the equator or their names.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain information that would help infer the name of the lines parallel to the equator.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the equator itself and its traversal through Africa, but it does not address or provide any information about lines parallel to the equator. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_29831_5": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer states that these lines are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses latitude, explaining that it is measured with imaginary lines forming circles around the Earth, parallel to the Equator. It mentions that these lines are known as 'parallels' and provides details about how latitude is measured and some named circles of latitude.",
+                "Document and Query Keywords Matching": "The document mentions 'lines', 'parallel', and 'Equator'.",
+                "Document and Answer Keywords Matching": "The document uses the term 'parallel s' which aligns with the concept of 'Lines of constant latitude'.",
+                "Key Information Matching": "The document directly explains that the lines parallel to the Equator are called 'parallels', which is synonymous with 'Lines of constant latitude'.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the lines parallel to the Equator are called 'parallels'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive information about latitude and its measurement, enhancing understanding of the concept.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly addresses the query by explaining that the lines parallel to the Equator are called 'parallels'. It also provides additional context and details about latitude, making it highly relevant to the query."
+            },
+            "nq_3117_0": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer states that these lines are called 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document explains the concept of latitude in geography, mentioning that lines of constant latitude are circles parallel to the equator, also known as parallels. It provides a detailed description of how these lines are used in the geographic coordinate system.",
+                "Document and Query Keywords Matching": "The document mentions 'lines', 'parallel', and 'equator'.",
+                "Document and Answer Keywords Matching": "The document includes the terms 'lines of constant latitude' and 'parallels', which are the names for the lines parallel to the equator.",
+                "Key Information Matching": "The document directly addresses the query by explaining that the circles parallel to the equator are lines of constant latitude, also known as parallels.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that the lines parallel to the equator are called lines of constant latitude or parallels.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the geographic coordinate system and the significance of latitude.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions and defines the lines parallel to the equator as lines of constant latitude or parallels, which is the exact answer to the query. It also provides additional useful context about latitude and geographic coordinates, enhancing the understanding of the topic."
+            },
+            "ott_16246_1": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer states that these lines are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses the concept of tree lines, particularly in polar regions, and how they are influenced by various factors such as local variables, permafrost, and maritime influences. It provides examples of tree lines at different latitudes in various locations.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'lines', 'parallel', 'equator', or 'called'.",
+                "Document and Answer Keywords Matching": "The document mentions 'latitude' in the context of specific degrees (e.g., 61°N, 56°N), which is related to the concept of lines of constant latitude.",
+                "Key Information Matching": "While the document discusses latitudes, it does not directly address lines parallel to the equator or their naming.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document discusses latitudes, which are related to the concept of lines of constant latitude, but it does not explicitly connect this to the equator.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily focused on the concept of tree lines and their latitudinal variations, but it does not address the specific query about lines parallel to the equator or their names. Therefore, it is not relevant to the query."
+            },
+            "ott_16246_2": {
+                "Query Analysis": "The query asks for the term used to describe lines on the Earth's surface that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer indicates that these lines are known as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses the concept of the tree line, which is the edge of the habitat where trees can grow, typically found at high elevations and high latitudes. It mentions the influence of high parallels on climate and the transition of tree growth near the tree line.",
+                "Document and Query Keywords Matching": "The document mentions 'high parallels' but does not explicitly discuss lines parallel to the equator.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Lines of constant latitude' or any specific term related to lines parallel to the equator.",
+                "Key Information Matching": "The document's mention of 'high parallels' is tangentially related to the concept of lines of latitude, but it does not directly address lines parallel to the equator.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific term for lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's focus on the tree line and its environmental influences does not provide useful context for understanding or inferring the term for lines parallel to the equator.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about the tree line and its characteristics, with a brief mention of 'high parallels' that does not directly relate to the query. It lacks any specific information about lines parallel to the equator or their terminology, making it irrelevant to the query."
+            },
+            "triviaqa_29831_0": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which refers to the lines that run east-west and are parallel to the equator.",
+                "Document Content Analysis": "The document discusses various imaginary lines on the Earth's surface, including the Equator, Tropic of Cancer, Tropic of Capricorn, Prime Meridian, Arctic Circle, and Antarctic Circle. It explains that latitudes are imaginary lines running east-west and are parallel to the equator, while longitudes run north-south and are convergent. The document also mentions that circles of latitude are called parallels.",
+                "Document and Query Keywords Matching": "The document mentions 'lines', 'parallel', and 'equator'.",
+                "Document and Answer Keywords Matching": "The document includes the term 'Circles of Latitude' and 'parallels', which are synonymous with 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explicitly states that 'All Circles of Latitude are parallel to the Equator' and that 'Circles of Latitude are called parallels', which directly answers the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that circles of latitude are parallel to the equator and are called parallels.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about latitudes and longitudes, enhancing the understanding of why these lines are significant.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only contains the specific answer ('Circles of Latitude are called parallels') but also provides additional context and information about these lines, enhancing the overall understanding of the topic."
+            },
+            "nq_3117_7": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer states that these lines are called 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses the equator and mentions that planes parallel to the equatorial plane intersect the surface in circles of constant latitude, which are termed as parallels. It also provides information about specific named latitudes such as the Arctic Circle, Tropic of Cancer, Tropic of Capricorn, and Antarctic Circle.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'parallel' and 'equator' and refers to 'circles of constant latitude' which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'circles of constant latitude' which aligns with the answer 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explains that planes parallel to the equatorial plane intersect the surface in circles of constant latitude, which are the parallels, directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that the circles of constant latitude are the parallels, which are the lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about latitudes and specific named latitudes, enhancing the understanding of the concept.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly addresses the query by explaining that the lines parallel to the equator are called 'circles of constant latitude' or 'parallels'. It provides substantial context and additional information about latitudes, making it highly relevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0jntd_19": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document discusses the concept of hemispheres, the equator, and meridians, but does not mention lines parallel to the equator or lines of constant latitude.",
+                "Document and Query Keywords Matching": "The document mentions 'ecuador' (equator in Spanish), which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'lines of constant latitude' or any equivalent term.",
+                "Key Information Matching": "The document mentions the equator but does not provide any information about lines parallel to it.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or additional relevant details.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions the equator but does not provide any information about lines parallel to it or lines of constant latitude. Therefore, it is irrelevant to the query."
+            },
+            "tat_771_1": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document discusses the remuneration details of Alastair Murray, including his salary, bonuses, and benefits. There is no mention of geographical terms or concepts related to lines parallel to the equator.",
+                "Document and Query Keywords Matching": "None of the query keywords ('lines', 'parallel', 'equator', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Lines', 'constant', 'latitude') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses financial remuneration details and does not mention any geographical or cartographical concepts. Therefore, it is irrelevant to the query."
+            },
+            "nq_3117_6": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document explains the concept of latitude and longitude on a spherical model of the Earth. It describes the graticule formed by lines of constant latitude and longitude, with the equator being a great circle at 0° latitude. It also mentions that planes parallel to the equatorial plane intersect the surface in circles of constant latitude, which are called parallels.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'lines'.",
+                "Document and Answer Keywords Matching": "The document includes 'lines of constant latitude' and 'parallels', which match the answer.",
+                "Key Information Matching": "The document directly explains that lines parallel to the equator are called 'parallels' or 'lines of constant latitude', which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitude and the graticule.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming the lines parallel to the equator as 'parallels' or 'lines of constant latitude'. It also provides useful context about the graticule and the concept of latitude, enhancing understanding of the query."
+            },
+            "nq_3117_1": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are also known as parallels.",
+                "Document Content Analysis": "The document discusses geographic coordinates, specifically latitude, and mentions that lines of constant latitude, or parallels, run east–west as circles parallel to the equator.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'lines'.",
+                "Document and Answer Keywords Matching": "The document includes 'Lines of constant latitude, or parallels', which matches the answer.",
+                "Key Information Matching": "The document directly states that lines of constant latitude, or parallels, run parallel to the equator, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitude and its relation to the equator.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer as well as additional relevant information about latitude and parallels."
+            },
+            "triviaqa_29831_4": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator",
+                "Answer Analysis": "The answer is 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document discusses the Equator, its characteristics, and mentions the Prime Meridian. It also provides information about latitude, including how it is measured and the concept of parallels.",
+                "Document and Query Keywords Matching": "The document mentions 'Equator' and 'parallel'.",
+                "Document and Answer Keywords Matching": "The document mentions 'parallel' and 'latitude', which are key components of the answer 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explains that latitude is measured with imaginary lines forming circles around the Earth east-west, parallel to the Equator, and refers to these lines as 'parallels'.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the lines parallel to the Equator are called 'parallels'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitude and parallels.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming the lines parallel to the Equator as 'parallels' and provides useful context about latitude and the Equator."
+            },
+            "triviaqa_26443_599": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which refers to the lines parallel to the equator.",
+                "Document Content Analysis": "The document discusses various uses of the term 'parallel', including its application in geography where it refers to imaginary circles parallel to the equator, known as parallels of latitude.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'lines' in the context of geographical parallels.",
+                "Document and Answer Keywords Matching": "The document includes 'parallels of latitude', which matches the answer 'Lines of constant latitude'.",
+                "Key Information Matching": "The document provides a definition and explanation of 'parallels of latitude', which are lines parallel to the equator, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that 'parallels of latitude' are circles parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about parallels of latitude and their relation to the equator.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by defining 'parallels of latitude' as lines parallel to the equator, which matches the answer provided. It also offers additional relevant information about the topic."
+            },
+            "m.01tp60_39": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document provides information about Strand, London, including its geographical location, historical details, and related facts. It mentions latitude and longitude but does not discuss lines parallel to the equator.",
+                "Document and Query Keywords Matching": "The document mentions 'Latitude', which is related to the query's focus on lines parallel to the equator.",
+                "Document and Answer Keywords Matching": "The document mentions 'Latitude', which is related to the answer 'Lines of constant latitude'.",
+                "Key Information Matching": "The document mentions 'Latitude', which is a key concept related to the query and answer, but it does not provide information about lines parallel to the equator.",
+                "Can the Document Answer the Query": "No, the document does not mention lines parallel to the equator or their names.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or related concepts.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about lines parallel to the equator or their names. The mention of 'Latitude' is not sufficient to establish relevance."
+            },
+            "m.02vxwk6_1": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document provides detailed information about London Buses route 436, including its history, operations, and incidents. It mentions the route running parallel to another route (route 36) but does not discuss geographical lines or the equator.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query such as 'lines', 'parallel', 'equator', or 'called' in the context of geographical lines.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer such as 'Lines of constant latitude' or 'latitude'.",
+                "Key Information Matching": "The document does not provide any information related to geographical lines, the equator, or lines of constant latitude.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about lines parallel to the equator. It discusses a bus route in London and does not mention any geographical or cartographical concepts relevant to the query."
+            },
+            "triviaqa_5247_1": {
+                "Query Analysis": "The query asks for the name of the lines that run parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document explains the grid system of latitude and longitude, describing parallels of latitude as east-west lines that run parallel to each other, with the equator being one such parallel. It also mentions meridians of longitude, which are not parallel.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'lines' (as parallels of latitude).",
+                "Document and Answer Keywords Matching": "The document includes 'parallels of latitude', which is synonymous with 'Lines of constant latitude'.",
+                "Key Information Matching": "The document directly states that the east-west lines of latitude are called parallels of latitude and that the equator is one such parallel, matching the query's request for lines parallel to the equator.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming the lines parallel to the equator as 'parallels of latitude'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the grid system of latitude and longitude, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming the lines parallel to the equator as 'parallels of latitude' and provides useful additional information about the grid system of latitude and longitude."
+            },
+            "m.03rz4_179": {
+                "Query Analysis": "The query asks for the names of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document provides information about the Indian Ocean, including its geographical boundaries, historical significance, and its naming. It does not mention anything about lines parallel to the equator or lines of constant latitude.",
+                "Document and Query Keywords Matching": "None of the query keywords ('lines', 'parallel', 'equator') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Lines of constant latitude') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Indian Ocean and its characteristics but does not mention anything about geographical lines, the equator, or lines of constant latitude. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_74787_8": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document discusses various geographic concepts including latitude and longitude lines, the equator, and the prime meridian. It explains how latitude lines run parallel to the equator and how they are used in geographic coordinates.",
+                "Document and Query Keywords Matching": "The document mentions 'equator' and 'lines' (latitude lines).",
+                "Document and Answer Keywords Matching": "The document mentions 'latitude' and describes how latitude lines run parallel to the equator, which aligns with 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explains that latitude lines run parallel to the equator, which directly relates to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that latitude lines run parallel to the equator, which matches the answer 'Lines of constant latitude'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitude lines and their relationship to the equator.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by explaining that latitude lines run parallel to the equator, which matches the answer 'Lines of constant latitude'. It also provides useful context about geographic coordinates and the equator."
+            },
+            "triviaqa_125_20": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document provides detailed information about the equator, its geographical significance, and its path through Africa. It discusses the equator's relation to the Earth's rotating axis and mentions equatorial markers in Africa.",
+                "Document and Query Keywords Matching": "The document mentions 'equator' and 'latitude' (implied by the discussion of the equator's position and markers).",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Lines of constant latitude' or similar terms.",
+                "Key Information Matching": "The document discusses the equator and its geographical implications but does not directly address the concept of lines parallel to the equator.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific term 'Lines of constant latitude' or any equivalent.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain information that would help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the equator's geographical details and markers in Africa but does not provide any information about lines parallel to the equator or related concepts. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_29831_5": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which refers to the imaginary lines that run parallel to the equator.",
+                "Document Content Analysis": "The document explains the concept of latitude, describing it as the measurement of distance north or south of the Equator. It mentions that latitude is measured with 180 imaginary lines that form circles around the Earth east-west, parallel to the Equator, and these lines are known as parallels. It also provides details about specific parallels like the Tropic of Cancer and the Tropic of Capricorn.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'Equator', and 'lines' (as parallels).",
+                "Document and Answer Keywords Matching": "The document mentions 'parallels' and 'lines of latitude', which are synonymous with 'Lines of constant latitude'.",
+                "Key Information Matching": "The document directly explains that the lines parallel to the Equator are called parallels or lines of latitude, which matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that the lines parallel to the Equator are called parallels or lines of latitude.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitude, including specific examples and measurements.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it, along with additional relevant details about latitude and parallels."
+            },
+            "nq_3117_0": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are also known as parallels.",
+                "Document Content Analysis": "The document discusses latitude and describes lines of constant latitude as parallels, which are circles parallel to the equator.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'lines'.",
+                "Document and Answer Keywords Matching": "The document includes 'lines of constant latitude' and 'parallels', which match the answer.",
+                "Key Information Matching": "The document directly mentions that the circles parallel to the equator are lines of constant latitude, or parallels, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitude and parallels.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer as well as additional relevant information about latitude and parallels."
+            },
+            "ott_16246_1": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which refers to the lines parallel to the equator.",
+                "Document Content Analysis": "The document discusses the Arctic tree lines, their distribution, and factors influencing their location. It mentions geographical coordinates (latitude and longitude) and environmental conditions affecting tree growth but does not directly address lines parallel to the equator.",
+                "Document and Query Keywords Matching": "The document mentions 'latitude' and 'equator' indirectly through geographical coordinates, but not in the context of lines parallel to the equator.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Lines of constant latitude' or any equivalent term.",
+                "Key Information Matching": "The document does not provide information about lines parallel to the equator or their names.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or additional details about lines parallel to the equator.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Arctic tree lines and their distribution, which is unrelated to the query about lines parallel to the equator. It does not provide any useful context or information relevant to the query."
+            },
+            "ott_16246_2": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document discusses the concept of the tree line, its characteristics, and its environmental influences. It does not mention anything about lines parallel to the equator or lines of constant latitude.",
+                "Document and Query Keywords Matching": "None of the query keywords ('lines', 'parallel', 'equator') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Lines of constant latitude') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about lines parallel to the equator.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the tree line and environmental conditions affecting tree growth, which has no connection to the concept of lines parallel to the equator or lines of constant latitude."
+            },
+            "triviaqa_29831_0": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which are the lines parallel to the equator.",
+                "Document Content Analysis": "The document discusses various imaginary lines on the Earth's surface, including the Equator, Tropic of Cancer, Tropic of Capricorn, and Prime Meridian. It explains that latitudes are parallel lines running east to west and are angular measurements north or south of the equator. It also mentions that circles of latitude are called parallels.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'lines'.",
+                "Document and Answer Keywords Matching": "The document mentions 'parallels', which is synonymous with 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explains that latitudes are parallel lines running east to west and are called parallels, which matches the answer 'Lines of constant latitude'.",
+                "Can the Document Answer the Query": "Yes, the document directly states that circles of latitude are called parallels, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitudes and their relation to the equator.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that circles of latitude are called parallels, which are the lines parallel to the equator. It also provides useful context about latitudes and their relation to the equator."
+            },
+            "nq_3117_7": {
+                "Query Analysis": "The query asks for the name of the lines that are parallel to the equator.",
+                "Query Keywords Extraction": "lines, parallel, equator, called",
+                "Answer Analysis": "The answer is 'Lines of constant latitude', which refers to the parallels of latitude that run parallel to the equator.",
+                "Document Content Analysis": "The document discusses the concept of latitude, the equator, and parallels. It mentions that planes parallel to the equatorial plane intersect the surface in circles of constant latitude, which are called parallels. It also provides details about the latitudes of the North and South Poles and introduces the concept of spherical latitude.",
+                "Document and Query Keywords Matching": "The document mentions 'parallel', 'equator', and 'latitude', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'parallels' and 'circles of constant latitude', which directly match the answer 'Lines of constant latitude'.",
+                "Key Information Matching": "The document explains that parallels are circles of constant latitude, which directly answers the query about lines parallel to the equator.",
+                "Can the Document Answer the Query": "Yes, the document directly states that parallels are circles of constant latitude, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about latitude and the equator, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by defining parallels as circles of constant latitude. It also provides useful context about latitude and the equator, making it highly relevant."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0jntd_19": {},
+            "tat_771_1": {},
+            "nq_3117_6": {},
+            "nq_3117_1": {},
+            "triviaqa_29831_4": {},
+            "triviaqa_26443_599": {},
+            "m.01tp60_39": {},
+            "m.02vxwk6_1": {},
+            "triviaqa_5247_1": {},
+            "m.03rz4_179": {},
+            "triviaqa_74787_8": {
+                "Query Analysis": "The query is asking for the term used to describe lines that are parallel to the equator.",
+                "Query Keywords Extraction": "parallel lines, equator",
+                "Answer Analysis": "The lines parallel to the equator are referred to as 'Lines of constant latitude'.",
+                "Document Content Analysis": "The document explains basic concepts of geographic coordinates including latitude and longitude, and discusses meridians and the prime meridian. It does express that the equator is zero degrees latitude but focuses primarily on the concept of latitudinal and longitudinal measurements rather than terms related to parallel lines.",
+                "Document and Query Keywords Matching": "The document mentions 'equator' and provides context about latitude but does not mention 'parallel lines'.",
+                "Document and Answer Keywords Matching": "The document discusses 'latitude', which is part of the answer 'Lines of constant latitude'.",
+                "Key Information Matching": "The document provides information about the equator and latitude but does not specifically refer to lines parallel to the equator as 'Lines of constant latitude'.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the term for lines parallel to the equator as 'Lines of constant latitude'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "The document provides a foundational understanding of latitude, which relates to lines parallel to the equator.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains some relevant information about latitude, which is integral to understanding lines parallel to the equator. However, it does not explicitly provide the term 'Lines of constant latitude', making it partially relevant but not fully answering the query."
+            },
+            "triviaqa_125_20": {},
+            "triviaqa_29831_5": {},
+            "nq_3117_0": {},
+            "ott_16246_1": {},
+            "ott_16246_2": {},
+            "triviaqa_29831_0": {},
+            "nq_3117_7": {}
+        },
+        "dataset_score": {
+            "kg": 0,
+            "triviaqa": 7,
+            "nq": 2,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

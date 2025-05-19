@@ -1,0 +1,1009 @@
+{
+    "index": 78232,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which of Shakespeare's plays has a title which is also a proverb?",
+        "answer": "All's Well That Ends Well",
+        "BM25_documents": [
+            {
+                "id": "nq_73680_3",
+                "score": 17.095699310302734
+            },
+            {
+                "id": "triviaqa_4338_26",
+                "score": 16.531700134277344
+            },
+            {
+                "id": "triviaqa_11637_32",
+                "score": 14.779800415039062
+            },
+            {
+                "id": "triviaqa_48157_151",
+                "score": 14.380800247192383
+            },
+            {
+                "id": "nq_73680_2",
+                "score": 14.178999900817871
+            },
+            {
+                "id": "triviaqa_1227_29",
+                "score": 13.979599952697754
+            },
+            {
+                "id": "triviaqa_41773_179",
+                "score": 13.769000053405762
+            },
+            {
+                "id": "triviaqa_41773_146",
+                "score": 13.444199562072754
+            },
+            {
+                "id": "triviaqa_11637_33",
+                "score": 13.322699546813965
+            },
+            {
+                "id": "nq_73680_4",
+                "score": 13.211799621582031
+            },
+            {
+                "id": "triviaqa_1227_45",
+                "score": 12.906700134277344
+            },
+            {
+                "id": "triviaqa_1227_44",
+                "score": 12.89050006866455
+            },
+            {
+                "id": "triviaqa_34902_77",
+                "score": 12.877799987792969
+            },
+            {
+                "id": "triviaqa_26776_484",
+                "score": 12.707900047302246
+            },
+            {
+                "id": "triviaqa_26631_4",
+                "score": 12.571900367736816
+            },
+            {
+                "id": "triviaqa_34902_41",
+                "score": 12.5718994140625
+            },
+            {
+                "id": "triviaqa_19886_29",
+                "score": 12.34939956665039
+            },
+            {
+                "id": "triviaqa_19886_30",
+                "score": 12.349398612976074
+            },
+            {
+                "id": "triviaqa_41773_145",
+                "score": 12.349397659301758
+            },
+            {
+                "id": "triviaqa_41773_178",
+                "score": 12.349396705627441
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_35788_1",
+                "score": 9.08180046081543
+            },
+            {
+                "id": "ott_40892_1",
+                "score": 9.081799507141113
+            },
+            {
+                "id": "ott_4632_1",
+                "score": 9.081798553466797
+            },
+            {
+                "id": "ott_7267_1",
+                "score": 9.08179759979248
+            },
+            {
+                "id": "ott_11942_0",
+                "score": 7.700799942016602
+            },
+            {
+                "id": "ott_20299_0",
+                "score": 7.700798988342285
+            },
+            {
+                "id": "ott_31388_0",
+                "score": 7.700798034667969
+            },
+            {
+                "id": "ott_37004_0",
+                "score": 7.700797080993652
+            },
+            {
+                "id": "ott_37108_0",
+                "score": 7.700796127319336
+            },
+            {
+                "id": "ott_13461_0",
+                "score": 7.213799953460693
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_73680_3",
+                "score": 17.095699310302734
+            },
+            {
+                "id": "nq_73680_2",
+                "score": 14.178999900817871
+            },
+            {
+                "id": "nq_73680_4",
+                "score": 13.211799621582031
+            },
+            {
+                "id": "nq_73680_6",
+                "score": 12.138799667358398
+            },
+            {
+                "id": "nq_73420_4",
+                "score": 11.177499771118164
+            },
+            {
+                "id": "nq_31292_44",
+                "score": 10.914199829101562
+            },
+            {
+                "id": "nq_144913_75",
+                "score": 10.201199531555176
+            },
+            {
+                "id": "nq_179754_74",
+                "score": 9.759900093078613
+            },
+            {
+                "id": "nq_304196_74",
+                "score": 9.759899139404297
+            },
+            {
+                "id": "nq_21410_2",
+                "score": 9.626500129699707
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_4338_26",
+                "score": 16.531700134277344
+            },
+            {
+                "id": "triviaqa_11637_32",
+                "score": 14.779800415039062
+            },
+            {
+                "id": "triviaqa_48157_151",
+                "score": 14.380800247192383
+            },
+            {
+                "id": "triviaqa_1227_29",
+                "score": 13.979599952697754
+            },
+            {
+                "id": "triviaqa_41773_179",
+                "score": 13.769000053405762
+            },
+            {
+                "id": "triviaqa_41773_146",
+                "score": 13.444199562072754
+            },
+            {
+                "id": "triviaqa_11637_33",
+                "score": 13.322699546813965
+            },
+            {
+                "id": "triviaqa_1227_45",
+                "score": 12.906700134277344
+            },
+            {
+                "id": "triviaqa_1227_44",
+                "score": 12.89050006866455
+            },
+            {
+                "id": "triviaqa_34902_77",
+                "score": 12.877799987792969
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.081k8_605",
+                "score": 11.721799850463867
+            },
+            {
+                "id": "m.081k8_532",
+                "score": 11.668600082397461
+            },
+            {
+                "id": "m.081k8_2458",
+                "score": 11.656200408935547
+            },
+            {
+                "id": "m.081k8_1757",
+                "score": 11.580699920654297
+            },
+            {
+                "id": "m.081k8_606",
+                "score": 11.505499839782715
+            },
+            {
+                "id": "m.081k8_231",
+                "score": 11.354399681091309
+            },
+            {
+                "id": "m.081k8_2961",
+                "score": 11.241600036621094
+            },
+            {
+                "id": "m.081k8_2101",
+                "score": 11.167200088500977
+            },
+            {
+                "id": "m.081k8_1704",
+                "score": 11.152299880981445
+            },
+            {
+                "id": "m.081k8_2100",
+                "score": 11.147199630737305
+            },
+            {
+                "id": "m.081k8_672",
+                "score": 11.142200469970703
+            },
+            {
+                "id": "m.081k8_3003",
+                "score": 11.115400314331055
+            },
+            {
+                "id": "m.081k8_2934",
+                "score": 11.080300331115723
+            },
+            {
+                "id": "m.081k8_1703",
+                "score": 11.068499565124512
+            },
+            {
+                "id": "m.081k8_2607",
+                "score": 11.057700157165527
+            },
+            {
+                "id": "m.081k8_1432",
+                "score": 11.049300193786621
+            },
+            {
+                "id": "m.081k8_232",
+                "score": 10.996700286865234
+            },
+            {
+                "id": "m.081k8_1807",
+                "score": 10.931900024414062
+            },
+            {
+                "id": "m.081k8_1422",
+                "score": 10.899100303649902
+            },
+            {
+                "id": "m.081k8_728",
+                "score": 10.892999649047852
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.081k8_533",
+                "score": 0.712523341178894
+            },
+            {
+                "id": "triviaqa_18076_16",
+                "score": 0.7078147530555725
+            },
+            {
+                "id": "triviaqa_18076_18",
+                "score": 0.707545280456543
+            },
+            {
+                "id": "triviaqa_39256_10",
+                "score": 0.70283442735672
+            },
+            {
+                "id": "triviaqa_18076_14",
+                "score": 0.7004130482673645
+            },
+            {
+                "id": "m.081k8_2464",
+                "score": 0.6985525488853455
+            },
+            {
+                "id": "m.081k8_2455",
+                "score": 0.6976631283760071
+            },
+            {
+                "id": "triviaqa_64420_577",
+                "score": 0.6966893672943115
+            },
+            {
+                "id": "m.081k8_532",
+                "score": 0.6966314911842346
+            },
+            {
+                "id": "triviaqa_18076_15",
+                "score": 0.696386992931366
+            },
+            {
+                "id": "m.081k8_2453",
+                "score": 0.6948646306991577
+            },
+            {
+                "id": "m.081k8_2471",
+                "score": 0.6929802894592285
+            },
+            {
+                "id": "triviaqa_18076_24",
+                "score": 0.6925723552703857
+            },
+            {
+                "id": "triviaqa_18076_17",
+                "score": 0.6901338696479797
+            },
+            {
+                "id": "triviaqa_7015_16",
+                "score": 0.6887677311897278
+            },
+            {
+                "id": "m.081k8_2588",
+                "score": 0.6880596876144409
+            },
+            {
+                "id": "m.081k8_196",
+                "score": 0.6872841715812683
+            },
+            {
+                "id": "m.081k8_2108",
+                "score": 0.68692547082901
+            },
+            {
+                "id": "nq_179754_141",
+                "score": 0.686875581741333
+            },
+            {
+                "id": "triviaqa_64420_576",
+                "score": 0.6865359544754028
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_179754_141",
+                "score": 0.686875581741333
+            },
+            {
+                "id": "nq_144913_141",
+                "score": 0.6819508075714111
+            },
+            {
+                "id": "nq_92852_70",
+                "score": 0.6819490194320679
+            },
+            {
+                "id": "nq_240420_63",
+                "score": 0.6756551861763
+            },
+            {
+                "id": "nq_46725_27",
+                "score": 0.6734462976455688
+            },
+            {
+                "id": "nq_123946_35",
+                "score": 0.6682581305503845
+            },
+            {
+                "id": "nq_304196_142",
+                "score": 0.667360246181488
+            },
+            {
+                "id": "nq_236951_21",
+                "score": 0.6662536859512329
+            },
+            {
+                "id": "nq_240420_64",
+                "score": 0.6641388535499573
+            },
+            {
+                "id": "nq_62173_6",
+                "score": 0.6624696850776672
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_18076_16",
+                "score": 0.7078147530555725
+            },
+            {
+                "id": "triviaqa_18076_18",
+                "score": 0.707545280456543
+            },
+            {
+                "id": "triviaqa_39256_10",
+                "score": 0.70283442735672
+            },
+            {
+                "id": "triviaqa_18076_14",
+                "score": 0.7004130482673645
+            },
+            {
+                "id": "triviaqa_64420_577",
+                "score": 0.6966893672943115
+            },
+            {
+                "id": "triviaqa_18076_15",
+                "score": 0.696386992931366
+            },
+            {
+                "id": "triviaqa_18076_24",
+                "score": 0.6925723552703857
+            },
+            {
+                "id": "triviaqa_18076_17",
+                "score": 0.6901338696479797
+            },
+            {
+                "id": "triviaqa_7015_16",
+                "score": 0.6887677311897278
+            },
+            {
+                "id": "triviaqa_64420_576",
+                "score": 0.6865359544754028
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.081k8_533",
+                "score": 0.712523341178894
+            },
+            {
+                "id": "m.081k8_2464",
+                "score": 0.6985525488853455
+            },
+            {
+                "id": "m.081k8_2455",
+                "score": 0.6976631283760071
+            },
+            {
+                "id": "m.081k8_532",
+                "score": 0.6966314911842346
+            },
+            {
+                "id": "m.081k8_2453",
+                "score": 0.6948646306991577
+            },
+            {
+                "id": "m.081k8_2471",
+                "score": 0.6929802894592285
+            },
+            {
+                "id": "m.081k8_2588",
+                "score": 0.6880596876144409
+            },
+            {
+                "id": "m.081k8_196",
+                "score": 0.6872841715812683
+            },
+            {
+                "id": "m.081k8_2108",
+                "score": 0.68692547082901
+            },
+            {
+                "id": "m.081k8_2466",
+                "score": 0.686508059501648
+            },
+            {
+                "id": "m.081k8_2458",
+                "score": 0.6864962577819824
+            },
+            {
+                "id": "m.081k8_2465",
+                "score": 0.685927152633667
+            },
+            {
+                "id": "m.081k8_542",
+                "score": 0.6851465702056885
+            },
+            {
+                "id": "m.081k8_175",
+                "score": 0.6847926378250122
+            },
+            {
+                "id": "m.081k8_2475",
+                "score": 0.6836666464805603
+            },
+            {
+                "id": "m.081k8_524",
+                "score": 0.6832222938537598
+            },
+            {
+                "id": "m.081k8_527",
+                "score": 0.6829936504364014
+            },
+            {
+                "id": "m.081k8_554",
+                "score": 0.6820090413093567
+            },
+            {
+                "id": "m.081k8_1333",
+                "score": 0.6816269755363464
+            },
+            {
+                "id": "m.081k8_178",
+                "score": 0.6815231442451477
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_18076_14": {
+                "Query Analysis": "The query asks for the title of one of Shakespeare's plays that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document contains various quotes from different Shakespeare plays and sonnets, along with some references to the plays themselves.",
+                "Document and Query Keywords Matching": "The document mentions several Shakespeare plays and quotes, but does not explicitly mention any titles that are proverbs.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document provides information about various Shakespeare plays and quotes, but does not directly address the aspect of titles being proverbs.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific play title that is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that would help infer which Shakespeare play title is also a proverb.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Shakespeare play titles that are also proverbs. It only contains quotes from various plays and does not assist in answering the specific question posed."
+            },
+            "m.081k8_533": {
+                "Query Analysis": "The query asks for the name of a play by William Shakespeare that has a title which is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a play by Shakespeare with a title that is also a proverb.",
+                "Document Content Analysis": "The document contains various quotations attributed to William Shakespeare, but it does not list any of his plays or their titles.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare' multiple times, which is a key query keyword.",
+                "Document and Answer Keywords Matching": "The document does not contain any reference to 'All's Well That Ends Well' or any other play titles.",
+                "Key Information Matching": "While the document is about Shakespeare, it focuses on quotations rather than play titles or proverbs.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Shakespeare's plays or their titles.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Shakespeare's plays or their titles, nor does it contain any proverbs that could be linked to play titles. The focus on quotations does not assist in answering the specific question posed."
+            },
+            "triviaqa_11637_32": {
+                "Query Analysis": "The query asks for the name of a play by Shakespeare that has a title which is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a play by Shakespeare with a title that is also a proverb.",
+                "Document Content Analysis": "The document discusses the history of chess, including notable chess players like Karpov, Kasparov, and Anand, and their world title matches. It also touches on the cultural significance of chess in the Middle Ages and Renaissance.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer 'All's Well That Ends Well'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely about chess and does not mention Shakespeare or any of his plays.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it does not contain any information about Shakespeare or his plays.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses solely on the history and cultural significance of chess, with no mention of Shakespeare or his plays. It does not provide any useful context or additional information that could help answer the query."
+            },
+            "triviaqa_18076_18": {
+                "Query Analysis": "The query seeks to identify a play by William Shakespeare whose title is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document contains excerpts from various Shakespeare plays, including quotes and the names of the plays they are from.",
+                "Document and Query Keywords Matching": "The document mentions 'WILLIAM SHAKESPEARE' and several play titles.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'To the dark house and the detested wife.' from 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document mentions 'All's Well That Ends Well', which is the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'All's Well That Ends Well', which is a play title that is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide additional context about why 'All's Well That Ends Well' is a proverb or its significance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by mentioning 'All's Well That Ends Well', which is both a Shakespeare play and a proverb. While it does not provide additional context or explanation, it contains the key information needed to answer the query."
+            },
+            "nq_73680_3": {
+                "Query Analysis": "The query seeks to identify a play by Shakespeare whose title is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document discusses the history and various titles of the fable 'The Boy Who Cried Wolf', including references to classical times, translations, and different versions by various authors.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'Shakespeare', 'play', 'title', or 'proverb'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on a different literary work and historical context.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Shakespeare's plays or proverbs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or information that could help infer details about Shakespeare's plays or proverbs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the fable 'The Boy Who Cried Wolf' and its historical context, which has no connection to Shakespeare's plays or proverbs. Therefore, it is irrelevant to the query."
+            },
+            "ott_35788_1": {
+                "Query Analysis": "The query asks for the title of one of Shakespeare's plays that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a play by Shakespeare and a proverb.",
+                "Document Content Analysis": "The document lists various plays and productions, including some by William Shakespeare, but focuses primarily on the acting career of Alun Armstrong and his roles in different productions.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare' and lists two of his plays: 'The Tempest' and 'The Taming of the Shrew'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document contains information about Shakespeare's plays but does not provide any details about play titles that are also proverbs.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific play title that is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about Alun Armstrong's acting career and mentions some Shakespeare plays, but it does not provide any relevant information about play titles that are also proverbs. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_48157_151": {
+                "Query Analysis": "The query asks for the name of a play by Shakespeare that has a title which is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a play by Shakespeare with a title that is also a proverb.",
+                "Document Content Analysis": "The document discusses the commercial aspects of Caxton's preface to the Malory, the length and cost of the Malory text, Caxton's approach to editing and printing, and the influence of patrons on Caxton's work. It primarily focuses on the historical context and publication strategies of Caxton.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords extracted from the query such as 'Shakespeare', 'play', 'title', or 'proverb'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well' or any related terms from the answer.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely focused on Caxton and his work, which is unrelated to Shakespeare or his plays.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Shakespeare, any of his plays, or proverbs. It focuses solely on Caxton's work and historical publishing context, which has no connection to the query's topic."
+            },
+            "m.081k8_532": {
+                "Query Analysis": "The query asks for the title of one of Shakespeare's plays that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a play by Shakespeare and a common proverb.",
+                "Document Content Analysis": "The document contains various quotations from William Shakespeare. These quotations cover a range of themes and topics but do not directly mention any of Shakespeare's play titles or specifically address the concept of a play title being a proverb.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare' and includes several quotations, but it does not explicitly mention 'plays', 'title', or 'proverb'.",
+                "Document and Answer Keywords Matching": "The document does not contain the specific phrase 'All's Well That Ends Well' or any direct reference to this play.",
+                "Key Information Matching": "While the document provides numerous quotes from Shakespeare, it lacks information about the titles of his plays or their relationship to proverbs. It does mention 'proverb' in one quote ('The proverb is something musty'), but this does not connect directly to the query.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific play title that is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer information that can help infer which of Shakespeare's plays has a title that is also a proverb.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document contains quotations from Shakespeare but does not provide any information about the titles of his plays or their relation to proverbs. Therefore, it neither answers the query nor offers useful context to infer the answer. The document is irrelevant to the specific query."
+            },
+            "triviaqa_39256_10": {
+                "Query Analysis": "The query asks for the title of one of Shakespeare's plays that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document lists various famous quotes from Shakespeare's plays, including their respective play titles and some contextual lines. It also mentions that Shakespeare coined many popular phrases still used today.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and several play titles, but does not explicitly mention 'proverb'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "While the document provides information about Shakespeare's plays and quotes, it does not directly address the concept of titles being proverbs.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific information needed to answer the query directly.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that would help infer which play title is also a proverb.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any key information about Shakespeare's play titles being proverbs. It focuses on famous quotes from various plays rather than the titles themselves or their proverbial nature."
+            },
+            "nq_73680_2": {
+                "Query Analysis": "The query asks for the title of one of Shakespeare's plays that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document discusses the fable 'The Boy Who Cried Wolf', its moral, and various versions of the tale. It mentions the moral of the story and its historical context but does not reference Shakespeare or his plays.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Shakespeare', 'plays', 'title', or 'proverb'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer 'All's Well That Ends Well'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a different literary work and moral lessons.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Shakespeare's plays or proverbs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about Shakespeare's plays or proverbs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a fable and its moral, which has no connection to Shakespeare's plays or proverbs. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "triviaqa_18076_16": {
+                "Query Analysis": "The query asks for the title of a play by William Shakespeare that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document contains various quotes from different Shakespeare plays, including Hamlet, Romeo and Juliet, King Lear, As You Like It, A Midsummer Night's Dream, Macbeth, King Henry IV, Part II, The Life of Timon of Athens, Coriolanus, and King Henry VIII.",
+                "Document and Query Keywords Matching": "The document mentions 'WILLIAM SHAKESPEARE' and several play titles.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "While the document lists several Shakespeare plays, it does not include the specific play that answers the query.",
+                "Can the Document Answer the Query": "No, the document does not contain the title 'All's Well That Ends Well'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about proverbs or titles that are also proverbs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document, while containing references to various Shakespeare plays, does not include the specific play title that is also a proverb ('All's Well That Ends Well'). It does not provide any useful context or additional information related to the query."
+            },
+            "m.081k8_605": {
+                "Query Analysis": "The query asks for the title of one of Shakespeare's plays that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document lists various works written by William Shakespeare, including sonnets and plays, along with quotations from his works and other related information such as fictional characters created and film story credits.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare' and lists some of his works, which is relevant to the query keywords 'Shakespeare' and 'plays'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "While the document provides a list of Shakespeare's works, it does not specifically identify any play titles that are also proverbs.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the title of a play that is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document lists several of Shakespeare's works, which could be useful for someone familiar with both Shakespeare's plays and common proverbs to infer the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides a list of Shakespeare's works, which could help someone with prior knowledge infer the answer. However, it lacks the specific detail needed to directly answer the query."
+            },
+            "nq_179754_141": {
+                "Query Analysis": "The query asks for the name of a play by Shakespeare that has a title which is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a play by Shakespeare with a title that is also a proverb.",
+                "Document Content Analysis": "The document lists several of Shakespeare's plays, categorized into tragedies and comedies.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and lists multiple play titles.",
+                "Document and Answer Keywords Matching": "The document includes 'All's Well That Ends Well', which is the answer to the query.",
+                "Key Information Matching": "The document contains the specific play title 'All's Well That Ends Well' which matches the query's requirement of a title that is also a proverb.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'All's Well That Ends Well', which is the correct answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by listing other plays, it provides context about Shakespeare's works, though this is not necessary for answering the query directly.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer ('All's Well That Ends Well'). It provides substantial useful context by listing other Shakespeare plays, enhancing understanding of his works."
+            },
+            "m.081k8_2464": {
+                "Query Analysis": "The query seeks to identify a play by William Shakespeare whose title is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a title of a Shakespeare play and a proverb.",
+                "Document Content Analysis": "The document consists of various quotations from William Shakespeare's works, but does not mention any play titles.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare', which is a key query keyword, but does not mention 'play', 'title', or 'proverb'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document provides quotations from Shakespeare but lacks any information about play titles or proverbs.",
+                "Can the Document Answer the Query": "No, the document does not provide the title of any Shakespeare play.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or information that could help infer the title of a Shakespeare play that is also a proverb.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Shakespeare's play titles or proverbs. It only contains quotations from his works, which do not assist in answering the specific question posed."
+            },
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the title of one of Shakespeare's plays that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is both a play by Shakespeare and a proverb.",
+                "Document Content Analysis": "The document discusses various historical events and publications related to European exploration, botany, and trade in the 16th century.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Shakespeare', 'plays', 'title', 'proverb') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('All's Well That Ends Well') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Shakespeare's plays or proverbs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to Shakespeare, his plays, or proverbs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on historical events and botanical publications, which do not provide any useful context or information related to Shakespeare's plays or proverbs."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_18076_14": {
+                "Query Analysis": "The query asks which of Shakespeare's plays has a title that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a proverb and the title of one of Shakespeare's plays.",
+                "Document Content Analysis": "The document contains various quotes from Shakespeare's plays and sonnets, but it does not explicitly list the titles of the plays or identify which titles are proverbs.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and includes quotes from his plays, but it does not directly address the concept of a play title being a proverb.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well' or any other play titles that are proverbs.",
+                "Key Information Matching": "The document does not provide information about Shakespeare's play titles or their relation to proverbs.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document contains quotes from Shakespeare's works but does not provide any information about play titles or their relation to proverbs. Therefore, it is irrelevant to the query."
+            },
+            "m.081k8_533": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is also a proverb.",
+                "Document Content Analysis": "The document contains a collection of quotations from William Shakespeare, many of which include proverbs or proverbial expressions.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and includes several proverbs or proverbial expressions.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document includes several proverbs or proverbial expressions by Shakespeare, which are relevant to the query's focus on proverbs in Shakespeare's works.",
+                "Can the Document Answer the Query": "No, the document does not directly identify a Shakespeare play whose title is a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides examples of proverbs or proverbial expressions by Shakespeare, which could help infer the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Shakespeare's use of proverbs, which is related to the query. However, it does not directly identify a play whose title is a proverb, making it partially relevant."
+            },
+            "triviaqa_11637_32": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is a proverb.",
+                "Document Content Analysis": "The document discusses the history of chess, including notable players, matches, and cultural aspects. It mentions chess in the context of noble culture and literature but does not reference Shakespeare or any of his plays.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Shakespeare', 'plays', 'title', 'proverb') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('All's Well That Ends Well') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Shakespeare, his plays, or proverbs.",
+                "Can the Document Answer the Query": "No, the document does not mention Shakespeare or any of his plays.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses chess history and culture but does not mention Shakespeare, his plays, or proverbs. Therefore, it provides no useful context or information to answer the query."
+            },
+            "triviaqa_18076_18": {
+                "Query Analysis": "The query asks which of Shakespeare's plays has a title that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a play by Shakespeare and also a proverb.",
+                "Document Content Analysis": "The document contains various quotes from Shakespeare's works, including 'All's Well That Ends Well', 'King Lear', 'The Tempest', 'Hamlet', 'Romeo and Juliet', 'Othello', 'The Rape of Lucrece', and 'Macbeth'.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and includes titles of his plays.",
+                "Document and Answer Keywords Matching": "The document includes 'All's Well That Ends Well', which matches the answer.",
+                "Key Information Matching": "The document contains the title 'All's Well That Ends Well', which is both a play by Shakespeare and a proverb, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'All's Well That Ends Well', which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing various Shakespeare plays and quotes.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact title 'All's Well That Ends Well', which is both a play by Shakespeare and a proverb, thus directly answering the query. Additionally, it provides further context by listing other Shakespeare plays and quotes."
+            },
+            "nq_73680_3": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play and also a proverb.",
+                "Document Content Analysis": "The document discusses the history and various titles of the fable 'The Boy Who Cried Wolf', including its origins and translations. It does not mention Shakespeare or any of his plays.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information related to Shakespeare, his plays, or proverbs.",
+                "Can the Document Answer the Query": "No, the document does not mention Shakespeare or any of his plays.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a different fable and its history, with no mention of Shakespeare, his plays, or proverbs. Therefore, it is irrelevant to the query."
+            },
+            "ott_35788_1": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is a proverb.",
+                "Document Content Analysis": "The document lists various theatre productions, including several Shakespeare plays such as 'The Tempest' and 'The Taming of the Shrew'. It also provides background information about actor Alun Armstrong and his involvement with the Royal Shakespeare Company.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'plays'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document mentions several Shakespeare plays but does not include 'All's Well That Ends Well' or discuss any play titles that are proverbs.",
+                "Can the Document Answer the Query": "No, the document does not mention 'All's Well That Ends Well' or any play titles that are proverbs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that helps infer the answer or related details.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Shakespeare and his plays but does not include 'All's Well That Ends Well' or any discussion of play titles that are proverbs. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_48157_151": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is also a proverb.",
+                "Document Content Analysis": "The document discusses Caxton's preface to the Malory text, his approach to editing and printing, and his relationship with patrons. It does not mention Shakespeare, his plays, or any proverbs.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Shakespeare', 'plays', 'title', 'proverb') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('All's Well That Ends Well') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Shakespeare, his plays, or proverbs.",
+                "Can the Document Answer the Query": "No, the document does not mention Shakespeare or any of his plays.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Shakespeare, his plays, or any proverbs, and thus provides no useful context or information to answer the query."
+            },
+            "m.081k8_532": {
+                "Query Analysis": "The query asks to identify a play by Shakespeare whose title is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer provided is 'All's Well That Ends Well', which is indeed both a Shakespeare play title and a well-known proverb.",
+                "Document Content Analysis": "The document contains a collection of quotations attributed to William Shakespeare from various plays. It includes mentions of proverbs and their use in Shakespeare's works.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' multiple times and includes the word 'proverb' twice.",
+                "Document and Answer Keywords Matching": "The document does not contain the exact phrase 'All's Well That Ends Well'.",
+                "Key Information Matching": "While the document doesn't directly answer the query, it provides relevant context by showing Shakespeare's use of proverbs in his works. Two quotes specifically mention proverbs: 'Patch grief with proverbs' and 'The proverb is something musty.'",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it doesn't list Shakespeare's play titles or identify which one is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Shakespeare's use of proverbs in his works, which is relevant to the query's topic.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant to the query. While it doesn't provide the specific answer, it contains quotations from Shakespeare that reference proverbs, demonstrating Shakespeare's engagement with proverbial wisdom in his works. This context is valuable for understanding the relationship between Shakespeare's plays and proverbs, which is central to the query. However, the document lacks direct information about play titles, preventing it from fully answering the question. Therefore, it's judged as partially relevant (1) rather than providing full useful context (2) or being irrelevant (0)."
+            },
+            "triviaqa_39256_10": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is also a proverb.",
+                "Document Content Analysis": "The document contains famous quotes and phrases from various Shakespeare plays, but it does not explicitly mention any play titles that are proverbs.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and includes quotes from his plays, but it does not directly address the concept of a play title being a proverb.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well' or any other play title that is a proverb.",
+                "Key Information Matching": "The document provides quotes from Shakespeare's plays but does not link any play title to a proverb.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide information that helps infer which Shakespeare play title is also a proverb.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Shakespeare play titles that are proverbs or help infer the answer."
+            },
+            "nq_73680_2": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play and also a proverb.",
+                "Document Content Analysis": "The document discusses the fable 'The Boy Who Cried Wolf', its moral, and its historical interpretations. It does not mention Shakespeare or any of his plays.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Shakespeare', 'plays', 'title', 'proverb') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('All's Well That Ends Well') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Shakespeare, his plays, or proverbs.",
+                "Can the Document Answer the Query": "No, the document does not mention Shakespeare or any of his plays.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a fable and its moral but does not mention Shakespeare, his plays, or any proverbs. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_18076_16": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is also a proverb.",
+                "Document Content Analysis": "The document contains quotes from various Shakespeare plays, including 'Hamlet', 'Romeo and Juliet', 'King Lear', 'As You Like It', 'A Midsummer Night's Dream', 'Macbeth', 'King Henry IV, Part II', 'The Life of Timon of Athens', 'Coriolanus', 'King Henry VIII', and 'King John'.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'plays'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document mentions several Shakespeare plays but does not include 'All's Well That Ends Well' or any proverb-like titles.",
+                "Can the Document Answer the Query": "No, the document does not mention 'All's Well That Ends Well' or any proverb-like titles.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document contains quotes from various Shakespeare plays but does not mention 'All's Well That Ends Well' or any proverb-like titles. Therefore, it is irrelevant to the query."
+            },
+            "m.081k8_605": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a play by Shakespeare and also a proverb.",
+                "Document Content Analysis": "The document lists various works, quotations, and other information related to William Shakespeare, including titles of his works and quotations that include proverbs.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare', 'Works written', and 'Quotations' which include proverbs.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'All's Well That Ends Well'.",
+                "Key Information Matching": "The document mentions Shakespeare's works and includes quotations that are proverbs, but it does not directly link any play title to a proverb.",
+                "Can the Document Answer the Query": "No, the document does not directly state which of Shakespeare's plays has a title that is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Shakespeare's works and includes proverbs, which could help infer the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Shakespeare's works and proverbs, but it does not directly answer the query. It provides context that could help infer the answer, making it partially relevant."
+            },
+            "nq_179754_141": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is also a proverb.",
+                "Document Content Analysis": "The document lists various Shakespeare plays, including tragedies and comedies. It mentions 'All's Well That Ends Well' under the comedies section.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and 'plays', and includes the title 'All's Well That Ends Well'.",
+                "Document and Answer Keywords Matching": "The document includes 'All's Well That Ends Well', which matches the answer.",
+                "Key Information Matching": "The document lists 'All's Well That Ends Well' as one of Shakespeare's plays, which directly matches the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document contains the title 'All's Well That Ends Well', which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly provides the answer without requiring additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly contains the answer to the query by listing 'All's Well That Ends Well' as one of Shakespeare's plays, making it highly relevant."
+            },
+            "m.081k8_2464": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is also a proverb.",
+                "Document Content Analysis": "The document contains a collection of quotations from William Shakespeare, but none of them directly mention the title of any play or a proverb that matches a play title.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare', which matches the keyword 'Shakespeare' from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well' or any other play title that is a proverb.",
+                "Key Information Matching": "The document does not provide any information about Shakespeare play titles that are also proverbs.",
+                "Can the Document Answer the Query": "No, the document does not contain the title of any Shakespeare play that is also a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Shakespeare play titles that are also proverbs. It only contains quotations from Shakespeare, none of which are relevant to the query."
+            },
+            "triviaqa_4338_26": {
+                "Query Analysis": "The query asks for the title of a Shakespeare play that is also a proverb.",
+                "Query Keywords Extraction": "Shakespeare, plays, title, proverb",
+                "Answer Analysis": "The answer is 'All's Well That Ends Well', which is a Shakespeare play whose title is also a proverb.",
+                "Document Content Analysis": "The document discusses historical events and botanical information from the 16th century, including the introduction of crops like wheat and sweet potatoes, and the publication of herbal books. It does not mention Shakespeare or any of his plays.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Shakespeare', 'plays', 'title', 'proverb') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('All's Well That Ends Well') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Shakespeare, his plays, or proverbs.",
+                "Can the Document Answer the Query": "No, the document does not mention Shakespeare or any of his plays.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses historical and botanical topics from the 16th century and does not mention Shakespeare, his plays, or proverbs. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_18076_14": {},
+            "m.081k8_533": {
+                "Query Analysis": "The query is asking which play by Shakespeare has a title that is a proverb.",
+                "Query Keywords Extraction": "Shakespeare, play, title, proverb",
+                "Answer Analysis": "The answer to the query is 'All's Well That Ends Well', a play by William Shakespeare with a title that is also a known proverb.",
+                "Document Content Analysis": "The document lists various quotations attributed to William Shakespeare, each of which may or may not relate to proverbs but are primarily individual lines and phrases from different contexts.",
+                "Document and Query Keywords Matching": "The document mentions 'William Shakespeare', which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention the play 'All's Well That Ends Well' or any directly matching proverbs.",
+                "Key Information Matching": "The document provides quotations by Shakespeare but does not provide information about his plays or their titles being proverbs, thus does not contain key information matching the specific answer 'All's Well That Ends Well'.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the titles of Shakespeare's plays or which might be a proverb.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that assists in making an inference about which of Shakespeare's play titles might be a proverb.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document consists of quotations from Shakespeare but does not provide any direct or indirect information about Shakespeare's play titles or their relation to proverbs. It neither contains the answer nor offers any useful context for inferring the answer."
+            },
+            "triviaqa_11637_32": {},
+            "triviaqa_18076_18": {},
+            "nq_73680_3": {},
+            "ott_35788_1": {},
+            "triviaqa_48157_151": {},
+            "m.081k8_532": {
+                "Query Analysis": "The query asks which of Shakespeare's plays has a title that is also a proverb.",
+                "Query Keywords Extraction": [
+                    "Shakespeare",
+                    "plays",
+                    "title",
+                    "proverb"
+                ],
+                "Answer Analysis": "The answer is 'All's Well That Ends Well,' a Shakespeare play whose title is a proverb.",
+                "Document Content Analysis": "The document is a collection of quotations attributed to Shakespeare. It does not focus on titles of plays but provides excerpts of text and proverbs from Shakespeare's works. Some quotes mention proverbs, but it does not directly connect them to the titles of Shakespeare's plays.",
+                "Document and Query Keywords Matching": "The document mentions 'Shakespeare' and includes the word 'proverb' in some contexts. However, it does not mention 'plays' or 'titles.'",
+                "Document and Answer Keywords Matching": "The document does not mention 'All's Well That Ends Well' or any titles of Shakespeare's plays.",
+                "Key Information Matching": "The document touches on the concept of proverbs and contains some phrases that appear proverbial, but it does not provide any information linking proverbs directly to the titles of Shakespeare's plays.",
+                "Can the Document Answer the Query": "No, the document does not provide information connecting any Shakespeare play with a proverb being its title.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not present any relevant context to infer which of Shakespeare's plays has a title that is also a proverb.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document provides quotations from Shakespeare's works and references proverbs, it does not address the query of identifying a play whose title is a proverb. It lacks the necessary focus on titles or connections between proverbs and play names and therefore does not provide relevant information to the query."
+            },
+            "triviaqa_39256_10": {},
+            "nq_73680_2": {},
+            "triviaqa_18076_16": {},
+            "m.081k8_605": {},
+            "nq_179754_141": {},
+            "m.081k8_2464": {},
+            "triviaqa_4338_26": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "m.081k8_532": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 1,
+            "triviaqa": 2,
+            "nq": 2,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

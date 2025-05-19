@@ -1,0 +1,1081 @@
+{
+    "index": 35,
+    "context": [
+        "m.0c_vk"
+    ],
+    "qa": {
+        "question": "what is the name of the first harry potter novel?",
+        "answer": "Harry Potter and the Philosopher's Stone",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_71953_4",
+                "score": 15.547300338745117
+            },
+            {
+                "id": "nq_211332_3",
+                "score": 15.379899978637695
+            },
+            {
+                "id": "nq_102522_4",
+                "score": 15.169899940490723
+            },
+            {
+                "id": "m.0c_vk_43",
+                "score": 15.144700050354004
+            },
+            {
+                "id": "triviaqa_34974_3",
+                "score": 15.126899719238281
+            },
+            {
+                "id": "m.0c_vk_224",
+                "score": 15.105899810791016
+            },
+            {
+                "id": "nq_265640_23",
+                "score": 14.994500160217285
+            },
+            {
+                "id": "triviaqa_34974_14",
+                "score": 14.981300354003906
+            },
+            {
+                "id": "nq_45286_23",
+                "score": 14.95930004119873
+            },
+            {
+                "id": "triviaqa_34974_21",
+                "score": 14.952300071716309
+            },
+            {
+                "id": "m.01m5g__120",
+                "score": 14.943599700927734
+            },
+            {
+                "id": "triviaqa_34974_2",
+                "score": 14.930000305175781
+            },
+            {
+                "id": "nq_39957_38",
+                "score": 14.920999526977539
+            },
+            {
+                "id": "m.01m5g__11",
+                "score": 14.858599662780762
+            },
+            {
+                "id": "m.01m5g__12",
+                "score": 14.741499900817871
+            },
+            {
+                "id": "nq_102522_3",
+                "score": 14.700599670410156
+            },
+            {
+                "id": "nq_281_3",
+                "score": 14.69629955291748
+            },
+            {
+                "id": "nq_76854_3",
+                "score": 14.696298599243164
+            },
+            {
+                "id": "nq_265640_206",
+                "score": 14.676400184631348
+            },
+            {
+                "id": "nq_163912_19",
+                "score": 14.676300048828125
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.0c_vk_43",
+                "score": 15.144700050354004
+            },
+            {
+                "id": "m.0c_vk_224",
+                "score": 15.105899810791016
+            },
+            {
+                "id": "m.0c_vk_339",
+                "score": 14.315899848937988
+            },
+            {
+                "id": "m.0c_vk_160",
+                "score": 14.269800186157227
+            },
+            {
+                "id": "m.0c_vk_44",
+                "score": 13.75790023803711
+            },
+            {
+                "id": "m.0c_vk_223",
+                "score": 13.206399917602539
+            },
+            {
+                "id": "m.0c_vk_340",
+                "score": 12.649200439453125
+            },
+            {
+                "id": "m.0c_vk_161",
+                "score": 12.546699523925781
+            },
+            {
+                "id": "m.0c_vk_1",
+                "score": 11.571298599243164
+            },
+            {
+                "id": "m.0c_vk_181",
+                "score": 11.566100120544434
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_16082_0",
+                "score": 11.927499771118164
+            },
+            {
+                "id": "ott_21578_0",
+                "score": 11.927498817443848
+            },
+            {
+                "id": "ott_38558_0",
+                "score": 11.927497863769531
+            },
+            {
+                "id": "ott_9835_0",
+                "score": 11.927496910095215
+            },
+            {
+                "id": "ott_16082_1",
+                "score": 11.48639965057373
+            },
+            {
+                "id": "ott_21578_1",
+                "score": 11.486398696899414
+            },
+            {
+                "id": "ott_38558_1",
+                "score": 11.486397743225098
+            },
+            {
+                "id": "ott_9835_1",
+                "score": 11.486396789550781
+            },
+            {
+                "id": "ott_16707_1",
+                "score": 10.604399681091309
+            },
+            {
+                "id": "ott_29255_1",
+                "score": 10.604398727416992
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_211332_3",
+                "score": 15.379899978637695
+            },
+            {
+                "id": "nq_102522_4",
+                "score": 15.169899940490723
+            },
+            {
+                "id": "nq_265640_23",
+                "score": 14.994500160217285
+            },
+            {
+                "id": "nq_45286_23",
+                "score": 14.95930004119873
+            },
+            {
+                "id": "nq_39957_38",
+                "score": 14.920999526977539
+            },
+            {
+                "id": "nq_102522_3",
+                "score": 14.700599670410156
+            },
+            {
+                "id": "nq_281_3",
+                "score": 14.69629955291748
+            },
+            {
+                "id": "nq_76854_3",
+                "score": 14.696298599243164
+            },
+            {
+                "id": "nq_265640_206",
+                "score": 14.676400184631348
+            },
+            {
+                "id": "nq_163912_19",
+                "score": 14.676300048828125
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_71953_4",
+                "score": 15.547300338745117
+            },
+            {
+                "id": "triviaqa_34974_3",
+                "score": 15.126899719238281
+            },
+            {
+                "id": "triviaqa_34974_14",
+                "score": 14.981300354003906
+            },
+            {
+                "id": "triviaqa_34974_21",
+                "score": 14.952300071716309
+            },
+            {
+                "id": "triviaqa_34974_2",
+                "score": 14.930000305175781
+            },
+            {
+                "id": "triviaqa_71953_5",
+                "score": 14.385199546813965
+            },
+            {
+                "id": "triviaqa_34974_15",
+                "score": 14.357500076293945
+            },
+            {
+                "id": "triviaqa_34974_27",
+                "score": 14.27810001373291
+            },
+            {
+                "id": "triviaqa_34974_18",
+                "score": 14.011799812316895
+            },
+            {
+                "id": "triviaqa_34974_28",
+                "score": 13.847399711608887
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0c_vk_43",
+                "score": 15.144700050354004
+            },
+            {
+                "id": "m.0c_vk_224",
+                "score": 15.105899810791016
+            },
+            {
+                "id": "m.01m5g__120",
+                "score": 14.943599700927734
+            },
+            {
+                "id": "m.01m5g__11",
+                "score": 14.858599662780762
+            },
+            {
+                "id": "m.01m5g__12",
+                "score": 14.741499900817871
+            },
+            {
+                "id": "m.0c_vk_339",
+                "score": 14.315899848937988
+            },
+            {
+                "id": "m.0c_vk_160",
+                "score": 14.269800186157227
+            },
+            {
+                "id": "m.01lr1g_134",
+                "score": 13.909299850463867
+            },
+            {
+                "id": "m.014jst_284",
+                "score": 13.886099815368652
+            },
+            {
+                "id": "m.014jst_11",
+                "score": 13.861000061035156
+            },
+            {
+                "id": "m.014jst_159",
+                "score": 13.86099910736084
+            },
+            {
+                "id": "m.0c_vk_44",
+                "score": 13.75790023803711
+            },
+            {
+                "id": "m.014jst_283",
+                "score": 13.688799858093262
+            },
+            {
+                "id": "m.031786_124",
+                "score": 13.540399551391602
+            },
+            {
+                "id": "m.014jst_126",
+                "score": 13.52970027923584
+            },
+            {
+                "id": "m.06_rf9_318",
+                "score": 13.45740032196045
+            },
+            {
+                "id": "m.06_rf9_150",
+                "score": 13.446999549865723
+            },
+            {
+                "id": "m.031786_15",
+                "score": 13.345800399780273
+            },
+            {
+                "id": "m.0c_vk_223",
+                "score": 13.206399917602539
+            },
+            {
+                "id": "m.06_rf9_317",
+                "score": 13.136500358581543
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_211332_3",
+                "score": 0.7418534159660339
+            },
+            {
+                "id": "nq_76854_3",
+                "score": 0.7398196458816528
+            },
+            {
+                "id": "nq_281_3",
+                "score": 0.7398196458816528
+            },
+            {
+                "id": "nq_264451_4",
+                "score": 0.7169795036315918
+            },
+            {
+                "id": "m.0c_vk_44",
+                "score": 0.7047450542449951
+            },
+            {
+                "id": "nq_281_2",
+                "score": 0.7005314826965332
+            },
+            {
+                "id": "nq_76854_2",
+                "score": 0.7005314826965332
+            },
+            {
+                "id": "nq_159941_4",
+                "score": 0.6996108889579773
+            },
+            {
+                "id": "nq_970_4",
+                "score": 0.6996108889579773
+            },
+            {
+                "id": "nq_211332_2",
+                "score": 0.6989713311195374
+            },
+            {
+                "id": "nq_298022_40",
+                "score": 0.695428729057312
+            },
+            {
+                "id": "nq_101525_15",
+                "score": 0.6932584643363953
+            },
+            {
+                "id": "triviaqa_71953_1",
+                "score": 0.6858104467391968
+            },
+            {
+                "id": "triviaqa_71953_7",
+                "score": 0.6853049993515015
+            },
+            {
+                "id": "nq_101525_4",
+                "score": 0.6828649640083313
+            },
+            {
+                "id": "nq_264451_3",
+                "score": 0.6809521913528442
+            },
+            {
+                "id": "nq_264451_15",
+                "score": 0.6805976033210754
+            },
+            {
+                "id": "m.0c_vk_224",
+                "score": 0.6802502870559692
+            },
+            {
+                "id": "nq_163912_4",
+                "score": 0.6801038980484009
+            },
+            {
+                "id": "nq_159941_15",
+                "score": 0.6792967915534973
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.0c_vk_44",
+                "score": 0.7047450542449951
+            },
+            {
+                "id": "m.0c_vk_224",
+                "score": 0.6802502870559692
+            },
+            {
+                "id": "m.0c_vk_339",
+                "score": 0.6747636795043945
+            },
+            {
+                "id": "m.0c_vk_160",
+                "score": 0.6672894358634949
+            },
+            {
+                "id": "m.0c_vk_43",
+                "score": 0.6669843196868896
+            },
+            {
+                "id": "m.0c_vk_223",
+                "score": 0.6640365719795227
+            },
+            {
+                "id": "m.0c_vk_161",
+                "score": 0.6631850004196167
+            },
+            {
+                "id": "m.0c_vk_208",
+                "score": 0.6525648236274719
+            },
+            {
+                "id": "m.0c_vk_340",
+                "score": 0.6321213245391846
+            },
+            {
+                "id": "m.0c_vk_27",
+                "score": 0.6302697062492371
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_5024_2",
+                "score": 0.6146633625030518
+            },
+            {
+                "id": "ott_33799_2",
+                "score": 0.6146633625030518
+            },
+            {
+                "id": "ott_3174_2",
+                "score": 0.613155722618103
+            },
+            {
+                "id": "ott_19414_2",
+                "score": 0.613155722618103
+            },
+            {
+                "id": "ott_24897_2",
+                "score": 0.613155722618103
+            },
+            {
+                "id": "ott_32431_2",
+                "score": 0.613155722618103
+            },
+            {
+                "id": "ott_27623_0",
+                "score": 0.6042733192443848
+            },
+            {
+                "id": "ott_4684_2",
+                "score": 0.5911938548088074
+            },
+            {
+                "id": "ott_324_2",
+                "score": 0.5911938548088074
+            },
+            {
+                "id": "ott_37367_2",
+                "score": 0.5911938548088074
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_211332_3",
+                "score": 0.7418534159660339
+            },
+            {
+                "id": "nq_76854_3",
+                "score": 0.7398196458816528
+            },
+            {
+                "id": "nq_281_3",
+                "score": 0.7398196458816528
+            },
+            {
+                "id": "nq_264451_4",
+                "score": 0.7169795036315918
+            },
+            {
+                "id": "nq_281_2",
+                "score": 0.7005314826965332
+            },
+            {
+                "id": "nq_76854_2",
+                "score": 0.7005314826965332
+            },
+            {
+                "id": "nq_159941_4",
+                "score": 0.6996108889579773
+            },
+            {
+                "id": "nq_970_4",
+                "score": 0.6996108889579773
+            },
+            {
+                "id": "nq_211332_2",
+                "score": 0.6989713311195374
+            },
+            {
+                "id": "nq_298022_40",
+                "score": 0.695428729057312
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_71953_1",
+                "score": 0.6858104467391968
+            },
+            {
+                "id": "triviaqa_71953_7",
+                "score": 0.6853049993515015
+            },
+            {
+                "id": "triviaqa_54594_15",
+                "score": 0.6782868504524231
+            },
+            {
+                "id": "triviaqa_2325_9",
+                "score": 0.6707499027252197
+            },
+            {
+                "id": "triviaqa_34974_24",
+                "score": 0.6575720310211182
+            },
+            {
+                "id": "triviaqa_34974_33",
+                "score": 0.6569128632545471
+            },
+            {
+                "id": "triviaqa_34974_27",
+                "score": 0.6549853086471558
+            },
+            {
+                "id": "triviaqa_34974_0",
+                "score": 0.6543139219284058
+            },
+            {
+                "id": "triviaqa_71953_8",
+                "score": 0.6511003971099854
+            },
+            {
+                "id": "triviaqa_71953_6",
+                "score": 0.6508859395980835
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0c_vk_44",
+                "score": 0.7047450542449951
+            },
+            {
+                "id": "m.0c_vk_224",
+                "score": 0.6802502870559692
+            },
+            {
+                "id": "m.0c_vk_339",
+                "score": 0.6747636795043945
+            },
+            {
+                "id": "m.0c_vk_160",
+                "score": 0.6672894358634949
+            },
+            {
+                "id": "m.0c_vk_43",
+                "score": 0.6669843196868896
+            },
+            {
+                "id": "m.0c_vk_223",
+                "score": 0.6640365719795227
+            },
+            {
+                "id": "m.0c_vk_161",
+                "score": 0.6631850004196167
+            },
+            {
+                "id": "m.0c_vk_208",
+                "score": 0.6525648236274719
+            },
+            {
+                "id": "m.01m5g__121",
+                "score": 0.6435278654098511
+            },
+            {
+                "id": "m.03bkkv_40",
+                "score": 0.632568895816803
+            },
+            {
+                "id": "m.0c_vk_340",
+                "score": 0.6321213245391846
+            },
+            {
+                "id": "m.03bkkv_41",
+                "score": 0.630555272102356
+            },
+            {
+                "id": "m.0c_vk_27",
+                "score": 0.6302697062492371
+            },
+            {
+                "id": "m.015pln_22",
+                "score": 0.6269805431365967
+            },
+            {
+                "id": "m.015pln_113",
+                "score": 0.6263808012008667
+            },
+            {
+                "id": "m.01m5g__11",
+                "score": 0.6263502240180969
+            },
+            {
+                "id": "m.06_rf9_151",
+                "score": 0.6246058344841003
+            },
+            {
+                "id": "m.01m5g__120",
+                "score": 0.6213541030883789
+            },
+            {
+                "id": "m.03bkkv_244",
+                "score": 0.6199623346328735
+            },
+            {
+                "id": "m.014jst_233",
+                "score": 0.6169920563697815
+            }
+        ],
+        "llm_mark_result": {
+            "nq_76854_3": {
+                "Query Analysis": "The query asks for the title of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides information about the debut novel of the Harry Potter series, its publication details, plot summary, and its reception. It mentions that the novel was first published in 1997 and was titled 'Harry Potter and the Sorcerer's Stone' in the United States.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'first', 'Harry Potter', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Harry Potter and the Sorcerer's Stone', which is the U.S. title of the first novel, and implies the original title 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document directly mentions the title of the first Harry Potter novel, aligning with the query's focus on identifying this title.",
+                "Can the Document Answer the Query": "Yes, the document provides the title of the first Harry Potter novel, albeit with the U.S. version of the title.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the novel's publication and its plot, which supports the identification of the novel.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the title of the first Harry Potter novel and additional context about its publication and content. Although it primarily uses the U.S. title, it implicitly refers to the original title, making it highly relevant."
+            },
+            "m.0c_vk_43": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides a description of 'Harry Potter and the Philosopher's Stone', stating it is the first novel in the Harry Potter series and J.K. Rowling's debut novel. It includes details about the plot, publication dates, and its success in various markets.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first novel', and 'Harry Potter and the Philosopher's Stone'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document directly states that 'Harry Potter and the Philosopher's Stone' is the first novel in the Harry Potter series, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, including its plot and publication details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions and describes 'Harry Potter and the Philosopher's Stone' as the first novel in the series, thus providing a direct answer to the query along with additional useful context."
+            },
+            "ott_5024_2": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document discusses various best-selling books and series, including the Harry Potter series by J.K. Rowling. It mentions that the first novel in the series is 'Harry Potter and the Sorcerer's Stone' and provides sales figures for it.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'first novel'.",
+                "Document and Answer Keywords Matching": "The document includes 'Harry Potter and the Sorcerer's Stone', which is a variation of the answer 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document directly mentions the first novel in the Harry Potter series, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document provides the name of the first Harry Potter novel, albeit with a different title variation.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the Harry Potter series and its sales figures, which can help infer the significance of the first novel.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by mentioning the first novel in the Harry Potter series. Although the title variation ('Sorcerer's Stone' instead of 'Philosopher's Stone') differs, it is still recognizable as the same book, making the document highly relevant."
+            },
+            "ott_16082_0": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document lists the filmography of Emma Watson, including her roles in various films, notably the Harry Potter series. It provides titles of the Harry Potter films in which she played Hermione Granger.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' multiple times and includes the title 'Harry Potter and the Philosopher's Stone'.",
+                "Document and Answer Keywords Matching": "The document includes the exact title 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document directly mentions the title 'Harry Potter and the Philosopher's Stone', which is the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document lists the titles of all Harry Potter films, which can help infer the sequence and confirm the first novel's title.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer ('Harry Potter and the Philosopher's Stone') and provides additional context by listing other Harry Potter films, confirming the sequence."
+            },
+            "m.0c_vk_339": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides detailed information about 'Harry Potter and the Philosopher's Stone', including its characters, quotations, editions, and a summary of the novel's plot and publication details.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter and the Philosopher's Stone' multiple times, which directly matches the query keywords 'Harry Potter' and 'novel'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone', which is the exact answer to the query.",
+                "Key Information Matching": "The document not only mentions the title of the first Harry Potter novel but also provides context that it is the first novel in the series, directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that 'Harry Potter and the Philosopher's Stone' is the first novel in the series.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, including its plot, publication details, and reception, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and background information about the first Harry Potter novel, including its title, which is the exact answer to the query. Therefore, it is highly relevant."
+            },
+            "nq_102522_4": {
+                "Query Analysis": "The query seeks the title of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document mentions 'Harry Potter and the Philosopher's Stone' and states that it was released in 1997. It also discusses Voldemort's presence in the series, including the first book, and provides context about Voldemort's character and significance in the Harry Potter universe.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Harry Potter' and 'Philosopher's Stone'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document directly mentions the title of the first Harry Potter novel, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the first novel's release year and its significance in the series.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the title of the first Harry Potter novel, thereby providing a direct answer. Additionally, it offers supplementary information about the novel's release and its role in the series, enhancing the context and understanding of the query."
+            },
+            "m.0c_vk_224": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides a detailed description of 'Harry Potter and the Philosopher's Stone', stating that it is the first novel in the Harry Potter series and J.K. Rowling's debut novel. It includes information about the plot, publication details, and its success in sales and awards.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter and the Philosopher's Stone', 'first novel', and 'Harry Potter series'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone', which is the exact answer to the query.",
+                "Key Information Matching": "The document directly states that 'Harry Potter and the Philosopher's Stone' is the first novel in the Harry Potter series, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, including its plot, publication date, and impact.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions and describes 'Harry Potter and the Philosopher's Stone' as the first novel in the Harry Potter series. It not only answers the query but also provides additional useful information about the novel."
+            },
+            "m.0c_vk_44": {
+                "Query Analysis": "The query is seeking the title of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides a description of the first Harry Potter novel, including its original title, publication details, and its significance in the series. It mentions the novel's publication date, its author, and its adaptation into a film.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'Harry Potter' and 'first' in the context of the series.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone' as the title of the first book.",
+                "Key Information Matching": "The document directly states 'Harry Potter and the Philosopher's Stone' as the first book in the series, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context such as the author's name, publication date, and the book's significance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the title of the first Harry Potter novel, thereby answering the query. Additionally, it provides useful context about the book's publication and its place in the series, enhancing the understanding of the query."
+            },
+            "nq_211332_3": {
+                "Query Analysis": "The query asks for the title of the first book in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides information about the first novel in the Harry Potter series, including its publication details, plot summary, and reception. It mentions that the novel is the first in the series and was published in 1997 by Bloomsbury. It also notes the different title used in the United States ('Harry Potter and the Sorcerer's Stone').",
+                "Document and Query Keywords Matching": "The document contains the keywords 'first', 'Harry Potter', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'Harry Potter and the Philosopher's Stone', which is the exact title provided in the answer.",
+                "Key Information Matching": "The document explicitly states that 'It is the first novel in the Harry Potter series' and mentions the title 'Harry Potter and the Philosopher's Stone'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context such as publication details and the plot, which enriches the understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the name of the first Harry Potter novel, thus providing a direct answer. Additionally, it offers supplementary information that enhances the context around the novel, making it highly relevant."
+            },
+            "triviaqa_71953_1": {
+                "Query Analysis": "The query seeks the title of the first book in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', indicating the title of the first book in the series.",
+                "Document Content Analysis": "The document provides an overview of the Harry Potter book series, including information about the author, the number of books in the series, and specific details about the first book, such as its publication year and publisher.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first book', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Harry Potter and The Philosopher's Stone' as the first book.",
+                "Key Information Matching": "The document directly provides the title of the first book, which matches the query's requirement.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document also provides additional context such as the publication year and the publisher of the first book.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the title of the first Harry Potter novel, thereby providing a direct answer. Additionally, it offers supplementary information that enhances the understanding of the query."
+            },
+            "triviaqa_34974_3": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first book in the Harry Potter series.",
+                "Document Content Analysis": "The document discusses various titles and release details of the Harry Potter series, including 'Harry Potter and the Goblet of Fire', 'Harry Potter and the Order of the Phoenix', 'Harry Potter and the Half-Blood Prince', and 'Harry Potter and the Deathly Hallows'. It also mentions a title change from 'Harry Potter and the Doomspell Tournament' to another title before publication.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and discusses titles of books in the series.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "While the document discusses titles and release details of Harry Potter books, it does not directly mention the first book's title.",
+                "Can the Document Answer the Query": "No, the document does not directly state the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the series and title changes, which might help infer that 'Harry Potter and the Doomspell Tournament' was a considered title but not the final title of the first book.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses the Harry Potter series and title changes, but it does not directly provide the name of the first novel. However, it offers context that could be useful in understanding the series' publication history."
+            },
+            "nq_264451_4": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', indicating the title of the first book in the series.",
+                "Document Content Analysis": "The document provides an overview of the Harry Potter series, including its author, main characters, setting, and plot. It also mentions the release date and impact of the first novel.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'first novel'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone' as the first novel.",
+                "Key Information Matching": "The document directly states the name of the first Harry Potter novel, matching the query's key information.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the series and the first novel's release date and impact.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the name of the first Harry Potter novel, providing a direct answer. Additionally, it offers useful context about the series, enhancing understanding."
+            },
+            "triviaqa_71953_4": {
+                "Query Analysis": "The query asks for the name of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first book in the series.",
+                "Document Content Analysis": "The document provides various insights into the Harry Potter series, including its impact on popular culture, inspirations, and behind-the-scenes information. It mentions the timeline of the series and specific details about the books and movies.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'first book' in the context of the timeline.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone' as the first book.",
+                "Key Information Matching": "The document directly states 'Harry Potter and the Philosopher's Stone' as the first book, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating the name of the first book.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Harry Potter series, including its timeline and other related information.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the name of the first Harry Potter novel, thereby providing a direct answer. Additionally, it offers useful context about the series, enhancing the understanding of the query."
+            },
+            "nq_281_3": {
+                "Query Analysis": "The query asks for the title of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides information about the debut novel of the Harry Potter series, its publication details, plot summary, and its reception. It mentions that the novel was first published in 1997 and was titled 'Harry Potter and the Sorcerer's Stone' in the United States.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'first published', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Harry Potter and the Sorcerer's Stone', which is the U.S. title of the first novel, and indirectly refers to 'Harry Potter and the Philosopher's Stone' by context.",
+                "Key Information Matching": "The document provides the title of the debut novel in the Harry Potter series, which matches the query's requirement for the name of the first novel.",
+                "Can the Document Answer the Query": "Yes, the document provides the title of the first Harry Potter novel, albeit with the U.S. version of the title.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel's publication and plot, which can help confirm its identity as the first in the series.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly provides the title of the first Harry Potter novel, even though it uses the U.S. title. This information is sufficient to answer the query, making the document highly relevant."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_76854_3": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document provides detailed information about the first Harry Potter novel, including its original title ('Harry Potter and the Philosopher's Stone'), its publication history, plot summary, awards, and critical reception. It also mentions the alternative title used in the United States ('Harry Potter and the Sorcerer's Stone').",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'novel', and 'first' (as it discusses the debut novel).",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone', which matches the answer.",
+                "Key Information Matching": "The document directly provides the name of the first Harry Potter novel, which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, such as its publication history, plot, and reception.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('Harry Potter and the Philosopher's Stone'). It also offers substantial additional context about the novel, making it highly relevant."
+            },
+            "m.0c_vk_43": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides detailed information about 'Harry Potter and the Philosopher's Stone', including its publication history, plot summary, and its significance as the first novel in the Harry Potter series.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone', which matches the answer.",
+                "Key Information Matching": "The document directly states that 'Harry Potter and the Philosopher's Stone' is the first novel in the Harry Potter series, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, such as its publication history and plot summary.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about the first Harry Potter novel."
+            },
+            "ott_5024_2": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document discusses best-selling book series and mentions that the Harry Potter series by J.K. Rowling is the best-selling book series in history. It specifically states that the first novel in the series is 'Harry Potter and the Sorcerer's Stone', which has sold over 120 million copies.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Harry Potter and the Sorcerer's Stone', which is the title of the first Harry Potter novel, though it uses 'Sorcerer's Stone' instead of 'Philosopher's Stone'.",
+                "Key Information Matching": "The document provides the title of the first Harry Potter novel, which matches the query's requirement, though it uses a slightly different title ('Sorcerer's Stone' instead of 'Philosopher's Stone').",
+                "Can the Document Answer the Query": "Yes, the document provides the name of the first Harry Potter novel, though it uses a variant title.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Harry Potter series, including its status as the best-selling book series in history and the sales figures for the first novel.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly provides the name of the first Harry Potter novel, which answers the query. Additionally, it offers useful context about the series, such as its sales figures and historical significance, enhancing understanding of the query."
+            },
+            "ott_16082_0": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document provides a filmography of Emma Watson, including her roles in various films, particularly the Harry Potter series. It lists the titles of the Harry Potter films, including 'Harry Potter and the Philosopher's Stone'.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'Philosopher's Stone', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Harry Potter and the Philosopher's Stone', which matches the answer.",
+                "Key Information Matching": "The document lists the titles of the Harry Potter films, including 'Harry Potter and the Philosopher's Stone', which directly matches the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document contains the exact title of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it contains the exact title of the first Harry Potter novel, which is the answer to the query. Therefore, it provides substantial useful context and directly answers the query."
+            },
+            "m.0c_vk_339": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document provides detailed information about 'Harry Potter and the Philosopher's Stone', including its characters, quotations, editions, and a summary of the plot. It explicitly states that 'Harry Potter and the Philosopher's Stone' is the first novel in the Harry Potter series.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document includes 'Harry Potter and the Philosopher's Stone', which matches the answer exactly.",
+                "Key Information Matching": "The document explicitly states that 'Harry Potter and the Philosopher's Stone' is the first novel in the Harry Potter series, directly matching the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, including its plot, characters, and publication details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer. It also offers substantial additional information about the novel, enhancing understanding of the query."
+            },
+            "nq_102522_4": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document discusses the Harry Potter series, mentioning that Voldemort first appeared in 'Harry Potter and the Philosopher's Stone', which was released in 1997. It also provides background information about Voldemort and his role in the series.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'Philosopher's Stone', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone', which matches the answer.",
+                "Key Information Matching": "The document directly mentions 'Harry Potter and the Philosopher's Stone', which is the name of the first Harry Potter novel, matching both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Harry Potter series and the role of Voldemort.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming 'Harry Potter and the Philosopher's Stone' as the first novel in the series. It also provides useful context about the series, enhancing understanding of the query."
+            },
+            "m.0c_vk_224": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides detailed information about 'Harry Potter and the Philosopher's Stone', including its description, publication details, awards, and its adaptation into a film. It also mentions the title in multiple languages and contexts.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone', which matches the answer.",
+                "Key Information Matching": "The document directly provides the title of the first Harry Potter novel, 'Harry Potter and the Philosopher's Stone', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, such as its publication date, awards, and adaptations.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about the first Harry Potter novel."
+            },
+            "m.0c_vk_44": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document provides detailed information about the first Harry Potter novel, including its original title, publication details, translations, and adaptations. It mentions that the original title is 'Harry Potter and the Philosopher's Stone' and discusses its success and impact.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone' as the original title of the first novel.",
+                "Key Information Matching": "The document directly provides the name of the first Harry Potter novel, which matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, such as its publication date, translations, and adaptations.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, along with additional relevant information about the first Harry Potter novel."
+            },
+            "nq_211332_3": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document discusses the first novel in the Harry Potter series, mentioning its title, publication details, plot summary, and reception. It also notes that the novel was published in the United States as 'Harry Potter and the Sorcerer's Stone'.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document includes 'Harry Potter and the Philosopher's Stone' and 'Harry Potter and the Sorcerer's Stone', which are variations of the answer.",
+                "Key Information Matching": "The document explicitly states that the first novel in the Harry Potter series is 'Harry Potter and the Philosopher's Stone', which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, such as its publication history and reception.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming the first Harry Potter novel and provides substantial additional information about the novel, making it highly relevant."
+            },
+            "triviaqa_71953_1": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document provides an overview of the Harry Potter book series, including details about the first book, 'Harry Potter and the Philosopher's Stone', its publication, and other related information.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first book', and 'Harry Potter and the Philosopher's Stone'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone', which matches the answer.",
+                "Key Information Matching": "The document directly mentions the title of the first Harry Potter novel, 'Harry Potter and the Philosopher's Stone', which is the key information required to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it, making it highly relevant."
+            },
+            "triviaqa_34974_3": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter novel.",
+                "Document Content Analysis": "The document discusses various Harry Potter novels, including 'Harry Potter and the Goblet of Fire', 'Harry Potter and the Order of the Phoenix', 'Harry Potter and the Half-Blood Prince', and 'Harry Potter and the Deathly Hallows'. It provides details about their release dates, sales records, and awards but does not mention 'Harry Potter and the Philosopher's Stone'.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'novel', but it does not explicitly mention 'first' or 'Harry Potter and the Philosopher's Stone'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document does not provide any information about the first Harry Potter novel, 'Harry Potter and the Philosopher's Stone'.",
+                "Can the Document Answer the Query": "No, the document does not mention the title of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the first Harry Potter novel.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document discusses several Harry Potter novels but does not mention 'Harry Potter and the Philosopher's Stone', the first novel in the series. Therefore, it is irrelevant to the query."
+            },
+            "nq_264451_4": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document provides an overview of the Harry Potter series, mentioning that it is a series of fantasy novels written by J.K. Rowling. It specifically mentions the first novel, 'Harry Potter and the Philosopher's Stone', and its release date, 26 June 1997.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'first', and 'novel'.",
+                "Document and Answer Keywords Matching": "The document includes 'Harry Potter and the Philosopher's Stone', which matches the answer.",
+                "Key Information Matching": "The document mentions 'Harry Potter', 'first', and 'novel', and specifically names 'Harry Potter and the Philosopher's Stone' as the first novel in the series.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Harry Potter series, including the release date of the first novel.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by naming the first Harry Potter novel and provides additional relevant information about the series, making it highly relevant."
+            },
+            "triviaqa_71953_4": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document provides a timeline of events related to the Harry Potter series, including the completion and publication of the first book, 'Harry Potter and the Philosopher's Stone'.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'first book'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document directly states that 'Harry Potter and the Philosopher's Stone' is the first book in the series, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions 'Harry Potter and the Philosopher's Stone' as the first book in the series, which is the answer to the query."
+            },
+            "nq_281_3": {
+                "Query Analysis": "The query asks for the name of the first Harry Potter novel.",
+                "Query Keywords Extraction": "name, first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone'.",
+                "Document Content Analysis": "The document discusses the debut novel of the Harry Potter series, mentioning its publication details, plot, awards, and critical reception. It specifically notes that the novel was first published in 1997 by Bloomsbury and was published in the United States as 'Harry Potter and the Sorcerer's Stone' in 1998.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter', 'novel', and 'first'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Harry Potter and the Sorcerer's Stone', which is the US title of the first Harry Potter novel, closely matching the answer 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document provides the title of the first Harry Potter novel, albeit with the US title, which is a direct match to the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, such as its publication history and critical reception.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by providing the name of the first Harry Potter novel. Additionally, it offers useful context about the novel's publication and reception, enhancing understanding of the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_76854_3": {},
+            "m.0c_vk_43": {},
+            "ott_5024_2": {},
+            "ott_16082_0": {},
+            "m.0c_vk_339": {},
+            "nq_102522_4": {},
+            "m.0c_vk_224": {},
+            "m.0c_vk_44": {},
+            "nq_211332_3": {},
+            "triviaqa_71953_1": {},
+            "triviaqa_34974_3": {
+                "Query Analysis": "The query seeks the title of the first novel in the Harry Potter series.",
+                "Query Keywords Extraction": "first, Harry Potter, novel",
+                "Answer Analysis": "The answer is 'Harry Potter and the Philosopher's Stone', which is the title of the first Harry Potter book.",
+                "Document Content Analysis": "The document discusses various Harry Potter novels, specifically mentioning 'Harry Potter and the Goblet of Fire', 'Harry Potter and the Order of the Phoenix', 'Harry Potter and the Half-Blood Prince', and 'Harry Potter and the Deathly Hallows'. It provides publication details and sales records for these books.",
+                "Document and Query Keywords Matching": "The document mentions 'Harry Potter' and 'novel', but not 'first'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Potter and the Philosopher's Stone'.",
+                "Key Information Matching": "The document does not provide details about the first book of the Harry Potter series.",
+                "Can the Document Answer the Query": "No, the document does not mention the title of the first Harry Potter novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document only discusses titles other than the first book in the Harry Potter series.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not provide any information about the first book in the Harry Potter series, nor does it mention its title. Therefore, it cannot answer the query or help infer any relevant information about the first novel."
+            },
+            "nq_264451_4": {},
+            "triviaqa_71953_4": {},
+            "nq_281_3": {}
+        },
+        "relevance_judgement": 2,
+        "llm_fail": {},
+        "dataset_score": {
+            "nq": 10,
+            "triviaqa": 2,
+            "ott": 4,
+            "kg": 2,
+            "tat": 0
+        }
+    }
+}

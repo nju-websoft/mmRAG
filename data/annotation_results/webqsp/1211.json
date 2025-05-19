@@ -1,0 +1,931 @@
+{
+    "index": 1211,
+    "context": [
+        "m.0qf8bfs",
+        "m.0qf8bm3"
+    ],
+    "qa": {
+        "question": "what are bridgit mendler's parents names?",
+        "answer": "Harry Mendler",
+        "BM25_documents": [
+            {
+                "id": "m.0qf8bfs_0",
+                "score": 23.67799949645996
+            },
+            {
+                "id": "m.0qf8bm3_0",
+                "score": 23.12849998474121
+            },
+            {
+                "id": "nq_188441_85",
+                "score": 21.542499542236328
+            },
+            {
+                "id": "nq_188441_84",
+                "score": 20.791400909423828
+            },
+            {
+                "id": "m.0qf8bm3_1",
+                "score": 20.484800338745117
+            },
+            {
+                "id": "nq_247198_64",
+                "score": 19.902299880981445
+            },
+            {
+                "id": "nq_247198_8",
+                "score": 19.68470001220703
+            },
+            {
+                "id": "nq_106927_4",
+                "score": 19.540700912475586
+            },
+            {
+                "id": "nq_305761_4",
+                "score": 19.540699005126953
+            },
+            {
+                "id": "nq_188441_86",
+                "score": 19.31760025024414
+            },
+            {
+                "id": "nq_247198_67",
+                "score": 19.249000549316406
+            },
+            {
+                "id": "nq_23042_8",
+                "score": 19.160600662231445
+            },
+            {
+                "id": "nq_188441_88",
+                "score": 19.000200271606445
+            },
+            {
+                "id": "nq_247198_5",
+                "score": 18.9768009185791
+            },
+            {
+                "id": "nq_266742_46",
+                "score": 18.95680046081543
+            },
+            {
+                "id": "nq_188441_87",
+                "score": 18.9325008392334
+            },
+            {
+                "id": "nq_250231_44",
+                "score": 18.802900314331055
+            },
+            {
+                "id": "nq_247198_37",
+                "score": 18.29210090637207
+            },
+            {
+                "id": "nq_188441_29",
+                "score": 18.28529930114746
+            },
+            {
+                "id": "nq_188441_30",
+                "score": 18.285297393798828
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.0qf8bfs_0",
+                "score": 23.67799949645996
+            },
+            {
+                "id": "m.0qf8bm3_0",
+                "score": 23.12849998474121
+            },
+            {
+                "id": "m.0qf8bm3_1",
+                "score": 20.484800338745117
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_958_1",
+                "score": 3.6947989463806152
+            },
+            {
+                "id": "tat_1248_0",
+                "score": 3.534785032272339
+            },
+            {
+                "id": "tat_958_0",
+                "score": 3.468148946762085
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_16189_0",
+                "score": 10.105997085571289
+            },
+            {
+                "id": "ott_26526_0",
+                "score": 10.105996131896973
+            },
+            {
+                "id": "ott_34288_0",
+                "score": 10.105995178222656
+            },
+            {
+                "id": "ott_24499_0",
+                "score": 4.442899227142334
+            },
+            {
+                "id": "ott_24906_0",
+                "score": 4.442898273468018
+            },
+            {
+                "id": "ott_28467_0",
+                "score": 4.442897319793701
+            },
+            {
+                "id": "ott_5750_0",
+                "score": 4.442896366119385
+            },
+            {
+                "id": "ott_21763_0",
+                "score": 4.040782451629639
+            },
+            {
+                "id": "ott_2225_0",
+                "score": 4.040781021118164
+            },
+            {
+                "id": "ott_743_0",
+                "score": 4.040780067443848
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_188441_85",
+                "score": 21.542499542236328
+            },
+            {
+                "id": "nq_188441_84",
+                "score": 20.791400909423828
+            },
+            {
+                "id": "nq_247198_64",
+                "score": 19.902299880981445
+            },
+            {
+                "id": "nq_247198_8",
+                "score": 19.68470001220703
+            },
+            {
+                "id": "nq_106927_4",
+                "score": 19.540700912475586
+            },
+            {
+                "id": "nq_305761_4",
+                "score": 19.540699005126953
+            },
+            {
+                "id": "nq_188441_86",
+                "score": 19.31760025024414
+            },
+            {
+                "id": "nq_247198_67",
+                "score": 19.249000549316406
+            },
+            {
+                "id": "nq_23042_8",
+                "score": 19.160600662231445
+            },
+            {
+                "id": "nq_188441_88",
+                "score": 19.000200271606445
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_17764_166",
+                "score": 17.26110076904297
+            },
+            {
+                "id": "triviaqa_17764_165",
+                "score": 14.555999755859375
+            },
+            {
+                "id": "triviaqa_34122_159",
+                "score": 10.433799743652344
+            },
+            {
+                "id": "triviaqa_60613_54",
+                "score": 8.32289981842041
+            },
+            {
+                "id": "triviaqa_43236_283",
+                "score": 8.219099998474121
+            },
+            {
+                "id": "triviaqa_17764_167",
+                "score": 7.992199897766113
+            },
+            {
+                "id": "triviaqa_2411_54",
+                "score": 7.987199783325195
+            },
+            {
+                "id": "triviaqa_63754_4",
+                "score": 7.875899791717529
+            },
+            {
+                "id": "triviaqa_2411_55",
+                "score": 7.809000015258789
+            },
+            {
+                "id": "triviaqa_63754_5",
+                "score": 7.762599945068359
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0qf8bfs_0",
+                "score": 23.67799949645996
+            },
+            {
+                "id": "m.0qf8bm3_0",
+                "score": 23.12849998474121
+            },
+            {
+                "id": "m.0qf8bm3_1",
+                "score": 20.484800338745117
+            },
+            {
+                "id": "m.0rh6k_1868",
+                "score": 10.783699989318848
+            },
+            {
+                "id": "m.0rh6k_2754",
+                "score": 10.783699035644531
+            },
+            {
+                "id": "m.0rh6k_367",
+                "score": 10.783698081970215
+            },
+            {
+                "id": "m.0rh6k_3451",
+                "score": 10.605899810791016
+            },
+            {
+                "id": "m.0rh6k_3452",
+                "score": 10.6058988571167
+            },
+            {
+                "id": "m.03_d0_100",
+                "score": 10.26729965209961
+            },
+            {
+                "id": "m.03_d0_101",
+                "score": 10.267298698425293
+            },
+            {
+                "id": "m.05bt6j_255",
+                "score": 10.105999946594238
+            },
+            {
+                "id": "m.05bt6j_75",
+                "score": 10.105998992919922
+            },
+            {
+                "id": "m.05bt6j_76",
+                "score": 10.105998039245605
+            },
+            {
+                "id": "m.07pzc_179",
+                "score": 6.224999904632568
+            },
+            {
+                "id": "m.01stsq_15",
+                "score": 5.8780999183654785
+            },
+            {
+                "id": "m.02zyc4_0",
+                "score": 5.866600036621094
+            },
+            {
+                "id": "m.07371_117",
+                "score": 5.848499774932861
+            },
+            {
+                "id": "m.0bbvfjz_10",
+                "score": 5.8231000900268555
+            },
+            {
+                "id": "m.02zyc4_3",
+                "score": 5.773099899291992
+            },
+            {
+                "id": "m.01xgc7_14",
+                "score": 5.771100044250488
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.0qf8bm3_0",
+                "score": 0.6674594283103943
+            },
+            {
+                "id": "m.0qf8bfs_0",
+                "score": 0.6588195562362671
+            },
+            {
+                "id": "nq_301867_220",
+                "score": 0.6042863726615906
+            },
+            {
+                "id": "triviaqa_17764_166",
+                "score": 0.5851826071739197
+            },
+            {
+                "id": "m.0qf8bm3_1",
+                "score": 0.582211971282959
+            },
+            {
+                "id": "nq_156107_2",
+                "score": 0.5778663158416748
+            },
+            {
+                "id": "nq_261499_78",
+                "score": 0.574775218963623
+            },
+            {
+                "id": "nq_238938_2",
+                "score": 0.5739642977714539
+            },
+            {
+                "id": "nq_241593_7",
+                "score": 0.5732635259628296
+            },
+            {
+                "id": "m.041fcq_5",
+                "score": 0.5721629858016968
+            },
+            {
+                "id": "triviaqa_42563_11",
+                "score": 0.5707887411117554
+            },
+            {
+                "id": "nq_26205_8",
+                "score": 0.5671252012252808
+            },
+            {
+                "id": "nq_261499_7",
+                "score": 0.5652000904083252
+            },
+            {
+                "id": "triviaqa_48483_4",
+                "score": 0.5631519556045532
+            },
+            {
+                "id": "m.04lc5t_23",
+                "score": 0.5609561800956726
+            },
+            {
+                "id": "nq_219453_8",
+                "score": 0.5605504512786865
+            },
+            {
+                "id": "nq_262175_2",
+                "score": 0.5603340864181519
+            },
+            {
+                "id": "nq_18237_49",
+                "score": 0.558236300945282
+            },
+            {
+                "id": "nq_225072_1",
+                "score": 0.5576162338256836
+            },
+            {
+                "id": "nq_256721_1",
+                "score": 0.5576162338256836
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.0qf8bm3_0",
+                "score": 0.6674594283103943
+            },
+            {
+                "id": "m.0qf8bfs_0",
+                "score": 0.6588195562362671
+            },
+            {
+                "id": "m.0qf8bm3_1",
+                "score": 0.582211971282959
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_40504_1",
+                "score": 0.5021826028823853
+            },
+            {
+                "id": "ott_8743_1",
+                "score": 0.5021826028823853
+            },
+            {
+                "id": "ott_19461_1",
+                "score": 0.5021826028823853
+            },
+            {
+                "id": "ott_22495_1",
+                "score": 0.5021826028823853
+            },
+            {
+                "id": "ott_10849_2",
+                "score": 0.5007128715515137
+            },
+            {
+                "id": "ott_10534_2",
+                "score": 0.5007128715515137
+            },
+            {
+                "id": "ott_41162_1",
+                "score": 0.4992407560348511
+            },
+            {
+                "id": "ott_7750_1",
+                "score": 0.4992407560348511
+            },
+            {
+                "id": "ott_19720_1",
+                "score": 0.4992407560348511
+            },
+            {
+                "id": "ott_27194_1",
+                "score": 0.4992407560348511
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_301867_220",
+                "score": 0.6042863726615906
+            },
+            {
+                "id": "nq_156107_2",
+                "score": 0.5778663158416748
+            },
+            {
+                "id": "nq_261499_78",
+                "score": 0.574775218963623
+            },
+            {
+                "id": "nq_238938_2",
+                "score": 0.5739642977714539
+            },
+            {
+                "id": "nq_241593_7",
+                "score": 0.5732635259628296
+            },
+            {
+                "id": "nq_26205_8",
+                "score": 0.5671252012252808
+            },
+            {
+                "id": "nq_261499_7",
+                "score": 0.5652000904083252
+            },
+            {
+                "id": "nq_219453_8",
+                "score": 0.5605504512786865
+            },
+            {
+                "id": "nq_262175_2",
+                "score": 0.5603340864181519
+            },
+            {
+                "id": "nq_18237_49",
+                "score": 0.558236300945282
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_17764_166",
+                "score": 0.5851826071739197
+            },
+            {
+                "id": "triviaqa_42563_11",
+                "score": 0.5707887411117554
+            },
+            {
+                "id": "triviaqa_48483_4",
+                "score": 0.5631519556045532
+            },
+            {
+                "id": "triviaqa_17764_165",
+                "score": 0.5569787621498108
+            },
+            {
+                "id": "triviaqa_48956_282",
+                "score": 0.5560690760612488
+            },
+            {
+                "id": "triviaqa_37549_14",
+                "score": 0.5560687184333801
+            },
+            {
+                "id": "triviaqa_74493_81",
+                "score": 0.5554433465003967
+            },
+            {
+                "id": "triviaqa_48956_179",
+                "score": 0.5546063780784607
+            },
+            {
+                "id": "triviaqa_25288_207",
+                "score": 0.5537272691726685
+            },
+            {
+                "id": "triviaqa_42563_0",
+                "score": 0.552540123462677
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0qf8bm3_0",
+                "score": 0.6674594283103943
+            },
+            {
+                "id": "m.0qf8bfs_0",
+                "score": 0.6588195562362671
+            },
+            {
+                "id": "m.0qf8bm3_1",
+                "score": 0.582211971282959
+            },
+            {
+                "id": "m.041fcq_5",
+                "score": 0.5721629858016968
+            },
+            {
+                "id": "m.04lc5t_23",
+                "score": 0.5609561800956726
+            },
+            {
+                "id": "m.0gm6m8_18",
+                "score": 0.5561913251876831
+            },
+            {
+                "id": "m.09l3p_118",
+                "score": 0.5506681799888611
+            },
+            {
+                "id": "m.033d3p_34",
+                "score": 0.5480881333351135
+            },
+            {
+                "id": "m.05z2sbw_1",
+                "score": 0.5418093800544739
+            },
+            {
+                "id": "m.0k07rq_4",
+                "score": 0.5378143191337585
+            },
+            {
+                "id": "m.02tkzn_51",
+                "score": 0.534144401550293
+            },
+            {
+                "id": "m.0k3cqw1_2",
+                "score": 0.5319784283638
+            },
+            {
+                "id": "m.02wwj9w_4",
+                "score": 0.5315744280815125
+            },
+            {
+                "id": "m.086dny_175",
+                "score": 0.5313490033149719
+            },
+            {
+                "id": "m.0d6lp_239",
+                "score": 0.5310684442520142
+            },
+            {
+                "id": "m.0ccvx_300",
+                "score": 0.5290126800537109
+            },
+            {
+                "id": "m.0k7px6_4",
+                "score": 0.5267372131347656
+            },
+            {
+                "id": "m.013q3z_48",
+                "score": 0.5260817408561707
+            },
+            {
+                "id": "m.0b_x1n8_1",
+                "score": 0.5255627632141113
+            },
+            {
+                "id": "m.01_pcc_18",
+                "score": 0.5255458950996399
+            }
+        ],
+        "llm_mark_result": {
+            "m.0qf8bfs_0": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document primarily focuses on Harry Mendler, stating that he is the father of Bridgit Mendler and also mentions another child, Nick Mendler. It includes various attributes and types associated with Harry Mendler.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' and 'Harry Mendler', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'Harry Mendler', which matches the provided answer.",
+                "Key Information Matching": "The document explicitly states that Harry Mendler is the father of Bridgit Mendler, directly addressing part of the query.",
+                "Can the Document Answer the Query": "Partially, the document provides the name of one parent (Harry Mendler) but does not mention the name of the other parent.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides clear information about one of Bridgit Mendler's parents, which is a significant part of the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides the name of one of Bridgit Mendler's parents, directly addressing part of the query. However, it lacks information about the other parent, making it unable to fully answer the query."
+            },
+            "triviaqa_17764_166": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document provides a biography of Bridgit Mendler, detailing her early life, career milestones, and some of her roles in television and film. It also mentions her family's move to California but does not specify her parents' names.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' extensively.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other names that could be identified as her parents.",
+                "Key Information Matching": "While the document provides extensive information about Bridgit Mendler's life and career, it lacks any specific details about her parents.",
+                "Can the Document Answer the Query": "No, the document does not provide the names of Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the names of her parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on Bridgit Mendler's career and personal life but does not include any information about her parents. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides any useful context or additional information that could help infer the answer."
+            },
+            "ott_16189_0": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document lists the schedule and guests for the 23rd season of the TV show 'Live! with Regis and Kelly'. It includes dates, co-hosts, and the names of guests or segments featured on each episode.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' as a guest on one of the episodes.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other names related to Bridgit Mendler's parents.",
+                "Key Information Matching": "The document only mentions Bridgit Mendler as a guest on the show, with no information about her parents.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the names of Bridgit Mendler's parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only mentions Bridgit Mendler as a guest on a TV show and provides no information about her parents. It does not assist in answering the query or providing additional relevant information."
+            },
+            "nq_188441_84": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document appears to be a partial Wikipedia page related to Bridgit Mendler, focusing on her discography and various links to other pages about her. It also lists several individuals with the last name 'Newman', which seems unrelated to the query.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other names that could be inferred as her parents.",
+                "Key Information Matching": "The document contains information about Bridgit Mendler but lacks any details about her parents.",
+                "Can the Document Answer the Query": "No, the document does not provide the names of Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the names of her parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document is about Bridgit Mendler, it does not contain any relevant information about her parents. The content is focused on her discography and other career-related details, making it irrelevant to the specific query about her parents' names."
+            },
+            "ott_40504_1": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document lists various family relations in professional wrestling, including parents, children, and in-laws. It mentions several wrestling families and their connections.",
+                "Document and Query Keywords Matching": "The document does not mention 'Bridgit Mendler' or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any related terms.",
+                "Key Information Matching": "There is no information in the document that directly relates to Bridgit Mendler or her family.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is focused on professional wrestling families and does not provide any relevant context or information about Bridgit Mendler.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query as it focuses on professional wrestling families and does not mention Bridgit Mendler or her parents. Therefore, it cannot provide any useful context or information to answer the query."
+            },
+            "m.0qf8bm3_1": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document provides information about Leah Mendler, indicating that she is a person and a parent to Bridgit Mendler. It also mentions another individual, Nick Mendler, who is a parent to Leah Mendler. However, there is no direct mention of Harry Mendler.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' and 'parents'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler'.",
+                "Key Information Matching": "The document identifies Leah Mendler as one of Bridgit Mendler's parents, which partially addresses the query.",
+                "Can the Document Answer the Query": "No, the document does not provide the complete answer as it only mentions one parent, Leah Mendler, and does not mention Harry Mendler.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about one of Bridgit Mendler's parents, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about one of Bridgit Mendler's parents, Leah Mendler, but it does not mention the other parent, Harry Mendler, who is part of the answer. Therefore, it helps infer some information related to the query but does not fully answer it."
+            },
+            "nq_301867_220": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document lists various names, primarily associated with notable figures and their parents or guardians, but none directly related to Bridgit Mendler.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'Bridgit Mendler', 'parents', or 'names'.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Harry Mendler'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the names of Bridgit Mendler's parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Bridgit Mendler or any of her family members, and thus provides no useful context or information relevant to the query."
+            },
+            "tat_958_1": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document discusses financial and accounting details related to NEXTDC Limited and its subsidiaries, including property transfers, reserves, guarantees, contingent liabilities, and tax consolidation legislation.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Bridgit Mendler', 'parents', 'names') are found in the document.",
+                "Document and Answer Keywords Matching": "The name 'Harry Mendler' is not mentioned in the document.",
+                "Key Information Matching": "There is no information in the document that relates to Bridgit Mendler or her parents.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Bridgit Mendler or her parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on financial and accounting matters of NEXTDC Limited and does not mention Bridgit Mendler or her parents. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "nq_188441_85": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document provides links and information about Bridgit Mendler's discography, awards, songs, and tours. It does not include personal or biographical information such as her parents' names.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' but does not include keywords related to her parents.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other names that could be associated with her parents.",
+                "Key Information Matching": "The document lacks any information related to Bridgit Mendler's personal life or family background.",
+                "Can the Document Answer the Query": "No, the document does not provide the names of Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the names of her parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on Bridgit Mendler's professional career, specifically her music and tours. It does not provide any personal or biographical information, making it irrelevant to the query about her parents' names."
+            },
+            "m.0qf8bm3_0": {
+                "Query Analysis": "The query seeks the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides the name of one of Bridgit Mendler's parents, Harry Mendler.",
+                "Document Content Analysis": "The document primarily focuses on Leah Mendler, stating that she is the mother of Bridgit Mendler and also has another child named Nick Mendler. It provides various attributes and types associated with Leah Mendler but does not mention Harry Mendler.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' and 'parents' (implicitly through the relationship to Leah Mendler).",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler'.",
+                "Key Information Matching": "The document identifies Leah Mendler as one of Bridgit Mendler's parents, which is partial information relevant to the query.",
+                "Can the Document Answer the Query": "No, the document only provides the name of one parent (Leah Mendler) and lacks the name of the other parent (Harry Mendler).",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the name of one of Bridgit Mendler's parents, which is useful context.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about one of Bridgit Mendler's parents (Leah Mendler), but it does not fully answer the query by missing the name of the other parent (Harry Mendler). Therefore, it offers some context but not a complete answer."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0qf8bfs_0": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document contains detailed information about Harry Mendler, including his relationship to Bridgit Mendler as her father. It also mentions that Harry Mendler is the parent of Nick Mendler, but does not provide the name of Bridgit Mendler's other parent.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' and 'Parents', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Harry Mendler', which matches the answer provided.",
+                "Key Information Matching": "The document confirms that Harry Mendler is the father of Bridgit Mendler, which directly relates to the query and the answer.",
+                "Can the Document Answer the Query": "Partially, as it provides the name of one parent (Harry Mendler) but does not mention the other parent's name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms Harry Mendler as one of Bridgit Mendler's parents, which is directly relevant to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the name of one of Bridgit Mendler's parents, Harry Mendler. While it does not provide the name of the other parent, it still offers substantial useful context and directly answers part of the query. Therefore, it is highly relevant."
+            },
+            "triviaqa_17764_166": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document provides a detailed biography of Bridgit Mendler, including her birthplace, early life, career milestones, and achievements. However, it does not mention her parents' names.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' but does not include 'parents' or 'names'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other parent's name.",
+                "Key Information Matching": "The document does not provide any information about Bridgit Mendler's parents, which is the key information required by the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Bridgit Mendler's parents' names.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the names of Bridgit Mendler's parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Bridgit Mendler's parents, which is the key information required. The document focuses on her career and personal achievements but does not address the query's specific request."
+            },
+            "ott_16189_0": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document lists guests and segments from episodes of 'Live! with Regis and Kelly' during season 23. Bridgit Mendler is mentioned as a guest on April 11.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler', which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other parent's name.",
+                "Key Information Matching": "The document mentions Bridgit Mendler as a guest but does not provide any information about her parents.",
+                "Can the Document Answer the Query": "No, the document does not provide the names of Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about Bridgit Mendler's parents or any context that could help infer their names.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Bridgit Mendler but does not provide any information about her parents. Therefore, it is irrelevant to the query."
+            },
+            "nq_188441_84": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document primarily discusses Bridgit Mendler's career, including her discography, awards, songs, and tours. It does not mention her parents or their names.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' but does not include 'parents' or 'names'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other parent's name.",
+                "Key Information Matching": "The document does not provide any information about Bridgit Mendler's parents or their names.",
+                "Can the Document Answer the Query": "No, the document does not contain the names of Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the names of Bridgit Mendler's parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about Bridgit Mendler's parents or their names. It focuses solely on her career and does not provide any context or additional information related to the query."
+            },
+            "ott_40504_1": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document discusses family relations in professional wrestling, listing various parent-child and in-law relationships. It does not mention Bridgit Mendler or her parents.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to 'Bridgit Mendler' or 'parents'.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Harry Mendler' or any related keywords.",
+                "Key Information Matching": "The document does not provide any information about Bridgit Mendler or her parents.",
+                "Can the Document Answer the Query": "No, the document does not mention Bridgit Mendler or her parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the names of Bridgit Mendler's parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses family relations in professional wrestling and does not mention Bridgit Mendler or her parents. Therefore, it is irrelevant to the query."
+            },
+            "m.0qf8bm3_1": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document contains information about Leah Mendler, who is identified as a parent of Bridgit Mendler. It also mentions Nick Mendler as a child of Leah Mendler, implying that Leah Mendler is a parent.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' and 'parents'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler', but it does mention 'Leah Mendler' as a parent of Bridgit Mendler.",
+                "Key Information Matching": "The document provides information about one of Bridgit Mendler's parents (Leah Mendler) but does not mention Harry Mendler.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of Harry Mendler, one of Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the name of one parent (Leah Mendler) and implies that Leah Mendler is a parent of Bridgit Mendler.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about one of Bridgit Mendler's parents (Leah Mendler) but does not mention the other parent (Harry Mendler). It helps infer some information but does not fully answer the query."
+            },
+            "nq_301867_220": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document lists names of parents and guardians of various individuals, none of whom are Bridgit Mendler or her parents.",
+                "Document and Query Keywords Matching": "The document does not mention 'Bridgit Mendler' or any names associated with her parents.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any names associated with Bridgit Mendler's parents.",
+                "Key Information Matching": "The document does not provide any information about Bridgit Mendler or her parents.",
+                "Can the Document Answer the Query": "No, the document does not mention Bridgit Mendler or her parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Bridgit Mendler or her parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Bridgit Mendler or her parents, nor does it provide any information that could help infer the answer."
+            },
+            "tat_958_1": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document discusses financial and legal matters related to NEXTDC Limited, including its parent entity, subsidiaries, and tax consolidation. It does not mention Bridgit Mendler or her family.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to the query, such as 'Bridgit Mendler', 'parents', or 'names'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any names related to Bridgit Mendler's parents.",
+                "Key Information Matching": "The document does not provide any information related to Bridgit Mendler or her parents.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the names of Bridgit Mendler's parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses financial and legal matters of a company and does not mention Bridgit Mendler, her parents, or any related information. Therefore, it is irrelevant to the query."
+            },
+            "nq_188441_85": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one of Bridgit Mendler's parent's names: Harry Mendler.",
+                "Document Content Analysis": "The document provides information about Bridgit Mendler's career, including her discography, awards, songs, tours, and albums. However, it does not mention any personal details about her family or parents.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler', which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler' or any other parent's name.",
+                "Key Information Matching": "The document does not contain any information about Bridgit Mendler's parents or their names.",
+                "Can the Document Answer the Query": "No, the document does not provide the names of Bridgit Mendler's parents.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the names of Bridgit Mendler's parents.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Bridgit Mendler's professional career and does not mention any personal details about her family or parents. Therefore, it is irrelevant to the query, which specifically asks for the names of her parents."
+            },
+            "m.0qf8bm3_0": {
+                "Query Analysis": "The query asks for the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provides one parent's name: Harry Mendler.",
+                "Document Content Analysis": "The document provides information about Leah Mendler, who is identified as the mother of Bridgit Mendler. It also mentions Nick Mendler as another child of Leah Mendler. However, the document does not mention Harry Mendler or any other parent of Bridgit Mendler.",
+                "Document and Query Keywords Matching": "The document mentions 'Bridgit Mendler' and 'parents' in the context of Leah Mendler being her mother.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Harry Mendler', the name provided in the answer.",
+                "Key Information Matching": "The document identifies Leah Mendler as the mother of Bridgit Mendler, which is partially relevant to the query. However, it does not provide information about Harry Mendler or any other parent.",
+                "Can the Document Answer the Query": "No, the document does not provide the names of both parents of Bridgit Mendler.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the name of one parent (Leah Mendler), which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides the name of one parent (Leah Mendler) but does not mention Harry Mendler or any other parent. It offers some useful context but does not fully answer the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0qf8bfs_0": {
+                "Query Analysis": "The query is seeking the names of Bridgit Mendler's parents.",
+                "Query Keywords Extraction": "Bridgit Mendler, parents, names",
+                "Answer Analysis": "The answer provided is 'Harry Mendler'.",
+                "Document Content Analysis": "The document contains various properties and relations about Harry Mendler, identifying him as Bridgit Mendler's father and a person. It also provides multiple labels and mentions of Harry Mendler.",
+                "Document and Query Keywords Matching": "The document includes 'Bridgit Mendler' and 'parents', which matches with the query.",
+                "Document and Answer Keywords Matching": "The document contains 'Harry Mendler', which matches the answer.",
+                "Key Information Matching": "The document provides direct evidence that Harry Mendler is Bridgit Mendler's father, addressing the query about her parent's name.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions that Harry Mendler is the father of Bridgit Mendler.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No further inference is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant as it provides substantial and specific information confirming that Harry Mendler is a parent of Bridgit Mendler, thereby effectively answering the query."
+            },
+            "triviaqa_17764_166": {},
+            "ott_16189_0": {},
+            "nq_188441_84": {},
+            "ott_40504_1": {},
+            "m.0qf8bm3_1": {},
+            "nq_301867_220": {},
+            "tat_958_1": {},
+            "nq_188441_85": {},
+            "m.0qf8bm3_0": {}
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "dataset_score": {
+            "ott": 0,
+            "nq": 0,
+            "kg": 4,
+            "triviaqa": 0,
+            "tat": 0
+        }
+    }
+}

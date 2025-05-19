@@ -1,0 +1,1375 @@
+{
+    "index": 2759,
+    "context": [
+        "# SAP ERP\n\nFrom Wikipedia, the free encyclopedia\n\nJump to: navigation, search\n\n![Ambox scales.svg](//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ambox_scales.svg/40px-Ambox_scales.svg.png) |  This article **has been nominated to be checked for its[neutrality](/wiki/Wikipedia:Neutral_point_of_view \"Wikipedia:Neutral point of view\")**. Discussion of this nomination can be found on the [talk page](/wiki/Talk:SAP_ERP \"Talk:SAP ERP\"). _(December 2017)_ _([Learn how and when to remove this template message](/wiki/Help:Maintenance_template_removal \"Help:Maintenance template removal\"))_  \n---|---  \nERP [Developer(s)](/wiki/Software_developer \"Software developer\") | [SAP SE](/wiki/SAP_SE \"SAP SE\")  \n---|---  \nWritten in | [C](/wiki/C_\\(programming_language\\) \"C \\(programming language\\)\"), [C++](/wiki/C%2B%2B \"C++\"), [ABAP/4](/wiki/ABAP \"ABAP\")[1]  \n[Type](/wiki/Software_categories#Categorization_approaches \"Software categories\") | [ERP](/wiki/Enterprise_resource_planning \"Enterprise resource planning\")  \nWebsite | [www.sap.com/products/erp.html](https://www.sap.com/products/erp.html)  \n  \n**SAP ERP**[2] is [enterprise resource\nplanning](/wiki/Enterprise_resource_planning \"Enterprise resource planning\")\nsoftware developed by the German company [SAP SE](/wiki/SAP_SE \"SAP SE\"). SAP\nERP incorporates the key business functions of an organization. The latest\nversion (SAP ERP 6.0) was made available in 2006. The most recent Enhancement\nPackage (EHP8) for SAP ERP 6.0 was released in 2016.[3]\n\nBusiness Processes included in SAP ERP are Operations ([Sales](/wiki/Sales\n\"Sales\") & [Distribution](/wiki/Distribution_\\(business\\) \"Distribution\n\\(business\\)\"), [Materials Management](/wiki/Materials_management \"Materials\nmanagement\"), [Production Planning](/wiki/Production_planning \"Production\nplanning\"), [Logistics](/wiki/Logistics \"Logistics\") Execution, and [Quality\nManagement](/wiki/Quality_management \"Quality management\")), Financials\n([Financial Accounting](/wiki/Financial_accounting \"Financial accounting\"),\n[Management Accounting](/wiki/Management_accounting \"Management accounting\"),\nFinancial Supply Chain Management), [Human Capital\nManagement](/wiki/Human_Capital_Management \"Human Capital Management\")\n([Training](/wiki/Training \"Training\"), [Payroll](/wiki/Payroll \"Payroll\"),\ne-Recruiting) and [Corporate Services](/wiki/Corporate_services \"Corporate\nservices\") ([Travel Management](/wiki/Travel_management \"Travel management\"),\n[Environment, Health and Safety](/wiki/Environment,_health_and_safety\n\"Environment, health and safety\"), and [Real-Estate](/wiki/Real_estate \"Real\nestate\") Management).[4]\n\n## Contents\n\n[hide]\n\n  * 1 Development\n  * 2 Implementation\n  * 3 Deployment and maintenance costs\n  * 4 SAP Transport Management System\n  * 5 ERP advantages and disadvantages\n  * 6 Releases\n    * 6.1 SAP Enhancement Packages for SAP ERP 6.0 (SAP EhPs)\n  * 7 See also\n  * 8 References\n  * 9 External links\n\n## Development[[edit](/w/index.php?title=SAP_ERP&action=edit&section=1 \"Edit\nsection: Development\")]\n\nAn ERP was built based on the former [SAP R/3](/wiki/SAP_R/3 \"SAP R/3\")\nsoftware. SAP R/3, which was officially launched on 6 July 1992, consisted of\nvarious applications on top of SAP Basis, SAP's set of [middle\nware](/w/index.php?title=Middle_ware&action=edit&redlink=1 \"Middle ware \\(page\ndoes not exist\\)\") programs and tools. All applications were built on top of\nthe [SAP Web Application Server](/wiki/SAP_Web_Application_Server \"SAP Web\nApplication Server\"). Extension sets were used to deliver new features and\nkeep the core as stable as possible. The Web Application Server contained all\nthe capabilities of SAP Basis.\n\nA complete architecture change took place with the introduction of mySAP ERP\nin 2004. R/3 Enterprise was replaced with the introduction of ERP Central\nComponent (SAP ECC). The SAP Business Warehouse, SAP Strategic Enterprise\nManagement and Internet Transaction Server were also merged into SAP ECC,\nallowing users to run them under one instance. The SAP Web Application Server\nwas wrapped into SAP [NetWeaver](/wiki/NetWeaver \"NetWeaver\"), which was\nintroduced in 2003. Architectural changes were also made to support an\nenterprise service architecture to transition customers to a [Service-oriented\narchitecture](/wiki/Service-oriented_architecture \"Service-oriented\narchitecture\").[5]\n\nThe latest version, SAP ERP 6.0, was released in 2006. SAP ERP 6.0 has since\nthen been updated through SAP enhancement packs, the most recent: SAP\nenhancement package 8 for SAP ERP 6.0 in 2016...\n\n## Implementation[[edit](/w/index.php?title=SAP_ERP&action=edit&section=2\n\"Edit section: Implementation\")]\n\nSAP ERP consists of several modules, including Financial Accounting (FI),\nControlling (CO), Asset Accounting (AA), Sales & Distribution (SD), Material\nManagement (MM), Product Planning (PP), Quality Management (QM), Project\nSystem (PS), Plant Maintenance (PM), Human Resources (HR).[6] SAP ERP collects\nand combines data from the separate modules to provide the company or\norganization with enterprise resource planning.\n\nTypical implementation phases:[7]\n\n  * Phase 1 - Project Preparation\n  * Phase 2 - Business Blueprint\n  * Phase 3 - Realization\n  * Phase 4 - Final Preparation\n  * Phase 5 - Golive Support\n\nCompanies planning to implement or upgrade an SAP ERP system should pay strict\nattention to system integration to save their SAP ERP implementation from\nfailure. With system integration in place, data flows move completely and\ncorrectly among various SAP ERP components, thereby not only streamlining\nbusiness processes but also eliminating or minimizing redundant data entry\nefforts.[8]\n\nAnalyst firm [Gartner](/wiki/Gartner \"Gartner\") estimates that 55% to 75% of\nall ERP projects fail to meet their objectives…Of the top 10 barriers to a\nsuccessful ERP journey, 5 can be addressed by developing and implementing a\nstructured change management\nprogram.[[1]](https://www2.deloitte.com/content/dam/Deloitte/mx/Documents/human-\ncapital/01_ERP_Top10_Challenges.pdf)\n\n## Deployment and maintenance\ncosts[[edit](/w/index.php?title=SAP_ERP&action=edit&section=3 \"Edit section:\nDeployment and maintenance costs\")]\n\nIt is estimated that \"for a Fortune 500 company, software, hardware, and\nconsulting costs can easily exceed $100 million (around $50 million to $500\nmillion). Large companies can also spend $50 million to $100 million on\nupgrades. Full implementation of all modules can take years,\" which also adds\nto the end price. Midsized companies (fewer than 1,000 employees) are more\nlikely to spend around $10 million to $20 million at most, and small companies\nare not likely to have the need for a fully integrated SAP ERP system unless\nthey have the likelihood of becoming midsized and then the same data applies\nas would a midsized company.[9] Independent studies have shown that deployment\nand maintenance costs of a SAP solution can greatly vary depending on the\norganization. For example, some point out that because of the rigid model\nimposed by SAP tools, a lot of customization code to adapt to the business\nprocess may have to be developed and maintained.[10] Some others pointed out\nthat a [return on investment](/wiki/Return_on_investment \"Return on\ninvestment\") could only be obtained when there was both a sufficient number of\nusers and sufficient frequency of use.[11][12] Deploying SAP itself can also\ninvolve a lot of time and resources.[13]\n\n## SAP Transport Management\nSystem[[edit](/w/index.php?title=SAP_ERP&action=edit&section=4 \"Edit section:\nSAP Transport Management System\")]\n\nSAP Transport Management System (TMS) is a tool within SAP ERP systems to\nmanage software updates, termed _[transports](/wiki/Transport_\\(SAP\\)\n\"Transport \\(SAP\\)\")_ , on one or more connected SAP systems. This should not\nbe confused with SAP Transportation Management, a stand-alone module for\nfacilitating logistics and supply chain management in the transportation of\ngoods and materials.\n\n## ERP advantages and\ndisadvantages[[edit](/w/index.php?title=SAP_ERP&action=edit&section=5 \"Edit\nsection: ERP advantages and disadvantages\")]\n\nAdvantages\n\n  * Allows easier global integration (barriers of currency exchange rates, language, and culture can be bridged automatically)\n  * Updates only need to be done once to be implemented company-wide\n  * Provides real-time information, reducing the possibility of redundancy errors\n  * May create a more efficient work environment for employees[9]\n  * Vendors have past knowledge and expertise on how to best build and implement a system\n  * [User interface](/wiki/User_interface \"User interface\") is completely customizable allowing end users to dictate the operational structure of the product\n\nDisadvantages\n\n  * Locked into relationship by contract and manageability with vendor - a contract can hold a company to the vendor until it expires and it can be unprofitable to switch vendors if [switching costs](/wiki/Switching_barriers \"Switching barriers\") are too high\n  * Inflexibility - vendor packages may not fit a company's business model well and customization can be expensive\n  * [Return on Investment](/wiki/Rate_of_return \"Rate of return\") may take too long to be profitable\n  * Implementations have a risk of project failure[9]\n\n## Releases[[edit](/w/index.php?title=SAP_ERP&action=edit&section=6 \"Edit\nsection: Releases\")]\n\n  * SAP R/1 System RF: 1973\n  * [SAP R/2](/wiki/SAP_R/2 \"SAP R/2\") Mainframe System: 1979\n  * [SAP R/3](/wiki/SAP_R/3 \"SAP R/3\") Enterprise Edition 1.0 A: July 1992\n  * SAP R/3 Enterprise Edition 3.0B (SAP R/3 4.0B): 6 April 1998\n  * SAP R/3 Enterprise Edition 3.1l (SAP R/3 3.1I): 11 May 1998\n  * SAP R/3 Enterprise Edition 4.3 (SAP R/3 4.3): June 1998\n  * SAP R/3 Enterprise Edition 4.5B (SAP R/3 4.5B): 29 March 1999\n  * SAP R/3 Enterprise Edition 4.6B (SAP R/3 4.6B): 6 December 1999\n  * SAP R/3 Enterprise Edition 4.6C (SAP R/3 4.6C): 3 April 2000\n  * SAP R/3 Enterprise Edition 4.6F\n  * SAP R/3 ENTERPRISE 47X110: 15 July 2002\n  * SAP R/3 ENTERPRISE 47X200: 22 September 2003\n  * SAP ERP Central Component (ECC) 5.0: 21 June 2004\n  * SAP ERP Central Component (ECC) 6.0: 24 October 2005\n\n### SAP Enhancement Packages for SAP ERP 6.0 (SAP\nEhPs)[[edit](/w/index.php?title=SAP_ERP&action=edit&section=7 \"Edit section:\nSAP Enhancement Packages for SAP ERP 6.0 \\(SAP EhPs\\)\")]\n\nThe latest version (SAP ERP 6.0) was made available in 2006. Since then,\nadditional functionality for SAP ERP 6.0 has been delivered through SAP\nEnhancement Packages (EhP).[14] These Enhancement Packages allow SAP ERP\ncustomers to manage and deploy new software functionality.[15] Enhancement\nPackages are optional; customers choose which new capabilities to\nimplement.[16]\n\nSAP EhPs do not require a classic system upgrade.[17] The\n[installation](/wiki/Installation_\\(computer_programs\\) \"Installation\n\\(computer programs\\)\") process of Enhancement Packages consists of two\ndifferent steps:\n\n  * Technical installation of an Enhancement Package\n  * Activation of new functions\n\nThe technical installation of business functions does not change the system\nbehavior. The installation of new functionalities is decoupled from its\nactivation and companies can choose which business functions they want to\nactivate. This means that even after installing a new business function, there\nis no change to existing functionality before activation. Activating a\nbusiness function for one process will have no effect on users working with\nother functionalities.[18] The most recent SAP Enhancement Package for SAP ERP\n6.0 was EhP8, which was released in 2016. EhP8 delivers innovations and serves\nas a foundation to transition to SAP’s new business suite: [SAP\nS/4HANA](/wiki/SAP_S/4HANA \"SAP S/4HANA\").[19]\n\nSAP EhP Releases\n\n  * SAP enhancement package 1 for SAP ERP 6.0 (EHP1 FOR SAP ERP 6.0): 21 December 2006\n  * SAP enhancement package 2 for SAP ERP 6.0 (EHP2 FOR SAP ERP 6.0): 27 July 2007\n  * SAP enhancement package 3 for SAP ERP 6.0 (EHP3 FOR SAP ERP 6.0): 7 December 2007\n  * SAP enhancement package 4 for SAP ERP 6.0 (EHP4 FOR SAP ERP 6.0): 21 November 2008\n  * SAP enhancement package 4 for SAP ERP 6.0 on SAP enhancement package for SAP NetWeaver 7.0 (EHP4 FOR SAP ERP 6.0 / NW7.01): 21 November 2008\n  * SAP enhancement package 5 for SAP ERP 6.0 (EHP5 FOR SAP ERP 6.0): 12 July 2010\n  * SAP enhancement package 6 for SAP ERP 6.0 (EHP6 FOR SAP ERP 6.0): 24 August 2011\n  * SAP enhancement package 7 for SAP ERP 6.0 (EHP7 FOR SAP ERP 6.0): 13 August 2013\n  * SAP Fiori 1.0 for SAP ERP (UI FOR EHP7 FOR SAP ERP 6.0): 29 November 2013\n  * SAP enhancement package 8 for SAP ERP 6.0 (EHP8 FOR SAP ERP 6.0): 20 January 2016\n\n## See also[[edit](/w/index.php?title=SAP_ERP&action=edit&section=8 \"Edit\nsection: See also\")]\n\n  * [SAP NetWeaver](/wiki/SAP_NetWeaver \"SAP NetWeaver\")\n  * [SOA](/wiki/Service-oriented_architecture \"Service-oriented architecture\")\n  * [List of ERP software packages](/wiki/List_of_ERP_software_packages \"List of ERP software packages\")\n  * [SAPgui](/wiki/SAPgui \"SAPgui\")\n  * [Secure Network Communications](/wiki/Secure_Network_Communications \"Secure Network Communications\")\n  * [Secure Socket Layer](/wiki/Secure_Socket_Layer \"Secure Socket Layer\")\n  * [T-code](/wiki/T-code \"T-code\")\n  * [GuiXT](/wiki/GuiXT \"GuiXT\")\n\n## References[[edit](/w/index.php?title=SAP_ERP&action=edit&section=9 \"Edit\nsection: References\")]\n\n  1. **Jump up ^** Lextrait, Vincent (January 2010). [\"The Programming Languages Beacon, v10.0\"](http://www.lextrait.com/Vincent/implementations.html). Retrieved 14 March 2010.\n  2. **Jump up ^** [\"Brief History of SAP ERP Applications - R/3 and ECC\"](https://www.youtube.com/watch?v=7qpOgx99S9E) on [YouTube](/wiki/YouTube \"YouTube\")\n  3. **Jump up ^** [\"Overview SAP Enhancement Packages - SAP Enhancement Packages - SCN Wiki\"](https://wiki.scn.sap.com/wiki/display/EHP/Overview+SAP+Enhancement+Packages). _wiki.scn.sap.com_. Retrieved 2017-03-21.\n  4. **Jump up ^** Boeder, Jochen; Groene, Bernhard (2014-03-06). [_The Architecture of SAP ERP: Understand how successful software works_](https://books.google.com/books?id=hcsZAwAAQBAJ&lpg=PT289&dq=sap%2520erp&pg=PT16#v=onepage&q=sap%2520erp&f=false). tredition. [ISBN](/wiki/International_Standard_Book_Number \"International Standard Book Number\") [9783849576622](/wiki/Special:BookSources/9783849576622 \"Special:BookSources/9783849576622\").\n  5. **Jump up ^** Darmawan, Budi; Dvorak, Miroslav; Harnal, Dhruv; Murugan, Rennad; Silva, Marcos (2009). [_SAP Backup using Tivoli Storage Manager_](https://www.redbooks.ibm.com/redbooks/pdfs/sg247686.pdf) (PDF). ibm.com/redbooks. pp. 8–10. [ISBN](/wiki/International_Standard_Book_Number \"International Standard Book Number\") [0738432970](/wiki/Special:BookSources/0738432970 \"Special:BookSources/0738432970\").\n  6. **Jump up ^** [\"About SAP Modules - SAP Modules List Overview\"](http://www.saponlinetutorials.com/about-sap-modules-sap-modules-list-overview/). _www.saponlinetutorials.com_. Retrieved 2017-02-15.\n  7. **Jump up ^** [\"SAP Project - A Step-by-step SAP Implementation Guide\"](https://www.udemy.com/sap-project/). _Udemy_. Retrieved 2017-02-15.\n  8. **Jump up ^** [\"Prevent SAP ERP implementation failure\"](http://searchsap.techtarget.com/tip/Prevent-SAP-ERP-implementation-failure). _SearchSAP_. Retrieved 2017-02-15.\n  9. ^ Jump up to: _**a**_ _**b**_ _**c**_ Monk, Ellen F.; Wagner, Brej J. (2009). _Concepts in enterprise resource planning_ (3rd ed.). Boston: Thomson Course Technology. pp. 23–34. [ISBN](/wiki/International_Standard_Book_Number \"International Standard Book Number\") [978-1-4239-0179-2](/wiki/Special:BookSources/978-1-4239-0179-2 \"Special:BookSources/978-1-4239-0179-2\").\n  10. **Jump up ^** Everett, Cath (2008-02-13). [\"Companies warned over custom SAP costs\"](http://news.zdnet.co.uk/software/0,1000000121,39292842,00.htm). UK: zdnet. Retrieved 2009-03-08. \"_Around 90 percent of European SAP customers could save six- or seven quid each year by avoiding the creation of bespoke code on top of the ERP platform, an IT consultant has claimed_\"\n  11. **Jump up ^** Vance, Ashlee (2003-03-31). [\"SAP costs too much – customers ROI challenged\"](https://www.theregister.co.uk/2003/03/31/sap_costs_too_much_customers/). UK: The Register. Retrieved 2009-03-08.\n  12. **Jump up ^** [\"Nucleus Research finds 57 percent of SAP Reference Customers have not Achieved a Positive ROI\"](http://nucleusresearch.com/news/press-releases/nucleus-research-finds-57-percent-of-sap-reference-customers-have-not-achieved-a-positive-roi/). Nucleus Research. 2003-03-31. Retrieved 2009-03-08. \"_Customers will see benefits after lengthy implementations, but many deployments anchored down by excessive consulting costs_\"\n  13. **Jump up ^** [\"How to plan your budget for SAP\"](https://www.fingent.com/blog/why-choose-sap-and-how-to-plan-your-budget-for-it). USA: Fingent. Retrieved 2015-11-03.\n  14. **Jump up ^** Harvey, Tesha; Schattka, Karin (15 December 2009). [\"SAP ERP 6.0\"](https://wiki.scn.sap.com/wiki/display/ESpackages/SAP+ERP+6.0). SAP Community WIKI. Retrieved 2 August 2017.\n  15. **Jump up ^** Naveh, Moshe (24 December 2014). [\"Overview SAP Enhancement Packages\"](https://wiki.scn.sap.com/wiki/display/EHP/Overview+SAP+Enhancement+Packages). SAP Community WIKI. Retrieved 2 August 2017.\n  16. **Jump up ^** Bui, Vi (11 January 2006). [\"THE RELEASE CHANGE CHALLENGE\"](http://www.noventum.de/en/novum-article/release-change-challenge.html). Noventum. Retrieved 2 August 2017.\n  17. **Jump up ^** Oehler, Christian; Weiss, Thomas (15 December 2009). [\"Get Ready to Implement SAP Enhancement Packages for SAP ERP 6.0\"](http://sapexperts.wispubs.com/SAP-Professional-Journal/articles/get-ready-to-implement-sap-enhancement-packages-for-sap-erp-6-0?id=5beead2544df4ccd94aeeba725449afb#.WUhciWiGNPY). SAP Experts. Retrieved 2 August 2017.\n  18. **Jump up ^** Thomas, Weiss; Christian, Oehler (1 January 2009). [\"Innovation Without Disruption: A Deep Dive into SAP's Enhancement Package Strategy for SAP ERP\"](http://sapinsider.wispubs.com/Assets/Articles/2009/January/Innovation-Without-Disruption-A-Deep-Dive-Into-SAPs-Enhancement-Package-Strategy-For-SAP-ERP). SAPinsider. Retrieved 2 August 2017.\n  19. **Jump up ^** Rau, Sabine (13 April 2016). [\"SAP ERP Enhancement Package 8, what is new?\"](https://blogs.sap.com/2016/04/13/relased-in-the-first-quarter-2016-enhancement-package-8-what-is-new/). SAP Blogs. Retrieved 2 August 2017.\n\n  * Gargeya, VB 2005, ‘Success and failure factors of adopting SAP in ERP system implementation’, Business Process Management Journal, Vol.11, No.5, pp501–516, Retrieved 21/04/2010.\n  * In White Paper Review, Industry Week OCT 2009, ‘ERP Best Practices: The SaaS Difference, Plex Systems, Retrieved 21/04/2012.\n  * Malhorta, A & Temponi, C 2010, ‘Critical decisions for ERP integration: Small business issues’, International Journal of Information Management, Vol. 30, Issue No.1, Pages 28–37, 21/04/2010, Science Direct.\n\n## External links[[edit](/w/index.php?title=SAP_ERP&action=edit&section=10\n\"Edit section: External links\")]\n\n  * [Official website](https://www.sap.com/products/erp.html)\n\n[hide]\n\n  * [v](/wiki/Template:ERP_software \"Template:ERP software\")\n  * [t](/w/index.php?title=Template_talk:ERP_software&action=edit&redlink=1 \"Template talk:ERP software \\(page does not exist\\)\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:ERP_software&action=edit)\n\n[ERP software](/wiki/ERP_software \"ERP software\")  \n---  \n  \n  * [List of ERP software packages](/wiki/List_of_ERP_software_packages \"List of ERP software packages\")\n\n  \nOpen-source | \n\n  * [Adaxa Suite](/wiki/Adaxa_Suite \"Adaxa Suite\")\n  * [Adempiere](/wiki/Adempiere \"Adempiere\")\n  * [Apache OFBiz](/wiki/Apache_OFBiz \"Apache OFBiz\")\n  * [Compiere](/wiki/Compiere \"Compiere\")\n  * [Dolibarr](/wiki/Dolibarr \"Dolibarr\")\n  * [Epesi](/wiki/Epesi \"Epesi\")\n  * [ERP5](/wiki/ERP5 \"ERP5\")\n  * [ERPNext](/wiki/ERPNext \"ERPNext\")\n  * [GNU Enterprise](/wiki/GNU_Enterprise \"GNU Enterprise\")\n  * [HeliumV](/wiki/HeliumV \"HeliumV\")\n  * [iDempiere](/wiki/IDempiere \"IDempiere\")\n  * [inoERP](/wiki/InoERP \"InoERP\")\n  * [IntarS](/wiki/IntarS \"IntarS\")\n  * [Kuali](/wiki/Kuali \"Kuali\")\n  * [LedgerSMB](/wiki/LedgerSMB \"LedgerSMB\")\n  * [metasfresh](/wiki/Metasfresh \"Metasfresh\")\n  * [Odoo](/wiki/Odoo \"Odoo\")\n  * [Openbravo ERP](/wiki/Openbravo#Openbravo_ERP \"Openbravo\")\n  * [Postbooks](/wiki/Postbooks \"Postbooks\")\n  * [Tryton](/wiki/Tryton \"Tryton\")\n\n  \nCommercial | \n\n  * [Acumatica](/wiki/Acumatica \"Acumatica\")\n  * [Eclipse ERP](/wiki/Eclipse_ERP \"Eclipse ERP\")\n  * [FinancialForce.com](/wiki/FinancialForce.com \"FinancialForce.com\")\n  * [JD Edwards Enterprise One](/wiki/JD_Edwards \"JD Edwards\")\n  * [Microsoft Dynamics 365](/wiki/Dynamics_365 \"Dynamics 365\")\n  * [NetSuite](/wiki/NetSuite \"NetSuite\")\n  * [Oracle ERP Cloud](/wiki/Oracle_Enterprise_Resource_Planning_Cloud \"Oracle Enterprise Resource Planning Cloud\")\n  * [Oracle Applications](/wiki/Oracle_Applications \"Oracle Applications\")\n  * [Sage 300](/wiki/Sage_300 \"Sage 300\")\n  * SAP ERP\n  * [Tally Solutions](/wiki/Tally_Solutions \"Tally Solutions\")\n  * [Traverse](/wiki/Traverse_\\(software\\) \"Traverse \\(software\\)\")\n  * [Unit4 Business World](/wiki/Unit4 \"Unit4\")\n\n  \n  \n  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) [Category](/wiki/Category:ERP_software \"Category:ERP software\")\n\n  \n  \n![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)\n\nRetrieved from\n\"[https://en.wikipedia.org/w/index.php?title=SAP_ERP&oldid=841982333](https://en.wikipedia.org/w/index.php?title=SAP_ERP&oldid=841982333)\"\n\n[Categories](/wiki/Help:Category \"Help:Category\"):\n\n  * [SAP SE](/wiki/Category:SAP_SE \"Category:SAP SE\")\n  * [ERP software](/wiki/Category:ERP_software \"Category:ERP software\")\n\nHidden categories:\n\n  * [Articles needing POV-check from December 2017](/wiki/Category:Articles_needing_POV-check_from_December_2017 \"Category:Articles needing POV-check from December 2017\")\n  * [Official website different in Wikidata and Wikipedia](/wiki/Category:Official_website_different_in_Wikidata_and_Wikipedia \"Category:Official website different in Wikidata and Wikipedia\")\n\n## Navigation menu\n\n### Personal tools\n\n  * Not logged in\n  * [Talk](/wiki/Special:MyTalk \"Discussion about edits from this IP address \\[ctrl-alt-n\\]\")\n  * [Contributions](/wiki/Special:MyContributions \"A list of edits made from this IP address \\[ctrl-alt-y\\]\")\n  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=SAP+ERP \"You are encouraged to create an account and log in; however, it is not mandatory\")\n  * [Log in](/w/index.php?title=Special:UserLogin&returnto=SAP+ERP \"You're encouraged to log in; however, it's not mandatory. \\[ctrl-alt-o\\]\")\n\n### Namespaces\n\n  * [Article](/wiki/SAP_ERP \"View the content page \\[ctrl-alt-c\\]\")\n  * [Talk](/wiki/Talk:SAP_ERP \"Discussion about the content page \\[ctrl-alt-t\\]\")\n\n###  Variants\n\n### Views\n\n  * [Read](/wiki/SAP_ERP)\n  * [Edit](/w/index.php?title=SAP_ERP&action=edit \"Edit this page \\[ctrl-alt-e\\]\")\n  * [View history](/w/index.php?title=SAP_ERP&action=history \"Past revisions of this page \\[ctrl-alt-h\\]\")\n\n### More\n\n###  Search\n\n[](/wiki/Main_Page \"Visit the main page\")\n\n### Navigation\n\n  * [Main page](/wiki/Main_Page \"Visit the main page \\[ctrl-alt-z\\]\")\n  * [Contents](/wiki/Portal:Contents \"Guides to browsing Wikipedia\")\n  * [Featured content](/wiki/Portal:Featured_content \"Featured content – the best of Wikipedia\")\n  * [Current events](/wiki/Portal:Current_events \"Find background information on current events\")\n  * [Random article](/wiki/Special:Random \"Load a random article \\[ctrl-alt-x\\]\")\n  * [Donate to Wikipedia](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en \"Support us\")\n  * [Wikipedia store](//shop.wikimedia.org \"Visit the Wikipedia store\")\n\n### Interaction\n\n  * [Help](/wiki/Help:Contents \"Guidance on how to use and edit Wikipedia\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Find out about Wikipedia\")\n  * [Community portal](/wiki/Wikipedia:Community_portal \"About the project, what you can do, where to find things\")\n  * [Recent changes](/wiki/Special:RecentChanges \"A list of recent changes in the wiki \\[ctrl-alt-r\\]\")\n  * [Contact page](//en.wikipedia.org/wiki/Wikipedia:Contact_us \"How to contact Wikipedia\")\n\n### Tools\n\n  * [What links here](/wiki/Special:WhatLinksHere/SAP_ERP \"List of all English Wikipedia pages containing links to this page \\[ctrl-alt-j\\]\")\n  * [Related changes](/wiki/Special:RecentChangesLinked/SAP_ERP \"Recent changes in pages linked from this page \\[ctrl-alt-k\\]\")\n  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard \"Upload files \\[ctrl-alt-u\\]\")\n  * [Special pages](/wiki/Special:SpecialPages \"A list of all special pages \\[ctrl-alt-q\\]\")\n  * [Permanent link](/w/index.php?title=SAP_ERP&oldid=841982333 \"Permanent link to this revision of the page\")\n  * [Page information](/w/index.php?title=SAP_ERP&action=info \"More information about this page\")\n  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q167533 \"Link to connected data repository item \\[ctrl-alt-g\\]\")\n  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=SAP_ERP&id=841982333 \"Information on how to cite this page\")\n\n### Print/export\n\n  * [Create a book](/w/index.php?title=Special:Book&bookcmd=book_creator&referer=SAP+ERP)\n  * [Download as PDF](/w/index.php?title=Special:ElectronPdf&page=SAP+ERP&action=show-download-screen)\n  * [Printable version](/w/index.php?title=SAP_ERP&printable=yes \"Printable version of this page \\[ctrl-alt-p\\]\")\n\n### In other projects\n\n  * [Wikibooks](https://en.wikibooks.org/wiki/SAP_ERP)\n\n### Languages\n\n  * [Alemannisch](https://als.wikipedia.org/wiki/SAP_ERP \"SAP ERP – Alemannisch\")\n  * [Čeština](https://cs.wikipedia.org/wiki/MySAP \"MySAP – Czech\")\n  * [Deutsch](https://de.wikipedia.org/wiki/SAP_ERP \"SAP ERP – German\")\n  * [فارسی](https://fa.wikipedia.org/wiki/SAP_ERP \"SAP ERP – Persian\")\n  * [Français](https://fr.wikipedia.org/wiki/SAP_\\(progiciel\\) \"SAP \\(progiciel\\) – French\")\n  * [Italiano](https://it.wikipedia.org/wiki/SAP_ERP \"SAP ERP – Italian\")\n  * [Nederlands](https://nl.wikipedia.org/wiki/MySAP_ERP \"MySAP ERP – Dutch\")\n  * [Polski](https://pl.wikipedia.org/wiki/SAP_ERP \"SAP ERP – Polish\")\n  * [Português](https://pt.wikipedia.org/wiki/SAP_ERP \"SAP ERP – Portuguese\")\n  * [Slovenčina](https://sk.wikipedia.org/wiki/SAP_ERP \"SAP ERP – Slovak\")\n  * [తెలుగు](https://te.wikipedia.org/wiki/%E0%B0%B6%E0%B0%BE%E0%B0%AA%E0%B1%8D\\(SAP\\) \"శాప్\\(SAP\\) – Telugu\")\n  * [ไทย](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B9%80%E0%B8%AD%E0%B8%9E%E0%B8%B5_%E0%B8%AD%E0%B8%B5%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B5 \"เอสเอพี อีอาร์พี – Thai\")\n5 more\n\n[Edit\nlinks](https://www.wikidata.org/wiki/Special:EntityPage/Q167533#sitelinks-\nwikipedia \"Edit interlanguage links\")\n\n  * This page was last edited on 19 May 2018, at 11:49.\n  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)[](//creativecommons.org/licenses/by-sa/3.0/); additional terms may apply. By using this site, you agree to the [Terms of Use](//wikimediafoundation.org/wiki/Terms_of_Use) and [Privacy Policy](//wikimediafoundation.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.\n\n  * [Privacy policy](https://wikimediafoundation.org/wiki/Privacy_policy \"wmf:Privacy policy\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Wikipedia:About\")\n  * [Disclaimers](/wiki/Wikipedia:General_disclaimer \"Wikipedia:General disclaimer\")\n  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)\n  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)\n  * [Cookie statement](https://wikimediafoundation.org/wiki/Cookie_statement)\n  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=SAP_ERP&mobileaction=toggle_view_mobile)\n  * Enable previews\n\n  * [![Wikimedia Foundation](/static/images/wikimedia-button.png)](https://wikimediafoundation.org/)\n  * [![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)](//www.mediawiki.org/)\n\n  *[v]: View this template\n  *[t]: Discuss this template\n  *[e]: Edit this template\n\n"
+    ],
+    "qa": {
+        "question": "what is the meaning of sap erp system",
+        "answer": "['enterprise resource planning software']",
+        "BM25_documents": [
+            {
+                "id": "nq_2759_9",
+                "score": 19.842100143432617
+            },
+            {
+                "id": "nq_2759_4",
+                "score": 18.10770034790039
+            },
+            {
+                "id": "nq_2759_8",
+                "score": 17.899900436401367
+            },
+            {
+                "id": "nq_2759_17",
+                "score": 17.695999145507812
+            },
+            {
+                "id": "nq_2759_6",
+                "score": 17.53030014038086
+            },
+            {
+                "id": "nq_2759_5",
+                "score": 17.350099563598633
+            },
+            {
+                "id": "nq_2759_3",
+                "score": 17.02120018005371
+            },
+            {
+                "id": "nq_2759_1",
+                "score": 16.85569953918457
+            },
+            {
+                "id": "nq_2759_2",
+                "score": 16.675199508666992
+            },
+            {
+                "id": "nq_215028_1",
+                "score": 16.637500762939453
+            },
+            {
+                "id": "nq_215028_0",
+                "score": 16.339399337768555
+            },
+            {
+                "id": "nq_2759_10",
+                "score": 16.163400650024414
+            },
+            {
+                "id": "nq_2759_26",
+                "score": 15.964599609375
+            },
+            {
+                "id": "nq_2759_11",
+                "score": 15.745100021362305
+            },
+            {
+                "id": "nq_2759_7",
+                "score": 15.715999603271484
+            },
+            {
+                "id": "nq_2759_25",
+                "score": 15.696000099182129
+            },
+            {
+                "id": "nq_72118_16",
+                "score": 15.691100120544434
+            },
+            {
+                "id": "nq_2759_0",
+                "score": 15.589200019836426
+            },
+            {
+                "id": "nq_72118_17",
+                "score": 15.498700141906738
+            },
+            {
+                "id": "nq_2759_16",
+                "score": 15.337900161743164
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "nq_2759_9",
+                "score": 19.842100143432617
+            },
+            {
+                "id": "nq_2759_4",
+                "score": 18.10770034790039
+            },
+            {
+                "id": "nq_2759_8",
+                "score": 17.899900436401367
+            },
+            {
+                "id": "nq_2759_17",
+                "score": 17.695999145507812
+            },
+            {
+                "id": "nq_2759_6",
+                "score": 17.53030014038086
+            },
+            {
+                "id": "nq_2759_5",
+                "score": 17.350099563598633
+            },
+            {
+                "id": "nq_2759_3",
+                "score": 17.02120018005371
+            },
+            {
+                "id": "nq_2759_1",
+                "score": 16.85569953918457
+            },
+            {
+                "id": "nq_2759_2",
+                "score": 16.675199508666992
+            },
+            {
+                "id": "nq_2759_10",
+                "score": 16.163400650024414
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_1425_0",
+                "score": 9.653200149536133
+            },
+            {
+                "id": "tat_209_2",
+                "score": 9.653199195861816
+            },
+            {
+                "id": "tat_209_1",
+                "score": 9.438199996948242
+            },
+            {
+                "id": "tat_1655_1",
+                "score": 7.4405999183654785
+            },
+            {
+                "id": "tat_1655_0",
+                "score": 7.314899921417236
+            },
+            {
+                "id": "tat_209_0",
+                "score": 6.3248982429504395
+            },
+            {
+                "id": "tat_446_0",
+                "score": 5.785167217254639
+            },
+            {
+                "id": "tat_784_0",
+                "score": 5.299686908721924
+            },
+            {
+                "id": "tat_933_0",
+                "score": 4.980687141418457
+            },
+            {
+                "id": "tat_1696_0",
+                "score": 4.964700222015381
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_17596_0",
+                "score": 8.369099617004395
+            },
+            {
+                "id": "ott_19395_0",
+                "score": 8.369098663330078
+            },
+            {
+                "id": "ott_2552_0",
+                "score": 8.369097709655762
+            },
+            {
+                "id": "ott_22169_0",
+                "score": 7.59630012512207
+            },
+            {
+                "id": "ott_36932_0",
+                "score": 7.596299171447754
+            },
+            {
+                "id": "ott_41104_0",
+                "score": 7.5962982177734375
+            },
+            {
+                "id": "ott_5600_0",
+                "score": 7.596297264099121
+            },
+            {
+                "id": "ott_22933_0",
+                "score": 7.486999988555908
+            },
+            {
+                "id": "ott_30741_0",
+                "score": 7.486999034881592
+            },
+            {
+                "id": "ott_3883_0",
+                "score": 7.486998081207275
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_2759_9",
+                "score": 19.842100143432617
+            },
+            {
+                "id": "nq_2759_4",
+                "score": 18.10770034790039
+            },
+            {
+                "id": "nq_2759_8",
+                "score": 17.899900436401367
+            },
+            {
+                "id": "nq_2759_17",
+                "score": 17.695999145507812
+            },
+            {
+                "id": "nq_2759_6",
+                "score": 17.53030014038086
+            },
+            {
+                "id": "nq_2759_5",
+                "score": 17.350099563598633
+            },
+            {
+                "id": "nq_2759_3",
+                "score": 17.02120018005371
+            },
+            {
+                "id": "nq_2759_1",
+                "score": 16.85569953918457
+            },
+            {
+                "id": "nq_2759_2",
+                "score": 16.675199508666992
+            },
+            {
+                "id": "nq_215028_1",
+                "score": 16.637500762939453
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_49448_20",
+                "score": 8.743200302124023
+            },
+            {
+                "id": "triviaqa_22316_8",
+                "score": 8.714400291442871
+            },
+            {
+                "id": "triviaqa_43236_283",
+                "score": 8.498800277709961
+            },
+            {
+                "id": "triviaqa_32670_501",
+                "score": 8.446999549865723
+            },
+            {
+                "id": "triviaqa_20619_160",
+                "score": 8.413999557495117
+            },
+            {
+                "id": "triviaqa_49448_19",
+                "score": 8.413899421691895
+            },
+            {
+                "id": "triviaqa_22204_154",
+                "score": 8.360300064086914
+            },
+            {
+                "id": "triviaqa_58209_214",
+                "score": 8.219400405883789
+            },
+            {
+                "id": "triviaqa_37172_7",
+                "score": 8.169699668884277
+            },
+            {
+                "id": "triviaqa_32670_502",
+                "score": 8.064499855041504
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.03c72hv_6",
+                "score": 7.082399845123291
+            },
+            {
+                "id": "m.04cxlw__2",
+                "score": 7.05019998550415
+            },
+            {
+                "id": "m.03c72hv_5",
+                "score": 6.557000160217285
+            },
+            {
+                "id": "m.0154j_1716",
+                "score": 6.324900150299072
+            },
+            {
+                "id": "m.0154j_1717",
+                "score": 6.223999977111816
+            },
+            {
+                "id": "m.07cbs_159",
+                "score": 6.201300144195557
+            },
+            {
+                "id": "m.07cbs_269",
+                "score": 6.20129919052124
+            },
+            {
+                "id": "m.04cxlw__0",
+                "score": 6.180500030517578
+            },
+            {
+                "id": "m.04cxlw__1",
+                "score": 6.180499076843262
+            },
+            {
+                "id": "m.0f4l30f_4",
+                "score": 6.114699840545654
+            },
+            {
+                "id": "m.01xbgx_33",
+                "score": 6.083899974822998
+            },
+            {
+                "id": "m.01xbgx_371",
+                "score": 6.0320000648498535
+            },
+            {
+                "id": "m.01xbgx_709",
+                "score": 5.930799961090088
+            },
+            {
+                "id": "m.01xbgx_32",
+                "score": 5.832900047302246
+            },
+            {
+                "id": "m.07cbs_135",
+                "score": 5.707499980926514
+            },
+            {
+                "id": "m.01xbgx_697",
+                "score": 5.666100025177002
+            },
+            {
+                "id": "m.01xbgx_982",
+                "score": 5.6149001121521
+            },
+            {
+                "id": "m.07cbs_158",
+                "score": 5.614899158477783
+            },
+            {
+                "id": "m.01xbgx_20",
+                "score": 5.453000068664551
+            },
+            {
+                "id": "m.02h40lc_7212",
+                "score": 5.438493728637695
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_2759_1",
+                "score": 0.7470616102218628
+            },
+            {
+                "id": "nq_2759_0",
+                "score": 0.7231607437133789
+            },
+            {
+                "id": "nq_2759_4",
+                "score": 0.7176485657691956
+            },
+            {
+                "id": "nq_2759_3",
+                "score": 0.686327338218689
+            },
+            {
+                "id": "nq_2759_8",
+                "score": 0.6839094758033752
+            },
+            {
+                "id": "nq_2759_17",
+                "score": 0.6759421229362488
+            },
+            {
+                "id": "nq_2759_18",
+                "score": 0.6726071834564209
+            },
+            {
+                "id": "nq_2759_21",
+                "score": 0.6724447011947632
+            },
+            {
+                "id": "nq_2759_9",
+                "score": 0.6702847480773926
+            },
+            {
+                "id": "nq_2759_7",
+                "score": 0.6642380952835083
+            },
+            {
+                "id": "nq_2759_25",
+                "score": 0.661675751209259
+            },
+            {
+                "id": "nq_215028_0",
+                "score": 0.6584477424621582
+            },
+            {
+                "id": "nq_2759_2",
+                "score": 0.6568618416786194
+            },
+            {
+                "id": "nq_45092_46",
+                "score": 0.6523573994636536
+            },
+            {
+                "id": "nq_2759_11",
+                "score": 0.6497814655303955
+            },
+            {
+                "id": "nq_215028_1",
+                "score": 0.645248293876648
+            },
+            {
+                "id": "nq_2759_26",
+                "score": 0.6431020498275757
+            },
+            {
+                "id": "nq_2759_6",
+                "score": 0.6409706473350525
+            },
+            {
+                "id": "nq_2759_10",
+                "score": 0.6389991044998169
+            },
+            {
+                "id": "nq_2759_5",
+                "score": 0.6296404600143433
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "nq_2759_1",
+                "score": 0.7470616102218628
+            },
+            {
+                "id": "nq_2759_0",
+                "score": 0.7231607437133789
+            },
+            {
+                "id": "nq_2759_4",
+                "score": 0.7176485657691956
+            },
+            {
+                "id": "nq_2759_3",
+                "score": 0.686327338218689
+            },
+            {
+                "id": "nq_2759_8",
+                "score": 0.6839094758033752
+            },
+            {
+                "id": "nq_2759_17",
+                "score": 0.6759421229362488
+            },
+            {
+                "id": "nq_2759_18",
+                "score": 0.6726071834564209
+            },
+            {
+                "id": "nq_2759_21",
+                "score": 0.6724447011947632
+            },
+            {
+                "id": "nq_2759_9",
+                "score": 0.6702847480773926
+            },
+            {
+                "id": "nq_2759_7",
+                "score": 0.6642380952835083
+            }
+        ],
+        "BGE_tat_documents": [
+            {
+                "id": "tat_209_1",
+                "score": 0.6252475380897522
+            },
+            {
+                "id": "tat_209_2",
+                "score": 0.5808604955673218
+            },
+            {
+                "id": "tat_1425_0",
+                "score": 0.558651328086853
+            },
+            {
+                "id": "tat_1469_0",
+                "score": 0.5576908588409424
+            },
+            {
+                "id": "tat_576_0",
+                "score": 0.5424927473068237
+            },
+            {
+                "id": "tat_1440_1",
+                "score": 0.5419321656227112
+            },
+            {
+                "id": "tat_1501_0",
+                "score": 0.5362464785575867
+            },
+            {
+                "id": "tat_15_0",
+                "score": 0.5351755619049072
+            },
+            {
+                "id": "tat_209_0",
+                "score": 0.5340900421142578
+            },
+            {
+                "id": "tat_942_0",
+                "score": 0.5304715037345886
+            }
+        ],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_32005_4",
+                "score": 0.5483781099319458
+            },
+            {
+                "id": "ott_18740_4",
+                "score": 0.5483781099319458
+            },
+            {
+                "id": "ott_28636_4",
+                "score": 0.5483781099319458
+            },
+            {
+                "id": "ott_23900_4",
+                "score": 0.5483781099319458
+            },
+            {
+                "id": "ott_16903_3",
+                "score": 0.5469444394111633
+            },
+            {
+                "id": "ott_37717_3",
+                "score": 0.5469444394111633
+            },
+            {
+                "id": "ott_31589_3",
+                "score": 0.5469444394111633
+            },
+            {
+                "id": "ott_10934_3",
+                "score": 0.5469444394111633
+            },
+            {
+                "id": "ott_24031_3",
+                "score": 0.5469444394111633
+            },
+            {
+                "id": "ott_29169_0",
+                "score": 0.5128202438354492
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_2759_1",
+                "score": 0.7470616102218628
+            },
+            {
+                "id": "nq_2759_0",
+                "score": 0.7231607437133789
+            },
+            {
+                "id": "nq_2759_4",
+                "score": 0.7176485657691956
+            },
+            {
+                "id": "nq_2759_3",
+                "score": 0.686327338218689
+            },
+            {
+                "id": "nq_2759_8",
+                "score": 0.6839094758033752
+            },
+            {
+                "id": "nq_2759_17",
+                "score": 0.6759421229362488
+            },
+            {
+                "id": "nq_2759_18",
+                "score": 0.6726071834564209
+            },
+            {
+                "id": "nq_2759_21",
+                "score": 0.6724447011947632
+            },
+            {
+                "id": "nq_2759_9",
+                "score": 0.6702847480773926
+            },
+            {
+                "id": "nq_2759_7",
+                "score": 0.6642380952835083
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_73927_145",
+                "score": 0.6245214343070984
+            },
+            {
+                "id": "triviaqa_73927_144",
+                "score": 0.6109896302223206
+            },
+            {
+                "id": "triviaqa_73927_143",
+                "score": 0.606903076171875
+            },
+            {
+                "id": "triviaqa_20406_323",
+                "score": 0.5943264365196228
+            },
+            {
+                "id": "triviaqa_49339_290",
+                "score": 0.5924855470657349
+            },
+            {
+                "id": "triviaqa_74522_270",
+                "score": 0.5924690961837769
+            },
+            {
+                "id": "triviaqa_74522_118",
+                "score": 0.590335488319397
+            },
+            {
+                "id": "triviaqa_74522_201",
+                "score": 0.5877031683921814
+            },
+            {
+                "id": "triviaqa_49339_112",
+                "score": 0.5874032974243164
+            },
+            {
+                "id": "triviaqa_73927_146",
+                "score": 0.5869031548500061
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0y8w135_11",
+                "score": 0.5553037524223328
+            },
+            {
+                "id": "m.0nf__20",
+                "score": 0.554305911064148
+            },
+            {
+                "id": "m.0y8w135_19",
+                "score": 0.5518991351127625
+            },
+            {
+                "id": "m.0nf__7",
+                "score": 0.5511794686317444
+            },
+            {
+                "id": "m.01d9r3_1604",
+                "score": 0.5463480949401855
+            },
+            {
+                "id": "m.018wl5_288",
+                "score": 0.5459527969360352
+            },
+            {
+                "id": "m.018wl5_178",
+                "score": 0.5451763272285461
+            },
+            {
+                "id": "m.0y8w135_1",
+                "score": 0.5444167852401733
+            },
+            {
+                "id": "m.01d9r3_44",
+                "score": 0.5441816449165344
+            },
+            {
+                "id": "m.01d9r3_1084",
+                "score": 0.5435154438018799
+            },
+            {
+                "id": "m.0nb7qmv_0",
+                "score": 0.543392539024353
+            },
+            {
+                "id": "m.01d9r3_1708",
+                "score": 0.5430302619934082
+            },
+            {
+                "id": "m.01d9r3_1085",
+                "score": 0.5428546667098999
+            },
+            {
+                "id": "m.018wl5_158",
+                "score": 0.541598916053772
+            },
+            {
+                "id": "m.018wl5_439",
+                "score": 0.5413581728935242
+            },
+            {
+                "id": "m.01d9r3_45",
+                "score": 0.5413508415222168
+            },
+            {
+                "id": "m.01d9r3_148",
+                "score": 0.5411601066589355
+            },
+            {
+                "id": "m.01d9r3_1500",
+                "score": 0.5408911108970642
+            },
+            {
+                "id": "g.11c3kc7r28_0",
+                "score": 0.5408385992050171
+            },
+            {
+                "id": "m.01d9r3_1189",
+                "score": 0.540450394153595
+            }
+        ],
+        "fail_detail": {
+            "nq_2759_6": [
+                true,
+                true,
+                true
+            ],
+            "nq_2759_3": [
+                true,
+                true,
+                true
+            ],
+            "nq_2759_0": [
+                true,
+                true,
+                true
+            ],
+            "m.0nf__20": [
+                true,
+                true,
+                true
+            ],
+            "m.03c72hv_6": [
+                true,
+                true,
+                true
+            ],
+            "m.04cxlw__2": [
+                true,
+                true,
+                true
+            ],
+            "tat_209_1": [
+                true,
+                true,
+                true
+            ],
+            "nq_2759_9": [
+                false,
+                false,
+                true
+            ],
+            "nq_2759_4": [
+                true,
+                true,
+                true
+            ],
+            "m.0y8w135_11": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_49448_20": [
+                true,
+                true,
+                true
+            ],
+            "ott_32005_4": [
+                true,
+                true,
+                true
+            ],
+            "nq_2759_17": [
+                true,
+                true,
+                true
+            ],
+            "ott_17596_0": [
+                true,
+                true,
+                true
+            ],
+            "tat_1425_0": [
+                true,
+                true,
+                true
+            ],
+            "nq_2759_8": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_73927_145": [
+                true,
+                true,
+                true
+            ],
+            "nq_2759_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "llm_fail": {},
+        "relevance_judgement": 1,
+        "llm_mark_result": {
+            "nq_2759_6": {
+                "Query Analysis": "The query seeks to understand the meaning of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer defines SAP ERP as enterprise resource planning software.",
+                "Document Content Analysis": "The document discusses various aspects of SAP solutions, including deployment and maintenance costs, customization needs, and the SAP Transport Management System. It also outlines the advantages and disadvantages of ERP systems.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP' and 'ERP' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not explicitly state 'enterprise resource planning software' but discusses features and aspects of ERP systems.",
+                "Key Information Matching": "The document provides detailed information about SAP ERP systems, including their functionalities and impact on businesses, which helps in understanding what an ERP system entails.",
+                "Can the Document Answer the Query": "No, the document does not directly define SAP ERP as 'enterprise resource planning software'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive context about SAP ERP systems, which can help infer their role and significance in enterprise resource planning.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not explicitly define SAP ERP as 'enterprise resource planning software', it offers substantial information about its features, advantages, and disadvantages, which can aid in understanding the concept. Therefore, it is partially relevant to the query."
+            },
+            "nq_2759_3": {
+                "Query Analysis": "The query seeks an explanation of what the SAP ERP system is, specifically its meaning and functionality.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP is an enterprise resource planning software, which suggests it is a system used for managing and integrating a company's various business processes.",
+                "Document Content Analysis": "The document provides a detailed overview of the evolution and components of the SAP ERP system, including its history from SAP R/3 to mySAP ERP and SAP ERP 6.0. It mentions various modules like Financial Accounting, Controlling, and Human Resources, and explains how SAP ERP collects and combines data from these modules for enterprise resource planning.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'SAP' and 'ERP' prominently.",
+                "Document and Answer Keywords Matching": "The document mentions 'enterprise resource planning' directly, which is the core term in the answer.",
+                "Key Information Matching": "The document explains the functionality and components of SAP ERP, directly addressing the query's request for the meaning of the system.",
+                "Can the Document Answer the Query": "Yes, the document provides a comprehensive explanation of what the SAP ERP system is.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers detailed information about the system's history, components, and implementation, which enhances understanding beyond the basic definition.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only defines the SAP ERP system but also provides extensive context and details about its evolution, components, and functionality. This comprehensive information makes it highly useful for anyone seeking to understand the meaning of the SAP ERP system."
+            },
+            "nq_2759_0": {
+                "Query Analysis": "The query seeks to understand the meaning of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer defines SAP ERP as enterprise resource planning software.",
+                "Document Content Analysis": "The document provides an overview of SAP ERP, stating that it is enterprise resource planning software developed by SAP SE. It mentions key business functions, the latest version, and the most recent enhancement package.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'SAP' and 'ERP'.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'enterprise resource planning software', which directly matches the answer.",
+                "Key Information Matching": "The document explicitly defines SAP ERP as 'enterprise resource planning software', which is the key information sought by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by defining SAP ERP.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the development, functions, and updates of SAP ERP.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by defining SAP ERP and provides additional useful context about the system."
+            },
+            "m.0nf__20": {
+                "Query Analysis": "The query seeks an explanation of what a SAP ERP system is, focusing on its meaning and functionality.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP system refers to 'enterprise resource planning software', which is a type of software used to manage business processes.",
+                "Document Content Analysis": "The document discusses the Analytical Engine, a mechanical general-purpose computer designed by Charles Babbage. It provides historical context about the design and significance of this machine in the history of computing.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP', 'ERP system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise resource planning software') are found in the document.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document. The document focuses on a historical computing device, which is unrelated to modern ERP systems.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about SAP ERP systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about SAP ERP systems.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Analytical Engine, a historical computing device, which has no relevance to the modern concept of an ERP system. Therefore, it cannot provide any useful context or additional information to help understand or answer the query about SAP ERP systems."
+            },
+            "m.03c72hv_6": {
+                "Query Analysis": "The query seeks an explanation of what the SAP ERP system means, specifically its definition or purpose.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software', indicating it is a type of software used for managing business processes.",
+                "Document Content Analysis": "The document discusses the historical and architectural details of Mendut Temple, including its construction, discovery, restoration, and related archaeological research. It provides no information about software, business processes, or SAP ERP systems.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP', 'ERP system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise resource planning software') are found in the document.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document focuses on historical and archaeological details of a temple, which is unrelated to the query about a type of business software.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses historical and archaeological details of Mendut Temple, which has no relevance to the definition or purpose of the SAP ERP system. Therefore, it is judged as irrelevant."
+            },
+            "m.04cxlw__2": {
+                "Query Analysis": "The query seeks to understand the meaning of the term 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP, ERP, system",
+                "Answer Analysis": "The answer defines SAP ERP as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides detailed information about the Boży Dar transmitter, including its location, construction details, broadcasting capabilities, and historical usage. It primarily focuses on technical aspects of the transmitter and its functions.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP', 'ERP', 'system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise', 'resource', 'planning', 'software') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely about a broadcasting transmitter and does not touch upon software or ERP systems.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the meaning of SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to SAP ERP systems.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a broadcasting transmitter and lacks any information about software systems, including SAP ERP. Therefore, it cannot answer the query or provide any useful context for understanding the term 'SAP ERP system'."
+            },
+            "tat_209_1": {
+                "Query Analysis": "The query seeks to understand the meaning of the term 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses a company's financial and operational activities, including the sale of real estate, purchase and development of ERP software, and associated costs and amortization. It mentions 'enterprise resource planning (ERP) software' in the context of upgrading information systems.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'ERP' and mentions 'enterprise resource planning software'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'enterprise resource planning (ERP) software', which matches the answer.",
+                "Key Information Matching": "The document provides a context where 'ERP' is used, aligning with the query's focus on understanding the meaning of 'SAP ERP system'.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'enterprise resource planning (ERP) software', which is the definition sought by the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context on the use and significance of ERP software in managing operations.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the definition of 'ERP' and additional context on its use, which helps in understanding the meaning of 'SAP ERP system'. The explicit mention of 'enterprise resource planning (ERP) software' aligns with the answer, making the document highly relevant."
+            },
+            "nq_2759_9": {
+                "Query Analysis": "The query seeks to understand the meaning of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer defines SAP ERP as enterprise resource planning software.",
+                "Document Content Analysis": "The document discusses the latest version of SAP ERP (6.0), its enhancement packages, their installation process, and their impact on system functionality. It also mentions the release dates of various enhancement packages and their role in transitioning to SAP S/4HANA.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP' and 'ERP' frequently.",
+                "Document and Answer Keywords Matching": "The document does not explicitly use the term 'enterprise resource planning software'.",
+                "Key Information Matching": "While the document extensively discusses SAP ERP and its features, it does not directly define what an ERP system is.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct definition of what an SAP ERP system means.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by discussing the functionalities and enhancements of SAP ERP, the document provides context that can help infer that SAP ERP is a comprehensive software system used for managing business processes.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides detailed information about SAP ERP and its enhancements, which can help infer its nature as enterprise resource planning software. However, it lacks a direct definition, making it insufficient for a complete answer to the query."
+            },
+            "nq_2759_4": {
+                "Query Analysis": "The query seeks to understand the meaning of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP, system",
+                "Answer Analysis": "The answer indicates that SAP ERP is an enterprise resource planning software.",
+                "Document Content Analysis": "The document provides detailed information about SAP ERP, including its modules, implementation phases, system integration, and deployment and maintenance costs. It mentions that SAP ERP collects and combines data from various modules to provide enterprise resource planning.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'SAP' and 'ERP'.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'enterprise resource planning', which directly matches the answer.",
+                "Key Information Matching": "The document explains that SAP ERP consists of several modules and combines data from these modules to provide enterprise resource planning, which directly addresses the meaning of SAP ERP.",
+                "Can the Document Answer the Query": "Yes, the document provides a clear explanation of what SAP ERP is, aligning with the answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers extensive details about the components, implementation, and benefits of SAP ERP, enhancing the understanding of its meaning.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only contains the exact answer but also provides comprehensive information about SAP ERP, thereby enhancing the user's understanding of the system."
+            },
+            "m.0y8w135_11": {
+                "Query Analysis": "The query seeks to understand the meaning of the term 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP, ERP, system",
+                "Answer Analysis": "The answer indicates that SAP ERP system refers to 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document appears to be metadata related to a music release, mentioning credits, catalog numbers, and release dates. It includes references to 'SAPCD 243' and 'Велес'.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'SAP' in the context of a catalog number 'SAPCD 243'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to 'enterprise resource planning software'.",
+                "Key Information Matching": "The document's mention of 'SAP' is purely in the context of a catalog number and does not relate to the meaning or function of an ERP system.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the meaning of an SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the meaning of an SAP ERP system.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or information about the meaning of an SAP ERP system. The mention of 'SAP' is incidental and unrelated to the query's subject matter."
+            },
+            "triviaqa_49448_20": {
+                "Query Analysis": "The query seeks an explanation of what a SAP ERP system means.",
+                "Query Keywords Extraction": "meaning, SAP, ERP, system",
+                "Answer Analysis": "The answer indicates that SAP ERP stands for 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses various aspects of fuchsia plant care, including leaf patterns, root systems, and potting medium requirements. It focuses on the biological and horticultural aspects of fuchsia plants.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP', 'ERP', 'system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise', 'resource', 'planning', 'software') are found in the document.",
+                "Key Information Matching": "There is no key information related to SAP ERP or enterprise resource planning in the document. The document is entirely about fuchsia plants.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about SAP ERP or its meaning.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to SAP ERP or enterprise resource planning.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on fuchsia plant care and contains no information related to SAP ERP or enterprise resource planning. Therefore, it is irrelevant to the query."
+            },
+            "ott_32005_4": {
+                "Query Analysis": "The query seeks an explanation of what the SAP ERP system means, essentially asking for a definition or description of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP system refers to 'enterprise resource planning software', which is a type of software used by businesses to manage and integrate key parts of their operations.",
+                "Document Content Analysis": "The document provides information about software applications, focusing on aspects like web interfaces, GUIs (graphical user interfaces), and plug-ins. It is primarily a comparison of version-control software and software configuration management (SCM) software.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'SAP', 'ERP', or 'enterprise resource planning'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keywords 'enterprise resource planning software'.",
+                "Key Information Matching": "There is no direct or indirect mention of SAP, ERP, or enterprise resource planning in the document. The document's focus is on version-control and SCM software, which is a different domain.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the meaning of the SAP ERP system.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention or provide any context related to SAP ERP system or enterprise resource planning software. The document's content is focused on version-control and software configuration management, which is unrelated to the query's subject matter."
+            },
+            "nq_2759_17": {
+                "Query Analysis": "The query seeks to understand the meaning of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP system refers to 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document appears to be a list of references and external links related to SAP ERP, including articles, blog posts, and academic papers. It mentions specific topics like SAP's enhancement package strategy, new features in SAP ERP Enhancement Package 8, and factors affecting the adoption of SAP in ERP system implementation.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'SAP' and 'ERP' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'enterprise resource planning software' but heavily implies it through context.",
+                "Key Information Matching": "While the document does not directly define 'SAP ERP system', it provides context and references that suggest a deep involvement with ERP systems, particularly those developed by SAP.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct definition of the SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document can help infer that SAP ERP is a significant topic in enterprise resource planning, as indicated by the numerous references and discussions on enhancements and implementations.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it contains references and context related to SAP ERP, which can help infer its importance and scope in the field of enterprise resource planning. However, it lacks a direct definition or explanation of what the SAP ERP system is, making it insufficient for a direct answer to the query."
+            },
+            "ott_17596_0": {
+                "Query Analysis": "The query seeks an explanation of what the SAP ERP system means, specifically asking for its definition or purpose.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP system refers to 'enterprise resource planning software', which is a type of software used by businesses to manage and integrate key parts of their operations.",
+                "Document Content Analysis": "The document lists various TV and radio stations owned by TV5 Network Inc. in the Philippines. It includes details such as branding, callsign, channel number, power in kW (ERP), station type, and location of the transmitter site.",
+                "Document and Query Keywords Matching": "The document contains the acronym 'ERP' in the context of 'Power kW (ERP)', which refers to 'Effective Radiated Power' in broadcasting, not related to 'Enterprise Resource Planning'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to 'enterprise resource planning software'.",
+                "Key Information Matching": "The 'ERP' mentioned in the document is unrelated to the 'ERP' in the query, as it pertains to broadcasting terminology rather than business software.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the SAP ERP system or its meaning.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the meaning of the SAP ERP system.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it discusses TV and radio stations and their technical specifications, specifically focusing on 'Effective Radiated Power' (ERP) in broadcasting. This is entirely unrelated to the 'Enterprise Resource Planning' (ERP) system mentioned in the query. Therefore, it provides no useful context or additional information relevant to the query."
+            },
+            "tat_1425_0": {
+                "Query Analysis": "The query seeks to understand the meaning of the term 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides financial details and asset information, including categories like land, buildings, machinery, and software. It also mentions the implementation of the Company’s ERP system in the context of construction-in-process and financial data.",
+                "Document and Query Keywords Matching": "The document mentions 'ERP system'.",
+                "Document and Answer Keywords Matching": "The document includes the term 'ERP system', which is part of the answer 'enterprise resource planning software'.",
+                "Key Information Matching": "The document references the 'ERP system' in the context of its implementation and financial implications, which is related to the query's focus on understanding what an ERP system is.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct definition of what an ERP system is.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document's mention of the ERP system in a business and financial context can help infer that it is a significant software system used in organizational management.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not explicitly define 'SAP ERP system', its mention of 'ERP system' in the context of business operations and financial reporting helps provide some context that could aid in understanding the general concept of an ERP system. However, it lacks the specific detail to fully answer the query about the meaning of 'SAP ERP system'."
+            },
+            "nq_2759_8": {
+                "Query Analysis": "The query seeks to understand the meaning of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP system refers to 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides a timeline of SAP systems, including various versions of SAP R/3 and SAP ERP Central Component (ECC). It mentions the latest version of SAP ERP 6.0 and explains that additional functionality is delivered through SAP Enhancement Packages, which allow customers to manage and deploy new software functionality without requiring a classic system upgrade.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP' and 'ERP' multiple times.",
+                "Document and Answer Keywords Matching": "The document includes the term 'ERP' but does not explicitly define it as 'enterprise resource planning software'.",
+                "Key Information Matching": "While the document extensively discusses SAP ERP and its versions, it does not directly define what an ERP system is.",
+                "Can the Document Answer the Query": "No, the document does not provide a direct definition of what an ERP system means.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the evolution and functionality of SAP ERP systems, which can help infer that it is a type of software system used for managing business processes.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it contains information about SAP ERP systems and their evolution, but it lacks a direct definition of what an ERP system is. However, the context provided can help the reader infer that it is a complex software system used for enterprise resource planning."
+            },
+            "triviaqa_73927_145": {
+                "Query Analysis": "The query seeks to understand the meaning of the term 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP system refers to 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses business process modeling (BPM), its evolution, and its integration with human-driven processes. It also touches on the relationship between business process re-engineering (BPR) and human resource management, and mentions the general ledger.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'SAP' or 'ERP system'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'enterprise resource planning software'.",
+                "Key Information Matching": "While the document discusses related concepts like business processes and management, it does not directly address the meaning of 'SAP ERP system'.",
+                "Can the Document Answer the Query": "No, the document does not provide a definition or explanation of 'SAP ERP system'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain information that would help infer the meaning of 'SAP ERP system'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on business process modeling and re-engineering, which are related to enterprise systems in a broader sense, but it does not specifically address or provide context for understanding the term 'SAP ERP system'. Therefore, it is irrelevant to the query."
+            },
+            "nq_2759_1": {
+                "Query Analysis": "The query seeks to understand the meaning of the SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer indicates that SAP ERP is enterprise resource planning software.",
+                "Document Content Analysis": "The document describes SAP ERP as enterprise resource planning software developed by SAP SE. It details various business functions integrated into SAP ERP, such as operations, financials, human capital management, and corporate services. It also mentions the latest version and enhancement packages.",
+                "Document and Query Keywords Matching": "The document contains the keywords 'SAP' and 'ERP'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'enterprise resource planning' in relation to SAP ERP.",
+                "Key Information Matching": "The document directly explains that SAP ERP is enterprise resource planning software, which matches the key information in the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by defining SAP ERP as enterprise resource planning software.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the functions and features of SAP ERP, enhancing the understanding of its meaning.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by defining SAP ERP and provides additional useful context about its functionalities and features."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_2759_6": {
+                "Query Analysis": "The query asks for the meaning of SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses various aspects of SAP ERP systems, including deployment and maintenance costs, advantages, disadvantages, and specific tools like SAP Transport Management System. However, it does not explicitly define what SAP ERP stands for or its meaning.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' and 'SAP ERP systems', which match the query keywords 'SAP ERP system'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'enterprise resource planning software', which is the answer to the query.",
+                "Key Information Matching": "The document provides detailed information about SAP ERP systems, including their functionalities and challenges, but lacks a direct definition or meaning of SAP ERP.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the meaning of SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context and details about SAP ERP systems, which could help someone understand what SAP ERP is, even though it doesn't define it explicitly.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses SAP ERP systems in detail but does not directly answer the query by defining the meaning of SAP ERP. It provides useful context and additional information about SAP ERP systems, which could aid in understanding the concept."
+            },
+            "nq_2759_3": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system', which is a type of enterprise software.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides detailed information about SAP ERP systems, including their history, architecture, modules, and implementation phases. It mentions SAP R/3, mySAP ERP, SAP ECC, and SAP ERP 6.0, along with their functionalities and components.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' multiple times, which matches the query's keywords.",
+                "Document and Answer Keywords Matching": "The document discusses 'enterprise resource planning' in the context of SAP ERP, which aligns with the answer.",
+                "Key Information Matching": "The document explains that SAP ERP collects and combines data from separate modules to provide enterprise resource planning, which matches the answer's definition.",
+                "Can the Document Answer the Query": "Yes, the document directly explains that SAP ERP is an enterprise resource planning system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive details about SAP ERP systems, including their modules and functionalities.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context about SAP ERP systems, including their meaning and functionalities. It directly answers the query and offers additional relevant information."
+            },
+            "nq_2759_0": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides information about SAP ERP, describing it as enterprise resource planning software developed by SAP SE, and includes details about its development, type, and key business functions.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' and 'enterprise resource planning', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'enterprise resource planning', which matches the answer.",
+                "Key Information Matching": "The document directly defines SAP ERP as enterprise resource planning software, which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the meaning of SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about SAP ERP, such as its developer and key functions.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by defining SAP ERP system as enterprise resource planning software and provides additional relevant information about its development and functions."
+            },
+            "m.0nf__20": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses the Analytical Engine, a mechanical general-purpose computer designed by Charles Babbage, and its historical significance. It does not mention SAP ERP systems or enterprise resource planning software.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP ERP system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise resource planning software') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SAP ERP systems or enterprise resource planning software.",
+                "Can the Document Answer the Query": "No, the document does not mention SAP ERP systems or provide any relevant information.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or background related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about SAP ERP systems. It discusses a historical mechanical computer and does not provide any useful context or information relevant to the query."
+            },
+            "m.03c72hv_6": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses the Mendut temple, its history, restoration, and archaeological research. It does not mention anything related to SAP ERP systems or enterprise resource planning software.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP ERP system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise resource planning software') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SAP ERP systems or enterprise resource planning software.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about SAP ERP systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information about SAP ERP systems.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about SAP ERP systems. It discusses a historical temple and does not provide any useful context or information relevant to the query."
+            },
+            "m.04cxlw__2": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides detailed information about the Boży Dar transmitter, including its location, construction details, broadcasting capabilities, and technical specifications. It mentions 'ERP' in the context of effective radiated power for broadcasting.",
+                "Document and Query Keywords Matching": "The document does not mention 'SAP' or 'ERP system' as related to software or enterprise resource planning.",
+                "Document and Answer Keywords Matching": "The document mentions 'ERP' but in the context of broadcasting power, not enterprise resource planning software.",
+                "Key Information Matching": "The document does not provide any information related to SAP or ERP systems as defined in the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about SAP ERP systems.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the meaning of SAP ERP systems.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about SAP ERP systems. It discusses a broadcasting transmitter and uses 'ERP' in a different context (effective radiated power), which is not relevant to the query or answer."
+            },
+            "tat_209_1": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses the company's efforts to upgrade its information systems, including the purchase and development of an ERP system. It details costs incurred, capitalization of software development, and the timeline for placing components of the ERP system into service.",
+                "Document and Query Keywords Matching": "The document mentions 'ERP system' and 'enterprise resource planning (ERP) software', which are related to the query's keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'enterprise resource planning (ERP) software', which matches the answer's keywords.",
+                "Key Information Matching": "The document provides a definition of ERP software and details about its implementation, which aligns with the query's request for the meaning of 'SAP ERP system'.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the meaning of ERP system as 'enterprise resource planning software'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document also provides additional context about the implementation and costs associated with an ERP system.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by defining 'ERP system' and provides substantial additional context about its implementation, making it highly relevant."
+            },
+            "nq_2759_9": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides detailed information about SAP ERP 6.0, including its enhancement packages, installation process, and functionalities. However, it does not explicitly define what SAP ERP stands for or its meaning.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' multiple times, which matches the query keyword 'SAP ERP system'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'enterprise resource planning software' or any direct definition of SAP ERP.",
+                "Key Information Matching": "The document discusses SAP ERP 6.0 and its features but does not provide a definition or meaning of SAP ERP system.",
+                "Can the Document Answer the Query": "No, the document does not directly define the meaning of SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that helps infer the meaning of SAP ERP system.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not provide any information about the meaning of SAP ERP system or any context that could help infer its meaning."
+            },
+            "nq_2759_4": {
+                "Query Analysis": "The query asks for the meaning of SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides detailed information about SAP ERP, including its latest version, modules, implementation phases, and challenges. It describes SAP ERP as a system that collects and combines data from separate modules to provide enterprise resource planning.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' multiple times, which matches the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'enterprise resource planning', which matches the answer keywords.",
+                "Key Information Matching": "The document explains that SAP ERP collects and combines data from separate modules to provide enterprise resource planning, which aligns with the answer's definition.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the meaning of SAP ERP system as enterprise resource planning software.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers extensive details about SAP ERP, including its modules, implementation, and challenges, which can enhance understanding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by defining SAP ERP system and provides substantial additional information that enhances understanding of the topic."
+            },
+            "m.0y8w135_11": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document appears to be metadata related to a music release, mentioning 'SAPCD 243' as a catalog number and other unrelated details.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP' in 'SAPCD 243', which partially matches 'SAP ERP system' from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention any keywords from the answer ('enterprise resource planning software').",
+                "Key Information Matching": "The document does not provide any information related to the meaning or definition of 'SAP ERP system'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the meaning of 'SAP ERP system'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information about 'SAP ERP system'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful information or context about the meaning of 'SAP ERP system'. The mention of 'SAP' in the catalog number is coincidental and unrelated to the query."
+            },
+            "triviaqa_49448_20": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses fuchsia plants, including their leaf patterns, root systems, and health care. It mentions 'plant saps' and 'internal transport system' but does not relate to SAP ERP systems.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information related to SAP ERP systems or enterprise resource planning software.",
+                "Can the Document Answer the Query": "No, the document does not mention SAP ERP systems or their meaning.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the meaning of SAP ERP systems.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about SAP ERP systems. It discusses fuchsia plants and their care, with no overlap in keywords or concepts relevant to the query or answer."
+            },
+            "ott_32005_4": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system', which is a type of enterprise software.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses version-control software, user interfaces, and software configuration management, with no mention of SAP ERP systems or enterprise resource planning.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP ERP system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise resource planning software') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to SAP ERP systems or enterprise resource planning.",
+                "Can the Document Answer the Query": "No, the document does not mention SAP ERP systems or provide any definition.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is unrelated to the query topic.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about SAP ERP systems. It discusses version-control software and user interfaces, which do not provide any context or information relevant to the query."
+            },
+            "nq_2759_17": {
+                "Query Analysis": "The query asks for the meaning of SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document contains references to SAP ERP, including articles about SAP's enhancement packages, implementation success factors, and external links to SAP's official website. However, it does not explicitly define what SAP ERP system is.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' multiple times, matching the query's keywords.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'enterprise resource planning software', the answer's keywords.",
+                "Key Information Matching": "The document discusses SAP ERP in various contexts but lacks a direct definition or explanation of what SAP ERP system means.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the meaning of SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context and resources related to SAP ERP, which could help infer its meaning indirectly.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses SAP ERP but does not directly answer the query by defining the term. It provides useful context and resources that could aid in understanding SAP ERP."
+            },
+            "ott_17596_0": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system', which is a type of enterprise software.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document lists TV and radio stations, including technical details like power (ERP) and station types. It does not mention SAP or ERP systems in the context of enterprise software.",
+                "Document and Query Keywords Matching": "The document mentions 'ERP' but in the context of 'Effective Radiated Power' for TV stations, not 'Enterprise Resource Planning'.",
+                "Document and Answer Keywords Matching": "The document does not contain 'enterprise resource planning software' or related terms.",
+                "Key Information Matching": "The document's mention of 'ERP' refers to a technical broadcasting term, not the enterprise software context required by the query.",
+                "Can the Document Answer the Query": "No, the document does not explain the meaning of 'SAP ERP system'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information about enterprise software or SAP.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it discusses 'ERP' in a broadcasting context, which is unrelated to the query about SAP ERP systems. There is no overlap in key information or concepts."
+            },
+            "tat_1425_0": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides financial and operational details about equipment, leasehold improvements, and software, including the implementation of an Enterprise Resource Planning (ERP) system.",
+                "Document and Query Keywords Matching": "The document mentions 'Enterprise Resource Planning (ERP) system', which matches 'SAP ERP system' from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Enterprise Resource Planning (ERP) system', which matches 'enterprise resource planning software' from the answer.",
+                "Key Information Matching": "The document mentions the implementation of an ERP system, which is directly related to the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not explicitly define 'SAP ERP system'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about ERP systems, which is relevant to understanding 'SAP ERP system'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about ERP systems, which is related to the query, but it does not directly define 'SAP ERP system'."
+            },
+            "nq_2759_8": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides a historical timeline of SAP ERP system versions and enhancements but does not explicitly define what SAP ERP system means.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' multiple times, which matches the query keyword 'SAP ERP system'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'enterprise resource planning software' or any direct definition of SAP ERP system.",
+                "Key Information Matching": "The document contains information about the evolution and versions of SAP ERP systems but lacks a definition or explanation of what SAP ERP system is.",
+                "Can the Document Answer the Query": "No, the document does not provide a definition or meaning of SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the meaning of SAP ERP system.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the meaning of SAP ERP system or any context that could help infer its meaning."
+            },
+            "triviaqa_73927_145": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines 'SAP ERP system' as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document discusses business process management (BPM), its applications, and its relationship with human resource management and enterprise content management. It does not mention 'SAP ERP system' or 'enterprise resource planning software' directly.",
+                "Document and Query Keywords Matching": "None of the query keywords ('meaning', 'SAP ERP system') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('enterprise resource planning software') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to 'SAP ERP system' or 'enterprise resource planning software'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'SAP ERP system'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information that could help infer the meaning of 'SAP ERP system'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses business process management and human resource management but does not mention 'SAP ERP system', 'enterprise resource planning software', or any related concepts. Therefore, it is irrelevant to the query."
+            },
+            "nq_2759_1": {
+                "Query Analysis": "The query asks for the meaning of 'SAP ERP system'.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer defines SAP ERP system as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides detailed information about SAP ERP, describing it as enterprise resource planning software developed by SAP SE. It includes key business functions, versions, and business processes covered by SAP ERP.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP ERP' and 'enterprise resource planning', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states that SAP ERP is 'enterprise resource planning software', matching the answer.",
+                "Key Information Matching": "The document directly defines SAP ERP as enterprise resource planning software, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the meaning of SAP ERP system.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive details about SAP ERP, including its functions and business processes.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by defining SAP ERP system as enterprise resource planning software and provides additional relevant information about its functions and features."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_2759_6": {},
+            "nq_2759_3": {},
+            "nq_2759_0": {},
+            "m.0nf__20": {},
+            "m.03c72hv_6": {},
+            "m.04cxlw__2": {},
+            "tat_209_1": {},
+            "nq_2759_9": {
+                "Query Analysis": "The query seeks to understand the meaning of an SAP ERP system, which generally refers to software for enterprise resource planning.",
+                "Query Keywords Extraction": "meaning, SAP ERP system",
+                "Answer Analysis": "The answer describes SAP ERP as 'enterprise resource planning software', highlighting its function as a tool for managing business resources.",
+                "Document Content Analysis": "The document outlines the development, enhancement packages, installation processes, and functionality activation of SAP ERP 6.0, focusing on technical updates rather than defining the core system concept.",
+                "Document and Query Keywords Matching": "The document contains 'SAP ERP' and discusses enhancement packages and functionality, but does not define 'ERP system'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'enterprise resource planning software' but refers to 'SAP ERP', implying association with ERP functionalities.",
+                "Key Information Matching": "The document provides insights related to SAP ERP system versions and enhancements, which imply functionality upgrades, but lacks a direct explanation of ERP as enterprise resource planning software.",
+                "Can the Document Answer the Query": "No, the document does not offer a definition or explanation of the SAP ERP system as enterprise resource planning software.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides context on SAP ERP's enhancements and functionalities, helping to understand how the software evolves and operates.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document offers technical and functional insights regarding SAP ERP, which can aid understanding of its role and operation as ERP software, but it does not directly define what SAP ERP system means."
+            },
+            "nq_2759_4": {},
+            "m.0y8w135_11": {},
+            "triviaqa_49448_20": {},
+            "ott_32005_4": {},
+            "nq_2759_17": {},
+            "ott_17596_0": {},
+            "tat_1425_0": {},
+            "nq_2759_8": {
+                "Query Analysis": "The query seeks to understand the meaning of an SAP ERP system.",
+                "Query Keywords Extraction": "meaning, SAP, ERP system",
+                "Answer Analysis": "The answer defines SAP ERP as 'enterprise resource planning software'.",
+                "Document Content Analysis": "The document provides a historical overview of SAP products with specific versions and updates, including SAP ERP systems and enhancement packages.",
+                "Document and Query Keywords Matching": "The document mentions 'SAP' and 'ERP' multiple times throughout its content.",
+                "Document and Answer Keywords Matching": "The document contains 'SAP ERP' which aligns with the answer's focus but does not define ERP as 'enterprise resource planning software'.",
+                "Key Information Matching": "The document lists versions and enhancements related to SAP ERP, indicating its evolution but does not explicitly define 'ERP'.",
+                "Can the Document Answer the Query": "No, the document does not directly define 'SAP ERP' as 'enterprise resource planning software'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document can provide contextual information about SAP ERP versions and enhancements which could assist in understanding what an ERP system entails.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides indirect contextual information about the SAP ERP system through listing its versions and enhancements. Although it doesn't provide a direct definition, this background could aid in understanding the scope and capabilities of SAP ERP. Therefore, it is partially relevant."
+            },
+            "triviaqa_73927_145": {},
+            "nq_2759_1": {}
+        },
+        "dataset_score": {
+            "tat": 3,
+            "nq": 2,
+            "triviaqa": 0,
+            "kg": 0,
+            "ott": 0
+        }
+    }
+}

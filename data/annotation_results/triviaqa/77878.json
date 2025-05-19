@@ -1,0 +1,934 @@
+{
+    "index": 77878,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "What material forms the hard outermost layer of a human tooth?",
+        "answer": "Enamel",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_19351_341",
+                "score": 20.519699096679688
+            },
+            {
+                "id": "triviaqa_19351_340",
+                "score": 19.741300582885742
+            },
+            {
+                "id": "triviaqa_59975_36",
+                "score": 18.80579948425293
+            },
+            {
+                "id": "triviaqa_9562_20",
+                "score": 18.753700256347656
+            },
+            {
+                "id": "triviaqa_59975_37",
+                "score": 18.719600677490234
+            },
+            {
+                "id": "triviaqa_59975_30",
+                "score": 18.340999603271484
+            },
+            {
+                "id": "triviaqa_59975_31",
+                "score": 18.012500762939453
+            },
+            {
+                "id": "triviaqa_9562_8",
+                "score": 16.60099983215332
+            },
+            {
+                "id": "triviaqa_59975_16",
+                "score": 16.299699783325195
+            },
+            {
+                "id": "nq_104239_3",
+                "score": 16.260900497436523
+            },
+            {
+                "id": "nq_104239_4",
+                "score": 15.96969985961914
+            },
+            {
+                "id": "triviaqa_24611_159",
+                "score": 15.959400177001953
+            },
+            {
+                "id": "nq_104239_2",
+                "score": 15.949700355529785
+            },
+            {
+                "id": "triviaqa_24611_466",
+                "score": 15.831500053405762
+            },
+            {
+                "id": "nq_22754_7",
+                "score": 15.649800300598145
+            },
+            {
+                "id": "triviaqa_27847_136",
+                "score": 15.45259952545166
+            },
+            {
+                "id": "triviaqa_59975_34",
+                "score": 15.289400100708008
+            },
+            {
+                "id": "nq_28470_25",
+                "score": 15.019100189208984
+            },
+            {
+                "id": "triviaqa_22835_34",
+                "score": 14.864500045776367
+            },
+            {
+                "id": "triviaqa_21136_216",
+                "score": 14.684800148010254
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_23323_0",
+                "score": 8.327899932861328
+            },
+            {
+                "id": "ott_24936_0",
+                "score": 8.327898979187012
+            },
+            {
+                "id": "ott_35849_0",
+                "score": 8.327898025512695
+            },
+            {
+                "id": "ott_5428_0",
+                "score": 8.327897071838379
+            },
+            {
+                "id": "ott_13182_0",
+                "score": 8.274900436401367
+            },
+            {
+                "id": "ott_27216_0",
+                "score": 8.27489948272705
+            },
+            {
+                "id": "ott_36819_0",
+                "score": 8.274898529052734
+            },
+            {
+                "id": "ott_680_0",
+                "score": 8.274897575378418
+            },
+            {
+                "id": "ott_15818_1",
+                "score": 6.7733001708984375
+            },
+            {
+                "id": "ott_16186_1",
+                "score": 6.773299217224121
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_104239_3",
+                "score": 16.260900497436523
+            },
+            {
+                "id": "nq_104239_4",
+                "score": 15.96969985961914
+            },
+            {
+                "id": "nq_104239_2",
+                "score": 15.949700355529785
+            },
+            {
+                "id": "nq_22754_7",
+                "score": 15.649800300598145
+            },
+            {
+                "id": "nq_28470_25",
+                "score": 15.019100189208984
+            },
+            {
+                "id": "nq_22754_6",
+                "score": 14.048199653625488
+            },
+            {
+                "id": "nq_22754_10",
+                "score": 13.920599937438965
+            },
+            {
+                "id": "nq_28470_26",
+                "score": 13.820199966430664
+            },
+            {
+                "id": "nq_104239_34",
+                "score": 13.468000411987305
+            },
+            {
+                "id": "nq_104239_25",
+                "score": 13.43179988861084
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_19351_341",
+                "score": 20.519699096679688
+            },
+            {
+                "id": "triviaqa_19351_340",
+                "score": 19.741300582885742
+            },
+            {
+                "id": "triviaqa_59975_36",
+                "score": 18.80579948425293
+            },
+            {
+                "id": "triviaqa_9562_20",
+                "score": 18.753700256347656
+            },
+            {
+                "id": "triviaqa_59975_37",
+                "score": 18.719600677490234
+            },
+            {
+                "id": "triviaqa_59975_30",
+                "score": 18.340999603271484
+            },
+            {
+                "id": "triviaqa_59975_31",
+                "score": 18.012500762939453
+            },
+            {
+                "id": "triviaqa_9562_8",
+                "score": 16.60099983215332
+            },
+            {
+                "id": "triviaqa_59975_16",
+                "score": 16.299699783325195
+            },
+            {
+                "id": "triviaqa_24611_159",
+                "score": 15.959400177001953
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.015kp7_138",
+                "score": 7.909599781036377
+            },
+            {
+                "id": "m.015kp7_17",
+                "score": 7.69320011138916
+            },
+            {
+                "id": "m.02h40lc_5326",
+                "score": 7.275599956512451
+            },
+            {
+                "id": "m.02csf_150",
+                "score": 7.078199863433838
+            },
+            {
+                "id": "m.0d3k14_1062",
+                "score": 7.013199806213379
+            },
+            {
+                "id": "m.04ydvlc_6",
+                "score": 6.882599830627441
+            },
+            {
+                "id": "m.015kp7_18",
+                "score": 6.868100166320801
+            },
+            {
+                "id": "m.0d3k14_1061",
+                "score": 6.715700149536133
+            },
+            {
+                "id": "m.0d3k14_1481",
+                "score": 6.711299896240234
+            },
+            {
+                "id": "m.048jrrg_0",
+                "score": 6.659900188446045
+            },
+            {
+                "id": "m.048jrrg_1",
+                "score": 6.6305999755859375
+            },
+            {
+                "id": "m.0796wt_1",
+                "score": 6.417399883270264
+            },
+            {
+                "id": "m.019fz_618",
+                "score": 6.39169979095459
+            },
+            {
+                "id": "m.01vbl_110",
+                "score": 6.391200065612793
+            },
+            {
+                "id": "m.02csf_45",
+                "score": 6.385300159454346
+            },
+            {
+                "id": "m.05pskf_9",
+                "score": 6.369100093841553
+            },
+            {
+                "id": "m.0796wt_12",
+                "score": 6.360499858856201
+            },
+            {
+                "id": "m.07pzc_453",
+                "score": 6.305099964141846
+            },
+            {
+                "id": "m.07pzc_454",
+                "score": 6.305099010467529
+            },
+            {
+                "id": "m.09c7w0_1880",
+                "score": 6.301000118255615
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_59975_30",
+                "score": 0.7956265211105347
+            },
+            {
+                "id": "triviaqa_9562_8",
+                "score": 0.7762860655784607
+            },
+            {
+                "id": "triviaqa_59975_37",
+                "score": 0.773026704788208
+            },
+            {
+                "id": "triviaqa_9562_20",
+                "score": 0.7692527770996094
+            },
+            {
+                "id": "triviaqa_59975_36",
+                "score": 0.768549919128418
+            },
+            {
+                "id": "triviaqa_59975_31",
+                "score": 0.7413976192474365
+            },
+            {
+                "id": "nq_104239_2",
+                "score": 0.7413967847824097
+            },
+            {
+                "id": "triviaqa_59975_34",
+                "score": 0.7405354380607605
+            },
+            {
+                "id": "triviaqa_59975_32",
+                "score": 0.7364535331726074
+            },
+            {
+                "id": "triviaqa_59975_29",
+                "score": 0.7317385673522949
+            },
+            {
+                "id": "nq_104239_1",
+                "score": 0.7278091907501221
+            },
+            {
+                "id": "triviaqa_9562_19",
+                "score": 0.7276763916015625
+            },
+            {
+                "id": "triviaqa_15191_63",
+                "score": 0.7246553301811218
+            },
+            {
+                "id": "triviaqa_59975_35",
+                "score": 0.7215108275413513
+            },
+            {
+                "id": "nq_104239_4",
+                "score": 0.7198576331138611
+            },
+            {
+                "id": "nq_104239_3",
+                "score": 0.7169809341430664
+            },
+            {
+                "id": "triviaqa_9562_13",
+                "score": 0.7146978974342346
+            },
+            {
+                "id": "nq_104239_5",
+                "score": 0.705961287021637
+            },
+            {
+                "id": "triviaqa_59975_33",
+                "score": 0.7032006978988647
+            },
+            {
+                "id": "nq_104239_43",
+                "score": 0.7025399208068848
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_36819_1",
+                "score": 0.6139354109764099
+            },
+            {
+                "id": "ott_27216_1",
+                "score": 0.6139354109764099
+            },
+            {
+                "id": "ott_680_1",
+                "score": 0.6139354109764099
+            },
+            {
+                "id": "ott_13182_1",
+                "score": 0.6139354109764099
+            },
+            {
+                "id": "ott_13182_0",
+                "score": 0.5817409157752991
+            },
+            {
+                "id": "ott_680_0",
+                "score": 0.5817409157752991
+            },
+            {
+                "id": "ott_27216_0",
+                "score": 0.5817409157752991
+            },
+            {
+                "id": "ott_36819_0",
+                "score": 0.5817409157752991
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_104239_2",
+                "score": 0.7413967847824097
+            },
+            {
+                "id": "nq_104239_1",
+                "score": 0.7278091907501221
+            },
+            {
+                "id": "nq_104239_4",
+                "score": 0.7198576331138611
+            },
+            {
+                "id": "nq_104239_3",
+                "score": 0.7169809341430664
+            },
+            {
+                "id": "nq_104239_5",
+                "score": 0.705961287021637
+            },
+            {
+                "id": "nq_104239_43",
+                "score": 0.7025399208068848
+            },
+            {
+                "id": "nq_104239_14",
+                "score": 0.70200115442276
+            },
+            {
+                "id": "nq_104239_26",
+                "score": 0.6893547773361206
+            },
+            {
+                "id": "nq_104239_19",
+                "score": 0.6876476407051086
+            },
+            {
+                "id": "nq_104239_15",
+                "score": 0.6785410642623901
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_59975_30",
+                "score": 0.7956265211105347
+            },
+            {
+                "id": "triviaqa_9562_8",
+                "score": 0.7762860655784607
+            },
+            {
+                "id": "triviaqa_59975_37",
+                "score": 0.773026704788208
+            },
+            {
+                "id": "triviaqa_9562_20",
+                "score": 0.7692527770996094
+            },
+            {
+                "id": "triviaqa_59975_36",
+                "score": 0.768549919128418
+            },
+            {
+                "id": "triviaqa_59975_31",
+                "score": 0.7413976192474365
+            },
+            {
+                "id": "triviaqa_59975_34",
+                "score": 0.7405354380607605
+            },
+            {
+                "id": "triviaqa_59975_32",
+                "score": 0.7364535331726074
+            },
+            {
+                "id": "triviaqa_59975_29",
+                "score": 0.7317385673522949
+            },
+            {
+                "id": "triviaqa_9562_19",
+                "score": 0.7276763916015625
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0hqjk6w_5",
+                "score": 0.5706889629364014
+            },
+            {
+                "id": "m.025rs2z_38",
+                "score": 0.5614389777183533
+            }
+        ],
+        "llm_mark_result": {
+            "m.0hqjk6w_5": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the specific material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides information about a dental product, Colgate Total Whitening dentifrice paste, including its manufacturer, ingredients, and various sections related to its usage and warnings. The ingredients mentioned are Silicon dioxide, sodium fluoride, and triclosan.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'material', 'hard outermost layer', or 'human tooth'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel'.",
+                "Key Information Matching": "There is no direct or indirect mention of the human tooth structure or the material 'Enamel' in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on a dental product and its ingredients, which do not provide any context or information relevant to the structure of a human tooth.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the material composition of a human tooth or any related context that could help infer the answer. The document is solely focused on a dental product and its ingredients, which are not related to the query's subject matter."
+            },
+            "ott_36819_1": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is enamel.",
+                "Document Content Analysis": "The document discusses minerals, their properties, and their occurrence in nature, including in living beings. It mentions specific minerals like talc, diamond, calcite, and hydroxylapatite, but does not explicitly discuss human teeth or enamel.",
+                "Document and Query Keywords Matching": "The document mentions 'minerals' and 'living beings', which are somewhat related to the query's context of biological materials.",
+                "Document and Answer Keywords Matching": "The document does not mention 'enamel' directly.",
+                "Key Information Matching": "While the document discusses minerals and their presence in living beings, it does not specifically address the composition of human teeth or the material that forms their hard outermost layer.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information needed to answer the query directly.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks specific details about human dental structure or the material composition of teeth.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about minerals and their properties, which is a broad topic that does not specifically address the composition of human teeth. It does not contain the answer to the query nor does it provide any useful context or additional information that could help infer the answer. Therefore, it is deemed irrelevant to the query."
+            },
+            "m.025rs2z_38": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is 'Enamel'.",
+                "Document Content Analysis": "The document discusses the properties and occurrences of gold, including its natural forms, physical characteristics, and historical uses. It describes gold as a noble metal, highly malleable and ductile, with a bright yellow color that does not oxidize in air or water.",
+                "Document and Query Keywords Matching": "None of the query keywords ('material', 'hard outermost layer', 'human tooth') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel'.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document. The document focuses solely on gold and its properties, which are unrelated to human dental anatomy.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the material of the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses gold and its properties, which have no relevance to the topic of human tooth structure. Therefore, it cannot assist in answering the query or providing any useful context."
+            },
+            "triviaqa_9562_20": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is enamel.",
+                "Document Content Analysis": "The document provides a detailed description of the structure of human teeth, including the roots, pulp, dentin, and enamel. It explains the functions and compositions of these layers.",
+                "Document and Query Keywords Matching": "The document mentions 'human tooth' and describes the 'hard outermost layer' explicitly.",
+                "Document and Answer Keywords Matching": "The document includes detailed information about 'enamel', describing it as the 'white, outer layer of the crown' and the 'hardest substance in the body'.",
+                "Key Information Matching": "The document directly addresses the query by describing the enamel as the hard outermost layer of the tooth, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that enamel forms the hard outermost layer of the tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the composition and properties of enamel, enhancing understanding of why it forms the hard outermost layer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions and describes enamel as the hard outermost layer of a human tooth. It provides substantial useful context and additional information about the composition and properties of enamel, making it highly relevant to the query."
+            },
+            "triviaqa_9562_8": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the specific material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides detailed information about the anatomy of human teeth, including descriptions of different parts such as enamel, dentin, pulp, cementum, and the periodontal ligament. It also mentions the functions of teeth and their types.",
+                "Document and Query Keywords Matching": "The document mentions 'human tooth' and 'enamel', which directly relate to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Enamel' as the hardest, white outer part of the tooth.",
+                "Key Information Matching": "The document directly addresses the query by stating that enamel is the hardest, white outer part of the tooth, which matches the query's request for the material of the hard outermost layer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying enamel as the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the composition and structure of teeth, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions enamel as the material forming the hard outermost layer of a human tooth. This direct match makes the document highly useful for answering the query and providing additional context about tooth anatomy."
+            },
+            "triviaqa_59975_36": {
+                "Query Analysis": "The query asks for the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the specific material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides detailed information about the structure of a human tooth, including its various layers and components such as the pulp, dentin, and enamel. It describes the functions and characteristics of each layer.",
+                "Document and Query Keywords Matching": "The document mentions 'human tooth' and describes the 'hard outermost layer' in detail.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'enamel' as the outer layer of the crown.",
+                "Key Information Matching": "The document directly addresses the query by stating that the enamel forms the hard outermost layer of the tooth's crown.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying enamel as the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides comprehensive information about the structure and composition of teeth, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions and describes enamel as the hard outermost layer of a human tooth. This direct correlation makes the document highly useful for answering the query and providing additional context."
+            },
+            "triviaqa_59975_30": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is 'Enamel'.",
+                "Document Content Analysis": "The document provides a detailed description of the anatomy of a human tooth, including information about its layers and tissues. It specifically mentions enamel as the outermost and hardest layer of the tooth crown.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'outermost layer', 'human tooth', and 'hard'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Enamel' as a key component of the tooth structure.",
+                "Key Information Matching": "The document directly addresses the query by stating that enamel is the outermost and hardest layer of the tooth, matching the key information sought by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying enamel as the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the properties and characteristics of enamel, enhancing understanding of why it forms the hard outermost layer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query and provides substantial additional information about the properties and role of enamel in tooth anatomy. This comprehensive coverage makes it a valuable resource for understanding the query's topic."
+            },
+            "m.015kp7_138": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the specific material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides information about stratovolcanoes, including their structure, composition, and examples. It discusses layers of hardened lava, tephra, pumice, and volcanic ash, as well as the characteristics of stratovolcanoes.",
+                "Document and Query Keywords Matching": "None of the query keywords ('material', 'hard outermost layer', 'human tooth') are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'Enamel' is not mentioned in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about volcanoes, which is unrelated to human teeth.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about human teeth or enamel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer details about human teeth or enamel.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses stratovolcanoes and their characteristics, which have no connection to the material composition of human teeth. Therefore, it is irrelevant to the query."
+            },
+            "nq_104239_2": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is 'Enamel'.",
+                "Document Content Analysis": "The document provides detailed information about enamel, describing it as the hardest substance in the human body, highly mineralized, and acting as a protective barrier for the tooth. It also discusses the composition, development, and characteristics of enamel.",
+                "Document and Query Keywords Matching": "The document mentions 'enamel', which is directly related to the 'hard outermost layer' of a 'human tooth'.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'enamel', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the material (enamel) that forms the hard outermost layer of a human tooth, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that enamel is the hardest substance in the human body and forms the outer layer of the tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the properties and significance of enamel.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only mentions the material (enamel) that forms the hard outermost layer of a human tooth but also provides extensive information about its properties and functions. This makes it highly useful for understanding the query and its answer."
+            },
+            "nq_104239_3": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is enamel.",
+                "Document Content Analysis": "The document provides detailed information about enamel, including its formation, properties, and characteristics. It mentions that enamel is formed on the tooth while it is developing, does not contain blood vessels or nerves, and varies in thickness. The document also discusses the color and hardness of enamel.",
+                "Document and Query Keywords Matching": "The document mentions 'enamel', which is directly related to the 'hard outermost layer' of a 'human tooth'.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'enamel', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the material (enamel) that forms the hard outermost layer of a human tooth, matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions that enamel forms the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the properties and characteristics of enamel, which enhances understanding of its role in the tooth structure.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only provides the answer (enamel) but also offers extensive information about the properties and formation of enamel, which is the hard outermost layer of a human tooth. This comprehensive coverage makes the document highly useful for understanding the query in depth."
+            },
+            "ott_23323_0": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the specific material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document lists various fictional elements, materials, isotopes, and subatomic particles, providing their sources and uses in mythology, literature, and media.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'material', 'hard outermost layer', or 'human tooth'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on fictional materials and their uses in various works, which is unrelated to the biological composition of human teeth.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the material composition of human teeth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on fictional elements and materials, which are unrelated to the biological query about the composition of human teeth. It does not provide any useful context or additional information relevant to the query, making it irrelevant."
+            },
+            "triviaqa_59975_37": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is enamel.",
+                "Document Content Analysis": "The document provides detailed information about the structure of a human tooth, including the dentin, pulp, and enamel. It describes enamel as the white, outer layer of the crown, which is extremely hard and nonporous, and made almost exclusively of hydroxylapatite.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'outer layer', 'tooth', and 'hard'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'enamel' as the outer layer of the tooth.",
+                "Key Information Matching": "The document directly addresses the query by describing the enamel as the hard outermost layer of the tooth.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that enamel forms the hard outermost layer of the tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the composition and properties of enamel, as well as its role in the tooth structure.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions and describes enamel as the hard outermost layer of the tooth, thus providing a direct answer and additional useful context."
+            },
+            "triviaqa_19351_340": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is 'Enamel'.",
+                "Document Content Analysis": "The document describes a manufacturing process for creating multi-V-ribbed belts, including steps like sleeve consolidation, vulcanization, and shaping using grinding wheels or airbags. It discusses the formation of outer layers and materials used in the belts.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'material', 'hard outermost layer', or 'human tooth'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document focuses on belt manufacturing, which is unrelated to human dental anatomy.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about human teeth or dental materials.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is entirely unrelated to the topic of human teeth or dental materials.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it discusses the manufacturing process of multi-V-ribbed belts and does not contain any information related to human dental anatomy or materials. There is no overlap in keywords or concepts between the query and the document."
+            },
+            "triviaqa_19351_341": {
+                "Query Analysis": "The query asks for the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the specific material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses the construction of a belt, focusing on the application of an open mesh textile material as the outermost layer. It details the process and benefits of using this material in belt construction, including its interaction with other components like rubber matrices and transfer labels.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to 'human tooth', 'material', 'hard', or 'outermost layer' in the context of human anatomy.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel' or any related terms pertaining to human teeth.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on human teeth or dental materials.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about human teeth or the material of their outermost layer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or information that could help infer details about human teeth or dental materials.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses technical details about belt construction and materials, which have no relevance to the anatomy of human teeth or the materials composing them. Therefore, it is deemed irrelevant."
+            },
+            "m.015kp7_17": {
+                "Query Analysis": "The query seeks to identify the material that constitutes the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer specifies that the material is 'Enamel'.",
+                "Document Content Analysis": "The document discusses stratovolcanoes, their structure, composition, and characteristics. It includes details about layers of hardened lava, tephra, pumice, and volcanic ash, as well as the types of magma involved in their formation.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'material', 'hard outermost layer', or 'human tooth'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel' or any related terms pertaining to human teeth.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on geological formations and volcanic activity, which are unrelated to human dental anatomy.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the material of the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about human dental anatomy or the material composition of teeth.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses stratovolcanoes and their geological characteristics, which have no relevance to the material composition of human teeth. Therefore, it cannot answer the query or provide any useful context or additional information related to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0hqjk6w_5": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides information about Colgate Total Whitening dentifrice paste, including its ingredients and manufacturer. It mentions components like silicon dioxide, sodium fluoride, and triclosan but does not discuss the structure or composition of human teeth.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to the query, such as 'hard outermost layer' or 'human tooth'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel' or any related terms.",
+                "Key Information Matching": "The document does not provide any information about the structure or composition of human teeth, nor does it mention 'Enamel' or the hard outermost layer of a tooth.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a dental product and its ingredients but does not provide any information about the structure or composition of human teeth, nor does it mention 'Enamel' or the hard outermost layer of a tooth. Therefore, it is irrelevant to the query."
+            },
+            "ott_36819_1": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard, outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses minerals, their properties, and their occurrence in nature. It mentions minerals like calcite, hydroxylapatite, and quartz, but does not specifically mention enamel or its relation to human teeth.",
+                "Document and Query Keywords Matching": "The document does not mention 'human tooth' or 'hard outermost layer'. It discusses minerals, which are related to materials, but not in the context of teeth.",
+                "Document and Answer Keywords Matching": "The document does not mention 'enamel' or any direct reference to the material forming the outer layer of human teeth.",
+                "Key Information Matching": "The document does not provide any information about the material forming the hard outermost layer of a human tooth. It focuses on minerals and their properties, which are not directly relevant to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention enamel or any material related to the outer layer of human teeth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention enamel, human teeth, or any material related to the hard outermost layer of teeth. It focuses on minerals and their properties, which are not connected to the query."
+            },
+            "m.025rs2z_38": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses gold, its properties, forms, and uses. It does not mention anything related to human teeth or enamel.",
+                "Document and Query Keywords Matching": "None of the query keywords ('material', 'hard outermost layer', 'human tooth') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Enamel' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about the hard outermost layer of a human tooth or enamel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses gold and its properties, with no mention of human teeth, enamel, or any related concepts. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_9562_20": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the material that forms the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides a detailed description of the structure of a human tooth, including the three layers: pulp, dentin, and enamel. It specifically mentions that enamel is the white, outer layer of the crown, forming an extremely hard, nonporous cap over the dentin. Enamel is described as the hardest substance in the body, made almost exclusively of hydroxylapatite.",
+                "Document and Query Keywords Matching": "The document mentions 'human tooth', 'outer layer', and 'hard', which are key components of the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'enamel', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the query by describing the enamel as the hard outermost layer of a human tooth, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that enamel is the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about the structure and composition of enamel, which could be useful for a deeper understanding of the topic.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about the structure of a human tooth. Therefore, it is highly relevant and provides useful context."
+            },
+            "triviaqa_9562_8": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard, white outer part of the tooth.",
+                "Document Content Analysis": "The document provides detailed information about the structure of human teeth, including the different parts such as enamel, dentin, pulp, cementum, and periodontal ligament. It specifically mentions that enamel is the hardest, white outer part of the tooth, made mostly of calcium phosphate.",
+                "Document and Query Keywords Matching": "The document mentions 'human tooth', 'hard', and 'outer part', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Enamel' as the hard, white outer part of the tooth.",
+                "Key Information Matching": "The document directly states that enamel is the hard, white outer part of the tooth, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that enamel is the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about the composition and structure of teeth, which could be useful for a deeper understanding of the topic.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer. It also offers additional context about the structure and composition of teeth, enhancing understanding of the topic."
+            },
+            "triviaqa_59975_36": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides a detailed description of the structure of a human tooth, including its layers: pulp, dentin, and enamel. It specifically mentions that enamel is the white, outer layer of the crown, forming an extremely hard, nonporous cap over the dentin.",
+                "Document and Query Keywords Matching": "The document mentions 'human tooth', 'outer layer', and 'hard', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'enamel', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that enamel is the hard, outermost layer of the crown of a human tooth, matching both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying enamel as the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the structure of a tooth, including the roles of pulp and dentin, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer. It also offers additional context about the structure of a human tooth, enhancing understanding of the query. Therefore, it is highly relevant."
+            },
+            "triviaqa_59975_30": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the material that forms the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides detailed information about the anatomy of a human tooth, specifically mentioning the enamel as the outermost and hardest layer of the tooth. It describes the composition, characteristics, and vulnerabilities of enamel.",
+                "Document and Query Keywords Matching": "The document mentions 'human tooth', 'hard', and 'outermost layer', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Enamel' as the outermost layer of the tooth, which matches the answer.",
+                "Key Information Matching": "The document directly states that 'Enamel is the outermost layer of the tooth structure of the crown' and describes it as the hardest and most mineralized substance in the human body, which aligns with both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that enamel is the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about enamel, such as its composition, characteristics, and vulnerabilities, which could be useful for a deeper understanding of the topic.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional relevant information about enamel. It enhances understanding of the query by detailing the properties and significance of enamel in tooth anatomy."
+            },
+            "m.015kp7_138": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the material that forms the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses stratovolcanoes, their structure, and characteristics. It mentions the composition of stratovolcanoes, including hardened lava, tephra, pumice, and volcanic ash, but does not mention anything related to human teeth or enamel.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer. It focuses entirely on stratovolcanoes and their geological features.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about human teeth or enamel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses stratovolcanoes and their geological composition, which has no connection to the material forming the hard outermost layer of a human tooth. Therefore, the document is irrelevant to the query."
+            },
+            "nq_104239_2": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard, outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses tooth enamel, describing it as the hardest substance in the human body, highly mineralized, and acting as a protective barrier for the tooth. It also mentions its composition, development, and susceptibility to degradation.",
+                "Document and Query Keywords Matching": "The document mentions 'hard', 'human tooth', and 'outermost layer' in the context of enamel.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Enamel' as the material forming the outermost layer of a human tooth.",
+                "Key Information Matching": "The document provides detailed information about enamel, including its hardness, composition, and role as the outermost layer of a human tooth, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that enamel is the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about enamel, such as its composition, development, and susceptibility to damage, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context. It not only answers the query by identifying enamel as the material forming the hard outermost layer of a human tooth but also offers additional information about enamel's properties and functions, enhancing understanding of the topic."
+            },
+            "nq_104239_3": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the material forming the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses enamel, its formation, properties, and characteristics. It mentions that enamel is formed on the tooth during development, its thickness, color, and its role in dentistry. It also highlights enamel's strength and brittleness.",
+                "Document and Query Keywords Matching": "The document mentions 'enamel', which is directly related to the query's focus on the hard outermost layer of a human tooth.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'enamel', which matches the answer.",
+                "Key Information Matching": "The document provides detailed information about enamel, including its formation, properties, and role in human teeth, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that enamel is the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional details about enamel, such as its formation, thickness, and properties, which enhance understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context. It not only answers the query by identifying enamel as the material forming the hard outermost layer of a human tooth but also offers additional information about enamel's properties and characteristics."
+            },
+            "ott_23323_0": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard, outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses fictional elements, materials, isotopes, and subatomic particles, including 'Adamant' and 'Adamantite', which are described as hard substances. However, it does not mention anything related to human teeth or enamel.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query such as 'human tooth' or 'outermost layer'. It mentions 'hard', but in the context of fictional materials.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on fictional materials and their uses in mythology and literature.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses fictional materials and their uses in mythology and literature, but it does not mention anything about human teeth, enamel, or any related concepts. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_59975_37": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the material that forms the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document provides detailed information about the structure of human teeth, including the roles of different layers such as dentin and enamel. It specifically mentions that enamel is the white, outer layer of the crown, forming an extremely hard, nonporous cap over the dentin.",
+                "Document and Query Keywords Matching": "The document mentions 'hard', 'outer layer', and 'human tooth', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Enamel', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that enamel is the hard, outermost layer of the crown of a human tooth, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the answer to the query by stating that enamel is the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the structure of teeth, including the role of enamel and dentin.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about the structure of human teeth. It clearly states that enamel is the hard outermost layer of a human tooth, which directly answers the query."
+            },
+            "triviaqa_19351_340": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the material that forms the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses the manufacturing process of multi-V-ribbed belts and synchronous belts, including the use of materials like rubber, composite materials, and open mesh textile material. It does not mention anything related to human teeth or dental anatomy.",
+                "Document and Query Keywords Matching": "None of the query keywords ('material', 'hard outermost layer', 'human tooth') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Enamel' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer. It focuses entirely on the manufacturing of belts and does not mention human teeth or enamel.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the material forming the hard outermost layer of a human tooth.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context for the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the manufacturing of belts and does not mention human teeth, enamel, or any related concepts. Therefore, it is irrelevant to the query and cannot assist in answering it or providing additional context."
+            },
+            "triviaqa_19351_341": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard, outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard, outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses the construction of belt sleeves, specifically mentioning the outermost layer being an open mesh textile material. It also describes the process of applying rubber/composite materials and the use of transfer labels during vulcanization.",
+                "Document and Query Keywords Matching": "The document mentions 'outermost layer', which matches a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Enamel' or any material related to human teeth.",
+                "Key Information Matching": "The document discusses the outermost layer of a belt sleeve, which is unrelated to the outermost layer of a human tooth.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about human teeth or enamel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to human teeth or enamel.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the construction of belt sleeves and does not mention human teeth, enamel, or any related concepts. Therefore, it is irrelevant to the query."
+            },
+            "m.015kp7_17": {
+                "Query Analysis": "The query asks about the material that forms the hard outermost layer of a human tooth.",
+                "Query Keywords Extraction": "material, hard outermost layer, human tooth",
+                "Answer Analysis": "The answer is 'Enamel', which is the hard outermost layer of a human tooth.",
+                "Document Content Analysis": "The document discusses stratovolcanoes, their formation, structure, and characteristics. It mentions materials like lava, tephra, pumice, and volcanic ash, but does not mention anything related to human teeth or enamel.",
+                "Document and Query Keywords Matching": "None of the query keywords ('material', 'hard outermost layer', 'human tooth') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Enamel' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to human teeth, enamel, or the hard outermost layer of teeth.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about human teeth or enamel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses stratovolcanoes and volcanic materials, which have no connection to human teeth or enamel. Therefore, the document is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0hqjk6w_5": {},
+            "ott_36819_1": {},
+            "m.025rs2z_38": {},
+            "triviaqa_9562_20": {},
+            "triviaqa_9562_8": {},
+            "triviaqa_59975_36": {},
+            "triviaqa_59975_30": {},
+            "m.015kp7_138": {},
+            "nq_104239_2": {},
+            "nq_104239_3": {},
+            "ott_23323_0": {},
+            "triviaqa_59975_37": {},
+            "triviaqa_19351_340": {},
+            "triviaqa_19351_341": {},
+            "m.015kp7_17": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "kg": 0,
+            "nq": 2,
+            "triviaqa": 4,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

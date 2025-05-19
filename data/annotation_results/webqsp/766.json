@@ -1,0 +1,949 @@
+{
+    "index": 766,
+    "context": [
+        "m.01ng1x",
+        "m.03ny5l",
+        "m.0ctvd"
+    ],
+    "qa": {
+        "question": "what else did eli whitney invent?",
+        "answer": "Milling",
+        "BM25_documents": [
+            {
+                "id": "nq_220054_1",
+                "score": 14.69159984588623
+            },
+            {
+                "id": "triviaqa_13372_95",
+                "score": 14.541500091552734
+            },
+            {
+                "id": "m.0ctvd_36",
+                "score": 14.450900077819824
+            },
+            {
+                "id": "triviaqa_13372_94",
+                "score": 14.312100410461426
+            },
+            {
+                "id": "nq_220054_7",
+                "score": 14.129599571228027
+            },
+            {
+                "id": "m.0ctvd_2",
+                "score": 13.88029956817627
+            },
+            {
+                "id": "m.01ng1x_25",
+                "score": 13.791799545288086
+            },
+            {
+                "id": "m.0ctvd_1",
+                "score": 13.685400009155273
+            },
+            {
+                "id": "nq_220054_0",
+                "score": 13.565999984741211
+            },
+            {
+                "id": "m.0ctvd_37",
+                "score": 13.506500244140625
+            },
+            {
+                "id": "nq_64_117",
+                "score": 13.381400108337402
+            },
+            {
+                "id": "triviaqa_13372_96",
+                "score": 13.34179973602295
+            },
+            {
+                "id": "nq_220054_6",
+                "score": 13.286299705505371
+            },
+            {
+                "id": "nq_124123_107",
+                "score": 13.272700309753418
+            },
+            {
+                "id": "nq_124123_108",
+                "score": 13.272699356079102
+            },
+            {
+                "id": "nq_64_116",
+                "score": 13.272698402404785
+            },
+            {
+                "id": "nq_256154_107",
+                "score": 13.165900230407715
+            },
+            {
+                "id": "nq_220054_2",
+                "score": 12.990099906921387
+            },
+            {
+                "id": "nq_163237_58",
+                "score": 12.97920036315918
+            },
+            {
+                "id": "nq_26279_58",
+                "score": 12.979199409484863
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.0ctvd_36",
+                "score": 14.450900077819824
+            },
+            {
+                "id": "m.0ctvd_2",
+                "score": 13.88029956817627
+            },
+            {
+                "id": "m.01ng1x_25",
+                "score": 13.791799545288086
+            },
+            {
+                "id": "m.0ctvd_1",
+                "score": 13.685400009155273
+            },
+            {
+                "id": "m.0ctvd_37",
+                "score": 13.506500244140625
+            },
+            {
+                "id": "m.03ny5l_20",
+                "score": 12.785900115966797
+            },
+            {
+                "id": "m.03ny5l_19",
+                "score": 12.671199798583984
+            },
+            {
+                "id": "m.01ng1x_24",
+                "score": 12.509900093078613
+            },
+            {
+                "id": "m.0ctvd_35",
+                "score": 12.509899139404297
+            },
+            {
+                "id": "m.0ctvd_3",
+                "score": 12.23270034790039
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_18995_1",
+                "score": 7.157800197601318
+            },
+            {
+                "id": "ott_21993_1",
+                "score": 7.157799243927002
+            },
+            {
+                "id": "ott_23633_1",
+                "score": 7.1577982902526855
+            },
+            {
+                "id": "ott_39188_1",
+                "score": 7.157797336578369
+            },
+            {
+                "id": "ott_18995_0",
+                "score": 6.08949613571167
+            },
+            {
+                "id": "ott_21993_0",
+                "score": 6.0894951820373535
+            },
+            {
+                "id": "ott_23633_0",
+                "score": 6.089493751525879
+            },
+            {
+                "id": "ott_39188_0",
+                "score": 6.0894927978515625
+            },
+            {
+                "id": "ott_11723_0",
+                "score": 5.407299995422363
+            },
+            {
+                "id": "ott_31884_0",
+                "score": 5.407299041748047
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_220054_1",
+                "score": 14.69159984588623
+            },
+            {
+                "id": "nq_220054_7",
+                "score": 14.129599571228027
+            },
+            {
+                "id": "nq_220054_0",
+                "score": 13.565999984741211
+            },
+            {
+                "id": "nq_64_117",
+                "score": 13.381400108337402
+            },
+            {
+                "id": "nq_220054_6",
+                "score": 13.286299705505371
+            },
+            {
+                "id": "nq_124123_107",
+                "score": 13.272700309753418
+            },
+            {
+                "id": "nq_124123_108",
+                "score": 13.272699356079102
+            },
+            {
+                "id": "nq_64_116",
+                "score": 13.272698402404785
+            },
+            {
+                "id": "nq_256154_107",
+                "score": 13.165900230407715
+            },
+            {
+                "id": "nq_220054_2",
+                "score": 12.990099906921387
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_13372_95",
+                "score": 14.541500091552734
+            },
+            {
+                "id": "triviaqa_13372_94",
+                "score": 14.312100410461426
+            },
+            {
+                "id": "triviaqa_13372_96",
+                "score": 13.34179973602295
+            },
+            {
+                "id": "triviaqa_13372_97",
+                "score": 11.395099639892578
+            },
+            {
+                "id": "triviaqa_24003_36",
+                "score": 11.324899673461914
+            },
+            {
+                "id": "triviaqa_24003_37",
+                "score": 11.324898719787598
+            },
+            {
+                "id": "triviaqa_50883_0",
+                "score": 10.943900108337402
+            },
+            {
+                "id": "triviaqa_75528_331",
+                "score": 10.743000030517578
+            },
+            {
+                "id": "triviaqa_63458_22",
+                "score": 10.52929973602295
+            },
+            {
+                "id": "triviaqa_43236_284",
+                "score": 10.454899787902832
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0ctvd_36",
+                "score": 14.450900077819824
+            },
+            {
+                "id": "m.0ctvd_2",
+                "score": 13.88029956817627
+            },
+            {
+                "id": "m.01ng1x_25",
+                "score": 13.791799545288086
+            },
+            {
+                "id": "m.0ctvd_1",
+                "score": 13.685400009155273
+            },
+            {
+                "id": "m.0ctvd_37",
+                "score": 13.506500244140625
+            },
+            {
+                "id": "m.03ny5l_20",
+                "score": 12.785900115966797
+            },
+            {
+                "id": "m.03ny5l_19",
+                "score": 12.671199798583984
+            },
+            {
+                "id": "m.01ng1x_24",
+                "score": 12.509900093078613
+            },
+            {
+                "id": "m.0ctvd_35",
+                "score": 12.509899139404297
+            },
+            {
+                "id": "m.0ctvd_3",
+                "score": 12.23270034790039
+            },
+            {
+                "id": "m.0_g74ns_0",
+                "score": 10.161399841308594
+            },
+            {
+                "id": "m.0ctvd_8",
+                "score": 9.820899963378906
+            },
+            {
+                "id": "m.0cpkdcb_0",
+                "score": 9.516799926757812
+            },
+            {
+                "id": "m.0ctvd_9",
+                "score": 8.954899787902832
+            },
+            {
+                "id": "m.0ctvd_23",
+                "score": 8.621299743652344
+            },
+            {
+                "id": "m.0ctvd_7",
+                "score": 8.272000312805176
+            },
+            {
+                "id": "m.0ctvd_4",
+                "score": 7.468100070953369
+            },
+            {
+                "id": "m.0ctvd_22",
+                "score": 7.361800193786621
+            },
+            {
+                "id": "m.0f2nf_104",
+                "score": 7.2778000831604
+            },
+            {
+                "id": "m.0f2nf_105",
+                "score": 7.277799129486084
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.0ctvd_36",
+                "score": 0.7271649241447449
+            },
+            {
+                "id": "m.0ctvd_3",
+                "score": 0.7182466983795166
+            },
+            {
+                "id": "nq_220054_7",
+                "score": 0.7052128314971924
+            },
+            {
+                "id": "nq_220054_1",
+                "score": 0.6851879358291626
+            },
+            {
+                "id": "m.0ctvd_37",
+                "score": 0.676389753818512
+            },
+            {
+                "id": "m.0ctvd_2",
+                "score": 0.6668744683265686
+            },
+            {
+                "id": "nq_220054_6",
+                "score": 0.6662761569023132
+            },
+            {
+                "id": "triviaqa_23913_19",
+                "score": 0.6604541540145874
+            },
+            {
+                "id": "nq_220054_2",
+                "score": 0.6558888554573059
+            },
+            {
+                "id": "triviaqa_13372_95",
+                "score": 0.6513015031814575
+            },
+            {
+                "id": "triviaqa_24003_37",
+                "score": 0.6498717069625854
+            },
+            {
+                "id": "triviaqa_76017_70",
+                "score": 0.6495246887207031
+            },
+            {
+                "id": "triviaqa_76017_78",
+                "score": 0.6483561396598816
+            },
+            {
+                "id": "nq_124123_21",
+                "score": 0.6478763222694397
+            },
+            {
+                "id": "nq_256154_21",
+                "score": 0.6476500034332275
+            },
+            {
+                "id": "nq_220054_3",
+                "score": 0.6435052156448364
+            },
+            {
+                "id": "triviaqa_76362_55",
+                "score": 0.6432892084121704
+            },
+            {
+                "id": "triviaqa_23913_37",
+                "score": 0.6420144438743591
+            },
+            {
+                "id": "m.0ctvd_8",
+                "score": 0.6389347910881042
+            },
+            {
+                "id": "nq_64_23",
+                "score": 0.633446991443634
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.0ctvd_36",
+                "score": 0.7271649241447449
+            },
+            {
+                "id": "m.0ctvd_3",
+                "score": 0.7182466983795166
+            },
+            {
+                "id": "m.0ctvd_37",
+                "score": 0.676389753818512
+            },
+            {
+                "id": "m.0ctvd_2",
+                "score": 0.6668744683265686
+            },
+            {
+                "id": "m.0ctvd_8",
+                "score": 0.6389347910881042
+            },
+            {
+                "id": "m.0ctvd_9",
+                "score": 0.6311291456222534
+            },
+            {
+                "id": "m.03ny5l_19",
+                "score": 0.6158709526062012
+            },
+            {
+                "id": "m.03ny5l_20",
+                "score": 0.5909063816070557
+            },
+            {
+                "id": "m.01ng1x_25",
+                "score": 0.5902097821235657
+            },
+            {
+                "id": "m.0ctvd_35",
+                "score": 0.579955518245697
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_220054_7",
+                "score": 0.7052128314971924
+            },
+            {
+                "id": "nq_220054_1",
+                "score": 0.6851879358291626
+            },
+            {
+                "id": "nq_220054_6",
+                "score": 0.6662761569023132
+            },
+            {
+                "id": "nq_220054_2",
+                "score": 0.6558888554573059
+            },
+            {
+                "id": "nq_124123_21",
+                "score": 0.6478763222694397
+            },
+            {
+                "id": "nq_256154_21",
+                "score": 0.6476500034332275
+            },
+            {
+                "id": "nq_220054_3",
+                "score": 0.6435052156448364
+            },
+            {
+                "id": "nq_64_23",
+                "score": 0.633446991443634
+            },
+            {
+                "id": "nq_235459_64",
+                "score": 0.6303845643997192
+            },
+            {
+                "id": "nq_220054_19",
+                "score": 0.6288067102432251
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_23913_19",
+                "score": 0.6604541540145874
+            },
+            {
+                "id": "triviaqa_13372_95",
+                "score": 0.6513015031814575
+            },
+            {
+                "id": "triviaqa_24003_37",
+                "score": 0.6498717069625854
+            },
+            {
+                "id": "triviaqa_76017_70",
+                "score": 0.6495246887207031
+            },
+            {
+                "id": "triviaqa_76017_78",
+                "score": 0.6483561396598816
+            },
+            {
+                "id": "triviaqa_76362_55",
+                "score": 0.6432892084121704
+            },
+            {
+                "id": "triviaqa_23913_37",
+                "score": 0.6420144438743591
+            },
+            {
+                "id": "triviaqa_23913_0",
+                "score": 0.6329697966575623
+            },
+            {
+                "id": "triviaqa_13372_94",
+                "score": 0.6328856945037842
+            },
+            {
+                "id": "triviaqa_23913_6",
+                "score": 0.6315640807151794
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0ctvd_36",
+                "score": 0.7271649241447449
+            },
+            {
+                "id": "m.0ctvd_3",
+                "score": 0.7182466983795166
+            },
+            {
+                "id": "m.0ctvd_37",
+                "score": 0.676389753818512
+            },
+            {
+                "id": "m.0ctvd_2",
+                "score": 0.6668744683265686
+            },
+            {
+                "id": "m.0ctvd_8",
+                "score": 0.6389347910881042
+            },
+            {
+                "id": "m.0ctvd_9",
+                "score": 0.6311291456222534
+            },
+            {
+                "id": "m.03ny5l_19",
+                "score": 0.6158709526062012
+            },
+            {
+                "id": "m.03ny5l_20",
+                "score": 0.5909063816070557
+            },
+            {
+                "id": "m.01ng1x_25",
+                "score": 0.5902097821235657
+            },
+            {
+                "id": "m.019fz_417",
+                "score": 0.5870809555053711
+            },
+            {
+                "id": "m.07bty_515",
+                "score": 0.5842639207839966
+            },
+            {
+                "id": "m.07bty_136",
+                "score": 0.5827881097793579
+            },
+            {
+                "id": "m.0xrxw_918",
+                "score": 0.5827738642692566
+            },
+            {
+                "id": "m.07bty_518",
+                "score": 0.5825920701026917
+            },
+            {
+                "id": "m.07bty_308",
+                "score": 0.5824305415153503
+            },
+            {
+                "id": "m.0ctvd_35",
+                "score": 0.579955518245697
+            },
+            {
+                "id": "m.07bty_519",
+                "score": 0.5781568884849548
+            },
+            {
+                "id": "m.07bty_140",
+                "score": 0.5773923993110657
+            },
+            {
+                "id": "m.07bty_314",
+                "score": 0.5772822499275208
+            },
+            {
+                "id": "m.07bty_168",
+                "score": 0.5759211182594299
+            }
+        ],
+        "llm_mark_result": {
+            "m.0ctvd_37": {
+                "Query Analysis": "The query seeks information about other inventions by Eli Whitney besides the well-known cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer indicates that Eli Whitney also invented the milling process.",
+                "Document Content Analysis": "The document primarily discusses the invention of the cotton gin by Eli Whitney, its impact on the cotton industry, and its role in the growth of slavery and the American Civil War. It provides detailed information about the mechanics and significance of the cotton gin.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invention', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "While the document extensively covers Eli Whitney's invention of the cotton gin, it does not provide information on any other inventions by him.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is focused solely on the cotton gin and does not provide any context or information about other inventions.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only discusses the cotton gin and does not provide any information about other inventions by Eli Whitney. Therefore, it cannot help in answering the query or inferring additional relevant information."
+            },
+            "m.0ctvd_36": {
+                "Query Analysis": "The query is asking for additional inventions by Eli Whitney beyond the one most commonly known.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer indicates that Eli Whitney also invented the milling machine.",
+                "Document Content Analysis": "The document primarily discusses the cotton gin, its function, history, and its impact on the cotton industry and slavery. It mentions Eli Whitney as the inventor of the cotton gin but does not mention any other inventions by him.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Eli Whitney' and discusses his invention of the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'milling' or any reference to a milling machine.",
+                "Key Information Matching": "The document provides information about Eli Whitney's most famous invention, the cotton gin, but does not provide information about any other inventions.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "While the document is about an invention by Eli Whitney, it is focused solely on the cotton gin and does not provide any information about his other inventions. Therefore, it is not relevant to the query, which asks about other inventions by Whitney."
+            },
+            "m.0ctvd_3": {
+                "Query Analysis": "The query seeks information about other inventions by Eli Whitney besides his well-known cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer specifies that Eli Whitney also invented the milling machine.",
+                "Document Content Analysis": "The document primarily discusses Eli Whitney's invention of the cotton gin, providing detailed descriptions of its function, impact, and historical context. It mentions the year of invention and the patent date, as well as the broader implications of the invention on the cotton industry and slavery in the American South.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invention', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "While the document provides extensive information about Eli Whitney and his famous invention, it does not provide any details about his other inventions.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is solely focused on the cotton gin and does not provide any context or information that could help infer other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only discusses the cotton gin and does not provide any information about Eli Whitney's other inventions. Therefore, it cannot assist in answering the query or providing additional relevant information."
+            },
+            "m.01ng1x_25": {
+                "Query Analysis": "The query asks for additional inventions made by Eli Whitney beyond his well-known inventions.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer specifies that Eli Whitney also invented 'Milling'.",
+                "Document Content Analysis": "The document provides various categorizations and associations of the term 'Milling', including its relation to Eli Whitney as an invention.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'Milling', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Eli Whitney -- Inventions --> Milling', which directly matches the answer.",
+                "Key Information Matching": "The document directly links 'Milling' as an invention by 'Eli Whitney', which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Eli Whitney invented Milling.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Milling being an invention and its various categorizations, which can help infer the significance of this invention.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information that Eli Whitney invented Milling, which is the answer to the query. Additionally, the document offers context about Milling, enhancing the understanding of Eli Whitney's contributions."
+            },
+            "nq_220054_1": {
+                "Query Analysis": "The query is seeking information about other inventions by Eli Whitney besides the one that is most well-known.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer indicates that Eli Whitney also invented a milling machine.",
+                "Document Content Analysis": "The document primarily discusses the invention of the cotton gin by Eli Whitney, its impact, and some historical context. It mentions Whitney's work on the cotton gin and his move to Georgia but does not mention any other inventions.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and his invention, which matches the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "While the document provides detailed information about Eli Whitney and his famous invention, the cotton gin, it does not provide any information about his other inventions.",
+                "Can the Document Answer the Query": "No, the document does not provide information about other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses solely on the cotton gin and does not provide any context or information that could help infer other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused exclusively on Eli Whitney's invention of the cotton gin and does not mention any other inventions. Therefore, it does not provide any useful context or additional information relevant to the query about his other inventions."
+            },
+            "nq_220054_7": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney also invented a milling machine.",
+                "Document Content Analysis": "The document primarily discusses Eli Whitney's invention of the cotton gin, including details about the patent, the design, and some controversy surrounding the invention. It mentions other inventors who improved the cotton gin but does not explicitly mention any other inventions by Whitney.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invent', focusing on the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "While the document provides extensive information about Eli Whitney and his famous invention, it lacks any details about his other inventions.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer other inventions by Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused solely on Eli Whitney's invention of the cotton gin and does not provide any information about his other inventions. Therefore, it is irrelevant to the query, which seeks information about his other inventions."
+            },
+            "m.0ctvd_2": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the well-known cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer specifies that Eli Whitney also invented the milling machine.",
+                "Document Content Analysis": "The document primarily discusses the cotton gin, its development, and its impact. It mentions Eli Whitney as the inventor of the modern mechanical cotton gin and provides details about the invention and improvements made by others. It also briefly touches on the historical context and the role of other individuals like Hodgen Holmes and Catherine Littlefield Greene.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and his invention, the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not mention 'milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "The document focuses solely on the cotton gin and does not provide information about any other inventions by Eli Whitney.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused exclusively on the cotton gin and does not provide any information about other inventions by Eli Whitney. Therefore, it is irrelevant to the query, as it neither answers the question directly nor provides any useful context or additional information that could help infer the answer."
+            },
+            "triviaqa_23913_19": {
+                "Query Analysis": "The query seeks information about other inventions by Eli Whitney, besides his well-known invention of the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer indicates that Eli Whitney also invented a milling machine.",
+                "Document Content Analysis": "The document discusses the life and inventions of Elisha Otis, particularly focusing on his creation of the safe elevator. It provides details about Otis's background, his innovative work in elevator safety, and his entrepreneurial efforts in founding the Union Elevator and General Machine Works Company.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Eli Whitney', 'invent', 'else') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'milling' or any related terms associated with Eli Whitney's inventions.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about Elisha Otis, not Eli Whitney.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Eli Whitney or his inventions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to Eli Whitney or his inventions.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Elisha Otis and his contributions to elevator safety, which is unrelated to Eli Whitney and his inventions. Therefore, it is irrelevant to the query."
+            },
+            "ott_18995_1": {
+                "Query Analysis": "The query seeks information about other inventions by Eli Whitney, beyond his most famous one.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer indicates that Eli Whitney also invented the milling process.",
+                "Document Content Analysis": "The document lists episodes of the TV show 'Live with Regis and Kelly' for September 2009, including guest names and special events mentioned in each episode.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Manning', which is a partial match to the query keyword 'Eli', but there is no mention of 'Whitney' or 'invent'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer 'Milling'.",
+                "Key Information Matching": "The document has no relevant information about Eli Whitney or his inventions. The mention of 'Eli Manning' is a false positive as it refers to a different individual.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Eli Whitney's inventions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about Eli Whitney's inventions.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on TV show episodes and guest appearances, with no relevance to Eli Whitney or his inventions. The mention of 'Eli Manning' does not contribute to the query's topic."
+            },
+            "triviaqa_13372_94": {
+                "Query Analysis": "The query is asking for additional inventions made by Eli Whitney beyond his most famous one, the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer indicates that Eli Whitney also invented a milling machine.",
+                "Document Content Analysis": "The document primarily discusses the Eli Whitney Museum and Workshop, referencing Eli Whitney in the context of inventors and the industrial revolution. It mentions practical men who invented new machines and a new social order, with Eli Whitney as an example.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and the concept of invention ('invented new machines').",
+                "Document and Answer Keywords Matching": "The document does not mention 'milling' or any specific invention by Eli Whitney other than the general idea of inventing machines.",
+                "Key Information Matching": "The document aligns with the query in terms of discussing Eli Whitney and his role as an inventor but lacks specific details about his inventions.",
+                "Can the Document Answer the Query": "No, the document does not provide specific information about other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Eli Whitney's role as an inventor and his contributions to the industrial revolution, which could be useful for understanding his broader impact.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it mentions Eli Whitney and his role as an inventor, but it does not provide specific details about his other inventions. Therefore, it is partially relevant, offering some context but not directly answering the query."
+            },
+            "triviaqa_13372_95": {
+                "Query Analysis": "The query seeks information about other inventions by Eli Whitney besides his most famous one.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer specifies that Eli Whitney also invented milling.",
+                "Document Content Analysis": "The document discusses the Eli Whitney Museum and Workshop, highlighting Whitney's contributions to the industrial revolution, his approach to learning and invention, and his impact on education and tooling systems. It emphasizes his role as a 'knowledge worker' and a master of change.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'milling'.",
+                "Key Information Matching": "While the document extensively discusses Eli Whitney's contributions and mindset, it does not specify any of his inventions directly.",
+                "Can the Document Answer the Query": "No, the document does not list any specific inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Whitney's innovative nature and his impact on industry and education, which could suggest that he had multiple contributions.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is relevant to Eli Whitney's broader impact and character as an inventor but lacks specific details about his inventions, making it partially relevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0ctvd_37": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney invented a milling machine.",
+                "Document Content Analysis": "The document discusses the invention of the cotton gin by Eli Whitney, its impact on the cotton industry, and its historical significance. It does not mention any other inventions by Whitney.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invent' in the context of the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "The document focuses solely on the cotton gin and does not provide information about other inventions by Eli Whitney.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the cotton gin and does not provide any information about other inventions by Eli Whitney, making it irrelevant to the query."
+            },
+            "m.0ctvd_36": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent, else",
+                "Answer Analysis": "The answer is 'Milling', indicating another invention by Eli Whitney.",
+                "Document Content Analysis": "The document primarily discusses the cotton gin, its invention by Eli Whitney, and its impact. It does not mention any other inventions by Eli Whitney.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invention' in the context of the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "The document focuses solely on the cotton gin and does not provide information about other inventions by Eli Whitney.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused exclusively on the cotton gin and does not provide any information about other inventions by Eli Whitney. Therefore, it is irrelevant to the query."
+            },
+            "m.0ctvd_3": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney also invented something related to milling.",
+                "Document Content Analysis": "The document provides detailed information about Eli Whitney's invention of the cotton gin, its impact on the cotton industry, and its historical significance. However, it does not mention any other inventions by Eli Whitney.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invent' in the context of the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "The document focuses solely on the cotton gin and does not provide information about other inventions by Eli Whitney.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the cotton gin and does not mention any other inventions by Eli Whitney. Therefore, it is irrelevant to the query, which seeks information about other inventions."
+            },
+            "m.01ng1x_25": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides what is commonly known.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney invented milling.",
+                "Document Content Analysis": "The document provides detailed information about 'Milling', categorizing it as an invention and linking it to Eli Whitney. It also mentions various types and instances related to milling.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'Invention'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Milling' as an invention by Eli Whitney.",
+                "Key Information Matching": "The document directly links 'Milling' to Eli Whitney as one of his inventions, which matches the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Eli Whitney invented milling.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about milling as an invention by Eli Whitney.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information about another invention by Eli Whitney, which is milling. It enhances understanding by detailing the nature and categorization of milling as an invention."
+            },
+            "nq_220054_1": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney also invented something related to milling.",
+                "Document Content Analysis": "The document provides detailed information about Eli Whitney's invention of the cotton gin, its impact on the cotton industry, and its unintended consequences on slavery in the United States. It also mentions the historical context of cotton gins before Whitney's invention.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invent' in the context of the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "The document focuses on Eli Whitney's invention of the cotton gin and its historical impact but does not provide information about other inventions by Whitney.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused solely on Eli Whitney's invention of the cotton gin and its historical context. It does not mention any other inventions by Whitney, such as milling, and thus does not provide any useful information to answer the query."
+            },
+            "nq_220054_7": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney also invented something related to milling.",
+                "Document Content Analysis": "The document provides detailed information about Eli Whitney's invention of the cotton gin, including its patent details, functionality, and historical context. However, it does not mention any other inventions by Whitney.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invent' in the context of the cotton gin.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling' or any other inventions by Eli Whitney.",
+                "Key Information Matching": "The document focuses solely on the cotton gin and does not provide information about other inventions by Eli Whitney.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Eli Whitney's invention of the cotton gin and does not mention any other inventions. Therefore, it does not provide any useful information to answer the query or infer additional information."
+            },
+            "m.0ctvd_2": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating another invention by Eli Whitney.",
+                "Document Content Analysis": "The document primarily discusses the cotton gin, its history, and its impact. It mentions Eli Whitney's role in inventing the cotton gin and some related historical context but does not mention any other inventions by him.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling'.",
+                "Key Information Matching": "The document focuses on the cotton gin and does not provide information about other inventions by Eli Whitney.",
+                "Can the Document Answer the Query": "No, the document does not mention any other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about other inventions by Eli Whitney.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused solely on the cotton gin and does not provide any information about other inventions by Eli Whitney, making it irrelevant to the query."
+            },
+            "triviaqa_23913_19": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney, besides the cotton gin.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney invented something related to milling.",
+                "Document Content Analysis": "The document discusses Elisha Otis, an inventor known for creating the first safe elevator. It details his life, inventions, and contributions to elevator technology. There is no mention of Eli Whitney or his inventions.",
+                "Document and Query Keywords Matching": "The document does not mention 'Eli Whitney' or 'invent' in the context of Eli Whitney.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling' or any related terms.",
+                "Key Information Matching": "The document does not provide any information about Eli Whitney or his inventions, including milling.",
+                "Can the Document Answer the Query": "No, the document does not mention Eli Whitney or his inventions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Eli Whitney or his inventions.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Elisha Otis and his inventions, with no mention of Eli Whitney or his contributions. Therefore, it is irrelevant to the query."
+            },
+            "ott_18995_1": {
+                "Query Analysis": "The query asks about other inventions by Eli Whitney, beyond what he is commonly known for.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', which refers to Eli Whitney's invention related to milling processes.",
+                "Document Content Analysis": "The document lists episodes of 'Live with Regis and Kelly' from September 2009, mentioning various guests and events. It does not contain any information about Eli Whitney or his inventions.",
+                "Document and Query Keywords Matching": "The document does not mention 'Eli Whitney' or 'invent'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Milling'.",
+                "Key Information Matching": "The document does not provide any information related to Eli Whitney or his inventions.",
+                "Can the Document Answer the Query": "No, the document does not mention Eli Whitney or his inventions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Eli Whitney or his inventions.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Eli Whitney, his inventions, or any context that could help infer additional information about the query."
+            },
+            "triviaqa_13372_94": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides what is commonly known.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney was involved in the invention or development of milling technology.",
+                "Document Content Analysis": "The document discusses the Eli Whitney Museum and Workshop, mentioning Eli Whitney's role in the industrial revolution and his association with practical men who invented new machines and a new social order. It also references the millwright James Brindley, suggesting a connection to milling technology.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and 'invented'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'milling' but discusses the industrial revolution and the invention of new machines, which could be related to milling technology.",
+                "Key Information Matching": "The document provides context about Eli Whitney's involvement in the industrial revolution and the invention of new machines, which aligns with the query's focus on his inventions.",
+                "Can the Document Answer the Query": "No, the document does not explicitly list other inventions by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Eli Whitney's role in the industrial revolution and the invention of new machines, which could help infer his involvement in milling technology.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about Eli Whitney's involvement in the industrial revolution and the invention of new machines, which could help infer his involvement in milling technology. However, it does not explicitly list other inventions by Eli Whitney."
+            },
+            "triviaqa_13372_95": {
+                "Query Analysis": "The query asks for other inventions by Eli Whitney besides what is commonly known.",
+                "Query Keywords Extraction": "Eli Whitney, invent",
+                "Answer Analysis": "The answer is 'Milling', indicating that Eli Whitney was involved in the invention or development of milling technology.",
+                "Document Content Analysis": "The document discusses Eli Whitney's contributions to the industrial revolution, his role as a knowledge worker, and his impact on education and tooling systems. It mentions his workshop as a learning laboratory and his influence on the industrial revolution's development.",
+                "Document and Query Keywords Matching": "The document mentions 'Eli Whitney' and discusses his inventions and contributions, which aligns with the query's focus on his inventions.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Milling' as an invention by Eli Whitney.",
+                "Key Information Matching": "The document provides context about Eli Whitney's role in the industrial revolution and his contributions to tooling systems, which could be related to milling technology, but it does not directly mention milling.",
+                "Can the Document Answer the Query": "No, the document does not directly mention 'Milling' as an invention by Eli Whitney.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Eli Whitney's contributions to the industrial revolution and tooling systems, which could be related to milling technology.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about Eli Whitney's contributions to the industrial revolution and tooling systems, which could be related to milling technology. However, it does not directly mention 'Milling' as an invention by Eli Whitney."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0ctvd_37": {},
+            "m.0ctvd_36": {},
+            "m.0ctvd_3": {},
+            "m.01ng1x_25": {},
+            "nq_220054_1": {},
+            "nq_220054_7": {},
+            "m.0ctvd_2": {},
+            "triviaqa_23913_19": {},
+            "ott_18995_1": {},
+            "triviaqa_13372_94": {},
+            "triviaqa_13372_95": {}
+        },
+        "relevance_judgement": 1,
+        "llm_fail": {},
+        "dataset_score": {
+            "kg": 2,
+            "triviaqa": 1,
+            "nq": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

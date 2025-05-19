@@ -1,0 +1,865 @@
+{
+    "index": 78755,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "According to Roman mythology, which twins founded Rome?",
+        "answer": "Romulus and Remus",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_18514_9",
+                "score": 19.887100219726562
+            },
+            {
+                "id": "nq_281354_24",
+                "score": 19.80660057067871
+            },
+            {
+                "id": "nq_281354_25",
+                "score": 18.92770004272461
+            },
+            {
+                "id": "triviaqa_18514_7",
+                "score": 18.585800170898438
+            },
+            {
+                "id": "triviaqa_18514_10",
+                "score": 18.40880012512207
+            },
+            {
+                "id": "m.0ghqr_100",
+                "score": 18.04789924621582
+            },
+            {
+                "id": "nq_281354_92",
+                "score": 17.757099151611328
+            },
+            {
+                "id": "triviaqa_18514_6",
+                "score": 17.68670082092285
+            },
+            {
+                "id": "nq_281354_93",
+                "score": 17.553699493408203
+            },
+            {
+                "id": "nq_184522_28",
+                "score": 17.425899505615234
+            },
+            {
+                "id": "triviaqa_65705_1",
+                "score": 17.085399627685547
+            },
+            {
+                "id": "nq_184522_29",
+                "score": 17.052400588989258
+            },
+            {
+                "id": "triviaqa_18514_29",
+                "score": 17.036300659179688
+            },
+            {
+                "id": "triviaqa_18514_12",
+                "score": 16.939300537109375
+            },
+            {
+                "id": "nq_67408_14",
+                "score": 16.877500534057617
+            },
+            {
+                "id": "triviaqa_65705_2",
+                "score": 16.43829917907715
+            },
+            {
+                "id": "m.0ghqr_101",
+                "score": 16.340700149536133
+            },
+            {
+                "id": "triviaqa_18514_13",
+                "score": 16.29509925842285
+            },
+            {
+                "id": "triviaqa_18514_21",
+                "score": 16.136499404907227
+            },
+            {
+                "id": "triviaqa_74522_1",
+                "score": 16.072599411010742
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_30337_0",
+                "score": 8.055700302124023
+            },
+            {
+                "id": "ott_38525_0",
+                "score": 8.055699348449707
+            },
+            {
+                "id": "ott_39041_0",
+                "score": 8.05569839477539
+            },
+            {
+                "id": "ott_7570_0",
+                "score": 8.055697441101074
+            },
+            {
+                "id": "ott_28580_0",
+                "score": 8.000898361206055
+            },
+            {
+                "id": "ott_31463_0",
+                "score": 8.000897407531738
+            },
+            {
+                "id": "ott_31527_2",
+                "score": 7.975392818450928
+            },
+            {
+                "id": "ott_40788_2",
+                "score": 7.975391864776611
+            },
+            {
+                "id": "ott_15477_1",
+                "score": 7.864099979400635
+            },
+            {
+                "id": "ott_21136_1",
+                "score": 7.864099025726318
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_281354_24",
+                "score": 19.80660057067871
+            },
+            {
+                "id": "nq_281354_25",
+                "score": 18.92770004272461
+            },
+            {
+                "id": "nq_281354_92",
+                "score": 17.757099151611328
+            },
+            {
+                "id": "nq_281354_93",
+                "score": 17.553699493408203
+            },
+            {
+                "id": "nq_184522_28",
+                "score": 17.425899505615234
+            },
+            {
+                "id": "nq_184522_29",
+                "score": 17.052400588989258
+            },
+            {
+                "id": "nq_67408_14",
+                "score": 16.877500534057617
+            },
+            {
+                "id": "nq_80255_7",
+                "score": 15.831500053405762
+            },
+            {
+                "id": "nq_67408_25",
+                "score": 15.777099609375
+            },
+            {
+                "id": "nq_80255_8",
+                "score": 15.746100425720215
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_18514_9",
+                "score": 19.887100219726562
+            },
+            {
+                "id": "triviaqa_18514_7",
+                "score": 18.585800170898438
+            },
+            {
+                "id": "triviaqa_18514_10",
+                "score": 18.40880012512207
+            },
+            {
+                "id": "triviaqa_18514_6",
+                "score": 17.68670082092285
+            },
+            {
+                "id": "triviaqa_65705_1",
+                "score": 17.085399627685547
+            },
+            {
+                "id": "triviaqa_18514_29",
+                "score": 17.036300659179688
+            },
+            {
+                "id": "triviaqa_18514_12",
+                "score": 16.939300537109375
+            },
+            {
+                "id": "triviaqa_65705_2",
+                "score": 16.43829917907715
+            },
+            {
+                "id": "triviaqa_18514_13",
+                "score": 16.29509925842285
+            },
+            {
+                "id": "triviaqa_18514_21",
+                "score": 16.136499404907227
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0ghqr_100",
+                "score": 18.04789924621582
+            },
+            {
+                "id": "m.0ghqr_101",
+                "score": 16.340700149536133
+            },
+            {
+                "id": "m.06c62_41",
+                "score": 11.260499954223633
+            },
+            {
+                "id": "m.06c62_504",
+                "score": 11.260499000549316
+            },
+            {
+                "id": "m.06c62_42",
+                "score": 11.053500175476074
+            },
+            {
+                "id": "m.06c62_505",
+                "score": 10.937999725341797
+            },
+            {
+                "id": "m.0ghqr_99",
+                "score": 10.262999534606934
+            },
+            {
+                "id": "m.09cxs_86",
+                "score": 9.99590015411377
+            },
+            {
+                "id": "m.0ghqr_57",
+                "score": 9.723799705505371
+            },
+            {
+                "id": "m.0ghqr_56",
+                "score": 9.453499794006348
+            },
+            {
+                "id": "m.09cxs_87",
+                "score": 9.220499992370605
+            },
+            {
+                "id": "m.0c8wxp_837",
+                "score": 8.788399696350098
+            },
+            {
+                "id": "m.06c62_208",
+                "score": 8.705499649047852
+            },
+            {
+                "id": "m.06c62_820",
+                "score": 8.637100219726562
+            },
+            {
+                "id": "m.01tf5_6",
+                "score": 8.593899726867676
+            },
+            {
+                "id": "m.06c62_106",
+                "score": 8.497300148010254
+            },
+            {
+                "id": "m.05dn72_23",
+                "score": 8.423700332641602
+            },
+            {
+                "id": "m.0c8wxp_1166",
+                "score": 8.3858003616333
+            },
+            {
+                "id": "m.06c62_105",
+                "score": 8.370100021362305
+            },
+            {
+                "id": "m.06c62_205",
+                "score": 8.305899620056152
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_18514_21",
+                "score": 0.7784990668296814
+            },
+            {
+                "id": "triviaqa_18514_10",
+                "score": 0.76260906457901
+            },
+            {
+                "id": "triviaqa_18514_27",
+                "score": 0.7597196102142334
+            },
+            {
+                "id": "m.0ghqr_57",
+                "score": 0.7577999830245972
+            },
+            {
+                "id": "nq_281354_24",
+                "score": 0.7554948925971985
+            },
+            {
+                "id": "triviaqa_18514_31",
+                "score": 0.7376376390457153
+            },
+            {
+                "id": "triviaqa_18514_28",
+                "score": 0.7360607385635376
+            },
+            {
+                "id": "triviaqa_39922_0",
+                "score": 0.727780282497406
+            },
+            {
+                "id": "nq_67408_12",
+                "score": 0.7277606725692749
+            },
+            {
+                "id": "nq_67408_13",
+                "score": 0.7266688942909241
+            },
+            {
+                "id": "m.0ghqr_101",
+                "score": 0.7245470881462097
+            },
+            {
+                "id": "nq_281354_25",
+                "score": 0.7232236862182617
+            },
+            {
+                "id": "nq_182459_10",
+                "score": 0.7230716943740845
+            },
+            {
+                "id": "triviaqa_40939_26",
+                "score": 0.7090882658958435
+            },
+            {
+                "id": "nq_67408_24",
+                "score": 0.7074955105781555
+            },
+            {
+                "id": "triviaqa_63729_94",
+                "score": 0.7033409476280212
+            },
+            {
+                "id": "nq_224123_87",
+                "score": 0.7021003365516663
+            },
+            {
+                "id": "nq_182182_87",
+                "score": 0.7021003365516663
+            },
+            {
+                "id": "triviaqa_18514_0",
+                "score": 0.7015475630760193
+            },
+            {
+                "id": "nq_182459_20",
+                "score": 0.6993274688720703
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_281354_24",
+                "score": 0.7554948925971985
+            },
+            {
+                "id": "nq_67408_12",
+                "score": 0.7277606725692749
+            },
+            {
+                "id": "nq_67408_13",
+                "score": 0.7266688942909241
+            },
+            {
+                "id": "nq_281354_25",
+                "score": 0.7232236862182617
+            },
+            {
+                "id": "nq_182459_10",
+                "score": 0.7230716943740845
+            },
+            {
+                "id": "nq_67408_24",
+                "score": 0.7074955105781555
+            },
+            {
+                "id": "nq_224123_87",
+                "score": 0.7021003365516663
+            },
+            {
+                "id": "nq_182182_87",
+                "score": 0.7021003365516663
+            },
+            {
+                "id": "nq_182459_20",
+                "score": 0.6993274688720703
+            },
+            {
+                "id": "nq_281354_93",
+                "score": 0.6917411684989929
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_18514_21",
+                "score": 0.7784990668296814
+            },
+            {
+                "id": "triviaqa_18514_10",
+                "score": 0.76260906457901
+            },
+            {
+                "id": "triviaqa_18514_27",
+                "score": 0.7597196102142334
+            },
+            {
+                "id": "triviaqa_18514_31",
+                "score": 0.7376376390457153
+            },
+            {
+                "id": "triviaqa_18514_28",
+                "score": 0.7360607385635376
+            },
+            {
+                "id": "triviaqa_39922_0",
+                "score": 0.727780282497406
+            },
+            {
+                "id": "triviaqa_40939_26",
+                "score": 0.7090882658958435
+            },
+            {
+                "id": "triviaqa_63729_94",
+                "score": 0.7033409476280212
+            },
+            {
+                "id": "triviaqa_18514_0",
+                "score": 0.7015475630760193
+            },
+            {
+                "id": "triviaqa_18514_33",
+                "score": 0.6949239373207092
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0ghqr_57",
+                "score": 0.7577999830245972
+            },
+            {
+                "id": "m.0ghqr_101",
+                "score": 0.7245470881462097
+            },
+            {
+                "id": "m.0ghqr_56",
+                "score": 0.6755607724189758
+            },
+            {
+                "id": "m.0ghqr_100",
+                "score": 0.6633516550064087
+            },
+            {
+                "id": "m.09cxs_87",
+                "score": 0.6181727647781372
+            },
+            {
+                "id": "m.06c62_505",
+                "score": 0.6136052012443542
+            },
+            {
+                "id": "m.06c62_204",
+                "score": 0.6025539636611938
+            },
+            {
+                "id": "m.0ghqr_58",
+                "score": 0.5937772393226624
+            },
+            {
+                "id": "m.0ghqr_7",
+                "score": 0.5883257389068604
+            },
+            {
+                "id": "m.06c62_198",
+                "score": 0.5872108340263367
+            },
+            {
+                "id": "m.06c62_500",
+                "score": 0.5821143388748169
+            },
+            {
+                "id": "m.06c62_708",
+                "score": 0.581903338432312
+            },
+            {
+                "id": "m.06c62_715",
+                "score": 0.5807852745056152
+            },
+            {
+                "id": "m.06c62_722",
+                "score": 0.5796740055084229
+            },
+            {
+                "id": "m.06c62_642",
+                "score": 0.5791261196136475
+            },
+            {
+                "id": "m.06c62_241",
+                "score": 0.5787414312362671
+            },
+            {
+                "id": "m.06c62_682",
+                "score": 0.5782124996185303
+            },
+            {
+                "id": "m.06c62_581",
+                "score": 0.576342761516571
+            },
+            {
+                "id": "m.06c62_212",
+                "score": 0.5758713483810425
+            },
+            {
+                "id": "m.06c62_187",
+                "score": 0.5745289921760559
+            }
+        ],
+        "llm_mark_result": {
+            "m.0ghqr_57": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twin founders of Rome.",
+                "Document Content Analysis": "The document provides a detailed description of Romulus and Remus, including their origins, early life, and the circumstances leading to the founding of Rome. It mentions their mother, Rhea Silvia, their miraculous survival, and their decision to found a new city.",
+                "Document and Query Keywords Matching": "The document mentions 'Romulus and Remus', 'Rome', and 'foundation myth', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', which is the exact answer to the query.",
+                "Key Information Matching": "The document directly addresses the key information of the query by describing Romulus and Remus as the main characters of Rome's foundation myth.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Romulus and Remus were the twin brothers who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the twins, their origins, and the circumstances of Rome's founding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it not only provides the answer (Romulus and Remus) but also offers detailed context about their role in the founding of Rome. This comprehensive information enhances the understanding of the query and its answer."
+            },
+            "m.0ghqr_101": {
+                "Query Analysis": "The query asks for the names of the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, indicating that these two individuals are the legendary twins who founded Rome.",
+                "Document Content Analysis": "The document provides a detailed narrative about Romulus and Remus, including their birth, upbringing, and the events leading to the founding of Rome. It mentions their mother, Rhea Silvia, their miraculous survival, and their eventual decision to found a new city.",
+                "Document and Query Keywords Matching": "The document includes 'Romulus and Remus', 'Rome', and 'founded', which are directly related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', which is the answer to the query.",
+                "Key Information Matching": "The document directly addresses the key information of the query by stating that Romulus and Remus are the twin brothers who founded Rome.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Romulus and Remus founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the twins, their origins, and the circumstances of Rome's founding.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by naming Romulus and Remus as the founders of Rome and provides additional context about their lives and the founding of the city."
+            },
+            "nq_281354_24": {
+                "Query Analysis": "The query asks for the names of the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document discusses the legend of the founding of Rome, specifically mentioning Romulus and Remus, the twins suckled by a she-wolf, and their decision to build a city, leading to Romulus killing his brother and naming the city after himself.",
+                "Document and Query Keywords Matching": "The document includes 'Roman mythology', 'twins', and 'founded Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus'.",
+                "Key Information Matching": "The document directly addresses the key information by naming Romulus and Remus as the twins who founded Rome, aligning with both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Romulus and Remus are the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the legend, including the she-wolf and the subsequent naming of the city.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions Romulus and Remus as the twins who founded Rome, providing both the answer and additional context about the legend. This makes it highly useful for understanding the query and its answer."
+            },
+            "triviaqa_18514_21": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the story of Romulus and Remus, including their parentage, early life, and the circumstances leading to their founding of Rome. It mentions their divine father Mars, their mother Rhea Silvia, their abandonment, and their upbringing by a she-wolf and a shepherd.",
+                "Document and Query Keywords Matching": "The document includes 'Roman mythology', 'twins', and 'founded Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus'.",
+                "Key Information Matching": "The document directly addresses the query by stating that Romulus and Remus are the founders of Rome according to Roman mythology.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Romulus and Remus founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the twins, their origins, and their early life, which enhances understanding of the myth.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query and provides substantial additional context and background information about Romulus and Remus, thereby enhancing the understanding of the mythological founding of Rome."
+            },
+            "triviaqa_18514_27": {
+                "Query Analysis": "The query asks about the twins who, according to Roman mythology, founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the myth of Romulus and Remus, including their background, early life, and the circumstances leading to the founding of Rome. It mentions their mother, Rhea Silvia, their father's possible identities, and their upbringing by a she-wolf and a shepherd.",
+                "Document and Query Keywords Matching": "The document includes keywords such as 'Romulus', 'Remus', 'myth', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus' and discusses their role in the founding of Rome.",
+                "Key Information Matching": "The document directly addresses the key information of the query by detailing the myth of Romulus and Remus and their founding of Rome.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Romulus and Remus are the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the twins, their origins, and the myth surrounding their founding of Rome.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly answers the question about which twins founded Rome according to Roman mythology. It also provides additional context and details about the myth, enhancing the understanding of the query's topic."
+            },
+            "triviaqa_18514_9": {
+                "Query Analysis": "The query asks about the twins who, according to Roman mythology, founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document provides definitions and descriptions of Romulus and Remus, mentioning their roles in Roman mythology, their parentage (sons of Mars), and the legendary story of being suckled by a wolf. It also mentions Romulus as the founder and first king of Rome.",
+                "Document and Query Keywords Matching": "The document includes 'Roman mythology', 'Romulus', 'Remus', and 'founding of Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', which are the key figures in the answer.",
+                "Key Information Matching": "The document directly discusses Romulus and Remus in the context of Roman mythology and their role in the founding of Rome.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Romulus and Remus as the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about their story and significance in Roman mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information about Romulus and Remus being the twins who founded Rome according to Roman mythology. It not only answers the query but also offers additional context, making it highly relevant."
+            },
+            "ott_30337_0": {
+                "Query Analysis": "The query asks about the twins who, according to Roman mythology, founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document lists various video games developed by Haemimont Games, including their titles, genres, and platforms. It also provides a brief introduction about the company, its founder, and its focus on simulation, city-building, and ancient history strategy games.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Roman mythology', 'twins', or 'founded Rome'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Romulus' or 'Remus'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about video games and a video game company, not Roman mythology.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Roman mythology or the founding of Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information related to Roman mythology or the founding of Rome.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on video games and a video game company, with no mention of Roman mythology, the founding of Rome, or the twins Romulus and Remus. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_18514_7": {
+                "Query Analysis": "The query asks about the mythical twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the lives of Romulus and Remus, including their discovery by a shepherd, their decision to establish a city, their conflict, and the subsequent founding of Rome by Romulus. It also mentions their mythical status and connection to Roman culture and history.",
+                "Document and Query Keywords Matching": "The document mentions 'Romulus and Remus', 'founded', and 'Rome', which directly match the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', which is the answer to the query.",
+                "Key Information Matching": "The document directly discusses Romulus and Remus as the founders of Rome, aligning perfectly with the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Romulus and Remus founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Romulus and Remus, their upbringing, and their significance in Roman mythology and history.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it not only directly answers the query but also provides substantial context and additional information about Romulus and Remus, enhancing the understanding of their role in Roman mythology and the founding of Rome."
+            },
+            "nq_281354_25": {
+                "Query Analysis": "The query asks about the twins who, according to Roman mythology, founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document discusses the legend and myth of Rome, specifically mentioning the story of Romulus and Remus, the twins suckled by a she-wolf who decided to build a city. It details how Romulus killed his brother Remus and the city was named after him. The document also mentions other related myths, such as the Trojan refugee Aeneas founding the line of Romans.",
+                "Document and Query Keywords Matching": "The document includes 'Roman mythology', 'twins', and 'founded Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus'.",
+                "Key Information Matching": "The document directly addresses the key information of the query by mentioning Romulus and Remus as the twins who founded Rome.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Romulus and Remus founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the legend of Romulus and Remus, including details about their upbringing and the founding of Rome.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions Romulus and Remus as the twins who founded Rome according to Roman mythology. It provides substantial context and background information that enhances understanding of the query."
+            },
+            "m.0ghqr_100": {
+                "Query Analysis": "The query asks for the names of the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, who are the legendary twin brothers credited with founding Rome.",
+                "Document Content Analysis": "The document provides information about Romulus and Remus, including their role in Roman mythology, their connection to the founding of Rome, and various entities named after them. It also includes a detailed narrative about their origin, upbringing, and significance.",
+                "Document and Query Keywords Matching": "The document mentions 'Romulus and Remus', 'Roman mythology', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus'.",
+                "Key Information Matching": "The document directly addresses the key information by stating that Romulus and Remus are the twin brothers central to Rome's foundation myth.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Romulus and Remus are the twins who founded Rome according to Roman mythology.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Romulus and Remus, their origins, and their significance in Roman mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Romulus and Remus are the twins who founded Rome according to Roman mythology. It provides substantial context and detailed information about their story, making it highly useful for understanding the query."
+            },
+            "triviaqa_18514_10": {
+                "Query Analysis": "The query asks about the twins who, according to Roman mythology, founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded Rome",
+                "Answer Analysis": "The answer identifies Romulus and Remus as the twins who founded Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the legendary founding of Rome by Romulus and Remus, including their parentage, early life, and the events leading to the founding of Rome. It also mentions their upbringing by a wolf and their subsequent actions in establishing the city.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'Romulus', 'Remus', and 'founding of Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', which are the names provided in the answer.",
+                "Key Information Matching": "The document directly addresses the key information of the query by detailing the story of Romulus and Remus and their role in founding Rome.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Romulus and Remus founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Romulus and Remus, their upbringing, and the circumstances leading to the founding of Rome.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly answers the question about which twins founded Rome according to Roman mythology. It provides substantial context and detailed information about Romulus and Remus, enhancing the understanding of their role in the founding of Rome."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0ghqr_57": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are central to the foundation myth of Rome.",
+                "Document Content Analysis": "The document provides a detailed account of Romulus and Remus, including their parentage, the circumstances of their birth, their miraculous survival, and their eventual founding of Rome. It also mentions their disagreement over the location of the new city.",
+                "Document and Query Keywords Matching": "The document mentions 'Romulus and Remus', 'founded', and 'Rome', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', which matches the answer.",
+                "Key Information Matching": "The document provides a comprehensive narrative about Romulus and Remus, including their role in founding Rome, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Romulus and Remus founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the twins' background and the events leading to the founding of Rome.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query about the founding of Rome by Romulus and Remus."
+            },
+            "m.0ghqr_101": {
+                "Query Analysis": "The query asks about the twins in Roman mythology who founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are central to the foundation myth of Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the myth of Romulus and Remus, including their parentage, their miraculous survival, their upbringing, and their eventual founding of Rome. It also mentions their disagreement over the location of the new city and their use of augury to decide.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome', which directly match the keywords in the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', which are the names of the twins in the answer.",
+                "Key Information Matching": "The document provides a comprehensive narrative about Romulus and Remus, including their role in founding Rome, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Romulus and Remus as the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the myth, including details about their parentage, survival, and the events leading to the founding of Rome.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It not only identifies Romulus and Remus as the founders of Rome but also provides a detailed account of their myth, enhancing understanding of the query."
+            },
+            "nq_281354_24": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twins who are said to have founded Rome.",
+                "Document Content Analysis": "The document discusses the legend of the founding of Rome, specifically mentioning Romulus and Remus, the twins who were suckled by a she-wolf and later founded the city. It also mentions the conflict between the twins and the eventual naming of the city after Romulus.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', the twins who founded Rome.",
+                "Key Information Matching": "The document directly addresses the query by providing the names of the twins (Romulus and Remus) and their role in founding Rome, as well as additional context about the legend.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming Romulus and Remus as the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the legend, including the conflict between the twins and the naming of the city.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer (Romulus and Remus) as well as additional context about the legend of the founding of Rome. It enhances understanding of the query by providing substantial useful information."
+            },
+            "triviaqa_18514_21": {
+                "Query Analysis": "The query asks for the names of the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are said to have founded Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the story of Romulus and Remus, including their parentage, their abandonment, their rescue by a she-wolf, and their eventual discovery and upbringing by a shepherd. It also mentions their connection to the founding of Rome.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus' as the founders of Rome.",
+                "Key Information Matching": "The document directly states that Romulus and Remus are the twin brothers who founded Rome, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming Romulus and Remus as the founders of Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about their parentage, their abandonment, and their upbringing, which enriches the understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context that enhances understanding of the topic. Therefore, it is highly relevant."
+            },
+            "triviaqa_18514_27": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are said to have founded Rome.",
+                "Document Content Analysis": "The document discusses the myth of Romulus and Remus, detailing their birth, upbringing, and their role in founding Rome. It mentions their mother Rhea Silvia, their divine or semi-divine parentage, their abandonment, and their eventual rise as leaders who founded Rome.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus' as the twins who founded Rome.",
+                "Key Information Matching": "The document provides a detailed account of the myth of Romulus and Remus, including their birth, abandonment, upbringing by a she-wolf, and their eventual founding of Rome.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Romulus and Remus founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the myth, including details about their mother, their divine parentage, and their upbringing.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer (Romulus and Remus) and offers substantial background information about the myth, enhancing understanding of the query."
+            },
+            "triviaqa_18514_9": {
+                "Query Analysis": "The query asks about the twins in Roman mythology who founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are said to have founded Rome according to Roman mythology.",
+                "Document Content Analysis": "The document provides detailed information about Romulus and Remus, including their parentage, their rescue and suckling by a wolf, and their role as the legendary founders of Rome. It also mentions their connection to Mars and Rhea.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus' multiple times, along with their roles as founders of Rome.",
+                "Key Information Matching": "The document directly addresses the query by providing detailed information about Romulus and Remus, their mythological background, and their role in founding Rome.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Romulus and Remus as the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about their parentage, their rescue by a wolf, and their significance in Roman mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It not only identifies Romulus and Remus as the founders of Rome but also provides additional details about their mythological background, making it highly relevant."
+            },
+            "ott_30337_0": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the legendary twin brothers who are said to have founded Rome.",
+                "Document Content Analysis": "The document provides information about Haemimont Games, a Bulgarian video game developer, and lists the games they have developed, primarily focusing on simulation, city-building, and ancient history strategy games. There is no mention of Roman mythology, Romulus, Remus, or the founding of Rome.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Roman mythology', 'twins', 'founded', 'Rome') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Romulus', 'Remus') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Roman mythology, the founding of Rome, or the twins Romulus and Remus.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or provide additional context.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a video game developer and their games, with no mention of Roman mythology, the founding of Rome, or the twins Romulus and Remus. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_18514_7": {
+                "Query Analysis": "The query asks for the names of the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are said to have founded Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the myth of Romulus and Remus, including their birth, upbringing, and the founding of Rome. It mentions their discovery by a shepherd, their decision to establish a city, the conflict between them, and Romulus' subsequent actions as the first king of Rome.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus' as the founders of Rome.",
+                "Key Information Matching": "The document directly addresses the query by naming Romulus and Remus as the twins who founded Rome and provides additional context about their story.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming Romulus and Remus as the founders of Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about the myth of Romulus and Remus, including their upbringing, the founding of Rome, and Romulus' actions as king.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as substantial additional context about the myth of Romulus and Remus. It enhances understanding of the query by detailing the story of the twins and their role in founding Rome."
+            },
+            "nq_281354_25": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twins who founded Rome.",
+                "Document Content Analysis": "The document discusses the history of Rome, focusing on its legendary and mythological origins. It specifically mentions the story of Romulus and Remus, the twins who were suckled by a she-wolf and decided to build a city. After an argument, Romulus killed his brother, and the city took his name. The document also mentions the date of this event and connects it to the broader tradition of Aeneas and the founding of the Roman lineage.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus', the twins who founded Rome.",
+                "Key Information Matching": "The document directly addresses the query by providing the names of the twins (Romulus and Remus) and their role in founding Rome, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming Romulus and Remus as the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the founding of Rome, including the mythological background and the events surrounding Romulus and Remus.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer (Romulus and Remus). It also offers additional context and background information about the founding of Rome, enhancing understanding of the query. Therefore, the document is highly relevant and provides useful context."
+            },
+            "m.0ghqr_100": {
+                "Query Analysis": "The query asks about the twins in Roman mythology who founded Rome.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are central to the foundation myth of Rome.",
+                "Document Content Analysis": "The document provides detailed information about Romulus and Remus, including their roles in Roman mythology, their parentage, and the myth of their abandonment and rescue. It also mentions their connection to the founding of Rome and how various entities are named after them.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus' multiple times, which matches the answer.",
+                "Key Information Matching": "The document directly addresses the query by detailing the myth of Romulus and Remus, their parentage, and their role in founding Rome. It also provides additional context about their significance in Roman mythology.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Romulus and Remus as the twins who founded Rome according to Roman mythology.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Romulus and Remus, including their parentage, the myth of their abandonment, and their significance in Roman mythology.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context, background, and additional information that enhances understanding of the conversation. It not only answers the query but also enriches the understanding of the myth of Romulus and Remus."
+            },
+            "triviaqa_18514_10": {
+                "Query Analysis": "The query asks about the twins who founded Rome according to Roman mythology.",
+                "Query Keywords Extraction": "Roman mythology, twins, founded, Rome",
+                "Answer Analysis": "The answer is Romulus and Remus, the twin brothers who are said to have founded Rome.",
+                "Document Content Analysis": "The document provides a detailed account of the founding of Rome by Romulus and Remus, including their parentage, their rescue by a wolf, their upbringing, and the eventual conflict between them that led to the founding of Rome by Romulus.",
+                "Document and Query Keywords Matching": "The document mentions 'Roman mythology', 'twins', 'founded', and 'Rome'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Romulus and Remus' as the twins who founded Rome.",
+                "Key Information Matching": "The document directly addresses the query by detailing the story of Romulus and Remus, their connection to the founding of Rome, and their role in Roman mythology.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by naming Romulus and Remus as the twins who founded Rome.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background information about Romulus and Remus, their origins, and the events leading to the founding of Rome.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It not only names Romulus and Remus as the founders of Rome but also provides a detailed narrative of their story, which enhances understanding of the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0ghqr_57": {},
+            "m.0ghqr_101": {},
+            "nq_281354_24": {},
+            "triviaqa_18514_21": {},
+            "triviaqa_18514_27": {},
+            "triviaqa_18514_9": {},
+            "ott_30337_0": {},
+            "triviaqa_18514_7": {},
+            "nq_281354_25": {},
+            "m.0ghqr_100": {},
+            "triviaqa_18514_10": {}
+        },
+        "relevance_judgement": 2,
+        "llm_fail": {},
+        "dataset_score": {
+            "triviaqa": 2,
+            "ott": 0,
+            "kg": 6,
+            "nq": 2,
+            "tat": 0
+        }
+    }
+}

@@ -1,0 +1,996 @@
+{
+    "index": 76889,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "What was the name of the vet in Daktari?",
+        "answer": "Marsh Tracy",
+        "BM25_documents": [
+            {
+                "id": "nq_172459_1",
+                "score": 11.600199699401855
+            },
+            {
+                "id": "nq_172459_2",
+                "score": 10.526100158691406
+            },
+            {
+                "id": "triviaqa_62937_158",
+                "score": 9.653499603271484
+            },
+            {
+                "id": "nq_172459_0",
+                "score": 9.125300407409668
+            },
+            {
+                "id": "nq_148280_115",
+                "score": 8.866100311279297
+            },
+            {
+                "id": "nq_148280_116",
+                "score": 8.746800422668457
+            },
+            {
+                "id": "triviaqa_24321_64",
+                "score": 8.74679946899414
+            },
+            {
+                "id": "triviaqa_19519_21",
+                "score": 8.406800270080566
+            },
+            {
+                "id": "triviaqa_19519_22",
+                "score": 8.359600067138672
+            },
+            {
+                "id": "m.09gd48g_0",
+                "score": 8.302900314331055
+            },
+            {
+                "id": "triviaqa_43236_283",
+                "score": 8.219099998474121
+            },
+            {
+                "id": "triviaqa_19519_12",
+                "score": 8.175700187683105
+            },
+            {
+                "id": "nq_126816_0",
+                "score": 8.08549976348877
+            },
+            {
+                "id": "m.09gd48g_4",
+                "score": 7.981599807739258
+            },
+            {
+                "id": "m.09gd48g_3",
+                "score": 7.905099868774414
+            },
+            {
+                "id": "nq_191793_32",
+                "score": 7.855599880218506
+            },
+            {
+                "id": "triviaqa_63020_39",
+                "score": 7.814499855041504
+            },
+            {
+                "id": "triviaqa_63020_38",
+                "score": 7.767899990081787
+            },
+            {
+                "id": "triviaqa_29287_15",
+                "score": 7.659599781036377
+            },
+            {
+                "id": "triviaqa_29982_250",
+                "score": 7.59660005569458
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_10604_2",
+                "score": 3.818446159362793
+            },
+            {
+                "id": "ott_1088_1",
+                "score": 3.720571994781494
+            },
+            {
+                "id": "ott_13322_1",
+                "score": 3.7205710411071777
+            },
+            {
+                "id": "ott_28336_1",
+                "score": 3.7205698490142822
+            },
+            {
+                "id": "ott_33831_1",
+                "score": 3.720568895339966
+            },
+            {
+                "id": "ott_8111_1",
+                "score": 3.7205679416656494
+            },
+            {
+                "id": "ott_9521_1",
+                "score": 3.720566987991333
+            },
+            {
+                "id": "ott_12339_0",
+                "score": 3.6581740379333496
+            },
+            {
+                "id": "ott_18930_0",
+                "score": 3.658172845840454
+            },
+            {
+                "id": "ott_19437_0",
+                "score": 3.6581718921661377
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_172459_1",
+                "score": 11.600199699401855
+            },
+            {
+                "id": "nq_172459_2",
+                "score": 10.526100158691406
+            },
+            {
+                "id": "nq_172459_0",
+                "score": 9.125300407409668
+            },
+            {
+                "id": "nq_148280_115",
+                "score": 8.866100311279297
+            },
+            {
+                "id": "nq_148280_116",
+                "score": 8.746800422668457
+            },
+            {
+                "id": "nq_126816_0",
+                "score": 8.08549976348877
+            },
+            {
+                "id": "nq_191793_32",
+                "score": 7.855599880218506
+            },
+            {
+                "id": "nq_1205_73",
+                "score": 7.176599979400635
+            },
+            {
+                "id": "nq_247590_83",
+                "score": 7.10260009765625
+            },
+            {
+                "id": "nq_44937_210",
+                "score": 7.093200206756592
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_62937_158",
+                "score": 9.653499603271484
+            },
+            {
+                "id": "triviaqa_24321_64",
+                "score": 8.74679946899414
+            },
+            {
+                "id": "triviaqa_19519_21",
+                "score": 8.406800270080566
+            },
+            {
+                "id": "triviaqa_19519_22",
+                "score": 8.359600067138672
+            },
+            {
+                "id": "triviaqa_43236_283",
+                "score": 8.219099998474121
+            },
+            {
+                "id": "triviaqa_19519_12",
+                "score": 8.175700187683105
+            },
+            {
+                "id": "triviaqa_63020_39",
+                "score": 7.814499855041504
+            },
+            {
+                "id": "triviaqa_63020_38",
+                "score": 7.767899990081787
+            },
+            {
+                "id": "triviaqa_29287_15",
+                "score": 7.659599781036377
+            },
+            {
+                "id": "triviaqa_29982_250",
+                "score": 7.59660005569458
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.09gd48g_0",
+                "score": 8.302900314331055
+            },
+            {
+                "id": "m.09gd48g_4",
+                "score": 7.981599807739258
+            },
+            {
+                "id": "m.09gd48g_3",
+                "score": 7.905099868774414
+            },
+            {
+                "id": "m.06pcts_0",
+                "score": 6.929699897766113
+            },
+            {
+                "id": "m.09gd48g_2",
+                "score": 6.736100196838379
+            },
+            {
+                "id": "m.0bmk2sq_0",
+                "score": 6.677599906921387
+            },
+            {
+                "id": "m.09gd48g_1",
+                "score": 6.676499843597412
+            },
+            {
+                "id": "m.0364j8r_0",
+                "score": 6.372799873352051
+            },
+            {
+                "id": "m.0j729_294",
+                "score": 6.360599994659424
+            },
+            {
+                "id": "m.0j729_391",
+                "score": 6.360599040985107
+            },
+            {
+                "id": "m.0j729_197",
+                "score": 6.340099811553955
+            },
+            {
+                "id": "m.0j729_100",
+                "score": 6.319699764251709
+            },
+            {
+                "id": "m.0j729_440",
+                "score": 6.319698810577393
+            },
+            {
+                "id": "m.0j729_51",
+                "score": 6.313600063323975
+            },
+            {
+                "id": "m.0j729_246",
+                "score": 6.2459001541137695
+            },
+            {
+                "id": "m.0j729_3",
+                "score": 6.245899200439453
+            },
+            {
+                "id": "m.0j729_343",
+                "score": 6.245898246765137
+            },
+            {
+                "id": "m.0j729_149",
+                "score": 6.153500080108643
+            },
+            {
+                "id": "m.0j729_148",
+                "score": 6.11899995803833
+            },
+            {
+                "id": "m.0lyxb7f_1",
+                "score": 6.0991997718811035
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.05t4q_460",
+                "score": 0.6453123092651367
+            },
+            {
+                "id": "m.05t4q_578",
+                "score": 0.6155214905738831
+            },
+            {
+                "id": "m.05t4q_644",
+                "score": 0.6047922968864441
+            },
+            {
+                "id": "nq_86028_14",
+                "score": 0.6038360595703125
+            },
+            {
+                "id": "m.05t4q_286",
+                "score": 0.6036538481712341
+            },
+            {
+                "id": "m.05t4q_751",
+                "score": 0.6034709811210632
+            },
+            {
+                "id": "m.0179_9_4",
+                "score": 0.6033406853675842
+            },
+            {
+                "id": "m.05t4q_199",
+                "score": 0.6033003926277161
+            },
+            {
+                "id": "m.05t4q_0",
+                "score": 0.6029420495033264
+            },
+            {
+                "id": "m.05t4q_476",
+                "score": 0.6020100712776184
+            },
+            {
+                "id": "m.05t4q_517",
+                "score": 0.6017483472824097
+            },
+            {
+                "id": "m.05t4q_178",
+                "score": 0.6015744209289551
+            },
+            {
+                "id": "m.05t4q_604",
+                "score": 0.600213348865509
+            },
+            {
+                "id": "m.05t4q_94",
+                "score": 0.6001851558685303
+            },
+            {
+                "id": "m.05t4q_166",
+                "score": 0.5999264121055603
+            },
+            {
+                "id": "m.05t4q_630",
+                "score": 0.5999001264572144
+            },
+            {
+                "id": "nq_14865_7",
+                "score": 0.5997759699821472
+            },
+            {
+                "id": "triviaqa_67518_180",
+                "score": 0.5988671183586121
+            },
+            {
+                "id": "m.05t4q_468",
+                "score": 0.5982276797294617
+            },
+            {
+                "id": "m.05t4q_459",
+                "score": 0.5981767177581787
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_3_0",
+                "score": 0.5501047372817993
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_86028_14",
+                "score": 0.6038360595703125
+            },
+            {
+                "id": "nq_14865_7",
+                "score": 0.5997759699821472
+            },
+            {
+                "id": "nq_181379_25",
+                "score": 0.5941032767295837
+            },
+            {
+                "id": "nq_66428_48",
+                "score": 0.5913744568824768
+            },
+            {
+                "id": "nq_14865_14",
+                "score": 0.5882465839385986
+            },
+            {
+                "id": "nq_14865_12",
+                "score": 0.5879271030426025
+            },
+            {
+                "id": "nq_75043_121",
+                "score": 0.5817384719848633
+            },
+            {
+                "id": "nq_1120_323",
+                "score": 0.5812750458717346
+            },
+            {
+                "id": "nq_391_107",
+                "score": 0.5779659748077393
+            },
+            {
+                "id": "nq_35674_23",
+                "score": 0.5775761604309082
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_67518_180",
+                "score": 0.5988671183586121
+            },
+            {
+                "id": "triviaqa_63730_201",
+                "score": 0.5742095708847046
+            },
+            {
+                "id": "triviaqa_3966_5",
+                "score": 0.5723416805267334
+            },
+            {
+                "id": "triviaqa_31215_518",
+                "score": 0.5704784393310547
+            },
+            {
+                "id": "triviaqa_58099_98",
+                "score": 0.5704604983329773
+            },
+            {
+                "id": "triviaqa_51081_31",
+                "score": 0.5695303082466125
+            },
+            {
+                "id": "triviaqa_45214_198",
+                "score": 0.5686928033828735
+            },
+            {
+                "id": "triviaqa_42708_41",
+                "score": 0.5684816241264343
+            },
+            {
+                "id": "triviaqa_76161_169",
+                "score": 0.5632117986679077
+            },
+            {
+                "id": "triviaqa_34605_231",
+                "score": 0.5629855990409851
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.05t4q_460",
+                "score": 0.6453123092651367
+            },
+            {
+                "id": "m.05t4q_578",
+                "score": 0.6155214905738831
+            },
+            {
+                "id": "m.05t4q_644",
+                "score": 0.6047922968864441
+            },
+            {
+                "id": "m.05t4q_286",
+                "score": 0.6036538481712341
+            },
+            {
+                "id": "m.05t4q_751",
+                "score": 0.6034709811210632
+            },
+            {
+                "id": "m.0179_9_4",
+                "score": 0.6033406853675842
+            },
+            {
+                "id": "m.05t4q_199",
+                "score": 0.6033003926277161
+            },
+            {
+                "id": "m.05t4q_0",
+                "score": 0.6029420495033264
+            },
+            {
+                "id": "m.05t4q_476",
+                "score": 0.6020100712776184
+            },
+            {
+                "id": "m.05t4q_517",
+                "score": 0.6017483472824097
+            },
+            {
+                "id": "m.05t4q_178",
+                "score": 0.6015744209289551
+            },
+            {
+                "id": "m.05t4q_604",
+                "score": 0.600213348865509
+            },
+            {
+                "id": "m.05t4q_94",
+                "score": 0.6001851558685303
+            },
+            {
+                "id": "m.05t4q_166",
+                "score": 0.5999264121055603
+            },
+            {
+                "id": "m.05t4q_630",
+                "score": 0.5999001264572144
+            },
+            {
+                "id": "m.05t4q_468",
+                "score": 0.5982276797294617
+            },
+            {
+                "id": "m.05t4q_459",
+                "score": 0.5981767177581787
+            },
+            {
+                "id": "m.05t4q_5",
+                "score": 0.5963667631149292
+            },
+            {
+                "id": "m.05t4q_13",
+                "score": 0.5961398482322693
+            },
+            {
+                "id": "m.05t4q_284",
+                "score": 0.5960174202919006
+            }
+        ],
+        "llm_mark_result": {
+            "m.05t4q_460": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the veterinarian character in the show.",
+                "Document Content Analysis": "The document discusses the general concept of a physician and veterinarian, providing definitions and descriptions in multiple languages. It does not mention any specific TV shows or characters.",
+                "Document and Query Keywords Matching": "The document mentions 'veterinarian' but does not mention 'Daktari' or any specific names.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "The document provides a general definition of a veterinarian but lacks any specific information related to the TV show 'Daktari' or the character Marsh Tracy.",
+                "Can the Document Answer the Query": "No, the document does not contain the name of the vet in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the name of the vet in 'Daktari'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any specific information about the TV show 'Daktari' or the character Marsh Tracy. It only discusses general definitions of physicians and veterinarians, which do not assist in answering the query."
+            },
+            "nq_172459_2": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV series 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document discusses an actor's career, mentioning his role in the TV series 'Daktari' as a safari photographer named Bart Jason. It provides details about the actor's other film credits and roles but does not mention the veterinarian character.",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "The document mentions 'Daktari' but does not provide any information about the veterinarian character or the name 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the veterinarian character in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information about the veterinarian character or any other characters that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the veterinarian character in 'Daktari' or any related context that could help infer the answer. The only keyword match is 'Daktari', but the document focuses on a different character and does not address the query's specific information need."
+            },
+            "nq_86028_14": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document discusses various characters from a different context, primarily focusing on characters from a story set in Afghanistan. It mentions a nurse, a doctor, a plastic surgeon, and the son of a war criminal, but none of these characters are related to 'Daktari'.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('name', 'vet', 'Daktari') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Marsh Tracy') are found in the document.",
+                "Key Information Matching": "There is no matching key information related to 'Daktari' or any veterinary context in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'Daktari' or the character Marsh Tracy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer details about 'Daktari' or its characters.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses characters and events in a completely different setting and context, with no mention of 'Daktari' or any veterinary-related content. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "triviaqa_67518_180": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document discusses the life and identity changes of a medical professional named Dr. Gabriel Hakim, who later changed his name to Dr. Buck Ruxton. It details his career, marriages, and a criminal incident involving his wife and a maid. The document is primarily focused on historical and biographical information unrelated to television shows or veterinary practices.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Daktari', 'vet', or 'Marsh Tracy'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy' or any related terms from the answer.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a different historical figure and does not touch on the topic of the television show 'Daktari' or its characters.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it contains no information about 'Daktari' or its characters.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the life of Dr. Buck Ruxton and lacks any mention of 'Daktari', veterinary practices, or the character Marsh Tracy. Therefore, it is irrelevant to the query."
+            },
+            "nq_172459_0": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document provides biographical information about Ross Hagen, an American actor, voice actor, director, screenwriter, and producer. It mentions his television acting credits, including 'Daktari'.",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "While the document mentions 'Daktari', it does not provide any information about the characters in the show, specifically the veterinarian character.",
+                "Can the Document Answer the Query": "No, the document does not provide the name of the vet in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any additional information that could help infer the name of the vet in 'Daktari'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the characters in 'Daktari', specifically the veterinarian character. The only connection to the query is the mention of 'Daktari' in the context of Ross Hagen's acting credits, which does not aid in answering the query."
+            },
+            "m.09gd48g_4": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the vet character in 'Daktari'.",
+                "Document Content Analysis": "The document provides information about an individual named Valentino Fiévet, detailing his various attributes such as being an athlete, football player, and his nationality as French. It also mentions his position as a soccer forward and his association with the town of Huesca.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('name', 'vet', 'Daktari') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Marsh Tracy') are found in the document.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document focuses on a completely different subject, Valentino Fiévet, who is unrelated to the query about 'Daktari'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'Daktari' or its characters.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to 'Daktari' or veterinary practices.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on an athlete named Valentino Fiévet, with no mention of 'Daktari', veterinary practices, or the character Marsh Tracy. Therefore, it provides no useful context or information to answer the query or infer additional relevant details."
+            },
+            "m.05t4q_578": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is Marsh Tracy, indicating that Marsh Tracy was the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document lists numerous individuals and their professions, all of which are listed as 'Physician'. There is no mention of veterinarians or any characters from the TV show 'Daktari'.",
+                "Document and Query Keywords Matching": "There are no matching keywords between the query and the document. The document does not mention 'vet', 'Daktari', or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not contain the name 'Marsh Tracy' or any other names associated with the TV show 'Daktari'.",
+                "Key Information Matching": "The document does not provide any information about veterinarians or the TV show 'Daktari'. It only lists physicians and their names.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely irrelevant to the query. It contains a list of physicians and their names but does not mention anything related to the TV show 'Daktari', veterinarians, or the specific character named Marsh Tracy. Therefore, it cannot answer the query or provide any useful context."
+            },
+            "nq_172459_1": {
+                "Query Analysis": "The query asks for the name of the vet in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer provided is 'Marsh Tracy', indicating that Marsh Tracy was the name of the vet in 'Daktari'.",
+                "Document Content Analysis": "The document provides information about an actor who appeared in 'Daktari'. It mentions that the actor played a safari photographer named Bart Jason. The document does not provide information about the vet character or Marsh Tracy.",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari' but does not mention 'vet' or any specific name associated with the vet role.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "While the document references 'Daktari', it focuses on an actor who played a different role (safari photographer) and does not provide any information about the vet character or Marsh Tracy.",
+                "Can the Document Answer the Query": "No, the document does not contain the name of the vet in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that can help infer the name of the vet or additional details relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because it does not provide any information about the vet in 'Daktari' or Marsh Tracy. It only mentions an actor who played a different role in the show."
+            },
+            "m.09gd48g_0": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian character in the show 'Daktari'.",
+                "Document Content Analysis": "The document provides information about a person named Valentino Fiévet, who is a French footballer. It includes details about his name, description, date of birth, height, and various keys related to his Wikipedia entries.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'name', 'vet', or 'Daktari'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer, such as 'Marsh Tracy'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about a footballer, which is unrelated to the television show 'Daktari' or its characters.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the television show 'Daktari' or its characters.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a French footballer, Valentino Fiévet, and provides no information about the television show 'Daktari' or its characters. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "ott_10604_2": {
+                "Query Analysis": "The query asks for the name of the vet in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer provided is 'Marsh Tracy', indicating that Marsh Tracy was the name of the vet in 'Daktari'.",
+                "Document Content Analysis": "The document discusses the Politburo of the Communist Party of China (CCP), including its structure, function, and the process of selecting new members. It covers topics such as governance, power dynamics, and political succession within China's single-party system.",
+                "Document and Query Keywords Matching": "There are no matching keywords between the query and the document content.",
+                "Document and Answer Keywords Matching": "There are no matching keywords between the answer and the document content.",
+                "Key Information Matching": "The document does not contain any information related to the TV show 'Daktari' or any veterinary characters from it.",
+                "Can the Document Answer the Query": "No, the document cannot directly answer the query about the name of the vet in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that can help infer additional details relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the Politburo of the Communist Party of China and does not mention anything related to the TV show 'Daktari' or its characters. Therefore, it is irrelevant to the query and cannot provide any useful context or additional information required by the query."
+            },
+            "triviaqa_62937_158": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV series 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the vet in the TV series 'Daktari'.",
+                "Document Content Analysis": "The document contains a mix of trivia questions and answers related to various topics, including art, literature, and TV series. It includes a question and answer about 'Daktari'.",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari' and 'Dr. Marsh Tracy'.",
+                "Document and Answer Keywords Matching": "The document includes 'Dr. Marsh Tracy', which directly matches the answer.",
+                "Key Information Matching": "The document directly provides the name of the vet in 'Daktari', which is the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Marshall Thompson starred as Dr. Marsh Tracy in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by mentioning the TV series 'Daktari' and the character Dr. Marsh Tracy.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer ('Marsh Tracy') and provides context about the TV series 'Daktari'. This makes it highly useful for answering the query."
+            },
+            "m.05t4q_286": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is Marsh Tracy, indicating the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document lists various individuals and their professions, all of whom are identified as physicians. There is no mention of veterinarians or the television show 'Daktari'.",
+                "Document and Query Keywords Matching": "None of the query keywords ('name', 'vet', 'Daktari') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Marsh Tracy') are found in the document.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the television show 'Daktari' or the character Marsh Tracy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It lists individuals with the profession of 'Physician', which is not relevant to the query about a veterinarian character in a specific television show. Therefore, it provides no useful context or information to assist in answering the query."
+            },
+            "ott_3_0": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the television show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document provides a list of medical recipients of the Victoria Cross, including their names, regiment/corps, date of award, conflict, and location. It focuses on military medical personnel and their achievements in various conflicts.",
+                "Document and Query Keywords Matching": "The document does not mention 'Daktari' or any related keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy' or any related keywords.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about military medical personnel, not television shows or fictional characters.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the television show 'Daktari' or the character Marsh Tracy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on military medical recipients of the Victoria Cross, which has no connection to the television show 'Daktari' or its characters. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "m.05t4q_644": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is Marsh Tracy, indicating that Marsh Tracy was the name of the veterinarian in the TV show 'Daktari'.",
+                "Document Content Analysis": "The document lists several individuals with their professions, all of which are physicians. There is no mention of veterinarians or any information related to the TV show 'Daktari'.",
+                "Document and Query Keywords Matching": "There are no matching keywords from the query found in the document.",
+                "Document and Answer Keywords Matching": "There are no matching keywords from the answer found in the document.",
+                "Key Information Matching": "The document does not contain any key information related to the query or the answer. It focuses entirely on physicians and does not mention anything about veterinarians or the TV show 'Daktari'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the veterinarian in 'Daktari' or even any veterinarians at all.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant because it only contains information about physicians and does not provide any useful context or additional information related to the query about the veterinarian in 'Daktari'. The document lacks any mention of the TV show 'Daktari', veterinarians, or the specific character name."
+            },
+            "nq_148280_115": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', indicating the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document appears to be a series of references and links related to articles about the 'Jurassic World: Fallen Kingdom' movie. It includes mentions of various media outlets, articles, and some details about the film's production and content.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'name', 'vet', or 'Daktari'.",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Marsh Tracy'.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the TV show 'Daktari' or the character Marsh Tracy.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the topic of the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the 'Jurassic World: Fallen Kingdom' movie and does not contain any information related to the TV show 'Daktari' or its characters. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.05t4q_460": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document discusses the general concept of a physician and mentions that a person who deals with the health of other living organisms is called a veterinarian. However, it does not mention 'Daktari' or the name 'Marsh Tracy'.",
+                "Document and Query Keywords Matching": "The document mentions 'veterinarian', which is related to 'vet'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "The document mentions the term 'veterinarian', which is related to the query, but it does not provide any specific information about 'Daktari' or the name 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Daktari' or 'Marsh Tracy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the veterinarian in 'Daktari'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any meaningful way. It discusses the general concept of a veterinarian but does not mention 'Daktari' or 'Marsh Tracy', and thus does not provide any useful context or additional information to answer the query."
+            },
+            "nq_172459_2": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV series 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document discusses the career of an actor who was cast in the TV series 'Daktari' in 1968, portraying a safari photographer named Bart Jason. It also lists other film credits and roles of the actor.",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "The document mentions 'Daktari' but does not provide information about the veterinarian character or the name 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the veterinarian in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to the veterinarian character or the name 'Marsh Tracy'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Daktari' but does not provide any information about the veterinarian character or the name 'Marsh Tracy'. Therefore, it is irrelevant to the query."
+            },
+            "nq_86028_14": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document discusses various characters and their backgrounds, including a Bosnian nurse, an Afghan-American doctor, a Greek plastic surgeon, and the son of a wealthy war criminal. There is no mention of 'Daktari' or any veterinarian named 'Marsh Tracy'.",
+                "Document and Query Keywords Matching": "None of the keywords 'name', 'vet', or 'Daktari' are found in the document.",
+                "Document and Answer Keywords Matching": "The name 'Marsh Tracy' is not mentioned in the document.",
+                "Key Information Matching": "The document does not provide any information related to 'Daktari' or a veterinarian named 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'Daktari' or the veterinarian 'Marsh Tracy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It does not mention 'Daktari', a veterinarian, or 'Marsh Tracy', and provides no information that could assist in answering the query."
+            },
+            "triviaqa_67518_180": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document discusses the life and career of Dr. Gabriel Hakim, who later changed his name to Dr. Buck Ruxton. It details his medical qualifications, marriages, and a murder case involving him. There is no mention of 'Daktari' or any veterinarian named 'Marsh Tracy'.",
+                "Document and Query Keywords Matching": "None of the keywords 'name', 'vet', or 'Daktari' are found in the document.",
+                "Document and Answer Keywords Matching": "The name 'Marsh Tracy' is not mentioned in the document.",
+                "Key Information Matching": "The document does not provide any information related to 'Daktari' or a veterinarian named 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about 'Daktari' or the veterinarian 'Marsh Tracy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a different individual and a murder case, with no mention of 'Daktari' or the veterinarian 'Marsh Tracy'. Therefore, it is irrelevant to the query."
+            },
+            "nq_172459_0": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian character in 'Daktari'.",
+                "Document Content Analysis": "The document provides biographical information about Ross Hagen, an actor who had a role in the TV show 'Daktari'. It mentions his birth name, birth and death dates, and his various roles in film and television.",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy', the answer to the query.",
+                "Key Information Matching": "The document mentions 'Daktari', which is related to the query, but it does not provide the name of the veterinarian character.",
+                "Can the Document Answer the Query": "No, the document does not mention the name of the veterinarian character in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the veterinarian character.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Daktari', which is related to the query, but it does not provide any information about the veterinarian character or the name 'Marsh Tracy'. Therefore, the document is irrelevant to the query."
+            },
+            "m.09gd48g_4": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document provides information about Valentino Fiévet, a football player from France, including his type, notable achievements, and associations.",
+                "Document and Query Keywords Matching": "None of the keywords 'name', 'vet', or 'Daktari' are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Marsh Tracy' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to 'Daktari' or the character 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Daktari' or 'Marsh Tracy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the vet in 'Daktari'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'Daktari', 'Marsh Tracy', or any information about veterinarians or TV shows. Therefore, it is irrelevant to the query."
+            },
+            "m.05t4q_578": {
+                "Query Analysis": "The query asks about the name of the veterinarian character in the TV show Daktari",
+                "Query Keywords Extraction": "vet, Daktari",
+                "Answer Analysis": "The answer indicates that Marsh Tracy was the veterinarian character in Daktari",
+                "Document Content Analysis": "The document contains a list of people and their profession, specifically physicians. It does not contain any information about veterinarians or the TV show Daktari",
+                "Document and Query Keywords Matching": "No direct matches found. While the document lists medical professionals (physicians), it does not mention veterinarians or Daktari",
+                "Document and Answer Keywords Matching": "No matches found. The name 'Marsh Tracy' does not appear in the document",
+                "Key Information Matching": "The document lists medical professionals but they are all physicians rather than veterinarians. There is no information about the TV show Daktari or its characters",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it contains no information about Daktari or its characters",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document contains information about medical professionals, they are all physicians rather than veterinarians, and there is no connection to the TV show Daktari",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely irrelevant to the query. While it contains information about medical professionals, they are all physicians rather than veterinarians, and there is no mention of the TV show Daktari or any of its characters. The document provides no useful context or information that could help answer the query about the veterinarian character in Daktari."
+            },
+            "nq_172459_1": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show Daktari",
+                "Query Keywords Extraction": "vet, Daktari",
+                "Answer Analysis": "The answer indicates the vet character was named Marsh Tracy",
+                "Document Content Analysis": "The document discusses actor Leland Lando Lilly (Hagen) who appeared in Daktari as a safari photographer character named Bart Jason from 1968-1969, along with details about his other acting roles and personal life",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari' multiple times",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'",
+                "Key Information Matching": "While the document discusses the TV show Daktari and provides information about one of its cast members (Bart Jason), it does not contain information about the veterinarian character",
+                "Can the Document Answer the Query": "No, the document does not provide information about the veterinarian character",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the show Daktari and one of its characters, though not the specific character being asked about",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses the TV show Daktari and provides some context about the show and its cast, but does not contain the specific information about the veterinarian character Marsh Tracy. It helps establish the setting and time period of the show (late 1960s) and mentions another character (Bart Jason the safari photographer), making it somewhat useful for understanding the show's context but not directly answering the query."
+            },
+            "m.09gd48g_0": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document provides information about Valentino Fiévet, a French footballer, including his name, description, date of birth, height, and various keys related to his Wikipedia entries.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords from the query such as 'vet' or 'Daktari'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy' or any related keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer. It focuses entirely on a French footballer, Valentino Fiévet, and does not mention 'Daktari' or any veterinarians.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the veterinarian in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the name of the veterinarian in 'Daktari'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'Daktari', 'vet', or 'Marsh Tracy', and provides no useful context or information that could assist in answering the query."
+            },
+            "ott_10604_2": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show Daktari",
+                "Query Keywords Extraction": "vet, Daktari",
+                "Answer Analysis": "The answer indicates the vet's name was Marsh Tracy",
+                "Document Content Analysis": "The document discusses the Chinese Communist Party's Politburo, its structure, membership, and succession of power in China's political system. It details how the 25-member Politburo governs the CCP and makes key policy decisions for China.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document",
+                "Key Information Matching": "There is no matching information between the document content and the query/answer about Daktari or its veterinarian character",
+                "Can the Document Answer the Query": "No, the document contains no information about Daktari or its characters",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely focused on Chinese politics and contains no information that could help answer or provide context about a TV show character",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely irrelevant to the query as it discusses Chinese politics and the Politburo system, while the query asks about a character from a TV show. There is no overlap in subject matter, no shared keywords, and no information that could help answer or provide context for the query. This is a clear case of an irrelevant document."
+            },
+            "triviaqa_62937_158": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV series 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document contains a list of trivia questions and answers, including information about various TV series, artists, architects, and other topics. It mentions 'Daktari' and states that Marshall Thompson starred as Dr. Marsh Tracy in the 1960s TV series 'Daktari'.",
+                "Document and Query Keywords Matching": "The document mentions 'Daktari' and 'Marsh Tracy'.",
+                "Document and Answer Keywords Matching": "The document includes 'Marsh Tracy', which matches the answer.",
+                "Key Information Matching": "The document directly mentions 'Daktari' and 'Marsh Tracy', which are key to answering the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the name of the vet in 'Daktari'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly answers the query without requiring additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, making it highly relevant."
+            },
+            "m.05t4q_286": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document lists numerous individuals with the profession 'Physician', but none are explicitly identified as veterinarians or associated with 'Daktari'.",
+                "Document and Query Keywords Matching": "The document does not mention 'vet' or 'Daktari'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "The document does not provide any information related to 'Daktari' or the name of the veterinarian in the show.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Daktari' or the name of the veterinarian.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about 'Daktari' or veterinarians.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'Daktari', veterinarians, or the name 'Marsh Tracy', and thus provides no useful context or information to answer the query."
+            },
+            "ott_3_0": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document lists medical recipients of the Victoria Cross, including their names, regiments/corps, dates, conflicts, and locations. It does not mention anything related to the TV show 'Daktari' or its characters.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('name', 'vet', 'Daktari') are found in the document.",
+                "Document and Answer Keywords Matching": "The name 'Marsh Tracy' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the TV show 'Daktari' or its characters, including the veterinarian 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Daktari' or 'Marsh Tracy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the veterinarian in 'Daktari'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention 'Daktari', 'Marsh Tracy', or any information about veterinarians or TV shows. Therefore, it is irrelevant to the query."
+            },
+            "m.05t4q_644": {
+                "Query Analysis": "The query asks for the name of the veterinarian character in the TV show Daktari",
+                "Query Keywords Extraction": "vet, Daktari, name",
+                "Answer Analysis": "The answer indicates the vet's name was Marsh Tracy",
+                "Document Content Analysis": "The document contains a list of physicians and their profession, showing various medical practitioners throughout history. Each entry follows the format 'Name -- Profession --> Physician'",
+                "Document and Query Keywords Matching": "While both the query and document deal with medical professionals, there are no direct keyword matches",
+                "Document and Answer Keywords Matching": "The name 'Marsh Tracy' does not appear in the document",
+                "Key Information Matching": "While both deal with medical professionals (physicians vs veterinarian), there is no direct connection between the document content and the specific query about Daktari's veterinarian",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it contains no information about Daktari or Marsh Tracy",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document lists medical professionals, it deals with physicians rather than veterinarians and has no connection to the TV show Daktari",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely irrelevant to the query. While both deal with medical professionals, the document specifically lists physicians throughout history and contains no information about veterinarians, the TV show Daktari, or the character Marsh Tracy. The document cannot help answer the query or provide any useful context for understanding it."
+            },
+            "nq_148280_115": {
+                "Query Analysis": "The query asks for the name of the veterinarian in the TV show 'Daktari'.",
+                "Query Keywords Extraction": "name, vet, Daktari",
+                "Answer Analysis": "The answer is 'Marsh Tracy', which is the name of the veterinarian in 'Daktari'.",
+                "Document Content Analysis": "The document contains references to various articles and features related to the 'Jurassic World' film series, including mentions of a Gloucestershire vet who had a role in the film.",
+                "Document and Query Keywords Matching": "The document mentions 'vet', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Marsh Tracy'.",
+                "Key Information Matching": "The document mentions a 'vet' but does not provide any information related to 'Daktari' or 'Marsh Tracy'.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Daktari' or 'Marsh Tracy'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the name of the vet in 'Daktari'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions a 'vet' but is entirely focused on the 'Jurassic World' film series, which is unrelated to the TV show 'Daktari'. Therefore, it does not provide any useful context or information relevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.05t4q_460": {},
+            "nq_172459_2": {},
+            "nq_86028_14": {},
+            "triviaqa_67518_180": {},
+            "nq_172459_0": {},
+            "m.09gd48g_4": {},
+            "m.05t4q_578": {},
+            "nq_172459_1": {
+                "Query Analysis": "The query is asking for the name of the veterinarian character in the television series Daktari.",
+                "Query Keywords Extraction": [
+                    "vet",
+                    "Daktari",
+                    "name"
+                ],
+                "Answer Analysis": "The answer is 'Marsh Tracy,' which specifies the name of the vet in Daktari.",
+                "Document Content Analysis": "The document provides information about an actor who participated in the show Daktari, specifically mentioning his role as a photographer named Bart Jason. The document also discusses the actor's career, personal life, and involvement in other projects such as movies and video games.",
+                "Document and Query Keywords Matching": [
+                    "Daktari"
+                ],
+                "Document and Answer Keywords Matching": [],
+                "Key Information Matching": "The document does not provide any information about the veterinarian character in Daktari or their name. Instead, it discusses another character, Bart Jason, played by an actor on the show.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query, as it does not mention the veterinarian character or their name.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information or context that could help infer the name of the veterinarian in Daktari.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any key information related to the veterinarian character in Daktari. While it mentions the show, it focuses on a different character and unrelated details about the actor's life and career."
+            },
+            "m.09gd48g_0": {},
+            "ott_10604_2": {},
+            "triviaqa_62937_158": {},
+            "m.05t4q_286": {},
+            "ott_3_0": {},
+            "m.05t4q_644": {},
+            "nq_148280_115": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "kg": 0,
+            "ott": 0,
+            "nq": 0,
+            "triviaqa": 2,
+            "tat": 0
+        }
+    }
+}

@@ -1,0 +1,1363 @@
+{
+    "index": 512,
+    "context": [
+        "m.0ct18",
+        "m.09jx_tm"
+    ],
+    "qa": {
+        "question": "Who influenced Abraham Lincoln to become the president?",
+        "answer": "['Henry Clay']",
+        "BM25_documents": [
+            {
+                "id": "m.0gzh_527",
+                "score": 16.958999633789062
+            },
+            {
+                "id": "m.0gzh_2397",
+                "score": 16.920499801635742
+            },
+            {
+                "id": "m.0gzh_252",
+                "score": 16.872800827026367
+            },
+            {
+                "id": "m.0gzh_182",
+                "score": 16.544200897216797
+            },
+            {
+                "id": "m.0gzh_813",
+                "score": 16.514400482177734
+            },
+            {
+                "id": "m.0gzh_897",
+                "score": 16.51110076904297
+            },
+            {
+                "id": "m.0gzh_507",
+                "score": 16.340599060058594
+            },
+            {
+                "id": "m.0gzh_896",
+                "score": 16.255699157714844
+            },
+            {
+                "id": "m.0gzh_1472",
+                "score": 16.204099655151367
+            },
+            {
+                "id": "m.0gzh_2406",
+                "score": 15.70930004119873
+            },
+            {
+                "id": "m.0gzh_221",
+                "score": 15.690799713134766
+            },
+            {
+                "id": "m.0gzh_2383",
+                "score": 15.687100410461426
+            },
+            {
+                "id": "m.0gzh_2106",
+                "score": 15.6806001663208
+            },
+            {
+                "id": "m.0gzh_235",
+                "score": 15.678999900817871
+            },
+            {
+                "id": "m.0gzh_1524",
+                "score": 15.674599647521973
+            },
+            {
+                "id": "nq_148087_16",
+                "score": 15.671199798583984
+            },
+            {
+                "id": "m.0gzh_2396",
+                "score": 15.651599884033203
+            },
+            {
+                "id": "m.0gzh_1430",
+                "score": 15.644200325012207
+            },
+            {
+                "id": "triviaqa_18114_12",
+                "score": 15.636799812316895
+            },
+            {
+                "id": "nq_24498_167",
+                "score": 15.624300003051758
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.0ct18_188",
+                "score": 8.060898780822754
+            },
+            {
+                "id": "m.0ct18_202",
+                "score": 7.892000198364258
+            },
+            {
+                "id": "m.0ct18_122",
+                "score": 7.836198329925537
+            },
+            {
+                "id": "m.0ct18_123",
+                "score": 7.836197376251221
+            },
+            {
+                "id": "m.0ct18_191",
+                "score": 7.836196422576904
+            },
+            {
+                "id": "m.0ct18_53",
+                "score": 7.836195468902588
+            },
+            {
+                "id": "m.0ct18_54",
+                "score": 7.836194038391113
+            },
+            {
+                "id": "m.0ct18_60",
+                "score": 7.836193084716797
+            },
+            {
+                "id": "m.0ct18_121",
+                "score": 7.728600025177002
+            },
+            {
+                "id": "m.0ct18_133",
+                "score": 7.148098945617676
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_16552_0",
+                "score": 10.362799644470215
+            },
+            {
+                "id": "ott_22206_0",
+                "score": 10.362798690795898
+            },
+            {
+                "id": "ott_33613_0",
+                "score": 10.362797737121582
+            },
+            {
+                "id": "ott_4010_0",
+                "score": 10.362796783447266
+            },
+            {
+                "id": "ott_5502_0",
+                "score": 10.36279582977295
+            },
+            {
+                "id": "ott_13475_1",
+                "score": 7.931399822235107
+            },
+            {
+                "id": "ott_35621_1",
+                "score": 7.931398868560791
+            },
+            {
+                "id": "ott_39914_1",
+                "score": 7.931397914886475
+            },
+            {
+                "id": "ott_5349_1",
+                "score": 7.931396961212158
+            },
+            {
+                "id": "ott_13475_0",
+                "score": 7.447798252105713
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_148087_16",
+                "score": 15.671199798583984
+            },
+            {
+                "id": "nq_24498_167",
+                "score": 15.624300003051758
+            },
+            {
+                "id": "nq_5204_165",
+                "score": 15.433699607849121
+            },
+            {
+                "id": "nq_266932_17",
+                "score": 14.897600173950195
+            },
+            {
+                "id": "nq_266932_16",
+                "score": 14.480400085449219
+            },
+            {
+                "id": "nq_1197_80",
+                "score": 14.146400451660156
+            },
+            {
+                "id": "nq_258433_19",
+                "score": 14.0447998046875
+            },
+            {
+                "id": "nq_130777_5",
+                "score": 13.916799545288086
+            },
+            {
+                "id": "nq_239454_47",
+                "score": 13.686800003051758
+            },
+            {
+                "id": "nq_233432_33",
+                "score": 13.413800239562988
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_18114_12",
+                "score": 15.636799812316895
+            },
+            {
+                "id": "triviaqa_18114_13",
+                "score": 14.958600044250488
+            },
+            {
+                "id": "triviaqa_18114_0",
+                "score": 14.710200309753418
+            },
+            {
+                "id": "triviaqa_18114_2",
+                "score": 14.295499801635742
+            },
+            {
+                "id": "triviaqa_18114_1",
+                "score": 14.160099983215332
+            },
+            {
+                "id": "triviaqa_74562_21",
+                "score": 13.924099922180176
+            },
+            {
+                "id": "triviaqa_74888_143",
+                "score": 13.92409896850586
+            },
+            {
+                "id": "triviaqa_42972_9",
+                "score": 13.757499694824219
+            },
+            {
+                "id": "triviaqa_75528_100",
+                "score": 13.642599105834961
+            },
+            {
+                "id": "triviaqa_75837_167",
+                "score": 13.636899948120117
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0gzh_527",
+                "score": 16.958999633789062
+            },
+            {
+                "id": "m.0gzh_2397",
+                "score": 16.920499801635742
+            },
+            {
+                "id": "m.0gzh_252",
+                "score": 16.872800827026367
+            },
+            {
+                "id": "m.0gzh_182",
+                "score": 16.544200897216797
+            },
+            {
+                "id": "m.0gzh_813",
+                "score": 16.514400482177734
+            },
+            {
+                "id": "m.0gzh_897",
+                "score": 16.51110076904297
+            },
+            {
+                "id": "m.0gzh_507",
+                "score": 16.340599060058594
+            },
+            {
+                "id": "m.0gzh_896",
+                "score": 16.255699157714844
+            },
+            {
+                "id": "m.0gzh_1472",
+                "score": 16.204099655151367
+            },
+            {
+                "id": "m.0gzh_2406",
+                "score": 15.70930004119873
+            },
+            {
+                "id": "m.0gzh_221",
+                "score": 15.690799713134766
+            },
+            {
+                "id": "m.0gzh_2383",
+                "score": 15.687100410461426
+            },
+            {
+                "id": "m.0gzh_2106",
+                "score": 15.6806001663208
+            },
+            {
+                "id": "m.0gzh_235",
+                "score": 15.678999900817871
+            },
+            {
+                "id": "m.0gzh_1524",
+                "score": 15.674599647521973
+            },
+            {
+                "id": "m.0gzh_2396",
+                "score": 15.651599884033203
+            },
+            {
+                "id": "m.0gzh_1430",
+                "score": 15.644200325012207
+            },
+            {
+                "id": "m.0gzh_183",
+                "score": 15.622099876403809
+            },
+            {
+                "id": "m.0gzh_1215",
+                "score": 15.619000434875488
+            },
+            {
+                "id": "m.0gzh_1433",
+                "score": 15.601300239562988
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.0gzh_771",
+                "score": 0.7160767316818237
+            },
+            {
+                "id": "triviaqa_75528_100",
+                "score": 0.6963695883750916
+            },
+            {
+                "id": "triviaqa_18114_13",
+                "score": 0.6929424405097961
+            },
+            {
+                "id": "triviaqa_75528_101",
+                "score": 0.6910609006881714
+            },
+            {
+                "id": "m.0gzh_183",
+                "score": 0.6903325915336609
+            },
+            {
+                "id": "m.0gzh_872",
+                "score": 0.6885242462158203
+            },
+            {
+                "id": "m.0gzh_831",
+                "score": 0.6855171322822571
+            },
+            {
+                "id": "m.0gzh_1434",
+                "score": 0.6814594864845276
+            },
+            {
+                "id": "triviaqa_18114_0",
+                "score": 0.6798840761184692
+            },
+            {
+                "id": "m.0gzh_1122",
+                "score": 0.6792658567428589
+            },
+            {
+                "id": "m.0gzh_149",
+                "score": 0.6783269643783569
+            },
+            {
+                "id": "m.0gzh_193",
+                "score": 0.6782512068748474
+            },
+            {
+                "id": "m.0gzh_2354",
+                "score": 0.676298975944519
+            },
+            {
+                "id": "m.0gzh_1738",
+                "score": 0.6755638122558594
+            },
+            {
+                "id": "m.0gzh_1124",
+                "score": 0.6752889156341553
+            },
+            {
+                "id": "m.0gzh_190",
+                "score": 0.6751958131790161
+            },
+            {
+                "id": "m.0gzh_889",
+                "score": 0.6747288107872009
+            },
+            {
+                "id": "m.0gzh_1739",
+                "score": 0.6722776889801025
+            },
+            {
+                "id": "m.0gzh_534",
+                "score": 0.6710706353187561
+            },
+            {
+                "id": "m.0gzh_1125",
+                "score": 0.6693629026412964
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.0ct18_191",
+                "score": 0.6509714722633362
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_5502_0",
+                "score": 0.6085920333862305
+            },
+            {
+                "id": "ott_16552_0",
+                "score": 0.6085920333862305
+            },
+            {
+                "id": "ott_33613_0",
+                "score": 0.6085920333862305
+            },
+            {
+                "id": "ott_4010_0",
+                "score": 0.6085920333862305
+            },
+            {
+                "id": "ott_22206_0",
+                "score": 0.6085920333862305
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_130777_5",
+                "score": 0.6601580381393433
+            },
+            {
+                "id": "nq_143081_16",
+                "score": 0.6582617163658142
+            },
+            {
+                "id": "nq_148362_5",
+                "score": 0.6580155491828918
+            },
+            {
+                "id": "nq_239454_48",
+                "score": 0.6528692245483398
+            },
+            {
+                "id": "nq_1197_8",
+                "score": 0.6526846289634705
+            },
+            {
+                "id": "nq_46437_7",
+                "score": 0.6514152884483337
+            },
+            {
+                "id": "nq_239454_47",
+                "score": 0.6494752764701843
+            },
+            {
+                "id": "nq_46437_4",
+                "score": 0.6484014987945557
+            },
+            {
+                "id": "nq_32463_152",
+                "score": 0.6461450457572937
+            },
+            {
+                "id": "nq_239454_6",
+                "score": 0.6440262198448181
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_75528_100",
+                "score": 0.6963695883750916
+            },
+            {
+                "id": "triviaqa_18114_13",
+                "score": 0.6929424405097961
+            },
+            {
+                "id": "triviaqa_75528_101",
+                "score": 0.6910609006881714
+            },
+            {
+                "id": "triviaqa_18114_0",
+                "score": 0.6798840761184692
+            },
+            {
+                "id": "triviaqa_8282_36",
+                "score": 0.668882429599762
+            },
+            {
+                "id": "triviaqa_31175_60",
+                "score": 0.6663241982460022
+            },
+            {
+                "id": "triviaqa_18114_15",
+                "score": 0.6646458506584167
+            },
+            {
+                "id": "triviaqa_21332_106",
+                "score": 0.6629528999328613
+            },
+            {
+                "id": "triviaqa_23029_557",
+                "score": 0.6562180519104004
+            },
+            {
+                "id": "triviaqa_18114_12",
+                "score": 0.6533167362213135
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0gzh_771",
+                "score": 0.7160767316818237
+            },
+            {
+                "id": "m.0gzh_183",
+                "score": 0.6903325915336609
+            },
+            {
+                "id": "m.0gzh_872",
+                "score": 0.6885242462158203
+            },
+            {
+                "id": "m.0gzh_831",
+                "score": 0.6855171322822571
+            },
+            {
+                "id": "m.0gzh_1434",
+                "score": 0.6814594864845276
+            },
+            {
+                "id": "m.0gzh_1122",
+                "score": 0.6792658567428589
+            },
+            {
+                "id": "m.0gzh_149",
+                "score": 0.6783269643783569
+            },
+            {
+                "id": "m.0gzh_193",
+                "score": 0.6782512068748474
+            },
+            {
+                "id": "m.0gzh_2354",
+                "score": 0.676298975944519
+            },
+            {
+                "id": "m.0gzh_1738",
+                "score": 0.6755638122558594
+            },
+            {
+                "id": "m.0gzh_1124",
+                "score": 0.6752889156341553
+            },
+            {
+                "id": "m.0gzh_190",
+                "score": 0.6751958131790161
+            },
+            {
+                "id": "m.0gzh_889",
+                "score": 0.6747288107872009
+            },
+            {
+                "id": "m.0gzh_1739",
+                "score": 0.6722776889801025
+            },
+            {
+                "id": "m.0gzh_534",
+                "score": 0.6710706353187561
+            },
+            {
+                "id": "m.0gzh_1125",
+                "score": 0.6693629026412964
+            },
+            {
+                "id": "m.0gzh_1408",
+                "score": 0.6693115830421448
+            },
+            {
+                "id": "m.0gzh_910",
+                "score": 0.6691893935203552
+            },
+            {
+                "id": "m.0gzh_544",
+                "score": 0.6680199503898621
+            },
+            {
+                "id": "m.0gzh_1064",
+                "score": 0.6662964820861816
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_18114_13": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln's path to becoming president.",
+                "Document Content Analysis": "The document provides a detailed history of Abraham Lincoln's presidency, including his election, inauguration, and significant accomplishments such as his stance against slavery and leadership during the Civil War. However, it does not discuss any individuals who influenced him to become president.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president', but it does not mention any influencers or provide information about who influenced him.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay' or any other individual who influenced Lincoln.",
+                "Key Information Matching": "While the document covers important aspects of Lincoln's presidency, it lacks any information about the people who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not contain information about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer who influenced Lincoln to become president.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document focuses on Lincoln's presidency and his actions as president but does not address the query about who influenced him to become president. Therefore, it is irrelevant to the specific query asked."
+            },
+            "m.0ct18_191": {
+                "Query Analysis": "The query seeks to identify the individuals or entities that influenced Abraham Lincoln to pursue and become the President of the United States.",
+                "Query Keywords Extraction": "Abraham Lincoln, influenced, president",
+                "Answer Analysis": "The answer indicates that Henry Clay was a significant influence on Abraham Lincoln.",
+                "Document Content Analysis": "The document provides extensive information about Henry Clay, including his roles, works, and influence. It mentions that Henry Clay was an influential figure and provides context about his political career and positions.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'Henry Clay', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'Henry Clay', who is identified as an influence on Abraham Lincoln in the answer.",
+                "Key Information Matching": "The document establishes Henry Clay as an influential figure and connects him to Abraham Lincoln, which is key to answering the query.",
+                "Can the Document Answer the Query": "Yes, the document implies that Henry Clay influenced Abraham Lincoln, which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Henry Clay's political career and influence, which can help infer why he might have influenced Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides information about Henry Clay's influence on Abraham Lincoln, which is the central aspect of the query. The document not only mentions the key individuals but also provides context that supports the answer."
+            },
+            "nq_148087_16": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key figures who influenced Abraham Lincoln's path to presidency.",
+                "Document Content Analysis": "The document discusses the history and design of the Lincoln one-cent coin, mentioning Abraham Lincoln's image on the coin and some historical context around his presidency. It also touches on Theodore Roosevelt's admiration for Lincoln and the creation of the coin by Victor David Brenner.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'presidency', but does not discuss any specific influences on Lincoln becoming president.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "While the document provides historical context about Abraham Lincoln and his presidency, it does not address the specific influences on Lincoln becoming president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any information that can help infer additional details about the influences on Lincoln's path to presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document primarily focuses on the history and design of the Lincoln one-cent coin and does not provide any information related to the influences on Abraham Lincoln becoming president. Therefore, it is irrelevant to the query."
+            },
+            "m.0gzh_771": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln.",
+                "Document Content Analysis": "The document provides information about various influences on Abraham Lincoln, including Henry Clay, Theodore Parker, and Thomas Paine. It also includes other details about Lincoln's life, such as his quotations, place of burial, and career milestones.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and lists several individuals who influenced him, including 'Henry Clay'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay' as one of the influences on Abraham Lincoln, which matches the answer.",
+                "Key Information Matching": "The document directly mentions 'Henry Clay' as an influence on Abraham Lincoln, aligning with both the query and the answer. Additionally, it provides information about other influences, which can help infer more context about Lincoln's development as a leader.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by listing Henry Clay as one of the influences on Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only confirms Henry Clay's influence but also mentions other influential figures like Theodore Parker and Thomas Paine, providing a broader understanding of the influences on Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it directly answers the query by mentioning Henry Clay as an influence on Abraham Lincoln. It also provides additional context by listing other influential figures, enhancing the understanding of Lincoln's development as a leader."
+            },
+            "m.0ct18_188": {
+                "Query Analysis": "The query seeks to identify the individual(s) who influenced Abraham Lincoln to pursue the presidency.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, become, president",
+                "Answer Analysis": "The answer indicates that Henry Clay was a significant influence on Abraham Lincoln.",
+                "Document Content Analysis": "The document provides detailed information about Henry Clay, including various identifiers, his types (such as lawyer, politician, etc.), and his government positions held. It also explicitly states that Abraham Lincoln was influenced by Henry Clay.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'Henry Clay', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Henry Clay', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states 'Abraham Lincoln -- Influenced By --> Henry Clay', directly addressing the query's main point.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Abraham Lincoln was influenced by Henry Clay.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Henry Clay's background and positions, which can help infer why he might have influenced Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by confirming that Henry Clay influenced Abraham Lincoln. Additionally, it provides extensive background information on Henry Clay, enhancing the understanding of his influence on Lincoln."
+            },
+            "triviaqa_75528_101": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Lincoln's path to presidency.",
+                "Document Content Analysis": "The document discusses Henry Clay's political stance and his influence on Abraham Lincoln, particularly noting that Clay was Lincoln's role model in politics. It also mentions other prominent figures from the Civil War era who were involved in Masonry, but these details are tangential to the main query.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'Henry Clay', both of which are key entities in the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay', who is identified as the answer to the query.",
+                "Key Information Matching": "The document provides relevant information by highlighting that Henry Clay was Lincoln's role model in politics and that Lincoln would have been influenced by Clay's actions and principles, including his involvement in Masonry.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Henry Clay was a significant influence on Lincoln, aligning with the provided answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about how Lincoln was influenced by Clay's political stance and refusal to denounce Masonry, offering insight into the nature of Clay's influence on Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it not only mentions the key figure (Henry Clay) from the answer but also provides detailed information about how Clay influenced Lincoln politically. This direct connection and additional context make the document very useful for understanding the query."
+            },
+            "nq_130777_5": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln's path to presidency.",
+                "Document Content Analysis": "The document provides information about the United States Presidential Election of 1860 and the political context surrounding Abraham Lincoln's election as president. It mentions Lincoln's victory and the catalyst role his election played in the American Civil War. The document also touches on the political divisions over slavery during the 1850s.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president'. However, it does not explicitly mention any influencers or provide information on who influenced Lincoln.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay' or any other specific individual who influenced Lincoln.",
+                "Key Information Matching": "While the document discusses Lincoln and his presidency, it does not provide information on the influences leading to his presidency. It focuses more on the election and the political climate at the time.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially. The document provides context around Lincoln's election and the political environment of the time, which could be useful for understanding the broader factors that may have influenced Lincoln. However, it does not provide specific names or direct influences.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat relevant as it provides historical context around Lincoln's presidency and the political climate during the time of his election. However, it does not provide specific information about the individuals who influenced him to become president. Therefore, it can offer some background but cannot directly answer the query."
+            },
+            "ott_16552_0": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln's path to becoming president.",
+                "Document Content Analysis": "The document provides the electoral history of Abraham Lincoln, focusing on the Republican Party nomination for the 1860 Presidential election. It lists various nominees and their vote counts over multiple ballots. Additionally, it mentions Lincoln's service in the U.S. House of Representatives and his tenure as the 16th President of the United States.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president', but does not explicitly discuss influences on Lincoln's political career or presidency.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "While the document covers Lincoln's political career and his nomination for presidency, it does not provide information about the people who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not contain information about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that would help infer the influences on Lincoln's path to presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document focuses on the electoral history and nomination process of Abraham Lincoln but does not address the influences on his decision to become president. It lacks any mention of key influencers such as Henry Clay, making it irrelevant to the specific query."
+            },
+            "m.0gzh_813": {
+                "Query Analysis": "The query seeks to identify the individuals or factors that influenced Abraham Lincoln to pursue and become the President of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, become, president",
+                "Answer Analysis": "The answer indicates that Henry Clay was a significant influence on Abraham Lincoln.",
+                "Document Content Analysis": "The document provides various pieces of information about Abraham Lincoln, including his quotations, his role as a US President, details about his appointments, and works written about him. It also mentions that he influenced Rajiv Satyal.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "While the document provides extensive information about Abraham Lincoln, it does not specifically address who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks context or details about Lincoln's influences or mentors.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document, although rich in information about Abraham Lincoln, does not contain any direct or indirect references to the influences on his decision to become president. It lacks the specific details needed to answer the query or provide useful context for inferring the answer."
+            },
+            "m.0ct18_122": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln's path to becoming president.",
+                "Document Content Analysis": "The document provides detailed information about Henry Clay, including his works, children, government positions, and most importantly, the fact that he influenced Abraham Lincoln.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'influenced'.",
+                "Document and Answer Keywords Matching": "The document explicitly states that Henry Clay influenced Abraham Lincoln.",
+                "Key Information Matching": "The document contains a direct statement that Henry Clay influenced Abraham Lincoln, which matches both the query and the answer. It also provides additional context about Henry Clay's life and career.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Henry Clay influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about Henry Clay's background, works, and government positions, which can help understand why and how he influenced Abraham Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it not only directly answers the query by mentioning that Henry Clay influenced Abraham Lincoln but also provides substantial context about Henry Clay's life and career. This additional information helps in understanding the influence he had on Abraham Lincoln."
+            },
+            "m.0gzh_182": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln's path to becoming president.",
+                "Document Content Analysis": "The document contains various pieces of information about Abraham Lincoln, including quotations, events from his life, and some of his accomplishments. It mentions his service in the Black Hawk War, his presidency following Buchanan's failure to act, and organizations he founded. However, it does not directly mention any specific individuals who influenced him to become president. Notably, it includes an entry stating that Lincoln influenced Rajiv Satyal, but this is unrelated to the query.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president'. There is no direct mention of 'influence' or any individual who influenced Lincoln to become president.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay' or any other individual who influenced Lincoln to become president.",
+                "Key Information Matching": "While the document provides context about Lincoln's life and presidency, it lacks specific information about the individuals who influenced him to become president. The only relevant connection is the indirect reference to Lincoln's rise to presidency after Buchanan's failure.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any additional information that could help infer who influenced Lincoln to become president. It primarily focuses on his actions, speeches, and legacy rather than the influences leading to his presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because it does not provide any information about the individuals who influenced Abraham Lincoln to become president. While it offers context about Lincoln's life and presidency, it lacks the specific details needed to address the query."
+            },
+            "triviaqa_75528_100": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was a significant influence on Abraham Lincoln's path to becoming president.",
+                "Document Content Analysis": "The document discusses Abraham Lincoln's political idol, Henry Clay, and his influence on Lincoln. It mentions Lincoln's admiration for Clay and how Clay's involvement in Masonry and refusal to denounce it might have influenced Lincoln. The document also touches on other prominent figures from the Civil War era who were Masons.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'influence' through its discussion of Lincoln's admiration for Henry Clay.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay' as Lincoln's idol in politics, aligning with the answer provided.",
+                "Key Information Matching": "The document provides key information about Henry Clay being Lincoln's political role model, which directly relates to the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Henry Clay was Lincoln's idol in politics, which answers the query about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only confirms Henry Clay's influence but also provides context about Clay's political career and his stance on Masonry, which helps infer additional information about Lincoln's political influences.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly addresses the query by mentioning Henry Clay's influence on Lincoln and provides substantial context that enhances understanding of Lincoln's political development. It contains key information that both answers the query and offers additional insights into Lincoln's influences."
+            },
+            "m.0gzh_252": {
+                "Query Analysis": "The query asks about the individuals or factors that influenced Abraham Lincoln to pursue and become the President of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, become, president",
+                "Answer Analysis": "The answer indicates that Henry Clay was a significant influence on Abraham Lincoln.",
+                "Document Content Analysis": "The document consists of various statements and references to Abraham Lincoln, including his own quotes, works associated with him, and mentions of his presidency. It primarily focuses on Lincoln's actions, thoughts, and the context of his presidency.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president' but does not explicitly mention 'influence' or 'become'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "While the document provides context about Lincoln's presidency and his thoughts, it does not directly address who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not provide specific information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks information about Lincoln's influencers or the factors that led him to pursue the presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document, while rich in content about Abraham Lincoln and his presidency, does not provide any direct or indirect information about the influences on his decision to become president. Therefore, it is deemed irrelevant to the query."
+            },
+            "m.0gzh_183": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln's path to becoming president.",
+                "Document Content Analysis": "The document provides a variety of information about Abraham Lincoln, including his quotations, works, organizations he founded, connections to other historical figures, and things named after him. It also mentions Rajiv Satyal as an influence on Lincoln, but does not mention Henry Clay or any other significant political figures who influenced Lincoln's presidency.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'influence' (Rajiv Satyal). However, it does not mention 'president' in the context of Lincoln's presidency or provide information on political influences leading to his presidency.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "While the document mentions Rajiv Satyal as an influence on Lincoln, this information is not relevant to the query's focus on political influences leading to Lincoln's presidency. The document lacks specific information about key political figures who influenced Lincoln's path to becoming president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the individuals who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any useful information that could help infer additional details about the influences on Lincoln's path to the presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document contains general information about Abraham Lincoln but fails to address the specific query regarding the individuals who influenced him to become president. It mentions Rajiv Satyal as an influence, which is not relevant to the query's context. Additionally, it does not mention Henry Clay or any other significant political influences leading to Lincoln's presidency."
+            },
+            "triviaqa_18114_12": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer identifies Henry Clay as one of the key influences on Abraham Lincoln.",
+                "Document Content Analysis": "The document primarily discusses when Abraham Lincoln became president and provides historical context about his presidency. It mentions his election date (November 6, 1860) and inauguration date (March 4, 1861). Additionally, it briefly touches on his contributions during his presidency, such as leading the country through the American Civil War and the eradication of slavery. The document does not mention any individuals who influenced Lincoln to become president.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president', but does not discuss anyone who influenced him.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay' or any other individual who influenced Lincoln.",
+                "Key Information Matching": "The document provides information about Lincoln's presidency timeline but lacks any information about individuals who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer additional information required by the query. It focuses on dates and events related to Lincoln's presidency rather than influences.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because it does not provide any information about individuals who influenced Abraham Lincoln to become president. It only discusses when he became president and some of his accomplishments, which do not address the specific question of influence."
+            },
+            "m.0ct18_202": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln.",
+                "Document Content Analysis": "The document contains a series of statements and metadata related to Henry Clay, including his family, works, political career, and notably, his influence on Abraham Lincoln. It also mentions various places and entities named after him.",
+                "Document and Query Keywords Matching": "The document explicitly mentions 'Abraham Lincoln' and 'influenced by Henry Clay', which directly relates to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Henry Clay', matching the answer provided.",
+                "Key Information Matching": "The document clearly states that 'Abraham Lincoln -- Influenced By --> Henry Clay', which directly connects the query's subject (Abraham Lincoln) and the influence (Henry Clay).",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Henry Clay influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Henry Clay, including his political career and significant works, which can help understand why he might have influenced Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it not only directly answers the query by mentioning that Henry Clay influenced Abraham Lincoln but also provides substantial background information about Henry Clay. This enhances the understanding of why Lincoln was influenced by Clay, thus providing useful context."
+            },
+            "m.0gzh_527": {
+                "Query Analysis": "The query seeks to identify individuals who influenced Abraham Lincoln to pursue and become the president of the United States.",
+                "Query Keywords Extraction": "Abraham Lincoln, influenced, president",
+                "Answer Analysis": "The answer indicates that Henry Clay was a significant influence on Abraham Lincoln.",
+                "Document Content Analysis": "The document provides various pieces of information about Abraham Lincoln, including things named after him, works written about him, his quotations, and individuals he influenced and was influenced by. Specifically, it mentions that Lincoln was influenced by Thomas Paine.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'influenced', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay', but it does mention 'Thomas Paine' as someone who influenced Lincoln.",
+                "Key Information Matching": "The document provides information about who influenced Lincoln, although it does not match the specific individual mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not directly mention Henry Clay, who is the specific answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides another influential figure (Thomas Paine) in Lincoln's life, which can help infer the type of individuals who might have influenced him.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query by mentioning Henry Clay, it provides relevant information about another influential figure in Lincoln's life. This information can help infer the kind of influences Lincoln had, making the document partially relevant to the query."
+            },
+            "m.0gzh_2397": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "president"
+                ],
+                "Answer Analysis": "The answer provided is 'Henry Clay', indicating that Henry Clay was one of the key influences on Abraham Lincoln.",
+                "Document Content Analysis": "The document contains a collection of information related to Abraham Lincoln, including books, speeches, and other writings. It also mentions several individuals who influenced Lincoln, such as Theodore Parker and Henry Clay.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and includes references to individuals who influenced him, aligning with the query keywords.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay' as an influence on Abraham Lincoln, matching the provided answer.",
+                "Key Information Matching": "The document provides relevant information about Abraham Lincoln and specifically mentions 'Henry Clay' as an influence, which directly matches the query and the answer. It also mentions Theodore Parker, providing additional context.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query by mentioning Henry Clay as an influence on Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only mentions Henry Clay but also other influences like Theodore Parker, which can provide additional context to understand Lincoln's influences.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant because it directly answers the query by mentioning Henry Clay as an influence on Abraham Lincoln. Additionally, it provides further context by listing other influences, which enhances the understanding of the factors that shaped Lincoln's path to presidency."
+            },
+            "ott_5502_0": {
+                "Query Analysis": "The query seeks to identify the individuals who influenced Abraham Lincoln to pursue and eventually become the President of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, become, president",
+                "Answer Analysis": "The answer indicates that Henry Clay was a significant influence on Abraham Lincoln.",
+                "Document Content Analysis": "The document provides detailed information about the electoral history of Abraham Lincoln, particularly focusing on the 1860 Presidential election and the Republican Party nomination process. It includes a list of nominees, their home states, and the number of votes they received in different rounds of the nomination process.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president', but does not explicitly mention 'influence' or any individuals who influenced him.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay' or any other individuals who might have influenced Lincoln.",
+                "Key Information Matching": "While the document provides context about Lincoln's political journey and his nomination for the presidency, it lacks specific information about who influenced him.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Abraham Lincoln to become the president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that would help infer who influenced Lincoln.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the electoral history and nomination process of Abraham Lincoln, which is tangential to the query about his influencers. It does not provide any direct or indirect information about who influenced him to become the president, making it irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_18114_13": {
+                "Query Analysis": "The query asks about who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer states that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document provides information about Abraham Lincoln's presidency, including when he was elected, his inauguration date, his accomplishments, and key events during his tenure. It focuses on his election, reelection, and major actions as president, particularly regarding slavery and the Civil War.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president' multiple times, but does not contain the word 'influenced'.",
+                "Document and Answer Keywords Matching": "The document does not mention Henry Clay.",
+                "Key Information Matching": "While the document provides extensive information about Lincoln's presidency, it does not discuss influences on his decision to become president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on Lincoln's actions as president rather than factors that led him to seek the presidency.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about Lincoln's presidency, which is related to the query topic. However, it does not address the specific question of who influenced Lincoln to become president. The document offers background information about Lincoln's election and presidency, which may be tangentially useful for understanding his political career, but it lacks the specific information requested in the query. Therefore, it is judged as partially relevant (Label 1) rather than directly relevant or irrelevant."
+            },
+            "m.0ct18_191": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become the president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer lists Henry Clay as the person who influenced Abraham Lincoln to become the president.",
+                "Document Content Analysis": "The document provides detailed information about Henry Clay, including his roles as a politician, his works, and his influence. It mentions that Henry Clay is an 'Influence Node' and provides a comprehensive list of his contributions and positions.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'influenced' in the context of Henry Clay.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay' multiple times, aligning with the answer.",
+                "Key Information Matching": "The document directly links Henry Clay to Abraham Lincoln through the 'Influenced' relationship, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Henry Clay influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive background on Henry Clay, which can help understand the nature of his influence on Abraham Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly mentions that Henry Clay influenced Abraham Lincoln. It provides substantial useful context and additional information about Henry Clay, enhancing the understanding of his influence on Lincoln."
+            },
+            "nq_148087_16": {
+                "Query Analysis": "The query asks about individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer suggests that Henry Clay was an influential figure in Lincoln's path to presidency.",
+                "Document Content Analysis": "The document discusses the history of the Lincoln penny, focusing on its design and the circumstances surrounding its creation. It mentions Abraham Lincoln's significance, the 100th anniversary of his birth, and Theodore Roosevelt's role in commissioning the coin's design.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' multiple times, which is a key element of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention Henry Clay, who is given as the answer.",
+                "Key Information Matching": "While the document discusses Abraham Lincoln and his significance, it does not provide information about influences on his path to presidency.",
+                "Can the Document Answer the Query": "No, the document does not contain information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on the Lincoln penny and does not provide information about Lincoln's political influences or journey to presidency.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions Abraham Lincoln and his significance in American history. However, it does not provide any information about influences on Lincoln's path to presidency. The document's focus on the Lincoln penny and its design makes it tangentially related to the query, but it lacks the specific information needed to answer the question about who influenced Lincoln to become president."
+            },
+            "m.0gzh_771": {
+                "Query Analysis": "The query seeks to identify individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer indicates that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document provides various information about Abraham Lincoln, including people who influenced him, places named after him, his quotations, and some biographical details. It specifically mentions Henry Clay, Theodore Parker, and Thomas Paine as influences on Lincoln.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'Influenced By', which directly relate to the query.",
+                "Document and Answer Keywords Matching": "The document explicitly states 'Abraham Lincoln -- Influenced By --> Henry Clay', which matches the answer provided.",
+                "Key Information Matching": "The document directly addresses the query by listing individuals who influenced Abraham Lincoln, including Henry Clay, who is mentioned in the answer.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query by providing a list of individuals who influenced Abraham Lincoln, including Henry Clay.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Lincoln's life, career, and thoughts, which could help understand the nature of these influences.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly addresses the query by listing individuals who influenced Abraham Lincoln, including Henry Clay, who is mentioned in the answer. It also provides additional context about Lincoln's life and career, which enhances understanding of these influences. The document offers substantial useful information directly related to the query, making it a valuable source for answering and expanding upon the question at hand."
+            },
+            "m.0ct18_188": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become the president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer is 'Henry Clay', indicating that he was a significant influence on Abraham Lincoln's path to the presidency.",
+                "Document Content Analysis": "The document provides detailed information about Henry Clay, including his roles as a lawyer, politician, and influence node. It explicitly states that Abraham Lincoln was influenced by Henry Clay.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'Influenced By', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Henry Clay', which is the answer to the query.",
+                "Key Information Matching": "The document directly states that Abraham Lincoln was influenced by Henry Clay, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Henry Clay influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Henry Clay's roles and influence, which supports the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly states that Henry Clay influenced Abraham Lincoln, which is the answer to the query. Additionally, it provides useful context about Henry Clay's background and roles, enhancing understanding of the influence he had on Lincoln."
+            },
+            "triviaqa_75528_101": {
+                "Query Analysis": "The query asks about individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer suggests that Henry Clay was a significant influence on Abraham Lincoln's path to presidency.",
+                "Document Content Analysis": "The document discusses Henry Clay's involvement in American politics, his Masonic connections, and his influence on Abraham Lincoln. It also mentions other prominent figures in American politics and the Civil War era who were Freemasons, including John Wilkes Booth.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and discusses political influence, which relates to the query's focus on influences on Lincoln's presidency.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay' and his role as Lincoln's 'role model in politics', which directly corresponds to the answer provided.",
+                "Key Information Matching": "The document states that 'Henry Clay was Lincoln's role model in politics', which directly addresses the query about influences on Lincoln's political career.",
+                "Can the Document Answer the Query": "Yes, the document provides information that directly answers the query by identifying Henry Clay as a significant influence on Lincoln's political career.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Clay's political activities and Masonic connections, which could have indirectly influenced Lincoln's path to presidency.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly identifies Henry Clay as Lincoln's political role model, which strongly suggests Clay's influence on Lincoln's path to presidency. It also provides additional context about Clay's political activities and connections, which enriches the understanding of potential influences on Lincoln's political career. The mention of other prominent political figures of the era, while not directly related to Lincoln's influences, adds valuable historical context. Therefore, this document provides useful and directly relevant information to answer the query."
+            },
+            "nq_130777_5": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer suggests that Henry Clay was a significant influence on Abraham Lincoln's path to presidency.",
+                "Document Content Analysis": "The document provides information about the United States Presidential Election of 1860, in which Abraham Lincoln was elected president. It mentions Lincoln's Republican Party affiliation and the political context of the time, including sectional disagreements over slavery.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'President' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention Henry Clay.",
+                "Key Information Matching": "While the document discusses Abraham Lincoln's election as president, it does not provide information about who influenced him to pursue the presidency.",
+                "Can the Document Answer the Query": "No, the document does not contain information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Lincoln's political career and the circumstances surrounding his election, which may be indirectly related to influences on his path to presidency.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant to the query. While it doesn't directly address who influenced Lincoln to become president, it provides valuable context about Lincoln's political career and his election as president. This information, although not directly answering the query, offers insight into the political landscape and circumstances that may have played a role in Lincoln's journey to the presidency. However, the document lacks specific information about personal influences on Lincoln, making it only partially relevant rather than fully relevant to the query."
+            },
+            "ott_16552_0": {
+                "Query Analysis": "The query asks about individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer suggests that Henry Clay was an influential figure in Lincoln's path to presidency.",
+                "Document Content Analysis": "The document provides information about Abraham Lincoln's electoral history, specifically focusing on the 1860 Republican Party nomination process. It includes a table showing vote counts for various nominees across multiple ballots.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'President' in the introductory text.",
+                "Document and Answer Keywords Matching": "The document does not mention Henry Clay.",
+                "Key Information Matching": "While the document discusses Lincoln's electoral history and his path to presidency, it does not provide information about individuals who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not contain information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Lincoln's political career and his path to securing the Republican nomination, which is related to his journey to becoming president.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant to the query. While it doesn't directly address who influenced Lincoln to become president, it provides valuable context about his political career and the process of securing the Republican nomination. This information is related to Lincoln's path to presidency, making the document somewhat useful for understanding the broader context of the query. However, it lacks specific information about influential figures in Lincoln's decision to pursue the presidency, which prevents it from being fully relevant."
+            },
+            "m.0gzh_813": {
+                "Query Analysis": "The query seeks to identify the individuals who influenced Abraham Lincoln to become the president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer lists 'Henry Clay' as the person who influenced Abraham Lincoln to become the president.",
+                "Document Content Analysis": "The document contains various quotations, appointments, and works related to Abraham Lincoln. It mentions his role as a US President, his influence on Rajiv Satyal, and several works written about him, including 'Lincoln at Cooper Union: The Speech That Made Abraham Lincoln President'.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'US President'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "The document provides information about Abraham Lincoln's presidency and influence but does not mention 'Henry Clay' or any other individuals who influenced Lincoln to become president.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Henry Clay' or any other individuals who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about individuals who influenced Lincoln to become president.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information about the individuals who influenced Abraham Lincoln to become the president, making it irrelevant to the query."
+            },
+            "m.0ct18_122": {
+                "Query Analysis": "The query asks about who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer states that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document contains information about Henry Clay, including his types, works, children, places of birth and death, government positions, and notably, his influence on Abraham Lincoln.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' in the context of being influenced by Henry Clay.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Henry Clay' and his influence on 'Abraham Lincoln'.",
+                "Key Information Matching": "The document explicitly states 'Henry Clay -- Influenced --> Abraham Lincoln', which directly corresponds to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Henry Clay influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Henry Clay, such as his government positions and works, which could help understand his potential influence on Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly answers the query by stating that Henry Clay influenced Abraham Lincoln. It also provides additional context about Henry Clay's life and career, which enhances our understanding of his potential influence on Lincoln's path to presidency. The explicit mention of the influence relationship makes this document particularly valuable in addressing the query."
+            },
+            "m.0gzh_182": {
+                "Query Analysis": "The query asks about who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer states that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document contains various information about Abraham Lincoln, including quotes, biographical details, works written by and about him, organizations he founded, and people he influenced. However, it does not mention Henry Clay or any specific influences on Lincoln's path to presidency.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'presidency' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention Henry Clay.",
+                "Key Information Matching": "While the document provides extensive information about Lincoln's life and career, it does not directly address who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Lincoln's political career and presidency, which is related to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant to the query. While it doesn't directly answer who influenced Lincoln to become president, it provides valuable context about Lincoln's political career, including his rise to the presidency and his thoughts on government. This information is related to the query topic and can provide background understanding, even though it doesn't specifically address the influence of Henry Clay or others on Lincoln's presidential ambitions. Therefore, it is judged as partially relevant (Label 1)."
+            },
+            "triviaqa_75528_100": {
+                "Query Analysis": "The query seeks to identify individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer indicates that Henry Clay was a significant influence on Abraham Lincoln's path to presidency.",
+                "Document Content Analysis": "The document discusses Abraham Lincoln's connections to Freemasonry and his political idol, Henry Clay. It details Clay's involvement in Masonry, his political career, and his influence on Lincoln.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' multiple times and discusses influences on his political career.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay' as Lincoln's 'idol in politics' and provides details about Clay's political career and influence.",
+                "Key Information Matching": "The document directly addresses the query by stating that Henry Clay was Lincoln's 'idol in politics' and providing information about Clay's significant political career and influence.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying Henry Clay as a major influence on Lincoln's political career.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Henry Clay's political career and his connection to Freemasonry, which may have indirectly influenced Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly identifies Henry Clay as Lincoln's political idol and provides detailed information about Clay's influence on Lincoln. It offers substantial context about Clay's political career and his connection to Freemasonry, which likely shaped Lincoln's political aspirations. The document not only answers the query but also provides valuable background information that enhances understanding of the influences on Lincoln's path to presidency."
+            },
+            "m.0gzh_252": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become the president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer lists 'Henry Clay' as the person who influenced Abraham Lincoln to become the president.",
+                "Document Content Analysis": "The document contains various statements and references related to Abraham Lincoln, including his thoughts, writings, and associations. However, it does not explicitly mention any individuals who influenced him to become the president.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "The document does not provide any information about individuals who influenced Abraham Lincoln to become the president.",
+                "Can the Document Answer the Query": "No, the document does not mention any individuals who influenced Abraham Lincoln to become the president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information about individuals who influenced Abraham Lincoln to become the president, nor does it provide any context or additional information that could help infer the answer. Therefore, it is irrelevant to the query."
+            },
+            "m.0gzh_183": {
+                "Query Analysis": "The query asks about individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer suggests that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document contains various facts about Abraham Lincoln, including his quotations, organizations he founded, works written by and about him, things named after him, and some connections to other historical figures. It does not directly mention influences on his path to presidency.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' multiple times, but does not contain 'influenced' or 'president' in the context of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "While the document provides extensive information about Abraham Lincoln, it does not contain information specifically related to influences on his decision to become president.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain information that could help infer who influenced Lincoln to become president.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it contains extensive information about Abraham Lincoln, which provides context about his life and career. However, it does not directly address the query about influences on his path to presidency or mention Henry Clay. The information provided, while interesting, does not significantly contribute to answering the specific question asked. Therefore, it is judged as partially relevant (Label 1) rather than providing useful context (Label 2) for the query at hand."
+            },
+            "triviaqa_18114_12": {
+                "Query Analysis": "The query asks about who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer states that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document contains information about Abraham Lincoln's presidency, including his election date, inauguration date, and some of his accomplishments. It also mentions his predecessor and successor.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president' multiple times.",
+                "Document and Answer Keywords Matching": "The document does not mention Henry Clay or any specific influences on Lincoln's decision to become president.",
+                "Key Information Matching": "The document provides information about when Lincoln became president and some of his achievements, but it does not discuss who influenced him to pursue the presidency.",
+                "Can the Document Answer the Query": "No, the document does not provide information about who influenced Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "While the document doesn't directly address influences on Lincoln, it provides context about his presidency that could be relevant to understanding his path to becoming president.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant to the query. While it doesn't answer the specific question about who influenced Lincoln to become president, it provides useful context about Lincoln's presidency, including when he was elected and inaugurated. This information is related to the topic of Lincoln's presidency, even if it doesn't directly address the influences on his decision to run for office. The document could be useful for someone seeking to understand the timeline of Lincoln's presidency, which is tangentially related to the query about his path to becoming president."
+            },
+            "m.0ct18_202": {
+                "Query Analysis": "The query asks about individuals who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer indicates that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document contains various facts about Henry Clay, including his relationships, authored works, and influence on others. It notably mentions that Abraham Lincoln was influenced by Henry Clay.",
+                "Document and Query Keywords Matching": "The document contains 'Abraham Lincoln' and implies influence through the 'Influenced By' relationship.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Henry Clay' multiple times and explicitly states 'Abraham Lincoln -- Influenced By --> Henry Clay'.",
+                "Key Information Matching": "The document directly addresses the key information in the query by stating that Abraham Lincoln was influenced by Henry Clay.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Henry Clay influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Henry Clay's life, career, and influence, which could help understand why he might have influenced Lincoln.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly answers the query by stating that Henry Clay influenced Abraham Lincoln. It also provides substantial additional context about Henry Clay's life and career, which enhances understanding of his potential influence on Lincoln. The explicit mention of the influence relationship makes this document directly related to the conversation and provides useful context for understanding Lincoln's path to presidency."
+            },
+            "m.0gzh_527": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become the president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer lists 'Henry Clay' as the person who influenced Abraham Lincoln to become the president.",
+                "Document Content Analysis": "The document provides various pieces of information about Abraham Lincoln, including his influences, quotations, works written about him, and things named after him. Specifically, it mentions that Abraham Lincoln was influenced by Thomas Paine.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'Influenced By', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay', the person listed in the answer.",
+                "Key Information Matching": "The document mentions that Abraham Lincoln was influenced by Thomas Paine, which is related to the query but does not match the answer provided.",
+                "Can the Document Answer the Query": "No, the document does not mention Henry Clay, the person listed in the answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions that Abraham Lincoln was influenced by Thomas Paine, which is related to the query but does not directly answer it.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about influences on Abraham Lincoln but does not directly answer the query as it does not mention Henry Clay. It provides some context but is not fully aligned with the answer."
+            },
+            "m.0gzh_2397": {
+                "Query Analysis": "The query asks about who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer states that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document contains various information related to Abraham Lincoln, including books about him, quotes by him, and people who influenced or were influenced by him. It mentions Henry Clay as someone who influenced Abraham Lincoln.",
+                "Document and Query Keywords Matching": "The document contains multiple mentions of 'Abraham Lincoln' and includes information about influences on him.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Henry Clay -- Influenced --> Abraham Lincoln', which directly matches the answer.",
+                "Key Information Matching": "The document provides a direct match to the key information in both the query and answer by mentioning Henry Clay's influence on Abraham Lincoln.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query by providing the information that Henry Clay influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Abraham Lincoln's life, works, and other influences, which can help in understanding his path to presidency.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant (Label 2) as it directly addresses the query by mentioning Henry Clay's influence on Abraham Lincoln. It also provides substantial additional context about Lincoln's life, works, and other influences, which enhances understanding of his journey to becoming president. The presence of this key information, along with the broader context about Lincoln, makes this document directly related to the conversation and provides useful context for understanding Lincoln's path to presidency."
+            },
+            "ott_5502_0": {
+                "Query Analysis": "The query asks about the individuals who influenced Abraham Lincoln to become the president.",
+                "Query Keywords Extraction": "influenced, Abraham Lincoln, president",
+                "Answer Analysis": "The answer lists 'Henry Clay' as the person who influenced Abraham Lincoln to become the president.",
+                "Document Content Analysis": "The document provides the electoral history of Abraham Lincoln, including details about the 1860 Presidential election and the Republican Party nomination. It lists nominees, their home states, and vote counts across different rounds of voting.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and 'president'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay'.",
+                "Key Information Matching": "The document provides historical context about Abraham Lincoln's presidential election but does not mention any influencers like Henry Clay.",
+                "Can the Document Answer the Query": "No, the document does not mention any individuals who influenced Abraham Lincoln to become the president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about influencers or key figures in Lincoln's rise to the presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the electoral history of Abraham Lincoln but does not contain any information about who influenced him to become the president. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_18114_13": {
+                "Query Analysis": "The query asks about the individuals or factors that influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": [
+                    "Abraham Lincoln",
+                    "influenced",
+                    "become president"
+                ],
+                "Answer Analysis": "The answer mentions 'Henry Clay' as an individual who influenced Abraham Lincoln to pursue the presidency.",
+                "Document Content Analysis": "The document discusses Abraham Lincoln's historical contributions, including his opposition to slavery, leadership during the Civil War, key milestones like his election and inauguration, and other significant events during his presidency, but it does not mention individuals who influenced his decision to become president.",
+                "Document and Query Keywords Matching": [
+                    "Abraham Lincoln",
+                    "become president"
+                ],
+                "Document and Answer Keywords Matching": "None; 'Henry Clay' is not mentioned in the document.",
+                "Key Information Matching": "The document provides historical context about Abraham Lincoln’s presidency, including events leading to his election and his accomplishments while in office. However, it does not provide any information about who influenced him to become president.",
+                "Can the Document Answer the Query": "No, the document does not mention any individuals or factors that influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not include any relevant information or context that could assist in inferring who influenced Abraham Lincoln to pursue the presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document focuses on Abraham Lincoln’s presidency, including events like his election, his opposition to slavery, and his role in the Civil War, but it does not provide any information about who or what influenced him to become president. Therefore, it is irrelevant to the query."
+            },
+            "m.0ct18_191": {},
+            "nq_148087_16": {
+                "Query Analysis": "The query seeks to determine who influenced Abraham Lincoln to become the president of the United States.",
+                "Query Keywords Extraction": [
+                    "influence",
+                    "Abraham Lincoln",
+                    "become",
+                    "president"
+                ],
+                "Answer Analysis": "The provided answer to the query specifies one individual: Henry Clay.",
+                "Document Content Analysis": "The document discusses various historical aspects of the Lincoln one-cent coin, including its design, importance, and the context of its development. It highlights public sentiment surrounding Lincoln's legacy during his 100th birth anniversary, Theodore Roosevelt's involvement in the design of the Lincoln cent, the influence of artist Victor David Brenner, and mentions Lincoln as a significant figure in U.S. history.",
+                "Document and Query Keywords Matching": "The document includes mentions of 'Abraham Lincoln' but does not mention 'influence' or 'become president,' which are key components of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay,' the answer provided as the influence on Abraham Lincoln's presidency.",
+                "Key Information Matching": "The document provides information related to Abraham Lincoln's cultural and historical significance but does not address who influenced him to become president or provide biographical or political context relevant to his personal motivations or influences.",
+                "Can the Document Answer the Query": "No, the document does not address who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is focused on the history of the Lincoln cent and related events, and it does not provide any relevant clues regarding Lincoln's influences or his path to the presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about who influenced Abraham Lincoln to become president. It focuses entirely on the Lincoln cent, its design, and associated historical contexts, which are unrelated to the query's main topic."
+            },
+            "m.0gzh_771": {},
+            "m.0ct18_188": {},
+            "triviaqa_75528_101": {},
+            "nq_130777_5": {},
+            "ott_16552_0": {
+                "Query Analysis": "The query asks who influenced Abraham Lincoln to become the president, focusing on identifying influential figures in Lincoln's political journey.",
+                "Query Keywords Extraction": [
+                    "Abraham Lincoln",
+                    "influence",
+                    "president"
+                ],
+                "Answer Analysis": "The answer indicates that Henry Clay influenced Abraham Lincoln to become president.",
+                "Document Content Analysis": "The document provides electoral history details for Abraham Lincoln and other candidates from the 1860 Republican Party nomination. It lists vote tallies across various rounds of nomination and provides some general biographical context on Lincoln, such as his prior political roles and presidency term.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and provides information about his presidential context, which partially aligns with the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Henry Clay' or any other figures that could directly explain who influenced Abraham Lincoln.",
+                "Key Information Matching": "The document discusses Lincoln's electoral history but does not provide any information about individuals or factors that influenced his decision or path to the presidency.",
+                "Can the Document Answer the Query": "No, the document does not contain any information regarding who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's focus on electoral history and Republican Party nomination results does not contribute to understanding the query about influences on Lincoln.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document primarily focuses on the electoral history and nomination process of Abraham Lincoln, which does not address the query about who influenced him to become president. It does not mention Henry Clay or provide context related to influential figures in Lincoln's life."
+            },
+            "m.0gzh_813": {},
+            "m.0ct18_122": {},
+            "m.0gzh_182": {
+                "Query Analysis": "The query seeks to identify the individual or individuals who influenced Abraham Lincoln to pursue the presidency.",
+                "Query Keywords Extraction": [
+                    "Abraham Lincoln",
+                    "influenced",
+                    "become president"
+                ],
+                "Answer Analysis": "The answer identifies 'Henry Clay' as a key influence on Abraham Lincoln's path to the presidency.",
+                "Document Content Analysis": "The document provides a variety of information related to Abraham Lincoln, such as his quotations, life events, speeches, organizations he founded, works written about him, his presidency, and cause of death. However, it does not explicitly mention Henry Clay or the specific individuals who influenced Lincoln to become president.",
+                "Document and Query Keywords Matching": [
+                    "Abraham Lincoln"
+                ],
+                "Document and Answer Keywords Matching": [],
+                "Key Information Matching": "The document discusses Abraham Lincoln in detail, but it does not specifically address who influenced him to pursue the presidency or mention Henry Clay. There is no content that directly or indirectly links to influences on his decision to become president.",
+                "Can the Document Answer the Query": "No, the document does not contain information about who influenced Abraham Lincoln to become president.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks context or mentions of individuals who might have influenced Abraham Lincoln's political career or decision to run for the presidency.",
+                "Relevance Judgement": "0",
+                "Explanation": "Although the document is broadly related to Abraham Lincoln, it does not address the query's core subject—identifying individuals who influenced Lincoln to become president. Additionally, it does not offer any information that can help infer the answer or provide meaningful context about this aspect of his life. Therefore, it is deemed irrelevant to the query."
+            },
+            "triviaqa_75528_100": {},
+            "m.0gzh_252": {},
+            "m.0gzh_183": {
+                "Query Analysis": "The query seeks to identify the individual(s) who influenced Abraham Lincoln in his decision to become the president of the United States.",
+                "Query Keywords Extraction": [
+                    "Abraham Lincoln",
+                    "influenced",
+                    "become",
+                    "president"
+                ],
+                "Answer Analysis": "The provided answer identifies 'Henry Clay' as someone who influenced Abraham Lincoln to pursue the presidency.",
+                "Document Content Analysis": "The document contains various, loosely categorized information about Abraham Lincoln, including his associations with organizations, quotations, works written, national contributions, and other facts such as 'things named after him' and his cause of death. However, it does not explicitly address who influenced him to become president.",
+                "Document and Query Keywords Matching": [
+                    "Abraham Lincoln",
+                    "influenced"
+                ],
+                "Document and Answer Keywords Matching": [],
+                "Key Information Matching": "While the document includes a section mentioning 'Abraham Lincoln -- Influenced --> Rajiv Satyal', it does not discuss key historical figures, such as Henry Clay, or provide information explicitly related to Lincoln's motivations for becoming president.",
+                "Can the Document Answer the Query": "No, the document does not include information about who influenced Abraham Lincoln to pursue the presidency.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or information regarding influential figures in Lincoln's life or his decision to become president.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information regarding Henry Clay or any other individuals who may have influenced Abraham Lincoln to become president. It does not provide substantial context or additional information relevant to answering the query, making it irrelevant (Label 0)."
+            },
+            "triviaqa_18114_12": {
+                "Query Analysis": "The query asks for information on who influenced Abraham Lincoln to become the president.",
+                "Query Keywords Extraction": [
+                    "influenced",
+                    "Abraham Lincoln",
+                    "become president"
+                ],
+                "Answer Analysis": "The answer suggests that Henry Clay was a key influence on Abraham Lincoln's decision or journey to become president.",
+                "Document Content Analysis": "The document contains scattered information about various unrelated topics, such as a book on cookery, food history, Abraham Lincoln's inauguration date, and his presidential accomplishments. There is no clear reference to who influenced Lincoln to become president.",
+                "Document and Query Keywords Matching": "The document mentions 'Abraham Lincoln' and partially addresses his presidency, but does not mention 'influence' or anything related to who inspired him to become president.",
+                "Document and Answer Keywords Matching": "The document does not contain 'Henry Clay' or any discussion of who influenced Lincoln, making the connection to the answer nonexistent.",
+                "Key Information Matching": "The document does not provide key information related to the query, such as names of individuals or factors (e.g., Henry Clay) who may have influenced Lincoln to become president.",
+                "Can the Document Answer the Query": "No, the document does not directly answer the query as it lacks information on who influenced Abraham Lincoln.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any contextual or supporting information that could help infer an answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query because it does not contain any information on who influenced Abraham Lincoln to become president. It primarily discusses unrelated topics like cookbooks, food history, and the timeline of Lincoln's presidency without addressing the key aspect of influence."
+            },
+            "m.0ct18_202": {},
+            "m.0gzh_527": {},
+            "m.0gzh_2397": {},
+            "ott_5502_0": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "triviaqa_18114_13": [
+                true,
+                true,
+                true
+            ],
+            "nq_148087_16": [
+                true,
+                true,
+                true
+            ],
+            "m.0gzh_771": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_75528_101": [
+                true,
+                true,
+                true
+            ],
+            "nq_130777_5": [
+                true,
+                true,
+                true
+            ],
+            "ott_16552_0": [
+                true,
+                true,
+                true
+            ],
+            "m.0ct18_122": [
+                true,
+                true,
+                true
+            ],
+            "m.0gzh_182": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_75528_100": [
+                true,
+                true,
+                true
+            ],
+            "m.0gzh_183": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_18114_12": [
+                true,
+                true,
+                true
+            ],
+            "m.0ct18_202": [
+                true,
+                true,
+                true
+            ],
+            "m.0gzh_2397": [
+                true,
+                true,
+                true
+            ],
+            "ott_5502_0": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 13,
+            "nq": 1,
+            "ott": 0,
+            "triviaqa": 2,
+            "tat": 0
+        }
+    }
+}

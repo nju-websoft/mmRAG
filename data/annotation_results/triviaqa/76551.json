@@ -1,0 +1,994 @@
+{
+    "index": 76551,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "Which James Bond film features a song by Louis Armstrong?",
+        "answer": "On Her Majesty's Secret Service",
+        "BM25_documents": [
+            {
+                "id": "nq_49726_38",
+                "score": 21.03809928894043
+            },
+            {
+                "id": "triviaqa_60592_7",
+                "score": 20.973400115966797
+            },
+            {
+                "id": "nq_49726_22",
+                "score": 20.29290008544922
+            },
+            {
+                "id": "triviaqa_60592_106",
+                "score": 20.056400299072266
+            },
+            {
+                "id": "triviaqa_60592_128",
+                "score": 19.629100799560547
+            },
+            {
+                "id": "triviaqa_65716_0",
+                "score": 19.389400482177734
+            },
+            {
+                "id": "triviaqa_65716_1",
+                "score": 19.315799713134766
+            },
+            {
+                "id": "triviaqa_60592_72",
+                "score": 19.211299896240234
+            },
+            {
+                "id": "triviaqa_60592_124",
+                "score": 19.2052001953125
+            },
+            {
+                "id": "triviaqa_65716_5",
+                "score": 18.98509979248047
+            },
+            {
+                "id": "triviaqa_16910_9",
+                "score": 18.906700134277344
+            },
+            {
+                "id": "triviaqa_60592_112",
+                "score": 18.582599639892578
+            },
+            {
+                "id": "triviaqa_60592_122",
+                "score": 18.243499755859375
+            },
+            {
+                "id": "triviaqa_60592_6",
+                "score": 18.205699920654297
+            },
+            {
+                "id": "triviaqa_60592_129",
+                "score": 18.00670051574707
+            },
+            {
+                "id": "triviaqa_60592_105",
+                "score": 17.99090003967285
+            },
+            {
+                "id": "triviaqa_60592_13",
+                "score": 17.952199935913086
+            },
+            {
+                "id": "triviaqa_60592_119",
+                "score": 17.79330062866211
+            },
+            {
+                "id": "triviaqa_60592_123",
+                "score": 17.55900001525879
+            },
+            {
+                "id": "triviaqa_60592_125",
+                "score": 17.160400390625
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_26812_0",
+                "score": 9.014900207519531
+            },
+            {
+                "id": "ott_32973_0",
+                "score": 9.014899253845215
+            },
+            {
+                "id": "ott_38557_0",
+                "score": 9.014898300170898
+            },
+            {
+                "id": "ott_89_0",
+                "score": 9.014897346496582
+            },
+            {
+                "id": "ott_915_0",
+                "score": 9.014896392822266
+            },
+            {
+                "id": "ott_29574_0",
+                "score": 8.987000465393066
+            },
+            {
+                "id": "ott_38574_0",
+                "score": 8.98699951171875
+            },
+            {
+                "id": "ott_23810_1",
+                "score": 8.969799995422363
+            },
+            {
+                "id": "ott_31002_1",
+                "score": 8.969799041748047
+            },
+            {
+                "id": "ott_6103_1",
+                "score": 8.96979808807373
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_49726_38",
+                "score": 21.03809928894043
+            },
+            {
+                "id": "nq_49726_22",
+                "score": 20.29290008544922
+            },
+            {
+                "id": "nq_49726_21",
+                "score": 14.899200439453125
+            },
+            {
+                "id": "nq_25183_27",
+                "score": 14.621999740600586
+            },
+            {
+                "id": "nq_246249_24",
+                "score": 14.187399864196777
+            },
+            {
+                "id": "nq_100704_25",
+                "score": 14.122200012207031
+            },
+            {
+                "id": "nq_147846_2",
+                "score": 13.973999977111816
+            },
+            {
+                "id": "nq_49726_0",
+                "score": 13.960800170898438
+            },
+            {
+                "id": "nq_2795_24",
+                "score": 13.95930004119873
+            },
+            {
+                "id": "nq_228881_24",
+                "score": 13.808500289916992
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_60592_7",
+                "score": 20.973400115966797
+            },
+            {
+                "id": "triviaqa_60592_106",
+                "score": 20.056400299072266
+            },
+            {
+                "id": "triviaqa_60592_128",
+                "score": 19.629100799560547
+            },
+            {
+                "id": "triviaqa_65716_0",
+                "score": 19.389400482177734
+            },
+            {
+                "id": "triviaqa_65716_1",
+                "score": 19.315799713134766
+            },
+            {
+                "id": "triviaqa_60592_72",
+                "score": 19.211299896240234
+            },
+            {
+                "id": "triviaqa_60592_124",
+                "score": 19.2052001953125
+            },
+            {
+                "id": "triviaqa_65716_5",
+                "score": 18.98509979248047
+            },
+            {
+                "id": "triviaqa_16910_9",
+                "score": 18.906700134277344
+            },
+            {
+                "id": "triviaqa_60592_112",
+                "score": 18.582599639892578
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0d03f9_2",
+                "score": 11.552900314331055
+            },
+            {
+                "id": "m.0d03f9_1",
+                "score": 10.944000244140625
+            },
+            {
+                "id": "m.0fq7dv__80",
+                "score": 10.73550033569336
+            },
+            {
+                "id": "m.0d03f9_3",
+                "score": 10.622099876403809
+            },
+            {
+                "id": "m.02z7b9__8",
+                "score": 10.170299530029297
+            },
+            {
+                "id": "m.02z7b9__7",
+                "score": 10.14009952545166
+            },
+            {
+                "id": "m.02z7b9__11",
+                "score": 10.135299682617188
+            },
+            {
+                "id": "m.02z7b9__10",
+                "score": 10.118200302124023
+            },
+            {
+                "id": "m.02z7b9__9",
+                "score": 10.105600357055664
+            },
+            {
+                "id": "m.02z7b9__0",
+                "score": 10.016199111938477
+            },
+            {
+                "id": "m.06lbp_86",
+                "score": 10.001099586486816
+            },
+            {
+                "id": "m.0n2g_183",
+                "score": 9.992300033569336
+            },
+            {
+                "id": "m.02z7b9__6",
+                "score": 9.978799819946289
+            },
+            {
+                "id": "m.02z7b9__5",
+                "score": 9.954999923706055
+            },
+            {
+                "id": "m.06lbp_85",
+                "score": 9.658100128173828
+            },
+            {
+                "id": "m.02hrh0__1554",
+                "score": 9.646300315856934
+            },
+            {
+                "id": "m.02x0srr_5",
+                "score": 9.602800369262695
+            },
+            {
+                "id": "m.0d03f9_0",
+                "score": 9.515700340270996
+            },
+            {
+                "id": "m.0d03f9_9",
+                "score": 9.508500099182129
+            },
+            {
+                "id": "m.02z7b9__1",
+                "score": 9.479700088500977
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_49726_39",
+                "score": 0.6932217478752136
+            },
+            {
+                "id": "triviaqa_60592_129",
+                "score": 0.6787939667701721
+            },
+            {
+                "id": "triviaqa_60592_106",
+                "score": 0.6659973859786987
+            },
+            {
+                "id": "nq_49726_0",
+                "score": 0.6636526584625244
+            },
+            {
+                "id": "triviaqa_60592_123",
+                "score": 0.6626259684562683
+            },
+            {
+                "id": "triviaqa_65716_1",
+                "score": 0.6602174043655396
+            },
+            {
+                "id": "nq_49726_22",
+                "score": 0.6577839851379395
+            },
+            {
+                "id": "triviaqa_65716_5",
+                "score": 0.6561883687973022
+            },
+            {
+                "id": "triviaqa_60592_13",
+                "score": 0.6558679938316345
+            },
+            {
+                "id": "triviaqa_60592_96",
+                "score": 0.655268132686615
+            },
+            {
+                "id": "triviaqa_16910_9",
+                "score": 0.6532963514328003
+            },
+            {
+                "id": "triviaqa_65716_4",
+                "score": 0.6532915830612183
+            },
+            {
+                "id": "nq_203774_24",
+                "score": 0.6503567695617676
+            },
+            {
+                "id": "triviaqa_16910_10",
+                "score": 0.6491168737411499
+            },
+            {
+                "id": "triviaqa_60592_7",
+                "score": 0.6486533880233765
+            },
+            {
+                "id": "nq_49726_38",
+                "score": 0.6484044194221497
+            },
+            {
+                "id": "triviaqa_60592_10",
+                "score": 0.6483739614486694
+            },
+            {
+                "id": "nq_49726_40",
+                "score": 0.6482329368591309
+            },
+            {
+                "id": "triviaqa_65716_0",
+                "score": 0.6465997695922852
+            },
+            {
+                "id": "triviaqa_60592_116",
+                "score": 0.645002007484436
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_49726_39",
+                "score": 0.6932217478752136
+            },
+            {
+                "id": "nq_49726_0",
+                "score": 0.6636526584625244
+            },
+            {
+                "id": "nq_49726_22",
+                "score": 0.6577839851379395
+            },
+            {
+                "id": "nq_203774_24",
+                "score": 0.6503567695617676
+            },
+            {
+                "id": "nq_49726_38",
+                "score": 0.6484044194221497
+            },
+            {
+                "id": "nq_49726_40",
+                "score": 0.6482329368591309
+            },
+            {
+                "id": "nq_100704_12",
+                "score": 0.638649046421051
+            },
+            {
+                "id": "nq_100704_19",
+                "score": 0.637657880783081
+            },
+            {
+                "id": "nq_49726_51",
+                "score": 0.6350525617599487
+            },
+            {
+                "id": "nq_49726_43",
+                "score": 0.6343644261360168
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_60592_129",
+                "score": 0.6787939667701721
+            },
+            {
+                "id": "triviaqa_60592_106",
+                "score": 0.6659973859786987
+            },
+            {
+                "id": "triviaqa_60592_123",
+                "score": 0.6626259684562683
+            },
+            {
+                "id": "triviaqa_65716_1",
+                "score": 0.6602174043655396
+            },
+            {
+                "id": "triviaqa_65716_5",
+                "score": 0.6561883687973022
+            },
+            {
+                "id": "triviaqa_60592_13",
+                "score": 0.6558679938316345
+            },
+            {
+                "id": "triviaqa_60592_96",
+                "score": 0.655268132686615
+            },
+            {
+                "id": "triviaqa_16910_9",
+                "score": 0.6532963514328003
+            },
+            {
+                "id": "triviaqa_65716_4",
+                "score": 0.6532915830612183
+            },
+            {
+                "id": "triviaqa_16910_10",
+                "score": 0.6491168737411499
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0hzlz_368",
+                "score": 0.6164355278015137
+            },
+            {
+                "id": "m.0h7x_3752",
+                "score": 0.5985377430915833
+            },
+            {
+                "id": "m.0b90_r_4636",
+                "score": 0.5902404189109802
+            },
+            {
+                "id": "m.0181dw_186",
+                "score": 0.5778911709785461
+            },
+            {
+                "id": "m.0k6nt_1991",
+                "score": 0.5749924182891846
+            },
+            {
+                "id": "m.03gj2_1740",
+                "score": 0.574720025062561
+            },
+            {
+                "id": "m.0154j_1050",
+                "score": 0.5735192894935608
+            },
+            {
+                "id": "m.0h7x_4645",
+                "score": 0.5704815983772278
+            },
+            {
+                "id": "m.0h7x_3801",
+                "score": 0.5700950622558594
+            },
+            {
+                "id": "m.0h7x_4340",
+                "score": 0.5700395107269287
+            },
+            {
+                "id": "m.0154j_2208",
+                "score": 0.5698207020759583
+            },
+            {
+                "id": "m.064_8sq_9021",
+                "score": 0.5681918263435364
+            },
+            {
+                "id": "m.0h7x_1305",
+                "score": 0.5676073431968689
+            },
+            {
+                "id": "m.06mzp_3875",
+                "score": 0.5664365291595459
+            },
+            {
+                "id": "m.064_8sq_9976",
+                "score": 0.5661666989326477
+            },
+            {
+                "id": "m.064_8sq_5160",
+                "score": 0.5653296113014221
+            },
+            {
+                "id": "m.064_8sq_215",
+                "score": 0.5646981000900269
+            },
+            {
+                "id": "m.0k6nt_2567",
+                "score": 0.564413845539093
+            },
+            {
+                "id": "m.0lgm5_1458",
+                "score": 0.5633262395858765
+            },
+            {
+                "id": "m.04g61_2033",
+                "score": 0.562330424785614
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_60592_7": {
+                "Query Analysis": "The query asks for the specific James Bond film that features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond, film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses James Bond theme songs and mentions 'We Have All the Time in the World' by Louis Armstrong in the context of James Bond. It also refers to a dossier about James Bond theme songs.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'On Her Majesty's Secret Service', but it does mention a song by Louis Armstrong related to James Bond.",
+                "Key Information Matching": "The document provides key information about a song by Louis Armstrong in the context of James Bond, which is directly related to the query.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions a song by Louis Armstrong in the context of James Bond, which can help infer that such a song exists in a James Bond film.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about a song by Louis Armstrong in relation to James Bond, but it does not directly specify the film 'On Her Majesty's Secret Service'. This information can help infer the existence of such a song in a James Bond film, making the document useful for additional context but not sufficient to directly answer the query."
+            },
+            "ott_26812_0": {
+                "Query Analysis": "The query seeks to identify a specific James Bond film that includes a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond, film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document lists various sports books and their details, including the year of publication, title, authors, featured subjects, and sports. It does not mention any films, songs, or individuals related to the James Bond franchise or Louis Armstrong.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('James Bond', 'film', 'song', 'Louis Armstrong') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('On Her Majesty's Secret Service') are found in the document.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document is focused on sports books and does not touch on the topics of films, music, or specific individuals like Louis Armstrong.",
+                "Can the Document Answer the Query": "No, the document does not contain any information relevant to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on sports books and does not mention any aspect of the James Bond films or Louis Armstrong, making it irrelevant to the query."
+            },
+            "nq_49726_38": {
+                "Query Analysis": "The query asks for the specific James Bond film that features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses various songs featured in James Bond films, including secondary songs. It mentions 'We Have All the Time in the World' by Louis Armstrong and provides a table listing some films and their associated songs.",
+                "Document and Query Keywords Matching": "The document mentions 'Louis Armstrong' and 'James Bond music'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "The document mentions a song by Louis Armstrong ('We Have All the Time in the World'), which is a key piece of information related to the query.",
+                "Can the Document Answer the Query": "No, the document does not directly state that 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about a song by Louis Armstrong in the context of James Bond films, which can help infer that such a song exists in a Bond film.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it mentions a song by Louis Armstrong in the context of James Bond films, which is pertinent to the query. However, it does not directly identify 'On Her Majesty's Secret Service' as the film featuring this song, so it cannot fully answer the query but provides useful context."
+            },
+            "triviaqa_60592_129": {
+                "Query Analysis": "The query asks for the specific James Bond film that features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses various James Bond film songs, including 'We Have All the Time in the World' by Louis Armstrong from 'On Her Majesty's Secret Service'. It provides context about the song, its significance, and its relation to the film's plot.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond film', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document includes 'On Her Majesty's Secret Service', which is the answer to the query.",
+                "Key Information Matching": "The document directly mentions the song 'We Have All the Time in the World' by Louis Armstrong and associates it with 'On Her Majesty's Secret Service', which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying the film that features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the song and its significance in the film.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact answer and provides additional context about the song and its role in the film. This makes it highly useful for understanding the query and its answer."
+            },
+            "nq_49726_0": {
+                "Query Analysis": "The query seeks to identify a specific James Bond film that includes a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond, film, song, Louis Armstrong",
+                "Answer Analysis": "The answer specifies 'On Her Majesty's Secret Service' as the film featuring a song by Louis Armstrong.",
+                "Document Content Analysis": "The document provides an overview of the musical compositions in the James Bond film series, mentioning various songs and their artists, including instrumentals and award-winning tracks.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond' and 'song', but does not explicitly mention 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'On Her Majesty's Secret Service' as an instrumental theme, but does not specify Louis Armstrong as the artist for any song.",
+                "Key Information Matching": "While the document discusses various songs and themes in James Bond films, it does not directly link any song to Louis Armstrong or explicitly mention the film 'On Her Majesty's Secret Service' in the context of a song by Louis Armstrong.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the information that Louis Armstrong performed a song in 'On Her Majesty's Secret Service'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Partially, the document provides context about the musical elements of James Bond films but lacks specific details about Louis Armstrong's contribution.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses James Bond film music, but it lacks the specific information about Louis Armstrong's involvement. It provides useful context about the series' music but does not directly answer the query or provide enough detail to infer the answer fully."
+            },
+            "triviaqa_60592_123": {
+                "Query Analysis": "The query asks for the specific James Bond film that features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses various songs that are part of the James Bond film series, including those that did not appear on the official soundtrack albums. It mentions 'We Have All the Time in the World' by Louis Armstrong as a well-known song associated with a Bond film.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "The document provides the key information that 'We Have All the Time in the World' by Louis Armstrong is associated with a Bond film, which is the critical detail needed to infer the answer.",
+                "Can the Document Answer the Query": "No, the document does not directly state the film title 'On Her Majesty's Secret Service'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions a song by Louis Armstrong that is well-known in the context of Bond films, which can help infer the specific film.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about a song by Louis Armstrong in the context of James Bond films, which can help infer the answer to the query. However, it does not directly state the film title, making it partially relevant."
+            },
+            "nq_49726_22": {
+                "Query Analysis": "The query asks for the specific James Bond film that includes a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document provides detailed information about the film 'On Her Majesty's Secret Service', including its unique instrumental theme tune and a vocal theme performed by Louis Armstrong titled 'We Have All the Time in the World'. It also mentions the composers of the song and includes a table with information about other James Bond films and their respective soundtrack details.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond film', 'On Her Majesty's Secret Service', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'On Her Majesty's Secret Service' and 'Louis Armstrong'.",
+                "Key Information Matching": "The document directly states that 'On Her Majesty's Secret Service' features a song by Louis Armstrong, which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that 'On Her Majesty's Secret Service' includes a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the song and its composers, enhancing the understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that 'On Her Majesty's Secret Service' features a song by Louis Armstrong, thus providing a direct answer to the query. Additionally, it offers supplementary information about the song and its composers, which further supports the relevance."
+            },
+            "m.0hzlz_368": {
+                "Query Analysis": "The query seeks to identify a specific James Bond film that includes a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond, film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', which is a James Bond film featuring a song by Louis Armstrong.",
+                "Document Content Analysis": "The document appears to be a collection of metadata related to music releases, including keys, credited artists, catalog numbers, and release dates, primarily associated with South African artists and releases.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'James Bond', 'film', 'song', or 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on South African music releases and artists, which is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about James Bond films or songs by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about James Bond films or Louis Armstrong's contributions to them.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on South African music releases and does not mention any relevant information about James Bond films or Louis Armstrong. Therefore, it is deemed irrelevant."
+            },
+            "m.0d03f9_1": {
+                "Query Analysis": "The query asks for the specific James Bond film that features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document provides biographical information about David H. Armstrong, a U.S. politician from Missouri, detailing his various roles and positions in St. Louis and his tenure in the U.S. Senate. It also mentions another individual named David Hartley Armstrong.",
+                "Document and Query Keywords Matching": "The document does not contain any of the keywords 'James Bond', 'film', 'song', or 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about James Bond films or songs by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about James Bond films or Louis Armstrong's songs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the biography of a U.S. politician named David H. Armstrong and does not mention any elements related to James Bond films or Louis Armstrong's music. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "triviaqa_60592_128": {
+                "Query Analysis": "The query asks for the specific James Bond film that features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document lists various James Bond theme songs and provides details about why each is considered great. It includes information about the artists, the films, and some context about the songs.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond' and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'On Her Majesty's Secret Service' and 'Louis Armstrong'.",
+                "Key Information Matching": "The document directly states that 'We Have All the Time in the World' by Louis Armstrong is from 'On Her Majesty's Secret Service', which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying the film that features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the song and its significance in the film.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions the film 'On Her Majesty's Secret Service' featuring a song by Louis Armstrong, thus providing the exact answer to the query. Additionally, it offers context about the song, enhancing the understanding of its role in the film."
+            },
+            "m.0d03f9_2": {
+                "Query Analysis": "The query asks for the title of a James Bond film that includes a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond, film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this specific James Bond film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document provides biographical information about David H. Armstrong, a Canadian-American politician, including his roles, positions, and personal life. It mentions his activities in St. Louis, his political career, and his death.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'James Bond', 'film', 'song', or 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is entirely about a different individual named David H. Armstrong and does not touch on any aspects of James Bond films or music.",
+                "Can the Document Answer the Query": "No, the document does not provide any information related to James Bond films or songs by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about James Bond films or Louis Armstrong's music.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the biography of a politician named David H. Armstrong, with no mention of James Bond, films, or Louis Armstrong. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "triviaqa_60592_106": {
+                "Query Analysis": "The query seeks to identify a specific James Bond film that includes a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer specifies that the film 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses various aspects of James Bond music, including signature tracks, notable songs from different films, and specific themes like the 'James Bond Theme' and the '007 Theme'. It mentions 'On Her Majesty's Secret Service' as a piece of music but does not clearly state it as a film title. It also mentions 'Time in the World' by Louis Armstrong in the context of James Bond music.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond music' and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document includes 'On Her Majesty's Secret Service' and 'Louis Armstrong'.",
+                "Key Information Matching": "The document references both 'On Her Majesty's Secret Service' and 'Louis Armstrong', but it does not explicitly connect them as a film featuring a song by Louis Armstrong.",
+                "Can the Document Answer the Query": "No, the document does not directly state that 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about James Bond music and mentions both the film title and the artist, which can help infer the connection.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about James Bond music and mentions both the film 'On Her Majesty's Secret Service' and Louis Armstrong, but it lacks the direct connection needed to fully answer the query. However, it provides enough context to be partially relevant."
+            },
+            "nq_49726_39": {
+                "Query Analysis": "The query asks for the specific James Bond film that features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond, film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document lists various James Bond films along with their respective songs and the artists who performed them. It specifically mentions 'We Have All the Time in the World' by Louis Armstrong in the context of a James Bond film.",
+                "Document and Query Keywords Matching": "The document includes 'James Bond', 'film', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'On Her Majesty's Secret Service', which is the film title provided in the answer.",
+                "Key Information Matching": "The document directly matches the key information by specifying that 'We Have All the Time in the World' by Louis Armstrong is featured in 'On Her Majesty's Secret Service'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying the film title that features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about other James Bond films and their songs, which can help in understanding the broader context of James Bond film music.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the exact information needed to answer the question. It specifies the James Bond film that features a song by Louis Armstrong, thus making it highly relevant and useful for answering the query."
+            },
+            "m.0h7x_3752": {
+                "Query Analysis": "The query asks for the specific James Bond film that includes a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond, film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating this film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document appears to be a collection of metadata related to various releases, primarily associated with Austria. It includes information such as release dates, countries of origin, and other related data but does not explicitly mention James Bond films or Louis Armstrong.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords: 'James Bond', 'film', 'song', or 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on different topics entirely.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about James Bond films or songs by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on metadata related to various releases in Austria and does not mention any relevant information about James Bond films or Louis Armstrong. Therefore, it is deemed irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_60592_7": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses various James Bond theme songs, including a mention of Louis Armstrong's song 'We Have All the Time in the World' from the film 'On Her Majesty's Secret Service'.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'On Her Majesty's Secret Service' and 'Louis Armstrong'.",
+                "Key Information Matching": "The document directly mentions the song 'We Have All the Time in the World' by Louis Armstrong, which is associated with the film 'On Her Majesty's Secret Service'.",
+                "Can the Document Answer the Query": "Yes, the document directly states that 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document already provides the direct answer to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It mentions the specific James Bond film and the song by Louis Armstrong, making it highly relevant."
+            },
+            "ott_26812_0": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this specific James Bond film includes a song by Louis Armstrong.",
+                "Document Content Analysis": "The document lists various sports books, their authors, featured subjects, and sports. It does not mention James Bond films, Louis Armstrong, or any related music.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to James Bond films, Louis Armstrong, or songs in films.",
+                "Can the Document Answer the Query": "No, the document does not mention any James Bond films or Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention James Bond films, Louis Armstrong, or any music, and thus cannot assist in answering the query or providing relevant context."
+            },
+            "nq_49726_38": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses various songs from James Bond films, including 'We Have All the Time in the World' by Louis Armstrong, which is mentioned as a secondary song in the soundtrack of a Bond film.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "The document mentions 'We Have All the Time in the World' by Louis Armstrong, which is a song from a James Bond film, but it does not specify the film title.",
+                "Can the Document Answer the Query": "No, the document does not directly state which James Bond film features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about a song by Louis Armstrong in a James Bond film, which could help infer the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about a song by Louis Armstrong in a James Bond film, but it does not directly answer the query by specifying the film title. It provides useful context that could help infer the answer."
+            },
+            "triviaqa_60592_129": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses various James Bond films and their theme songs, including 'We Have All the Time in the World' by Louis Armstrong, which is associated with 'On Her Majesty's Secret Service'.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'On Her Majesty's Secret Service' and 'Louis Armstrong'.",
+                "Key Information Matching": "The document directly links Louis Armstrong's song 'We Have All the Time in the World' to the James Bond film 'On Her Majesty's Secret Service'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the song and its significance in the film.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, along with additional context about the song and its connection to the film."
+            },
+            "nq_49726_0": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document provides an overview of the music associated with the James Bond film series, mentioning various songs and composers, but it does not specifically mention Louis Armstrong or his contributions to any Bond film.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond' and 'song', but does not mention 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'On Her Majesty's Secret Service', but it does not link it to Louis Armstrong.",
+                "Key Information Matching": "The document does not provide any information linking Louis Armstrong to any James Bond film, nor does it mention his song in the context of 'On Her Majesty's Secret Service'.",
+                "Can the Document Answer the Query": "No, the document does not mention Louis Armstrong or his song in any James Bond film.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Louis Armstrong or his song in any James Bond film, and it does not provide any information that could help infer the answer."
+            },
+            "triviaqa_60592_123": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses various songs associated with James Bond films, including secondary songs that are not part of the official soundtrack. It specifically mentions 'We Have All the Time in the World' by Louis Armstrong, which is noted as a well-known secondary song.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'We Have All the Time in the World' by Louis Armstrong, which is associated with 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "The document provides information about 'We Have All the Time in the World' by Louis Armstrong, which is directly related to the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions the song by Louis Armstrong and associates it with 'On Her Majesty's Secret Service'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the song and its association with the James Bond film.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying the James Bond film that features a song by Louis Armstrong. It also provides additional context about the song, enhancing understanding of the query."
+            },
+            "nq_49726_22": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this film includes a song performed by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses 'On Her Majesty's Secret Service', mentioning that it features an instrumental theme tune and includes a vocal theme performed by Louis Armstrong, specifically the song 'We Have All the Time in the World'.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'On Her Majesty's Secret Service' and 'Louis Armstrong'.",
+                "Key Information Matching": "The document directly links 'On Her Majesty's Secret Service' with a song performed by Louis Armstrong, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the song and its performers, enhancing understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it, including details about the song and its performer, Louis Armstrong."
+            },
+            "m.0hzlz_368": {
+                "Query Analysis": "The query asks for the name of the James Bond film that features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', which is the James Bond film featuring a song by Louis Armstrong.",
+                "Document Content Analysis": "The document contains metadata related to music releases, including identifiers, release dates, and regions. However, it does not mention any James Bond films, songs by Louis Armstrong, or the specific film 'On Her Majesty's Secret Service'.",
+                "Document and Query Keywords Matching": "None of the query keywords ('James Bond film', 'song', 'Louis Armstrong') are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'On Her Majesty's Secret Service' or any related keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information related to James Bond films, songs by Louis Armstrong, or the specific film mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to help infer the answer or additional details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention James Bond films, Louis Armstrong, or any relevant information that could assist in answering the query or inferring additional details. Therefore, it is deemed irrelevant."
+            },
+            "m.0d03f9_1": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this James Bond film features a song by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses David H. Armstrong, a historical figure who served in various political roles in St. Louis, Missouri. It does not mention James Bond, films, songs, or Louis Armstrong.",
+                "Document and Query Keywords Matching": "None of the query keywords ('James Bond film', 'song', 'Louis Armstrong') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('On Her Majesty's Secret Service') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to James Bond films, songs, or Louis Armstrong.",
+                "Can the Document Answer the Query": "No, the document does not mention any James Bond films or Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a historical political figure and does not mention James Bond, films, songs, or Louis Armstrong. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_60592_128": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses various James Bond theme songs, including 'We Have All the Time in the World' from 'On Her Majesty's Secret Service' by Louis Armstrong. It provides context about the song's significance and its connection to the film.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'On Her Majesty's Secret Service' and 'Louis Armstrong'.",
+                "Key Information Matching": "The document directly links Louis Armstrong's song 'We Have All the Time in the World' to the James Bond film 'On Her Majesty's Secret Service', which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by identifying the film 'On Her Majesty's Secret Service' as the one featuring a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the song and its significance in the film.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, along with additional context about the song and its connection to the film. This makes it highly relevant and useful for understanding the query."
+            },
+            "m.0d03f9_2": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses David H. Armstrong, a historical figure, and his political career in the United States. It does not mention James Bond films, Louis Armstrong, or any related topics.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('James Bond film', 'song', 'Louis Armstrong') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('On Her Majesty's Secret Service') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to James Bond films, Louis Armstrong, or the specific film mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about James Bond films or Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses a historical figure and his political career, with no mention of James Bond films, Louis Armstrong, or any related topics. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_60592_106": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses James Bond music, including signature tracks and songs associated with the series. It mentions 'On Her Majesty's Secret Service' and 'We Have All the Time in the World' by Louis Armstrong, which is featured in a Bond film.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond film', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'On Her Majesty's Secret Service' and 'We Have All the Time in the World' by Louis Armstrong.",
+                "Key Information Matching": "The document directly mentions 'On Her Majesty's Secret Service' and the song 'We Have All the Time in the World' by Louis Armstrong, which is featured in a Bond film.",
+                "Can the Document Answer the Query": "Yes, the document directly states that 'On Her Majesty's Secret Service' features a song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about James Bond music and the specific song by Louis Armstrong.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer and additional relevant information about the James Bond film and the song by Louis Armstrong."
+            },
+            "nq_49726_39": {
+                "Query Analysis": "The query asks which James Bond film features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document mentions 'We Have All the Time in the World' by Louis Armstrong and lists various James Bond films, their songs, and performers. It specifically mentions 'On Her Majesty's Secret Service' and the song 'We Have All the Time in the World' performed by Louis Armstrong.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond film', 'song', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'On Her Majesty's Secret Service' and 'We Have All the Time in the World' by Louis Armstrong.",
+                "Key Information Matching": "The document directly mentions the film 'On Her Majesty's Secret Service' and the song 'We Have All the Time in the World' by Louis Armstrong, which matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying the film 'On Her Majesty's Secret Service' and the song by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly provides the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, making it highly relevant. It mentions the specific James Bond film and the song by Louis Armstrong, which directly answers the query."
+            },
+            "m.0h7x_3752": {
+                "Query Analysis": "The query asks for the name of the James Bond film that features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', indicating that this is the James Bond film featuring a song by Louis Armstrong.",
+                "Document Content Analysis": "The document contains information about various music releases, including details about release dates, regions, and credited artists. However, it does not mention any James Bond films or songs by Louis Armstrong.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords from the query such as 'James Bond film', 'song', or 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document does not contain the answer 'On Her Majesty's Secret Service' or any related keywords.",
+                "Key Information Matching": "The document does not provide any key information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention any James Bond films or songs by Louis Armstrong.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer or additional details related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information related to James Bond films, songs by Louis Armstrong, or the specific film 'On Her Majesty's Secret Service'. It does not provide any useful context or additional information that could assist in answering the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_60592_7": {
+                "Query Analysis": "The query is asking which James Bond film features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is the film 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document contains two parts: a review mentioning the film 'On Her Majesty's Secret Service' and its lead actor George Lazenby, and another part that discusses James Bond theme songs, mentioning Louis Armstrong's contribution with the song 'We Have All the Time in the World'.",
+                "Document and Query Keywords Matching": "The second document part mentions 'James Bond' and 'Louis Armstrong', which matches the keywords in the query.",
+                "Document and Answer Keywords Matching": "The first document part mentions 'OHMSS', which refers to 'On Her Majesty's Secret Service', the correct answer.",
+                "Key Information Matching": "The document provides the connection between the song by Louis Armstrong, 'We Have All the Time in the World', and the James Bond franchise, although it does not directly confirm the specific film. However, the first part discusses 'OHMSS', aligning with the answer.",
+                "Can the Document Answer the Query": "Yes, indirectly. The document implies that 'OHMSS' is associated with the song by Louis Armstrong even if it does not explicitly state it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the discussion of James Bond theme songs and the mention of Louis Armstrong helps to connect the dots between the song and the film 'On Her Majesty's Secret Service'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it discusses the theme songs of James Bond films, mentioning Louis Armstrong and implying his connection to the film 'On Her Majesty's Secret Service'. The presence of both relevant keywords and the correct context suggests it provides useful context for answering the query."
+            },
+            "ott_26812_0": {},
+            "nq_49726_38": {},
+            "triviaqa_60592_129": {},
+            "nq_49726_0": {
+                "Query Analysis": "The query asks for the name of the James Bond film that features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service.'",
+                "Document Content Analysis": "The document discusses various musical compositions from the James Bond film series, including themes and songs by different artists. It does not specifically mention Louis Armstrong or the song related to him.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond,' but does not mention Louis Armstrong or any related song by him.",
+                "Document and Answer Keywords Matching": "The document lists 'On Her Majesty's Secret Service' as an instrumental piece related to the Bond series.",
+                "Key Information Matching": "While the document discusses James Bond music generally, it does not mention a song by Louis Armstrong or directly link it to any film.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query as it does not mention Louis Armstrong or his song.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any specific details that would help infer the answer to the query about Louis Armstrong's song.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not mention Louis Armstrong or provide any information pertinent to linking him to a James Bond film. It cannot answer the query or help infer additional information required by the query."
+            },
+            "triviaqa_60592_123": {
+                "Query Analysis": "The query seeks to identify the James Bond film that features a song by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is 'On Her Majesty's Secret Service', which is the James Bond film featuring a song by Louis Armstrong.",
+                "Document Content Analysis": "The document discusses various songs associated with James Bond films, including 'We Have All the Time in the World' by Louis Armstrong, which is a well-known song related to the franchise.",
+                "Document and Query Keywords Matching": "The document contains 'James Bond' and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'We Have All the Time in the World' by Louis Armstrong, which is associated with 'On Her Majesty's Secret Service'.",
+                "Key Information Matching": "The document mentions a song by Louis Armstrong that has gained recognition akin to main themes in the Bond film franchise, linking it to the question.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state the film 'On Her Majesty's Secret Service'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it mentions 'We Have All the Time in the World' by Louis Armstrong, hinting at the possible film connection without naming it explicitly.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document doesn't directly answer the query by naming 'On Her Majesty's Secret Service', it provides context by referencing the song by Louis Armstrong associated with that film. This makes it partially relevant, as it points towards the connection needed to deduce the answer."
+            },
+            "nq_49726_22": {},
+            "m.0hzlz_368": {},
+            "m.0d03f9_1": {},
+            "triviaqa_60592_128": {},
+            "m.0d03f9_2": {},
+            "triviaqa_60592_106": {
+                "Query Analysis": "The query is asking for the title of the James Bond film that features a song performed by Louis Armstrong.",
+                "Query Keywords Extraction": "James Bond film, song, Louis Armstrong",
+                "Answer Analysis": "The answer is the James Bond film 'On Her Majesty's Secret Service'.",
+                "Document Content Analysis": "The document discusses various James Bond music tracks and themes, mentioning songs and composers associated with the James Bond film series.",
+                "Document and Query Keywords Matching": "The document mentions 'James Bond', 'music', and 'Louis Armstrong'.",
+                "Document and Answer Keywords Matching": "The document mentions 'On Her Majesty's Secret Service', which is the answer to the query.",
+                "Key Information Matching": "The document contains mentions of songs and music associated with James Bond films, including Louis Armstrong and 'On Her Majesty's Secret Service'.",
+                "Can the Document Answer the Query": "Yes, the document contains the information needed to answer the query by associating Louis Armstrong with 'On Her Majesty's Secret Service'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context on James Bond music and associates Louis Armstrong with the correct film title, aiding in the inference of the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant as it provides the exact association needed to answer the query: that Louis Armstrong's song is featured in 'On Her Majesty's Secret Service'. It provides key information related to the query and confirms the connection, making it highly relevant."
+            },
+            "nq_49726_39": {},
+            "m.0h7x_3752": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "kg": 0,
+            "triviaqa": 2,
+            "ott": 0,
+            "nq": 2,
+            "tat": 0
+        }
+    }
+}

@@ -1,0 +1,970 @@
+{
+    "index": 76669,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "\"\"\"Last night I dreamt I went to Manderley again,\"\" was the first line of what Daphne du Maurier novel?\"",
+        "answer": "Rebecca",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_67467_13",
+                "score": 31.138099670410156
+            },
+            {
+                "id": "triviaqa_68016_3",
+                "score": 31.0137996673584
+            },
+            {
+                "id": "triviaqa_67467_0",
+                "score": 30.927400588989258
+            },
+            {
+                "id": "triviaqa_68016_4",
+                "score": 29.651100158691406
+            },
+            {
+                "id": "triviaqa_56604_23",
+                "score": 26.830799102783203
+            },
+            {
+                "id": "triviaqa_67467_12",
+                "score": 26.18869972229004
+            },
+            {
+                "id": "triviaqa_58783_4",
+                "score": 25.806499481201172
+            },
+            {
+                "id": "triviaqa_6360_1",
+                "score": 25.756799697875977
+            },
+            {
+                "id": "triviaqa_67467_1",
+                "score": 25.113300323486328
+            },
+            {
+                "id": "triviaqa_6360_0",
+                "score": 25.054399490356445
+            },
+            {
+                "id": "triviaqa_56604_24",
+                "score": 24.792600631713867
+            },
+            {
+                "id": "triviaqa_6360_9",
+                "score": 24.169300079345703
+            },
+            {
+                "id": "triviaqa_67467_14",
+                "score": 24.008699417114258
+            },
+            {
+                "id": "triviaqa_6360_5",
+                "score": 23.909299850463867
+            },
+            {
+                "id": "triviaqa_6360_8",
+                "score": 23.86590003967285
+            },
+            {
+                "id": "triviaqa_6360_19",
+                "score": 23.152799606323242
+            },
+            {
+                "id": "triviaqa_67467_15",
+                "score": 22.83449935913086
+            },
+            {
+                "id": "triviaqa_6360_4",
+                "score": 22.783199310302734
+            },
+            {
+                "id": "triviaqa_6360_2",
+                "score": 22.313600540161133
+            },
+            {
+                "id": "triviaqa_6360_20",
+                "score": 22.085500717163086
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_11943_0",
+                "score": 10.345000267028809
+            },
+            {
+                "id": "ott_20217_0",
+                "score": 10.344999313354492
+            },
+            {
+                "id": "ott_29353_0",
+                "score": 10.344998359680176
+            },
+            {
+                "id": "ott_28996_1",
+                "score": 9.358400344848633
+            },
+            {
+                "id": "ott_31279_1",
+                "score": 9.358399391174316
+            },
+            {
+                "id": "ott_9067_1",
+                "score": 9.3583984375
+            },
+            {
+                "id": "ott_9655_1",
+                "score": 9.358397483825684
+            },
+            {
+                "id": "ott_16082_1",
+                "score": 9.097200393676758
+            },
+            {
+                "id": "ott_21578_1",
+                "score": 9.097199440002441
+            },
+            {
+                "id": "ott_38558_1",
+                "score": 9.097198486328125
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_120810_23",
+                "score": 20.451099395751953
+            },
+            {
+                "id": "nq_228943_2",
+                "score": 17.516000747680664
+            },
+            {
+                "id": "nq_226476_5",
+                "score": 17.077699661254883
+            },
+            {
+                "id": "nq_226476_10",
+                "score": 16.947500228881836
+            },
+            {
+                "id": "nq_226476_4",
+                "score": 16.947498321533203
+            },
+            {
+                "id": "nq_226476_9",
+                "score": 16.947498321533203
+            },
+            {
+                "id": "nq_277724_40",
+                "score": 16.728099822998047
+            },
+            {
+                "id": "nq_120810_24",
+                "score": 16.59000015258789
+            },
+            {
+                "id": "nq_277724_39",
+                "score": 16.589998245239258
+            },
+            {
+                "id": "nq_43459_23",
+                "score": 14.816100120544434
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_67467_13",
+                "score": 31.138099670410156
+            },
+            {
+                "id": "triviaqa_68016_3",
+                "score": 31.0137996673584
+            },
+            {
+                "id": "triviaqa_67467_0",
+                "score": 30.927400588989258
+            },
+            {
+                "id": "triviaqa_68016_4",
+                "score": 29.651100158691406
+            },
+            {
+                "id": "triviaqa_56604_23",
+                "score": 26.830799102783203
+            },
+            {
+                "id": "triviaqa_67467_12",
+                "score": 26.18869972229004
+            },
+            {
+                "id": "triviaqa_58783_4",
+                "score": 25.806499481201172
+            },
+            {
+                "id": "triviaqa_6360_1",
+                "score": 25.756799697875977
+            },
+            {
+                "id": "triviaqa_67467_1",
+                "score": 25.113300323486328
+            },
+            {
+                "id": "triviaqa_6360_0",
+                "score": 25.054399490356445
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.01whq3q_138",
+                "score": 14.2923002243042
+            },
+            {
+                "id": "m.04jpl_885",
+                "score": 14.021400451660156
+            },
+            {
+                "id": "m.0_6d71j_98",
+                "score": 13.856900215148926
+            },
+            {
+                "id": "m.0_6d71j_97",
+                "score": 13.835800170898438
+            },
+            {
+                "id": "m.04jpl_884",
+                "score": 13.804800033569336
+            },
+            {
+                "id": "m.01whq3q_189",
+                "score": 13.719799995422363
+            },
+            {
+                "id": "m.01whq3q_190",
+                "score": 13.610600471496582
+            },
+            {
+                "id": "m.0_6d71j_143",
+                "score": 13.516500473022461
+            },
+            {
+                "id": "m.01whq3q_137",
+                "score": 13.218600273132324
+            },
+            {
+                "id": "m.03qcfvw_133",
+                "score": 13.064599990844727
+            },
+            {
+                "id": "m.03qcfvw_202",
+                "score": 13.01550006866455
+            },
+            {
+                "id": "m.03qcfvw_8",
+                "score": 13.00879955291748
+            },
+            {
+                "id": "m.03qcfvw_134",
+                "score": 12.971199989318848
+            },
+            {
+                "id": "m.03qcfvw_76",
+                "score": 12.921199798583984
+            },
+            {
+                "id": "m.0_6d71j_125",
+                "score": 12.886799812316895
+            },
+            {
+                "id": "m.0_6d71j_107",
+                "score": 12.879500389099121
+            },
+            {
+                "id": "m.0_6d71j_119",
+                "score": 12.866399765014648
+            },
+            {
+                "id": "m.0_6d71j_85",
+                "score": 12.86520004272461
+            },
+            {
+                "id": "m.0_6d71j_87",
+                "score": 12.865199089050293
+            },
+            {
+                "id": "m.0_6d71j_133",
+                "score": 12.860300064086914
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_68016_4",
+                "score": 0.6818594932556152
+            },
+            {
+                "id": "triviaqa_67467_3",
+                "score": 0.6813691854476929
+            },
+            {
+                "id": "triviaqa_39241_5",
+                "score": 0.6746736764907837
+            },
+            {
+                "id": "triviaqa_67467_13",
+                "score": 0.6595760583877563
+            },
+            {
+                "id": "triviaqa_6360_5",
+                "score": 0.6583064198493958
+            },
+            {
+                "id": "triviaqa_6360_7",
+                "score": 0.6391377449035645
+            },
+            {
+                "id": "triviaqa_67467_0",
+                "score": 0.6347873210906982
+            },
+            {
+                "id": "triviaqa_39241_6",
+                "score": 0.6319583654403687
+            },
+            {
+                "id": "triviaqa_67467_14",
+                "score": 0.6285156607627869
+            },
+            {
+                "id": "triviaqa_6360_6",
+                "score": 0.6224268078804016
+            },
+            {
+                "id": "triviaqa_6360_20",
+                "score": 0.6178619861602783
+            },
+            {
+                "id": "triviaqa_6360_10",
+                "score": 0.6167545914649963
+            },
+            {
+                "id": "triviaqa_39241_7",
+                "score": 0.6150287389755249
+            },
+            {
+                "id": "triviaqa_67467_1",
+                "score": 0.6141985654830933
+            },
+            {
+                "id": "triviaqa_67467_16",
+                "score": 0.6095574498176575
+            },
+            {
+                "id": "triviaqa_6360_1",
+                "score": 0.6042686700820923
+            },
+            {
+                "id": "triviaqa_56604_24",
+                "score": 0.6036190986633301
+            },
+            {
+                "id": "triviaqa_6360_19",
+                "score": 0.6018560528755188
+            },
+            {
+                "id": "triviaqa_6360_4",
+                "score": 0.601565420627594
+            },
+            {
+                "id": "triviaqa_6360_8",
+                "score": 0.595761775970459
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_29037_3",
+                "score": 0.4847348630428314
+            },
+            {
+                "id": "ott_25123_3",
+                "score": 0.4847348630428314
+            },
+            {
+                "id": "ott_35316_3",
+                "score": 0.4847348630428314
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_226476_5",
+                "score": 0.5412567257881165
+            },
+            {
+                "id": "nq_277724_40",
+                "score": 0.5407010316848755
+            },
+            {
+                "id": "nq_248125_65",
+                "score": 0.5370093584060669
+            },
+            {
+                "id": "nq_264426_3",
+                "score": 0.5331372618675232
+            },
+            {
+                "id": "nq_98194_88",
+                "score": 0.5321063995361328
+            },
+            {
+                "id": "nq_273899_3",
+                "score": 0.5316210985183716
+            },
+            {
+                "id": "nq_261020_102",
+                "score": 0.525884747505188
+            },
+            {
+                "id": "nq_281439_110",
+                "score": 0.5257271528244019
+            },
+            {
+                "id": "nq_248125_64",
+                "score": 0.525577187538147
+            },
+            {
+                "id": "nq_264218_57",
+                "score": 0.5244139432907104
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_68016_4",
+                "score": 0.6818594932556152
+            },
+            {
+                "id": "triviaqa_67467_3",
+                "score": 0.6813691854476929
+            },
+            {
+                "id": "triviaqa_39241_5",
+                "score": 0.6746736764907837
+            },
+            {
+                "id": "triviaqa_67467_13",
+                "score": 0.6595760583877563
+            },
+            {
+                "id": "triviaqa_6360_5",
+                "score": 0.6583064198493958
+            },
+            {
+                "id": "triviaqa_6360_7",
+                "score": 0.6391377449035645
+            },
+            {
+                "id": "triviaqa_67467_0",
+                "score": 0.6347873210906982
+            },
+            {
+                "id": "triviaqa_39241_6",
+                "score": 0.6319583654403687
+            },
+            {
+                "id": "triviaqa_67467_14",
+                "score": 0.6285156607627869
+            },
+            {
+                "id": "triviaqa_6360_6",
+                "score": 0.6224268078804016
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.04jpl_885",
+                "score": 0.5153235793113708
+            },
+            {
+                "id": "m.072dv_45",
+                "score": 0.5002434849739075
+            },
+            {
+                "id": "m.02cft_243",
+                "score": 0.48735538125038147
+            },
+            {
+                "id": "m.072dv_46",
+                "score": 0.4866991341114044
+            },
+            {
+                "id": "m.02772bj_6",
+                "score": 0.4835336208343506
+            },
+            {
+                "id": "m.04jpl_919",
+                "score": 0.48276546597480774
+            },
+            {
+                "id": "m.08b0p4_8",
+                "score": 0.4824560582637787
+            },
+            {
+                "id": "m.04jpl_374",
+                "score": 0.4823148250579834
+            },
+            {
+                "id": "m.08b0p4_9",
+                "score": 0.480895072221756
+            },
+            {
+                "id": "m.02cft_767",
+                "score": 0.4807484745979309
+            },
+            {
+                "id": "m.03rt9_2417",
+                "score": 0.4780656099319458
+            },
+            {
+                "id": "m.064_8sq_3633",
+                "score": 0.47766050696372986
+            },
+            {
+                "id": "m.03h5_44_24",
+                "score": 0.47734183073043823
+            },
+            {
+                "id": "m.072dv_50",
+                "score": 0.4772893786430359
+            },
+            {
+                "id": "m.04306rv_2529",
+                "score": 0.47726866602897644
+            },
+            {
+                "id": "m.0436q3_4",
+                "score": 0.4771007001399994
+            }
+        ],
+        "llm_mark_result": {
+            "nq_226476_5": {
+                "Query Analysis": "The query is asking for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "first line, Daphne du Maurier, novel, Manderley",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document provides information about an actress's filmography and mentions her role as Daphne du Maurier in a BBC TV drama. It also lists various other roles and projects she has been involved in.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca'.",
+                "Key Information Matching": "The document only mentions Daphne du Maurier in the context of an actress playing her in a TV drama, but does not provide any information about her novels or specific lines from her works.",
+                "Can the Document Answer the Query": "No, the document does not contain the title of the novel or the specific line from the novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information about Daphne du Maurier's novels or the specific line from the novel.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful information about Daphne du Maurier's novels or the specific line from the novel. The only mention of Daphne du Maurier is in the context of an actress playing her in a TV drama, which does not assist in answering the query."
+            },
+            "nq_120810_23": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "first line, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document lists various novels, a novella, a film, songs, a cocktail, and a short story. It mentions Daphne du Maurier in the context of a short story titled 'Ganymede'.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne Du Maurier'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca'.",
+                "Key Information Matching": "The document mentions Daphne du Maurier but does not provide any information about her novels or specific lines from her works.",
+                "Can the Document Answer the Query": "No, the document does not contain the title of the novel or the specific line from the novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer the title of the novel based on the given line.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or additional information about Daphne du Maurier's novels or the specific line mentioned in the query. The only mention of Daphne du Maurier is in the context of a short story, which does not help in answering the query."
+            },
+            "m.072dv_45": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again'.",
+                "Query Keywords Extraction": "Daphne du Maurier, novel, first line, 'Last night I dreamt I went to Manderley again'",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document provides information about Sheridan Le Fanu, an Irish writer of Gothic tales and mystery novels. It includes details about his life, works, and influence on other writers and films.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Daphne du Maurier', 'novel', or the specific first line.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca' or any works by Daphne du Maurier.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on Sheridan Le Fanu, not Daphne du Maurier.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Daphne du Maurier or her novels.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Sheridan Le Fanu and his works, which have no connection to Daphne du Maurier or the novel 'Rebecca'. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "ott_29037_3": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Daphne du Maurier, novel, first line, 'Last night I dreamt I went to Manderley again'",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document lists various novels and their authors, along with details about translations and publication years. It covers a range of authors and titles but does not mention Daphne du Maurier or any of her works.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'Daphne du Maurier', 'novel', or the specific first line.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Daphne du Maurier or her novels.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Daphne du Maurier, the novel 'Rebecca', or the specific first line of the novel. Therefore, it cannot assist in answering the query or provide any useful context."
+            },
+            "triviaqa_68016_4": {
+                "Query Analysis": "The query is asking for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "first line, Manderley, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document lists the first lines of several novels along with their titles and authors. It includes the first line of 'Rebecca' by Daphne du Maurier, as well as first lines from other novels by different authors.",
+                "Document and Query Keywords Matching": "The document contains the exact phrase 'Last night I dreamt I went to Manderley again.' and mentions 'Rebecca' and 'Daphne du Maurier'.",
+                "Document and Answer Keywords Matching": "The document includes the keyword 'Rebecca', which is the answer to the query.",
+                "Key Information Matching": "The document directly matches the key information of the query by providing the first line and associating it with the novel 'Rebecca' by Daphne du Maurier.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by specifying that the line 'Last night I dreamt I went to Manderley again.' is from the novel 'Rebecca'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other famous first lines and their corresponding novels, which can help in understanding the significance of opening lines in literature.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact first line mentioned in the query and associates it with the correct novel and author. This direct match provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_56604_23": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "first line, Daphne du Maurier, novel, Manderley",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document discusses various fictional houses in literature, including Manderley from Daphne du Maurier's novel Rebecca. It mentions Manderley in the context of Max de Winter and his second wife, the narrator of Rebecca.",
+                "Document and Query Keywords Matching": "The document mentions 'Manderley' and 'Daphne du Maurier'.",
+                "Document and Answer Keywords Matching": "The document includes the word 'Rebecca' in the context of Manderley and Daphne du Maurier.",
+                "Key Information Matching": "The document directly mentions 'Manderley' and 'Daphne du Maurier', and also references 'Rebecca', which is the novel in question.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions 'Rebecca' in relation to Manderley and Daphne du Maurier.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Manderley and its significance in literature, enhancing understanding of the novel.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it mentions both the key elements of the query ('Manderley' and 'Daphne du Maurier') and explicitly states the title of the novel ('Rebecca'). This provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_67467_13": {
+                "Query Analysis": "The query is asking for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "first line, Daphne du Maurier, novel, Manderley",
+                "Answer Analysis": "The answer is 'Rebecca', indicating that the novel in question is titled Rebecca.",
+                "Document Content Analysis": "The document provides information about the novel Rebecca, including its themes, characters, and some background on its creation. It mentions the second Mrs. de Winter, Maxim's first wife Rebecca, and includes excerpts from related works by Daphne du Maurier.",
+                "Document and Query Keywords Matching": "The document mentions 'Rebecca' and 'Manderley', which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Rebecca', which is the answer to the query.",
+                "Key Information Matching": "The document contains references to 'Rebecca' and 'Manderley', which are central to both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document mentions 'Rebecca', which is the novel that starts with the line in the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the novel Rebecca, including its characters and setting, which can help confirm the relevance of the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions 'Rebecca' and provides substantial context about the novel, including references to Manderley. This directly answers the query and provides useful background information, making it highly relevant."
+            },
+            "triviaqa_39241_5": {
+                "Query Analysis": "The query is asking for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again'.",
+                "Query Keywords Extraction": "Daphne du Maurier, novel, first line, 'Last night I dreamt I went to Manderley again'",
+                "Answer Analysis": "The answer is 'Rebecca', indicating that the novel by Daphne du Maurier with the specified first line is titled 'Rebecca'.",
+                "Document Content Analysis": "The document provides biographical information about Daphne du Maurier, including her background, family, influences, and notable works. It mentions several of her novels and a short story, as well as some personal aspects of her life.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier' and lists several of her works, but does not directly reference the first line of any novel.",
+                "Document and Answer Keywords Matching": "The document does not mention the novel 'Rebecca' explicitly.",
+                "Key Information Matching": "While the document provides extensive information about Daphne du Maurier and her works, it does not include the specific first line mentioned in the query or the title 'Rebecca'.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific information needed to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that would help infer the title of the novel based on the given first line.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document, while rich in biographical details about Daphne du Maurier and listing several of her works, does not mention the novel 'Rebecca' or the specific first line from the query. Therefore, it is irrelevant to the query as it neither directly answers it nor provides useful context or additional information that could help infer the answer."
+            },
+            "m.04jpl_885": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again'.",
+                "Query Keywords Extraction": "Daphne du Maurier, novel, first line, Manderley",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document lists various publications and their places of publication, all of which are in London. It includes a title related to Daphne du Maurier: 'Daphne du Maurier: the secret life of the renowned storyteller'.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca'.",
+                "Key Information Matching": "The document contains a reference to Daphne du Maurier but does not provide any specific information about her novels or their first lines.",
+                "Can the Document Answer the Query": "No, the document does not provide the title of the novel or the specific first line mentioned in the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any additional relevant information about Daphne du Maurier's novels or their content.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only mentions Daphne du Maurier in the context of a biography's publication location and does not provide any information about her novels or their first lines. Therefore, it cannot answer the query or help infer additional relevant information."
+            },
+            "triviaqa_68016_3": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "first line, Manderley, Daphne du Maurier novel",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document lists the first lines of several famous novels along with their titles and authors.",
+                "Document and Query Keywords Matching": "The document includes the exact phrase 'Last night I dreamt I went to Manderley again.'",
+                "Document and Answer Keywords Matching": "The document mentions 'Rebecca' directly associated with the phrase and Daphne du Maurier.",
+                "Key Information Matching": "The document directly matches the key information from the query (the first line of the novel) with the answer (the title 'Rebecca').",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by listing the first line and the corresponding novel title.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by listing other famous first lines and their respective novels, which can help in understanding the significance of such opening lines in literature.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact first line and the title of the novel by Daphne du Maurier, thus providing a direct answer. Additionally, the document offers context by including other notable first lines, enhancing the understanding of literary opening lines."
+            },
+            "ott_11943_0": {
+                "Query Analysis": "The query is asking for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Daphne du Maurier, novel, first line, 'Last night I dreamt I went to Manderley again'",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document provides a list of New World monkey species, including their scientific names, common names, classification dates, and conservation statuses. It also includes an introductory section about New World monkeys and their origin.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Daphne du Maurier', 'novel', 'first line', 'Manderley') are found in the document.",
+                "Document and Answer Keywords Matching": "The word 'Rebecca' is not found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about monkey species, which is unrelated to the literary context of the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Daphne du Maurier or her novels.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer details about the novel or its author.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on New World monkey species, which has no connection to the literary context of Daphne du Maurier's novels. Therefore, it cannot answer the query or provide any useful context or additional information relevant to the query."
+            },
+            "triviaqa_67467_3": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again'.",
+                "Query Keywords Extraction": "first line, Daphne du Maurier, novel, Manderley",
+                "Answer Analysis": "The answer is 'Rebecca', indicating that the novel in question is titled 'Rebecca'.",
+                "Document Content Analysis": "The document provides information about the novel 'Rebecca' by Daphne du Maurier, including its publication year (1938), setting (the Cornwall estate of Manderlay), and key characters such as Rebecca and Mrs. Danvers. It also mentions the novel's atmosphere and themes.",
+                "Document and Query Keywords Matching": "The document mentions 'Rebecca' and 'Daphne du Maurier', and it refers to the setting 'Manderlay', which is closely related to 'Manderley' mentioned in the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Rebecca', which is the answer to the query.",
+                "Key Information Matching": "The document matches key information from the query, including the author 'Daphne du Maurier' and the setting 'Manderlay', which is a variation of 'Manderley'.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'Rebecca' by Daphne du Maurier, which is the novel that starts with the line in the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed information about the novel 'Rebecca', including its setting and characters, which can help confirm the relevance of the novel to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'Rebecca' by Daphne du Maurier and provides substantial context about the novel, including its setting and characters. This information confirms that 'Rebecca' is the novel that begins with the line 'Last night I dreamt I went to Manderley again'."
+            },
+            "triviaqa_6360_5": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again'.",
+                "Query Keywords Extraction": "Daphne du Maurier, novel, first line, 'Last night I dreamt I went to Manderley again'",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document provides a biography of Daphne du Maurier, including her personal life, background, and a list of some of her works. It mentions her first novel 'The Loving Spirit' and other novels like 'The Progress of Julius' and 'Jamaica Inn'.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne Du Maurier' and lists some of her novels.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Rebecca'.",
+                "Key Information Matching": "The document provides information about Daphne du Maurier and her works, but does not specifically address the first line of any of her novels.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific information about the first line of any novel by Daphne du Maurier.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that would help infer the title of the novel based on its first line.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document, while providing biographical information about Daphne du Maurier and listing some of her works, does not contain the specific information needed to answer the query about the novel's first line. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_67467_0": {
+                "Query Analysis": "The query asks for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again'.",
+                "Query Keywords Extraction": "first line, Manderley, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca', indicating that the novel in question is titled 'Rebecca'.",
+                "Document Content Analysis": "The document provides detailed information about the novel 'Rebecca' by Daphne du Maurier, including its publication year (1938), the protagonist (the second Mrs. de Winter), the setting (Manderley), and key characters (Maxim and Mrs. Danvers). It also mentions that the novel is a Gothic suspense novel and describes the narrator's feelings of inferiority to Rebecca, Maxim’s late first wife.",
+                "Document and Query Keywords Matching": "The document mentions 'Manderley' and 'Daphne du Maurier', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Rebecca' multiple times, which is the title of the novel and the answer to the query.",
+                "Key Information Matching": "The document not only mentions 'Manderley' and 'Daphne du Maurier' but also provides a detailed context about the novel 'Rebecca', which matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by confirming that 'Rebecca' is a novel by Daphne du Maurier and providing context about its plot and setting.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, its characters, and its setting, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial useful context and background information about the novel 'Rebecca', including its setting at Manderley and its author, Daphne du Maurier. The document explicitly mentions the novel's title, which directly answers the query."
+            },
+            "m.01whq3q_138": {
+                "Query Analysis": "The query is asking for the title of a novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again'.",
+                "Query Keywords Extraction": "Daphne du Maurier, novel, first line, 'Last night I dreamt I went to Manderley again'",
+                "Answer Analysis": "The answer is 'Rebecca', which is a novel by Daphne du Maurier.",
+                "Document Content Analysis": "The document lists various recordings, albums, and quotations by Georges I. Gurdjieff and Thomas De Hartmann, primarily related to music and philosophical statements.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Daphne du Maurier', 'novel', 'first line', or 'Manderley'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca' or any other works by Daphne du Maurier.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Daphne du Maurier or her novels.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the works of Georges I. Gurdjieff and Thomas De Hartmann, which are unrelated to Daphne du Maurier or her novels. Therefore, it provides no useful context or information that could help answer the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_226476_5": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that begins with the given line.",
+                "Document Content Analysis": "The document discusses various roles played by Geraldine Somerville, including her portrayal of Daphne du Maurier in a BBC TV drama. It mentions her filmography and roles in different films and TV series.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier,' which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca,' the title of the novel.",
+                "Key Information Matching": "The document mentions 'Daphne du Maurier,' which is relevant to the query, but it does not provide any information about the novel 'Rebecca' or its opening line.",
+                "Can the Document Answer the Query": "No, the document does not mention the novel 'Rebecca' or its opening line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the title of the novel or its opening line.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Daphne du Maurier,' which is relevant to the query, but it does not provide any information about the novel 'Rebecca' or its opening line. Therefore, the document is irrelevant to the query."
+            },
+            "nq_120810_23": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that begins with the given line.",
+                "Document Content Analysis": "The document mentions various works, including a short story by Daphne du Maurier titled 'Ganymede,' but it does not mention the novel 'Rebecca' or the specific line from the query.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne Du Maurier,' which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca,' the answer to the query.",
+                "Key Information Matching": "The document mentions Daphne du Maurier but does not provide any information about the novel 'Rebecca' or the specific line from the query.",
+                "Can the Document Answer the Query": "No, the document does not mention the novel 'Rebecca' or the specific line from the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Daphne du Maurier but does not provide any information about the novel 'Rebecca' or the specific line from the query. Therefore, it is irrelevant to the query."
+            },
+            "m.072dv_45": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that starts with the given line.",
+                "Document Content Analysis": "The document provides information about Sheridan Le Fanu, an Irish writer of Gothic tales and mystery novels, including details about his life, works, and influences. It mentions some of his notable works like 'Uncle Silas,' 'Carmilla,' and 'The House by the Churchyard.'",
+                "Document and Query Keywords Matching": "The document does not mention 'Daphne du Maurier' or 'Last night I dreamt I went to Manderley again.'",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca.'",
+                "Key Information Matching": "The document does not provide any information related to Daphne du Maurier or her novel 'Rebecca.'",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Daphne du Maurier or her novel 'Rebecca.'",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Sheridan Le Fanu and his works, with no mention of Daphne du Maurier or her novel 'Rebecca.' Therefore, it is irrelevant to the query."
+            },
+            "ott_29037_3": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that starts with the given line.",
+                "Document Content Analysis": "The document lists various books, their authors, and translators, but it does not mention Daphne du Maurier or her works.",
+                "Document and Query Keywords Matching": "None of the keywords from the query, such as 'Daphne du Maurier' or 'Last night I dreamt I went to Manderley again,' are found in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca,' the title of the novel.",
+                "Key Information Matching": "The document does not provide any information related to Daphne du Maurier or her novel 'Rebecca.'",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Daphne du Maurier or her novel 'Rebecca.'",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Daphne du Maurier, her novel 'Rebecca,' or any related information. It provides no useful context or additional information to assist in answering the query."
+            },
+            "triviaqa_68016_4": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca', which is the title of the novel by Daphne du Maurier that starts with the given line.",
+                "Document Content Analysis": "The document contains the opening line 'Last night I dreamt I went to Manderley again.' and identifies it as the beginning of 'Rebecca' (1938) by Daphne du Maurier. It also includes opening lines from other novels by different authors.",
+                "Document and Query Keywords Matching": "The document includes the exact line 'Last night I dreamt I went to Manderley again.' and mentions 'Daphne du Maurier' and 'Rebecca'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Rebecca', which is the title of the novel in the answer.",
+                "Key Information Matching": "The document contains the exact opening line from the query and correctly identifies it as the beginning of 'Rebecca' by Daphne du Maurier.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the title of the novel that starts with the given line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact opening line and correctly identifies the novel 'Rebecca' by Daphne du Maurier, which is the answer to the query."
+            },
+            "triviaqa_56604_23": {
+                "Query Analysis": "The query asks for the title of the Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that begins with the given line.",
+                "Document Content Analysis": "The document discusses various fictional houses in literature, including Manderley, which is described as the house where Max de Winter lived with Rebecca and his nameless second wife, the narrator of 'Rebecca.' It also mentions that Manderley is one of the most famous houses in 20th-century literature and one of the most memorable novels written by Daphne du Maurier.",
+                "Document and Query Keywords Matching": "The document mentions 'Manderley' and 'Daphne du Maurier,' which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Rebecca,' which is the title of the novel in question.",
+                "Key Information Matching": "The document directly references 'Manderley' and 'Rebecca,' which are central to the query and its answer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions 'Rebecca' as the novel by Daphne du Maurier that features Manderley.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Manderley and its significance in 'Rebecca.'",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by identifying 'Rebecca' as the novel by Daphne du Maurier that begins with the line 'Last night I dreamt I went to Manderley again.' It also provides useful context about Manderley and its role in the novel, enhancing understanding of the query."
+            },
+            "triviaqa_67467_13": {
+                "Query Analysis": "The query asks for the title of the Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel.",
+                "Document Content Analysis": "The document provides detailed information about Daphne du Maurier's novel 'Rebecca,' including its inspiration, writing process, and publication details. It mentions the novel's title, the character of Mrs. Danvers, and the setting of Manderley.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier,' 'Rebecca,' and 'Manderley,' which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Rebecca,' which is the answer to the query.",
+                "Key Information Matching": "The document directly references the novel 'Rebecca' by Daphne du Maurier, which is the answer to the query. It also provides context about the novel's setting and characters.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the title of the novel, which is 'Rebecca.'",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, including its inspiration and publication details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact title of the novel in question, 'Rebecca,' and offers additional context about the novel's background and setting. This makes it highly relevant to the query."
+            },
+            "triviaqa_39241_5": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that begins with the given line.",
+                "Document Content Analysis": "The document provides biographical information about Daphne du Maurier, including her background, influences, and notable works. It mentions several of her novels and short stories but does not explicitly reference the line 'Last night I dreamt I went to Manderley again.'",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier' and lists some of her novels, but it does not include the specific line from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca,' the title of the novel that is the answer to the query.",
+                "Key Information Matching": "The document discusses Daphne du Maurier's life and works but does not provide the specific information needed to answer the query, such as the title of the novel that begins with the given line.",
+                "Can the Document Answer the Query": "No, the document does not contain the specific information needed to answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the title of the novel that begins with the given line.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not contain the specific line or the title of the novel 'Rebecca.' It provides general information about Daphne du Maurier but does not assist in answering the query."
+            },
+            "m.04jpl_885": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that begins with the given line.",
+                "Document Content Analysis": "The document lists various publications, their places of publication, and other related information, including a mention of 'Daphne du Maurier: the secret life of the renowned storyteller.'",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier,' which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca,' the title of the novel.",
+                "Key Information Matching": "The document mentions 'Daphne du Maurier,' which is related to the query, but it does not provide the title of the novel or the specific line mentioned in the query.",
+                "Can the Document Answer the Query": "No, the document does not provide the title of the novel or the specific line mentioned in the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional information that could help infer the title of the novel.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Daphne du Maurier,' which is related to the query, but it does not provide the title of the novel or any information that could help infer the answer. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_68016_3": {
+                "Query Analysis": "The query asks for the title of the Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that starts with the given line.",
+                "Document Content Analysis": "The document contains excerpts from various novels, including the opening line 'Last night I dreamt I went to Manderley again,' which is attributed to 'Rebecca (1938), Daphne du Maurier.'",
+                "Document and Query Keywords Matching": "The document includes the exact line 'Last night I dreamt I went to Manderley again' and mentions 'Daphne du Maurier.'",
+                "Document and Answer Keywords Matching": "The document mentions 'Rebecca,' which is the title of the novel by Daphne du Maurier.",
+                "Key Information Matching": "The document contains the exact opening line from the query and correctly attributes it to 'Rebecca' by Daphne du Maurier.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the title of the novel that starts with the given line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it contains the exact opening line and correctly identifies the novel 'Rebecca' by Daphne du Maurier, which directly answers the query."
+            },
+            "ott_11943_0": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that starts with the given line.",
+                "Document Content Analysis": "The document provides a list of New World monkey species, including their scientific names, common names, classification dates, and conservation statuses. It also includes a brief introduction about New World monkeys and their origins.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Last night I dreamt I went to Manderley again', 'Daphne du Maurier', 'novel') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Rebecca' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Daphne du Maurier, her novels, or the specific line mentioned in the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Daphne du Maurier or her novels.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses New World monkey species and does not mention Daphne du Maurier, her novels, or the specific line from 'Rebecca.' Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_67467_3": {
+                "Query Analysis": "The query asks for the title of the Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that begins with the specified line.",
+                "Document Content Analysis": "The document discusses 'Rebecca' by Daphne du Maurier, providing details about the novel's plot, characters, and setting, including the estate of Manderley. It also mentions the year of publication (1938) and describes the novel's atmosphere and themes.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier' and 'Manderley,' which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Rebecca,' which is the answer to the query.",
+                "Key Information Matching": "The document provides the title 'Rebecca,' the author 'Daphne du Maurier,' and the setting 'Manderley,' all of which are directly related to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly provides the title 'Rebecca,' which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, including its plot, characters, and setting, which enhances understanding of the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact answer ('Rebecca') and additional relevant information about the novel, including its setting and themes. This makes the document highly relevant and useful for understanding the query."
+            },
+            "triviaqa_6360_5": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that starts with the given line.",
+                "Document Content Analysis": "The document provides a biography of Daphne du Maurier, including details about her life, family, and literary career. It mentions several of her works, such as 'The Loving Spirit' and 'Jamaica Inn,' but does not explicitly mention 'Rebecca.'",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier' and 'novel,' but does not include the specific line 'Last night I dreamt I went to Manderley again.'",
+                "Document and Answer Keywords Matching": "The document does not mention 'Rebecca,' the title of the novel.",
+                "Key Information Matching": "The document discusses Daphne du Maurier's literary career and mentions some of her novels, but it does not provide the specific information needed to answer the query.",
+                "Can the Document Answer the Query": "No, the document does not mention 'Rebecca' or the specific opening line of the novel.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the title of the novel based on the given opening line.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Daphne du Maurier's life and works but does not contain the specific information needed to answer the query. It does not mention 'Rebecca' or the opening line of the novel, making it irrelevant to the query."
+            },
+            "triviaqa_67467_0": {
+                "Query Analysis": "The query asks for the title of the Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that begins with the specified line.",
+                "Document Content Analysis": "The document provides detailed information about the novel 'Rebecca' by Daphne du Maurier, including its publication year (1938), the unnamed protagonist (the second Mrs. de Winter), the setting (Manderley estate in Cornwall), and key characters like Mrs. Danvers and Rebecca.",
+                "Document and Query Keywords Matching": "The document mentions 'Daphne du Maurier,' 'novel,' and 'Manderley,' which are key elements of the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Rebecca,' which is the title of the novel and the answer to the query.",
+                "Key Information Matching": "The document directly references 'Rebecca' as the novel by Daphne du Maurier that includes the line 'Last night I dreamt I went to Manderley again,' matching both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly identifies 'Rebecca' as the novel that begins with the specified line.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the novel, including its setting, characters, and themes.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about the novel 'Rebecca.' It enhances understanding of the query by detailing the novel's plot, characters, and setting."
+            },
+            "m.01whq3q_138": {
+                "Query Analysis": "The query asks for the title of a Daphne du Maurier novel that begins with the line, 'Last night I dreamt I went to Manderley again.'",
+                "Query Keywords Extraction": "Last night I dreamt I went to Manderley again, Daphne du Maurier, novel",
+                "Answer Analysis": "The answer is 'Rebecca,' which is the title of the novel by Daphne du Maurier that starts with the given line.",
+                "Document Content Analysis": "The document lists various recordings, albums, and works by Georges I. Gurdjieff and Thomas De Hartmann, including titles like 'Hymns from a Great Temple,' 'Chercheurs du Verite,' and 'Music for the Piano Volume III: Prayers, Hymns and Rituals.'",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Last night I dreamt I went to Manderley again,' 'Daphne du Maurier,' 'novel') are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Rebecca' from the answer is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Daphne du Maurier, her novel 'Rebecca,' or the specific line mentioned in the query.",
+                "Can the Document Answer the Query": "No, the document does not contain any information that can directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer or provide additional context related to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Daphne du Maurier, her novel 'Rebecca,' or the specific line from the novel. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_226476_5": {},
+            "nq_120810_23": {},
+            "m.072dv_45": {},
+            "ott_29037_3": {},
+            "triviaqa_68016_4": {},
+            "triviaqa_56604_23": {},
+            "triviaqa_67467_13": {},
+            "triviaqa_39241_5": {},
+            "m.04jpl_885": {},
+            "triviaqa_68016_3": {},
+            "ott_11943_0": {},
+            "triviaqa_67467_3": {},
+            "triviaqa_6360_5": {},
+            "triviaqa_67467_0": {},
+            "m.01whq3q_138": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "nq": 0,
+            "triviaqa": 6,
+            "kg": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

@@ -1,0 +1,1338 @@
+{
+    "index": 910,
+    "context": [
+        "# Server (computing)\n\nFrom Wikipedia, the free encyclopedia\n\nJump to navigation Jump to search\n\n[![](//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-\nnew.svg/50px-Question_book-new.svg.png)](/wiki/File:Question_book-new.svg)|\nThis article **needs additional citations\nfor[verification](/wiki/Wikipedia:Verifiability \"Wikipedia:Verifiability\")**.\nPlease help [improve this\narticle](//en.wikipedia.org/w/index.php?title=Server_\\(computing\\)&action=edit)\nby [adding citations to reliable\nsources](/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1\n\"Help:Introduction to referencing with Wiki Markup/1\"). Unsourced material may\nbe challenged and removed. _(July 2015)__([Learn how and when to remove this\ntemplate message](/wiki/Help:Maintenance_template_removal \"Help:Maintenance\ntemplate removal\"))_  \n---|---  \n  \n[![](//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Wikimedia_Foundation_Servers-8055_35.jpg/220px-\nWikimedia_Foundation_Servers-8055_35.jpg)](/wiki/File:Wikimedia_Foundation_Servers-8055_35.jpg)\n\n[](/wiki/File:Wikimedia_Foundation_Servers-8055_35.jpg \"Enlarge\")\n\n[Wikimedia Foundation](/wiki/Wikimedia_Foundation \"Wikimedia Foundation\")\nservers\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/First-server-cern-\ncomputer-center.jpg/220px-First-server-cern-computer-\ncenter.jpg)](/wiki/File:First-server-cern-computer-center.jpg)\n\n[](/wiki/File:First-server-cern-computer-center.jpg \"Enlarge\")\n\nFirst [WWW](/wiki/WWW \"WWW\") server located at [CERN](/wiki/CERN \"CERN\") with\nits original sticker that says: \"This machine is a server. DO NOT POWER IT\nDOWN!!\"\n\nIn [computing](/wiki/Computing \"Computing\"), a **server** is a [computer\nprogram](/wiki/Computer_program \"Computer program\") or a\n[device](/wiki/Computer \"Computer\") that provides functionality for other\nprograms or devices, called \"[clients](/wiki/Client_\\(computing\\) \"Client\n\\(computing\\)\")\". This [architecture](/wiki/Systems_architecture \"Systems\narchitecture\") is called the [client–server\nmodel](/wiki/Client%E2%80%93server_model \"Client–server model\"), and a single\noverall computation is distributed across multiple processes or devices.\nServers can provide various functionalities, often called \"services\", such as\nsharing data or [resources](/wiki/System_resource \"System resource\") among\nmultiple clients, or performing computation for a client. A single server can\nserve multiple clients, and a single client can use multiple servers. A client\nprocess may run on the same device or may connect over a network to a server\non a different device.[1] Typical servers are [database\nservers](/wiki/Database_server \"Database server\"), [file\nservers](/wiki/File_server \"File server\"), [mail servers](/wiki/Mail_server\n\"Mail server\"), [print servers](/wiki/Print_server \"Print server\"), [web\nservers](/wiki/Web_server \"Web server\"), [game servers](/wiki/Game_server\n\"Game server\"), and [application servers](/wiki/Application_server\n\"Application server\").[2]\n\nClient–server systems are today most frequently implemented by (and often\nidentified with) the [request–response](/wiki/Request%E2%80%93response\n\"Request–response\") model: a client sends a request to the server, which\nperforms some action and sends a response back to the client, typically with a\nresult or acknowledgement. Designating a computer as \"server-class hardware\"\nimplies that it is specialized for running servers on it. This often implies\nthat it is more powerful and reliable than standard [personal\ncomputers](/wiki/Personal_computer \"Personal computer\"), but alternatively,\nlarge [computing clusters](/wiki/Computing_cluster \"Computing cluster\") may be\ncomposed of many relatively simple, replaceable server components.\n\n## Contents\n\n  * 1 History\n  * 2 Operation\n  * 3 Purpose\n  * 4 Hardware requirement\n    * 4.1 Large servers\n    * 4.2 Clusters\n    * 4.3 Appliances\n  * 5 Operating systems\n  * 6 Energy consumption\n  * 7 See also\n  * 8 Notes\n  * 9 References\n  * 10 Further reading\n\n##\nHistory[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=1\n\"Edit section: History\")]\n\nThe use of the word _server_ in computing comes from [queueing\ntheory](/wiki/Queueing_theory \"Queueing theory\"),[3] where it dates to the mid\n20th century, being notably used in Kendall (1953) (along with \"service\"), the\npaper that introduced [Kendall's notation](/wiki/Kendall%27s_notation\n\"Kendall's notation\"). In earlier papers, such as the Erlang (1909), more\nconcrete terms such as \"[telephone] operators\" are used.\n\nIn computing, \"server\" dates at least to [RFC\n5](https://tools.ietf.org/html/rfc5) (1969),[4] one of the earliest documents\ndescribing [ARPANET](/wiki/ARPANET \"ARPANET\") (the predecessor of\n[Internet](/wiki/Internet \"Internet\")), and is contrasted with \"user\",\ndistinguishing two types of [host](/wiki/Host_\\(network\\) \"Host \\(network\\)\"):\n\"server-host\" and \"user-host\". The use of \"serving\" also dates to early\ndocuments, such as [RFC 4](https://tools.ietf.org/html/rfc4),[5] contrasting\n\"serving-host\" with \"using-host\".\n\nThe [Jargon File](/wiki/Jargon_File \"Jargon File\") defines\n\"[server](http://www.catb.org/jargon/html/S/server.html)\" in the common sense\nof a process performing service for requests, usually remote, with the 1981\n([1.1.0](http://www.catb.org/jargon/oldversions/jarg110.txt)) version reading:\n\n> SERVER n. A kind of [DAEMON](/wiki/Daemon_\\(computing\\) \"Daemon\n> \\(computing\\)\") which performs a service for the requester, which often runs\n> on a computer other than the one on which the server runs.\n\n##\nOperation[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=2\n\"Edit section: Operation\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Server-based-\nnetwork.svg/220px-Server-based-network.svg.png)](/wiki/File:Server-based-\nnetwork.svg)\n\n[](/wiki/File:Server-based-network.svg \"Enlarge\")\n\nA network based on the **[client–server\nmodel](/wiki/Client%E2%80%93server_model \"Client–server model\")** where\nmultiple individual _clients_ request services and resources from centralized\nservers\n\nStrictly speaking, the term _server_ refers to a [computer\nprogram](/wiki/Computer_program \"Computer program\") or\n[process](/wiki/Process_\\(computing\\) \"Process \\(computing\\)\") (running\nprogram). Through [metonymy](/wiki/Metonymy \"Metonymy\"), it refers to a device\nused for (or a device dedicated to) running one or several server programs. On\na network, such a device is called a _[host](/wiki/Host_\\(network\\) \"Host\n\\(network\\)\")_. In addition to _server_ , the words _serve_ and _service_ (as\nnoun and as verb) are frequently used, though _servicer_ and _servant_ are\nnot.[a] The word _service_ (noun) may refer to either the abstract form of\nfunctionality, e.g. [Web service](/wiki/Web_service \"Web service\").\nAlternatively, it may refer to a computer program that turns a computer into a\nserver, e.g. [Windows service](/wiki/Windows_service \"Windows service\").\nOriginally used as \"servers serve users\" (and \"users use servers\"), in the\nsense of \"obey\", today one often says that \"servers serve data\", in the same\nsense as \"give\". For instance, [web servers](/wiki/Web_server \"Web server\")\n\"serve [up] web pages to users\" or \"service their requests\".\n\nThe server is part of the [client–server\nmodel](/wiki/Client%E2%80%93server_model \"Client–server model\"); in this\nmodel, a server serves data for [clients](/wiki/Client_\\(computing\\) \"Client\n\\(computing\\)\"). The nature of communication between a client and server is\n[request and response](/wiki/Request%E2%80%93response \"Request–response\").\nThis is in contrast with [peer-to-peer](/wiki/Peer-to-peer \"Peer-to-peer\")\nmodel in which the relationship is on-demand reciprocation. In principle, any\ncomputerized process that can be used or called by another process\n(particularly remotely, particularly to share a resource) is a server, and the\ncalling process or processes is a client. Thus any general purpose computer\nconnected to a network can host servers. For example, if files on a device are\nshared by some process, that process is a [file server](/wiki/File_server\n\"File server\"). Similarly, [web server](/wiki/Web_server \"Web server\")\nsoftware can _run_ on any capable computer, and so a [laptop](/wiki/Laptop\n\"Laptop\") or a personal computer can host a web server.\n\nWhile request–response is the most common client–server design, there are\nothers, such as the [publish–subscribe\npattern](/wiki/Publish%E2%80%93subscribe_pattern \"Publish–subscribe pattern\").\nIn the publish–subscribe pattern, clients register with a pub–sub server,\nsubscribing to specified types of messages; this initial registration may be\ndone by request–response. Thereafter, the pub–sub server forwards matching\nmessages to the clients _without_ any further requests: the server\n_[pushes](/wiki/Push_technology \"Push technology\")_ messages to the client,\nrather than the client _[pulling](/wiki/Pull_technology \"Pull technology\")_\nmessages from the server as in request–response.[6]\n\nWhen referring to hardware, the word _server_ typically designates computer\nmodels specialized for their role. In general, a server performs its role\nbetter than a generic [personal computer](/wiki/Personal_computer \"Personal\ncomputer\").\n\n##\nPurpose[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=3\n\"Edit section: Purpose\")]\n\nMain category: [Servers (computing)](/wiki/Category:Servers_\\(computing\\)\n\"Category:Servers \\(computing\\)\")\n\nThe purpose of a server is to share data as well as to share\n[resources](/wiki/System_resource \"System resource\") and distribute work. A\nserver computer can serve its own computer programs as well; depending on the\nscenario, this could be part of a _[quid pro quo](/wiki/Quid_pro_quo \"Quid pro\nquo\")_ transaction, or simply a technical possibility. The following table\nshows several scenarios in which a server is used.\n\nServer type  | Purpose  | Clients   \n---|---|---  \n[Application server](/wiki/Application_server \"Application server\") | Hosts [web apps](/wiki/Web_app \"Web app\") (computer programs that run inside a [web browser](/wiki/Web_browser \"Web browser\")) allowing users in the network to run and use them, without having to install a copy on their own computers. Unlike what the name might imply, these servers need not be part of the [World Wide Web](/wiki/World_Wide_Web \"World Wide Web\"); any [local network](/wiki/Local_network \"Local network\") would do.  | Computers with a web browser   \n[Catalog server](/wiki/Catalog_server \"Catalog server\") | Maintains an index or table of contents of information that can be found across a large distributed network, such as computers, users, files shared on file servers, and web apps. [Directory servers](/wiki/Directory_server \"Directory server\") and [name servers](/wiki/Name_server \"Name server\") are examples of catalog servers.  | Any computer program that needs to find something on the network, such a [Domain member](/wiki/Windows_domain \"Windows domain\") attempting to log in, an [email client](/wiki/Email_client \"Email client\") looking for an email address, or a user looking for a file   \n[Communications server](/wiki/Communications_server \"Communications server\") | Maintains an environment needed for one communication endpoint (user or devices) to find other endpoints and communicate with them. It may or may not include a directory of communication endpoints and a presence detection service, depending on the openness and security parameters of the network  | Communication endpoints (users or devices)   \n[Computing server](/wiki/Supercomputer \"Supercomputer\") | Shares vast amounts of computing resources, especially [CPU](/wiki/Central_processing_unit \"Central processing unit\") and [random-access memory](/wiki/Random-access_memory \"Random-access memory\"), over a network.  | Any computer program that needs more CPU power and RAM than a personal computer can probably afford. The client must be a networked computer; otherwise, there would be no client–server model.   \n[Database server](/wiki/Database_server \"Database server\") | Maintains and shares any form of [database](/wiki/Database \"Database\") (organized collections of data with predefined properties that may be displayed in a table) over a network.  | [Spreadsheets](/wiki/Spreadsheet \"Spreadsheet\"), [accounting software](/wiki/Accounting_software \"Accounting software\"), [asset management software](/wiki/Digital_asset_management \"Digital asset management\") or virtually any computer program that consumes well-organized data, especially in large volumes   \n[Fax server](/wiki/Fax_server \"Fax server\") | Shares one or more [fax machines](/wiki/Fax_machine \"Fax machine\") over a network, thus eliminating the hassle of physical access  | Any fax sender or recipient   \n[File server](/wiki/File_server \"File server\") | Shares [files](/wiki/Computer_file \"Computer file\") and [folders](/wiki/Computer_folder \"Computer folder\"), storage space to hold files and folders, or both, over a network  | Networked computers are the intended clients, even though local programs can be clients   \n[Game server](/wiki/Game_server \"Game server\") | Enables several computers or gaming devices to play [multiplayer games](/wiki/Multiplayer_game \"Multiplayer game\") | Personal computers or [gaming consoles](/wiki/Video_game_console \"Video game console\")  \n[Mail server](/wiki/Mail_server \"Mail server\") | Makes [email](/wiki/Email \"Email\") communication possible in the same way that a [post office](/wiki/Post_office \"Post office\") makes [snail mail](/wiki/Snail_mail \"Snail mail\") communication possible  | Senders and recipients of email   \n[Media server](/wiki/Media_server \"Media server\") | Shares [digital video](/wiki/Digital_video \"Digital video\") or [digital audio](/wiki/Digital_audio \"Digital audio\") over a network through [media streaming](/wiki/Streaming_media \"Streaming media\") (transmitting content in a way that portions received can be watched or listened to as they arrive, as opposed to downloading an entire file and then using it)  | User-attended personal computers equipped with a monitor and a speaker   \n[Print server](/wiki/Print_server \"Print server\") | Shares one or more [printers](/wiki/Printer_\\(computing\\) \"Printer \\(computing\\)\") over a network, thus eliminating the hassle of physical access  | Computers in need of printing something   \n[Sound server](/wiki/Sound_server \"Sound server\") | Enables computer programs to play and record sound, individually or cooperatively  | Computer programs of the same computer and network clients.   \n[Proxy server](/wiki/Proxy_server \"Proxy server\") | Acts as an [intermediary](/wiki/Intermediary \"Intermediary\") between a client and a server, accepting incoming traffic from the client and sending it to the server. Reasons for doing so includes content control and filtering, improving traffic performance, preventing unauthorized network access or simply routing the traffic over a large and complex network.  | Any networked computer   \nVirtual server  | Shares hardware and software resources with other virtual servers. It exists only as defined within specialized software called hypervisor. The hypervisor presents virtual hardware to the server as if it were real physical hardware[7]. Server virtualization allows for a more efficient infrastructure.  | Any networked computer   \n[Web server](/wiki/Web_server \"Web server\") | Hosts [web pages](/wiki/Web_page \"Web page\"). A web server is what makes the [World Wide Web](/wiki/World_Wide_Web \"World Wide Web\") possible. Each [website](/wiki/Website \"Website\") has one or more web servers.  | Computers with a web browser   \n  \nAlmost the entire structure of the [Internet](/wiki/Internet \"Internet\") is\nbased upon a [client–server](/wiki/Client%E2%80%93server \"Client–server\")\nmodel. High-level [root nameservers](/wiki/Root_nameserver \"Root nameserver\"),\n[DNS](/wiki/Domain_Name_System \"Domain Name System\"), and routers direct the\ntraffic on the internet. There are millions of servers connected to the\nInternet, running continuously throughout the world[8] and virtually every\naction taken by an ordinary [Internet](/wiki/Internet \"Internet\") user\nrequires one or more interactions with one or more server. There are\nexceptions that do not use dedicated servers; for example [peer-to-peer file\nsharing](/wiki/File_sharing \"File sharing\"), some implementations of\n[telephony](/wiki/Telephony \"Telephony\") (e.g. pre-Microsoft\n[Skype](/wiki/Skype \"Skype\")).\n\n## Hardware\nrequirement[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=4\n\"Edit section: Hardware requirement\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Inside_and_Rear_of_Webserver.jpg/220px-\nInside_and_Rear_of_Webserver.jpg)](/wiki/File:Inside_and_Rear_of_Webserver.jpg)\n\n[](/wiki/File:Inside_and_Rear_of_Webserver.jpg \"Enlarge\")\n\nA rack-mountable server with the top cover removed to reveal internal\ncomponents\n\n[Hardware](/wiki/Computer_hardware \"Computer hardware\") requirement for\nservers vary widely, depending on the server's purpose and its software.\n\nSince servers are usually accessed over a network, many run unattended without\na [computer monitor](/wiki/Computer_monitor \"Computer monitor\") or input\ndevice, audio hardware and [USB](/wiki/Universal_Serial_Bus \"Universal Serial\nBus\") interfaces. Many servers do not have a [graphical user\ninterface](/wiki/Graphical_user_interface \"Graphical user interface\") (GUI).\nThey are configured and managed remotely. Remote management can be conducted\nvia various methods including [Microsoft Management\nConsole](/wiki/Microsoft_Management_Console \"Microsoft Management Console\")\n(MMC), [PowerShell](/wiki/PowerShell \"PowerShell\"), [SSH](/wiki/Secure_Shell\n\"Secure Shell\") and [browser-based](/wiki/Web_browser \"Web browser\") [out-of-\nband management](/wiki/Out-of-band_management \"Out-of-band management\")\nsystems such as Dell's [iDRAC](/wiki/Dell_DRAC \"Dell DRAC\") or HP's\n[iLo](/wiki/HP_Integrated_Lights-Out \"HP Integrated Lights-Out\").\n\n### Large\nservers[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=5\n\"Edit section: Large servers\")]\n\nLarge traditional single servers would need to be run for long periods without\ninterruption. [Availability](/wiki/Availability \"Availability\") would have to\nbe very high, making hardware reliability and durability extremely important.\n[Mission-critical](/wiki/Mission-critical \"Mission-critical\") enterprise\nservers would be very [fault tolerant](/wiki/Fault_tolerance \"Fault\ntolerance\") and use specialized hardware with low [failure\nrates](/wiki/Failure_rate \"Failure rate\") in order to maximize\n[uptime](/wiki/Uptime \"Uptime\"). [Uninterruptible power\nsupplies](/wiki/Uninterruptible_power_supply \"Uninterruptible power supply\")\nmight be incorporated to insure against power failure. Servers typically\ninclude hardware [redundancy](/wiki/Redundancy_\\(engineering\\) \"Redundancy\n\\(engineering\\)\") such as dual [power supplies](/wiki/Power_supply \"Power\nsupply\"), [RAID](/wiki/RAID \"RAID\") [disk](/wiki/Hard_disk \"Hard disk\")\nsystems, and [ECC memory](/wiki/ECC_memory \"ECC memory\"),[9] along with\nextensive [pre-boot](/wiki/Preboot_Execution_Environment \"Preboot Execution\nEnvironment\") memory testing and verification. Critical components might be\n[hot swappable](/wiki/Hot_swappable \"Hot swappable\"), allowing technicians to\nreplace them on the running server without shutting it down, and to guard\nagainst overheating, servers might have more powerful fans or use [water\ncooling](/wiki/Water_cooling \"Water cooling\"). They will often be able to be\nconfigured, powered up and down or rebooted remotely, using [out-of-band\nmanagement](/wiki/Out-of-band_management \"Out-of-band management\"), typically\nbased on [IPMI](/wiki/Intelligent_Platform_Management_Interface \"Intelligent\nPlatform Management Interface\"). Server casings are usually [flat and\nwide](/wiki/Rack_unit \"Rack unit\"), and designed to be [rack-\nmounted](/wiki/Server_rack \"Server rack\").\n\nThese types of servers are often housed in dedicated [data\ncenters](/wiki/Data_centers \"Data centers\"). These will normally have very\nstable power and Internet and increased security. Noise is also less of a\nconcern, but power consumption and heat output can be a serious issue. Server\nrooms are equipped with air conditioning devices.\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/5/53/DL380sREAR.jpg/180px-\nDL380sREAR.jpg)](/wiki/File:DL380sREAR.jpg \"A server rack seen from the rear\")\n\nA [server rack](/wiki/Server_rack \"Server rack\") seen from the rear\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Wikimedia_Foundation_Servers-8055_08.jpg/180px-\nWikimedia_Foundation_Servers-8055_08.jpg)](/wiki/File:Wikimedia_Foundation_Servers-8055_08.jpg\n\"Wikimedia Foundation servers as seen from the front\")\n\n[Wikimedia Foundation](/wiki/Wikimedia_Foundation \"Wikimedia Foundation\")\nservers as seen from the front\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Wikimedia_Foundation_Servers-8055_23.jpg/180px-\nWikimedia_Foundation_Servers-8055_23.jpg)](/wiki/File:Wikimedia_Foundation_Servers-8055_23.jpg\n\"Wikimedia Foundation servers as seen from the rear\")\n\n[Wikimedia Foundation](/wiki/Wikimedia_Foundation \"Wikimedia Foundation\")\nservers as seen from the rear\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Wikimedia_Foundation_Servers-8055_02.jpg/180px-\nWikimedia_Foundation_Servers-8055_02.jpg)](/wiki/File:Wikimedia_Foundation_Servers-8055_02.jpg\n\"Wikimedia Foundation servers as seen from the rear\")\n\n[Wikimedia Foundation](/wiki/Wikimedia_Foundation \"Wikimedia Foundation\")\nservers as seen from the rear\n\n###\nClusters[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=6\n\"Edit section: Clusters\")]\n\nMain article: [Server farm](/wiki/Server_farm \"Server farm\")\n\nA _server farm_ or _server cluster_ is a collection of computer servers\nmaintained by an organization to supply server functionality far beyond the\ncapability of a single device. Modern [data centers](/wiki/Data_center \"Data\ncenter\") are now often built of very large clusters of much simpler\nservers,[10] and there is a collaborative effort, [Open Compute\nProject](/wiki/Open_Compute_Project \"Open Compute Project\") around this\nconcept.\n\n###\nAppliances[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=7\n\"Edit section: Appliances\")]\n\nA class of small specialist servers called [network\nappliances](/wiki/Network_appliance \"Network appliance\") are generally at the\nlow end of the scale, often being smaller than common desktop computers.\n\n## Operating\nsystems[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=8\n\"Edit section: Operating systems\")]\n\n[![](//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Cobalt_Qube_3_Front.jpg/220px-\nCobalt_Qube_3_Front.jpg)](/wiki/File:Cobalt_Qube_3_Front.jpg)\n\n[](/wiki/File:Cobalt_Qube_3_Front.jpg \"Enlarge\")\n\nSun's [Cobalt Qube](/wiki/Cobalt_Qube \"Cobalt Qube\") 3; a computer [server\nappliance](/wiki/Server_appliance \"Server appliance\") (2002); running Cobalt\nLinux (a customized version of Red Hat Linux, using the 2.2 Linux kernel),\ncomplete with the Apache web server.\n\nOn the Internet the dominant operating systems among servers are UNIX-like\n[open source](/wiki/Open_source \"Open source\")\n[distributions](/wiki/Software_distribution \"Software distribution\"), such as\nthose based on [Linux](/wiki/Linux \"Linux\") and [FreeBSD](/wiki/FreeBSD\n\"FreeBSD\"),[11] with [Windows Server](/wiki/Windows_Server \"Windows Server\")\nalso having a very significant share. Proprietary operating systems such as\n[z/OS](/wiki/Z/OS \"Z/OS\") and [macOS Server](/wiki/MacOS_Server \"MacOS\nServer\") are also deployed, but in much smaller numbers.\n\nSpecialist server-oriented operating systems have traditionally had features\nsuch as:\n\n  * [GUI](/wiki/GUI \"GUI\") not available or optional\n  * Ability to [reconfigure](/wiki/Reconfigurable_computing \"Reconfigurable computing\") and update both hardware and software to some extent without restart\n  * Advanced [backup](/wiki/Backup \"Backup\") facilities to permit regular and frequent online backups of critical [data](/wiki/Data \"Data\"),\n  * [Transparent](/wiki/Network_transparency \"Network transparency\") data transfer between different [volumes](/wiki/Volume_\\(computing\\) \"Volume \\(computing\\)\") or devices\n  * Flexible and advanced networking capabilities\n  * Automation capabilities such as [daemons](/wiki/Daemon_\\(computer_software\\) \"Daemon \\(computer software\\)\") in UNIX and [services](/wiki/Windows_service \"Windows service\") in Windows\n  * Tight system security, with advanced user, resource, data, and memory protection.\n  * Advanced detection and alerting on conditions such as overheating, processor and disk failure.[12]\n\nIn practice, today many desktop and server operating systems share similar\n[code bases](/wiki/Code_base \"Code base\"), differing mostly in configuration.\n\n## Energy\nconsumption[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=9\n\"Edit section: Energy consumption\")]\n\nIn 2010, data centers (servers, cooling, and other electrical infrastructure)\nwere responsible for 1.1-1.5% of electrical energy consumption worldwide and\n1.7-2.2% in the United States.[13] One estimate is that total energy\nconsumption for information and communications technology saves more than 5\ntimes its [carbon footprint](/wiki/Carbon_footprint \"Carbon footprint\")[14] in\nthe rest of the economy by enabling efficiency.\n\n## See\nalso[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=10\n\"Edit section: See also\")]\n\n  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/32px-Desktop_computer_clipart_-_Yellow_theme.svg.png)[Computing portal](/wiki/Portal:Computing \"Portal:Computing\")\n\n  * [Mobile Server](/wiki/Mobile_Server \"Mobile Server\")\n\n## Notes[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=11\n\"Edit section: Notes\")]\n\n  1. **Jump up ^** A [CORBA servant](/wiki/Servant_\\(CORBA\\) \"Servant \\(CORBA\\)\") is a server-side [object](/wiki/Object_\\(computer_science\\) \"Object \\(computer science\\)\") to which [method calls](/wiki/Method_call \"Method call\") from [remote method invocation](/wiki/Remote_method_invocation \"Remote method invocation\") are [forwarded](/wiki/Forwarding_\\(object-oriented_programming\\) \"Forwarding \\(object-oriented programming\\)\"), but this is an uncommon usage.\n\n##\nReferences[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=12\n\"Edit section: References\")]\n\n  1. **Jump up ^** _Windows Server Administration Fundamentals_. Microsoft Official Academic Course. 111 River Street, Hoboken, NJ 07030: [John Wiley & Sons](/wiki/John_Wiley_%26_Sons \"John Wiley & Sons\"). 2011. pp. 2–3. [ISBN](/wiki/International_Standard_Book_Number \"International Standard Book Number\") [978-0-470-90182-3](/wiki/Special:BookSources/978-0-470-90182-3 \"Special:BookSources/978-0-470-90182-3\").\n  2. **Jump up ^** Comer, Douglas E.; Stevens, David L. (1993). _Vol III: Client-Server Programming and Applications_. Internetworking with TCP/IP. Department of Computer Sciences, Purdue University, West Lafayette, IN 479: [Prentice Hall](/wiki/Prentice_Hall \"Prentice Hall\"). pp. 11d. [ISBN](/wiki/International_Standard_Book_Number \"International Standard Book Number\") [0-13-474222-2](/wiki/Special:BookSources/0-13-474222-2 \"Special:BookSources/0-13-474222-2\").\n  3. **Jump up ^** Richard A. Henle, Boris W. Kuvshinoff, C. M. Kuvshinoff (1992). [_Desktop computers: in perspective_](https://books.google.com/books?id=g4krAAAAYAAJ&dq=server+%22queuing+theory%22). Oxford University Press. p. 417. \"Server is a fairly recent computer networking term derived from queuing theory.\" CS1 maint: Uses authors parameter ([link](/wiki/Category:CS1_maint:_Uses_authors_parameter \"Category:CS1 maint: Uses authors parameter\")) \n  4. **Jump up ^** [Rulifson, Jeff](/wiki/Jeff_Rulifson \"Jeff Rulifson\") (June 1969). [_DEL_](https://tools.ietf.org/html/rfc5). [IETF](/wiki/Internet_Engineering_Task_Force \"Internet Engineering Task Force\"). [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.17487/RFC0005](http://dx.doi.org/10.17487%2FRFC0005). RFC 5. <https://tools.ietf.org/html/rfc5>. Retrieved 30 November 2013.\n  5. **Jump up ^** Shapiro, Elmer B. (March 1969). [_Network Timetable_](https://tools.ietf.org/html/rfc4). [IETF](/wiki/Internet_Engineering_Task_Force \"Internet Engineering Task Force\"). [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.17487/RFC0004](http://dx.doi.org/10.17487%2FRFC0004). RFC 4. <https://tools.ietf.org/html/rfc4>. Retrieved 30 November 2013.\n  6. **Jump up ^** [Using the HTTP Publish-Subscribe Server](https://docs.oracle.com/cd/E24329_01/web.1211/e21049/pubsub.htm), Oracle\n  7. **Jump up ^** [\"Paessler IT Explained - Server\"](https://www.paessler.com/it-explained/server). Retrieved May 7th, 2018. Check date values in: `|accessdate=` ([help](/wiki/Help:CS1_errors#bad_date \"Help:CS1 errors\"))\n  8. **Jump up ^** [\"Web Servers\"](http://www.serverwatch.com/stypes/index.php/V2Vi). IT Business Edge. Retrieved July 31, 2013.\n  9. **Jump up ^** Li, Huang, Shen, Chu (2010). [\"\"A Realistic Evaluation of Memory Hardware Errors and Software System Susceptibility\". Usenix Annual Tech Conference 2010\"](http://www.cs.rochester.edu/~kshen/papers/usenix2010-li.pdf) (PDF). Retrieved 2017-01-30. CS1 maint: Multiple names: authors list ([link](/wiki/Category:CS1_maint:_Multiple_names:_authors_list \"Category:CS1 maint: Multiple names: authors list\")) \n  10. **Jump up ^** [\"Google uncloaks once-secret server\"](http://www.cnet.com/news/google-uncloaks-once-secret-server-10209580/). _CNET_. CBS Interactive. Retrieved 2017-01-30.\n  11. **Jump up ^** [\"Usage statistics and market share of Linux for websites\"](http://w3techs.com/technologies/details/os-linux/all/all). Retrieved 18 Jan 2013.\n  12. **Jump up ^** [\"Server Oriented Operating System\"](http://www.ingelec.uns.edu.ar/rts/soos/). Retrieved 2010-05-25.\n  13. **Jump up ^** Markoff, John (31 Jul 2011). [\"Data Centers Using Less Power Than Forecast, Report Says\"](https://www.nytimes.com/2011/08/01/technology/data-centers-using-less-power-than-forecast-report-says.html?_r=0). _[NY Times](/wiki/NY_Times \"NY Times\")_. Retrieved 18 Jan 2013.\n  14. **Jump up ^** [\"SMART 2020: Enabling the low carbon economy in the information age\"](https://web.archive.org/web/20101122051650/http://www.smart2020.org/_assets/files/02_Smart2020Report.pdf) (PDF). _[The Climate Group](/wiki/The_Climate_Group \"The Climate Group\")_. 6 Oct 2008. Archived from [the original](http://www.smart2020.org/_assets/files/02_Smart2020Report.pdf) (PDF) on 22 November 2010. Retrieved 18 Jan 2013.\n\n## Further\nreading[[edit](/w/index.php?title=Server_\\(computing\\)&action=edit&section=13\n\"Edit section: Further reading\")]\n\n![](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png) | Wikimedia Commons has media related to _**[Servers](https://commons.wikimedia.org/wiki/Category:Servers \"commons:Category:Servers\")**_.  \n---|---  \n  \n  * [Erlang, Agner Krarup](/wiki/Agner_Krarup_Erlang \"Agner Krarup Erlang\") (1909). [\"The theory of probabilities and telephone conversations\"](https://web.archive.org/web/20111001212934/http://oldwww.com.dtu.dk/teletraffic/erlangbook/pps131-137.pdf) (PDF). _Nyt Tidsskrift for Matematik B_. **20** : 33–39. Archived from [the original](http://oldwww.com.dtu.dk/teletraffic/erlangbook/pps131-137.pdf) (PDF) on 2011-10-01.\n  * [Kendall, D. G.](/wiki/David_George_Kendall \"David George Kendall\") (1953). [\"Stochastic Processes Occurring in the Theory of Queues and their Analysis by the Method of the Imbedded Markov Chain\"](http://projecteuclid.org/euclid.aoms/1177728975). _The Annals of Mathematical Statistics_. **24** (3): 338. [doi](/wiki/Digital_object_identifier \"Digital object identifier\"):[10.1214/aoms/1177728975](//doi.org/10.1214/aoms/1177728975). [JSTOR](/wiki/JSTOR \"JSTOR\") [2236285](//www.jstor.org/stable/2236285).\n\nshow\n\n  * [v](/wiki/Template:Computer_sizes \"Template:Computer sizes\")\n  * [t](/wiki/Template_talk:Computer_sizes \"Template talk:Computer sizes\")\n  * [e](//en.wikipedia.org/w/index.php?title=Template:Computer_sizes&action=edit)\n\n[Computer sizes](/wiki/List_of_computer_size_categories \"List of computer size\ncategories\")  \n---  \n[Classes of computers](/wiki/Classes_of_computers \"Classes of computers\")  \n[Microcomputer](/wiki/Microcomputer \"Microcomputer\"),  \n[personal  \ncomputer](/wiki/Personal_computer \"Personal computer\")| | Stationary| \n\n  * [Workstation](/wiki/Workstation \"Workstation\")\n  * [Desktop](/wiki/Desktop_computer \"Desktop computer\")\n  * [Home](/wiki/Home_computer \"Home computer\")\n  * [Personal supercomputer](/wiki/Personal_supercomputer \"Personal supercomputer\")\n  * [SFF](/wiki/Small_form_factor \"Small form factor\")\n    * [Nettop](/wiki/Nettop \"Nettop\")\n  * [Plug](/wiki/Plug_computer \"Plug computer\")\n  * [Portable](/wiki/Portable_computer \"Portable computer\")\n    * [Tabletop](/wiki/Table_computer \"Table computer\")\n  * [Game arcade cabinet](/wiki/Video_game_arcade_cabinet \"Video game arcade cabinet\")\n    * [System board](/wiki/Arcade_system_board \"Arcade system board\")\n  * [Home console](/wiki/Home_video_game_console \"Home video game console\")\n  * [Microconsole](/wiki/Microconsole \"Microconsole\")\n  * [Interactive kiosk](/wiki/Interactive_kiosk \"Interactive kiosk\")\n  * [Smart TV](/wiki/Smart_TV \"Smart TV\")\n  * [Smart speaker](/wiki/Smart_speaker \"Smart speaker\")\n\n  \n---|---  \n[Mobile](/wiki/Mobile_computing \"Mobile computing\")| | [Laptop](/wiki/Laptop \"Laptop\")| \n\n  * [Desktop replacement](/wiki/Desktop_replacement_computer \"Desktop replacement computer\")\n  * [2-in-1](/wiki/2-in-1_PC \"2-in-1 PC\")\n  * [Subnotebook](/wiki/Subnotebook \"Subnotebook\")\n    * [Netbook](/wiki/Netbook \"Netbook\")\n    * [Smartbook](/wiki/Smartbook \"Smartbook\")\n    * [Ultrabook](/wiki/Ultrabook \"Ultrabook\")\n  * [Ultra-mobile PC](/wiki/Ultra-mobile_PC \"Ultra-mobile PC\")\n\n  \n---|---  \n[Tablet](/wiki/Tablet_computer \"Tablet computer\")|\n\n  * [Ultra-mobile PC](/wiki/Ultra-mobile_PC \"Ultra-mobile PC\")\n  * [2-in-1](/wiki/2-in-1_tablet \"2-in-1 tablet\")\n  * [Mobile Internet device](/wiki/Mobile_Internet_device \"Mobile Internet device\")\n  * [Tabletop](/wiki/Tabletop_\\(computer\\) \"Tabletop \\(computer\\)\")\n  * [Phablet](/wiki/Phablet \"Phablet\")\n\n  \n[Information  \nappliance](/wiki/Information_appliance \"Information appliance\")|\n\n  * [Handheld PC](/wiki/Handheld_PC \"Handheld PC\")\n    * [Palm-size PC](/wiki/Palm-size_PC \"Palm-size PC\")\n    * [Pocket PC](/wiki/Pocket_PC \"Pocket PC\")\n    * [Pocket computer](/wiki/Pocket_computer \"Pocket computer\")\n    * [Palmtop PC](/wiki/Palmtop_PC \"Palmtop PC\")\n  * [PDA](/wiki/Personal_digital_assistant \"Personal digital assistant\")\n    * [Electronic organizer](/wiki/Electronic_organizer \"Electronic organizer\")\n    * [EDA](/wiki/Enterprise_digital_assistant \"Enterprise digital assistant\")\n  * [Mobile phone](/wiki/Mobile_phone \"Mobile phone\")\n    * [Feature phone](/wiki/Feature_phone \"Feature phone\")\n    * [Smartphone](/wiki/Smartphone \"Smartphone\")\n      * [Phablet](/wiki/Phablet \"Phablet\")\n  * [PMP](/wiki/Portable_media_player \"Portable media player\")\n    * [DAP](/wiki/Portable_media_player \"Portable media player\")\n  * [E-reader](/wiki/E-reader \"E-reader\")\n  * [Handheld game console](/wiki/Handheld_game_console \"Handheld game console\")\n  * [Portable](/wiki/Portable_data_terminal \"Portable data terminal\")/[Mobile data terminal](/wiki/Mobile_data_terminal \"Mobile data terminal\")\n\n  \n[Calculator](/wiki/Calculator \"Calculator\")|\n\n  * [Scientific](/wiki/Scientific_calculator \"Scientific calculator\")\n  * [Programmable](/wiki/Programmable_calculator \"Programmable calculator\")\n  * [Graphing](/wiki/Graphing_calculator \"Graphing calculator\")\n\n  \n[Wearable](/wiki/Wearable_computer \"Wearable computer\")|\n\n  * [Digital wristwatch](/wiki/Watch#Digital \"Watch\")\n    * [Calculator watch](/wiki/Calculator_watch \"Calculator watch\")\n    * [Smartwatch](/wiki/Smartwatch \"Smartwatch\")\n  * [Smartglasses](/wiki/Smartglasses \"Smartglasses\")\n  * [Smart ring](/wiki/Smart_ring \"Smart ring\")\n\n  \n  \n[Midrange](/wiki/Midrange_computer \"Midrange computer\")|\n\n  * Server\n  * [Minicomputer](/wiki/Minicomputer \"Minicomputer\")\n  * [Supermini](/wiki/Superminicomputer \"Superminicomputer\")\n\n  \nLarge|\n\n  * [Super](/wiki/Supercomputer \"Supercomputer\")\n  * [Mainframe](/wiki/Mainframe_computer \"Mainframe computer\")\n  * [Minisuper](/wiki/Minisupercomputer \"Minisupercomputer\")\n\n  \nOthers|\n\n  * [Microcontroller](/wiki/Microcontroller \"Microcontroller\")\n  * [Nanocomputer](/wiki/Nanocomputer \"Nanocomputer\")\n  * [Pizza box form factor](/wiki/Pizza_box_form_factor \"Pizza box form factor\")\n  * [Single-board computer](/wiki/Single-board_computer \"Single-board computer\")\n  * [Smartdust](/wiki/Smartdust \"Smartdust\")\n  * [Wireless sensor network](/wiki/Wireless_sensor_network \"Wireless sensor network\")\n\n  \n  \n![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)\n\nRetrieved from\n\"[https://en.wikipedia.org/w/index.php?title=Server_(computing)&oldid=851242569](https://en.wikipedia.org/w/index.php?title=Server_\\(computing\\)&oldid=851242569)\"\n\n[Categories](/wiki/Help:Category \"Help:Category\"):\n\n  * [Servers (computing)](/wiki/Category:Servers_\\(computing\\) \"Category:Servers \\(computing\\)\")\n  * [Server hardware](/wiki/Category:Server_hardware \"Category:Server hardware\")\n\nHidden categories:\n\n  * [CS1 maint: Uses authors parameter](/wiki/Category:CS1_maint:_Uses_authors_parameter \"Category:CS1 maint: Uses authors parameter\")\n  * [CS1 errors: dates](/wiki/Category:CS1_errors:_dates \"Category:CS1 errors: dates\")\n  * [CS1 maint: Multiple names: authors list](/wiki/Category:CS1_maint:_Multiple_names:_authors_list \"Category:CS1 maint: Multiple names: authors list\")\n  * [Articles needing additional references from July 2015](/wiki/Category:Articles_needing_additional_references_from_July_2015 \"Category:Articles needing additional references from July 2015\")\n  * [All articles needing additional references](/wiki/Category:All_articles_needing_additional_references \"Category:All articles needing additional references\")\n  * [Pages using RFC magic links](/wiki/Category:Pages_using_RFC_magic_links \"Category:Pages using RFC magic links\")\n\n## Navigation menu\n\n### Personal tools\n\n  * Not logged in\n  * [Talk](/wiki/Special:MyTalk \"Discussion about edits from this IP address \\[ctrl-alt-n\\]\")\n  * [Contributions](/wiki/Special:MyContributions \"A list of edits made from this IP address \\[ctrl-alt-y\\]\")\n  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=Server+%28computing%29 \"You are encouraged to create an account and log in; however, it is not mandatory\")\n  * [Log in](/w/index.php?title=Special:UserLogin&returnto=Server+%28computing%29 \"You're encouraged to log in; however, it's not mandatory. \\[ctrl-alt-o\\]\")\n\n### Namespaces\n\n  * [Article](/wiki/Server_\\(computing\\) \"View the content page \\[ctrl-alt-c\\]\")\n  * [Talk](/wiki/Talk:Server_\\(computing\\) \"Discussion about the content page \\[ctrl-alt-t\\]\")\n\n###  Variants\n\n### Views\n\n  * [Read](/wiki/Server_\\(computing\\))\n  * [Edit](/w/index.php?title=Server_\\(computing\\)&action=edit \"Edit this page \\[ctrl-alt-e\\]\")\n  * [View history](/w/index.php?title=Server_\\(computing\\)&action=history \"Past revisions of this page \\[ctrl-alt-h\\]\")\n\n### More\n\n###  Search\n\n[](/wiki/Main_Page \"Visit the main page\")\n\n### Navigation\n\n  * [Main page](/wiki/Main_Page \"Visit the main page \\[ctrl-alt-z\\]\")\n  * [Contents](/wiki/Portal:Contents \"Guides to browsing Wikipedia\")\n  * [Featured content](/wiki/Portal:Featured_content \"Featured content – the best of Wikipedia\")\n  * [Current events](/wiki/Portal:Current_events \"Find background information on current events\")\n  * [Random article](/wiki/Special:Random \"Load a random article \\[ctrl-alt-x\\]\")\n  * [Donate to Wikipedia](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en \"Support us\")\n  * [Wikipedia store](//shop.wikimedia.org \"Visit the Wikipedia store\")\n\n### Interaction\n\n  * [Help](/wiki/Help:Contents \"Guidance on how to use and edit Wikipedia\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Find out about Wikipedia\")\n  * [Community portal](/wiki/Wikipedia:Community_portal \"About the project, what you can do, where to find things\")\n  * [Recent changes](/wiki/Special:RecentChanges \"A list of recent changes in the wiki \\[ctrl-alt-r\\]\")\n  * [Contact page](//en.wikipedia.org/wiki/Wikipedia:Contact_us \"How to contact Wikipedia\")\n\n### Tools\n\n  * [What links here](/wiki/Special:WhatLinksHere/Server_\\(computing\\) \"List of all English Wikipedia pages containing links to this page \\[ctrl-alt-j\\]\")\n  * [Related changes](/wiki/Special:RecentChangesLinked/Server_\\(computing\\) \"Recent changes in pages linked from this page \\[ctrl-alt-k\\]\")\n  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard \"Upload files \\[ctrl-alt-u\\]\")\n  * [Special pages](/wiki/Special:SpecialPages \"A list of all special pages \\[ctrl-alt-q\\]\")\n  * [Permanent link](/w/index.php?title=Server_\\(computing\\)&oldid=851242569 \"Permanent link to this revision of the page\")\n  * [Page information](/w/index.php?title=Server_\\(computing\\)&action=info \"More information about this page\")\n  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q44127 \"Link to connected data repository item \\[ctrl-alt-g\\]\")\n  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=Server_%28computing%29&id=851242569 \"Information on how to cite this page\")\n\n### Print/export\n\n  * [Create a book](/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Server+%28computing%29)\n  * [Download as PDF](/w/index.php?title=Special:ElectronPdf&page=Server+%28computing%29&action=show-download-screen)\n  * [Printable version](/w/index.php?title=Server_\\(computing\\)&printable=yes \"Printable version of this page \\[ctrl-alt-p\\]\")\n\n### In other projects\n\n  * [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Servers)\n\n### Languages\n\n  * [Afrikaans](https://af.wikipedia.org/wiki/Rekenaarbediener \"Rekenaarbediener – Afrikaans\")\n  * [Alemannisch](https://als.wikipedia.org/wiki/Server \"Server – Alemannisch\")\n  * [العربية](https://ar.wikipedia.org/wiki/%D8%AE%D8%A7%D8%AF%D9%85_\\(%D8%AD%D9%88%D8%B3%D8%A8%D8%A9\\) \"خادم \\(حوسبة\\) – Arabic\")\n  * [Azərbaycanca](https://az.wikipedia.org/wiki/Server \"Server – Azerbaijani\")\n  * [বাংলা](https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%B0_\\(%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BF%E0%A6%82\\) \"সার্ভার \\(কম্পিউটিং\\) – Bangla\")\n  * [Беларуская](https://be.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_\\(%D0%B0%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D0%B5_%D0%B7%D0%B0%D0%B1%D0%B5%D1%81%D0%BF%D1%8F%D1%87%D1%8D%D0%BD%D0%BD%D0%B5\\) \"Сервер \\(апаратнае забеспячэнне\\) – Belarusian\")\n  * [Беларуская (тарашкевіца)‎](https://be-x-old.wikipedia.org/wiki/%D0%A1%D1%8D%D1%80%D0%B2%D1%8D%D1%80_\\(%D0%B0%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D0%B5_%D0%B7%D0%B0%D0%B1%D0%B5%D1%81%D1%8C%D0%BF%D1%8F%D1%87%D1%8D%D0%BD%D1%8C%D0%BD%D0%B5\\) \"Сэрвэр \\(апаратнае забесьпячэньне\\) – Belarusian \\(Taraškievica orthography\\)\")\n  * [Български](https://bg.wikipedia.org/wiki/%D0%A1%D1%8A%D1%80%D0%B2%D1%8A%D1%80 \"Сървър – Bulgarian\")\n  * [Bosanski](https://bs.wikipedia.org/wiki/Server \"Server – Bosnian\")\n  * [Català](https://ca.wikipedia.org/wiki/Servidor \"Servidor – Catalan\")\n  * [Čeština](https://cs.wikipedia.org/wiki/Server \"Server – Czech\")\n  * [Dansk](https://da.wikipedia.org/wiki/Server \"Server – Danish\")\n  * [Deutsch](https://de.wikipedia.org/wiki/Server \"Server – German\")\n  * [Eesti](https://et.wikipedia.org/wiki/Server \"Server – Estonian\")\n  * [Ελληνικά](https://el.wikipedia.org/wiki/%CE%95%CE%BE%CF%85%CF%80%CE%B7%CF%81%CE%B5%CF%84%CE%B7%CF%84%CE%AE%CF%82 \"Εξυπηρετητής – Greek\")\n  * [Español](https://es.wikipedia.org/wiki/Servidor \"Servidor – Spanish\")\n  * [Esperanto](https://eo.wikipedia.org/wiki/Servilo \"Servilo – Esperanto\")\n  * [Euskara](https://eu.wikipedia.org/wiki/Zerbitzari \"Zerbitzari – Basque\")\n  * [فارسی](https://fa.wikipedia.org/wiki/%D8%B3%D8%B1%D9%88%D8%B1_\\(%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87\\) \"سرور \\(رایانه\\) – Persian\")\n  * [Français](https://fr.wikipedia.org/wiki/Serveur_informatique \"Serveur informatique – French\")\n  * [Galego](https://gl.wikipedia.org/wiki/Servidor \"Servidor – Galician\")\n  * [한국어](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84 \"서버 – Korean\")\n  * [हिन्दी](https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%B0 \"सर्वर – Hindi\")\n  * [Hrvatski](https://hr.wikipedia.org/wiki/Poslu%C5%BEitelj \"Poslužitelj – Croatian\")\n  * [Bahasa Indonesia](https://id.wikipedia.org/wiki/Peladen \"Peladen – Indonesian\")\n  * [Interlingua](https://ia.wikipedia.org/wiki/Servitor \"Servitor – Interlingua\")\n  * [Ирон](https://os.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80 \"Сервер – Ossetic\")\n  * [Íslenska](https://is.wikipedia.org/wiki/Mi%C3%B0lari \"Miðlari – Icelandic\")\n  * [Italiano](https://it.wikipedia.org/wiki/Server \"Server – Italian\")\n  * [עברית](https://he.wikipedia.org/wiki/%D7%A9%D7%A8%D7%AA \"שרת – Hebrew\")\n  * [ქართული](https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%94%E1%83%A0%E1%83%95%E1%83%94%E1%83%A0%E1%83%98_\\(%E1%83%99%E1%83%9D%E1%83%9B%E1%83%9E%E1%83%98%E1%83%A3%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98\\) \"სერვერი \\(კომპიუტერი\\) – Georgian\")\n  * [Қазақша](https://kk.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80 \"Сервер – Kazakh\")\n  * [Latviešu](https://lv.wikipedia.org/wiki/Serveris \"Serveris – Latvian\")\n  * [Lietuvių](https://lt.wikipedia.org/wiki/Serveris \"Serveris – Lithuanian\")\n  * [Lingála](https://ln.wikipedia.org/wiki/Mb%C9%9B%CC%81ki \"Mbɛ́ki – Lingala\")\n  * [Lumbaart](https://lmo.wikipedia.org/wiki/Server \"Server – Lombard\")\n  * [Magyar](https://hu.wikipedia.org/wiki/Szerver \"Szerver – Hungarian\")\n  * [Македонски](https://mk.wikipedia.org/wiki/%D0%9E%D0%BF%D1%81%D0%BB%D1%83%D0%B6%D1%83%D0%B2%D0%B0%D1%87 \"Опслужувач – Macedonian\")\n  * [മലയാളം](https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B5%86%E0%B5%BC%E0%B4%B5%E0%B5%BC_%E0%B4%95%E0%B4%82%E0%B4%AA%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%BC \"സെർവർ കംപ്യൂട്ടർ – Malayalam\")\n  * [მარგალური](https://xmf.wikipedia.org/wiki/%E1%83%A1%E1%83%94%E1%83%A0%E1%83%95%E1%83%94%E1%83%A0%E1%83%98_\\(%E1%83%99%E1%83%9D%E1%83%9B%E1%83%9E%E1%83%98%E1%83%A3%E1%83%A2%E1%83%94%E1%83%A0%E1%83%98\\) \"სერვერი \\(კომპიუტერი\\) – Mingrelian\")\n  * [Bahasa Melayu](https://ms.wikipedia.org/wiki/Komputer_pelayan \"Komputer pelayan – Malay\")\n  * [Mirandés](https://mwl.wikipedia.org/wiki/Serbidor \"Serbidor – Mirandese\")\n  * [Монгол](https://mn.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_\\(%D1%82%D0%BE%D0%BE%D1%86%D0%BE%D0%BE%D0%BB%D0%BE%D0%BB\\) \"Сервер \\(тооцоолол\\) – Mongolian\")\n  * [မြန်မာဘာသာ](https://my.wikipedia.org/wiki/%E1%80%86%E1%80%AC%E1%80%97%E1%80%AC_\\(%E1%80%80%E1%80%BD%E1%80%94%E1%80%BA%E1%80%95%E1%80%BB%E1%80%B0%E1%80%90%E1%80%AC\\) \"ဆာဗာ \\(ကွန်ပျူတာ\\) – Burmese\")\n  * [Nederlands](https://nl.wikipedia.org/wiki/Server \"Server – Dutch\")\n  * [日本語](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%BC%E3%83%90 \"サーバ – Japanese\")\n  * [Norsk](https://no.wikipedia.org/wiki/Server \"Server – Norwegian\")\n  * [Norsk nynorsk](https://nn.wikipedia.org/wiki/Tenarmaskin \"Tenarmaskin – Norwegian Nynorsk\")\n  * [Occitan](https://oc.wikipedia.org/wiki/Servidor \"Servidor – Occitan\")\n  * [Oʻzbekcha/ўзбекча](https://uz.wikipedia.org/wiki/Server \"Server – Uzbek\")\n  * [Polski](https://pl.wikipedia.org/wiki/Serwer \"Serwer – Polish\")\n  * [Português](https://pt.wikipedia.org/wiki/Servidor_\\(computa%C3%A7%C3%A3o\\) \"Servidor \\(computação\\) – Portuguese\")\n  * [Română](https://ro.wikipedia.org/wiki/Server \"Server – Romanian\")\n  * [Русский](https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_\\(%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5\\) \"Сервер \\(аппаратное обеспечение\\) – Russian\")\n  * [Scots](https://sco.wikipedia.org/wiki/Server_\\(computin\\) \"Server \\(computin\\) – Scots\")\n  * [Sicilianu](https://scn.wikipedia.org/wiki/Sirvituri \"Sirvituri – Sicilian\")\n  * [සිංහල](https://si.wikipedia.org/wiki/%E0%B7%83%E0%B7%9A%E0%B7%80%E0%B7%8F%E0%B6%AF%E0%B7%8F%E0%B6%BA%E0%B6%9A_%E0%B6%B4%E0%B6%BB%E0%B7%92%E0%B6%9C%E0%B6%AB%E0%B6%9A%E0%B6%BA \"සේවාදායක පරිගණකය – Sinhala\")\n  * [Simple English](https://simple.wikipedia.org/wiki/Server \"Server – Simple English\")\n  * [Slovenčina](https://sk.wikipedia.org/wiki/Server \"Server – Slovak\")\n  * [Slovenščina](https://sl.wikipedia.org/wiki/Stre%C5%BEnik \"Strežnik – Slovenian\")\n  * [کوردی](https://ckb.wikipedia.org/wiki/%DA%95%D8%A7%DA%98%DB%95%DA%A9%D8%A7%D8%B1 \"ڕاژەکار – Central Kurdish\")\n  * [Српски / srpski](https://sr.wikipedia.org/wiki/Server \"Server – Serbian\")\n  * [Srpskohrvatski / српскохрватски](https://sh.wikipedia.org/wiki/Server \"Server – Serbo-Croatian\")\n  * [Suomi](https://fi.wikipedia.org/wiki/Palvelin \"Palvelin – Finnish\")\n  * [Svenska](https://sv.wikipedia.org/wiki/Server \"Server – Swedish\")\n  * [Tagalog](https://tl.wikipedia.org/wiki/Serbidor \"Serbidor – Tagalog\")\n  * [தமிழ்](https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%B4%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BF \"வழங்கி – Tamil\")\n  * [తెలుగు](https://te.wikipedia.org/wiki/%E0%B0%AA%E0%B0%B0%E0%B0%BF%E0%B0%9A%E0%B0%BE%E0%B0%B0%E0%B0%BF%E0%B0%95 \"పరిచారిక – Telugu\")\n  * [ไทย](https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%9F%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C \"เซิร์ฟเวอร์ – Thai\")\n  * [Тоҷикӣ](https://tg.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_\\(%D0%B1%D0%B0%D1%80%D0%BD%D0%BE%D0%BC%D0%B0\\) \"Сервер \\(барнома\\) – Tajik\")\n  * [Türkçe](https://tr.wikipedia.org/wiki/Sunucu_\\(bili%C5%9Fim\\) \"Sunucu \\(bilişim\\) – Turkish\")\n  * [Українська](https://uk.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80 \"Сервер – Ukrainian\")\n  * [اردو](https://ur.wikipedia.org/wiki/%D8%B3%D8%B1%D9%88%D8%B1_\\(%DA%A9%D9%85%D9%BE%DB%8C%D9%88%D9%B9%D9%86%DA%AF\\) \"سرور \\(کمپیوٹنگ\\) – Urdu\")\n  * [Tiếng Việt](https://vi.wikipedia.org/wiki/M%C3%A1y_ch%E1%BB%A7 \"Máy chủ – Vietnamese\")\n  * [吴语](https://wuu.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8 \"服务器 – Wu Chinese\")\n  * [ייִדיש](https://yi.wikipedia.org/wiki/%D7%93%D7%99%D7%A0%D7%A2%D7%A8_\\(%D7%A7%D7%90%D7%9E%D7%A4%D7%99%D7%95%D7%98%D7%A2%D7%A8\\) \"דינער \\(קאמפיוטער\\) – Yiddish\")\n  * [粵語](https://zh-yue.wikipedia.org/wiki/%E4%BC%BA%E6%9C%8D%E5%99%A8 \"伺服器 – Cantonese\")\n  * [中文](https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8 \"服务器 – Chinese\")\n69 more\n\n[Edit\nlinks](https://www.wikidata.org/wiki/Special:EntityPage/Q44127#sitelinks-\nwikipedia \"Edit interlanguage links\")\n\n  * This page was last edited on 21 July 2018, at 00:52 (UTC).\n  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)[](//creativecommons.org/licenses/by-sa/3.0/); additional terms may apply. By using this site, you agree to the [Terms of Use](//wikimediafoundation.org/wiki/Terms_of_Use) and [Privacy Policy](//wikimediafoundation.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.\n\n  * [Privacy policy](https://foundation.wikimedia.org/wiki/Privacy_policy \"wmf:Privacy policy\")\n  * [About Wikipedia](/wiki/Wikipedia:About \"Wikipedia:About\")\n  * [Disclaimers](/wiki/Wikipedia:General_disclaimer \"Wikipedia:General disclaimer\")\n  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)\n  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)\n  * [Cookie statement](https://foundation.wikimedia.org/wiki/Cookie_statement)\n  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=Server_\\(computing\\)&mobileaction=toggle_view_mobile)\n  * Enable previews\n\n  * [![Wikimedia Foundation](/static/images/wikimedia-button.png)](https://wikimediafoundation.org/)\n  * [![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)](//www.mediawiki.org/)\n\n  *[v]: View this template\n  *[t]: Discuss this template\n  *[e]: Edit this template\n\n"
+    ],
+    "qa": {
+        "question": "a large collection of servers is called a(n)",
+        "answer": "['server farm or server cluster']",
+        "BM25_documents": [
+            {
+                "id": "nq_910_19",
+                "score": 10.858499526977539
+            },
+            {
+                "id": "nq_234452_19",
+                "score": 10.778800010681152
+            },
+            {
+                "id": "triviaqa_59663_71",
+                "score": 9.92549991607666
+            },
+            {
+                "id": "nq_234452_2",
+                "score": 9.89799976348877
+            },
+            {
+                "id": "nq_910_2",
+                "score": 9.897998809814453
+            },
+            {
+                "id": "triviaqa_24611_658",
+                "score": 9.808199882507324
+            },
+            {
+                "id": "nq_234452_18",
+                "score": 9.476799964904785
+            },
+            {
+                "id": "nq_234452_10",
+                "score": 9.267600059509277
+            },
+            {
+                "id": "nq_910_10",
+                "score": 9.203900337219238
+            },
+            {
+                "id": "nq_240240_53",
+                "score": 9.064900398254395
+            },
+            {
+                "id": "triviaqa_59663_10",
+                "score": 9.023699760437012
+            },
+            {
+                "id": "nq_268806_43",
+                "score": 8.800100326538086
+            },
+            {
+                "id": "nq_79683_74",
+                "score": 8.7923002243042
+            },
+            {
+                "id": "nq_910_12",
+                "score": 8.791899681091309
+            },
+            {
+                "id": "nq_910_13",
+                "score": 8.756099700927734
+            },
+            {
+                "id": "nq_189755_5",
+                "score": 8.716699600219727
+            },
+            {
+                "id": "triviaqa_24611_657",
+                "score": 8.711199760437012
+            },
+            {
+                "id": "nq_220311_2",
+                "score": 8.606800079345703
+            },
+            {
+                "id": "nq_114042_62",
+                "score": 8.604499816894531
+            },
+            {
+                "id": "nq_81636_62",
+                "score": 8.604498863220215
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "nq_910_19",
+                "score": 10.858499526977539
+            },
+            {
+                "id": "nq_910_2",
+                "score": 9.897998809814453
+            },
+            {
+                "id": "nq_910_10",
+                "score": 9.203900337219238
+            },
+            {
+                "id": "nq_910_12",
+                "score": 8.791899681091309
+            },
+            {
+                "id": "nq_910_13",
+                "score": 8.756099700927734
+            },
+            {
+                "id": "nq_910_5",
+                "score": 8.064498901367188
+            },
+            {
+                "id": "nq_910_15",
+                "score": 7.866300106048584
+            },
+            {
+                "id": "nq_910_1",
+                "score": 7.798399925231934
+            },
+            {
+                "id": "nq_910_18",
+                "score": 7.723899841308594
+            },
+            {
+                "id": "nq_910_6",
+                "score": 7.70599889755249
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_269_1",
+                "score": 5.763299942016602
+            },
+            {
+                "id": "tat_384_1",
+                "score": 5.444798946380615
+            },
+            {
+                "id": "tat_72_4",
+                "score": 4.966599941253662
+            },
+            {
+                "id": "tat_1440_1",
+                "score": 4.95819616317749
+            },
+            {
+                "id": "tat_72_1",
+                "score": 4.817392826080322
+            },
+            {
+                "id": "tat_72_2",
+                "score": 4.609600067138672
+            },
+            {
+                "id": "tat_72_5",
+                "score": 4.6095991134643555
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_3617_0",
+                "score": 7.422800064086914
+            },
+            {
+                "id": "ott_9445_0",
+                "score": 7.422799110412598
+            },
+            {
+                "id": "ott_10925_1",
+                "score": 6.7204999923706055
+            },
+            {
+                "id": "ott_29234_1",
+                "score": 6.720499038696289
+            },
+            {
+                "id": "ott_36002_1",
+                "score": 6.720498085021973
+            },
+            {
+                "id": "ott_39378_1",
+                "score": 6.720497131347656
+            },
+            {
+                "id": "ott_16814_0",
+                "score": 6.3628997802734375
+            },
+            {
+                "id": "ott_19487_0",
+                "score": 6.362898826599121
+            },
+            {
+                "id": "ott_15306_1",
+                "score": 6.183199882507324
+            },
+            {
+                "id": "ott_19903_1",
+                "score": 6.183198928833008
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_910_19",
+                "score": 10.858499526977539
+            },
+            {
+                "id": "nq_234452_19",
+                "score": 10.778800010681152
+            },
+            {
+                "id": "nq_234452_2",
+                "score": 9.89799976348877
+            },
+            {
+                "id": "nq_910_2",
+                "score": 9.897998809814453
+            },
+            {
+                "id": "nq_234452_18",
+                "score": 9.476799964904785
+            },
+            {
+                "id": "nq_234452_10",
+                "score": 9.267600059509277
+            },
+            {
+                "id": "nq_910_10",
+                "score": 9.203900337219238
+            },
+            {
+                "id": "nq_240240_53",
+                "score": 9.064900398254395
+            },
+            {
+                "id": "nq_268806_43",
+                "score": 8.800100326538086
+            },
+            {
+                "id": "nq_79683_74",
+                "score": 8.7923002243042
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_59663_71",
+                "score": 9.92549991607666
+            },
+            {
+                "id": "triviaqa_24611_658",
+                "score": 9.808199882507324
+            },
+            {
+                "id": "triviaqa_59663_10",
+                "score": 9.023699760437012
+            },
+            {
+                "id": "triviaqa_24611_657",
+                "score": 8.711199760437012
+            },
+            {
+                "id": "triviaqa_59663_13",
+                "score": 8.573800086975098
+            },
+            {
+                "id": "triviaqa_11586_8",
+                "score": 8.53439998626709
+            },
+            {
+                "id": "triviaqa_37984_27",
+                "score": 8.52039909362793
+            },
+            {
+                "id": "triviaqa_21818_55",
+                "score": 8.363499641418457
+            },
+            {
+                "id": "triviaqa_59663_11",
+                "score": 8.324700355529785
+            },
+            {
+                "id": "triviaqa_59663_55",
+                "score": 8.313699722290039
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.01hb3_101",
+                "score": 8.223999977111816
+            },
+            {
+                "id": "m.07cx4_202",
+                "score": 8.154800415039062
+            },
+            {
+                "id": "m.04f3mw__7",
+                "score": 8.148200035095215
+            },
+            {
+                "id": "m.01hb3_102",
+                "score": 7.907199859619141
+            },
+            {
+                "id": "m.092v_6_4",
+                "score": 7.835999965667725
+            },
+            {
+                "id": "m.01hb3_32",
+                "score": 7.831099987030029
+            },
+            {
+                "id": "m.0vl_w_13",
+                "score": 7.600299835205078
+            },
+            {
+                "id": "m.07cx4_99",
+                "score": 7.467700004577637
+            },
+            {
+                "id": "m.02wzv_70",
+                "score": 7.46750020980835
+            },
+            {
+                "id": "m.021czc_61",
+                "score": 7.434700012207031
+            },
+            {
+                "id": "m.021czc_62",
+                "score": 7.431099891662598
+            },
+            {
+                "id": "m.04myg1m_10",
+                "score": 7.423399925231934
+            },
+            {
+                "id": "m.07cx4_96",
+                "score": 7.397200107574463
+            },
+            {
+                "id": "m.04myg1m_11",
+                "score": 7.39300012588501
+            },
+            {
+                "id": "m.02zb4_1_11",
+                "score": 7.255899906158447
+            },
+            {
+                "id": "m.0q9h2_121",
+                "score": 7.237599849700928
+            },
+            {
+                "id": "m.0q9h2_120",
+                "score": 7.173500061035156
+            },
+            {
+                "id": "m.02sfxg_33",
+                "score": 7.129899978637695
+            },
+            {
+                "id": "m.027cnsp_0",
+                "score": 7.082300186157227
+            },
+            {
+                "id": "m.0txnb_16",
+                "score": 7.070700168609619
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_234452_3",
+                "score": 0.7216861844062805
+            },
+            {
+                "id": "triviaqa_28877_18",
+                "score": 0.7187701463699341
+            },
+            {
+                "id": "nq_226221_30",
+                "score": 0.7151236534118652
+            },
+            {
+                "id": "nq_910_3",
+                "score": 0.6988984942436218
+            },
+            {
+                "id": "nq_910_1",
+                "score": 0.6865676045417786
+            },
+            {
+                "id": "nq_910_19",
+                "score": 0.6852188110351562
+            },
+            {
+                "id": "nq_234452_18",
+                "score": 0.6825433969497681
+            },
+            {
+                "id": "nq_234452_28",
+                "score": 0.6816369891166687
+            },
+            {
+                "id": "triviaqa_11586_125",
+                "score": 0.6785460710525513
+            },
+            {
+                "id": "triviaqa_11586_105",
+                "score": 0.6774470806121826
+            },
+            {
+                "id": "nq_200967_18",
+                "score": 0.676475465297699
+            },
+            {
+                "id": "nq_234452_2",
+                "score": 0.6744930148124695
+            },
+            {
+                "id": "triviaqa_28877_17",
+                "score": 0.6742972135543823
+            },
+            {
+                "id": "nq_261299_54",
+                "score": 0.6729957461357117
+            },
+            {
+                "id": "nq_910_29",
+                "score": 0.6726770401000977
+            },
+            {
+                "id": "nq_234452_1",
+                "score": 0.6724140048027039
+            },
+            {
+                "id": "nq_910_28",
+                "score": 0.6718529462814331
+            },
+            {
+                "id": "nq_234452_19",
+                "score": 0.6718454957008362
+            },
+            {
+                "id": "nq_240240_54",
+                "score": 0.6714022159576416
+            },
+            {
+                "id": "triviaqa_11586_129",
+                "score": 0.6705825924873352
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "nq_910_3",
+                "score": 0.6988984942436218
+            },
+            {
+                "id": "nq_910_1",
+                "score": 0.6865676045417786
+            },
+            {
+                "id": "nq_910_19",
+                "score": 0.6852188110351562
+            },
+            {
+                "id": "nq_910_29",
+                "score": 0.6726770401000977
+            },
+            {
+                "id": "nq_910_28",
+                "score": 0.6718529462814331
+            },
+            {
+                "id": "nq_910_2",
+                "score": 0.6602407097816467
+            },
+            {
+                "id": "nq_910_5",
+                "score": 0.6556249260902405
+            },
+            {
+                "id": "nq_910_4",
+                "score": 0.6469197273254395
+            },
+            {
+                "id": "nq_910_11",
+                "score": 0.6393083930015564
+            },
+            {
+                "id": "nq_910_24",
+                "score": 0.6356582045555115
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_12654_2",
+                "score": 0.6119365692138672
+            },
+            {
+                "id": "ott_35083_2",
+                "score": 0.6119365692138672
+            },
+            {
+                "id": "ott_20547_2",
+                "score": 0.6119365692138672
+            },
+            {
+                "id": "ott_5215_2",
+                "score": 0.6119365692138672
+            },
+            {
+                "id": "ott_26114_2",
+                "score": 0.6119365692138672
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_234452_3",
+                "score": 0.7216861844062805
+            },
+            {
+                "id": "nq_226221_30",
+                "score": 0.7151236534118652
+            },
+            {
+                "id": "nq_910_3",
+                "score": 0.6988984942436218
+            },
+            {
+                "id": "nq_910_1",
+                "score": 0.6865676045417786
+            },
+            {
+                "id": "nq_910_19",
+                "score": 0.6852188110351562
+            },
+            {
+                "id": "nq_234452_18",
+                "score": 0.6825433969497681
+            },
+            {
+                "id": "nq_234452_28",
+                "score": 0.6816369891166687
+            },
+            {
+                "id": "nq_200967_18",
+                "score": 0.676475465297699
+            },
+            {
+                "id": "nq_234452_2",
+                "score": 0.6744930148124695
+            },
+            {
+                "id": "nq_261299_54",
+                "score": 0.6729957461357117
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_28877_18",
+                "score": 0.7187701463699341
+            },
+            {
+                "id": "triviaqa_11586_125",
+                "score": 0.6785460710525513
+            },
+            {
+                "id": "triviaqa_11586_105",
+                "score": 0.6774470806121826
+            },
+            {
+                "id": "triviaqa_28877_17",
+                "score": 0.6742972135543823
+            },
+            {
+                "id": "triviaqa_11586_129",
+                "score": 0.6705825924873352
+            },
+            {
+                "id": "triviaqa_11586_126",
+                "score": 0.6648622751235962
+            },
+            {
+                "id": "triviaqa_11586_148",
+                "score": 0.6648048162460327
+            },
+            {
+                "id": "triviaqa_11586_127",
+                "score": 0.6600438356399536
+            },
+            {
+                "id": "triviaqa_11586_124",
+                "score": 0.6590154767036438
+            },
+            {
+                "id": "triviaqa_11586_106",
+                "score": 0.6580069065093994
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.012vtfpw_20",
+                "score": 0.6352738738059998
+            },
+            {
+                "id": "m.03q9w5j_80",
+                "score": 0.634585440158844
+            },
+            {
+                "id": "m.0vm3r_14",
+                "score": 0.6264621019363403
+            },
+            {
+                "id": "m.03q9w5j_205",
+                "score": 0.620374321937561
+            },
+            {
+                "id": "m.04ly1_67",
+                "score": 0.6170573830604553
+            },
+            {
+                "id": "m.0z83s_7",
+                "score": 0.6169660687446594
+            },
+            {
+                "id": "m.059f4_2514",
+                "score": 0.6167258024215698
+            },
+            {
+                "id": "m.0j4b_652",
+                "score": 0.616611897945404
+            },
+            {
+                "id": "m.02hrh0__1989",
+                "score": 0.6161020398139954
+            },
+            {
+                "id": "m.05k7sb_1139",
+                "score": 0.6151458621025085
+            },
+            {
+                "id": "m.020njtm_8",
+                "score": 0.6151197552680969
+            },
+            {
+                "id": "m.0j0k_505",
+                "score": 0.6143296957015991
+            },
+            {
+                "id": "m.06tw8_447",
+                "score": 0.6142447590827942
+            },
+            {
+                "id": "m.026cv0z_5",
+                "score": 0.6139699220657349
+            },
+            {
+                "id": "m.02zgwmc_417",
+                "score": 0.6132999658584595
+            },
+            {
+                "id": "m.03v_5_46",
+                "score": 0.6132210493087769
+            },
+            {
+                "id": "m.0c_m3_356",
+                "score": 0.6128522753715515
+            },
+            {
+                "id": "m.09c7w0_2124",
+                "score": 0.6125854253768921
+            },
+            {
+                "id": "m.0x1lv_10",
+                "score": 0.6122188568115234
+            },
+            {
+                "id": "m.03s0w_1677",
+                "score": 0.6121857762336731
+            }
+        ],
+        "fail_detail": {
+            "nq_234452_3": [
+                false,
+                false,
+                true
+            ],
+            "m.012vtfpw_20": [
+                false,
+                false,
+                true
+            ],
+            "ott_12654_2": [
+                true,
+                true,
+                true
+            ],
+            "nq_910_3": [
+                false,
+                false,
+                true
+            ],
+            "nq_226221_30": [
+                true,
+                true,
+                true
+            ],
+            "nq_910_10": [
+                false,
+                false,
+                true
+            ],
+            "m.03q9w5j_80": [
+                true,
+                true,
+                true
+            ],
+            "m.07cx4_202": [
+                true,
+                true,
+                true
+            ],
+            "nq_910_19": [
+                true,
+                true,
+                true
+            ],
+            "nq_910_2": [
+                false,
+                false,
+                true
+            ],
+            "tat_269_1": [
+                true,
+                true,
+                true
+            ],
+            "ott_3617_0": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_59663_71": [
+                true,
+                true,
+                true
+            ],
+            "m.01hb3_101": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_28877_18": [
+                true,
+                true,
+                true
+            ],
+            "nq_234452_19": [
+                true,
+                true,
+                true
+            ],
+            "nq_234452_2": [
+                true,
+                true,
+                true
+            ],
+            "nq_910_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "llm_fail": {},
+        "llm_mark_result": {
+            "nq_234452_3": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document discusses the concept of servers in computing, including their operation, hardware requirements, and the history of the term 'server'. It mentions 'computing clusters' and 'server-class hardware', but does not explicitly define or discuss 'server farm' or 'server cluster'.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes the term 'computing clusters', which is similar to 'server cluster' in the answer.",
+                "Key Information Matching": "The document discusses servers and mentions 'computing clusters', which is a relevant concept to the query about large collections of servers.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that a large collection of servers is called a 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the mention of 'computing clusters' can help infer that a large collection of servers might be referred to in a similar manner, though it does not directly provide the specific terms 'server farm' or 'server cluster'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions 'computing clusters', which is a related concept to the query. However, it does not directly provide the specific terms 'server farm' or 'server cluster', making it unable to fully answer the query but still useful for inferential understanding."
+            },
+            "m.012vtfpw_20": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms that describe a large collection of servers: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses Google Apps for Work, a set of cloud-based tools and software provided by Google. It mentions that these tools are hosted in Google's network of data centers rather than on traditional internal servers within companies. It also highlights the widespread use of Google Apps by organizations globally.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'data centers', which are related to the query's topic of servers.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "While the document discusses servers and data centers, it does not specifically address terms for a large collection of servers.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific terms 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about how large collections of servers (data centers) are used in cloud computing, which is indirectly related to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses servers and data centers, which are relevant concepts. However, it does not directly provide the terms 'server farm' or 'server cluster', making it partially relevant rather than directly useful for answering the query."
+            },
+            "ott_12654_2": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document lists several inactive distributed computing projects, detailing their focus areas, institutions involved, and whether they were successful. It also provides an introduction explaining the concept of distributed computing and how it utilizes donated computing power from various sources.",
+                "Document and Query Keywords Matching": "The document does not explicitly mention 'large collection' or 'servers'.",
+                "Document and Answer Keywords Matching": "The document does not contain the terms 'server farm' or 'server cluster'.",
+                "Key Information Matching": "The document discusses distributed computing projects, which inherently involve multiple computers or servers working together, but it does not specifically address the terminology for a large collection of servers.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific terminology asked for in the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document discusses distributed computing, it does not provide any information that would help infer the terms 'server farm' or 'server cluster'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on distributed computing projects and does not contain any direct or indirect information about the terminology for a large collection of servers. Therefore, it is irrelevant to the query."
+            },
+            "nq_910_3": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document discusses the concept of servers in computing, including their operation, hardware requirements, and the distinction between different types of server setups. It mentions 'computing clusters' and 'server-class hardware'.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes the term 'computing clusters', which is similar to 'server cluster' in the answer.",
+                "Key Information Matching": "The document discusses 'computing clusters', which is a relevant concept to the query about large collections of servers.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that a large collection of servers is called a 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the mention of 'computing clusters' can help infer that a large collection of servers might be referred to as a cluster, which is part of the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions 'computing clusters', which is a term similar to one of the answers ('server cluster'). However, it does not directly answer the query or provide the specific terms 'server farm' or 'server cluster'. The document provides useful context that can help infer part of the answer."
+            },
+            "nq_226221_30": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms that describe a large collection of servers: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses the use of many servers by major companies like Facebook, Yahoo!, Microsoft, and Google. It mentions data centers and load balancing equipment to distribute visitor loads over multiple computers at multiple locations. It also provides specific data on the number of servers Facebook utilized and general statistics on the growth of websites.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and implies a large collection through the context of data centers and multiple computers.",
+                "Document and Answer Keywords Matching": "The document does not explicitly use the terms 'server farm' or 'server cluster'.",
+                "Key Information Matching": "The document discusses the concept of many servers being used together, which is related to the idea of a large collection of servers, though it does not use the specific terms provided in the answer.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the terms 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the use of many servers in data centers, which can help infer the concept of a large collection of servers.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it discusses the use of many servers and data centers, which is related to the concept of a large collection of servers. However, it does not directly provide the specific terms 'server farm' or 'server cluster' that answer the query. The context provided can help infer the concept but does not directly answer the question."
+            },
+            "nq_910_10": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document describes various types of servers and their functions, including communications server, computing server, database server, fax server, and file server. It explains what each type of server does and the clients they serve.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' multiple times but does not explicitly use the terms 'large collection' or 'called'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "While the document discusses various types of servers, it does not provide a definition or term for a large collection of servers.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific terms 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context that would help infer the terms for a large collection of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on explaining different types of servers and their functions, but it does not address the concept of a large collection of servers or provide the terms used to describe such a collection. Therefore, it is irrelevant to the query."
+            },
+            "m.03q9w5j_80": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document discusses electrical networks, including high-voltage transmission lines, low-voltage distribution networks, and the infrastructure involved in transforming and distributing electricity. It mentions terms like 'anningsnet', 'lichtnet', 'middenspanningsnet', and 'onderstations'.",
+                "Document and Query Keywords Matching": "None of the query keywords ('large collection', 'servers', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('server farm', 'server cluster') are found in the document.",
+                "Key Information Matching": "There is no matching key information between the query and the document. The document focuses on electrical power distribution and does not mention servers or related terms.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about servers or their collective terms.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant information that could help infer the term for a large collection of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses electrical power distribution and infrastructure, which has no connection to the topic of server collections. Therefore, it is irrelevant to the query."
+            },
+            "m.07cx4_202": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document provides information about telephones, including their history, components, and various classifications. It mentions technical details and the evolution of telecommunication devices.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'servers', 'collection', or 'called'.",
+                "Document and Answer Keywords Matching": "The document does not contain the terms 'server farm' or 'server cluster'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on telephones and does not discuss servers or related terms.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about servers or their collections.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the topic of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on telephones and does not contain any information related to servers or their collections. Therefore, it cannot answer the query or provide any useful context for it."
+            },
+            "nq_910_19": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document discusses server farms and server clusters, explaining that they are collections of computer servers maintained by an organization to provide extensive server functionality. It also mentions modern data centers and the Open Compute Project related to this concept.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'server farm' and 'server cluster', which directly match the query's intent.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'server farm' and 'server cluster', which are the terms provided in the answer.",
+                "Key Information Matching": "The document directly addresses the concept of a large collection of servers by defining 'server farm' and 'server cluster'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by providing the terms 'server farm' and 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only answers the query but also provides additional context about the functionality and modern implementations of server farms and clusters.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by defining the terms 'server farm' and 'server cluster', which are the exact terms used in the answer. Additionally, it provides useful context about the purpose and modern usage of these terms, enhancing the understanding of the concept."
+            },
+            "nq_910_2": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document discusses the client-server model, various types of servers, and mentions computing clusters. It explains how servers function and the different roles they can play in a networked environment.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes the term 'computing clusters', which is similar to 'server cluster' in the answer.",
+                "Key Information Matching": "The document discusses servers and mentions 'computing clusters', which is a relevant concept to the query about a large collection of servers.",
+                "Can the Document Answer the Query": "No, the document does not explicitly mention 'server farm' or 'server cluster' as terms for a large collection of servers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the mention of 'computing clusters' can help infer that a large collection of servers might be referred to as a cluster, which is part of the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about servers and mentions 'computing clusters', which can help infer part of the answer. However, it does not directly provide the specific terms 'server farm' or 'server cluster'."
+            },
+            "tat_269_1": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms that describe a large collection of servers: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses financial billings and performance metrics of a company, broken down by region. It mentions 'server products' in the context of sales performance but does not discuss server farms or server clusters.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'server' but in a different context (sales of server products).",
+                "Document and Answer Keywords Matching": "The document does not contain the terms 'server farm' or 'server cluster'.",
+                "Key Information Matching": "The document mentions 'server products' but does not provide any information about large collections of servers or the terms used to describe them.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific terms for a large collection of servers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or information that would help infer the terms for a large collection of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on financial performance and sales of server products, which is unrelated to the query about terminology for a large collection of servers. It does not provide any useful context or additional information relevant to the query."
+            },
+            "ott_3617_0": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document provides a comparison of various version-control software, including their history and notable users. It focuses on software tools and their applications rather than hardware or server infrastructure.",
+                "Document and Query Keywords Matching": "The document does not mention any keywords related to 'large collection', 'servers', or 'called'.",
+                "Document and Answer Keywords Matching": "The document does not contain the terms 'server farm' or 'server cluster'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is about version-control software, which is unrelated to server infrastructure.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about a large collection of servers or the terms used to describe it.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on version-control software and does not mention any terms or concepts related to server infrastructure. Therefore, it cannot answer the query or provide any useful context for it."
+            },
+            "triviaqa_59663_71": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms that describe a large collection of servers: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses various operating systems, including network operating systems and embedded operating systems. It mentions specific products like NetWare, Windows NT Server, Windows 2000 Server, and others, but does not directly address the concept of a large collection of servers.",
+                "Document and Query Keywords Matching": "The document does not contain the keywords 'large collection' or 'servers' in the context of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on a large collection of servers.",
+                "Can the Document Answer the Query": "No, the document does not provide any information directly related to the term for a large collection of servers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is focused on operating systems and does not provide any context or additional information that could help infer the term for a large collection of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on different types of operating systems and does not contain any information related to the concept of a large collection of servers. Therefore, it is irrelevant to the query."
+            },
+            "m.01hb3_101": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides the terms 'server farm' and 'server cluster' as names for a large collection of servers.",
+                "Document Content Analysis": "The document provides information about the British Museum, including its history, collections, exhibitions, and other related details. It does not mention anything about servers or related technology.",
+                "Document and Query Keywords Matching": "None of the query keywords ('large collection', 'servers', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('server farm', 'server cluster') are found in the document.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about servers or their collective terms.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information related to servers or technology.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the British Museum and does not provide any information about servers or technology, making it irrelevant to the query."
+            },
+            "triviaqa_28877_18": {
+                "Query Analysis": "The query is asking for a term that describes a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms that describe a large collection of servers: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document appears to be corrupted or in an unreadable format, containing non-printable characters and no recognizable text.",
+                "Document and Query Keywords Matching": "None, as the document does not contain any readable text.",
+                "Document and Answer Keywords Matching": "None, as the document does not contain any readable text.",
+                "Key Information Matching": "There is no key information to match since the document is unreadable.",
+                "Can the Document Answer the Query": "No, the document does not contain any relevant information.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any useful context or information.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant because it is corrupted and does not contain any readable text that could assist in answering the query or providing relevant context."
+            },
+            "nq_234452_19": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document discusses various aspects of servers, including server farms and server clusters. It explains that a server farm or server cluster is a collection of computer servers maintained by an organization to supply server functionality beyond the capability of a single device. It also mentions modern data centers and the Open Compute Project.",
+                "Document and Query Keywords Matching": "The document includes the keywords 'server farm' and 'server cluster', which directly relate to the query's keywords 'large collection' and 'servers'.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'server farm' and 'server cluster', which are the exact terms provided in the answer.",
+                "Key Information Matching": "The document directly addresses the concept of a large collection of servers by defining 'server farm' and 'server cluster'.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by providing the terms 'server farm' and 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the functionality and purpose of server farms and server clusters.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly provides the answer and offers additional context about server farms and server clusters. It clearly defines the terms and explains their significance in modern data centers, making it a valuable resource for understanding the query."
+            },
+            "nq_234452_2": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms that describe a large collection of servers: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses the client-server model, various types of servers, and mentions computing clusters. It explains how servers function and the different roles they can play in a networked environment.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document includes the term 'computing clusters', which is similar to 'server cluster' in the answer.",
+                "Key Information Matching": "The document discusses servers and mentions 'computing clusters', which is a relevant concept to the query about large collections of servers.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that a large collection of servers is called a 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the mention of 'computing clusters' can help infer that a large collection of servers might be referred to as a cluster, which is part of the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions 'computing clusters', which is a concept related to the query. However, it does not directly provide the terms 'server farm' or 'server cluster'. The document can help infer part of the answer but does not fully answer the query."
+            },
+            "nq_910_1": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster', both of which describe a large collection of servers.",
+                "Document Content Analysis": "The document provides a general description of what a server is, its role in the client-server model, and mentions various types of servers like database servers and file servers. It also includes images and references to the Wikimedia Foundation servers and the first WWW server at CERN.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' but does not explicitly use the terms 'large collection' or 'called'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "While the document discusses servers and their roles, it does not provide specific terminology for a large collection of servers.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific terms 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks the specific terminology and context needed to infer the terms for a large collection of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is generally about servers and their functions but does not address the specific terminology for a large collection of servers. Therefore, it is irrelevant to the query as it neither provides the answer nor helps infer the required information."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_234452_3": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses servers, their hardware, and mentions 'computing clusters' as being composed of many relatively simple, replaceable server components.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters', which are related to the query's keywords.",
+                "Document and Answer Keywords Matching": "The document includes 'computing clusters', which is similar to one of the answer terms 'server cluster'.",
+                "Key Information Matching": "The document provides information about 'computing clusters' being composed of many server components, which aligns with the query's need for a term describing a large collection of servers.",
+                "Can the Document Answer the Query": "Yes, the document mentions 'computing clusters', which is one of the terms provided in the answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about how servers are grouped in clusters.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions 'computing clusters', which is one of the terms used in the answer to describe a large collection of servers. This provides substantial useful context and directly answers the query."
+            },
+            "m.012vtfpw_20": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses Google Apps for Work, mentioning that it hosts customer data in Google's network of server farms rather than on traditional internal company servers. It also notes that over 5 million organizations use Google Apps, including 60% of Fortune 500 companies.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'server farms'.",
+                "Document and Answer Keywords Matching": "The document includes 'server farms', which matches one of the answer terms.",
+                "Key Information Matching": "The document mentions 'server farms', which is one of the terms provided in the answer, indicating a large collection of servers.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'server farms', which is one of the correct answers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about server farms and their use by Google.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions 'server farms', which is one of the correct answers to the query. Additionally, it provides useful context about how server farms are used by Google, enhancing understanding of the query."
+            },
+            "ott_12654_2": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, server farm, server cluster",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses various distributed computing projects, their purposes, and the institutions involved. It does not mention anything about servers or collections of servers.",
+                "Document and Query Keywords Matching": "None of the query keywords ('large collection', 'servers', 'server farm', 'server cluster') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('server farm', 'server cluster') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to servers or collections of servers.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about servers or their collections.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses distributed computing projects and does not mention servers or their collections in any way."
+            },
+            "nq_910_3": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses servers, their hardware, and mentions 'computing clusters' as a collection of many relatively simple, replaceable server components.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters', which relates to 'large collection of servers'.",
+                "Document and Answer Keywords Matching": "The document includes 'computing clusters', which is similar to 'server cluster' in the answer.",
+                "Key Information Matching": "The document provides information about 'computing clusters', which aligns with the query's need for a term describing a large collection of servers.",
+                "Can the Document Answer the Query": "Yes, the document mentions 'computing clusters', which is one of the terms provided in the answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about servers and clusters, which helps in understanding the terms used in the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions 'computing clusters', which is one of the terms used in the answer. It also provides additional context about servers and their hardware, enhancing understanding of the query."
+            },
+            "nq_226221_30": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster' as names for a large collection of servers.",
+                "Document Content Analysis": "The document discusses the use of many servers by companies like Facebook, Yahoo!, Microsoft, and Google, and mentions data centers and the number of servers they contain. It also talks about internet growth and website statistics but does not directly define a term for a large collection of servers.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'many servers', which matches the query's keyword 'servers'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster', the terms provided in the answer.",
+                "Key Information Matching": "The document discusses the use of many servers by large companies, which is related to the concept of a large collection of servers, but it does not provide the specific terms 'server farm' or 'server cluster'.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the terms 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the use of many servers by large companies, which is related to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses the use of many servers, but it does not provide the specific terms asked for in the query. It offers some context but is not directly tied to the main topic of the query."
+            },
+            "nq_910_10": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document describes various types of servers and their functions, such as communications servers, computing servers, database servers, fax servers, and file servers. It does not explicitly mention 'server farm' or 'server cluster'.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'network', which are related to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "The document discusses different types of servers and their roles in a network, which is related to the concept of a large collection of servers but does not provide the specific terms mentioned in the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain the terms 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about various types of servers and their functions, which could help infer the concept of a large collection of servers.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is somewhat related to the query as it discusses servers and their roles in a network, but it does not provide the specific terms 'server farm' or 'server cluster' mentioned in the answer. Therefore, it is partially relevant."
+            },
+            "m.03q9w5j_80": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses electrical power distribution networks, including terms like 'anningsnet', 'lichtnet', 'laagspanningsnet', and 'middenspanningsnet'. It also mentions 'Electric Power Distribution' in different languages but does not refer to servers or computing infrastructure.",
+                "Document and Query Keywords Matching": "None of the query keywords ('large collection', 'servers', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('server farm', 'server cluster') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to servers or computing infrastructure, which is the key topic of the query.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about servers or their collections.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses electrical power distribution networks and does not mention servers or computing infrastructure in any way."
+            },
+            "m.07cx4_202": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses various aspects of telephones, including their history, components, and classifications. There is no mention of servers, server farms, or server clusters.",
+                "Document and Query Keywords Matching": "None of the query keywords ('large collection', 'servers', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('server farm', 'server cluster') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to servers or large collections of servers.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about servers or their collections.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about servers and their collections. It does not provide any useful context or additional information relevant to the query."
+            },
+            "nq_910_19": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer is 'server farm or server cluster', which are terms used to describe a large collection of servers.",
+                "Document Content Analysis": "The document discusses server clusters and server farms, describing them as collections of computer servers maintained by an organization to provide server functionality beyond a single device. It also mentions modern data centers and the Open Compute Project.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'collection', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'server farm' and 'server cluster', which are the exact terms provided in the answer.",
+                "Key Information Matching": "The document directly provides the terms 'server farm' and 'server cluster', which are the answers to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by providing the terms 'server farm' and 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about server clusters and farms, including their purpose and modern implementations in data centers.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer as well as additional relevant information about server clusters and farms."
+            },
+            "nq_910_2": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses various aspects of servers, including their functionalities, types, and the client-server model. It also mentions 'computing clusters' as a collection of server components.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters'.",
+                "Document and Answer Keywords Matching": "The document includes 'computing clusters', which is similar to 'server cluster' in the answer.",
+                "Key Information Matching": "The document provides information about servers and mentions 'computing clusters', which aligns with the answer's 'server cluster'.",
+                "Can the Document Answer the Query": "Yes, the document mentions 'computing clusters', which is one of the terms provided in the answer.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about servers and their groupings, which supports the answer.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly mentions 'computing clusters', which is one of the terms used in the answer to describe a large collection of servers. This makes the document highly relevant as it provides the exact information needed to answer the query."
+            },
+            "tat_269_1": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large, collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses financial billings and performance metrics across different regions, mentioning 'Server products' in the context of sales performance.",
+                "Document and Query Keywords Matching": "The document mentions 'Server products', which partially matches the query keyword 'servers'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "The document mentions 'Server products' but does not provide any information about a large collection of servers or the terms 'server farm' or 'server cluster'.",
+                "Can the Document Answer the Query": "No, the document does not contain the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional details about a large collection of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any meaningful way. It discusses financial billings and sales performance of 'Server products' but does not provide any information about a large collection of servers or the terms 'server farm' or 'server cluster'. Therefore, it is irrelevant to the query."
+            },
+            "ott_3617_0": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document is a comparison table of version-control software, detailing their history and notable users. It does not mention anything about servers or related terms.",
+                "Document and Query Keywords Matching": "None of the query keywords ('large collection', 'servers', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('server farm', 'server cluster') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to servers or large collections of servers.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about servers or related terms.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses version-control software and does not mention servers or any related concepts."
+            },
+            "triviaqa_59663_71": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses various network operating systems and embedded operating systems, but does not mention anything about a large collection of servers.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords ('large collection', 'servers', 'called').",
+                "Document and Answer Keywords Matching": "The document does not contain any of the answer keywords ('server farm', 'server cluster').",
+                "Key Information Matching": "The document does not provide any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention anything about a large collection of servers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any way. It does not provide any useful context or additional information to answer the query or help infer the answer."
+            },
+            "m.01hb3_101": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document provides information about the British Museum, including its collections, exhibitions, directors, and historical background. There is no mention of servers or related terms.",
+                "Document and Query Keywords Matching": "None of the query keywords ('large collection', 'servers', 'called') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('server farm', 'server cluster') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to servers or large collections of servers.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about servers or their collections.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query, as it discusses the British Museum and its collections, with no mention of servers or related concepts."
+            },
+            "triviaqa_28877_18": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer provides two possible terms: 'server farm' or 'server cluster'.",
+                "Document Content Analysis": "The document appears to be corrupted or contains non-readable characters, making it impossible to extract any meaningful information.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document due to its unreadable content.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document due to its unreadable content.",
+                "Key Information Matching": "No key information can be matched as the document is unreadable.",
+                "Can the Document Answer the Query": "No, the document cannot answer the query due to its unreadable content.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document cannot help infer any additional information due to its unreadable content.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant as it does not provide any readable or meaningful information related to the query or the answer."
+            },
+            "nq_234452_19": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses server clusters and server farms, explaining that they are collections of computer servers maintained by an organization to provide server functionality beyond a single device. It also mentions modern data centers and the Open Compute Project.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'collection' (implied in 'server farm' and 'server cluster').",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'server farm' and 'server cluster'.",
+                "Key Information Matching": "The document directly provides the terms 'server farm' and 'server cluster', which match the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by providing the terms 'server farm' and 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about server farms and clusters, including their purpose and modern usage in data centers.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer ('server farm' and 'server cluster'). It also offers additional useful context about these terms, enhancing understanding of the query."
+            },
+            "nq_234452_2": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers, called",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses various aspects of servers, including their functionalities, types, and the client-server model. It mentions 'computing clusters' as a collection of server components.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'computing clusters'.",
+                "Document and Answer Keywords Matching": "The document includes 'computing clusters', which is similar to 'server cluster' from the answer.",
+                "Key Information Matching": "The document provides information about servers and mentions 'computing clusters', which is related to the answer 'server cluster'.",
+                "Can the Document Answer the Query": "No, the document does not explicitly mention 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions 'computing clusters', which is a related concept to 'server cluster'.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about servers and mentions 'computing clusters', which is somewhat related to the answer 'server cluster'. However, it does not directly provide the exact terms 'server farm' or 'server cluster'."
+            },
+            "nq_910_1": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer provides two terms: 'server farm' and 'server cluster'.",
+                "Document Content Analysis": "The document discusses the concept of servers in computing, including their functionality, the client-server model, and examples of different types of servers. It does not explicitly mention 'server farm' or 'server cluster'.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and discusses their role in computing.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "The document provides general information about servers but does not specifically address the concept of a large collection of servers.",
+                "Can the Document Answer the Query": "No, the document does not contain the terms 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide information that would help infer the terms for a large collection of servers.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about servers in general but does not contain any information relevant to the specific query about a large collection of servers. It does not mention 'server farm' or 'server cluster' and does not provide any context that would help infer these terms."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_234452_3": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The term given for a large collection of servers is 'server farm' or 'server cluster'.",
+                "Document Content Analysis": "The document discusses various aspects related to servers, including their operation, classification, and hardware requirements. It also mentions large computing clusters.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'servers'.",
+                "Document and Answer Keywords Matching": "The document mentions 'computing clusters', which is related to 'server cluster'.",
+                "Key Information Matching": "The document provides context on server-related terminologies and mentions 'computing clusters', which are relevant to understanding the concept of a 'server cluster'.",
+                "Can the Document Answer the Query": "No, the document does not directly define 'a large collection of servers' as 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides context about server terminology and discusses computing clusters, which indirectly relates to the concept of server clusters.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query, it provides context and mentions related terminology ('computing clusters') that is relevant for understanding what a large collection of servers might be called. This makes the document partially relevant."
+            },
+            "m.012vtfpw_20": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer indicates that a large collection of servers is called a 'server farm' or 'server cluster'.",
+                "Document Content Analysis": "The document discusses Google Apps for Work, a suite of cloud tools offered by Google, and mentions the hosting of customer data on Google's network of servers rather than traditional internal company servers.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' in the context of hosting customer data.",
+                "Document and Answer Keywords Matching": "The document refers to 'network of servers', which indirectly relates to the concept of a server farm or cluster, but does not use these specific terms.",
+                "Key Information Matching": "While the document talks about a network of servers used by Google, it does not explicitly refer to a 'server farm' or 'server cluster'.",
+                "Can the Document Answer the Query": "No, the document does not directly provide the term for a large collection of servers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides insight into cloud solutions and infrastructure involving large networked servers.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides some contextual information about networks of servers, which is related to the topic of the query, but it does not explicitly answer what a collection of servers is called. Therefore, it is partially relevant as it gives an idea of cloud server infrastructure but does not use the specific terms 'server farm' or 'server cluster'."
+            },
+            "ott_12654_2": {},
+            "nq_910_3": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer provided is 'server farm or server cluster'.",
+                "Document Content Analysis": "The document discusses various aspects of servers, including hardware requirements, computing clusters, and distinctions between server and user hosts. It also touches on the historical context of the term 'server' in computing.",
+                "Document and Query Keywords Matching": "The document mentions 'servers' and 'clusters', which are related to the keywords 'large collection' and 'servers' from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'computing clusters', which is closely related to 'server cluster', part of the provided answer.",
+                "Key Information Matching": "The document provides information on 'computing clusters', which aligns with the concept of a 'server cluster' or 'server farm' and relates to having a large collection of servers.",
+                "Can the Document Answer the Query": "Yes, the document can indirectly answer the query by explaining that a 'large computing cluster' could represent a large collection of servers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides foundational context about computing clusters and server setups, which aids in understanding the term for a large collection of servers.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document contains relevant key information that helps understand what a large collection of servers is called, particularly by discussing 'computing clusters' and related server concepts. This information directly pertains to the query and provides useful context, thus making the document highly relevant."
+            },
+            "nq_226221_30": {},
+            "nq_910_10": {
+                "Query Analysis": "The query is asking for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer suggests the terms 'server farm' or 'server cluster' as possible answers.",
+                "Document Content Analysis": "The document provides details on various types of servers like communication server, computing server, database server, fax server, and file server. It describes their functions and the type of clients or data they serve over a network.",
+                "Document and Query Keywords Matching": "The keyword 'servers' is mentioned in various contexts in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'server farm' or 'server cluster'.",
+                "Key Information Matching": "While the document discusses different types of servers, it does not address the concept of a collection of servers, nor does it use terminology like 'server farm' or 'server cluster'.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific terminology for a large collection of servers.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer information that aids in understanding or inferring the concept of a 'server farm' or 'server cluster'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain information related to the concept of a large collection of servers or the specific terms 'server farm' or 'server cluster'. It only describes individual types of servers and their respective functions, making it irrelevant to the query."
+            },
+            "m.03q9w5j_80": {},
+            "m.07cx4_202": {},
+            "nq_910_19": {},
+            "nq_910_2": {
+                "Query Analysis": "The query asks for the term used to describe a large collection of servers.",
+                "Query Keywords Extraction": "large collection, servers",
+                "Answer Analysis": "The answer is a 'server farm' or 'server cluster'.",
+                "Document Content Analysis": "The document discusses the client-server model, explaining server functionalities and different types of servers. It also mentions computing clusters as an arrangement of many server components.",
+                "Document and Query Keywords Matching": "The document contains 'servers' and 'large computing clusters', which relate to the query about a collection of servers.",
+                "Document and Answer Keywords Matching": "The document mentions 'computing clusters', which directly relates to the term 'server cluster' found in the answer.",
+                "Key Information Matching": "The document does not directly state the term 'server farm', but it mentions 'computing clusters', aligning with the concept of a server cluster as given in the answer.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that a large collection of servers is called a 'server farm' or 'server cluster'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document discusses computing clusters, which helps infer the concept of a large collection of servers.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not explicitly mention 'server farm' or 'server cluster', it provides context about computing clusters, which relates to the answer. Therefore, it is partially relevant and aids in inferring what a large collection of servers might be called."
+            },
+            "tat_269_1": {},
+            "ott_3617_0": {},
+            "triviaqa_59663_71": {},
+            "m.01hb3_101": {},
+            "triviaqa_28877_18": {},
+            "nq_234452_19": {},
+            "nq_234452_2": {},
+            "nq_910_1": {}
+        },
+        "relevance_judgement": 1,
+        "dataset_score": {
+            "kg": 1,
+            "nq": 5,
+            "ott": 0,
+            "triviaqa": 0,
+            "tat": 0
+        }
+    }
+}

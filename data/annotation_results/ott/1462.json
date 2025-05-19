@@ -1,0 +1,996 @@
+{
+    "index": 1462,
+    "context": [
+        "Culver Aircraft Company\nModel name | First flight | Number built\n--- | --- | ---\nDart G | 1938 | 50\nDart GC | 1939 | 10\nDart GK | 1938 | 25\nDart GW | 1939 | 8\nDart GW Special | 1939 | 2\nCadet LCA | 1939 | \nCadet LFA | 1939 | \nCadet LFA-90 | 1941 | \nLAR ( Army A-8 ) | 1941 | \nLAR-90 ( Army PQ-8 ) | 1941 | 200\nPQ-8A | 1941 | 200\nPQ-10 | 1940s | 0\nTDC-1 | 1941 | 1\nTDC-2 | 1941 | 201\nXPQ-14 | 1942 | 1\nPQ-14A/TD2C Turkey | 1942 | 1400\nPQ-14B |  | 1100\nXPQ-14C |  | 1\n\nwiki_section_title: Aircraft\n\nwiki_section_text: A Culver PQ-14\n\nintro: The Culver Aircraft Company was an American aircraft manufacturer of light aircraft of the 1930s and 1940s.\n\n"
+    ],
+    "qa": {
+        "question": "What was the purpose of the airplane model by Culver Aircraft Company of which the most units were built ?",
+        "answer": "target drone",
+        "BM25_documents": [
+            {
+                "id": "nq_205485_17",
+                "score": 20.939599990844727
+            },
+            {
+                "id": "nq_292839_17",
+                "score": 20.939598083496094
+            },
+            {
+                "id": "m.02q64hp_11",
+                "score": 20.305200576782227
+            },
+            {
+                "id": "ott_1462_0",
+                "score": 18.63360023498535
+            },
+            {
+                "id": "ott_15033_0",
+                "score": 18.63359832763672
+            },
+            {
+                "id": "ott_5649_0",
+                "score": 18.63359832763672
+            },
+            {
+                "id": "m.02q64hp_10",
+                "score": 18.520200729370117
+            },
+            {
+                "id": "m.08nh10_16",
+                "score": 17.82670021057129
+            },
+            {
+                "id": "m.08nh10_17",
+                "score": 17.60890007019043
+            },
+            {
+                "id": "m.03h17zs_1",
+                "score": 17.45479965209961
+            },
+            {
+                "id": "m.040k78_13",
+                "score": 16.795700073242188
+            },
+            {
+                "id": "m.03hl89q_2",
+                "score": 16.722400665283203
+            },
+            {
+                "id": "m.03h17zs_0",
+                "score": 16.598600387573242
+            },
+            {
+                "id": "triviaqa_7675_60",
+                "score": 16.482500076293945
+            },
+            {
+                "id": "triviaqa_7675_17",
+                "score": 16.450899124145508
+            },
+            {
+                "id": "m.02w96kv_2",
+                "score": 16.423599243164062
+            },
+            {
+                "id": "triviaqa_75734_20",
+                "score": 16.30139923095703
+            },
+            {
+                "id": "triviaqa_75734_6",
+                "score": 16.271299362182617
+            },
+            {
+                "id": "m.02srhl_24",
+                "score": 16.190900802612305
+            },
+            {
+                "id": "m.05qvnz_10",
+                "score": 16.00629997253418
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "ott_1462_0",
+                "score": 18.63360023498535
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_1496_1",
+                "score": 10.517000198364258
+            },
+            {
+                "id": "tat_1496_2",
+                "score": 8.836099624633789
+            },
+            {
+                "id": "tat_1444_0",
+                "score": 8.472700119018555
+            },
+            {
+                "id": "tat_1976_1",
+                "score": 8.189900398254395
+            },
+            {
+                "id": "tat_1784_0",
+                "score": 7.629000186920166
+            },
+            {
+                "id": "tat_1976_0",
+                "score": 7.541900157928467
+            },
+            {
+                "id": "tat_1372_2",
+                "score": 7.539999961853027
+            },
+            {
+                "id": "tat_1080_0",
+                "score": 7.509300231933594
+            },
+            {
+                "id": "tat_2060_0",
+                "score": 7.500999927520752
+            },
+            {
+                "id": "tat_1447_0",
+                "score": 7.422500133514404
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_1462_0",
+                "score": 18.63360023498535
+            },
+            {
+                "id": "ott_15033_0",
+                "score": 18.63359832763672
+            },
+            {
+                "id": "ott_5649_0",
+                "score": 18.63359832763672
+            },
+            {
+                "id": "ott_11290_0",
+                "score": 15.371199607849121
+            },
+            {
+                "id": "ott_41001_0",
+                "score": 15.371198654174805
+            },
+            {
+                "id": "ott_12320_0",
+                "score": 14.673199653625488
+            },
+            {
+                "id": "ott_18957_0",
+                "score": 14.673198699951172
+            },
+            {
+                "id": "ott_15109_0",
+                "score": 13.864299774169922
+            },
+            {
+                "id": "ott_5974_0",
+                "score": 13.864298820495605
+            },
+            {
+                "id": "ott_11290_1",
+                "score": 11.93019962310791
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_205485_17",
+                "score": 20.939599990844727
+            },
+            {
+                "id": "nq_292839_17",
+                "score": 20.939598083496094
+            },
+            {
+                "id": "nq_11923_9",
+                "score": 15.18649959564209
+            },
+            {
+                "id": "nq_21839_9",
+                "score": 15.029399871826172
+            },
+            {
+                "id": "nq_145866_167",
+                "score": 13.57919979095459
+            },
+            {
+                "id": "nq_176753_0",
+                "score": 13.28849983215332
+            },
+            {
+                "id": "nq_177972_5",
+                "score": 13.157500267028809
+            },
+            {
+                "id": "nq_178889_35",
+                "score": 13.089300155639648
+            },
+            {
+                "id": "nq_46983_32",
+                "score": 13.055399894714355
+            },
+            {
+                "id": "nq_87431_23",
+                "score": 12.92870044708252
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_7675_60",
+                "score": 16.482500076293945
+            },
+            {
+                "id": "triviaqa_7675_17",
+                "score": 16.450899124145508
+            },
+            {
+                "id": "triviaqa_75734_20",
+                "score": 16.30139923095703
+            },
+            {
+                "id": "triviaqa_75734_6",
+                "score": 16.271299362182617
+            },
+            {
+                "id": "triviaqa_7675_18",
+                "score": 15.870800018310547
+            },
+            {
+                "id": "triviaqa_7675_2",
+                "score": 15.805500030517578
+            },
+            {
+                "id": "triviaqa_75734_27",
+                "score": 15.689000129699707
+            },
+            {
+                "id": "triviaqa_75734_0",
+                "score": 15.530799865722656
+            },
+            {
+                "id": "triviaqa_75734_2",
+                "score": 15.480299949645996
+            },
+            {
+                "id": "triviaqa_75734_57",
+                "score": 15.379799842834473
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.02q64hp_11",
+                "score": 20.305200576782227
+            },
+            {
+                "id": "m.02q64hp_10",
+                "score": 18.520200729370117
+            },
+            {
+                "id": "m.08nh10_16",
+                "score": 17.82670021057129
+            },
+            {
+                "id": "m.08nh10_17",
+                "score": 17.60890007019043
+            },
+            {
+                "id": "m.03h17zs_1",
+                "score": 17.45479965209961
+            },
+            {
+                "id": "m.040k78_13",
+                "score": 16.795700073242188
+            },
+            {
+                "id": "m.03hl89q_2",
+                "score": 16.722400665283203
+            },
+            {
+                "id": "m.03h17zs_0",
+                "score": 16.598600387573242
+            },
+            {
+                "id": "m.02w96kv_2",
+                "score": 16.423599243164062
+            },
+            {
+                "id": "m.02srhl_24",
+                "score": 16.190900802612305
+            },
+            {
+                "id": "m.05qvnz_10",
+                "score": 16.00629997253418
+            },
+            {
+                "id": "m.02w96kv_3",
+                "score": 15.989500045776367
+            },
+            {
+                "id": "m.03byfqv_10",
+                "score": 15.983599662780762
+            },
+            {
+                "id": "m.02x015__6",
+                "score": 15.641200065612793
+            },
+            {
+                "id": "m.02v_dwm_8",
+                "score": 15.6048002243042
+            },
+            {
+                "id": "m.05qvnz_9",
+                "score": 15.50160026550293
+            },
+            {
+                "id": "m.06swnt_5",
+                "score": 15.452899932861328
+            },
+            {
+                "id": "m.02f6_0_29",
+                "score": 15.440899848937988
+            },
+            {
+                "id": "m.03mdh_g_8",
+                "score": 15.291600227355957
+            },
+            {
+                "id": "m.040k78_14",
+                "score": 15.252599716186523
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "ott_15033_0",
+                "score": 0.7166959643363953
+            },
+            {
+                "id": "ott_1462_0",
+                "score": 0.7166959643363953
+            },
+            {
+                "id": "ott_5649_0",
+                "score": 0.7166959643363953
+            },
+            {
+                "id": "m.02q64hp_11",
+                "score": 0.6206269860267639
+            },
+            {
+                "id": "m.02x01s7_4",
+                "score": 0.6133795380592346
+            },
+            {
+                "id": "triviaqa_74099_44",
+                "score": 0.6044548153877258
+            },
+            {
+                "id": "m.02x015__6",
+                "score": 0.6036343574523926
+            },
+            {
+                "id": "m.040k78_12",
+                "score": 0.6000928282737732
+            },
+            {
+                "id": "triviaqa_7675_4",
+                "score": 0.5971679091453552
+            },
+            {
+                "id": "nq_142193_50",
+                "score": 0.5962516069412231
+            },
+            {
+                "id": "m.02nsdk_18",
+                "score": 0.5945526361465454
+            },
+            {
+                "id": "m.090mrd_6",
+                "score": 0.5939842462539673
+            },
+            {
+                "id": "m.02x01s7_0",
+                "score": 0.592670202255249
+            },
+            {
+                "id": "triviaqa_75734_59",
+                "score": 0.5924716591835022
+            },
+            {
+                "id": "m.02vz86r_3",
+                "score": 0.5923150777816772
+            },
+            {
+                "id": "m.04mx2q_15",
+                "score": 0.5914415717124939
+            },
+            {
+                "id": "m.04mx2q_16",
+                "score": 0.5913900136947632
+            },
+            {
+                "id": "ott_18957_0",
+                "score": 0.5908721685409546
+            },
+            {
+                "id": "ott_12320_0",
+                "score": 0.5908721685409546
+            },
+            {
+                "id": "triviaqa_75734_54",
+                "score": 0.5900388956069946
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "ott_1462_0",
+                "score": 0.7166959643363953
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_15033_0",
+                "score": 0.7166959643363953
+            },
+            {
+                "id": "ott_1462_0",
+                "score": 0.7166959643363953
+            },
+            {
+                "id": "ott_5649_0",
+                "score": 0.7166959643363953
+            },
+            {
+                "id": "ott_18957_0",
+                "score": 0.5908721685409546
+            },
+            {
+                "id": "ott_12320_0",
+                "score": 0.5908721685409546
+            },
+            {
+                "id": "ott_11290_0",
+                "score": 0.586399495601654
+            },
+            {
+                "id": "ott_41001_0",
+                "score": 0.586399495601654
+            },
+            {
+                "id": "ott_29608_0",
+                "score": 0.5589289665222168
+            },
+            {
+                "id": "ott_4426_0",
+                "score": 0.5589289665222168
+            },
+            {
+                "id": "ott_34993_0",
+                "score": 0.5589289665222168
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_142193_50",
+                "score": 0.5962516069412231
+            },
+            {
+                "id": "nq_142193_54",
+                "score": 0.5719928741455078
+            },
+            {
+                "id": "nq_178889_35",
+                "score": 0.5687623023986816
+            },
+            {
+                "id": "nq_168922_77",
+                "score": 0.5642493963241577
+            },
+            {
+                "id": "nq_239173_50",
+                "score": 0.5636233687400818
+            },
+            {
+                "id": "nq_108771_74",
+                "score": 0.5633286833763123
+            },
+            {
+                "id": "nq_142548_310",
+                "score": 0.5629153251647949
+            },
+            {
+                "id": "nq_239173_51",
+                "score": 0.5627978444099426
+            },
+            {
+                "id": "nq_72099_11",
+                "score": 0.5615705847740173
+            },
+            {
+                "id": "nq_108771_36",
+                "score": 0.5613279938697815
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_74099_44",
+                "score": 0.6044548153877258
+            },
+            {
+                "id": "triviaqa_7675_4",
+                "score": 0.5971679091453552
+            },
+            {
+                "id": "triviaqa_75734_59",
+                "score": 0.5924716591835022
+            },
+            {
+                "id": "triviaqa_75734_54",
+                "score": 0.5900388956069946
+            },
+            {
+                "id": "triviaqa_7675_5",
+                "score": 0.5863537192344666
+            },
+            {
+                "id": "triviaqa_20300_24",
+                "score": 0.582736611366272
+            },
+            {
+                "id": "triviaqa_75734_74",
+                "score": 0.5815533995628357
+            },
+            {
+                "id": "triviaqa_7675_18",
+                "score": 0.5813178420066833
+            },
+            {
+                "id": "triviaqa_75734_62",
+                "score": 0.5796764492988586
+            },
+            {
+                "id": "triviaqa_7675_3",
+                "score": 0.5785296559333801
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.02q64hp_11",
+                "score": 0.6206269860267639
+            },
+            {
+                "id": "m.02x01s7_4",
+                "score": 0.6133795380592346
+            },
+            {
+                "id": "m.02x015__6",
+                "score": 0.6036343574523926
+            },
+            {
+                "id": "m.040k78_12",
+                "score": 0.6000928282737732
+            },
+            {
+                "id": "m.02nsdk_18",
+                "score": 0.5945526361465454
+            },
+            {
+                "id": "m.090mrd_6",
+                "score": 0.5939842462539673
+            },
+            {
+                "id": "m.02x01s7_0",
+                "score": 0.592670202255249
+            },
+            {
+                "id": "m.02vz86r_3",
+                "score": 0.5923150777816772
+            },
+            {
+                "id": "m.04mx2q_15",
+                "score": 0.5914415717124939
+            },
+            {
+                "id": "m.04mx2q_16",
+                "score": 0.5913900136947632
+            },
+            {
+                "id": "m.01qt7l_69",
+                "score": 0.5894683599472046
+            },
+            {
+                "id": "m.02q64hp_10",
+                "score": 0.58814537525177
+            },
+            {
+                "id": "m.04042s3_6",
+                "score": 0.5870406031608582
+            },
+            {
+                "id": "m.02c7x1_35",
+                "score": 0.5862354040145874
+            },
+            {
+                "id": "m.02x015__1",
+                "score": 0.5857376456260681
+            },
+            {
+                "id": "m.02v_hr2_2",
+                "score": 0.584649920463562
+            },
+            {
+                "id": "m.06l8r__13",
+                "score": 0.583562433719635
+            },
+            {
+                "id": "m.02x015__7",
+                "score": 0.582261323928833
+            },
+            {
+                "id": "m.01th28_4",
+                "score": 0.5808471441268921
+            },
+            {
+                "id": "m.043t0c_26",
+                "score": 0.580634355545044
+            }
+        ],
+        "llm_mark_result": {
+            "nq_205485_17": {
+                "Query Analysis": "The query seeks to understand the primary purpose of the most-produced airplane model by the Culver Aircraft Company.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the airplane model was to serve as a target drone.",
+                "Document Content Analysis": "The document discusses the production details of a film, including special effects, locations, and the involvement of Hughes Aircraft Company in Culver City, California. It mentions the creation of miniatures for various objects, including aircraft, but does not specify any details about the Culver Aircraft Company or target drones.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Culver' in the context of 'Culver City, California', but does not mention 'Culver Aircraft Company', 'airplane model', or 'most units built'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer, such as 'target drone'.",
+                "Key Information Matching": "There is no matching key information related to the query or the answer in the document. The mention of 'Culver' is in a different context and unrelated to the Culver Aircraft Company.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Culver Aircraft Company or the purpose of its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the purpose of the airplane model by the Culver Aircraft Company.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about the Culver Aircraft Company, its airplane models, or their purposes. The mention of 'Culver' is in a different context and does not provide any useful context or additional information related to the query."
+            },
+            "ott_15033_0": {
+                "Query Analysis": "The query seeks to determine the purpose of the airplane model produced by the Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer specifies that the purpose of the airplane model with the most units built was to serve as a target drone.",
+                "Document Content Analysis": "The document lists various airplane models produced by the Culver Aircraft Company, along with their first flight years and the number of units built. It includes models such as Dart G, Dart GC, and PQ-14A/TD2C Turkey, among others.",
+                "Document and Query Keywords Matching": "The document mentions 'Culver Aircraft Company' and provides data on 'number built' for each model.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'target drone'.",
+                "Key Information Matching": "The document shows that the PQ-14A/TD2C Turkey model had the highest number of units built (1400), but it does not state the purpose of this model.",
+                "Can the Document Answer the Query": "No, the document does not directly state the purpose of the PQ-14A/TD2C Turkey model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps identify the model with the most units built (PQ-14A/TD2C Turkey), which can be a starting point for further research.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query about the purpose of the airplane model, it provides crucial information about the model with the most units built. This information can be used to infer that the model in question is the PQ-14A/TD2C Turkey, which can then be researched further to determine its purpose. Therefore, the document is partially relevant."
+            },
+            "ott_5649_0": {
+                "Query Analysis": "The query seeks to determine the purpose of the airplane model produced by the Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the airplane model with the most units built was to serve as a target drone.",
+                "Document Content Analysis": "The document lists various airplane models produced by the Culver Aircraft Company, along with their first flight years and the number of units built. It includes models like Dart G, Dart GC, Dart GK, and several others, with the PQ-14A/TD2C Turkey model having the highest number of units built at 1400.",
+                "Document and Query Keywords Matching": "The document mentions 'Culver Aircraft Company' and provides data on 'number built' for various models.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'target drone', but it lists the PQ-14A/TD2C Turkey model, which is known to be a target drone.",
+                "Key Information Matching": "The document identifies the PQ-14A/TD2C Turkey as the model with the most units built (1400), which matches the query's focus on the model with the highest production. However, the document does not state the purpose of this model directly.",
+                "Can the Document Answer the Query": "No, the document does not directly state the purpose of the PQ-14A/TD2C Turkey model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by identifying the PQ-14A/TD2C Turkey as the model with the most units built, the document allows for the inference that this model's purpose is relevant to the query, especially if the user has external knowledge that the PQ-14A/TD2C Turkey is a target drone.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides key information about the model with the most units built by the Culver Aircraft Company, which is relevant to the query. However, it lacks the direct statement of the model's purpose, making it partially relevant. The document can help infer the answer if the user has additional knowledge about the PQ-14A/TD2C Turkey model."
+            },
+            "nq_292839_17": {
+                "Query Analysis": "The query asks for the purpose of the most-produced airplane model by the Culver Aircraft Company.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the airplane model was to serve as a target drone.",
+                "Document Content Analysis": "The document discusses the production of a film, including special effects, the involvement of Hughes Aircraft Company, and the creation of miniatures for the film. It mentions Culver City, California, but not the Culver Aircraft Company.",
+                "Document and Query Keywords Matching": "The document mentions 'Culver City', which could be tangentially related to 'Culver Aircraft Company' by name, but does not directly mention the company or any airplane models.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query's focus on the Culver Aircraft Company or the purpose of its airplane models.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Culver Aircraft Company or its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the purpose of the airplane models by the Culver Aircraft Company.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the production details of a film and does not contain any information related to the Culver Aircraft Company or its airplane models. Therefore, it is irrelevant to the query."
+            },
+            "nq_142193_50": {
+                "Query Analysis": "The query asks for the purpose of the airplane model produced by the Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the airplane model with the most units built by Culver Aircraft Company was to serve as a target drone.",
+                "Document Content Analysis": "The document lists various aircraft models, their origins, roles, versions, quantities, and notes. However, it does not specifically mention the Culver Aircraft Company or any of its models.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords such as 'Culver Aircraft Company', 'airplane model', or 'most units built'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone' or any related terms.",
+                "Key Information Matching": "There is no matching key information between the document and the query or answer. The document focuses on different aircraft models and their details, but none relate to the Culver Aircraft Company.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Culver Aircraft Company or its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about the Culver Aircraft Company or its products.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the Culver Aircraft Company, any of its airplane models, or the purpose of those models. It lacks any key information that could assist in answering the query or providing additional relevant context."
+            },
+            "m.02q64hp_10": {
+                "Query Analysis": "The query asks for the purpose of the airplane model produced by the Culver Aircraft Company that had the most units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the most-produced airplane model by Culver Aircraft Company was used as a target drone.",
+                "Document Content Analysis": "The document provides information about the Boeing Model 2, including its maiden flight, length, maximum speed, and a brief description. It mentions that the Boeing Model 2 and its derivatives were United States two-place training seaplanes and the first 'all-Boeing' design.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company' or 'target drone'. It focuses on 'Boeing Model 2', which is a different aircraft model.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to the answer 'target drone'.",
+                "Key Information Matching": "The document provides information about the Boeing Model 2, which is not relevant to the Culver Aircraft Company or the purpose of its most-produced model.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Culver Aircraft Company or the purpose of its most-produced airplane model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document focuses on a different aircraft model and manufacturer, providing no relevant context or additional information about the Culver Aircraft Company.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the Boeing Model 2 and provides no information about the Culver Aircraft Company or the purpose of its most-produced airplane model. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_7675_60": {
+                "Query Analysis": "The query seeks to understand the purpose of the most-produced airplane model by the Culver Aircraft Company.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the most-produced airplane model by Culver Aircraft Company was to serve as a target drone.",
+                "Document Content Analysis": "The document provides historical information about various aerospace milestones and developments, including the X-15 research plane, NASA's meteorological satellites, Glenn L. Martin company's transition, and other significant events in aviation and space history.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company', 'airplane model', or 'target drone'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer, such as 'target drone'.",
+                "Key Information Matching": "There is no information in the document that directly relates to the Culver Aircraft Company or the purpose of its most-produced airplane model.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Culver Aircraft Company or its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the purpose of the airplane model by Culver Aircraft Company.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on various historical aerospace milestones and does not mention the Culver Aircraft Company or provide any context that could be useful in answering the query."
+            },
+            "triviaqa_74099_44": {
+                "Query Analysis": "The query seeks to determine the primary purpose of the airplane model produced by the Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the primary purpose of the most-produced airplane model by Culver Aircraft Company was to serve as a target drone.",
+                "Document Content Analysis": "The document provides information about various classic American aircraft, including their primary roles and historical uses. It mentions the Cub's role in observation and its later use in combat, the DC-3's role as a commercial and military transport plane, the B-17 Flying Fortress's role in bombing missions, and the Curtiss Jenny's use in flight training and observation.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company' or any specific model produced by them.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone' or any related terms.",
+                "Key Information Matching": "The document does not contain any information directly related to the Culver Aircraft Company or its most-produced airplane model.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Culver Aircraft Company or the purpose of its most-produced airplane model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the purpose of the Culver Aircraft Company's most-produced airplane model.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the Culver Aircraft Company or any of its airplane models. It focuses on other classic American aircraft and their roles, which do not provide any useful context or additional information related to the query."
+            },
+            "tat_1496_1": {
+                "Query Analysis": "The query seeks to understand the primary purpose of the most-produced airplane model by the Culver Aircraft Company.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the primary purpose of the most-produced airplane model by Culver Aircraft Company was to serve as a target drone.",
+                "Document Content Analysis": "The document discusses financial concepts such as goodwill impairment, fair value estimation, and reporting unit evaluations. It includes details about discounted cash flows, market multiples, and the reassignment of goodwill between different operating segments.",
+                "Document and Query Keywords Matching": "None of the query keywords ('purpose', 'airplane model', 'Culver Aircraft Company', 'most units built') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('target drone') are found in the document.",
+                "Key Information Matching": "There is no matching key information between the query, answer, and the document content. The document focuses on financial evaluations and does not mention anything related to aircraft or their purposes.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Culver Aircraft Company or its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on financial accounting practices and does not mention any aspects of aviation, the Culver Aircraft Company, or the purpose of specific airplane models. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "m.02q64hp_11": {
+                "Query Analysis": "The query seeks to determine the purpose of the most-produced airplane model by the Culver Aircraft Company.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the most-produced airplane model by Culver Aircraft Company was to serve as a target drone.",
+                "Document Content Analysis": "The document provides information about the Boeing Model 2, its manufacturer, and its use as a United States two-place training seaplane. It details the history and development of the Boeing Model 2, including its military contracts and notable achievements.",
+                "Document and Query Keywords Matching": "The document mentions 'aircraft model' and 'manufacturer', but does not mention 'Culver Aircraft Company' or 'target drone'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords directly related to the answer 'target drone'.",
+                "Key Information Matching": "The document focuses on the Boeing Model 2, which is not relevant to the Culver Aircraft Company. It provides historical context and use cases for the Boeing Model 2, but none of this information pertains to the query's specific focus on Culver Aircraft Company or target drones.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the Culver Aircraft Company or the purpose of its most-produced airplane model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is entirely about Boeing and its Model 2, which is unrelated to the Culver Aircraft Company.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on the Boeing Model 2 and provides no information about the Culver Aircraft Company or the purpose of its most-produced airplane model. The document does not contain any key information that could help infer the answer or provide relevant context to the query."
+            },
+            "ott_1462_0": {
+                "Query Analysis": "The query seeks to determine the purpose of the airplane model produced by the Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the airplane model with the most units built was to serve as a target drone.",
+                "Document Content Analysis": "The document lists various airplane models produced by the Culver Aircraft Company, along with their first flight years and the number of units built. It includes models like Dart G, Dart GC, and PQ-14A/TD2C Turkey, among others.",
+                "Document and Query Keywords Matching": "The document mentions 'Culver Aircraft Company' and provides data on 'number built' for various models.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'target drone'.",
+                "Key Information Matching": "The document shows that the PQ-14A/TD2C Turkey model had the highest number of units built (1400), but it does not state the purpose of this model.",
+                "Can the Document Answer the Query": "No, the document does not directly state the purpose of the airplane model with the most units built.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps identify the model with the most units built (PQ-14A/TD2C Turkey), which can be a starting point for further research into its purpose.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly provide the purpose of the airplane model, it offers crucial information about the model with the highest production numbers, which is a significant step towards answering the query. This makes the document partially relevant."
+            },
+            "m.02x01s7_4": {
+                "Query Analysis": "The query seeks to determine the purpose of the most-produced airplane model by the Culver Aircraft Company.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer indicates that the purpose of the model was to serve as a target drone.",
+                "Document Content Analysis": "The document provides detailed information about the Wright Model C, an early military aircraft produced in the United States. It describes its design, features, and service life, specifically noting its use as a long-range scouting aircraft for the Aeronautical Division, U.S. Signal Corps.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company' or 'target drone'. It focuses on the Wright Model C, which is not the subject of the query.",
+                "Document and Answer Keywords Matching": "The document does not contain the term 'target drone' or any related context that would directly link to this purpose.",
+                "Key Information Matching": "The document provides information about an aircraft model (Wright Model C) and its purpose (long-range scouting), but this does not match the specific model or purpose asked about in the query.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the Culver Aircraft Company or the specific model in question.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's focus on the Wright Model C does not assist in inferring information about the Culver Aircraft Company's most-produced model.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it discusses the Wright Model C, which is unrelated to the Culver Aircraft Company or the purpose of its most-produced model. The document does not provide any useful context or additional information that could help answer the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "nq_205485_17": {
+                "Query Analysis": "The query asks about the purpose of the airplane model produced by Culver Aircraft Company, specifically focusing on the model of which the most units were built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the purpose of the airplane model was to serve as a target drone.",
+                "Document Content Analysis": "The document discusses the production of the film 'Independence Day' and mentions the use of miniatures, including aircraft models, built by the model-making department. It specifically notes that the production built more miniatures than any previous film, including models for buildings, city streets, aircraft, landmarks, and monuments. However, it does not mention Culver Aircraft Company or the specific purpose of any airplane models.",
+                "Document and Query Keywords Matching": "The document mentions 'aircraft' and 'model', but does not mention 'Culver Aircraft Company' or 'most units built'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone' or any related terms.",
+                "Key Information Matching": "The document discusses the creation of aircraft models for a film but does not provide information about Culver Aircraft Company or the purpose of the airplane model in question.",
+                "Can the Document Answer the Query": "No, the document does not mention Culver Aircraft Company or the purpose of the airplane model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Culver Aircraft Company or the purpose of the airplane model.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the production of a film and the creation of miniatures, including aircraft models, but it does not mention Culver Aircraft Company or provide any information about the purpose of the airplane model in question. Therefore, it is irrelevant to the query."
+            },
+            "ott_15033_0": {
+                "Query Analysis": "The query asks for the purpose of the airplane model by Culver Aircraft Company that had the most units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating the purpose of the airplane model.",
+                "Document Content Analysis": "The document provides a list of airplane models produced by Culver Aircraft Company, including their model names, first flight years, and the number of units built. It also mentions that the company was an American aircraft manufacturer of light aircraft in the 1930s and 1940s.",
+                "Document and Query Keywords Matching": "The document mentions 'Culver Aircraft Company' and 'number built', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'target drone', but it lists models like 'PQ-14A/TD2C Turkey' and 'PQ-14B', which are known to be target drones.",
+                "Key Information Matching": "The document lists models and their production numbers, with 'PQ-14A/TD2C Turkey' having the highest number of units built (1400). This model is historically known to be a target drone, which matches the answer.",
+                "Can the Document Answer the Query": "Yes, the document indirectly answers the query by listing the model with the most units built, which is known to be a target drone.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the necessary information to infer the purpose of the model with the most units built.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query. It provides substantial useful context by listing the models and their production numbers, allowing the inference that the model with the most units built (PQ-14A/TD2C Turkey) was a target drone. This directly answers the query and enhances understanding of the topic."
+            },
+            "ott_5649_0": {
+                "Query Analysis": "The query asks for the purpose of the airplane model by Culver Aircraft Company that had the most units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating the purpose of the most-produced model.",
+                "Document Content Analysis": "The document provides a list of aircraft models produced by Culver Aircraft Company, including their model names, first flight years, and the number of units built. It also mentions that the company was a manufacturer of light aircraft in the 1930s and 1940s.",
+                "Document and Query Keywords Matching": "The document mentions 'Culver Aircraft Company' and provides details about the number of units built for each model.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'target drone', but it lists models like 'PQ-14A/TD2C Turkey' and 'PQ-14B', which are associated with the highest number of units built (1400 and 1100 respectively).",
+                "Key Information Matching": "The document lists the number of units built for each model, with 'PQ-14A/TD2C Turkey' and 'PQ-14B' having the highest numbers. This aligns with the query's focus on the model with the most units built.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state the purpose of the most-produced model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about the number of units built for each model, which helps identify the most-produced model. However, it does not directly state the purpose of that model.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the number of units built for each model, which helps identify the most-produced model. However, it does not explicitly state the purpose of that model, making it partially relevant."
+            },
+            "nq_292839_17": {
+                "Query Analysis": "The query asks for the purpose of the airplane model produced by Culver Aircraft Company, specifically the model of which the most units were built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone,' indicating that the airplane model was used as a target drone.",
+                "Document Content Analysis": "The document discusses the production of the film 'Independence Day,' including details about the model-making department, which built miniatures for buildings, city streets, aircraft, landmarks, and monuments. It mentions that the production's model-making department built more miniatures than ever before for a film, including aircraft models.",
+                "Document and Query Keywords Matching": "The document mentions 'aircraft' and 'model,' but does not specifically mention 'Culver Aircraft Company' or 'most units built.'",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone.'",
+                "Key Information Matching": "The document discusses the creation of aircraft models for a film but does not provide information about the purpose of the models or the specific company mentioned in the query.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the purpose of the airplane model by Culver Aircraft Company.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the purpose of the airplane model or the company mentioned in the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not related to the query in any way. It discusses the production of a film and the creation of miniatures, including aircraft models, but does not mention Culver Aircraft Company, the purpose of the models, or any information that could help answer the query. Therefore, it is irrelevant."
+            },
+            "nq_142193_50": {
+                "Query Analysis": "The query asks for the purpose of the airplane model by Culver Aircraft Company that had the most units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating the purpose of the airplane model.",
+                "Document Content Analysis": "The document provides a table of fixed-wing aircraft used by the United States Army, including details such as origin, role, version, and quantity. However, it does not mention Culver Aircraft Company or any specific airplane model by them.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company' or any specific airplane model by them.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone' or any related terms.",
+                "Key Information Matching": "The document does not provide any information related to Culver Aircraft Company or its airplane models, nor does it mention 'target drone'.",
+                "Can the Document Answer the Query": "No, the document does not mention Culver Aircraft Company or its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Culver Aircraft Company or its airplane models.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Culver Aircraft Company, its airplane models, or the purpose of any such model. It provides no useful context or additional information related to the query."
+            },
+            "m.02q64hp_10": {
+                "Query Analysis": "The query asks about the purpose of the airplane model produced by Culver Aircraft Company, specifically the model of which the most units were built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the airplane model was used as a target drone.",
+                "Document Content Analysis": "The document provides information about the Boeing Model 2, including its type, manufacturer, and notable features. It mentions that the Boeing Model 2 was a training seaplane and the first financial success for Boeing. However, the document does not mention Culver Aircraft Company or any model produced by them.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company' or 'most units built', which are key parts of the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone', which is the answer to the query.",
+                "Key Information Matching": "The document does not provide any information related to Culver Aircraft Company or the purpose of their airplane models. It focuses on Boeing Model 2, which is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Culver Aircraft Company or their airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Culver Aircraft Company or their airplane models.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the Boeing Model 2, which has no connection to Culver Aircraft Company or the purpose of their airplane models. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_7675_60": {
+                "Query Analysis": "The query asks about the purpose of the airplane model produced by the Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the airplane model was used as a target drone.",
+                "Document Content Analysis": "The document provides a timeline of significant events in aviation and aerospace history, including the production of various aircraft models, NASA satellite launches, and milestones in space exploration. However, it does not mention the Culver Aircraft Company or any specific airplane model produced by them.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company', 'airplane model', or 'most units built'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone'.",
+                "Key Information Matching": "The document does not provide any information related to the Culver Aircraft Company or its airplane models, nor does it mention the purpose of any such models.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Culver Aircraft Company or its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the purpose of the airplane model in question.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention the Culver Aircraft Company, any airplane models produced by them, or the concept of a 'target drone'. Therefore, it cannot assist in answering the query or provide any relevant context."
+            },
+            "triviaqa_74099_44": {
+                "Query Analysis": "The query asks about the purpose of the airplane model produced by the Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the primary purpose of the airplane model was to serve as a target drone.",
+                "Document Content Analysis": "The document provides information about various classic American aircraft, including their roles and historical uses. However, it does not mention the Culver Aircraft Company or any airplane model produced by them.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company', 'airplane model', or 'most units built'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone'.",
+                "Key Information Matching": "The document does not provide any information related to the Culver Aircraft Company or its airplane models, nor does it mention anything about target drones.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about the Culver Aircraft Company or its airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the purpose of the airplane model in question.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention the Culver Aircraft Company, its airplane models, or the concept of target drones. It provides information about other aircraft, but none of this information is related to the query."
+            },
+            "tat_1496_1": {
+                "Query Analysis": "The query asks about the purpose of the airplane model produced by Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the airplane model was used as a target drone.",
+                "Document Content Analysis": "The document discusses financial valuation methods, goodwill impairment tests, and the use of discounted cash flows and market multiples for estimating fair values of reporting units. It does not mention Culver Aircraft Company, airplane models, or target drones.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Culver Aircraft Company, airplane models, or target drones.",
+                "Can the Document Answer the Query": "No, the document does not mention anything related to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer or additional details about the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses financial valuation and goodwill impairment, which have no connection to Culver Aircraft Company, airplane models, or target drones. Therefore, it is irrelevant to the query."
+            },
+            "m.02q64hp_11": {
+                "Query Analysis": "The query asks about the purpose of the airplane model produced by Culver Aircraft Company that had the highest number of units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the airplane model was used as a target drone.",
+                "Document Content Analysis": "The document discusses the Boeing Model 2, its derivatives, and their use as training seaplanes. It mentions the Model C naval trainer, its production numbers, and its significance in Boeing's history. However, it does not mention Culver Aircraft Company or any airplane models used as target drones.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company' or 'target drone', which are key to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone', which is the answer to the query.",
+                "Key Information Matching": "The document does not provide any information about Culver Aircraft Company or airplane models used as target drones, which are central to the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Culver Aircraft Company or the purpose of their airplane models.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Culver Aircraft Company or target drones.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on Boeing's Model 2 and its derivatives, which are unrelated to Culver Aircraft Company or target drones. It does not provide any information that is relevant to the query or the answer."
+            },
+            "ott_1462_0": {
+                "Query Analysis": "The query asks for the purpose of the airplane model by Culver Aircraft Company that had the most units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the purpose of the most-produced model was to serve as a target drone.",
+                "Document Content Analysis": "The document provides a list of aircraft models produced by Culver Aircraft Company, including their first flight dates and the number of units built. It also mentions that the company manufactured light aircraft in the 1930s and 1940s.",
+                "Document and Query Keywords Matching": "The document mentions 'Culver Aircraft Company' and lists models with the number of units built, which aligns with the query's focus on the most-produced model.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'target drone', but the model 'PQ-14A/TD2C Turkey' has the highest number of units built (1400), which could be inferred as the target drone.",
+                "Key Information Matching": "The document lists the 'PQ-14A/TD2C Turkey' as the model with the highest number of units built (1400), which aligns with the query's focus on the most-produced model. However, the document does not explicitly state its purpose as a target drone.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state the purpose of the most-produced model.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document identifies the most-produced model (PQ-14A/TD2C Turkey) and provides context about Culver Aircraft Company's focus on light aircraft, which could help infer its purpose as a target drone.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about the most-produced model by Culver Aircraft Company but does not explicitly state its purpose as a target drone. It helps infer additional information but does not directly answer the query."
+            },
+            "m.02x01s7_4": {
+                "Query Analysis": "The query asks for the purpose of the airplane model by Culver Aircraft Company that had the most units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The answer is 'target drone', indicating that the airplane model was used as a target drone.",
+                "Document Content Analysis": "The document provides detailed information about the Wright Model C aircraft, including its design, specifications, and service history. It mentions that the Wright Model C was an early military aircraft designed for long-range scouting and had a short service life due to fatal crashes.",
+                "Document and Query Keywords Matching": "The document does not mention 'Culver Aircraft Company' or 'most units built'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'target drone'.",
+                "Key Information Matching": "The document does not provide any information related to Culver Aircraft Company or the airplane model with the most units built. It focuses entirely on the Wright Model C, which is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Culver Aircraft Company or the airplane model with the most units built.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the purpose of the airplane model by Culver Aircraft Company.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on the Wright Model C aircraft, which is unrelated to the query about Culver Aircraft Company. It does not provide any information about Culver Aircraft Company or the airplane model with the most units built, making it irrelevant to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "nq_205485_17": {},
+            "ott_15033_0": {
+                "Query Analysis": "The query asks for the purpose of the airplane model created by Culver Aircraft Company that had the most units built.",
+                "Query Keywords Extraction": "purpose, airplane model, Culver Aircraft Company, most units built",
+                "Answer Analysis": "The purpose of the airplane model is identified as 'target drone'.",
+                "Document Content Analysis": "The document lists various models of aircraft built by Culver Aircraft Company, including their names, year of first flight, and the number of units built. It mentions models like Dart G, Dart GC, LAR, and PQ-14A/TD2C Turkey, among others.",
+                "Document and Query Keywords Matching": "The document includes 'Culver Aircraft Company', and provides information about model names and units built.",
+                "Document and Answer Keywords Matching": "The document lists PQ-14A/TD2C Turkey, which historically is known as a target drone.",
+                "Key Information Matching": "The document gives details about the PQ-14A/TD2C Turkey, which had the most units built (1,400). This corresponds with known information that it was used as a target drone.",
+                "Can the Document Answer the Query": "Yes, the document provides information necessary to determine that the PQ-14A/TD2C Turkey model was built in the most units, and historically it was a target drone.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by identifying the airplane model with the highest units built (PQ-14A/TD2C Turkey), it assists in understanding its usage as a target drone.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant because it contains the necessary information to identify the model built in the most units and its purpose as a target drone. This direct relationship means it provides substantial useful context, fulfilling the query."
+            },
+            "ott_5649_0": {},
+            "nq_292839_17": {},
+            "nq_142193_50": {},
+            "m.02q64hp_10": {},
+            "triviaqa_7675_60": {},
+            "triviaqa_74099_44": {},
+            "tat_1496_1": {},
+            "m.02q64hp_11": {},
+            "ott_1462_0": {},
+            "m.02x01s7_4": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "kg": 0,
+            "ott": 4,
+            "tat": 0,
+            "nq": 0,
+            "triviaqa": 0
+        }
+    }
+}

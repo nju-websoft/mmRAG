@@ -1,0 +1,973 @@
+{
+    "index": 2585,
+    "context": [
+        "m.02h77nv"
+    ],
+    "qa": {
+        "question": "what boudicca do?",
+        "answer": "Military Commander",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_13410_74",
+                "score": 9.913800239562988
+            },
+            {
+                "id": "triviaqa_13410_72",
+                "score": 9.803299903869629
+            },
+            {
+                "id": "triviaqa_13410_75",
+                "score": 9.774399757385254
+            },
+            {
+                "id": "triviaqa_13410_15",
+                "score": 9.689000129699707
+            },
+            {
+                "id": "triviaqa_13410_14",
+                "score": 9.594499588012695
+            },
+            {
+                "id": "triviaqa_45846_27",
+                "score": 9.547100067138672
+            },
+            {
+                "id": "triviaqa_13410_73",
+                "score": 9.512999534606934
+            },
+            {
+                "id": "triviaqa_13410_61",
+                "score": 9.410099983215332
+            },
+            {
+                "id": "triviaqa_45846_25",
+                "score": 9.372200012207031
+            },
+            {
+                "id": "triviaqa_45846_20",
+                "score": 9.190899848937988
+            },
+            {
+                "id": "triviaqa_45846_26",
+                "score": 9.190898895263672
+            },
+            {
+                "id": "triviaqa_45846_28",
+                "score": 9.095499992370605
+            },
+            {
+                "id": "triviaqa_13410_62",
+                "score": 8.948599815368652
+            },
+            {
+                "id": "triviaqa_45846_24",
+                "score": 8.664199829101562
+            },
+            {
+                "id": "triviaqa_13410_16",
+                "score": 8.608099937438965
+            },
+            {
+                "id": "triviaqa_45846_21",
+                "score": 8.608098983764648
+            },
+            {
+                "id": "triviaqa_41793_3",
+                "score": 8.16100025177002
+            },
+            {
+                "id": "triviaqa_60620_1130",
+                "score": 7.965400218963623
+            },
+            {
+                "id": "triviaqa_60620_1131",
+                "score": 7.840199947357178
+            },
+            {
+                "id": "nq_252107_9",
+                "score": 7.39300012588501
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_2953_1",
+                "score": 5.480299949645996
+            },
+            {
+                "id": "ott_4601_1",
+                "score": 5.48029899597168
+            },
+            {
+                "id": "ott_5826_1",
+                "score": 5.480298042297363
+            },
+            {
+                "id": "ott_2953_0",
+                "score": 5.39139986038208
+            },
+            {
+                "id": "ott_4601_0",
+                "score": 5.391398906707764
+            },
+            {
+                "id": "ott_5826_0",
+                "score": 5.391397953033447
+            },
+            {
+                "id": "ott_25167_0",
+                "score": 4.869500160217285
+            },
+            {
+                "id": "ott_31129_0",
+                "score": 4.869499206542969
+            },
+            {
+                "id": "ott_837_0",
+                "score": 4.869498252868652
+            },
+            {
+                "id": "ott_1421_0",
+                "score": 4.83259916305542
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_252107_9",
+                "score": 7.39300012588501
+            },
+            {
+                "id": "nq_253748_5",
+                "score": 7.392999172210693
+            },
+            {
+                "id": "nq_253748_6",
+                "score": 7.392998218536377
+            },
+            {
+                "id": "nq_252107_10",
+                "score": 7.311699867248535
+            },
+            {
+                "id": "nq_190854_74",
+                "score": 6.815000057220459
+            },
+            {
+                "id": "nq_126816_0",
+                "score": 6.447500228881836
+            },
+            {
+                "id": "nq_212134_91",
+                "score": 6.404900074005127
+            },
+            {
+                "id": "nq_44824_0",
+                "score": 6.3628997802734375
+            },
+            {
+                "id": "nq_22487_18",
+                "score": 6.321400165557861
+            },
+            {
+                "id": "nq_271023_163",
+                "score": 6.321399211883545
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_13410_74",
+                "score": 9.913800239562988
+            },
+            {
+                "id": "triviaqa_13410_72",
+                "score": 9.803299903869629
+            },
+            {
+                "id": "triviaqa_13410_75",
+                "score": 9.774399757385254
+            },
+            {
+                "id": "triviaqa_13410_15",
+                "score": 9.689000129699707
+            },
+            {
+                "id": "triviaqa_13410_14",
+                "score": 9.594499588012695
+            },
+            {
+                "id": "triviaqa_45846_27",
+                "score": 9.547100067138672
+            },
+            {
+                "id": "triviaqa_13410_73",
+                "score": 9.512999534606934
+            },
+            {
+                "id": "triviaqa_13410_61",
+                "score": 9.410099983215332
+            },
+            {
+                "id": "triviaqa_45846_25",
+                "score": 9.372200012207031
+            },
+            {
+                "id": "triviaqa_45846_20",
+                "score": 9.190899848937988
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0306c6_29",
+                "score": 5.394000053405762
+            },
+            {
+                "id": "m.0306c6_30",
+                "score": 5.334700107574463
+            },
+            {
+                "id": "m.0byfj4_0",
+                "score": 5.145400047302246
+            },
+            {
+                "id": "m.0byfj4_14",
+                "score": 5.116499900817871
+            },
+            {
+                "id": "m.0byfj4_9",
+                "score": 5.113800048828125
+            },
+            {
+                "id": "m.0byfj4_10",
+                "score": 5.109899997711182
+            },
+            {
+                "id": "m.0byfj4_16",
+                "score": 5.109099864959717
+            },
+            {
+                "id": "m.0byfj4_1",
+                "score": 5.105800151824951
+            },
+            {
+                "id": "m.0byfj4_11",
+                "score": 5.105100154876709
+            },
+            {
+                "id": "m.0byfj4_13",
+                "score": 5.105099201202393
+            },
+            {
+                "id": "m.0byfj4_17",
+                "score": 5.100299835205078
+            },
+            {
+                "id": "m.0byfj4_19",
+                "score": 5.063300132751465
+            },
+            {
+                "id": "m.0byfj4_12",
+                "score": 5.060800075531006
+            },
+            {
+                "id": "m.0fm6_g9_0",
+                "score": 5.051700115203857
+            },
+            {
+                "id": "m.0byfj4_15",
+                "score": 5.037600040435791
+            },
+            {
+                "id": "m.02xt6q_396",
+                "score": 5.036799907684326
+            },
+            {
+                "id": "m.0byfj4_8",
+                "score": 5.0355000495910645
+            },
+            {
+                "id": "m.0byfj4_18",
+                "score": 5.030600070953369
+            },
+            {
+                "id": "m.02xt6q_205",
+                "score": 5.028500080108643
+            },
+            {
+                "id": "m.02xt6q_11",
+                "score": 5.019499778747559
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "triviaqa_13410_73",
+                "score": 0.637989342212677
+            },
+            {
+                "id": "triviaqa_45846_20",
+                "score": 0.6213558912277222
+            },
+            {
+                "id": "triviaqa_13410_72",
+                "score": 0.6195200085639954
+            },
+            {
+                "id": "triviaqa_13410_16",
+                "score": 0.6173670291900635
+            },
+            {
+                "id": "triviaqa_13410_15",
+                "score": 0.6109930276870728
+            },
+            {
+                "id": "triviaqa_45846_25",
+                "score": 0.6008678078651428
+            },
+            {
+                "id": "triviaqa_45846_24",
+                "score": 0.5965075492858887
+            },
+            {
+                "id": "triviaqa_13410_14",
+                "score": 0.5916672348976135
+            },
+            {
+                "id": "triviaqa_13410_62",
+                "score": 0.586766242980957
+            },
+            {
+                "id": "triviaqa_45846_21",
+                "score": 0.5867217183113098
+            },
+            {
+                "id": "nq_226969_71",
+                "score": 0.5820704698562622
+            },
+            {
+                "id": "nq_121055_12",
+                "score": 0.5808781385421753
+            },
+            {
+                "id": "triviaqa_13410_8",
+                "score": 0.580020010471344
+            },
+            {
+                "id": "triviaqa_45846_27",
+                "score": 0.5793486833572388
+            },
+            {
+                "id": "nq_184699_128",
+                "score": 0.5775820016860962
+            },
+            {
+                "id": "triviaqa_13410_75",
+                "score": 0.5757545232772827
+            },
+            {
+                "id": "triviaqa_13410_61",
+                "score": 0.5757209062576294
+            },
+            {
+                "id": "triviaqa_65537_73",
+                "score": 0.574844479560852
+            },
+            {
+                "id": "nq_304097_1",
+                "score": 0.5741698741912842
+            },
+            {
+                "id": "triviaqa_13410_74",
+                "score": 0.573452353477478
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_226969_71",
+                "score": 0.5820704698562622
+            },
+            {
+                "id": "nq_121055_12",
+                "score": 0.5808781385421753
+            },
+            {
+                "id": "nq_184699_128",
+                "score": 0.5775820016860962
+            },
+            {
+                "id": "nq_304097_1",
+                "score": 0.5741698741912842
+            },
+            {
+                "id": "nq_226969_9",
+                "score": 0.5722878575325012
+            },
+            {
+                "id": "nq_121055_17",
+                "score": 0.5709491968154907
+            },
+            {
+                "id": "nq_121055_0",
+                "score": 0.5681099891662598
+            },
+            {
+                "id": "nq_2161_13",
+                "score": 0.567744255065918
+            },
+            {
+                "id": "nq_232991_20",
+                "score": 0.5661511421203613
+            },
+            {
+                "id": "nq_226969_72",
+                "score": 0.5647019743919373
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_13410_73",
+                "score": 0.637989342212677
+            },
+            {
+                "id": "triviaqa_45846_20",
+                "score": 0.6213558912277222
+            },
+            {
+                "id": "triviaqa_13410_72",
+                "score": 0.6195200085639954
+            },
+            {
+                "id": "triviaqa_13410_16",
+                "score": 0.6173670291900635
+            },
+            {
+                "id": "triviaqa_13410_15",
+                "score": 0.6109930276870728
+            },
+            {
+                "id": "triviaqa_45846_25",
+                "score": 0.6008678078651428
+            },
+            {
+                "id": "triviaqa_45846_24",
+                "score": 0.5965075492858887
+            },
+            {
+                "id": "triviaqa_13410_14",
+                "score": 0.5916672348976135
+            },
+            {
+                "id": "triviaqa_13410_62",
+                "score": 0.586766242980957
+            },
+            {
+                "id": "triviaqa_45846_21",
+                "score": 0.5867217183113098
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.092bf5_1416",
+                "score": 0.5532524585723877
+            },
+            {
+                "id": "m.02bjrlw_6444",
+                "score": 0.5508366227149963
+            },
+            {
+                "id": "m.092bf5_3188",
+                "score": 0.5488669872283936
+            },
+            {
+                "id": "m.02bjrlw_2001",
+                "score": 0.5474088788032532
+            },
+            {
+                "id": "m.092bf5_2784",
+                "score": 0.5424910187721252
+            },
+            {
+                "id": "m.0_6ny6g_0",
+                "score": 0.5418614745140076
+            },
+            {
+                "id": "m.0zkqjhy_0",
+                "score": 0.5402935147285461
+            },
+            {
+                "id": "m.092bf5_1448",
+                "score": 0.5397458076477051
+            },
+            {
+                "id": "m.06mp7_1233",
+                "score": 0.5389567017555237
+            },
+            {
+                "id": "m.02bjrlw_430",
+                "score": 0.5365799069404602
+            },
+            {
+                "id": "m.02bjrlw_1478",
+                "score": 0.5364769697189331
+            },
+            {
+                "id": "m.02bjrlw_10626",
+                "score": 0.5357389450073242
+            },
+            {
+                "id": "m.025rs2z_137",
+                "score": 0.5352466702461243
+            },
+            {
+                "id": "m.0_j80mv_0",
+                "score": 0.5351560711860657
+            },
+            {
+                "id": "m.0zm4pd__55",
+                "score": 0.5351042151451111
+            },
+            {
+                "id": "m.04306rv_27039",
+                "score": 0.5348031520843506
+            },
+            {
+                "id": "m.0zl3jqb_0",
+                "score": 0.5342437028884888
+            },
+            {
+                "id": "m.092bf5_920",
+                "score": 0.5326084494590759
+            },
+            {
+                "id": "m.092bf5_1870",
+                "score": 0.5324519276618958
+            },
+            {
+                "id": "m.092bf5_3223",
+                "score": 0.5312278270721436
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_13410_74": {
+                "Query Analysis": "The query asks about the actions and roles of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, implying her role in leading military actions.",
+                "Document Content Analysis": "The document details Boudicca's actions against the Romans, including leading a revolt, attacking major Roman centers like Camulodunum, Londinium, and Verulamium, and her eventual defeat. It describes her role in uniting various tribes against Roman rule and the significant impact of her military campaigns.",
+                "Document and Query Keywords Matching": "The document extensively mentions 'Boudicca' and describes her actions.",
+                "Document and Answer Keywords Matching": "While the document does not explicitly use the term 'Military Commander', it describes Boudicca's leadership in military campaigns, which aligns with the role of a military commander.",
+                "Key Information Matching": "The document provides detailed information about Boudicca's military actions, which directly relate to her role as a military leader.",
+                "Can the Document Answer the Query": "Yes, the document describes what Boudicca did, particularly her military campaigns and leadership.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive context about Boudicca's actions and the historical background, enhancing understanding of her role.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Boudicca's actions, which align with her role as a military commander. It offers detailed context and background that enhance the understanding of her historical significance."
+            },
+            "triviaqa_13410_16": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, suggesting her role involved leading military operations.",
+                "Document Content Analysis": "The document discusses the aftermath of Boudicca's rebellion, mentioning how people in southern Britain lived under Roman rule after the rebellion. It also provides details about Boudicca's actions during the rebellion, such as leading her army and the impact of her rebellion on Roman London.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' and describes her actions.",
+                "Document and Answer Keywords Matching": "The document does not explicitly use the term 'Military Commander', but it describes Boudicca's military actions, such as leading her army into battle.",
+                "Key Information Matching": "The document provides key information about Boudicca's role in leading a rebellion and her military actions, which aligns with the concept of her being a Military Commander.",
+                "Can the Document Answer the Query": "Yes, the document provides information about what Boudicca did, specifically her role in leading a rebellion and her military actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the impact of her rebellion and her leadership style, which helps infer her role as a Military Commander.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Boudicca's actions and role, which aligns with the answer that she was a Military Commander. The document's detailed description of her rebellion and its impact supports the understanding of her role."
+            },
+            "ott_2953_1": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, likely referring to the historical figure Boudicca, a queen of the British Celtic Iceni tribe who led an uprising against the Roman Empire.",
+                "Query Keywords Extraction": "Boudicca, do, actions, role",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, highlighting her role in leading military actions.",
+                "Document Content Analysis": "The document provides a list of cruise ships, including their names, operating companies, years of service, capacities, and historical names. It mentions 'Boudicca' as a cruise ship operated by Fred. Olsen Cruise Lines.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca', but in the context of a cruise ship, not the historical figure.",
+                "Document and Answer Keywords Matching": "There is no matching of keywords related to 'Military Commander' in the document.",
+                "Key Information Matching": "The document mentions 'Boudicca', but it is unrelated to the historical figure or her role as a military commander.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the historical figure Boudicca or her actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is about cruise ships and does not offer any relevant context or information about the historical Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it discusses cruise ships and mentions 'Boudicca' only as a cruise ship name, which does not assist in answering the query about the historical figure Boudicca's actions or role."
+            },
+            "m.02bjrlw_6444": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a military commander.",
+                "Document Content Analysis": "The document appears to be a collection of metadata entries, primarily related to language settings and service hours for various entities, with no coherent narrative or historical context. It includes references to 'Italian Language', 'Boccaccio', 'Hotline Support', and 'Angelina', among other data points.",
+                "Document and Query Keywords Matching": "The document does not contain any direct references to 'Boudicca'.",
+                "Document and Answer Keywords Matching": "The document does not contain any references to 'Military Commander' or related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is unrelated to historical figures or their roles.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Boudicca or her actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant context or additional information that could help infer details about Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It consists of metadata and language settings, which do not provide any useful context or information about Boudicca or her role as a military commander. Therefore, it is judged as irrelevant."
+            },
+            "nq_226969_71": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document lists various titles and depictions of the Virgin Mary in Christian art, such as 'Black Madonna', 'Eleusa', 'Hodegetria', etc.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Boudicca', 'do') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Military Commander') are found in the document.",
+                "Key Information Matching": "There is no matching key information between the query, answer, and the document content.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Boudicca.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information related to Boudicca or her role as a Military Commander.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query and answer. It focuses on different depictions of the Virgin Mary in Christian art, which has no connection to Boudicca or her role as a Military Commander. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_13410_73": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca in history.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document provides a detailed biography of Boudicca, highlighting her role as a British Celtic warrior queen who led a revolt against Roman occupation. It includes information about her background, the context of Roman occupation, and the events leading up to and including her revolt.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' extensively.",
+                "Document and Answer Keywords Matching": "The document implicitly supports the answer by describing Boudicca's leadership in military actions against the Romans, which aligns with the role of a Military Commander.",
+                "Key Information Matching": "The document details Boudicca's actions, including leading a revolt against the Romans, which directly relates to her role as a military leader.",
+                "Can the Document Answer the Query": "Yes, the document provides specific actions Boudicca took, particularly her leadership in the revolt against Roman occupation.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers extensive context and details about Boudicca's life and actions, which enrich the understanding of her role as a military commander.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant to the query as it directly addresses Boudicca's actions and role, providing substantial context and details that support the understanding of her as a military commander. It not only mentions her leadership in the revolt but also provides background information that helps infer her significance in British history."
+            },
+            "triviaqa_13410_14": {
+                "Query Analysis": "The query asks about the actions and roles of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, suggesting her involvement in military actions and leadership.",
+                "Document Content Analysis": "The document provides a detailed account of Boudicca's rebellion against the Romans, including her leadership of the Iceni tribe, the mistreatment by the Romans, the burning of Roman towns, and her military campaigns against Camulodunum (Colchester), Londinium (London), and Verulamium (St Albans).",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' extensively and describes her actions.",
+                "Document and Answer Keywords Matching": "While the document does not explicitly use the term 'Military Commander', it describes Boudicca's military actions and leadership, which align with the role of a military commander.",
+                "Key Information Matching": "The document provides detailed information about Boudicca's military campaigns and leadership, which matches the key information implied by the answer 'Military Commander'.",
+                "Can the Document Answer the Query": "Yes, the document provides a comprehensive account of what Boudicca did, particularly her role in leading the rebellion and attacking Roman towns.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers extensive context and details about Boudicca's actions and the historical context of her rebellion.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Boudicca's actions, which align with her role as a military commander. It offers detailed accounts of her leadership in the rebellion and the military campaigns she led, making it highly relevant to understanding what Boudicca did."
+            },
+            "triviaqa_13410_15": {
+                "Query Analysis": "The query asks about the actions and roles of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, implying her involvement in military actions and leadership.",
+                "Document Content Analysis": "The document describes Boudicca's actions during her rebellion against the Roman Empire, including the burning of Roman towns like Camulodunum and Londinium, leading her army, and her eventual defeat and suicide.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' frequently and describes her actions.",
+                "Document and Answer Keywords Matching": "The document implicitly supports the role of Boudicca as a 'Military Commander' by detailing her leadership in battles and attacks.",
+                "Key Information Matching": "The document provides specific actions taken by Boudicca, such as leading her army, attacking Roman towns, and her role in the rebellion, which align with the characteristics of a military commander.",
+                "Can the Document Answer the Query": "Yes, the document provides detailed information about what Boudicca did, which directly answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document not only answers the query but also provides additional context about the rebellion and its aftermath.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Boudicca's actions, which are central to understanding her role as a military commander. It offers detailed accounts of her leadership in the rebellion, making it highly relevant and useful for answering the query."
+            },
+            "m.092bf5_1416": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document discusses Buddhism, its history, spread, and various practices. It mentions key figures like Siddhartha Gautama and provides details about the religion's adherents and branches.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Boudicca', 'do') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Military Commander') are found in the document.",
+                "Key Information Matching": "There is no information in the document related to Boudicca or her role as a military commander.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Boudicca.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely about Buddhism and does not provide any context or information that could help infer details about Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It focuses on Buddhism and does not mention Boudicca or any related topics. Therefore, it cannot provide any useful context or additional information to answer the query."
+            },
+            "triviaqa_45846_20": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, implying her role in leading military actions.",
+                "Document Content Analysis": "The first document discusses the history of the Iceni tribe and their interactions with the Roman Empire, including the Roman Conquest and the establishment of Colchester. The second document provides detailed information about Boudicca, her role as the queen of the Iceni, and her leadership in a revolt against the Romans, resulting in the destruction of Roman settlements.",
+                "Document and Query Keywords Matching": "The second document mentions 'Boudicca' multiple times.",
+                "Document and Answer Keywords Matching": "The second document describes Boudicca's role in leading a military revolt, which aligns with the term 'Military Commander'.",
+                "Key Information Matching": "The second document directly addresses Boudicca's actions, including her leadership in a military revolt against the Romans, which matches the query's focus on what she did.",
+                "Can the Document Answer the Query": "Yes, the second document can directly answer the query by detailing Boudicca's actions as a military leader.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the second document provides extensive context about Boudicca's role and the historical significance of her actions.",
+                "Relevance Judgement": "2",
+                "Explanation": "The second document is directly relevant to the query as it provides detailed information about Boudicca's actions, specifically her role as a military leader in a revolt against the Romans. This directly answers the query and provides substantial context, making it highly relevant."
+            },
+            "nq_252107_9": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, who was a historical figure known for her leadership in a rebellion against Roman rule in Britain.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, highlighting her role in leading military actions.",
+                "Document Content Analysis": "The document discusses various ships used in the production of the TV show 'The Love Boat'. It mentions 'Royal Viking Sky' and references 'MV Boudicca' in the context of European cruises, but does not provide any historical context or information about Boudicca the person.",
+                "Document and Query Keywords Matching": "The document contains the keyword 'Boudicca', but it refers to a cruise ship, not the historical figure.",
+                "Document and Answer Keywords Matching": "There are no keywords from the answer ('Military Commander') present in the document.",
+                "Key Information Matching": "The document does not provide any relevant information about the historical figure Boudicca or her role as a military commander.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about what Boudicca did historically.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any useful context or additional information related to the historical figure Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only mentions 'Boudicca' in the context of a cruise ship, which does not provide any useful information about the historical figure Boudicca or her actions. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "triviaqa_13410_75": {
+                "Query Analysis": "The query asks about the actions and roles of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander, implying her involvement in military campaigns and leadership.",
+                "Document Content Analysis": "The document provides a detailed account of Boudicca's actions, including her leading an army against Roman settlements, the destruction of cities, her strategic decisions, and the eventual outcome of her rebellion. It also mentions her death and the historical impact of her actions.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' extensively and describes her actions, which directly relate to what she 'did'.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca's role as a leader in military campaigns, aligning with the term 'Military Commander'.",
+                "Key Information Matching": "The document details Boudicca's military campaigns, her strategic decisions, and the outcomes of her battles, which provide context for her role as a Military Commander.",
+                "Can the Document Answer the Query": "Yes, the document provides specific information about Boudicca's actions, which directly answer what she did.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document offers extensive details about Boudicca's life and actions, providing a comprehensive understanding beyond just her role as a Military Commander.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Boudicca's actions and roles, which not only answer the query but also offer additional context and details about her life and impact. This makes the document highly relevant and useful for understanding the query in depth."
+            },
+            "m.0306c6_30": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a military commander.",
+                "Document Content Analysis": "The document provides various keys and identifiers related to the movie 'What's Eating Gilbert Grape'. It contains no historical information or references to Boudicca.",
+                "Document and Query Keywords Matching": "None of the keywords from the query ('Boudicca', 'do') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the keywords from the answer ('Military Commander') are found in the document.",
+                "Key Information Matching": "There is no key information related to Boudicca or her role as a military commander in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Boudicca.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to Boudicca or her actions.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on a movie titled 'What's Eating Gilbert Grape' and provides no information about Boudicca or her role as a military commander. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_13410_72": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document provides information about Boudicca, describing her as a British Celtic warrior queen who led a revolt against Roman occupation. It mentions her background, her role in the revolt, and sources that document her history.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca as a 'British Celtic warrior queen' and mentions her leading a 'revolt', which aligns with the role of a Military Commander.",
+                "Key Information Matching": "The document directly discusses Boudicca's actions, particularly her leadership in a revolt against Roman occupation, which supports the notion of her being a Military Commander.",
+                "Can the Document Answer the Query": "Yes, the document provides information about what Boudicca did, specifically leading a revolt against Roman occupation.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides detailed context about Boudicca's role and actions, enhancing understanding of her as a Military Commander.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Boudicca's actions and role, which aligns with the answer that she was a Military Commander. It offers detailed context that enhances understanding of her significance and actions."
+            },
+            "m.0306c6_29": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a military commander.",
+                "Document Content Analysis": "The document contains various keys and links related to the movie 'What's Eating Gilbert Grape'. It does not mention Boudicca or any historical context.",
+                "Document and Query Keywords Matching": "None of the query keywords ('Boudicca', 'do') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('Military Commander') are found in the document.",
+                "Key Information Matching": "There is no key information related to Boudicca or her role as a military commander in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Boudicca.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the query topic.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about the movie 'What's Eating Gilbert Grape' and does not provide any information related to Boudicca or her role as a military commander. Therefore, it is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_13410_74": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document describes Boudicca's role as a leader of a rebellion against the Romans. It details her actions, including leading an army to attack Roman settlements, burning cities, and engaging in battles. It also mentions her strategic decisions and the outcomes of her campaigns.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times, which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca leading an army and engaging in military actions, which aligns with the answer 'Military Commander'.",
+                "Key Information Matching": "The document provides detailed information about Boudicca's military actions and leadership, which directly relates to the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly describes Boudicca's role as a military leader and her actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive details about Boudicca's military campaigns and strategies.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context about Boudicca's role as a Military Commander. It details her actions, strategies, and the outcomes of her campaigns, which directly answer the query and enhance understanding of her role."
+            },
+            "triviaqa_13410_16": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document provides information about Boudicca's rebellion, her actions during the rebellion, and some fun facts about her. It mentions that she rode in a horse-drawn chariot, sliced the heads off her enemies, and led an army that possibly killed people in London.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times, which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document mentions 'Boudicca's army' and describes her actions in battle, which aligns with the answer 'Military Commander'.",
+                "Key Information Matching": "The document provides details about Boudicca's role as a military leader, including her actions during the rebellion and her leadership of an army.",
+                "Can the Document Answer the Query": "Yes, the document directly describes Boudicca's role as a military leader and her actions during the rebellion.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Boudicca's rebellion and her methods in battle.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides substantial information about Boudicca's role as a Military Commander and her actions during the rebellion. It not only answers the query but also offers additional context and details about her leadership and methods."
+            },
+            "ott_2953_1": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document provides a list of cruise ships, including details about their names, operators, years of service, capacities, and statuses. It mentions a ship named 'Boudicca' operated by Fred. Olsen Cruise Lines, but does not provide any information about the historical figure Boudicca.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca', which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Military Commander' or any related terms.",
+                "Key Information Matching": "The document mentions a cruise ship named 'Boudicca', but this does not match the historical figure Boudicca referred to in the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the historical figure Boudicca.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the historical figure Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions a cruise ship named 'Boudicca', but this is unrelated to the historical figure Boudicca referred to in the query and answer. Therefore, the document is irrelevant to the query."
+            },
+            "m.02bjrlw_6444": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document contains metadata and language-related information, primarily focusing on Italian language and various identifiers. There is no mention of Boudicca or any historical figures.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Boudicca or military command.",
+                "Can the Document Answer the Query": "No, the document does not mention Boudicca or provide any relevant information.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer details about Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Boudicca, military command, or any historical context that could assist in answering the query or inferring additional information."
+            },
+            "nq_226969_71": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document lists various titles and names related to religious figures, specifically different titles of the Virgin Mary and other religious icons. There is no mention of Boudicca or any historical military figures.",
+                "Document and Query Keywords Matching": "No keywords from the query ('Boudicca', 'do') are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer ('Military Commander') are found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Boudicca or military command.",
+                "Can the Document Answer the Query": "No, the document does not mention Boudicca or provide any information about her role or actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or information that could help infer details about Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses religious figures and titles, with no mention of Boudicca or any historical military context. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_13410_73": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a 'Military Commander'.",
+                "Document Content Analysis": "The document provides a detailed biography of Boudicca, describing her as a British Celtic warrior queen who led a revolt against Roman occupation. It mentions her leadership in organizing and leading a rebellion against the Romans, including attacks on Roman settlements.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times, directly addressing the query.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca as a 'warrior queen' who 'led a revolt', which aligns with the role of a 'Military Commander'.",
+                "Key Information Matching": "The document provides detailed information about Boudicca's leadership in a military revolt against the Romans, which matches the query's focus on her actions and the answer's description of her as a 'Military Commander'.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Boudicca led a military revolt against the Romans, which aligns with the answer 'Military Commander'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Boudicca's role, motivations, and the events surrounding her rebellion.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial information about Boudicca's role as a military leader. It not only confirms the answer but also offers additional context and details about her actions and the historical events she was involved in."
+            },
+            "triviaqa_13410_14": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document describes Boudicca's role in leading a rebellion against the Romans. It details her actions, including attacking Roman towns, burning settlements, and leading an army. It also mentions the context of the rebellion, the treatment of Boudicca and her daughters by the Romans, and the involvement of other tribes.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times, which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca leading an army and attacking Roman towns, which aligns with the role of a 'Military Commander'.",
+                "Key Information Matching": "The document provides detailed information about Boudicca's actions as a leader of a rebellion, including her military strategies and the outcomes of her campaigns. This matches the query's focus on what Boudicca did and aligns with the answer that she was a Military Commander.",
+                "Can the Document Answer the Query": "Yes, the document directly describes Boudicca's actions as a Military Commander.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the rebellion, the reasons behind it, and the specific actions taken by Boudicca and her army.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial information about Boudicca's role as a Military Commander. It not only answers the query but also offers additional context and details about her actions and the rebellion she led."
+            },
+            "triviaqa_13410_15": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document describes Boudicca's actions as a leader of a rebellion against Roman rule in Britain. It details her attacks on Roman towns, including Camulodunum (Colchester), Londinium (London), and Verulamium (St Albans), and her eventual defeat by the Roman army. It also mentions her suicide by poison to avoid capture.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times, which matches the query keyword.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Military Commander', but it describes Boudicca's leadership and military actions, which align with the role of a military commander.",
+                "Key Information Matching": "The document provides detailed information about Boudicca's military campaigns and leadership, which aligns with the query's focus on her actions and role.",
+                "Can the Document Answer the Query": "Yes, the document describes Boudicca's military actions and leadership, which directly answers the query about what she did.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive context about Boudicca's rebellion, her strategies, and her ultimate fate, which enhances understanding of her role as a military commander.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query. It provides substantial information about Boudicca's military actions and leadership, which directly answers the query and enhances understanding of her role. Therefore, it is highly relevant."
+            },
+            "m.092bf5_1416": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document discusses Buddhism, its origins, spread, and key concepts. It does not mention Boudicca or anything related to her.",
+                "Document and Query Keywords Matching": "No keywords from the query ('Boudicca', 'do') are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer ('Military Commander') are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Boudicca or her role as a Military Commander.",
+                "Can the Document Answer the Query": "No, the document does not mention Boudicca or her actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Boudicca.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely about Buddhism and does not mention Boudicca or any related historical figures. It provides no useful context or information for answering the query."
+            },
+            "triviaqa_45846_20": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca, specifically what she did.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a 'Military Commander', indicating her role in leading military actions.",
+                "Document Content Analysis": "The document provides information about Boudicca, describing her as the queen of the Iceni tribe and detailing her revolt against the Romans. It mentions her leadership in the rebellion, the destruction of Roman settlements, and the eventual crushing of her revolt at the Battle of Watling Street.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' and describes her actions, which aligns with the query's focus on what she did.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca as a leader who raised an army and led a rebellion, which aligns with the answer 'Military Commander'.",
+                "Key Information Matching": "The document provides key information about Boudicca's role as a military leader and her actions during the revolt against the Romans, which directly relates to the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Boudicca led a military revolt against the Romans, which answers the query about what she did.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Boudicca's leadership, the reasons for her revolt, and the outcomes of her actions.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context about Boudicca's role as a military commander and her actions during the revolt against the Romans. It not only answers the query but also enhances understanding of her historical significance."
+            },
+            "nq_252107_9": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document discusses various cruise ships used in the production of 'The Love Boat' and mentions 'MV Boudicca' as one of the ships used for European cruises.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' in the context of a cruise ship named 'MV Boudicca'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Military Commander' or any related terms.",
+                "Key Information Matching": "The document mentions 'Boudicca' but only in the context of a cruise ship, not in relation to the historical figure or her role as a Military Commander.",
+                "Can the Document Answer the Query": "No, the document does not provide information about Boudicca's role or actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Boudicca's historical role or actions.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Boudicca' but only in the context of a cruise ship named 'MV Boudicca'. It does not provide any information about the historical figure Boudicca or her role as a Military Commander. Therefore, the document is irrelevant to the query."
+            },
+            "triviaqa_13410_75": {
+                "Query Analysis": "The query asks about the actions or role of Boudicca.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document describes Boudicca's actions as a military leader, including her rebellion against the Romans, her army's battles, and the consequences of her rebellion. It also mentions her quotes and the rediscovery of her story.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times, directly addressing the query.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca's military actions, such as leading an army, fighting battles, and strategizing, which aligns with the answer 'Military Commander'.",
+                "Key Information Matching": "The document provides detailed information about Boudicca's military campaigns, her leadership, and the outcomes of her rebellion, which matches the query's focus on her actions.",
+                "Can the Document Answer the Query": "Yes, the document directly describes Boudicca's role as a military leader and her actions.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides extensive details about Boudicca's military campaigns and leadership, which enhances understanding of her role.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial information about Boudicca's actions as a military commander. It not only answers the query but also offers additional context and details about her rebellion and its consequences."
+            },
+            "m.0306c6_30": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer indicates that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document contains references to the movie 'What's Eating Gilbert Grape' and various sources related to it, but there is no mention of Boudicca or any historical context related to her.",
+                "Document and Query Keywords Matching": "No keywords from the query are found in the document.",
+                "Document and Answer Keywords Matching": "No keywords from the answer are found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Boudicca or her role as a Military Commander.",
+                "Can the Document Answer the Query": "No, the document does not mention Boudicca or provide any information about her.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is entirely unrelated to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query about Boudicca. It does not mention her or provide any context or information that could be relevant to the query. Therefore, it is deemed irrelevant."
+            },
+            "triviaqa_13410_72": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer identifies Boudicca as a 'Military Commander'.",
+                "Document Content Analysis": "The document provides detailed information about Boudicca, describing her as a British Celtic warrior queen who led a revolt against Roman occupation. It mentions her role, her revolt, and her historical context, including her relationship with the Iceni tribe and the Roman invasion of Britain.",
+                "Document and Query Keywords Matching": "The document mentions 'Boudicca' multiple times, directly matching the query keyword.",
+                "Document and Answer Keywords Matching": "The document describes Boudicca as a 'British Celtic warrior queen who led a revolt against Roman occupation', which aligns with the answer 'Military Commander'.",
+                "Key Information Matching": "The document provides key information about Boudicca's role as a leader of a revolt against Roman occupation, which matches the query's focus on her actions and the answer's identification of her as a 'Military Commander'.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Boudicca was a warrior queen who led a revolt, which aligns with the answer 'Military Commander'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Boudicca's life, her revolt, and her historical significance, which enhances understanding of her role.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context about Boudicca's role as a military leader. It not only answers the query but also offers additional historical information that enhances understanding of her actions and significance."
+            },
+            "m.0306c6_29": {
+                "Query Analysis": "The query asks about the role or actions of Boudicca, a historical figure.",
+                "Query Keywords Extraction": "Boudicca, do",
+                "Answer Analysis": "The answer states that Boudicca was a Military Commander.",
+                "Document Content Analysis": "The document contains references to 'What's Eating Gilbert Grape' and various links to sources related to the movie, but it does not mention Boudicca or any historical figures.",
+                "Document and Query Keywords Matching": "The document does not contain any keywords related to 'Boudicca' or 'do'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords related to 'Military Commander' or 'Boudicca'.",
+                "Key Information Matching": "The document does not provide any information about Boudicca or her role as a Military Commander.",
+                "Can the Document Answer the Query": "No, the document does not mention Boudicca or provide any information about her.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is unrelated to Boudicca or historical figures.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query about Boudicca. It does not mention her or provide any context or information that could assist in answering the query. Therefore, it is irrelevant."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_13410_74": {},
+            "triviaqa_13410_16": {},
+            "ott_2953_1": {},
+            "m.02bjrlw_6444": {},
+            "nq_226969_71": {},
+            "triviaqa_13410_73": {},
+            "triviaqa_13410_14": {},
+            "triviaqa_13410_15": {},
+            "m.092bf5_1416": {},
+            "triviaqa_45846_20": {},
+            "nq_252107_9": {},
+            "triviaqa_13410_75": {},
+            "m.0306c6_30": {},
+            "triviaqa_13410_72": {},
+            "m.0306c6_29": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "dataset_score": {
+            "kg": 0,
+            "ott": 0,
+            "triviaqa": 4,
+            "nq": 0,
+            "tat": 0
+        }
+    }
+}

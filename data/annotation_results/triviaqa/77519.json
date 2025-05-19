@@ -1,0 +1,858 @@
+{
+    "index": 77519,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "What kind of orchard did Chekhov write a play about?",
+        "answer": "Cherry",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_66269_96",
+                "score": 16.116500854492188
+            },
+            {
+                "id": "nq_297406_2",
+                "score": 14.472800254821777
+            },
+            {
+                "id": "m.0crz6lg_8",
+                "score": 14.119799613952637
+            },
+            {
+                "id": "m.0crz6lg_9",
+                "score": 14.026100158691406
+            },
+            {
+                "id": "m.0crz6lg_11",
+                "score": 13.305500030517578
+            },
+            {
+                "id": "triviaqa_65828_56",
+                "score": 13.081000328063965
+            },
+            {
+                "id": "m.0crz6lg_0",
+                "score": 12.997300148010254
+            },
+            {
+                "id": "m.0crz6lg_1",
+                "score": 12.659299850463867
+            },
+            {
+                "id": "triviaqa_58157_229",
+                "score": 12.632599830627441
+            },
+            {
+                "id": "triviaqa_21148_279",
+                "score": 12.365500450134277
+            },
+            {
+                "id": "triviaqa_65828_57",
+                "score": 12.13379955291748
+            },
+            {
+                "id": "triviaqa_66269_95",
+                "score": 12.005900382995605
+            },
+            {
+                "id": "triviaqa_68793_24",
+                "score": 11.988300323486328
+            },
+            {
+                "id": "nq_297406_3",
+                "score": 11.930700302124023
+            },
+            {
+                "id": "nq_267388_126",
+                "score": 11.792699813842773
+            },
+            {
+                "id": "triviaqa_65828_66",
+                "score": 11.316200256347656
+            },
+            {
+                "id": "m.0crz6lg_10",
+                "score": 11.312100410461426
+            },
+            {
+                "id": "triviaqa_68793_25",
+                "score": 11.28950023651123
+            },
+            {
+                "id": "triviaqa_66092_61",
+                "score": 10.919400215148926
+            },
+            {
+                "id": "triviaqa_35783_89",
+                "score": 10.893699645996094
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_10015_0",
+                "score": 6.086597919464111
+            },
+            {
+                "id": "ott_10015_1",
+                "score": 6.086596965789795
+            },
+            {
+                "id": "ott_17228_0",
+                "score": 6.0865960121154785
+            },
+            {
+                "id": "ott_17228_1",
+                "score": 6.086595058441162
+            },
+            {
+                "id": "ott_24718_0",
+                "score": 6.0865936279296875
+            },
+            {
+                "id": "ott_24718_1",
+                "score": 6.086592674255371
+            },
+            {
+                "id": "ott_27932_0",
+                "score": 6.086591720581055
+            },
+            {
+                "id": "ott_27932_1",
+                "score": 6.086590766906738
+            },
+            {
+                "id": "ott_39264_0",
+                "score": 6.086589813232422
+            },
+            {
+                "id": "ott_39264_1",
+                "score": 6.0865888595581055
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_297406_2",
+                "score": 14.472800254821777
+            },
+            {
+                "id": "nq_297406_3",
+                "score": 11.930700302124023
+            },
+            {
+                "id": "nq_267388_126",
+                "score": 11.792699813842773
+            },
+            {
+                "id": "nq_267388_125",
+                "score": 9.827500343322754
+            },
+            {
+                "id": "nq_271481_92",
+                "score": 9.805399894714355
+            },
+            {
+                "id": "nq_61084_13",
+                "score": 9.649499893188477
+            },
+            {
+                "id": "nq_289291_20",
+                "score": 9.305399894714355
+            },
+            {
+                "id": "nq_289291_19",
+                "score": 9.305000305175781
+            },
+            {
+                "id": "nq_158_7",
+                "score": 9.175100326538086
+            },
+            {
+                "id": "nq_5591_41",
+                "score": 9.14050006866455
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_66269_96",
+                "score": 16.116500854492188
+            },
+            {
+                "id": "triviaqa_65828_56",
+                "score": 13.081000328063965
+            },
+            {
+                "id": "triviaqa_58157_229",
+                "score": 12.632599830627441
+            },
+            {
+                "id": "triviaqa_21148_279",
+                "score": 12.365500450134277
+            },
+            {
+                "id": "triviaqa_65828_57",
+                "score": 12.13379955291748
+            },
+            {
+                "id": "triviaqa_66269_95",
+                "score": 12.005900382995605
+            },
+            {
+                "id": "triviaqa_68793_24",
+                "score": 11.988300323486328
+            },
+            {
+                "id": "triviaqa_65828_66",
+                "score": 11.316200256347656
+            },
+            {
+                "id": "triviaqa_68793_25",
+                "score": 11.28950023651123
+            },
+            {
+                "id": "triviaqa_66092_61",
+                "score": 10.919400215148926
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0crz6lg_8",
+                "score": 14.119799613952637
+            },
+            {
+                "id": "m.0crz6lg_9",
+                "score": 14.026100158691406
+            },
+            {
+                "id": "m.0crz6lg_11",
+                "score": 13.305500030517578
+            },
+            {
+                "id": "m.0crz6lg_0",
+                "score": 12.997300148010254
+            },
+            {
+                "id": "m.0crz6lg_1",
+                "score": 12.659299850463867
+            },
+            {
+                "id": "m.0crz6lg_10",
+                "score": 11.312100410461426
+            },
+            {
+                "id": "m.0crz6lg_12",
+                "score": 8.82979965209961
+            },
+            {
+                "id": "m.0f2nf_681",
+                "score": 7.793700218200684
+            },
+            {
+                "id": "m.09tlh_296",
+                "score": 7.75439977645874
+            },
+            {
+                "id": "m.0mp3l_116",
+                "score": 6.990900039672852
+            },
+            {
+                "id": "m.0bwx3_110",
+                "score": 6.945799827575684
+            },
+            {
+                "id": "m.06b_j_121",
+                "score": 6.894400119781494
+            },
+            {
+                "id": "m.05np2_214",
+                "score": 6.883699893951416
+            },
+            {
+                "id": "m.0vm17_0",
+                "score": 6.796800136566162
+            },
+            {
+                "id": "m.0vm17_7",
+                "score": 6.764900207519531
+            },
+            {
+                "id": "m.0vm17_11",
+                "score": 6.761600017547607
+            },
+            {
+                "id": "m.0vm17_6",
+                "score": 6.750999927520752
+            },
+            {
+                "id": "m.0vm17_17",
+                "score": 6.749300003051758
+            },
+            {
+                "id": "m.0vm17_24",
+                "score": 6.749299049377441
+            },
+            {
+                "id": "m.0vm17_25",
+                "score": 6.740600109100342
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.0crz6lg_9",
+                "score": 0.6390170454978943
+            },
+            {
+                "id": "triviaqa_66269_96",
+                "score": 0.6314631700515747
+            },
+            {
+                "id": "nq_44925_118",
+                "score": 0.6289193630218506
+            },
+            {
+                "id": "m.06b_j_2330",
+                "score": 0.6251097321510315
+            },
+            {
+                "id": "m.0crz6lg_0",
+                "score": 0.6241780519485474
+            },
+            {
+                "id": "nq_44925_116",
+                "score": 0.6144384145736694
+            },
+            {
+                "id": "triviaqa_74263_128",
+                "score": 0.6094716191291809
+            },
+            {
+                "id": "triviaqa_42866_646",
+                "score": 0.6082934141159058
+            },
+            {
+                "id": "triviaqa_74263_114",
+                "score": 0.6076952815055847
+            },
+            {
+                "id": "triviaqa_45454_32",
+                "score": 0.6066254377365112
+            },
+            {
+                "id": "nq_19429_15",
+                "score": 0.6064663529396057
+            },
+            {
+                "id": "m.0crz6lg_8",
+                "score": 0.6053122282028198
+            },
+            {
+                "id": "nq_297406_3",
+                "score": 0.6047790050506592
+            },
+            {
+                "id": "m.081k8_1481",
+                "score": 0.6016950011253357
+            },
+            {
+                "id": "triviaqa_70675_124",
+                "score": 0.6014449596405029
+            },
+            {
+                "id": "triviaqa_40597_21",
+                "score": 0.6005049347877502
+            },
+            {
+                "id": "triviaqa_52430_188",
+                "score": 0.6001189947128296
+            },
+            {
+                "id": "triviaqa_12126_21",
+                "score": 0.5998499393463135
+            },
+            {
+                "id": "nq_266167_14",
+                "score": 0.5997645258903503
+            },
+            {
+                "id": "nq_44925_117",
+                "score": 0.5996172428131104
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_18920_1",
+                "score": 0.534175455570221
+            },
+            {
+                "id": "ott_40723_1",
+                "score": 0.534175455570221
+            },
+            {
+                "id": "ott_40616_1",
+                "score": 0.534175455570221
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_44925_118",
+                "score": 0.6289193630218506
+            },
+            {
+                "id": "nq_44925_116",
+                "score": 0.6144384145736694
+            },
+            {
+                "id": "nq_19429_15",
+                "score": 0.6064663529396057
+            },
+            {
+                "id": "nq_297406_3",
+                "score": 0.6047790050506592
+            },
+            {
+                "id": "nq_266167_14",
+                "score": 0.5997645258903503
+            },
+            {
+                "id": "nq_44925_117",
+                "score": 0.5996172428131104
+            },
+            {
+                "id": "nq_267388_126",
+                "score": 0.5936998128890991
+            },
+            {
+                "id": "nq_19429_16",
+                "score": 0.5922132730484009
+            },
+            {
+                "id": "nq_153577_8",
+                "score": 0.5913976430892944
+            },
+            {
+                "id": "nq_44925_115",
+                "score": 0.5850390195846558
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_66269_96",
+                "score": 0.6314631700515747
+            },
+            {
+                "id": "triviaqa_74263_128",
+                "score": 0.6094716191291809
+            },
+            {
+                "id": "triviaqa_42866_646",
+                "score": 0.6082934141159058
+            },
+            {
+                "id": "triviaqa_74263_114",
+                "score": 0.6076952815055847
+            },
+            {
+                "id": "triviaqa_45454_32",
+                "score": 0.6066254377365112
+            },
+            {
+                "id": "triviaqa_70675_124",
+                "score": 0.6014449596405029
+            },
+            {
+                "id": "triviaqa_40597_21",
+                "score": 0.6005049347877502
+            },
+            {
+                "id": "triviaqa_52430_188",
+                "score": 0.6001189947128296
+            },
+            {
+                "id": "triviaqa_12126_21",
+                "score": 0.5998499393463135
+            },
+            {
+                "id": "triviaqa_55134_28",
+                "score": 0.5992053151130676
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0crz6lg_9",
+                "score": 0.6390170454978943
+            },
+            {
+                "id": "m.06b_j_2330",
+                "score": 0.6251097321510315
+            },
+            {
+                "id": "m.0crz6lg_0",
+                "score": 0.6241780519485474
+            },
+            {
+                "id": "m.0crz6lg_8",
+                "score": 0.6053122282028198
+            },
+            {
+                "id": "m.081k8_1481",
+                "score": 0.6016950011253357
+            },
+            {
+                "id": "m.07_m2_608",
+                "score": 0.5981189608573914
+            },
+            {
+                "id": "m.0crz6lg_1",
+                "score": 0.5923349857330322
+            },
+            {
+                "id": "m.081k8_630",
+                "score": 0.58829665184021
+            },
+            {
+                "id": "m.0bwx3_131",
+                "score": 0.5833380222320557
+            },
+            {
+                "id": "m.081k8_1805",
+                "score": 0.5792760848999023
+            },
+            {
+                "id": "m.0bwx3_157",
+                "score": 0.5705751776695251
+            },
+            {
+                "id": "m.0crz6lg_12",
+                "score": 0.5694887638092041
+            },
+            {
+                "id": "m.0crz6lg_10",
+                "score": 0.5657213926315308
+            },
+            {
+                "id": "m.081k8_25",
+                "score": 0.5651925802230835
+            },
+            {
+                "id": "m.081k8_1851",
+                "score": 0.5640418529510498
+            },
+            {
+                "id": "m.081k8_3038",
+                "score": 0.5621066689491272
+            },
+            {
+                "id": "m.081k8_1950",
+                "score": 0.5620920658111572
+            },
+            {
+                "id": "m.0crz6lg_11",
+                "score": 0.5616385340690613
+            },
+            {
+                "id": "m.0bwx3_158",
+                "score": 0.5613541007041931
+            },
+            {
+                "id": "m.081k8_706",
+                "score": 0.5597302913665771
+            }
+        ],
+        "llm_mark_result": {
+            "m.06b_j_2330": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about. This requires knowledge of Chekhov's works and specifically the setting or theme involving an orchard.",
+                "Query Keywords Extraction": "Chekhov, play, orchard, kind",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document appears to be a metadata snippet with various keys and values, primarily related to language and identifiers for works. It mentions 'The Orchard' and 'Russian Language' but lacks detailed context or content about the play or its theme.",
+                "Document and Query Keywords Matching": "The document mentions 'The Orchard', which could be tangentially related to the query, but does not explicitly mention Chekhov or the type of orchard.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Cherry' or provide any specific information about the type of orchard.",
+                "Key Information Matching": "The document lacks key information about Chekhov or the specific type of orchard mentioned in the query. The term 'The Orchard' is vague and does not directly correlate with the query's specifics.",
+                "Can the Document Answer the Query": "No, the document does not provide enough information to directly answer the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any substantial context or additional information that could help infer the type of orchard Chekhov wrote about.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is largely irrelevant to the query as it does not provide any meaningful information about Chekhov's plays or the specific type of orchard. The mention of 'The Orchard' is too vague and lacks context to be useful. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "m.0crz6lg_11": {
+                "Query Analysis": "The query asks about the type of orchard that is the subject of a play written by Anton Chekhov.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that the play is about a cherry orchard.",
+                "Document Content Analysis": "The document provides information about various film adaptations of 'The Cherry Orchard', including details about the film's production, release dates, and crew members. It mentions Anton Chekhov in the context of his film story credits for 'The Cherry Orchard'.",
+                "Document and Query Keywords Matching": "The document mentions 'The Cherry Orchard' and 'Anton Chekhov', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes the term 'The Cherry Orchard', which directly matches the answer 'Cherry'.",
+                "Key Information Matching": "The document clearly references 'The Cherry Orchard' in relation to Anton Chekhov, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Cherry Orchard' in the context of Anton Chekhov, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the play's adaptations and its significance in film, which can enhance understanding of the play's relevance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'The Cherry Orchard' in the context of Anton Chekhov, providing the exact answer to the query. Additionally, it offers extensive information about the play's adaptations, which adds useful context."
+            },
+            "ott_10015_0": {
+                "Query Analysis": "The query asks about the type of orchard that Anton Chekhov wrote a play about.",
+                "Query Keywords Extraction": "Chekhov, play, orchard",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document lists craters on Mercury, including their diameters, approval years, and the names of individuals they are named after. It mentions Anton Chekhov as one of the eponyms for a crater.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov', which is a key keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Cherry' or any related terms.",
+                "Key Information Matching": "The document only matches the keyword 'Chekhov' but does not provide any information about his works or orchards.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Chekhov's plays or the type of orchard.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information about Chekhov's literary works or themes.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it only mentions Chekhov in the context of a crater on Mercury and does not provide any information about his plays or the specific topic of orchards. Therefore, it cannot assist in answering the query or providing useful context."
+            },
+            "nq_297406_2": {
+                "Query Analysis": "The query asks about the type of orchard that Anton Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document discusses the innovations of the Moscow Art Theatre and its impact on the staging of plays, including those by Anton Chekhov. It mentions specific plays by Chekhov such as 'The Seagull', 'Uncle Vanya', and 'The Cherry Orchard'.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov' and 'play'.",
+                "Document and Answer Keywords Matching": "The document includes the phrase 'The Cherry Orchard', which directly matches the answer.",
+                "Key Information Matching": "The document explicitly mentions 'The Cherry Orchard' as one of Chekhov's plays, which directly answers the query about the type of orchard.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Cherry Orchard', which is the play about a cherry orchard written by Chekhov.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Chekhov's plays and their significance, which can enhance understanding of the topic.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'The Cherry Orchard', which is the specific play about a cherry orchard written by Chekhov. This direct mention allows the document to answer the query and also provides additional context about Chekhov's work and its impact."
+            },
+            "m.0crz6lg_0": {
+                "Query Analysis": "The query asks about the type of orchard that is the subject of a play written by Chekhov.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that the play is about a cherry orchard.",
+                "Document Content Analysis": "The document provides information about 'The Cherry Orchard', including its various names in different languages, a description of a 1999 film adaptation, and its initial release date. It mentions that the film was based on the 1904 play 'The Cherry Orchard' by Anton Chekhov.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov' and 'The Cherry Orchard', which directly relate to the query.",
+                "Document and Answer Keywords Matching": "The document includes the term 'Cherry Orchard', which matches the answer 'Cherry'.",
+                "Key Information Matching": "The document explicitly mentions 'The Cherry Orchard' as a play by Anton Chekhov, which directly addresses the query about the type of orchard in Chekhov's play.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'The Cherry Orchard' as a play by Chekhov.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by mentioning the film adaptation and its relation to the play.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'The Cherry Orchard' as a play by Anton Chekhov, thereby providing the exact answer to the query. Additionally, it offers supplementary information about a film adaptation, enhancing the context."
+            },
+            "triviaqa_66269_96": {
+                "Query Analysis": "The query asks about the type of orchard that is the subject of a play written by Anton Chekhov.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that the play is about a cherry orchard.",
+                "Document Content Analysis": "The document discusses various plays and playwrights, including Anton Chekhov. It mentions some of Chekhov's significant works, including 'The Cherry Orchard'.",
+                "Document and Query Keywords Matching": "The document mentions 'Anton Chekhov' and 'The Cherry Orchard'.",
+                "Document and Answer Keywords Matching": "The document includes the term 'The Cherry Orchard', which directly matches the answer 'Cherry'.",
+                "Key Information Matching": "The document explicitly mentions 'The Cherry Orchard' as one of Chekhov's major works, directly addressing the query's focus on the type of orchard in a Chekhov play.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'The Cherry Orchard'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Chekhov's works and their significance, which can enhance understanding of the play's relevance.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'The Cherry Orchard', which is the specific play about a cherry orchard written by Chekhov. This provides a direct answer to the query and additional context about Chekhov's work."
+            },
+            "nq_44925_118": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about. This requires knowledge of Chekhov's works and specifically the setting or theme involving an orchard.",
+                "Query Keywords Extraction": "Chekhov, play, orchard, type",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document provides information about various paintings by Vincent van Gogh, particularly those depicting orchards with blossoming trees. It mentions titles like 'The Pink Orchard' and 'Orchard in Blossom, Bordered by Cypresses', and specifies the museums where these paintings are located.",
+                "Document and Query Keywords Matching": "The document mentions 'orchard' multiple times, but does not mention 'Chekhov', 'play', or any specific type of orchard related to literature.",
+                "Document and Answer Keywords Matching": "The document does not mention 'cherry' or any specific type of orchard that matches the answer.",
+                "Key Information Matching": "The document focuses on visual art (paintings of orchards) and does not provide any literary context or references to Chekhov or his works.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Chekhov or the type of orchard he wrote about.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is solely about van Gogh's paintings and does not provide any relevant literary context or information about Chekhov.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses on Vincent van Gogh's paintings of orchards and does not provide any information about Chekhov or his literary works. There is no overlap in key information required to answer the query."
+            },
+            "m.0crz6lg_9": {
+                "Query Analysis": "The query asks about the type of orchard that is the subject of a play written by Anton Chekhov.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that the play is about a cherry orchard.",
+                "Document Content Analysis": "The document provides information about a film adaptation of 'The Cherry Orchard', including details about its production, cast, and release dates. It mentions that the film is based on the 1904 play 'The Cherry Orchard' by Anton Chekhov.",
+                "Document and Query Keywords Matching": "The document mentions 'The Cherry Orchard' and 'Anton Chekhov', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes the term 'Cherry Orchard', which directly matches the answer 'Cherry'.",
+                "Key Information Matching": "The document explicitly mentions 'The Cherry Orchard' by Anton Chekhov, which directly relates to the query about the type of orchard in Chekhov's play.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Cherry Orchard' by Anton Chekhov, which answers the query about the type of orchard.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the play, including its adaptation into a film.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly mentions 'The Cherry Orchard' by Anton Chekhov, which is the exact answer to the query. It also provides additional context about the play's adaptation into a film, enhancing the understanding of the play's significance."
+            },
+            "m.0crz6lg_8": {
+                "Query Analysis": "The query asks about the type of orchard that is the subject of a play written by Anton Chekhov.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that the play is about a cherry orchard.",
+                "Document Content Analysis": "The document provides information about a film adaptation of 'The Cherry Orchard', including details about its genres, runtime, release dates, and the fact that it was based on a play by Anton Chekhov.",
+                "Document and Query Keywords Matching": "The document mentions 'The Cherry Orchard' and 'Anton Chekhov', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes the term 'The Cherry Orchard', which directly matches the answer 'Cherry'.",
+                "Key Information Matching": "The document explicitly mentions that 'The Cherry Orchard' is a play by Anton Chekhov, which directly addresses the query's focus on the type of orchard in Chekhov's play.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by mentioning 'The Cherry Orchard' as a play by Anton Chekhov.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the play, including its adaptation into a film and various production details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions 'The Cherry Orchard' as a play by Anton Chekhov, thereby providing the exact answer to the query. Additionally, it offers supplementary information about the play's adaptation into a film, enhancing the context."
+            },
+            "ott_18920_1": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about. This is a literary and historical question focusing on the work of Anton Chekhov.",
+                "Query Keywords Extraction": "Chekhov, play, orchard",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard, specifically 'The Cherry Orchard'.",
+                "Document Content Analysis": "The document describes Candy Apple Grove, an area within Kings Dominion amusement park. It mentions the history of the area, its theme, rides, and attractions, focusing on apple-themed elements and general amusement park features.",
+                "Document and Query Keywords Matching": "The document mentions 'orchard' in the context of an apple-themed area within an amusement park.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Cherry' in relation to Chekhov or any literary context.",
+                "Key Information Matching": "The document's mention of 'orchard' is related to an amusement park theme and not to Chekhov or literature. There is no direct or indirect reference to Chekhov or his works.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Chekhov or the type of orchard he wrote about.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document's content is entirely unrelated to Chekhov or literary themes.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about an amusement park area with an orchard theme, but it has no relevance to Anton Chekhov or his literary works. The mention of 'orchard' is purely in the context of a theme park attraction and does not assist in answering the query about Chekhov's play. Therefore, the document is irrelevant to the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.06b_j_2330": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document contains metadata related to works and languages, including references to Russian language and works such as 'The Orchard' and 'The Queen of Spades'. However, it does not explicitly mention Chekhov or a cherry orchard.",
+                "Document and Query Keywords Matching": "The document mentions 'The Orchard', which partially matches the keyword 'orchard' from the query. However, it does not mention 'Chekhov' or 'play'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Cherry', which is the answer to the query.",
+                "Key Information Matching": "The document does not provide key information about Chekhov or a cherry orchard, which are central to the query and answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Chekhov or a cherry orchard.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the type of orchard Chekhov wrote about.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Chekhov or a cherry orchard, nor does it provide any context or information that could assist in answering the query."
+            },
+            "m.0crz6lg_11": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document discusses 'The Cherry Orchard', a film adaptation of Chekhov's play. It mentions details about the film, such as its release dates, runtime, and credits, but does not explicitly state that it is based on a play by Chekhov about a cherry orchard.",
+                "Document and Query Keywords Matching": "The document mentions 'The Cherry Orchard', which matches the keyword 'orchard' from the query. It also mentions 'Anton Chekhov', matching the keyword 'Chekhov'.",
+                "Document and Answer Keywords Matching": "The document mentions 'The Cherry Orchard', which includes the keyword 'Cherry' from the answer.",
+                "Key Information Matching": "The document mentions 'The Cherry Orchard' and 'Anton Chekhov', which are key to the query and answer. However, it does not explicitly state that Chekhov wrote a play about a cherry orchard.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Chekhov wrote a play about a cherry orchard.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions 'The Cherry Orchard' and 'Anton Chekhov', which can help infer that Chekhov wrote a play about a cherry orchard.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'The Cherry Orchard' and 'Anton Chekhov'. While it does not explicitly state that Chekhov wrote a play about a cherry orchard, the mention of 'The Cherry Orchard' provides substantial useful context that enhances understanding of the query."
+            },
+            "ott_10015_0": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document lists craters on Mercury, including one named 'Chekhov' after Anton Chekhov, a Russian playwright and writer.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov', which matches the query keyword 'Chekhov'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Cherry' or any other type of orchard.",
+                "Key Information Matching": "The document mentions 'Chekhov' but does not provide any information about the type of orchard he wrote a play about.",
+                "Can the Document Answer the Query": "No, the document does not mention any type of orchard or play by Chekhov.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the type of orchard Chekhov wrote about.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the type of orchard Chekhov wrote a play about or any related context."
+            },
+            "nq_297406_2": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document discusses the Moscow Art Theatre and its productions, including plays by Anton Chekhov. It specifically mentions 'The Cherry Orchard' as one of Chekhov's plays.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov' and 'play', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'The Cherry Orchard', which includes the keyword 'Cherry' from the answer.",
+                "Key Information Matching": "The document mentions 'The Cherry Orchard', which directly matches the answer 'Cherry' and is relevant to the query about the type of orchard Chekhov wrote a play about.",
+                "Can the Document Answer the Query": "Yes, the document directly mentions 'The Cherry Orchard', which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional information is required as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'The Cherry Orchard', which is the play Chekhov wrote about a cherry orchard. This directly answers the query and provides substantial useful context."
+            },
+            "m.0crz6lg_0": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document provides information about 'The Cherry Orchard', including its name in multiple languages, a description of a 1999 film adaptation based on Chekhov's play, and its initial release date.",
+                "Document and Query Keywords Matching": "The document mentions 'The Cherry Orchard', which matches the query keywords 'orchard' and 'play'. It also mentions 'Anton Chekhov', matching the query keyword 'Chekhov'.",
+                "Document and Answer Keywords Matching": "The document mentions 'The Cherry Orchard', which includes the keyword 'Cherry' from the answer.",
+                "Key Information Matching": "The document directly references 'The Cherry Orchard', a play by Anton Chekhov, which aligns with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document explicitly mentions 'The Cherry Orchard' by Anton Chekhov, which answers the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document directly answers the query without requiring additional inference.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'The Cherry Orchard', a play by Anton Chekhov, which answers the query about the type of orchard Chekhov wrote about. The document provides substantial useful context and directly answers the query."
+            },
+            "triviaqa_66269_96": {
+                "Query Analysis": "The query asks about the type of orchard that Anton Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document discusses Anton Chekhov's life and works, mentioning his major plays, including 'The Cherry Orchard' (1904). It also provides context about Chekhov's influence and his contributions to European theatre.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov' and 'play', specifically referencing 'The Cherry Orchard'.",
+                "Document and Answer Keywords Matching": "The document mentions 'The Cherry Orchard', which aligns with the answer 'Cherry'.",
+                "Key Information Matching": "The document directly mentions 'The Cherry Orchard', which is the play about a cherry orchard written by Chekhov, matching both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Chekhov wrote 'The Cherry Orchard'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Chekhov's works and his influence on theatre.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it mentions 'The Cherry Orchard', the play about a cherry orchard written by Chekhov. This directly answers the query and provides additional context about Chekhov's contributions to theatre."
+            },
+            "nq_44925_118": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document discusses various paintings by Vincent van Gogh, including depictions of orchards with blossoming trees, such as apricot trees and cypresses. It also mentions wheat fields, but there is no mention of Chekhov or a cherry orchard.",
+                "Document and Query Keywords Matching": "The document mentions 'orchard' but does not mention 'Chekhov' or 'play'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'cherry'.",
+                "Key Information Matching": "The document discusses orchards but does not provide any information about Chekhov or a cherry orchard.",
+                "Can the Document Answer the Query": "No, the document does not mention Chekhov or a cherry orchard.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Chekhov or a cherry orchard.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about Vincent van Gogh's paintings of orchards and does not mention Chekhov or a cherry orchard. Therefore, it is irrelevant to the query."
+            },
+            "m.0crz6lg_9": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document discusses 'The Cherry Orchard', a film based on the 1904 play by Anton Chekhov. It provides details about the film's production, release dates, genres, and other related information.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov' and 'The Cherry Orchard', which aligns with the query's keywords.",
+                "Document and Answer Keywords Matching": "The document mentions 'Cherry Orchard', which matches the answer 'Cherry'.",
+                "Key Information Matching": "The document confirms that Anton Chekhov wrote a play titled 'The Cherry Orchard', which directly relates to the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Chekhov wrote a play about a cherry orchard.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the play and its adaptation into a film.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it confirms that Chekhov wrote a play about a cherry orchard. It also provides additional context about the play's adaptation into a film, enhancing understanding of the query."
+            },
+            "m.0crz6lg_8": {
+                "Query Analysis": "The query asks about the type of orchard that Chekhov wrote a play about.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating that Chekhov wrote a play about a cherry orchard.",
+                "Document Content Analysis": "The document provides detailed information about 'The Cherry Orchard', a play by Anton Chekhov, including its adaptations, genres, release dates, and other related details.",
+                "Document and Query Keywords Matching": "The document mentions 'Chekhov' and 'The Cherry Orchard', which directly relate to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Cherry Orchard', which matches the answer 'Cherry'.",
+                "Key Information Matching": "The document explicitly mentions 'The Cherry Orchard' by Anton Chekhov, which directly answers the query about the type of orchard Chekhov wrote a play about.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Chekhov wrote a play titled 'The Cherry Orchard'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the play, including its adaptations and other related details.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it explicitly mentions 'The Cherry Orchard' by Anton Chekhov, which answers the query about the type of orchard Chekhov wrote a play about. Additionally, it provides useful context about the play, enhancing understanding of the query."
+            },
+            "ott_18920_1": {
+                "Query Analysis": "The query asks about the type of orchard featured in a play written by Chekhov.",
+                "Query Keywords Extraction": "orchard, Chekhov, play",
+                "Answer Analysis": "The answer is 'Cherry', indicating the play is about a cherry orchard.",
+                "Document Content Analysis": "The document discusses Kings Dominion amusement park, its history, and themed areas, including Candy Apple Grove, which originally had an orchard theme featuring apple-themed rides and later restored to its original orchard theme.",
+                "Document and Query Keywords Matching": "The document mentions 'orchard' and 'theme', which partially match the query's keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'cherry' or any reference to Chekhov or his play.",
+                "Key Information Matching": "The document discusses an orchard theme but does not relate to Chekhov or a cherry orchard.",
+                "Can the Document Answer the Query": "No, the document does not mention Chekhov or a cherry orchard.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Chekhov or his play about a cherry orchard.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about an amusement park's themed area and does not provide any relevant information about Chekhov or his play featuring a cherry orchard."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.06b_j_2330": {},
+            "m.0crz6lg_11": {},
+            "ott_10015_0": {},
+            "nq_297406_2": {},
+            "m.0crz6lg_0": {},
+            "triviaqa_66269_96": {},
+            "nq_44925_118": {},
+            "m.0crz6lg_9": {},
+            "m.0crz6lg_8": {},
+            "ott_18920_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_18920_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "ott": 0,
+            "nq": 2,
+            "kg": 8,
+            "triviaqa": 2,
+            "tat": 0
+        }
+    }
+}

@@ -1,0 +1,1340 @@
+{
+    "index": 488,
+    "context": [
+        "m.0104lr"
+    ],
+    "qa": {
+        "question": "what state was texaco gas founded?",
+        "answer": "Beaumont",
+        "BM25_documents": [
+            {
+                "id": "triviaqa_64768_97",
+                "score": 12.357799530029297
+            },
+            {
+                "id": "nq_134503_23",
+                "score": 12.335100173950195
+            },
+            {
+                "id": "triviaqa_64768_98",
+                "score": 11.840200424194336
+            },
+            {
+                "id": "triviaqa_63662_103",
+                "score": 11.610199928283691
+            },
+            {
+                "id": "triviaqa_1413_59",
+                "score": 10.871999740600586
+            },
+            {
+                "id": "nq_198199_7",
+                "score": 10.750499725341797
+            },
+            {
+                "id": "nq_198199_6",
+                "score": 10.663900375366211
+            },
+            {
+                "id": "nq_302761_18",
+                "score": 10.473400115966797
+            },
+            {
+                "id": "nq_146342_86",
+                "score": 10.378399848937988
+            },
+            {
+                "id": "nq_743_15",
+                "score": 10.284799575805664
+            },
+            {
+                "id": "nq_302761_19",
+                "score": 9.645500183105469
+            },
+            {
+                "id": "nq_52703_173",
+                "score": 9.622300148010254
+            },
+            {
+                "id": "triviaqa_75266_178",
+                "score": 9.473899841308594
+            },
+            {
+                "id": "nq_228962_3",
+                "score": 9.3548002243042
+            },
+            {
+                "id": "nq_228962_4",
+                "score": 9.354799270629883
+            },
+            {
+                "id": "nq_814_114",
+                "score": 9.19219970703125
+            },
+            {
+                "id": "nq_116839_116",
+                "score": 9.166299819946289
+            },
+            {
+                "id": "nq_240501_45",
+                "score": 9.149200439453125
+            },
+            {
+                "id": "nq_78038_109",
+                "score": 9.149199485778809
+            },
+            {
+                "id": "nq_1299_85",
+                "score": 9.147700309753418
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.0104lr_39",
+                "score": 6.668700218200684
+            },
+            {
+                "id": "m.0104lr_98",
+                "score": 6.668699264526367
+            }
+        ],
+        "BM25_tat_documents": [
+            {
+                "id": "tat_1153_2",
+                "score": 4.639500141143799
+            },
+            {
+                "id": "tat_1153_1",
+                "score": 4.278500080108643
+            },
+            {
+                "id": "tat_1236_0",
+                "score": 3.9449989795684814
+            },
+            {
+                "id": "tat_665_0",
+                "score": 3.8663830757141113
+            }
+        ],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_1061_0",
+                "score": 6.774799823760986
+            },
+            {
+                "id": "ott_9707_0",
+                "score": 6.77479887008667
+            },
+            {
+                "id": "ott_24907_2",
+                "score": 6.478000164031982
+            },
+            {
+                "id": "ott_24907_3",
+                "score": 6.477999210357666
+            },
+            {
+                "id": "ott_30130_2",
+                "score": 6.47799825668335
+            },
+            {
+                "id": "ott_30130_3",
+                "score": 6.477997303009033
+            },
+            {
+                "id": "ott_36405_2",
+                "score": 6.477996349334717
+            },
+            {
+                "id": "ott_36405_3",
+                "score": 6.4779953956604
+            },
+            {
+                "id": "ott_17290_0",
+                "score": 6.3592000007629395
+            },
+            {
+                "id": "ott_2110_0",
+                "score": 6.359199047088623
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_134503_23",
+                "score": 12.335100173950195
+            },
+            {
+                "id": "nq_198199_7",
+                "score": 10.750499725341797
+            },
+            {
+                "id": "nq_198199_6",
+                "score": 10.663900375366211
+            },
+            {
+                "id": "nq_302761_18",
+                "score": 10.473400115966797
+            },
+            {
+                "id": "nq_146342_86",
+                "score": 10.378399848937988
+            },
+            {
+                "id": "nq_743_15",
+                "score": 10.284799575805664
+            },
+            {
+                "id": "nq_302761_19",
+                "score": 9.645500183105469
+            },
+            {
+                "id": "nq_52703_173",
+                "score": 9.622300148010254
+            },
+            {
+                "id": "nq_228962_3",
+                "score": 9.3548002243042
+            },
+            {
+                "id": "nq_228962_4",
+                "score": 9.354799270629883
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_64768_97",
+                "score": 12.357799530029297
+            },
+            {
+                "id": "triviaqa_64768_98",
+                "score": 11.840200424194336
+            },
+            {
+                "id": "triviaqa_63662_103",
+                "score": 11.610199928283691
+            },
+            {
+                "id": "triviaqa_1413_59",
+                "score": 10.871999740600586
+            },
+            {
+                "id": "triviaqa_75266_178",
+                "score": 9.473899841308594
+            },
+            {
+                "id": "triviaqa_1413_61",
+                "score": 9.089099884033203
+            },
+            {
+                "id": "triviaqa_21794_61",
+                "score": 8.926098823547363
+            },
+            {
+                "id": "triviaqa_75266_177",
+                "score": 8.383099555969238
+            },
+            {
+                "id": "triviaqa_4192_113",
+                "score": 8.252300262451172
+            },
+            {
+                "id": "triviaqa_35963_211",
+                "score": 8.048700332641602
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.03v0t_1434",
+                "score": 9.050600051879883
+            },
+            {
+                "id": "m.03v0t_1435",
+                "score": 9.038999557495117
+            },
+            {
+                "id": "m.013yq_71",
+                "score": 6.826499938964844
+            },
+            {
+                "id": "m.04ly1_373",
+                "score": 6.74459981918335
+            },
+            {
+                "id": "m.04ly1_374",
+                "score": 6.7230000495910645
+            },
+            {
+                "id": "m.0104lr_39",
+                "score": 6.668700218200684
+            },
+            {
+                "id": "m.0104lr_98",
+                "score": 6.668699264526367
+            },
+            {
+                "id": "m.07sz1_318",
+                "score": 6.651100158691406
+            },
+            {
+                "id": "m.07sz1_317",
+                "score": 6.644000053405762
+            },
+            {
+                "id": "m.07sz1_205",
+                "score": 6.500699996948242
+            },
+            {
+                "id": "m.013yq_514",
+                "score": 6.1819000244140625
+            },
+            {
+                "id": "m.0g18vt_24",
+                "score": 6.0279998779296875
+            },
+            {
+                "id": "m.050l8_417",
+                "score": 6.026100158691406
+            },
+            {
+                "id": "m.01lct6_46",
+                "score": 5.987500190734863
+            },
+            {
+                "id": "m.02rnynj_5",
+                "score": 5.987499237060547
+            },
+            {
+                "id": "m.0qscv_25",
+                "score": 5.947500228881836
+            },
+            {
+                "id": "m.04fckk_139",
+                "score": 5.860099792480469
+            },
+            {
+                "id": "m.0g18vt_23",
+                "score": 5.794400215148926
+            },
+            {
+                "id": "m.04fckk_68",
+                "score": 5.781899929046631
+            },
+            {
+                "id": "m.04fckk_11",
+                "score": 5.7769999504089355
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "nq_223745_36",
+                "score": 0.6625865697860718
+            },
+            {
+                "id": "nq_59457_70",
+                "score": 0.650458037853241
+            },
+            {
+                "id": "nq_223745_35",
+                "score": 0.6402156352996826
+            },
+            {
+                "id": "nq_134503_12",
+                "score": 0.6330618262290955
+            },
+            {
+                "id": "nq_222485_98",
+                "score": 0.6252309083938599
+            },
+            {
+                "id": "nq_223745_37",
+                "score": 0.6206986904144287
+            },
+            {
+                "id": "nq_134503_6",
+                "score": 0.6174831390380859
+            },
+            {
+                "id": "nq_222485_99",
+                "score": 0.6111611127853394
+            },
+            {
+                "id": "nq_134503_22",
+                "score": 0.6093234419822693
+            },
+            {
+                "id": "nq_222485_18",
+                "score": 0.6034762263298035
+            },
+            {
+                "id": "nq_222485_68",
+                "score": 0.6028258204460144
+            },
+            {
+                "id": "nq_134503_11",
+                "score": 0.6017500758171082
+            },
+            {
+                "id": "nq_134503_13",
+                "score": 0.5978660583496094
+            },
+            {
+                "id": "nq_222485_13",
+                "score": 0.5973886847496033
+            },
+            {
+                "id": "nq_59457_64",
+                "score": 0.5962094068527222
+            },
+            {
+                "id": "nq_148347_2",
+                "score": 0.591510534286499
+            },
+            {
+                "id": "nq_38035_10",
+                "score": 0.5911825895309448
+            },
+            {
+                "id": "nq_2151_10",
+                "score": 0.5911825895309448
+            },
+            {
+                "id": "nq_223745_7",
+                "score": 0.589348554611206
+            },
+            {
+                "id": "nq_222485_19",
+                "score": 0.5871049165725708
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.0104lr_62",
+                "score": 0.5356321334838867
+            },
+            {
+                "id": "m.0104lr_63",
+                "score": 0.5315495729446411
+            },
+            {
+                "id": "m.0104lr_18",
+                "score": 0.5278995633125305
+            },
+            {
+                "id": "m.0104lr_39",
+                "score": 0.5229642987251282
+            },
+            {
+                "id": "m.0104lr_12",
+                "score": 0.5226753950119019
+            },
+            {
+                "id": "m.0104lr_38",
+                "score": 0.5103434920310974
+            },
+            {
+                "id": "m.0104lr_11",
+                "score": 0.5039927363395691
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_481_1",
+                "score": 0.5730247497558594
+            },
+            {
+                "id": "ott_33738_1",
+                "score": 0.5730247497558594
+            },
+            {
+                "id": "ott_39466_1",
+                "score": 0.5730247497558594
+            },
+            {
+                "id": "ott_33840_1",
+                "score": 0.5730247497558594
+            },
+            {
+                "id": "ott_24977_1",
+                "score": 0.5451412200927734
+            },
+            {
+                "id": "ott_39266_1",
+                "score": 0.5451412200927734
+            },
+            {
+                "id": "ott_18012_1",
+                "score": 0.5451412200927734
+            },
+            {
+                "id": "ott_34034_1",
+                "score": 0.5372666120529175
+            },
+            {
+                "id": "ott_33677_1",
+                "score": 0.5372666120529175
+            },
+            {
+                "id": "ott_20585_1",
+                "score": 0.5372666120529175
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_223745_36",
+                "score": 0.6625865697860718
+            },
+            {
+                "id": "nq_59457_70",
+                "score": 0.650458037853241
+            },
+            {
+                "id": "nq_223745_35",
+                "score": 0.6402156352996826
+            },
+            {
+                "id": "nq_134503_12",
+                "score": 0.6330618262290955
+            },
+            {
+                "id": "nq_222485_98",
+                "score": 0.6252309083938599
+            },
+            {
+                "id": "nq_223745_37",
+                "score": 0.6206986904144287
+            },
+            {
+                "id": "nq_134503_6",
+                "score": 0.6174831390380859
+            },
+            {
+                "id": "nq_222485_99",
+                "score": 0.6111611127853394
+            },
+            {
+                "id": "nq_134503_22",
+                "score": 0.6093234419822693
+            },
+            {
+                "id": "nq_222485_18",
+                "score": 0.6034762263298035
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_9950_23",
+                "score": 0.5749136209487915
+            },
+            {
+                "id": "triviaqa_52180_32",
+                "score": 0.5733444690704346
+            },
+            {
+                "id": "triviaqa_64768_98",
+                "score": 0.5726338028907776
+            },
+            {
+                "id": "triviaqa_53663_549",
+                "score": 0.5712843537330627
+            },
+            {
+                "id": "triviaqa_59399_56",
+                "score": 0.5690955519676208
+            },
+            {
+                "id": "triviaqa_33376_809",
+                "score": 0.5668255090713501
+            },
+            {
+                "id": "triviaqa_73927_4",
+                "score": 0.5663125514984131
+            },
+            {
+                "id": "triviaqa_45297_49",
+                "score": 0.5662424564361572
+            },
+            {
+                "id": "triviaqa_19116_45",
+                "score": 0.5613927245140076
+            },
+            {
+                "id": "triviaqa_63662_103",
+                "score": 0.5603030323982239
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.05mph_988",
+                "score": 0.5713690519332886
+            },
+            {
+                "id": "m.02050j_5",
+                "score": 0.5698859095573425
+            },
+            {
+                "id": "m.05mph_509",
+                "score": 0.5570626258850098
+            },
+            {
+                "id": "m.05mph_965",
+                "score": 0.5515649914741516
+            },
+            {
+                "id": "m.05mph_28",
+                "score": 0.5505805611610413
+            },
+            {
+                "id": "m.03l2n_435",
+                "score": 0.547531008720398
+            },
+            {
+                "id": "m.050l8_417",
+                "score": 0.5430724024772644
+            },
+            {
+                "id": "m.0msd9_3",
+                "score": 0.5428937673568726
+            },
+            {
+                "id": "m.05mph_27",
+                "score": 0.5424023866653442
+            },
+            {
+                "id": "m.05mph_174",
+                "score": 0.5419336557388306
+            },
+            {
+                "id": "m.013n2h_61",
+                "score": 0.5416443347930908
+            },
+            {
+                "id": "m.013n2h_167",
+                "score": 0.540055513381958
+            },
+            {
+                "id": "m.05mph_508",
+                "score": 0.538654088973999
+            },
+            {
+                "id": "m.05mph_1174",
+                "score": 0.5367732644081116
+            },
+            {
+                "id": "m.02050j_3",
+                "score": 0.5360944867134094
+            },
+            {
+                "id": "m.0104lr_62",
+                "score": 0.5356321334838867
+            },
+            {
+                "id": "m.0hhsw_13",
+                "score": 0.5338876843452454
+            },
+            {
+                "id": "m.05mph_1175",
+                "score": 0.5337547659873962
+            },
+            {
+                "id": "m.05mph_486",
+                "score": 0.5317067503929138
+            },
+            {
+                "id": "m.0msb1_63",
+                "score": 0.5316669344902039
+            }
+        ],
+        "llm_mark_result": {
+            "m.0104lr_98": {
+                "Query Analysis": "The query is asking for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer indicates that Texaco gas was founded in Beaumont.",
+                "Document Content Analysis": "The document lists various entities and their associations with Beaumont, including places, people, events, and organizations. It specifically mentions 'Texaco -- Place founded --> Beaumont'.",
+                "Document and Query Keywords Matching": "The document includes the keyword 'Texaco' and 'founded'.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Texaco was founded in Beaumont, directly addressing the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Texaco was founded in Beaumont.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context by associating Beaumont with various other entities, which can help infer the significance of Beaumont.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is highly relevant as it directly answers the query by specifying that Texaco was founded in Beaumont. Additionally, it provides context about Beaumont, enhancing the understanding of the location's significance."
+            },
+            "m.02050j_5": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city, not a state. However, it implies the state is Texas, as Beaumont is a city in Texas.",
+                "Document Content Analysis": "The document provides information about Kay Bailey Hutchison, a former U.S. Senator from Texas. It details her political career, education, and竞选 for governor. The document focuses on her activities and roles in Texas politics.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas' multiple times, which is related to the query keyword 'state'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' directly.",
+                "Key Information Matching": "While the document does not mention Texaco gas or its founding location, it repeatedly references Texas, which is the state where Beaumont is located.",
+                "Can the Document Answer the Query": "No, the document does not provide specific information about the founding location of Texaco gas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the repeated mention of Texas can help infer that Beaumont, being a city in Texas, is likely the relevant state for the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it mentions Texas extensively, which is the state where Beaumont (the answer to the query) is located. However, it lacks direct information about Texaco gas or its founding location, making it unable to directly answer the query but still providing useful contextual information."
+            },
+            "triviaqa_64768_97": {
+                "Query Analysis": "The query asks for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the state is Texas.",
+                "Document Content Analysis": "The document discusses various aspects of self-service gas pumps in the US, fuel types, gas prices, and the presence of nationwide gas station chains, including Texaco.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco' among other gas station chains.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or 'Texas'.",
+                "Key Information Matching": "While the document mentions 'Texaco', it does not provide any information about its founding location or history.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or additional information that could help infer the founding state of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or additional information about the founding location of Texaco. The mention of 'Texaco' is tangential and does not contribute to answering the query."
+            },
+            "tat_1153_2": {
+                "Query Analysis": "The query asks for the state where Texaco Gas was founded.",
+                "Query Keywords Extraction": "state, Texaco Gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the state is Texas.",
+                "Document Content Analysis": "The document discusses financial allocations and distributions within GasLog Partners, including profit distributions, non-controlling interests, and cash distributions. It mentions specific dates and financial figures related to these distributions.",
+                "Document and Query Keywords Matching": "The document does not mention 'Texaco Gas', 'state', or 'founded'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any related geographical locations.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the founding location of Texaco Gas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the state where Texaco Gas was founded.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on financial details of GasLog Partners and does not mention Texaco Gas, its founding location, or any relevant geographical information. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_64768_98": {
+                "Query Analysis": "The query asks for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the state is Texas.",
+                "Document Content Analysis": "The document discusses various aspects of gas prices and gas station chains in the United States, including the presence of nationwide chains and regional variations in pricing. It mentions several gas station chains, including Texaco.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco', which is a key term from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or 'Texas'.",
+                "Key Information Matching": "While the document mentions Texaco, it does not provide any information about its founding location.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific state where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any context or additional information that could help infer the founding state of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Texaco but lacks any relevant information about its founding location. Therefore, it cannot assist in answering the query or provide useful context related to the query."
+            },
+            "nq_134503_23": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the state is Texas.",
+                "Document Content Analysis": "The document discusses the history of oil discoveries and the role of Standard Oil Company in the Gulf Coast region. It mentions the birthplace of oil giants Texaco and Gulf Oil at Spindletop.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco' and implies its founding location.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Beaumont' but references locations in Texas (Sour Lake, Batson, Humble) and the significance of Spindletop, which is associated with Beaumont.",
+                "Key Information Matching": "The document provides context about the founding of Texaco in the Gulf Coast region, specifically at Spindletop, which is in Texas.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco was founded in Beaumont, Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document helps infer that Texaco was founded in Texas by mentioning Spindletop as its birthplace.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about the founding location of Texaco in the Gulf Coast region, specifically at Spindletop, which is in Texas. However, it does not explicitly state that Texaco was founded in Beaumont, Texas."
+            },
+            "m.0104lr_63": {
+                "Query Analysis": "The query asks for the location (state) where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the city where Texaco was founded.",
+                "Document Content Analysis": "The document provides historical and contemporary information about Beaumont, Texas, including details about local newspapers, utilities, the South Texas State Fair, and various statistics related to the city.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont', which is the city mentioned in the answer, but does not explicitly mention 'Texaco' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document includes 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "While the document mentions Beaumont, it does not provide any context about Texaco or its founding.",
+                "Can the Document Answer the Query": "No, the document does not provide information about where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any context or information about Texaco, its founding, or its relevance to Beaumont beyond the city's name.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about Beaumont, Texas, and does not contain any information about Texaco or its founding. While it mentions Beaumont, which is the city in the answer, it does not provide any useful context or additional information that would help answer the query about Texaco's founding location. Therefore, it is considered irrelevant to the query."
+            },
+            "m.05mph_988": {
+                "Query Analysis": "The query is seeking information about the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer indicates that Texaco gas was founded in Beaumont.",
+                "Document Content Analysis": "The document provides a detailed description of the state of Oklahoma, including its geographical location, history, economic base, and other相关信息. It mentions Oklahoma's role as a major producer of natural gas and oil but does not specifically mention Texaco or its founding location.",
+                "Document and Query Keywords Matching": "The document does not contain any of the extracted query keywords ('state', 'Texaco gas', 'founded').",
+                "Document and Answer Keywords Matching": "The document does not contain the keyword 'Beaumont'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on Oklahoma, which is not related to the founding location of Texaco.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the founding location of Texaco.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the founding location of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It provides extensive information about Oklahoma but lacks any mention of Texaco or its founding location. Therefore, it cannot assist in answering the query or providing additional relevant information."
+            },
+            "m.03v0t_1434": {
+                "Query Analysis": "The query asks for the state where Texaco Gas was founded.",
+                "Query Keywords Extraction": "state, Texaco Gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the state should be Texas, as Beaumont is a city in Texas.",
+                "Document Content Analysis": "The document lists various street addresses and locations, all of which are in Illinois. It also mentions 'Ambler's Texaco Gas Station' located in Illinois.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco Gas Station'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or 'Texas'.",
+                "Key Information Matching": "The document mentions a Texaco Gas Station but does not provide any information about the founding location of Texaco Gas.",
+                "Can the Document Answer the Query": "No, the document does not provide the state where Texaco Gas was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document only mentions a Texaco Gas Station in Illinois, which does not help infer the founding state of Texaco Gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful information about the founding state of Texaco Gas. The mention of a Texaco Gas Station in Illinois does not contribute to answering the query about the founding state."
+            },
+            "m.0104lr_39": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies Beaumont, Texas.",
+                "Document Content Analysis": "The document provides various metadata and information about Beaumont, Texas, including its classification as a location, statistical region, and city/town/village. It also mentions that Texaco was founded in Beaumont.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco' and 'Beaumont', which are directly related to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Beaumont', which is the answer to the query, and explicitly states that Texaco was founded in Beaumont.",
+                "Key Information Matching": "The document directly states that Texaco was founded in Beaumont, which is the key information needed to answer the query.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Texaco was founded in Beaumont, Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Beaumont, Texas, which can help infer more information about the location where Texaco was founded.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly states that Texaco was founded in Beaumont, Texas. This directly answers the query and provides additional context about Beaumont, enhancing the understanding of the query's answer."
+            },
+            "nq_134503_12": {
+                "Query Analysis": "The query is asking for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer indicates that Texaco gas was founded in Beaumont, which is a city.",
+                "Document Content Analysis": "The document provides historical information about the petroleum industry in the United States, focusing on significant oil discoveries in Oklahoma and Texas. It mentions specific locations and years of major oil finds but does not directly discuss the founding of Texaco.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is a state, but does not explicitly mention 'Texaco' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont'.",
+                "Key Information Matching": "The document discusses the petroleum industry in Texas, which could be tangentially related to Texaco, but does not provide specific information about the founding of Texaco.",
+                "Can the Document Answer the Query": "No, the document does not provide direct information about where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document discusses the petroleum industry in Texas, it does not provide any context that would help infer the founding location of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is primarily about the history of oil discoveries in the United States, particularly in Oklahoma and Texas. It does not contain any specific information about the founding of Texaco, nor does it mention Beaumont. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides useful context for inferring the answer."
+            },
+            "m.0104lr_18": {
+                "Query Analysis": "The query asks for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city.",
+                "Document Content Analysis": "The document provides information about Beaumont, including its location in the state of Texas, its population, and some historical corporate presence. It mentions that several energy companies were spawned in Beaumont, but does not explicitly mention Texaco.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont', which is related to the answer, but does not explicitly mention 'Texaco' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Beaumont' multiple times and states that it is in the state of Texas.",
+                "Key Information Matching": "The document indirectly provides the state (Texas) where Beaumont is located, which is relevant to the query since Beaumont is the city where Texaco was founded.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco was founded in Beaumont, Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides the location of Beaumont in Texas, which can help infer that Texaco was founded in Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the location of Beaumont, which is the city where Texaco was founded. However, it does not directly mention Texaco's founding, making it partially relevant to the query."
+            },
+            "triviaqa_1413_59": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city, not a state. However, Beaumont is located in Texas, which is the relevant state.",
+                "Document Content Analysis": "The document discusses a legal hearing and mentions a Texaco service station in Memphis as part of an alibi story. It focuses on the credibility of the alibi and the actions of individuals involved in a legal case.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco' but does not mention 'founded' or 'state'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont'.",
+                "Key Information Matching": "The document mentions 'Texaco' but in a completely different context unrelated to its founding location.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information about the founding location of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the founding location of Texaco. The mention of a Texaco service station in Memphis is unrelated to the query's focus on the founding state of the company."
+            },
+            "nq_59457_70": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the state is Texas.",
+                "Document Content Analysis": "The document discusses the discovery of oil in Texas, particularly at Spindletop near Beaumont, Texas, and its impact on the state's economy. It mentions the Texas Oil Boom and other oil fields in Texas.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont, Texas', which is directly related to the answer.",
+                "Document and Answer Keywords Matching": "The document includes 'Beaumont, Texas', which matches the answer.",
+                "Key Information Matching": "The document provides information about the significant oil discovery at Spindletop near Beaumont, Texas, which is relevant to the founding location of Texaco.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco was founded in Beaumont, Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the oil industry in Beaumont, Texas, which can help infer that Texaco, being a major oil company, might have been founded in this significant oil-producing area.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Beaumont, Texas, and its significance in the oil industry, which can help infer the state where Texaco was founded. However, it does not directly state that Texaco was founded in Beaumont, Texas, making it partially relevant."
+            },
+            "ott_1061_0": {
+                "Query Analysis": "The query asks for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city, not a state. The relevant state would be Texas.",
+                "Document Content Analysis": "The document provides a list of Phi Beta Sigma chapters, including their names, charter dates, institutions, locations, and statuses. It also includes a brief introduction about the fraternity's founding and expansion.",
+                "Document and Query Keywords Matching": "The document does not mention 'Texaco', 'gas', 'founded', or any related terms.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or 'Texas'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Texaco or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Phi Beta Sigma chapters and contains no information about Texaco or its founding location. Therefore, it is irrelevant to the query."
+            },
+            "m.03v0t_1435": {
+                "Query Analysis": "The query asks for the state in which Texaco Gas was founded.",
+                "Query Keywords Extraction": "state, Texaco Gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city, not a state. This suggests a potential mismatch or misunderstanding in the query's intent.",
+                "Document Content Analysis": "The document lists various addresses and their corresponding state, which is Illinois. It also mentions 'Ambler's Texaco Gas Station' located in Illinois.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco Gas'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont'.",
+                "Key Information Matching": "The document provides information about the location of a Texaco Gas Station, but it does not provide information about where Texaco Gas was founded.",
+                "Can the Document Answer the Query": "No, the document does not provide the state where Texaco Gas was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document only mentions a specific Texaco Gas Station in Illinois, which does not help infer the founding state of Texaco Gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful information about the founding state of Texaco Gas. The mention of a Texaco Gas Station in Illinois does not contribute to answering the query about the founding state."
+            },
+            "nq_223745_35": {
+                "Query Analysis": "The query is asking for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer indicates that Texaco gas was founded in Beaumont, which is a city.",
+                "Document Content Analysis": "The document discusses various aspects of Texas's energy consumption, petroleum deposits, and the presence of major oil companies' headquarters in Texas. It also mentions initiatives related to the energy industry in Texas.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is a state, and discusses oil companies, but does not explicitly mention 'Texaco' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont'.",
+                "Key Information Matching": "The document provides information about Texas's role in the energy industry and the presence of major oil companies, but lacks specific details about the founding location of Texaco.",
+                "Can the Document Answer the Query": "No, the document does not provide the specific information about where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document discusses Texas's significance in the oil industry, it does not provide any information that would help infer the founding location of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on Texas's energy industry and the presence of various oil companies, but it does not contain any specific information about the founding of Texaco. Therefore, it is irrelevant to the query as it neither answers the question directly nor provides any useful context that could help infer the answer."
+            },
+            "nq_223745_36": {
+                "Query Analysis": "The query is seeking information about the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer specifies that Texaco gas was founded in Beaumont, which implies it was founded in the state of Texas.",
+                "Document Content Analysis": "The document discusses various companies with headquarters in Texas, highlighting Texas's prominence in the energy industry and detailing various initiatives and energy-related activities in the state.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is a key keyword related to the query.",
+                "Document and Answer Keywords Matching": "The document does not directly mention 'Beaumont', but it extensively discusses Texas, which is the state where Beaumont is located.",
+                "Key Information Matching": "The document provides information about Texas's role in the energy industry and lists several energy companies based in Texas, which indirectly supports the inference that Texaco, being a major energy company, could also be associated with Texas.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document's focus on Texas and its significance in the energy industry can help infer that Texaco, a major energy company, might have a significant connection to Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "While the document does not directly answer the query about the specific founding location of Texaco, it provides relevant context about Texas's prominence in the energy industry, which can aid in inferring that Texaco might be related to Texas. However, the lack of specific mention of Texaco or Beaumont limits its direct relevance."
+            },
+            "m.0104lr_62": {
+                "Query Analysis": "The query is asking for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer indicates that Texaco gas was founded in Beaumont.",
+                "Document Content Analysis": "The document provides detailed information about Beaumont, including its location, historical context, notable people, and various statistics such as unemployment rates. It also mentions specific buildings and events in Beaumont.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont', which is directly related to the answer, but does not explicitly mention 'Texaco gas' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "While the document does not directly mention Texaco gas or its founding, it provides substantial information about Beaumont, which is the city where Texaco was founded.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Texaco was founded in Beaumont.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, by knowing that Beaumont is a city in Texas, one can infer that Texaco was founded in the state of Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it provides detailed information about Beaumont, which is the city mentioned in the answer. However, it lacks explicit mention of Texaco's founding, making it unable to directly answer the query. The document can help infer the state where Texaco was founded by indicating that Beaumont is in Texas."
+            },
+            "nq_222485_98": {
+                "Query Analysis": "The query is asking for the state in which Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer specifies 'Beaumont', which is a city, not a state. However, it implies the state of Texas since Beaumont is a city in Texas.",
+                "Document Content Analysis": "The document discusses Texas's dominance in the oil and gas industry, including regulation, production, and the presence of major petroleum companies. It highlights Texas's significant role in oil production and mentions several petroleum companies based in Texas.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas' and 'petroleum companies', which are related to the query keywords.",
+                "Document and Answer Keywords Matching": "The document does not directly mention 'Beaumont', but it extensively discusses Texas, which is the state where Beaumont is located.",
+                "Key Information Matching": "The document provides information about Texas's prominence in the oil and gas industry and the presence of major petroleum companies, which can indirectly suggest that a major company like Texaco might be associated with Texas.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco was founded in Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document's focus on Texas's oil and gas industry and the presence of major petroleum companies can help infer that Texaco, being a major petroleum company, might have ties to Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about Texas's significant role in the oil and gas industry and mentions several petroleum companies based in Texas. While it does not directly answer the query about Texaco's founding state, it provides useful background information that can help infer the likelihood of Texaco being associated with Texas."
+            },
+            "triviaqa_63662_103": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city, not a state. The state associated with Beaumont is Texas.",
+                "Document Content Analysis": "The document discusses various aspects of fuel prices in the United States, including regional variations, tax rates, and the presence of nationwide gas station chains. It mentions Texaco as one of the large chains but does not provide historical or founding information.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont'.",
+                "Key Information Matching": "The document only mentions 'Texaco' in the context of its current nationwide presence, not its founding location.",
+                "Can the Document Answer the Query": "No, the document does not provide information about where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any historical context or information that could help infer the founding location of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the founding location of Texaco. It only mentions Texaco in passing, without any relevant context to the query's focus on the founding state."
+            },
+            "triviaqa_9950_23": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which implies the state is Texas.",
+                "Document Content Analysis": "The document discusses the business expansion of Walton and his brother, particularly their ownership of stores under the Ben Franklin brand and the founding of Wal-Mart in Bentonville, Arkansas.",
+                "Document and Query Keywords Matching": "None of the query keywords ('state', 'Texaco gas', 'founded') are mentioned in the document.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any related terms.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Texaco gas or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the business activities of Walton and the founding of Wal-Mart, which have no connection to Texaco gas or its founding state."
+            },
+            "ott_481_1": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city, not a state. The relevant state would be Texas.",
+                "Document Content Analysis": "The document lists notable alumni of the University of Texas at Austin, their degrees, and their professional achievements. It also provides background information about the university itself.",
+                "Document and Query Keywords Matching": "The document does not mention 'Texaco gas' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont'.",
+                "Key Information Matching": "The document does not contain any information related to the founding location of Texaco gas.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about the founding location of Texaco gas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the state where Texaco gas was founded.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on alumni of the University of Texas at Austin and their achievements, without any mention of Texaco gas or its founding location."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.0104lr_98": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is 'Beaumont', which is a city in Texas.",
+                "Document Content Analysis": "The document contains a list of entities and their relationships, including 'Texaco -- Place founded --> Beaumont'. It also mentions other entities associated with Beaumont, such as individuals' places of birth, events, and institutions.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco' and 'founded', which are keywords from the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "The document explicitly states that Texaco was founded in Beaumont, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Texaco was founded in Beaumont.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly answers the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly provides the information needed to answer the query, stating that Texaco was founded in Beaumont. This makes it highly relevant as it directly answers the query without requiring additional inference."
+            },
+            "m.02050j_5": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is 'Beaumont', which is a city in Texas, indicating that Texaco gas was founded in Texas.",
+                "Document Content Analysis": "The document discusses Kay Bailey Hutchison, a politician from Texas, and her career in the Texas House of Representatives and the U.S. Senate. It mentions her education at the University of Texas at Austin and her political activities in Texas.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is relevant to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or 'Texaco gas'.",
+                "Key Information Matching": "The document mentions 'Texas', which is the state where Texaco gas was founded, as indicated by the answer 'Beaumont'.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco gas or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions Texas, which is the state where Texaco gas was founded, providing some context related to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions Texas, the state where Texaco gas was founded, but it does not provide direct information about Texaco gas or its founding location."
+            },
+            "triviaqa_64768_97": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses various aspects of gas stations in the US, including self-service gas pumps, diesel availability, gas prices, and nationwide gas station chains. It mentions Texaco as one of the large gas station chains but does not provide information about where Texaco was founded.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco' but does not mention 'founded' or 'state' in relation to Texaco.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any specific state related to Texaco's founding.",
+                "Key Information Matching": "The document does not provide any information about the founding location of Texaco gas.",
+                "Can the Document Answer the Query": "No, the document does not provide the state where Texaco gas was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the founding state of Texaco gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the founding state of Texaco gas. It discusses general information about gas stations and gas prices but does not address the specific query about Texaco's founding location."
+            },
+            "tat_1153_2": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses financial allocations, profit distributions, and dividends related to GasLog Partners and its subsidiaries. It does not mention Texaco gas or its founding location.",
+                "Document and Query Keywords Matching": "None of the keywords 'state', 'Texaco gas', or 'founded' are found in the document.",
+                "Document and Answer Keywords Matching": "The keyword 'Beaumont' is not found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Texaco gas or its founding location.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco gas or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the founding state of Texaco gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses financial matters of GasLog Partners and does not mention Texaco gas, its founding, or any related information. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_64768_98": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses gas prices, nationwide gas station chains, and intercity bus travel in the United States. It mentions Texaco as one of the large gas station chains but does not provide information about where Texaco was founded.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any specific state where Texaco was founded.",
+                "Key Information Matching": "The document mentions Texaco as a large gas station chain but does not provide any information about its founding location or state.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the state where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the founding state of Texaco.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Texaco but does not provide any information about its founding location or state. Therefore, it is irrelevant to the query."
+            },
+            "nq_134503_23": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses the history of the petroleum industry in the United States, mentioning the discovery of oil fields in Texas and the founding of oil companies like Texaco and Gulf Oil. It also mentions the Spindletop oil field, which is associated with the founding of Texaco.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco', which is directly related to the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Beaumont', but it does mention 'Spindletop', which is closely associated with Beaumont and the founding of Texaco.",
+                "Key Information Matching": "The document mentions 'Texaco' and 'Spindletop', which are key to understanding the founding of Texaco. Spindletop is located near Beaumont, Texas, which aligns with the answer.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco was founded in Beaumont, Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the founding of Texaco in relation to the Spindletop oil field, which is near Beaumont, Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about the founding of Texaco and its connection to the Spindletop oil field, which is near Beaumont, Texas. However, it does not explicitly state that Texaco was founded in Beaumont, making it partially relevant."
+            },
+            "m.0104lr_63": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document provides information about Beaumont, Texas, including its history, notable events, and demographic data. It mentions that Beaumont has been home to various institutions and events since the early 20th century.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont', which is the answer to the query, but it does not explicitly mention 'Texaco gas' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "The document mentions 'Beaumont', which is the city where Texaco gas was founded, but it does not provide explicit information about Texaco gas or its founding.",
+                "Can the Document Answer the Query": "No, the document does not explicitly mention Texaco gas or its founding.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides information about Beaumont, which is the city where Texaco gas was founded, but it does not directly address the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Beaumont, which is the city where Texaco gas was founded, but it does not explicitly mention Texaco gas or its founding. Therefore, it is partially relevant to the query."
+            },
+            "m.05mph_988": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document provides a detailed description of Oklahoma, including its history, economy, and geography. It mentions Oklahoma's role as a major producer of natural gas and oil but does not mention Texaco gas or its founding location.",
+                "Document and Query Keywords Matching": "The document does not mention 'Texaco gas' or 'founded'. It does mention 'state' and 'gas', but these are not specific to the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any specific location related to Texaco gas.",
+                "Key Information Matching": "The document does not provide any information about Texaco gas or its founding location. It focuses on Oklahoma's history and economy, which is unrelated to the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco gas or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Texaco gas or its founding location.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Oklahoma's history and economy but does not mention Texaco gas, its founding location, or any related information. Therefore, it is irrelevant to the query."
+            },
+            "m.03v0t_1434": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document contains various addresses and locations, all of which are in Illinois. It mentions 'Ambler's Texaco Gas Station' but does not provide any information about the founding state of Texaco gas.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco Gas Station', which partially matches the query keyword 'Texaco gas'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any other location in Texas.",
+                "Key Information Matching": "The document does not provide any information about the founding state of Texaco gas. It only mentions a Texaco gas station in Illinois.",
+                "Can the Document Answer the Query": "No, the document does not provide the founding state of Texaco gas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any information that could help infer the founding state of Texaco gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the founding state of Texaco gas. It only mentions a Texaco gas station in Illinois, which is not related to the query's focus on the founding state."
+            },
+            "m.0104lr_39": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document provides various details about Beaumont, including its type, population, unemployment rates, and notable people born there. It also mentions that Texaco was founded in Beaumont.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco' and 'Beaumont', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'Beaumont', which matches the answer.",
+                "Key Information Matching": "The document explicitly states 'Texaco -- Place founded --> Beaumont', which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Texaco was founded in Beaumont, which is in Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Beaumont, which is relevant to understanding where Texaco was founded.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Texaco was founded in Beaumont, which is in Texas. It also provides additional relevant information about Beaumont, enhancing the understanding of the query."
+            },
+            "nq_134503_12": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses the history of the petroleum industry in the United States, focusing on discoveries in Oklahoma and Texas. It mentions significant oil fields and wells, including the East Texas oil field, but does not specifically mention Texaco or its founding.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is relevant to the query as it pertains to the state where Texaco was founded.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont', the specific city where Texaco was founded.",
+                "Key Information Matching": "The document mentions 'Texas', which is the state where Texaco was founded, but it does not provide specific information about Texaco or its founding location.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the petroleum industry in Texas, which is relevant to the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides information about the petroleum industry in Texas, which is related to the query. However, it does not directly mention Texaco or its founding location, so it cannot fully answer the query."
+            },
+            "m.0104lr_18": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is 'Beaumont', which is a city in Texas.",
+                "Document Content Analysis": "The document provides information about Beaumont, Texas, including its status as a city in Texas, its population, and its historical significance as a home to several corporations. It mentions that Beaumont is in the state of Texas and provides descriptions of the city in multiple languages.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is relevant to the query's focus on the state where Texaco gas was founded.",
+                "Document and Answer Keywords Matching": "The document mentions 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "The document confirms that Beaumont is a city in Texas, which aligns with the query's focus on the state where Texaco gas was founded.",
+                "Can the Document Answer the Query": "Yes, the document confirms that Beaumont is in Texas, which is the state where Texaco gas was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Beaumont, Texas, which is relevant to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly confirms that Beaumont is in Texas, which answers the query about the state where Texaco gas was founded. Additionally, it provides useful context about Beaumont, enhancing understanding of the query."
+            },
+            "triviaqa_1413_59": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is 'Beaumont', which is a city in Texas, indicating that Texaco gas was founded in Texas.",
+                "Document Content Analysis": "The document discusses a legal case involving a gas station story related to Texaco, but it does not provide any information about the founding of Texaco gas or its location.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco service station', which partially matches 'Texaco gas' from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any other location related to the founding of Texaco gas.",
+                "Key Information Matching": "The document does not provide any key information about the founding state of Texaco gas.",
+                "Can the Document Answer the Query": "No, the document does not contain information about the founding state of Texaco gas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the founding state of Texaco gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about the founding state of Texaco gas or any related context."
+            },
+            "nq_59457_70": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses the history of oil discoveries in Texas, including the Spindletop oil well near Beaumont, Texas, and the economic impact of the Texas Oil Boom. It also mentions the Great Depression and its effects on the economy.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont, Texas', which is relevant to the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Beaumont, Texas', which matches the answer 'Beaumont'.",
+                "Key Information Matching": "The document provides information about the location of the Spindletop oil well near Beaumont, Texas, which is relevant to the query about the founding state of Texaco gas.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco gas was founded in Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document mentions Beaumont, Texas, which is where Texaco was founded, and provides context about the Texas Oil Boom, which is related to the founding of Texaco.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides relevant information about the location of Beaumont, Texas, and the Texas Oil Boom, which is related to the founding of Texaco gas. However, it does not explicitly state that Texaco was founded in Texas, so it is partially relevant."
+            },
+            "ott_1061_0": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document provides a list of Phi Beta Sigma chapters, including their names, charter dates, institutions, locations, and statuses. It also mentions the founding of Phi Beta Sigma on January 9, 1914, at Howard University in Washington, D.C.",
+                "Document and Query Keywords Matching": "The document does not mention 'Texaco gas' or 'founded' in the context of Texaco.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any information related to Texaco gas.",
+                "Key Information Matching": "The document does not provide any information related to Texaco gas or its founding location.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Texaco gas or its founding state.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the founding state of Texaco gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses Phi Beta Sigma chapters and their details, with no mention of Texaco gas, its founding, or any related information. Therefore, it is irrelevant to the query."
+            },
+            "m.03v0t_1435": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document lists various addresses and locations, all of which are associated with Illinois. It mentions 'Ambler's Texaco Gas Station' as being contained by Illinois.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco Gas Station', which matches 'Texaco gas' from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any location in Texas.",
+                "Key Information Matching": "The document mentions 'Texaco Gas Station' but associates it with Illinois, not Texas. It does not provide any information about the founding location of Texaco gas.",
+                "Can the Document Answer the Query": "No, the document does not mention the state where Texaco gas was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about the founding location of Texaco gas.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions 'Texaco Gas Station' but associates it with Illinois, which is not relevant to the query about the founding state of Texaco gas. The document does not provide any useful context or additional information related to the query."
+            },
+            "nq_223745_35": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses Texas's energy industry, including its petroleum deposits, major oil companies headquartered in Texas, and Texas's role as a global leader in the energy industry. However, it does not mention Texaco or its founding location.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is related to the query's focus on a state, but it does not mention 'Texaco gas' or 'founded'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any specific founding location for Texaco.",
+                "Key Information Matching": "The document provides information about Texas's energy industry and major oil companies but does not mention Texaco or its founding location.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Texaco or its founding.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not mention Texaco or its founding location, nor does it provide any information that could help infer the answer. Therefore, it is irrelevant to the query."
+            },
+            "nq_223745_36": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses the energy industry in Texas, mentioning various companies headquartered in Texas, including BP, ConocoPhillips, Marathon Oil, Exxon-Mobil, Tesoro, and Valero. It also highlights Texas's leadership in alternative energy sources and mentions several oilfield services firms and pipeline operators.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is relevant to the query's focus on the state where Texaco gas was founded.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont', the specific city where Texaco was founded.",
+                "Key Information Matching": "The document mentions 'Texas', which is the state where Beaumont is located, but it does not directly mention Texaco or its founding location.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Texas being a hub for energy companies, which could indirectly suggest that Texaco might have been founded in Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant because it mentions Texas, the state where Texaco was founded, but it does not provide direct information about Texaco or its founding location. It offers some context about Texas's role in the energy industry, which could help infer that Texaco might have been founded there."
+            },
+            "m.0104lr_62": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document provides information about Beaumont, Texas, including its history, population, notable buildings, and institutions. It mentions that Beaumont is a city in Jefferson County, Texas, and provides details about its development and landmarks.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is relevant to the query about the state where Texaco gas was founded.",
+                "Document and Answer Keywords Matching": "The document mentions 'Beaumont', which is the answer provided.",
+                "Key Information Matching": "The document confirms that Beaumont is in Texas, which aligns with the answer and the query about the state where Texaco gas was founded.",
+                "Can the Document Answer the Query": "Yes, the document confirms that Beaumont is in Texas, which answers the query about the state where Texaco gas was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Beaumont, Texas, which is relevant to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly confirms that Beaumont is in Texas, which answers the query about the state where Texaco gas was founded. Additionally, it provides useful context about Beaumont, enhancing understanding of the query."
+            },
+            "nq_222485_98": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses Texas's role in the oil and gas industry, mentioning its political and economic dominance, oil production, refineries, and major petroleum companies based in Texas.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas' and 'petroleum companies', which are related to the query's keywords 'state' and 'Texaco gas'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Beaumont', but it does discuss Texas, which is the state where Beaumont is located.",
+                "Key Information Matching": "The document provides information about Texas's significant role in the oil and gas industry, which is relevant to the query about Texaco gas being founded in Texas.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco gas was founded in Texas or mention Beaumont.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Texas's importance in the oil and gas industry, which can help infer that Texaco gas might have been founded in Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context about Texas's role in the oil and gas industry, which is related to the query. However, it does not directly answer the query or mention Texaco gas or Beaumont."
+            },
+            "triviaqa_63662_103": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is Beaumont, which is a city in Texas.",
+                "Document Content Analysis": "The document discusses gas prices, gas station chains, and intercity bus travel in the United States. It mentions Texaco as one of the large gas station chains but does not provide information about where Texaco was founded.",
+                "Document and Query Keywords Matching": "The document mentions 'Texaco', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Beaumont' or any specific state related to Texaco's founding.",
+                "Key Information Matching": "The document mentions Texaco as a gas station chain but does not provide any information about its founding location or state.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the state where Texaco was founded.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the state where Texaco was founded.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Texaco but does not provide any information about its founding location or state. Therefore, it is irrelevant to the query."
+            },
+            "triviaqa_9950_23": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is 'Beaumont', which is a city in Texas, indicating that Texaco gas was founded in Texas.",
+                "Document Content Analysis": "The document discusses the history of Sam Walton, the founder of Wal-Mart, and his early business ventures, including the Ben Franklin stores in Kansas, Missouri, and Arkansas. It does not mention Texaco gas or its founding location.",
+                "Document and Query Keywords Matching": "None of the query keywords ('state', 'Texaco gas', 'founded') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Beaumont' is not found in the document.",
+                "Key Information Matching": "The document does not provide any information related to Texaco gas or its founding location.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco gas or its founding state.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Texaco gas or its founding.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It discusses the history of Wal-Mart and Sam Walton's early business ventures, with no mention of Texaco gas or its founding location. Therefore, it is irrelevant to the query."
+            },
+            "ott_481_1": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer is 'Beaumont', which is a city in Texas.",
+                "Document Content Analysis": "The document lists notable alumni of the University of Texas at Austin, including their names, graduation years, degrees, and brief descriptions of their careers. It does not mention Texaco gas or its founding.",
+                "Document and Query Keywords Matching": "None of the query keywords ('state', 'Texaco gas', 'founded') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'Beaumont' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to Texaco gas or its founding.",
+                "Can the Document Answer the Query": "No, the document does not mention Texaco gas or its founding state.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Texaco gas or its founding.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about Texaco gas or its founding state. It focuses on notable alumni of the University of Texas at Austin, which is unrelated to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.0104lr_98": {},
+            "m.02050j_5": {},
+            "triviaqa_64768_97": {},
+            "tat_1153_2": {},
+            "triviaqa_64768_98": {},
+            "nq_134503_23": {},
+            "m.0104lr_63": {
+                "Query Analysis": "The query asks for the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "Texaco gas, founded, state",
+                "Answer Analysis": "The answer to the query is Beaumont.",
+                "Document Content Analysis": "The document provides historical information and other details about the city of Beaumont, Texas, including aspects like its major businesses, local history, and various statistical data.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont', which is associated with the keyword 'Texaco gas'.",
+                "Document and Answer Keywords Matching": "The document extensively discusses 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "The document frequently mentions Beaumont, which is the location relevant to the origin of Texaco gas.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco was founded in Beaumont, Texas.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the multiple mentions of Beaumont and its relevance to business history could imply its significance, which may help infer additional context about the founding location of Texaco.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document provides indirect relevance by frequently mentioning Beaumont, which is the location related to the query's answer. However, it does not explicitly state that Texaco was founded there, thus only partially answering the query."
+            },
+            "m.05mph_988": {},
+            "m.03v0t_1434": {},
+            "m.0104lr_39": {},
+            "nq_134503_12": {
+                "Query Analysis": "The query seeks information about the U.S. state where Texaco, a gasoline company, was founded.",
+                "Query Keywords Extraction": "state, Texaco, founded",
+                "Answer Analysis": "The answer specifies 'Beaumont', which is a city in Texas.",
+                "Document Content Analysis": "The document discusses aspects of the petroleum industry in the United States, specifically mentioning Oklahoma and East Texas, including oil discoveries and developments.",
+                "Document and Query Keywords Matching": "The document mentions 'Texas', which is relevant to the query about the state of Texaco's founding.",
+                "Document and Answer Keywords Matching": "The document discusses Texas, which is related to Beaumont, Texas, but does not directly mention Beaumont or refer to Texaco.",
+                "Key Information Matching": "The document covers historical oil developments in Texas, which is related to the state where Texaco was founded, though it does not specifically mention Texaco.",
+                "Can the Document Answer the Query": "No, the document does not provide specific information about the founding of Texaco or its founding location.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, it provides context related to petroleum activity in Texas.",
+                "Relevance Judgement": "1",
+                "Explanation": "Despite not directly answering where Texaco was founded, the document provides context about the petroleum industry in Texas, which is relevant to understanding the state's historical significance in oil and gasoline industries, thus partially fulfilling the query's informational needs."
+            },
+            "m.0104lr_18": {
+                "Query Analysis": "The query asks for the state where Texaco Gas was founded.",
+                "Query Keywords Extraction": "state, Texaco Gas, founded",
+                "Answer Analysis": "The answer is Beaumont.",
+                "Document Content Analysis": "The document provides several descriptions of Beaumont, mentioning its location in Texas, some of its history, and key points about the city. It does not specifically mention Texaco Gas.",
+                "Document and Query Keywords Matching": "The document mentions 'Beaumont', which is relevant to the answer, but does not specifically mention 'Texaco Gas' or its foundation.",
+                "Document and Answer Keywords Matching": "The document includes several references to 'Beaumont', which is the answer to the query.",
+                "Key Information Matching": "The document confirms that Beaumont is a city in Texas, but does not explicitly match the founding of Texaco Gas.",
+                "Can the Document Answer the Query": "No, the document does not explicitly state that Texaco Gas was founded in Beaumont.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document establishes Beaumont's significance as a city related to the energy sector, but it does not directly link to Texaco Gas's founding.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides context regarding Beaumont and its connection to the energy sector, indirectly indicating its significance, but it does not directly mention the founding of Texaco Gas."
+            },
+            "triviaqa_1413_59": {},
+            "nq_59457_70": {},
+            "ott_1061_0": {},
+            "m.03v0t_1435": {},
+            "nq_223745_35": {},
+            "nq_223745_36": {},
+            "m.0104lr_62": {
+                "Query Analysis": "The query seeks to determine the state where Texaco gas was founded.",
+                "Query Keywords Extraction": "state, Texaco gas, founded",
+                "Answer Analysis": "The answer provides the location 'Beaumont'.",
+                "Document Content Analysis": "The document contains historical and demographic information about Beaumont, Texas, including details about its population, notable buildings, and people from there. It also discusses Beaumont's location within Texas, its metropolitan area, and some historical facts unrelated to Texaco.",
+                "Document and Query Keywords Matching": "The document mentions Beaumont, which is relevant to the answer of the query.",
+                "Document and Answer Keywords Matching": "The document mentions Beaumont, which directly matches the answer.",
+                "Key Information Matching": "While the document provides detailed historical and contextual information about Beaumont, it does not directly mention Texaco or its founding.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Texaco gas was founded in Beaumont.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, while the document provides background information on Beaumont, it includes no references to Texaco or its founding.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not provide any information related to the founding of Texaco gas or its location of origin. It offers contextual information about Beaumont, but it does not help in answering the query regarding Texaco. Thus, it is considered irrelevant to the query."
+            },
+            "nq_222485_98": {},
+            "triviaqa_63662_103": {},
+            "triviaqa_9950_23": {},
+            "ott_481_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_481_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "nq": 4,
+            "kg": 8,
+            "triviaqa": 0,
+            "ott": 0,
+            "tat": 0
+        }
+    }
+}

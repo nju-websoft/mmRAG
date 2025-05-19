@@ -1,0 +1,939 @@
+{
+    "index": 76497,
+    "context": [
+        ""
+    ],
+    "qa": {
+        "question": "From which country did Angola achieve independence in 1975?",
+        "answer": "Portugal",
+        "BM25_documents": [
+            {
+                "id": "m.0j4b_221",
+                "score": 16.25950050354004
+            },
+            {
+                "id": "m.0j4b_482",
+                "score": 16.259498596191406
+            },
+            {
+                "id": "m.0j4b_777",
+                "score": 16.23710060119629
+            },
+            {
+                "id": "m.0j4b_483",
+                "score": 16.153600692749023
+            },
+            {
+                "id": "m.0j4b_222",
+                "score": 15.975799560546875
+            },
+            {
+                "id": "m.0j4b_778",
+                "score": 15.91450023651123
+            },
+            {
+                "id": "m.0j4b_297",
+                "score": 14.364299774169922
+            },
+            {
+                "id": "m.0j4b_590",
+                "score": 14.097800254821777
+            },
+            {
+                "id": "m.0j4b_5",
+                "score": 14.05150032043457
+            },
+            {
+                "id": "triviaqa_44160_188",
+                "score": 12.814399719238281
+            },
+            {
+                "id": "m.0j4b_298",
+                "score": 12.517999649047852
+            },
+            {
+                "id": "triviaqa_44160_187",
+                "score": 12.468799591064453
+            },
+            {
+                "id": "nq_220903_40",
+                "score": 12.302200317382812
+            },
+            {
+                "id": "triviaqa_73587_23",
+                "score": 12.288299560546875
+            },
+            {
+                "id": "triviaqa_73587_407",
+                "score": 12.00469970703125
+            },
+            {
+                "id": "triviaqa_43107_87",
+                "score": 11.678899765014648
+            },
+            {
+                "id": "triviaqa_34711_267",
+                "score": 11.635000228881836
+            },
+            {
+                "id": "triviaqa_43107_86",
+                "score": 11.41819953918457
+            },
+            {
+                "id": "triviaqa_73587_25",
+                "score": 11.407999992370605
+            },
+            {
+                "id": "triviaqa_16212_65",
+                "score": 11.359999656677246
+            }
+        ],
+        "BM25_related_documents": [],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_10171_1",
+                "score": 7.095099925994873
+            },
+            {
+                "id": "ott_2387_1",
+                "score": 7.095098972320557
+            },
+            {
+                "id": "ott_2428_1",
+                "score": 7.09509801864624
+            },
+            {
+                "id": "ott_34788_1",
+                "score": 7.095097064971924
+            },
+            {
+                "id": "ott_41266_1",
+                "score": 7.095096111297607
+            },
+            {
+                "id": "ott_12310_0",
+                "score": 7.067399978637695
+            },
+            {
+                "id": "ott_19852_0",
+                "score": 7.067399024963379
+            },
+            {
+                "id": "ott_33561_0",
+                "score": 7.0673980712890625
+            },
+            {
+                "id": "ott_38359_0",
+                "score": 7.067397117614746
+            },
+            {
+                "id": "ott_9849_0",
+                "score": 7.06739616394043
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_220903_40",
+                "score": 12.302200317382812
+            },
+            {
+                "id": "nq_130512_19",
+                "score": 10.915300369262695
+            },
+            {
+                "id": "nq_291670_42",
+                "score": 10.847399711608887
+            },
+            {
+                "id": "nq_158663_112",
+                "score": 10.795499801635742
+            },
+            {
+                "id": "nq_220903_39",
+                "score": 10.732799530029297
+            },
+            {
+                "id": "nq_33149_70",
+                "score": 10.273900032043457
+            },
+            {
+                "id": "nq_285470_22",
+                "score": 10.090299606323242
+            },
+            {
+                "id": "nq_1292_10",
+                "score": 9.798199653625488
+            },
+            {
+                "id": "nq_285470_21",
+                "score": 9.7475004196167
+            },
+            {
+                "id": "nq_291670_46",
+                "score": 9.676300048828125
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_44160_188",
+                "score": 12.814399719238281
+            },
+            {
+                "id": "triviaqa_44160_187",
+                "score": 12.468799591064453
+            },
+            {
+                "id": "triviaqa_73587_23",
+                "score": 12.288299560546875
+            },
+            {
+                "id": "triviaqa_73587_407",
+                "score": 12.00469970703125
+            },
+            {
+                "id": "triviaqa_43107_87",
+                "score": 11.678899765014648
+            },
+            {
+                "id": "triviaqa_34711_267",
+                "score": 11.635000228881836
+            },
+            {
+                "id": "triviaqa_43107_86",
+                "score": 11.41819953918457
+            },
+            {
+                "id": "triviaqa_73587_25",
+                "score": 11.407999992370605
+            },
+            {
+                "id": "triviaqa_16212_65",
+                "score": 11.359999656677246
+            },
+            {
+                "id": "triviaqa_69587_48",
+                "score": 11.350000381469727
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0j4b_221",
+                "score": 16.25950050354004
+            },
+            {
+                "id": "m.0j4b_482",
+                "score": 16.259498596191406
+            },
+            {
+                "id": "m.0j4b_777",
+                "score": 16.23710060119629
+            },
+            {
+                "id": "m.0j4b_483",
+                "score": 16.153600692749023
+            },
+            {
+                "id": "m.0j4b_222",
+                "score": 15.975799560546875
+            },
+            {
+                "id": "m.0j4b_778",
+                "score": 15.91450023651123
+            },
+            {
+                "id": "m.0j4b_297",
+                "score": 14.364299774169922
+            },
+            {
+                "id": "m.0j4b_590",
+                "score": 14.097800254821777
+            },
+            {
+                "id": "m.0j4b_5",
+                "score": 14.05150032043457
+            },
+            {
+                "id": "m.0j4b_298",
+                "score": 12.517999649047852
+            },
+            {
+                "id": "m.0j4b_583",
+                "score": 11.213600158691406
+            },
+            {
+                "id": "m.0j4b_565",
+                "score": 10.72249984741211
+            },
+            {
+                "id": "m.0j4b_291",
+                "score": 10.716300010681152
+            },
+            {
+                "id": "m.0j4b_568",
+                "score": 10.7121000289917
+            },
+            {
+                "id": "m.0j4b_282",
+                "score": 10.709400177001953
+            },
+            {
+                "id": "m.0j4b_283",
+                "score": 10.706500053405762
+            },
+            {
+                "id": "m.0j4b_569",
+                "score": 10.698100090026855
+            },
+            {
+                "id": "m.0j4b_566",
+                "score": 10.696999549865723
+            },
+            {
+                "id": "m.0j4b_864",
+                "score": 10.696998596191406
+            },
+            {
+                "id": "m.0j4b_561",
+                "score": 10.682900428771973
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.0j4b_221",
+                "score": 0.7767159938812256
+            },
+            {
+                "id": "m.0j4b_298",
+                "score": 0.7723050117492676
+            },
+            {
+                "id": "m.0j4b_483",
+                "score": 0.7699270844459534
+            },
+            {
+                "id": "m.0j4b_5",
+                "score": 0.7677260637283325
+            },
+            {
+                "id": "m.0j4b_778",
+                "score": 0.7611995339393616
+            },
+            {
+                "id": "m.0j4b_222",
+                "score": 0.7591590285301208
+            },
+            {
+                "id": "m.0j4b_590",
+                "score": 0.7582067847251892
+            },
+            {
+                "id": "m.0j4b_482",
+                "score": 0.7554929852485657
+            },
+            {
+                "id": "triviaqa_34711_267",
+                "score": 0.7540487051010132
+            },
+            {
+                "id": "m.0j4b_335",
+                "score": 0.7454874515533447
+            },
+            {
+                "id": "m.0j4b_777",
+                "score": 0.744910717010498
+            },
+            {
+                "id": "nq_220903_40",
+                "score": 0.7434243559837341
+            },
+            {
+                "id": "triviaqa_73587_25",
+                "score": 0.7356796264648438
+            },
+            {
+                "id": "triviaqa_73587_26",
+                "score": 0.7298139333724976
+            },
+            {
+                "id": "m.0j4b_297",
+                "score": 0.7285611033439636
+            },
+            {
+                "id": "triviaqa_73587_407",
+                "score": 0.7261262536048889
+            },
+            {
+                "id": "m.0j4b_20",
+                "score": 0.7209191918373108
+            },
+            {
+                "id": "m.0j4b_312",
+                "score": 0.7193425893783569
+            },
+            {
+                "id": "m.0j4b_19",
+                "score": 0.7189013957977295
+            },
+            {
+                "id": "nq_170270_117",
+                "score": 0.7131455540657043
+            }
+        ],
+        "BGE_related_documents": [],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_2768_1",
+                "score": 0.6328095197677612
+            },
+            {
+                "id": "ott_33822_1",
+                "score": 0.6328095197677612
+            },
+            {
+                "id": "ott_40852_1",
+                "score": 0.6328095197677612
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_220903_40",
+                "score": 0.7434243559837341
+            },
+            {
+                "id": "nq_170270_117",
+                "score": 0.7131455540657043
+            },
+            {
+                "id": "nq_291670_42",
+                "score": 0.710101306438446
+            },
+            {
+                "id": "nq_183705_118",
+                "score": 0.707844614982605
+            },
+            {
+                "id": "nq_158663_112",
+                "score": 0.6985291242599487
+            },
+            {
+                "id": "nq_183705_117",
+                "score": 0.6950092315673828
+            },
+            {
+                "id": "nq_177620_116",
+                "score": 0.6940208077430725
+            },
+            {
+                "id": "nq_1292_19",
+                "score": 0.6933545470237732
+            },
+            {
+                "id": "nq_291670_43",
+                "score": 0.6902909874916077
+            },
+            {
+                "id": "nq_285470_3",
+                "score": 0.6865310668945312
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_34711_267",
+                "score": 0.7540487051010132
+            },
+            {
+                "id": "triviaqa_73587_25",
+                "score": 0.7356796264648438
+            },
+            {
+                "id": "triviaqa_73587_26",
+                "score": 0.7298139333724976
+            },
+            {
+                "id": "triviaqa_73587_407",
+                "score": 0.7261262536048889
+            },
+            {
+                "id": "triviaqa_44160_188",
+                "score": 0.7021089196205139
+            },
+            {
+                "id": "triviaqa_16212_62",
+                "score": 0.6848353147506714
+            },
+            {
+                "id": "triviaqa_73587_27",
+                "score": 0.6826602816581726
+            },
+            {
+                "id": "triviaqa_16212_65",
+                "score": 0.6823721528053284
+            },
+            {
+                "id": "triviaqa_73587_186",
+                "score": 0.6804489493370056
+            },
+            {
+                "id": "triviaqa_44160_165",
+                "score": 0.6787006855010986
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0j4b_221",
+                "score": 0.7767159938812256
+            },
+            {
+                "id": "m.0j4b_298",
+                "score": 0.7723050117492676
+            },
+            {
+                "id": "m.0j4b_483",
+                "score": 0.7699270844459534
+            },
+            {
+                "id": "m.0j4b_5",
+                "score": 0.7677260637283325
+            },
+            {
+                "id": "m.0j4b_778",
+                "score": 0.7611995339393616
+            },
+            {
+                "id": "m.0j4b_222",
+                "score": 0.7591590285301208
+            },
+            {
+                "id": "m.0j4b_590",
+                "score": 0.7582067847251892
+            },
+            {
+                "id": "m.0j4b_482",
+                "score": 0.7554929852485657
+            },
+            {
+                "id": "m.0j4b_335",
+                "score": 0.7454874515533447
+            },
+            {
+                "id": "m.0j4b_777",
+                "score": 0.744910717010498
+            },
+            {
+                "id": "m.0j4b_297",
+                "score": 0.7285611033439636
+            },
+            {
+                "id": "m.0j4b_20",
+                "score": 0.7209191918373108
+            },
+            {
+                "id": "m.0j4b_312",
+                "score": 0.7193425893783569
+            },
+            {
+                "id": "m.0j4b_19",
+                "score": 0.7189013957977295
+            },
+            {
+                "id": "m.0j4b_342",
+                "score": 0.7046890258789062
+            },
+            {
+                "id": "m.0j4b_627",
+                "score": 0.702871561050415
+            },
+            {
+                "id": "m.0j4b_325",
+                "score": 0.7025054693222046
+            },
+            {
+                "id": "m.0j4b_42",
+                "score": 0.7018397450447083
+            },
+            {
+                "id": "m.0j4b_607",
+                "score": 0.7001556754112244
+            },
+            {
+                "id": "m.0j4b_326",
+                "score": 0.7001099586486816
+            }
+        ],
+        "llm_mark_result": {
+            "triviaqa_44160_188": {
+                "Query Analysis": "The query asks about the country from which Angola achieved its independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola gained independence from Portugal in 1975.",
+                "Document Content Analysis": "The document discusses the end of Portugal's colonial wars and the subsequent independence of several African territories, including Angola, in 1975. It also mentions the Carnation Revolution in Portugal and its impact on the Portuguese Empire.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and 'independence in 1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portugal' in the context of granting independence to its African territories.",
+                "Key Information Matching": "The document explicitly states that Angola achieved independence in 1975, directly linking Angola's independence to Portugal.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about the broader political changes in Portugal that led to the independence of its colonies.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it explicitly mentions that Angola achieved independence from Portugal in 1975. It provides substantial context about the political events in Portugal that facilitated this process, making it highly relevant to the query."
+            },
+            "m.0j4b_483": {
+                "Query Analysis": "The query asks about the country from which Angola achieved its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved its independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides historical context about Angola, mentioning the presence of the Portuguese from the 16th to the 19th century, the establishment of Angola as a Portuguese colony, and the achievement of independence in 1975 after a liberation war. It also mentions various other details about Angola's history, geography, and socio-economic factors.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and 'independence in 1975', which are key components of the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese' and their historical presence in Angola, which indirectly refers to Portugal.",
+                "Key Information Matching": "The document provides the key historical context that Angola achieved independence in 1975 and mentions the Portuguese presence, which aligns with the query's focus on the country from which Angola gained independence.",
+                "Can the Document Answer the Query": "Yes, the document implies that Angola achieved independence from Portugal by mentioning the Portuguese presence and the year of independence.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context that helps infer that Portugal was the colonizing power from which Angola gained independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the necessary historical context to infer that Angola achieved independence from Portugal in 1975. The mention of the Portuguese presence and the specific year of independence are key pieces of information that directly address the query."
+            },
+            "m.0j4b_221": {
+                "Query Analysis": "The query asks about the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides various pieces of information about Angola, including its official name, geographical location, historical presence of the Portuguese, establishment as a Portuguese colony, and the year of independence.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and 'independence in 1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese' in the context of their historical presence and colonization of Angola.",
+                "Key Information Matching": "The document explicitly states that 'Independence was achieved in 1975, after a protracted liberation war,' and discusses the historical presence and colonization by the Portuguese, which aligns with the query's focus on the country from which Angola gained independence.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence in 1975, implying from Portugal due to the historical context provided.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about Portuguese colonization, which supports the inference that Angola gained independence from Portugal.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the key information about Angola's independence in 1975 and the historical context of Portuguese colonization, which together answer the query."
+            },
+            "m.0j4b_482": {
+                "Query Analysis": "The query asks about the country from which Angola achieved its independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola gained independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides various pieces of information about Angola, including historical context, geographical details, and various statistics. It mentions the Portuguese presence in Angola from the 16th to the 19th century and states that Angola achieved independence in 1975 after a liberation war.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and 'independence in 1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese' and their historical presence in Angola, which is directly related to the answer 'Portugal'.",
+                "Key Information Matching": "The document provides the key historical context that Angola achieved independence in 1975 and mentions the Portuguese presence, which matches the query's requirement of identifying the country from which Angola gained independence.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by providing the historical context of Angola's independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about the Portuguese presence in Angola, which helps in understanding the background of Angola's independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information that Angola achieved independence from Portugal in 1975. It not only answers the query but also offers additional historical context, making it highly relevant."
+            },
+            "m.0j4b_298": {
+                "Query Analysis": "The query asks about the country from which Angola achieved its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides historical context about Angola, mentioning its status as a Portuguese colony, the establishment of coastal settlements and trading posts from the 16th century, and the expansion into the interior in the 19th century. It also notes that Angola did not encompass its present borders until the early 20th century and achieved independence in 1975 after a liberation war.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document implicitly refers to Portugal by stating that Angola was a 'Portuguese colony' and achieved independence in 1975.",
+                "Key Information Matching": "The document matches key information by stating that Angola was a Portuguese colony and achieved independence in 1975, which aligns with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document can directly answer the query by indicating that Angola was a Portuguese colony and achieved independence in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about Angola's colonial past and the process of achieving independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the necessary information to answer it. It explicitly mentions Angola's status as a Portuguese colony and its independence in 1975, which directly corresponds to the query and answer."
+            },
+            "m.0j4b_5": {
+                "Query Analysis": "The query asks for the country from which Angola achieved its independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides an overview of Angola, including its geographical location, historical background, and significant events. It mentions that Angola was a Portuguese colony and achieved independence in 1975 after a liberation war.",
+                "Document and Query Keywords Matching": "The document includes 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese colonization' and 'Portugal', directly linking Angola's independence to Portugal.",
+                "Key Information Matching": "The document explicitly states that Angola achieved independence in 1975 and was a Portuguese colony, directly matching the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about Angola's colonization and independence process.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information that Angola achieved independence from Portugal in 1975. It not only contains the answer but also offers additional historical context that enhances understanding of the query."
+            },
+            "m.0j4b_778": {
+                "Query Analysis": "The query asks for the country from which Angola achieved its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides historical context about Angola, mentioning that it was a Portuguese colony and that independence was achieved in 1975 after a liberation war. It also includes various statistics and data about Angola post-independence.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document implicitly refers to Portugal by stating that Angola was a Portuguese colony.",
+                "Key Information Matching": "The document directly mentions that Angola achieved independence in 1975 and was a Portuguese colony, which aligns with the query's focus on the country from which Angola gained independence.",
+                "Can the Document Answer the Query": "Yes, the document implicitly answers the query by stating that Angola was a Portuguese colony and achieved independence in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context that helps infer the relationship between Angola and Portugal.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the necessary historical context to understand that Angola achieved independence from Portugal in 1975. The mention of Angola being a Portuguese colony and achieving independence in the specified year directly addresses the query's focus."
+            },
+            "triviaqa_34711_267": {
+                "Query Analysis": "The query asks about the country from which Angola gained its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer specifies that Angola achieved independence from Portugal.",
+                "Document Content Analysis": "The document discusses a period of political change in Portugal, including the granting of independence to several colonies such as Angola, Cape Verde Islands, Guinea-Bissau, Mozambique, and Sao Tome-Principe. It also mentions other territories and historical contexts related to Portuguese colonial rule.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and 'independence' in the context of being granted by a new regime.",
+                "Document and Answer Keywords Matching": "The document implicitly refers to Portugal as the country that granted independence by describing the events in Portugal leading to these colonies' independence.",
+                "Key Information Matching": "The document directly states that Angola was granted independence, which matches the key information of the query, although it does not explicitly state 'by Portugal'. The context implies Portugal due to the focus on Portuguese political changes and colonies.",
+                "Can the Document Answer the Query": "Yes, the document can answer the query by implication, as it discusses Portugal granting independence to Angola.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the political changes in Portugal that led to the independence of its colonies, including Angola.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the key information that Angola was granted independence during a period of political change in Portugal, implicitly indicating that Portugal was the country from which Angola achieved independence. This context is sufficient to infer the answer to the query."
+            },
+            "m.0j4b_777": {
+                "Query Analysis": "The query asks about the country from which Angola achieved its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides various statistical and historical information about Angola, including its form of government, historical interactions with the Portuguese, and a mention of its independence in 1975. It also includes data on consumer price index, electricity consumption, fertility rate, and other economic and demographic indicators.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and 'independence in 1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese' in the context of historical presence and colonization.",
+                "Key Information Matching": "The document explicitly states that 'Independence was achieved in 1975, after a protracted liberation war,' and mentions the historical presence of the Portuguese, which aligns with the query's focus on the country from which Angola gained independence.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence in 1975, implying it was from Portugal, given the historical context provided.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about Portuguese presence and colonization, which supports the inference that Angola's independence was from Portugal.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the key historical context and explicitly mentions Angola's independence in 1975, strongly implying that it was from Portugal. The historical details about Portuguese colonization further support this inference, making the document highly useful for answering the query."
+            },
+            "nq_220903_40": {
+                "Query Analysis": "The query asks about the country from which Angola achieved its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer specifies that Angola achieved independence from Portugal.",
+                "Document Content Analysis": "The document discusses the history of various African countries gaining independence, including the presence of Portugal in Sub-Saharan Africa, specifically mentioning Angola. It highlights that Portugal's presence in Angola lasted until 1975, after the Estado Novo regime was overthrown.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and '1975', which are key components of the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portugal' in the context of its overseas presence in Angola.",
+                "Key Information Matching": "The document directly states that Portugal's presence in Angola lasted until 1975, which aligns with the query's focus on Angola's independence from a specific country in that year.",
+                "Can the Document Answer the Query": "Yes, the document explicitly states that Portugal's presence in Angola ended in 1975, implying Angola's independence from Portugal in that year.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about Portugal's colonial presence in Angola and the timing of its end, which is directly relevant to the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific information needed to answer it. It mentions both Angola and 1975, and clearly states that Portugal's presence in Angola ended in that year, which is the key information required to confirm that Angola achieved independence from Portugal in 1975."
+            },
+            "m.0j4b_222": {
+                "Query Analysis": "The query asks about the country from which Angola achieved its independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides various facts and statistics about Angola, including historical events such as achieving independence in 1975 and subsequent civil war. It also includes data on inflation rate, population, administrative divisions, and other socio-economic indicators.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' and 'independence in 1975'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Portugal'.",
+                "Key Information Matching": "While the document discusses Angola's independence in 1975, it does not specify from which country this independence was achieved.",
+                "Can the Document Answer the Query": "No, the document does not directly state that Angola achieved independence from Portugal.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides context about Angola's independence in 1975, which is a key part of the query.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it mentions Angola's independence in 1975, which is directly related to the query. However, it lacks the specific information about the country from which Angola achieved independence, making it unable to fully answer the query."
+            },
+            "ott_10171_1": {
+                "Query Analysis": "The query seeks to identify the country from which Angola gained its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer specifies that Angola achieved independence from Portugal.",
+                "Document Content Analysis": "The document lists various countries that are part of the Commonwealth of Nations and their forms of government. It also mentions that most of these countries were former British colonies or self-governing colonies that evolved into republics, except for Mozambique (former Portuguese possession) and Rwanda (former Belgian trust territory).",
+                "Document and Query Keywords Matching": "The document does not directly mention 'Angola', 'independence', '1975', or 'country' in the context of the query.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portugal' in the context of Mozambique being a former Portuguese possession.",
+                "Key Information Matching": "While the document mentions Portugal and its former possession Mozambique, it does not provide any direct information about Angola or its independence.",
+                "Can the Document Answer the Query": "No, the document does not contain information about Angola's independence.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the country from which Angola gained independence.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused on the Commonwealth of Nations and its member states, with specific references to former British colonies and other exceptions like Mozambique. However, it lacks any direct or indirect information about Angola's independence in 1975. Therefore, it is irrelevant to the query."
+            },
+            "ott_2768_1": {
+                "Query Analysis": "The query seeks to identify the country from which Angola gained its independence in the year 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer specifies that Angola achieved independence from Portugal.",
+                "Document Content Analysis": "The document discusses various territorial disputes in Africa and their resolutions, including specific cases involving different countries and their border disputes. It mentions Angola in the context of a border dispute with the Congo but does not discuss Angola's independence.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' but does not include keywords related to 'independence', '1975', or the specific country from which Angola gained independence.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Portugal'.",
+                "Key Information Matching": "The document's mention of Angola is limited to a border dispute and does not provide any information related to its independence or historical colonial ties.",
+                "Can the Document Answer the Query": "No, the document does not contain information about Angola's independence.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the country from which Angola gained independence.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Angola's independence or its historical relationship with Portugal. The mention of Angola is tangential and unrelated to the main topic of the query."
+            }
+        },
+        "llm_mark_result_ds": {
+            "triviaqa_44160_188": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola gained independence from Portugal in 1975.",
+                "Document Content Analysis": "The document discusses the end of Portugal's colonial rule in Africa, specifically mentioning the independence of Angola in 1975. It also provides context about the Carnation Revolution in Portugal, which led to the withdrawal of Portuguese troops and the granting of independence to its African territories, including Angola.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975', which are all key terms from the query.",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'Portugal' as the country from which Angola gained independence in 1975.",
+                "Key Information Matching": "The document directly states that Angola achieved independence from Portugal in 1975, which matches both the query and the answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the Carnation Revolution and the broader process of decolonization in Portugal's African territories.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional context about the historical events surrounding Angola's independence. It enhances understanding of the query by explaining the broader context of Portugal's decolonization process."
+            },
+            "m.0j4b_483": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides historical context about Angola, mentioning that the Portuguese were present in Angola from the 16th to the 19th century and that Angola became a Portuguese colony by the end of the 19th century. It also states that Angola achieved independence in 1975 after a liberation war.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese', which is related to the answer 'Portugal'.",
+                "Key Information Matching": "The document mentions that Angola achieved independence in 1975 and provides historical context about Portuguese presence in Angola, which aligns with the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence in 1975 and mentions the Portuguese presence, which implies that Angola achieved independence from Portugal.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about the Portuguese presence in Angola, which helps infer that Angola achieved independence from Portugal.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Angola achieved independence in 1975 and provides historical context about the Portuguese presence, which implies that Angola achieved independence from Portugal. This makes the document highly relevant to the query."
+            },
+            "m.0j4b_221": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides information about Angola, including its history, geography, and demographics. It mentions that Angola was a Portuguese colony and achieved independence in 1975 after a protracted liberation war.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portugal' in the context of Angola's colonial history and independence.",
+                "Key Information Matching": "The document explicitly states that Angola achieved independence from Portugal in 1975, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly answers the query by stating that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Angola's colonial history and the process of achieving independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about Angola's history, which enhances understanding of the query."
+            },
+            "m.0j4b_482": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides detailed information about Angola, including its history, geography, and economic indicators. It mentions that Angola achieved independence in 1975 after a protracted liberation war and that the Portuguese were present in Angola from the 16th to the 19th century, establishing themselves in the interior by the end of the 19th century.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese' and 'Portugal' in the context of Angola's history and colonization.",
+                "Key Information Matching": "The document explicitly states that Angola achieved independence in 1975 and provides historical context about Portuguese presence and colonization, which directly relates to the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence in 1975 and mentions Portugal as the colonial power.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about Portuguese colonization and the process of achieving independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the exact information needed to answer the question about Angola's independence from Portugal in 1975. It also offers additional historical context that enhances understanding of the query."
+            },
+            "m.0j4b_298": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides historical context about Angola, mentioning that it was a Portuguese colony and achieved independence in 1975 after a protracted liberation war. It also describes Angola's geographical location, neighboring countries, and some socio-economic conditions.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese colony', which aligns with the answer 'Portugal'.",
+                "Key Information Matching": "The document explicitly states that Angola was a Portuguese colony and achieved independence in 1975, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about Angola's independence and its colonial history.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Angola achieved independence from Portugal in 1975. It also provides additional historical context that enhances understanding of the query."
+            },
+            "m.0j4b_5": {
+                "Query Analysis": "The query asks about the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides a detailed description of Angola, including its geographical location, history of Portuguese colonization, and the fact that it achieved independence in 1975 after a liberation war. It also mentions the subsequent civil war and some socio-economic conditions.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese colonization' and 'Independence was achieved in 1975', which aligns with the answer 'Portugal'.",
+                "Key Information Matching": "The document explicitly states that Angola achieved independence in 1975 after a liberation war, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the history of Angola, including its colonization by Portugal and the circumstances surrounding its independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context. It not only answers the query by stating that Angola achieved independence from Portugal in 1975 but also offers additional historical and socio-economic information about Angola."
+            },
+            "m.0j4b_778": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document mentions that Angola was a Portuguese colony and achieved independence in 1975 after a protracted liberation war. It also provides additional information about Angola's history and socio-economic indicators.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese', which is related to the answer 'Portugal'.",
+                "Key Information Matching": "The document explicitly states that Angola was a Portuguese colony and achieved independence in 1975, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about Angola's history as a Portuguese colony and the circumstances of its independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact information needed to answer it. It also offers additional context about Angola's history, enhancing understanding of the query."
+            },
+            "triviaqa_34711_267": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document discusses the history of Portuguese colonies, including Angola, and mentions that a new liberal regime in Portugal granted independence to Angola and other territories in 1975. It also provides historical context about Portuguese Africa and other colonies.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portugal' as the country that granted independence to Angola.",
+                "Key Information Matching": "The document explicitly states that Angola was granted independence by Portugal in 1975, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional historical context about Portuguese colonies and the process of decolonization.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides the exact answer, as well as additional historical context about the process of Angola's independence from Portugal. This makes it highly relevant to the query."
+            },
+            "m.0j4b_777": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document provides various data points about Angola, including its form of government, historical context, and economic indicators. Specifically, it mentions that Angola was a Portuguese colony and achieved independence in 1975 after a protracted liberation war.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portuguese', which is related to the answer 'Portugal'.",
+                "Key Information Matching": "The document explicitly states that Angola was a Portuguese colony and achieved independence in 1975, which directly matches the key information required by the query.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides historical context about Angola's colonial history and the process of achieving independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query and provides substantial useful context and information that directly answers the query. It explicitly mentions that Angola achieved independence from Portugal in 1975, which is the exact information needed to answer the query."
+            },
+            "nq_220903_40": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document discusses the independence of various African countries, including Angola. It mentions that Portugal's overseas presence in Sub-Saharan Africa, including Angola, lasted until 1975, when the Estado Novo regime was overthrown in a military coup in Lisbon.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document mentions 'Portugal' in the context of Angola's independence.",
+                "Key Information Matching": "The document explicitly states that Angola was under Portuguese rule until 1975, which directly matches the query and answer.",
+                "Can the Document Answer the Query": "Yes, the document directly states that Angola achieved independence from Portugal in 1975.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional context about the political changes in Portugal that led to Angola's independence.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document directly answers the query by stating that Angola achieved independence from Portugal in 1975. It also provides additional context about the political changes in Portugal that facilitated this independence, making it highly relevant to the query."
+            },
+            "m.0j4b_222": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document mentions that Angola achieved independence in 1975 after a protracted liberation war. It also provides various statistics and information about Angola, such as population, inflation rate, and administrative divisions.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola', 'independence', and '1975'.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'Portugal'.",
+                "Key Information Matching": "The document mentions that Angola achieved independence in 1975, which is a key part of the query. However, it does not specify the country from which Angola gained independence.",
+                "Can the Document Answer the Query": "No, the document does not mention Portugal, the country from which Angola achieved independence.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that Angola achieved independence in 1975, which is part of the query, but it does not provide the specific country.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it provides some key information related to the query (independence in 1975) but lacks the specific detail (Portugal) needed to fully answer the query."
+            },
+            "ott_10171_1": {
+                "Query Analysis": "The query asks for the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola achieved independence from Portugal in 1975.",
+                "Document Content Analysis": "The document discusses the republics in the Commonwealth of Nations, mentioning that most members achieved independence while keeping the British monarch as their head of state. It also notes that except for Mozambique and Rwanda, all other republics in the Commonwealth are former British colonies or self-governing colonies. The document does not specifically mention Angola or Portugal.",
+                "Document and Query Keywords Matching": "The document does not mention 'Angola' or '1975'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Portugal'.",
+                "Key Information Matching": "The document does not provide any information about Angola's independence or its relationship with Portugal.",
+                "Can the Document Answer the Query": "No, the document does not mention Angola or Portugal.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Angola's independence or its colonial history.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Angola, Portugal, or any information related to Angola's independence in 1975. It focuses on the Commonwealth republics and their relationship with the British monarchy, which is not related to the query."
+            },
+            "ott_2768_1": {
+                "Query Analysis": "The query asks about the country from which Angola achieved independence in 1975.",
+                "Query Keywords Extraction": "Angola, independence, 1975, country",
+                "Answer Analysis": "The answer is Portugal, indicating that Angola gained independence from Portugal in 1975.",
+                "Document Content Analysis": "The document discusses historical territorial disputes in Africa, including disputes involving Angola, but does not mention Angola's independence or Portugal.",
+                "Document and Query Keywords Matching": "The document mentions 'Angola' in the context of a territorial dispute with Congo, but does not mention 'independence', '1975', or 'Portugal'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Portugal' or any information related to Angola's independence.",
+                "Key Information Matching": "The document does not provide any information about Angola's independence or the country from which it gained independence.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Angola's independence or Portugal.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Angola's independence or the country from which it gained independence. It only mentions Angola in the context of a territorial dispute, which is unrelated to the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "triviaqa_44160_188": {},
+            "m.0j4b_483": {},
+            "m.0j4b_221": {},
+            "m.0j4b_482": {},
+            "m.0j4b_298": {},
+            "m.0j4b_5": {},
+            "m.0j4b_778": {},
+            "triviaqa_34711_267": {},
+            "m.0j4b_777": {},
+            "nq_220903_40": {},
+            "m.0j4b_222": {},
+            "ott_10171_1": {},
+            "ott_2768_1": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_2768_1": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "kg": 15,
+            "ott": 0,
+            "nq": 2,
+            "triviaqa": 4,
+            "tat": 0
+        }
+    }
+}

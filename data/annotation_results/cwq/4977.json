@@ -1,0 +1,1150 @@
+{
+    "index": 4977,
+    "context": [
+        "m.03jt2bk",
+        "m.088s3s"
+    ],
+    "qa": {
+        "question": "Which movie starring Regina Hall has the smallest Netflix ID?",
+        "answer": "['The Best Man']",
+        "BM25_documents": [
+            {
+                "id": "m.0crrx4b_7",
+                "score": 14.665300369262695
+            },
+            {
+                "id": "m.0crrx4b_11",
+                "score": 12.571200370788574
+            },
+            {
+                "id": "nq_51601_11",
+                "score": 11.894599914550781
+            },
+            {
+                "id": "m.01242__12",
+                "score": 11.704899787902832
+            },
+            {
+                "id": "m.0crrnyn_0",
+                "score": 11.598799705505371
+            },
+            {
+                "id": "nq_145198_9",
+                "score": 11.392499923706055
+            },
+            {
+                "id": "m.04z_h32_0",
+                "score": 11.38949966430664
+            },
+            {
+                "id": "m.04z_h32_1",
+                "score": 11.287300109863281
+            },
+            {
+                "id": "m.06974q_20",
+                "score": 11.103799819946289
+            },
+            {
+                "id": "triviaqa_21148_469",
+                "score": 10.902999877929688
+            },
+            {
+                "id": "triviaqa_1227_45",
+                "score": 10.90250015258789
+            },
+            {
+                "id": "nq_145198_10",
+                "score": 10.838899612426758
+            },
+            {
+                "id": "m.0crrnyn_1",
+                "score": 10.835000038146973
+            },
+            {
+                "id": "m.087m22_31",
+                "score": 10.731300354003906
+            },
+            {
+                "id": "nq_53693_6",
+                "score": 10.709600448608398
+            },
+            {
+                "id": "m.04j190s_3",
+                "score": 10.693699836730957
+            },
+            {
+                "id": "m.0cpllql_43",
+                "score": 10.691200256347656
+            },
+            {
+                "id": "nq_287990_2",
+                "score": 10.5556001663208
+            },
+            {
+                "id": "m.01242__13",
+                "score": 10.467700004577637
+            },
+            {
+                "id": "triviaqa_14848_2",
+                "score": 10.465499877929688
+            }
+        ],
+        "BM25_related_documents": [
+            {
+                "id": "m.03jt2bk_0",
+                "score": 8.871898651123047
+            },
+            {
+                "id": "m.088s3s_8",
+                "score": 7.281993865966797
+            },
+            {
+                "id": "m.088s3s_4",
+                "score": 7.156397342681885
+            },
+            {
+                "id": "m.088s3s_7",
+                "score": 6.954888820648193
+            },
+            {
+                "id": "m.088s3s_10",
+                "score": 6.648397922515869
+            },
+            {
+                "id": "m.088s3s_11",
+                "score": 5.962493896484375
+            }
+        ],
+        "BM25_tat_documents": [],
+        "BM25_ott_documents": [
+            {
+                "id": "ott_22997_0",
+                "score": 7.691800117492676
+            },
+            {
+                "id": "ott_30901_0",
+                "score": 7.691799163818359
+            },
+            {
+                "id": "ott_38165_0",
+                "score": 7.691798210144043
+            },
+            {
+                "id": "ott_40063_0",
+                "score": 7.691797256469727
+            },
+            {
+                "id": "ott_14086_0",
+                "score": 7.48769998550415
+            },
+            {
+                "id": "ott_32115_0",
+                "score": 7.487699031829834
+            },
+            {
+                "id": "ott_5376_0",
+                "score": 7.487698078155518
+            },
+            {
+                "id": "ott_15793_0",
+                "score": 6.9582953453063965
+            },
+            {
+                "id": "ott_2397_0",
+                "score": 6.958293914794922
+            },
+            {
+                "id": "ott_25400_0",
+                "score": 6.9582929611206055
+            }
+        ],
+        "BM25_nq_documents": [
+            {
+                "id": "nq_51601_11",
+                "score": 11.894599914550781
+            },
+            {
+                "id": "nq_145198_9",
+                "score": 11.392499923706055
+            },
+            {
+                "id": "nq_145198_10",
+                "score": 10.838899612426758
+            },
+            {
+                "id": "nq_53693_6",
+                "score": 10.709600448608398
+            },
+            {
+                "id": "nq_287990_2",
+                "score": 10.5556001663208
+            },
+            {
+                "id": "nq_287990_3",
+                "score": 10.226499557495117
+            },
+            {
+                "id": "nq_145198_1",
+                "score": 10.137499809265137
+            },
+            {
+                "id": "nq_178880_24",
+                "score": 10.098600387573242
+            },
+            {
+                "id": "nq_283571_24",
+                "score": 10.098599433898926
+            },
+            {
+                "id": "nq_81765_24",
+                "score": 10.09859848022461
+            }
+        ],
+        "BM25_triviaqa_documents": [
+            {
+                "id": "triviaqa_21148_469",
+                "score": 10.902999877929688
+            },
+            {
+                "id": "triviaqa_1227_45",
+                "score": 10.90250015258789
+            },
+            {
+                "id": "triviaqa_14848_2",
+                "score": 10.465499877929688
+            },
+            {
+                "id": "triviaqa_14848_66",
+                "score": 10.321200370788574
+            },
+            {
+                "id": "triviaqa_67429_35",
+                "score": 10.304100036621094
+            },
+            {
+                "id": "triviaqa_35092_55",
+                "score": 10.047100067138672
+            },
+            {
+                "id": "triviaqa_15299_72",
+                "score": 9.72070026397705
+            },
+            {
+                "id": "triviaqa_3665_29",
+                "score": 9.63290023803711
+            },
+            {
+                "id": "triviaqa_16910_10",
+                "score": 9.525300025939941
+            },
+            {
+                "id": "triviaqa_65716_1",
+                "score": 9.525299072265625
+            }
+        ],
+        "BM25_kg_documents": [
+            {
+                "id": "m.0crrx4b_7",
+                "score": 14.665300369262695
+            },
+            {
+                "id": "m.0crrx4b_11",
+                "score": 12.571200370788574
+            },
+            {
+                "id": "m.01242__12",
+                "score": 11.704899787902832
+            },
+            {
+                "id": "m.0crrnyn_0",
+                "score": 11.598799705505371
+            },
+            {
+                "id": "m.04z_h32_0",
+                "score": 11.38949966430664
+            },
+            {
+                "id": "m.04z_h32_1",
+                "score": 11.287300109863281
+            },
+            {
+                "id": "m.06974q_20",
+                "score": 11.103799819946289
+            },
+            {
+                "id": "m.0crrnyn_1",
+                "score": 10.835000038146973
+            },
+            {
+                "id": "m.087m22_31",
+                "score": 10.731300354003906
+            },
+            {
+                "id": "m.04j190s_3",
+                "score": 10.693699836730957
+            },
+            {
+                "id": "m.0cpllql_43",
+                "score": 10.691200256347656
+            },
+            {
+                "id": "m.01242__13",
+                "score": 10.467700004577637
+            },
+            {
+                "id": "m.04j190s_2",
+                "score": 10.441300392150879
+            },
+            {
+                "id": "m.0bk88p_48",
+                "score": 10.3641996383667
+            },
+            {
+                "id": "m.0cpllql_62",
+                "score": 10.258700370788574
+            },
+            {
+                "id": "m.0653m_307",
+                "score": 10.144599914550781
+            },
+            {
+                "id": "m.05z12j_2",
+                "score": 9.960599899291992
+            },
+            {
+                "id": "m.02w7brv_0",
+                "score": 9.812100410461426
+            },
+            {
+                "id": "m.04j190s_1",
+                "score": 9.805800437927246
+            },
+            {
+                "id": "m.0bq2wj_14",
+                "score": 9.788700103759766
+            }
+        ],
+        "BGE_documents": [
+            {
+                "id": "m.0p_vt_15",
+                "score": 0.6195401549339294
+            },
+            {
+                "id": "m.02ztjwg_676",
+                "score": 0.5995043516159058
+            },
+            {
+                "id": "m.0crnh6_17",
+                "score": 0.5831583738327026
+            },
+            {
+                "id": "m.02ztjwg_111",
+                "score": 0.5819166302680969
+            },
+            {
+                "id": "m.02ztjwg_1286",
+                "score": 0.5813525319099426
+            },
+            {
+                "id": "m.0cryqvm_1",
+                "score": 0.5796388387680054
+            },
+            {
+                "id": "nq_92821_36",
+                "score": 0.5791472792625427
+            },
+            {
+                "id": "nq_129293_149",
+                "score": 0.5783323049545288
+            },
+            {
+                "id": "nq_129293_165",
+                "score": 0.5772992372512817
+            },
+            {
+                "id": "m.0czd7xd_1",
+                "score": 0.5768837928771973
+            },
+            {
+                "id": "m.0crv8zq_1",
+                "score": 0.5761314630508423
+            },
+            {
+                "id": "m.06mx8_301",
+                "score": 0.5750962495803833
+            },
+            {
+                "id": "nq_2498_66",
+                "score": 0.5730101466178894
+            },
+            {
+                "id": "m.03h0dlg_3",
+                "score": 0.5727576613426208
+            },
+            {
+                "id": "nq_1019_10",
+                "score": 0.5702371001243591
+            },
+            {
+                "id": "m.0crnh6_14",
+                "score": 0.5700403451919556
+            },
+            {
+                "id": "nq_129293_60",
+                "score": 0.5699298977851868
+            },
+            {
+                "id": "m.0cs5jjf_0",
+                "score": 0.5697880983352661
+            },
+            {
+                "id": "m.0crnh6_8",
+                "score": 0.5695357322692871
+            },
+            {
+                "id": "nq_94937_22",
+                "score": 0.5689931511878967
+            }
+        ],
+        "BGE_related_documents": [
+            {
+                "id": "m.03jt2bk_0",
+                "score": 0.5315534472465515
+            }
+        ],
+        "BGE_tat_documents": [],
+        "BGE_ott_documents": [
+            {
+                "id": "ott_16607_1",
+                "score": 0.5406821370124817
+            },
+            {
+                "id": "ott_31340_1",
+                "score": 0.5406821370124817
+            },
+            {
+                "id": "ott_6729_1",
+                "score": 0.5245192050933838
+            },
+            {
+                "id": "ott_20915_1",
+                "score": 0.5245192050933838
+            },
+            {
+                "id": "ott_9841_1",
+                "score": 0.5245192050933838
+            },
+            {
+                "id": "ott_11440_1",
+                "score": 0.5245192050933838
+            },
+            {
+                "id": "ott_23051_1",
+                "score": 0.5199135541915894
+            },
+            {
+                "id": "ott_4784_1",
+                "score": 0.5199135541915894
+            },
+            {
+                "id": "ott_35358_1",
+                "score": 0.5199135541915894
+            },
+            {
+                "id": "ott_34459_1",
+                "score": 0.5199135541915894
+            }
+        ],
+        "BGE_nq_documents": [
+            {
+                "id": "nq_92821_36",
+                "score": 0.5791472792625427
+            },
+            {
+                "id": "nq_129293_149",
+                "score": 0.5783323049545288
+            },
+            {
+                "id": "nq_129293_165",
+                "score": 0.5772992372512817
+            },
+            {
+                "id": "nq_2498_66",
+                "score": 0.5730101466178894
+            },
+            {
+                "id": "nq_1019_10",
+                "score": 0.5702371001243591
+            },
+            {
+                "id": "nq_129293_60",
+                "score": 0.5699298977851868
+            },
+            {
+                "id": "nq_94937_22",
+                "score": 0.5689931511878967
+            },
+            {
+                "id": "nq_266844_17",
+                "score": 0.5664076805114746
+            },
+            {
+                "id": "nq_287990_3",
+                "score": 0.5648881196975708
+            },
+            {
+                "id": "nq_266844_10",
+                "score": 0.5646905899047852
+            }
+        ],
+        "BGE_triviaqa_documents": [
+            {
+                "id": "triviaqa_646_0",
+                "score": 0.5599145293235779
+            },
+            {
+                "id": "triviaqa_60222_4",
+                "score": 0.5514410734176636
+            },
+            {
+                "id": "triviaqa_14801_40",
+                "score": 0.5413660407066345
+            },
+            {
+                "id": "triviaqa_3341_361",
+                "score": 0.536609411239624
+            },
+            {
+                "id": "triviaqa_28178_216",
+                "score": 0.5361063480377197
+            },
+            {
+                "id": "triviaqa_723_5",
+                "score": 0.5356552600860596
+            },
+            {
+                "id": "triviaqa_63093_0",
+                "score": 0.5347324013710022
+            },
+            {
+                "id": "triviaqa_47077_3",
+                "score": 0.5317807793617249
+            },
+            {
+                "id": "triviaqa_3341_255",
+                "score": 0.5308870077133179
+            },
+            {
+                "id": "triviaqa_66070_233",
+                "score": 0.5305657386779785
+            }
+        ],
+        "BGE_kg_documents": [
+            {
+                "id": "m.0p_vt_15",
+                "score": 0.6195401549339294
+            },
+            {
+                "id": "m.02ztjwg_676",
+                "score": 0.5995043516159058
+            },
+            {
+                "id": "m.0crnh6_17",
+                "score": 0.5831583738327026
+            },
+            {
+                "id": "m.02ztjwg_111",
+                "score": 0.5819166302680969
+            },
+            {
+                "id": "m.02ztjwg_1286",
+                "score": 0.5813525319099426
+            },
+            {
+                "id": "m.0cryqvm_1",
+                "score": 0.5796388387680054
+            },
+            {
+                "id": "m.0czd7xd_1",
+                "score": 0.5768837928771973
+            },
+            {
+                "id": "m.0crv8zq_1",
+                "score": 0.5761314630508423
+            },
+            {
+                "id": "m.06mx8_301",
+                "score": 0.5750962495803833
+            },
+            {
+                "id": "m.03h0dlg_3",
+                "score": 0.5727576613426208
+            },
+            {
+                "id": "m.0crnh6_14",
+                "score": 0.5700403451919556
+            },
+            {
+                "id": "m.0cs5jjf_0",
+                "score": 0.5697880983352661
+            },
+            {
+                "id": "m.0crnh6_8",
+                "score": 0.5695357322692871
+            },
+            {
+                "id": "m.0crsmr2_1",
+                "score": 0.5676246285438538
+            },
+            {
+                "id": "m.0cry68j_1",
+                "score": 0.5674484372138977
+            },
+            {
+                "id": "m.064_8sq_13195",
+                "score": 0.566423773765564
+            },
+            {
+                "id": "m.04j32mc_1",
+                "score": 0.5653546452522278
+            },
+            {
+                "id": "m.06gjk9_25",
+                "score": 0.5628980994224548
+            },
+            {
+                "id": "m.0crnh6_11",
+                "score": 0.56100994348526
+            },
+            {
+                "id": "m.04306rv_8813",
+                "score": 0.5606278777122498
+            }
+        ],
+        "llm_mark_result": {
+            "m.02ztjwg_676": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', indicating this movie has the smallest Netflix ID among those starring Regina Hall.",
+                "Document Content Analysis": "The document appears to be a snippet of technical data, possibly from a database or API, containing various keys and identifiers related to Netflix and other authorities. It mentions a Netflix ID '70057932' and a title ID 'tt0116222', but does not explicitly state the movie title or any involvement of Regina Hall.",
+                "Document and Query Keywords Matching": "The document includes 'Netflix ID', which is a key term from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'The Best Man' or Regina Hall.",
+                "Key Information Matching": "While the document contains a Netflix ID, it lacks any direct reference to Regina Hall or the movie titles associated with her.",
+                "Can the Document Answer the Query": "No, the document does not provide enough information to determine which movie starring Regina Hall has the smallest Netflix ID.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any additional context or information about Regina Hall or the movies she has starred in.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any useful context or information about Regina Hall or the movies she has starred in. It only contains technical data without direct relevance to the query."
+            },
+            "m.0p_vt_15": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie with the smallest Netflix ID starring Regina Hall.",
+                "Document Content Analysis": "The document provides various keys and identifiers for the movie 'Norma Rae'. It includes multiple source keys but does not mention Regina Hall or any Netflix IDs.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords such as 'Regina Hall', 'smallest', or 'Netflix ID'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any related information.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document is focused on 'Norma Rae', which is not related to Regina Hall.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about movies starring Regina Hall or their Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on 'Norma Rae', which does not involve Regina Hall, and it lacks any information about Netflix IDs. Therefore, it cannot assist in answering the query or providing relevant context."
+            },
+            "m.088s3s_8": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie with the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides various identifiers and metadata for the movie 'The Best Man', including IMDb title, Wikipedia entries, and Netflix IDs.",
+                "Document and Query Keywords Matching": "The document mentions 'The Best Man', which is a movie, and includes Netflix ID information.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'The Best Man' and provides its Netflix ID (298184).",
+                "Key Information Matching": "The document contains the Netflix ID for 'The Best Man', which is the answer to the query.",
+                "Can the Document Answer the Query": "Yes, the document provides the Netflix ID for 'The Best Man', which is the smallest ID mentioned.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides comprehensive metadata about 'The Best Man', including its Netflix ID.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific Netflix ID for 'The Best Man', which is the answer to the query. It also includes additional metadata that supports the relevance of the information."
+            },
+            "triviaqa_646_0": {
+                "Query Analysis": "The query seeks to identify the movie featuring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides information about the movie 'Emma' (1996), including its IMDb rating, plot summary, director, and cast members. It also mentions other movies and TV shows but does not reference Regina Hall or Netflix IDs.",
+                "Document and Query Keywords Matching": "The document does not contain any of the query keywords: 'Regina Hall', 'smallest Netflix ID', or any movie titles related to Regina Hall.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any other movies starring Regina Hall.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on 'Emma' (1996) and other unrelated films.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Regina Hall or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not contain any relevant information that could help infer details about Regina Hall's movies or their Netflix IDs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on the movie 'Emma' (1996) and does not mention Regina Hall, Netflix, or any related movies. Therefore, it cannot assist in answering the query or providing any relevant context."
+            },
+            "m.0crrx4b_7": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer is ['The Best Man'], indicating that this movie starring Regina Hall has the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides information about a film titled 'Victoria in Dover', including its release date, various keys and identifiers such as IMDb and Netflix IDs, and some Wikipedia references. It does not mention Regina Hall or any other cast members.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID', but does not contain 'Regina Hall' or 'movie'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any other movie related to Regina Hall.",
+                "Key Information Matching": "The document provides a Netflix ID for 'Victoria in Dover', but this is unrelated to Regina Hall or the query's specific context.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or any of her movies.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Regina Hall or her movies.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Regina Hall or the movies she has starred in. It only discusses a different film, 'Victoria in Dover', which is unrelated to the query."
+            },
+            "m.01242__12": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', indicating that this movie starring Regina Hall has the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides various metadata about a movie titled 'Mrs Brown', including its Netflix ID, IMDb title, Wikipedia entries in different languages, and other identifiers.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID', but does not mention 'Regina Hall' or 'smallest'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man'.",
+                "Key Information Matching": "The document provides a Netflix ID for 'Mrs Brown', but does not provide any information about Regina Hall or comparisons of Netflix IDs to determine the smallest one.",
+                "Can the Document Answer the Query": "No, the document does not provide information about Regina Hall or the smallest Netflix ID.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document lacks any relevant information about Regina Hall or other movies for comparison.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not provide any information about Regina Hall or the smallest Netflix ID. It only contains metadata about a different movie, 'Mrs Brown', which is not related to the query."
+            },
+            "m.0crrx4b_11": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides detailed information about the film 'Victoria in Dover', including its various IDs and titles on different platforms and languages, but does not mention Regina Hall or 'The Best Man'.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID', but does not contain 'Regina Hall', 'smallest', or 'movie'.",
+                "Document and Answer Keywords Matching": "The document does not contain any keywords from the answer such as 'The Best Man'.",
+                "Key Information Matching": "The document provides information about a specific film's Netflix ID, but this film is not related to Regina Hall or the answer to the query.",
+                "Can the Document Answer the Query": "No, the document does not contain information about Regina Hall or the movie 'The Best Man'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information about Regina Hall or the movies she starred in.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is about a specific film 'Victoria in Dover' and provides various IDs and titles, but it is completely unrelated to Regina Hall or the query's focus on finding the movie with the smallest Netflix ID starring her. Therefore, it is irrelevant to the query."
+            },
+            "m.03jt2bk_0": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides information about a film performance by Regina Hall in 'The Best Man', including the film's identifier (m.03jt2bk) and the character she portrayed (Candy).",
+                "Document and Query Keywords Matching": "The document mentions 'Regina Hall' and 'The Best Man', which are key terms from the query.",
+                "Document and Answer Keywords Matching": "The document includes 'The Best Man', which is the movie listed in the answer.",
+                "Key Information Matching": "The document matches the key information of the query by confirming that Regina Hall starred in 'The Best Man'. However, it does not provide information about Netflix IDs.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that Regina Hall starred in 'The Best Man', which is part of the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document is partially relevant as it confirms Regina Hall's involvement in 'The Best Man', a key part of the answer, but it lacks the specific information about Netflix IDs needed to fully answer the query."
+            },
+            "m.088s3s_4": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie with the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides detailed information about the movie 'The Best Man', including its release date, director, and various keys or IDs associated with it, including a Netflix ID.",
+                "Document and Query Keywords Matching": "The document mentions 'The Best Man', which is listed in the answer, and includes a Netflix ID.",
+                "Document and Answer Keywords Matching": "The document directly mentions 'The Best Man' and provides its Netflix ID '/authority/netflix/movie/298184' and a smaller key '/authority/netflix/tiny/5RiS'.",
+                "Key Information Matching": "The document provides the Netflix ID for 'The Best Man', which matches the query's requirement for identifying a movie by its Netflix ID.",
+                "Can the Document Answer the Query": "Yes, the document provides the Netflix ID for 'The Best Man', which is the smallest ID listed.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides comprehensive details about 'The Best Man', including its Netflix IDs, which are crucial for answering the query.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly relevant to the query as it provides the specific Netflix ID for 'The Best Man', which is the answer to the query. It also includes additional context about the movie, enhancing the understanding of the query's context."
+            },
+            "nq_92821_36": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID. This involves knowing both the movies Regina Hall has acted in and their respective Netflix IDs.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document lists various Netflix movies released in 2017, but it does not provide information about the actors in these movies or their Netflix IDs.",
+                "Document and Query Keywords Matching": "The document does not mention 'Regina Hall' or 'Netflix ID'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man'.",
+                "Key Information Matching": "The document lacks any key information related to Regina Hall, the movies she has acted in, or Netflix IDs.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Regina Hall or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Regina Hall, the movies she has acted in, or any Netflix IDs. It only lists Netflix movies from 2017, which does not assist in answering the specific question about Regina Hall's movie with the smallest Netflix ID."
+            },
+            "m.0crrnyn_0": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', indicating that this movie starring Regina Hall has the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides detailed information about a musical DVD titled 'Lang Lang: Live at Carnegie Hall', including its various names, labels, description, release date, and multiple keys and IDs related to Netflix and IMDb.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID' but does not mention 'Regina Hall' or any movie titles related to her.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any related terms.",
+                "Key Information Matching": "The document provides information about Netflix IDs but pertains to a musical DVD by Lang Lang, not a movie starring Regina Hall.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about movies starring Regina Hall.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information about Regina Hall or her movies.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query as it focuses on a musical DVD by Lang Lang and does not mention Regina Hall or any of her movies. It cannot provide any useful context or information to answer the query."
+            },
+            "nq_51601_11": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID, implying a search for a specific filmography detail.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document discusses the cast and characters of the TV show 'Law & Order: LA', mentioning Regina Hall's role as Deputy District Attorney Evelyn Price. It details the character dynamics and changes due to a creative overhaul of the show.",
+                "Document and Query Keywords Matching": "The document mentions 'Regina Hall'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man'.",
+                "Key Information Matching": "The document provides information about Regina Hall's role in 'Law & Order: LA', but does not provide any details about her filmography or Netflix IDs of her movies.",
+                "Can the Document Answer the Query": "No, the document does not contain information about Regina Hall's filmography or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document is specific to 'Law & Order: LA' and does not provide any relevant context or additional information about Regina Hall's other works.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it focuses solely on Regina Hall's role in 'Law & Order: LA' and does not provide any information about her filmography or Netflix IDs, which are key to answering the query."
+            },
+            "ott_22997_0": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID. This implies a need to identify a specific film involving Regina Hall and then determine its Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', indicating that this is the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides information about Alex Pettyfer's career, including his filmography and awards. It mentions several films he has been involved in, such as 'Stormbreaker', 'I Am Number Four', 'Beastly', and 'The Butler'. It also mentions his role in the Netflix miniseries 'The I-Land'.",
+                "Document and Query Keywords Matching": "The document does not mention 'Regina Hall', 'movie', or 'Netflix ID'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man'.",
+                "Key Information Matching": "There is no key information in the document that matches the query or the answer. The document focuses on Alex Pettyfer's career and does not provide any details about Regina Hall or Netflix IDs of movies.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about Regina Hall or the Netflix IDs of movies.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It focuses on Alex Pettyfer's career and awards, without any mention of Regina Hall or Netflix IDs. Therefore, it cannot provide any useful context or information to answer the query or infer additional relevant details."
+            },
+            "m.0crnh6_17": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides detailed information about the movie 'Little Manhattan', including various IDs from different sources, types, and other metadata such as production companies, music, and runtime.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix Title' but does not mention 'Regina Hall' or any specific Netflix ID comparisons.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any information related to Regina Hall's films.",
+                "Key Information Matching": "The document provides information about a specific movie ('Little Manhattan') and its various IDs, but it does not provide any information about Regina Hall or comparisons of Netflix IDs among her movies.",
+                "Can the Document Answer the Query": "No, the document does not contain information about Regina Hall or the specific Netflix IDs of her movies.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is focused solely on the movie 'Little Manhattan' and does not provide any information about Regina Hall or the Netflix IDs of her movies. Therefore, it is irrelevant to the query."
+            },
+            "m.02ztjwg_111": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', indicating that this movie starring Regina Hall has the smallest Netflix ID.",
+                "Document Content Analysis": "The document appears to be a snippet of data containing various metadata about movies, including Netflix IDs, authorities, and languages. It mentions Netflix IDs and other related information but does not clearly list movie titles or actors.",
+                "Document and Query Keywords Matching": "The document contains 'Netflix ID', which is a key term from the query.",
+                "Document and Answer Keywords Matching": "The document does not explicitly mention 'The Best Man' or 'Regina Hall'.",
+                "Key Information Matching": "While the document includes Netflix IDs, it lacks specific information about movie titles or actors, which are crucial for answering the query.",
+                "Can the Document Answer the Query": "No, the document does not provide enough information to identify the movie starring Regina Hall with the smallest Netflix ID.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is not relevant to the query as it does not contain any information about movie titles, actors, or specific Netflix IDs that could be matched to Regina Hall. The document's content is too vague and lacks the necessary details to assist in answering the query."
+            },
+            "m.02ztjwg_1286": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', indicating that this movie starring Regina Hall has the smallest Netflix ID.",
+                "Document Content Analysis": "The document provides various metadata about movies, including release dates, IMDb titles, Netflix IDs, and languages. It mentions a movie with the Netflix ID '70057932' and other related information, but it does not explicitly state the movie title or mention Regina Hall.",
+                "Document and Query Keywords Matching": "The document contains 'Netflix ID', which is a key term from the query.",
+                "Document and Answer Keywords Matching": "The document includes the Netflix ID '70057932', which is part of the answer, but it does not mention 'The Best Man' or Regina Hall.",
+                "Key Information Matching": "The document provides Netflix IDs, which are relevant to the query, but it lacks the specific movie title and the mention of Regina Hall.",
+                "Can the Document Answer the Query": "No, the document does not directly identify the movie starring Regina Hall with the smallest Netflix ID.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides Netflix IDs, which could be useful in a broader search to identify the smallest ID, but it lacks specific details about Regina Hall or the movie titles.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about Netflix IDs, which is a component of the query. However, it lacks the specific details about Regina Hall and the movie titles, making it partially relevant. It can help infer additional information but cannot directly answer the query."
+            },
+            "ott_16607_1": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID. This implies finding a specific movie among those available on Netflix where Regina Hall is a lead actor.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document lists various Netflix original programs, including specials, and provides details such as genre, release date, and duration. It also includes a brief introduction about Netflix's original content strategy.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix' and lists various original programs, but does not explicitly mention 'Regina Hall' or 'The Best Man'.",
+                "Document and Answer Keywords Matching": "The document does not contain any direct reference to 'The Best Man' or Regina Hall.",
+                "Key Information Matching": "The document provides information about Netflix's original programming but lacks specific details about movies starring Regina Hall or their Netflix IDs.",
+                "Can the Document Answer the Query": "No, the document does not provide any information about movies starring Regina Hall or their Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not offer any relevant context or additional information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Regina Hall, 'The Best Man', or provide any details about Netflix IDs of movies. It focuses on a list of Netflix original programs, which does not assist in answering the specific question about Regina Hall's movie with the smallest Netflix ID."
+            },
+            "triviaqa_21148_469": {
+                "Query Analysis": "The query seeks to identify the movie featuring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer lists 'The Best Man' as the movie starring Regina Hall with the smallest Netflix ID.",
+                "Document Content Analysis": "The document discusses personal preferences for old-style hats, trends in marketing, and historical references to Stalin's editing habits. It also mentions a review of a biography and a discussion about the number 17.",
+                "Document and Query Keywords Matching": "None of the query keywords ('movie', 'Regina Hall', 'smallest Netflix ID') are found in the document.",
+                "Document and Answer Keywords Matching": "None of the answer keywords ('The Best Man') are found in the document.",
+                "Key Information Matching": "There is no key information related to the query or the answer present in the document.",
+                "Can the Document Answer the Query": "No, the document does not contain any information about movies, Regina Hall, or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document provides no context or additional information relevant to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention any aspect of movies, actors, or Netflix, and thus cannot provide any useful context or information to answer the query or infer additional relevant details."
+            }
+        },
+        "llm_mark_result_ds": {
+            "m.02ztjwg_676": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document contains information about various movies, including their Netflix IDs, titles, and other metadata. However, it does not explicitly mention Regina Hall or the movie 'The Best Man'.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID' and 'movie', but does not mention 'Regina Hall' or 'The Best Man'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any movies starring Regina Hall.",
+                "Key Information Matching": "The document does not provide any information about Regina Hall or the movie 'The Best Man', nor does it list Netflix IDs in a way that allows for comparison of sizes.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or the movie 'The Best Man', nor does it provide Netflix IDs for comparison.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Regina Hall or Netflix IDs that could help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to Regina Hall, 'The Best Man', or Netflix IDs that could be used to answer the query. Therefore, it is irrelevant to the query."
+            },
+            "m.0p_vt_15": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides information about the movie 'Norma Rae', including various keys and identifiers related to it. However, there is no mention of Regina Hall or any Netflix ID.",
+                "Document and Query Keywords Matching": "The document does not mention 'Regina Hall', 'Netflix ID', or any movie starring Regina Hall.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any movie starring Regina Hall.",
+                "Key Information Matching": "The document does not provide any key information related to the query, such as movies starring Regina Hall or Netflix IDs.",
+                "Can the Document Answer the Query": "No, the document does not mention any movie starring Regina Hall or provide any Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Regina Hall, any movie starring her, or any Netflix IDs. Therefore, it is irrelevant to the query."
+            },
+            "m.088s3s_8": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides detailed information about 'The Best Man', including its Netflix ID (298184), IMDb title, Wikipedia entries, and other related IDs.",
+                "Document and Query Keywords Matching": "The document mentions 'The Best Man', which is a movie starring Regina Hall, and includes its Netflix ID (298184).",
+                "Document and Answer Keywords Matching": "The document explicitly mentions 'The Best Man', which matches the answer provided.",
+                "Key Information Matching": "The document contains the Netflix ID for 'The Best Man', which is relevant to the query about the smallest Netflix ID for a movie starring Regina Hall.",
+                "Can the Document Answer the Query": "Yes, the document provides the Netflix ID for 'The Best Man', which is the answer to the query.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No additional inference is needed as the document directly provides the Netflix ID for 'The Best Man'.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the Netflix ID for 'The Best Man', which is the movie starring Regina Hall with the smallest Netflix ID. This directly answers the query and provides useful context."
+            },
+            "triviaqa_646_0": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides information about the movie 'Emma (1996)', including its IMDb rating, director, and a brief summary. It does not mention Regina Hall or Netflix IDs.",
+                "Document and Query Keywords Matching": "The document does not mention 'Regina Hall', 'Netflix ID', or any related keywords.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any related keywords.",
+                "Key Information Matching": "The document does not provide any information related to Regina Hall, Netflix IDs, or the movie 'The Best Man'.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Regina Hall, Netflix IDs, or the movie 'The Best Man', and provides no useful context or information to answer the query."
+            },
+            "m.0crrx4b_7": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides information about a movie titled 'Victoria in Dover', including its release date, director, and various keys such as Netflix ID and IMDb title. However, it does not mention Regina Hall or any movies starring her.",
+                "Document and Query Keywords Matching": "The document does not mention 'Regina Hall' or any movies starring her. It does mention 'Netflix ID', but not in the context of Regina Hall.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any movies starring Regina Hall.",
+                "Key Information Matching": "The document does not provide any key information related to Regina Hall or her movies. It focuses on a different movie entirely.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or any movies starring her.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the answer to the query.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Regina Hall or any movies starring her, nor does it provide any information that could help infer the answer. Therefore, it is irrelevant to the query."
+            },
+            "m.01242__12": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides information about the movie 'Mrs Brown', including its Netflix ID (1155067) and various other identifiers and sources.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID' and provides a specific Netflix ID for 'Mrs Brown'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Regina Hall' or 'The Best Man'.",
+                "Key Information Matching": "The document contains a Netflix ID, which is relevant to the query, but it does not mention Regina Hall or the movie 'The Best Man'.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or the movie 'The Best Man'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about Regina Hall or the movie 'The Best Man'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Regina Hall or the movie 'The Best Man'. It only provides information about 'Mrs Brown', which is unrelated to the query."
+            },
+            "m.0crrx4b_11": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides information about a movie titled 'Victoria in Dover', including its Netflix ID (70076517) and other related metadata.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID' and provides a specific ID (70076517).",
+                "Document and Answer Keywords Matching": "The document does not mention 'Regina Hall' or 'The Best Man'.",
+                "Key Information Matching": "The document provides a Netflix ID but does not mention Regina Hall or the movie 'The Best Man'.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or the movie 'The Best Man'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Regina Hall or the movie 'The Best Man'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Regina Hall or the movie 'The Best Man'. It provides a Netflix ID for a different movie, which does not assist in answering the query."
+            },
+            "m.03jt2bk_0": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides information about a film performance by Regina Hall, specifically mentioning 'The Best Man' and its associated Netflix ID 'm.03jt2bk'.",
+                "Document and Query Keywords Matching": "The document mentions 'Regina Hall' and 'The Best Man', which are relevant to the query.",
+                "Document and Answer Keywords Matching": "The document includes 'The Best Man', which matches the answer.",
+                "Key Information Matching": "The document mentions 'Regina Hall' and 'The Best Man', which are key to the query and answer. However, it does not provide information about the Netflix ID being the smallest.",
+                "Can the Document Answer the Query": "No, the document does not provide information about the Netflix ID being the smallest.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document confirms that 'The Best Man' is a movie starring Regina Hall, which is part of the answer.",
+                "Relevance Judgement": "1",
+                "Explanation": "The document contains relevant information about the query, specifically identifying 'The Best Man' as a movie starring Regina Hall. However, it does not provide the necessary detail about the Netflix ID being the smallest, which is required to fully answer the query."
+            },
+            "m.088s3s_4": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides detailed information about the movie 'The Best Man', including its release date, director, and various keys such as Netflix ID and other identifiers.",
+                "Document and Query Keywords Matching": "The document mentions 'The Best Man', which is a movie starring Regina Hall, and includes a Netflix ID key.",
+                "Document and Answer Keywords Matching": "The document mentions 'The Best Man', which matches the answer provided.",
+                "Key Information Matching": "The document provides the Netflix ID for 'The Best Man', which is relevant to the query about the smallest Netflix ID for a movie starring Regina Hall.",
+                "Can the Document Answer the Query": "Yes, the document provides the Netflix ID for 'The Best Man', which is the movie starring Regina Hall with the smallest Netflix ID.",
+                "Can the Document Help Infer Additional Information Required by the Query": "Yes, the document provides additional information about 'The Best Man', including its release date and director, which could be useful for further context.",
+                "Relevance Judgement": "2",
+                "Explanation": "The document is directly related to the query as it provides the Netflix ID for 'The Best Man', which is the movie starring Regina Hall with the smallest Netflix ID. It also provides additional context about the movie, enhancing understanding of the query."
+            },
+            "nq_92821_36": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man'.",
+                "Document Content Analysis": "The document lists various movies released in 2017, but it does not mention Regina Hall or provide any information about Netflix IDs.",
+                "Document and Query Keywords Matching": "The document does not mention 'Regina Hall' or 'Netflix ID'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man'.",
+                "Key Information Matching": "The document does not provide any information related to Regina Hall or Netflix IDs, which are key to answering the query.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Regina Hall or provide any information about Netflix IDs, which are essential to answering the query."
+            },
+            "m.0crrnyn_0": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides detailed information about 'Lang Lang: Live at Carnegie Hall', including its Netflix ID (70008402) and other related metadata. However, it does not mention Regina Hall or any movies starring her.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'Regina Hall' or 'The Best Man', which are keywords from the answer.",
+                "Key Information Matching": "The document does not provide any information about Regina Hall or movies starring her. It only provides details about 'Lang Lang: Live at Carnegie Hall' and its Netflix ID.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or any movies starring her.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information related to Regina Hall or her movies.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not mention Regina Hall or any movies starring her. It only provides information about 'Lang Lang: Live at Carnegie Hall', which is unrelated to the query."
+            },
+            "nq_51601_11": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document discusses the casting and roles of various actors in the TV show 'Law & Order: LA', including Regina Hall, who played Deputy District Attorney Evelyn Price. It does not mention any movies starring Regina Hall or Netflix IDs.",
+                "Document and Query Keywords Matching": "The document mentions 'Regina Hall', which is a keyword from the query.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any other movies starring Regina Hall.",
+                "Key Information Matching": "The document mentions Regina Hall but does not provide any information about movies she starred in or Netflix IDs.",
+                "Can the Document Answer the Query": "No, the document does not mention any movies starring Regina Hall or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information that could help infer the movie with the smallest Netflix ID starring Regina Hall.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document mentions Regina Hall but does not provide any relevant information about movies she starred in or Netflix IDs. Therefore, it is irrelevant to the query."
+            },
+            "ott_22997_0": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man'.",
+                "Document Content Analysis": "The document provides information about Alex Pettyfer, including his awards, nominations, and roles in various films and TV shows. It mentions his role in the Netflix miniseries 'The I-Land' but does not mention Regina Hall or any movies starring her.",
+                "Document and Query Keywords Matching": "The document does not mention 'Regina Hall', 'movie', or 'Netflix ID'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any movies starring Regina Hall.",
+                "Key Information Matching": "The document does not provide any information related to Regina Hall, her movies, or Netflix IDs.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or any movies starring her.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Regina Hall or Netflix IDs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely unrelated to the query. It does not mention Regina Hall, her movies, or Netflix IDs, and therefore cannot assist in answering the query or providing any relevant context."
+            },
+            "m.0crnh6_17": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man', which is a movie starring Regina Hall.",
+                "Document Content Analysis": "The document provides detailed information about the movie 'Little Manhattan', including its Netflix ID, production companies, music, runtime, and other metadata. However, it does not mention Regina Hall or 'The Best Man'.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID' and 'Film', but does not mention 'Regina Hall' or 'The Best Man'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or 'Regina Hall'.",
+                "Key Information Matching": "The document does not provide any information related to Regina Hall or 'The Best Man', nor does it provide any Netflix IDs for movies starring Regina Hall.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or 'The Best Man', and does not provide Netflix IDs for movies starring Regina Hall.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Regina Hall or her movies.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is entirely focused on 'Little Manhattan' and does not mention Regina Hall or 'The Best Man'. It provides no information that could assist in answering the query or inferring additional relevant information. Therefore, it is irrelevant to the query."
+            },
+            "m.02ztjwg_111": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man'.",
+                "Document Content Analysis": "The document contains information about Netflix IDs and related metadata, including a Netflix ID '70057932' and a reference to 'The Widely Travelled Little Mouse: The Secret Of Room 13'.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID'.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any other movie starring Regina Hall.",
+                "Key Information Matching": "The document provides a Netflix ID but does not link it to any movie starring Regina Hall or provide information about the smallest Netflix ID.",
+                "Can the Document Answer the Query": "No, the document does not mention any movie starring Regina Hall or provide the smallest Netflix ID.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Regina Hall or the smallest Netflix ID.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to Regina Hall or the smallest Netflix ID, making it irrelevant to the query."
+            },
+            "m.02ztjwg_1286": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man'.",
+                "Document Content Analysis": "The document contains information about various movies, including their Netflix IDs, release dates, and other metadata. However, it does not explicitly mention Regina Hall or the movie 'The Best Man'.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix ID' and provides a list of Netflix IDs for various movies.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or Regina Hall.",
+                "Key Information Matching": "The document provides Netflix IDs for various movies but does not link any of them to Regina Hall or 'The Best Man'.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or 'The Best Man'.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any information about Regina Hall or 'The Best Man'.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document does not contain any information related to Regina Hall or the movie 'The Best Man'. It only provides Netflix IDs for unrelated movies, making it irrelevant to the query."
+            },
+            "ott_16607_1": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man'.",
+                "Document Content Analysis": "The document lists various Netflix original programming, including specials, with details such as title, genre, release date, and duration. It does not mention Regina Hall or any movies starring her.",
+                "Document and Query Keywords Matching": "The document mentions 'Netflix' and 'original programming', but does not include 'Regina Hall' or 'movie' in the context of her work.",
+                "Document and Answer Keywords Matching": "The document does not mention 'The Best Man' or any movies starring Regina Hall.",
+                "Key Information Matching": "The document does not provide any information related to Regina Hall or her movies, nor does it mention Netflix IDs.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall or any movies starring her.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information about Regina Hall or Netflix IDs.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is irrelevant to the query as it does not contain any information about Regina Hall, her movies, or Netflix IDs."
+            },
+            "triviaqa_21148_469": {
+                "Query Analysis": "The query asks for the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest, Netflix ID",
+                "Answer Analysis": "The answer is 'The Best Man'.",
+                "Document Content Analysis": "The document discusses topics unrelated to the query, such as old-style hats, trends in marketing, grammar, and Stalin's editing habits. There is no mention of Regina Hall, movies, or Netflix IDs.",
+                "Document and Query Keywords Matching": "None of the query keywords ('movie', 'Regina Hall', 'smallest', 'Netflix ID') are found in the document.",
+                "Document and Answer Keywords Matching": "The answer keyword 'The Best Man' is not found in the document.",
+                "Key Information Matching": "The document does not contain any information related to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not mention Regina Hall, movies, or Netflix IDs.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document does not provide any relevant information to help infer the answer.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document is completely unrelated to the query. It does not mention Regina Hall, movies, or Netflix IDs, and provides no useful context or information that could assist in answering the query."
+            }
+        },
+        "llm_mark_result_gpt": {
+            "m.02ztjwg_676": {},
+            "m.0p_vt_15": {},
+            "m.088s3s_8": {},
+            "triviaqa_646_0": {},
+            "m.0crrx4b_7": {},
+            "m.01242__12": {},
+            "m.0crrx4b_11": {},
+            "m.03jt2bk_0": {},
+            "m.088s3s_4": {},
+            "nq_92821_36": {},
+            "m.0crrnyn_0": {},
+            "nq_51601_11": {},
+            "ott_22997_0": {},
+            "m.0crnh6_17": {},
+            "m.02ztjwg_111": {},
+            "m.02ztjwg_1286": {
+                "Query Analysis": "The query seeks to identify the movie starring Regina Hall that has the smallest Netflix ID.",
+                "Query Keywords Extraction": "movie, Regina Hall, smallest Netflix ID",
+                "Answer Analysis": "The answer provided is 'The Best Man', which is assumed to be a movie starring Regina Hall.",
+                "Document Content Analysis": "The document appears to include metadata for a movie, including a release date, Netflix ID, and related information. However, it does not explicitly mention any movie titles or actors' names that can be readily associated with the query.",
+                "Document and Query Keywords Matching": "The document contains a Netflix ID ('70057932') but does not mention Regina Hall or specific movie titles.",
+                "Document and Answer Keywords Matching": "There is no mention of the movie title 'The Best Man', nor Regina Hall, in the document.",
+                "Key Information Matching": "The document contains a Netflix ID, which is a relevant piece of information in the context of the query, but lacks any specific mention of Regina Hall or any titles to make a connection to the query or the answer.",
+                "Can the Document Answer the Query": "No, the document does not provide enough information to identify a movie starring Regina Hall with the smallest Netflix ID.",
+                "Can the Document Help Infer Additional Information Required by the Query": "No, the document primarily lists technical and metadata information without any clear link to Regina Hall or her movies.",
+                "Relevance Judgement": "0",
+                "Explanation": "The document lacks explicit mention of Regina Hall or any movie titles, and thus does not provide any useful information or context to answer or infer an answer to the query regarding a movie starring Regina Hall with the smallest Netflix ID."
+            },
+            "ott_16607_1": {},
+            "triviaqa_21148_469": {}
+        },
+        "relevance_judgement": 0,
+        "llm_fail": {},
+        "fail_detail": {
+            "ott_16607_1": [
+                true,
+                true,
+                true
+            ],
+            "triviaqa_21148_469": [
+                true,
+                true,
+                true
+            ]
+        },
+        "dataset_score": {
+            "nq": 0,
+            "kg": 5,
+            "ott": 0,
+            "triviaqa": 0,
+            "tat": 0
+        }
+    }
+}
