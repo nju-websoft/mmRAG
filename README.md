@@ -13,6 +13,24 @@ Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for enha
 
 In this repository, we provide our source code for constructing mmRAG dataset and evaluating experienmens provided in our paper.
 
+## 🧪 Experiments
+We provide our dataset and annotation results in `data/` folder. The source codes of experiments are in `mmrag_experiments/` folder.
+
+### Retrieval:
+
+#### Setup:
+
+### Generation:
+
+#### Setup:
+
+### Generation with spcific-dataset chunks:
+
+#### Setup:
+
+### Generation with query router:
+#### Setup:
+
 ## 🧾 mmRAG Construction
 ![mmRAG Dataset Construction](figs/flowchart.png)
 
@@ -50,23 +68,6 @@ Run [gen_documents.py](./document_processer/gen_documents.py) to chunk documents
 
 #### Dataset-level annotate
 
-## 🧪 Experiments
-We provide our dataset
-
-### Retrieval:
-
-#### Setup:
-
-### Generation:
-
-#### Setup:
-
-### Generation with spcific-dataset chunks:
-
-#### Setup:
-
-### Generation with query router:
-#### Setup:
 
 <!-- ## 📄 Citation
 
