@@ -19,6 +19,20 @@ We provide our dataset and annotation results in `data/` folder. The source code
 ### Retrieval:
 
 #### Setup:
+We use BM25, Contriever, DPR, bge-large-en-v1.5, gte-large-en-v1.5 as example retrievers. For BM25, we need to use another python environment with JDK and pyserini.
+
+For other retrievers, install all required packages by using `pip install -r retrieval_requirements.txt`
+
+#### Build Index and Retrieve
+for each dense retriever, we need to build index for our chunks. In `mmrag_experiments/retrievers/{your_retriever}`, there are two python scripts `build_index.py` and `retrieve.py`. Run `build_index.py` to generate embeddings and faiss index in `./cache/` in each folder, and then run `retrieve.py` to generate retrieval result `result_{your_retriever}.json`
+
+#### Fine-tune models
+Scripts to fine-tune models using FlagEmbedding can be found in  `mmrag_experiments/retrievers/fine_tune_prepare`. cd to `mmrag_experiments/retrievers/fine_tune_prepare/FlagEmbedding/scripts` and run mine.sh to generate Hard Negative. and run `mmrag_experiments/retrievers/fine_tune_prepare/finetune.sh` to fine-tune models. Detailed settings can be fixed in this script.
+
+#### Evaluation
+
+You can run `mmrag_experiments/eval.py` to see the evaluations of retrievers. In our experiment, we got the result in following graph:
+![alt text](./figs/retrieval.png)
 
 ### Generation:
 
