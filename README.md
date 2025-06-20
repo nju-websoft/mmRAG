@@ -27,7 +27,7 @@ For other retrievers, install all required packages by using `pip install -r ret
 for each dense retriever, we need to build index for our chunks. In `mmrag_experiments/retrievers/{your_retriever}`, there are two python scripts `build_index.py` and `retrieve.py`. Run `build_index.py` to generate embeddings and faiss index in `./cache/` in each folder, and then run `retrieve.py` to generate retrieval result `result_{your_retriever}.json`
 
 #### Fine-tune models
-Scripts to fine-tune models using FlagEmbedding can be found in  `mmrag_experiments/retrievers/fine_tune_prepare`. cd to `mmrag_experiments/retrievers/fine_tune_prepare/FlagEmbedding/scripts` and run mine.sh to generate Hard Negative. and run `mmrag_experiments/retrievers/fine_tune_prepare/finetune.sh` to fine-tune models. Detailed settings can be fixed in this script.
+Fine-tune models can be trained using FlagEmbedding.
 
 #### Evaluation
 
@@ -36,14 +36,16 @@ You can run `mmrag_experiments/eval.py` to see the evaluations of retrievers. In
 
 ### Generation:
 
-#### Setup:
+You can run `mmrag_experiments/exp/generation_exp.py` to run the generation experiment. In `load_test_data()`. Set LLM like `glm_model = llm.GLM("glm-4-plus")`, and remember to fill information like api-key in `llm.py`.
+
 
 ### Generation with spcific-dataset chunks:
 
-#### Setup:
+Also in `mmrag_experiments/exp/generation_exp.py`, in `load_test_data()`, you can set if to set dataset limitation.
 
 ### Generation with query router:
-#### Setup:
+
+You can do query routing tests in `mmrag_experiments/exp/routing`. We provide 3 basic router as example: `mmrag_experiments/exp/routing/oracle_router.py`, `mmrag_experiments/exp/routing/llm_router.py`, and `mmrag_experiments/exp/routing/semantic_router.py`, where the oracle_router uses dataset-level labels in mmRAG. You can implement your custom router and save the routing result in corresponsing json files. After routing results are generated, generation experiments can be done in `generate_exp.py`.
 
 ## 🧾 mmRAG Construction
 ![mmRAG Dataset Construction](figs/flowchart.png)
@@ -60,13 +62,13 @@ NQ and TriviaQA can be accessed from HuggingFace, using `load_dataset()` provide
 
 [CWQ](https://www.dropbox.com/scl/fo/nqujvpg2gc4y0ozkw3wgr/AOzjVEsdUhv2Fx2pamfJlSw?rlkey=746t7xehfqxf1zr867nxiq8aq&e=1), [WebQSP](https://www.microsoft.com/en-us/research/publication/the-value-of-semantic-parse-labeling-for-knowledge-base-question-answering-2/), and the [Knowledge Graph (Freebase)](https://github.com/dki-lab/Freebase-Setup) can be downloaded and setup following [ChatKBQA](https://github.com/LHRLAB/ChatKBQA):
 
-[dataset_loader.py](./filter/dataset_loader.py) provides the basic functions to load and process the datasets. After your downloading all these datasets and start the Freebase SPARQL dump, modify all the `dataset_path` and path in `load_dataset` function in the corresponding class. For CWQ_reader and   WebQSP_reader, the `kb_dump` path also need to be filled. You can try to run `dataset_loader.py` to test whether all datasets are correctly loaded.
+[dataset_loader.py](mmrag_construction/filter/dataset_loader.py) provides the basic functions to load and process the datasets. After your downloading all these datasets and start the Freebase SPARQL dump, modify all the `dataset_path` and path in `load_dataset` function in the corresponding class. For CWQ_reader and   WebQSP_reader, the `kb_dump` path also need to be filled. You can try to run `dataset_loader.py` to test whether all datasets are correctly loaded.
 
 ### Query Selection, Documents Representation and Collection
 
-Run [filter.py](./filter/filter.py) to generate queries for each source dataset and corresponding documents and ramdom chaos socuments.
+Run [filter.py](mmrag_construction/filter/filter.py) to generate queries for each source dataset and corresponding documents and ramdom chaos socuments.
 
-Run [gen_documents.py](./document_processer/gen_documents.py) to chunk documents.
+Run [add_chaos_and_process_kg_documents.py](mmrag_construction/filter/add_chaos_and_process_kg_documents.py) to chunk documents.
 
 ### Pooling
 
@@ -74,17 +76,23 @@ Run [gen_documents.py](./document_processer/gen_documents.py) to chunk documents
 
 #### BM25
 
+Using `pyserini` and java JDK environment, run codes in ``mmrag_construction/pooling/bm25`: first `mmrag_construction/pooling/bm25/file_perpare.py`, then `bash generate_index.sh`, and `mmrag_construction/pooling/bm25/bm25query.py`.
+
 #### BGE
+
+Run `mmrag_construction/pooling/bge/bge_query.py` with BM25 results.
 
 ### LLM Annotation
 
-#### Chunk-level annotate
+Run `mmrag_construction/llm_marker/mark.py`, the chunk-level annotation will be generated.
 
-#### Dataset-level annotate
+### Final processing
+
+After LLM Annotation, we run `mmrag_construction/generate_dataset/add_dataset_score.py` to generate the dataset-level relevance labels. Then run `mmrag_construction/generate_dataset/gen_dataset.py` to generate json file of dataset, use `partition.py` to make a train-test-dev split.
 
 
 <!-- ## 📄 Citation
-
+If you find our work helpful, use the citation:
 ```bibtex
 @misc{mmragds,
 	author       = { Chuan Xu and Qiaosheng Chen and Yutong Feng and Gong Cheng },
